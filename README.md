@@ -54,6 +54,6 @@
 - [ ] Pyside / PyQt
 - [ ] DB
     - [ ] MySQL
-	- [ ] MongoDB
 	- [ ] PostrgreSQL
+	- [ ] MongoDB
 	- [ ] Redis
