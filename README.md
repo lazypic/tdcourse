@@ -30,7 +30,7 @@
 	- [ ] AnimalLogic : https://github.com/AnimalLogic
 	- [ ] EpicGames : https://github.com/EpicGames
 	- [ ] Unity-Technologies : https://github.com/Unity-Technologies
-	- [ ] studio 2L : https://github.com/studio2l 
+	- [ ] studio 2L : https://github.com/studio2l
 	- [ ] MGS Korea : https://github.com/mgskorea
 	- 수많은 소스들..
 
@@ -72,3 +72,6 @@
 	- [ ] PostrgreSQL
 	- [ ] MongoDB
 	- [ ] Redis
+
+#### Contribute
+이 커리큘럼을 진행하며 도움을 주신분들 리스트입니다.
