@@ -1,7 +1,7 @@
 # curriculum
 
 #### Info
-- 장 소 : [모팩 아카데미](https://www.mofacacademy.com)
+- 장 소 : [mofacacademy](https://www.mofacacademy.com)
 - 인 원 : 25명
 - 운 용 : 1일 8시간
 - 기 간 : 2개월(8주) / 약320시간
