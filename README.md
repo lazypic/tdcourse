@@ -45,11 +45,12 @@
 - [ ] API 이야기, 사용되는 언어
 - [ ] 파이프라인툴 이야기
     - [ ] 툴의 종류
-- Foundry API
 - [ ] Nuke Gizmo
 - [ ] Nuke API
 	- [ ] 메뉴생성
-- [ ] Modo, Mari, Katana API
+- [ ] Modo API
+- [ ] Mari API
+- [ ] Katana API
 - [ ] Pyside / PyQt
 - [ ] DB
     - [ ] MySQL
