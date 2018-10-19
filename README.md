@@ -4,12 +4,12 @@
     - [ ] Windows
 	- [ ] macOS
 	- [ ] Linux
-- [ ] 컴퓨터의 모든 데잍터 처리의 흐름 : Add, Set, Get, Rm 
+- [ ] 컴퓨터의 데잍터 처리 : Add, Set, Get, Rm 
 - [ ] 프로세스 처리
-- [ ] 쉘이야이기, Bash
+- [ ] 쉘이야기, Bash
 - [ ] 환경변수 이야기
 	- [ ] 환경변수
-	- [ ] 환경변수 관리 : Res, Ecosystem
+	- [ ] 환경변수 관리툴 : Res, Ecosystem
 - [ ] Git
 - [ ] Github / 오픈소스 이야기
 - [ ] 명령어의 관찰, Argv 이해
@@ -41,7 +41,7 @@
 - [ ] Nuke Gizmo
 - [ ] Nuke API
 	- [ ] 메뉴생성
-- [ ] Modo, Mara, Katana API
+- [ ] Modo, Mari, Katana API
 - [ ] Pyside / PyQt
 - [ ] DB
     - [ ] MySQL
