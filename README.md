@@ -1,1 +1,50 @@
 # curriculum
+
+- [ ] OS
+    - [ ] Windows
+	- [ ] macOS
+	- [ ] Linux
+- [ ] 컴퓨터의 모든 데잍터 처리의 흐름 : Add, Set, Get, Rm 
+- [ ] 프로세스 처리
+- [ ] 쉘이야이기, Bash
+- [ ] 환경변수 이야기
+	- [ ] 환경변수
+	- [ ] 환경변수 관리 : Res, Ecosystem
+- [ ] Git
+- [ ] Github / 오픈소스 이야기
+- [ ] 명령어의 관찰, Argv 이해
+- [ ] StdIn, StdOut, StdErr 처리
+- [ ] Python Script
+	- [ ] 리네임툴 제작
+    - [ ] 파일의 변환
+	- [ ] ImageMagick
+	- [ ] FFmpeg
+	- [ ] Handbrake
+- [ ] 의존성이야기
+- [ ] 바이너리와 아스키
+- [ ] VFX에서 자주 사용되는 파일
+	- [ ] 소프트웨어 전용파일
+	- [ ] 오픈소스 포멧
+	- [ ] EXR
+	- [ ] ACES / OCIO
+	- [ ] Lut
+	- [ ] EDL
+	- [ ] Json, ini, Markdown, Xml
+	- [ ] OSL
+	- [ ] OpenVDB
+	- [ ] Alembic
+	- [ ] USD
+- [ ] API 이야기, 사용되는 언어
+- [ ] 파이프라인툴 이야기
+    - [ ] 툴의 종류
+- Foundry API
+- [ ] Nuke Gizmo
+- [ ] Nuke API
+	- [ ] 메뉴생성
+- [ ] Modo, Mara, Katana API
+- [ ] Pyside / PyQt
+- [ ] DB
+    - [ ] MySQL
+	- [ ] MongoDB
+	- [ ] PostrgreSQL
+	- [ ] Redis
