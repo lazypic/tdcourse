@@ -18,7 +18,7 @@
 - [ ] 쉘이야기, Bash
 - [ ] 환경변수 이야기
 	- [ ] 환경변수
-	- [ ] 환경변수 관리툴 : Res, Ecosystem
+	- [ ] 환경변수,패키징 관리툴 : [Rez](http://nerdvegas.github.io/rez/), [Ecosystem](https://github.com/PeregrineLabs/Ecosystem)
 - [ ] Git
 - [ ] Github / 오픈소스 이야기
 	- [VFX Platform 소개](https://www.vfxplatform.com)
@@ -80,4 +80,4 @@
 	- [ ] Redis
 
 #### Contribute
-이 커리큘럼을 진행하며 도움을 주신분들 리스트입니다.
+이 커리큘럼에 도움을 주신분들 입니다.
