@@ -28,13 +28,14 @@
 	- [ ] ImageMagick
 	- [ ] FFmpeg
 	- [ ] Handbrake
+	- [ ] OpenImageIO
 - [ ] 의존성이야기
 - [ ] 바이너리와 아스키
 - [ ] VFX에서 자주 사용되는 파일
 	- [ ] 소프트웨어 전용파일
 	- [ ] 오픈소스 포멧
-	- [ ] EXR
-	- [ ] ACES / OCIO
+	- [ ] openEXR
+	- [ ] ACES / OpenColorIO
 	- [ ] Lut
 	- [ ] EDL
 	- [ ] Json, ini, Markdown, Xml
