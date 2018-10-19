@@ -22,8 +22,10 @@
 - [ ] Git
 - [ ] Github / 오픈소스 이야기
 	- [VFX Platform 소개](https://www.vfxplatform.com)
+	- [ ] Disney : https://github.com/disney
 	- [ ] Pixar : https://github.com/PixarAnimationStudios
     - [ ] Weta : https://github.com/wetadigital
+	- [ ] Blizzard : https://github.com/Blizzard
 	- [ ] ILM : https://github.com/openexr -> 개발자를 타고 이동하기
 	- [ ] Sony : https://github.com/imageworks
 	- [ ] Dreamworks : https://github.com/dreamworksanimation
@@ -32,7 +34,7 @@
 	- [ ] Unity-Technologies : https://github.com/Unity-Technologies
 	- [ ] studio 2L : https://github.com/studio2l
 	- [ ] MGS Korea : https://github.com/mgskorea
-	- 수많은 소스들..
+	- 구글, 아마존, 마이크로소프트, 애플등.. 수많은 소스들..
 
 - [ ] 명령어의 관찰, Argv 이해
 - [ ] StdIn, StdOut, StdErr 처리
