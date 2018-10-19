@@ -54,6 +54,9 @@
 	- [ ] openEXR
 	- [ ] ACES / OpenColorIO
 	- [ ] Lut
+		- .3dl, .blut, .cms, .csp, .csp, .cub, .cube, .vf, .vfz
+	- [ ] OpenColorIO Lut
+		- .cc, .ccc
 	- [ ] EDL
 	- [ ] Json, ini, Markdown, Xml
 	- [ ] OSL
