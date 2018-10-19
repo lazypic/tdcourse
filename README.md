@@ -25,6 +25,7 @@
 	- [ ] Disney : https://github.com/disney
 	- [ ] Pixar : https://github.com/PixarAnimationStudios
     - [ ] Weta : https://github.com/wetadigital
+		- https://github.com/justinfx
 	- [ ] Blizzard : https://github.com/Blizzard
 	- [ ] ILM : https://github.com/openexr -> 개발자를 타고 이동하기
 	- [ ] Sony : https://github.com/imageworks
