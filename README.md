@@ -1,10 +1,11 @@
 # curriculum
 
 #### Info
-- 장 소 : 모팩 아카데미
+- 장 소 : [모팩 아카데미](https://www.mofacacademy.com)
 - 인 원 : 25명
 - 운 용 : 1일 8시간
 - 기 간 : 2개월(8주) / 약320시간
+- 교육방식 : Github를 통한 개발자 방식의 TD 교육
 
 #### 내용
 - [ ] 시장의 흐름 : VFX, 애니메이션, 게임
@@ -20,6 +21,19 @@
 	- [ ] 환경변수 관리툴 : Res, Ecosystem
 - [ ] Git
 - [ ] Github / 오픈소스 이야기
+	- [VFX Platform 소개](https://www.vfxplatform.com)
+	- [ ] Pixar : https://github.com/PixarAnimationStudios
+    - [ ] Weta : https://github.com/wetadigital
+	- [ ] ILM : https://github.com/openexr -> 개발자를 타고 이동하기
+	- [ ] Sony : https://github.com/imageworks
+	- [ ] Dreamworks : https://github.com/dreamworksanimation
+	- [ ] AnimalLogic : https://github.com/AnimalLogic
+	- [ ] EpicGames : https://github.com/EpicGames
+	- [ ] Unity-Technologies : https://github.com/Unity-Technologies
+	- [ ] studio 2L : https://github.com/studio2l 
+	- [ ] MGS Korea : https://github.com/mgskorea
+	- 수많은 소스들..
+
 - [ ] 명령어의 관찰, Argv 이해
 - [ ] StdIn, StdOut, StdErr 처리
 - [ ] Python Script
