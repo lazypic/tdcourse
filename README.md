@@ -8,6 +8,7 @@
 - 교육방식 : Github를 활용한 대화방식의 TD 교육
 
 #### 내용
+- [ ] Technical Director Course 소개
 - [ ] 개발자의 시선으로 바라보는 시장 흐름 : VFX, 애니메이션, 게임
 - [ ] OS
     - [ ] Windows
@@ -73,6 +74,7 @@
 - [ ] Mari API
 - [ ] Katana API
 - [ ] Pyside / PyQt
+	- [ ] Qt Designer
 - [ ] DB
     - [ ] MySQL
 	- [ ] PostrgreSQL
