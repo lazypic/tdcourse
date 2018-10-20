@@ -72,6 +72,8 @@
     - [ ] 툴의 종류
 - [ ] Nuke Gizmo
 - [ ] Nuke API
+	- [ ] .nuke, NUKE_PATH의 이해
+	- [ ] init.py, menu.py 설정
 	- [ ] 메뉴생성
 - [ ] Katana API
 	- [ ] 메뉴생성
