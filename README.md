@@ -38,7 +38,9 @@
 	- [ ] MGS Korea : https://github.com/mgskorea
 	- 구글, 아마존, 마이크로소프트, 애플등.. 수많은 소스들..
 
-- [ ] 명령어의 관찰, Argv 이해
+- [ ] 모두 같은 에디터를 사용하고 설정을 공유
+- [ ] 명령어의 구성요소
+- [ ] Argv 이해
 - [ ] StdIn, StdOut, StdErr 처리
 - [ ] Python Script
 	- [ ] 리네임툴 제작
@@ -70,9 +72,8 @@
 - [ ] Nuke Gizmo
 - [ ] Nuke API
 	- [ ] 메뉴생성
-- [ ] Modo API
-- [ ] Mari API
 - [ ] Katana API
+	- [ ] 메뉴생성
 - [ ] Pyside / PyQt
 	- [ ] Qt Designer
 - [ ] DB
