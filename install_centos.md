@@ -1,6 +1,7 @@
 # install CentOS
 - centOS 이미지를 다운로드 받습니다.
 - https://www.centos.org/download/
+- CentOS를 사용하는 이유 : https://www.foundry.com/products/nuke/requirements
 
 #### .iso to USB (windows)
 - https://rufus.ie/ko_KR.html
