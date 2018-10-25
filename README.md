@@ -21,7 +21,7 @@
 - [ ] 환경변수 이야기
 	- [ ] 환경변수
 	- [ ] 환경변수,패키징 관리툴 : [Rez](http://nerdvegas.github.io/rez/), [Ecosystem](https://github.com/PeregrineLabs/Ecosystem)
-- [ ] Git
+- [ ] Git설치
 - [ ] Github / 오픈소스 이야기
 	- [VFX Platform 소개](https://www.vfxplatform.com)
 	- [ ] Disney : https://github.com/disney
