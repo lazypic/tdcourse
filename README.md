@@ -41,7 +41,7 @@
 	- [ ] studio 2L : https://github.com/studio2l
 	- [ ] MGS Korea : https://github.com/mgskorea
 	- 구글, 아마존, 마이크로소프트, 애플등.. 수많은 소스들..
-
+- [ ] 에디터 선정하기
 - [ ] 모두 같은 에디터를 사용하고 설정을 공유
 - [ ] 명령어의 구성요소
 - [ ] Argv 이해
