@@ -41,4 +41,6 @@ Disk /dev/disk2 ejected
 ```
 
 #### 멀티부팅 with Windows
+- http://thrillfighter.tistory.com/618
+- http://eeingee.tistory.com/1
 - 검색 -> 컴퓨터관리
