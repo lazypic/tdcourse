@@ -4,7 +4,9 @@
 - 장 소 : [mofacacademy](https://www.mofacacademy.com)
 - 인 원 : 25명
 - 운 용 : 1일 8시간
-- 기 간 : 2개월(8주) / 약320시간
+- 기 간 : 월~금
+	- 2019년 1월 : 오전 10시 ~ 오후3시 4시간
+	- 2019년 2월 : 오전 10시 ~ 오후7시 8시간
 - 교육방식 : Github를 활용한 대화방식의 TD 교육
 
 #### 내용
@@ -74,8 +76,6 @@
 - [ ] Nuke API
 	- [ ] .nuke, NUKE_PATH의 이해
 	- [ ] init.py, menu.py 설정
-	- [ ] 메뉴생성
-- [ ] Katana API
 	- [ ] 메뉴생성
 - [ ] Pyside / PyQt
 	- [ ] Qt Designer
