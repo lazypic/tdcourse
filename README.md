@@ -15,7 +15,7 @@
 - [ ] OS
     - [ ] Windows
 	- [ ] macOS
-	- [ ] Linux
+	- [ ] [Linux설치](install_centos.md)
 - [ ] 컴퓨터의 데이터 처리 : Add, Set, Get, Rm
 - [ ] 프로세스 처리
 - [ ] 쉘이야기, Bash
