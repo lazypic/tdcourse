@@ -15,6 +15,8 @@
     - [ ] Windows
 	- [ ] macOS
 	- [ ] [Linux설치](install_centos.md)
+- [ ] 리눅스의 기본 명령어
+- [ ] 리눅스 명령어 심화
 - [ ] 컴퓨터의 데이터 처리 : Add, Set, Get, Rm
 - [ ] 프로세스 처리
 - [ ] 쉘이야기, Bash
