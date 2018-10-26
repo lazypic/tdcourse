@@ -107,6 +107,9 @@
 1. USD
 1. API 이야기, 사용되는 언어
 1. 파이프라인툴 이야기 : Shotgun, Ftrack, Tactic, 인하우스툴
+1. Pyside / PyQt 설치
+1. Qt Designer로 GUI 제작하기
+1. .ui 파일과 python의 연동
 1. DB의 종류와 사용되는 예
 1. MySQL 설치
 1. MySQL PythonAPI 실습
@@ -139,6 +142,3 @@
 1. 노드로 폴더를 여는 스크립트 제작
 1. 타팀에서 사용하는 플러그인 셋팅. 예)3DE
 1. Python으로 노드짜기
-1. Pyside / PyQt 설치
-1. Qt Designer로 GUI 제작하기
-1. .ui 파일과 python의 연동
