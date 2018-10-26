@@ -19,15 +19,17 @@
 1. Windows
 1. macOS
 1. [Linux설치](install_centos.md)
+1. 실습 : CentOS7 둘러보기
 1. 토론 : 팀장과 팀원의 선출
 1. 토론 : 팀명 정하기
 1. 리눅스의 기본 명령어 배우기
-1. ls
-1. cd
-1. . .. ~ /
-1. mv
-1. mkdir
-1. rm
+	1. ls
+	1. cd
+	1. . .. ~ /
+	1. mv
+	1. mkdir
+	1. rm
+1. 파이프의 이해, say, cow
 1. 권한 이해하기 : chmod, chown
 1. 쉘이이야기 sh bash csh
 1. 쉘을 통해서 쉘을 들어가자
@@ -72,15 +74,19 @@
 1. 명령어의 구성요소
 1. 컴퓨터의 데이터 처리 : Add, Set, Get, Rm
 1. Argv 이해
-1. 파이프의 이해
 1. StdIn, StdOut, StdErr 이해
 1. Script : 리네임툴 제작
 1. 파일의 변환
-1. ImageMagick
-1. FFmpeg
+1. ImageMagick 소개
+1. ImageMagick을 통한 이미지 변환.
+1. 실습 : ImageMagick을 이용해서 이미지 일괄 변환 스크립트 제작
+1. FFmpeg 소개
+1. FFmpeg를 통한 동영상 변환
+1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작
 1. Handbrake
-1. OpenImageIO
-1. ldd 이야기
+1. 실습 : Handbrake를 이용해서 일괄 Proxy 동영상 생성
+1. OpenImageIO 이야기
+1. 의존성을 설명하기전에 ldd 명령어 사용법
 1. 의존성이야기
 1. 바이너리와 아스키
 1. VFX에서 자주 사용되는 파일개요
