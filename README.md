@@ -41,7 +41,7 @@
 	1. reboot
 	1. shutdown now
 1. find, grep, ripgrep
-1. >, >>
+1. `>, >>`
 1. 파이프의 이해, say, cow
 1. 권한 이해하기 : chmod, chown
 1. 쉘이이야기 sh bash csh
