@@ -158,7 +158,7 @@
 1. MongoDB PythonAPI 실습
 1. Redis 설치
 1. Redis PythonAPI 실습
-1. 범용기술의 끝. SW 개발에 집중하기
+1. SW 개발에 집중하기
 1. 뉴크 익스프레션
 1. TCL
 1. Nuke Gizmo 소개
