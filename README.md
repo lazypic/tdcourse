@@ -192,6 +192,7 @@
 1. 예제 : Pyside2를 이용해서 스크립트 실습
 1. make
 1. gcc 관리
+1. ptex 컴파일
 1. oiio 제작
 1. github.io를 통한 자신의 포트폴리오 사이트 제작.
 1. linkedin 작성
