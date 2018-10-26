@@ -27,27 +27,44 @@
 	1. ls
 	1. cd
 	1. . .. ~ /
+	1. cp
 	1. mv
 	1. mkdir
-	1. rm
+	1. rm, rmdir
+	1. pwd
+	1. df, du
+	1. cat
+	1. more
+	1. which, whereis
+	1. touch
+	1. echo
+	1. reboot
+	1. shutdown now
+1. find, grep, ripgrep
+1. >, >>
 1. 파이프의 이해, say, cow
 1. 권한 이해하기 : chmod, chown
 1. 쉘이이야기 sh bash csh
 1. 쉘을 통해서 쉘을 들어가자
 1. 커널부터 응용프로그램까지
+1. ping
 1. who
 1. whoami
 1. ssh
 1. wget
 1. curl
 1. vi 소개
-1. crond
+1. crontab
 1. yum
-1. 프로세스 이해 ps
+1. 프로세스 이해 ps, pstree
+1. top
+1. kill
+1. pkill
 1. 데몬이야기
 1. ifconfig
 1. sshd
 1. httpd
+1. man, man number : https://unix.stackexchange.com/questions/3586/what-do-the-numbers-in-a-man-page-mean
 1. .sh 스크립트 생성
 1. 환경변수란?
 1. 환경변수,패키징 관리툴 : [Rez](http://nerdvegas.github.io/rez/), [Ecosystem](https://github.com/PeregrineLabs/Ecosystem)
