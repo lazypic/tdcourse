@@ -9,6 +9,7 @@
 - 교육방식 : Github를 활용한 대화방식의 TD 교육
 - 자 리 : 총 21석, 3자리씩, 총 7개팀
 - 참고
+	- 점심시간 오후1시
 	- 1월 실습포함 50개의 타이틀, 비실습 100개
 	- 2월 실습포함 76개의 타이틀, 비실습 152개
 	- 총 240개 테마를 준비할 것 : 12시간 제외(특강)
@@ -91,8 +92,8 @@
 1. FFmpeg 소개
 1. FFmpeg를 통한 동영상 변환
 1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작
-1. Handbrake
-1. 실습 : Handbrake를 이용해서 일괄 Proxy 동영상 생성
+1. Handbreak : https://blendermarket.com/posts/reduce-the-size-of-your-training-videos
+1. 실습 : Handbreak를 이용해서 일괄 Proxy 동영상 생성
 1. 경로를 분리하는 방법
 1. 레귤러 익스프레션
 1. mediainfo 명령어
