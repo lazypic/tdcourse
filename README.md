@@ -162,6 +162,8 @@
 1. 자료소개
 	1. https://community.foundry.com/discuss/forum/191/nuke-dev
 	1. https://www.foundry.com/products/nuke/developers
+1. repository 생성
+1. 폴더 구조생성 : .so, .python, .gizmo, .png, .lut
 1. 뉴크 익스프레션
 1. TCL
 1. Nuke Gizmo 소개
