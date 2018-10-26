@@ -104,12 +104,20 @@
 1. 파이프라인툴 이야기 : Shotgun, Ftrack, Tactic, 인하우스툴
 1. Nuke Gizmo : Slate제작
 1. Nuke API
+1. 뉴크 내부에서 사용하는 파이썬 버전을 확인하기
+1. 뉴크 버전관리
 1. .nuke, NUKE_PATH의 이해
 1. init.py, menu.py 설정
+1. nukepedia 사이트 소개
 1. 메뉴생성
 1. 단축키 설정
+1. 아이콘 넣기
 1. Alexa lut 다운로드
 1. Viewport에 lut 넣기
+1. Write노드 생성 스크립트 제작
+1. 노드로 폴더를 여는 스크립트 제작
+1. 타팀에서 사용하는 플러그인 셋팅. 예)3DE
+1. Python으로 노드짜기
 1. Pyside / PyQt
 1. Qt Designer
 1. DB의 종류와 사용되는 예
