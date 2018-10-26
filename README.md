@@ -82,6 +82,7 @@
 1. Argv 이해
 1. StdIn, StdOut, StdErr 이해
 1. Script : 리네임툴 제작
+1. python test코드 작성하기
 1. 파일의 변환
 1. ImageMagick 소개
 1. ImageMagick을 통한 이미지 변환.
