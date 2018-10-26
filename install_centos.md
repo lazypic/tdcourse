@@ -2,6 +2,8 @@
 - centOS 이미지를 다운로드 받습니다.
 - https://www.centos.org/download/
 - CentOS를 사용하는 이유 : https://www.foundry.com/products/nuke/requirements
+- 강의실에서는 다른 수업의 경우 윈도우로 진행하기 때문에 리눅스 설치시 멀티 부팅을 할 수 있도록 설치합니다.
+- 강의실 Root 패스워드는 추후 관리를 위해서 `I'm_groot!`로 통일해주세요.
 
 #### .iso to USB (windows)
 - https://rufus.ie/ko_KR.html
@@ -22,7 +24,7 @@ $ mv ~/Downloads/CentOS-7-x86_64-Everything-1804.img.dmg ~/Downloads/CentOS-7-x8
 $ diskutil list
 ```
 
-- 내 컴퓨터에서는 disk2 로 출력되었습니다.
+- 제 컴퓨터에서는 disk2 로 출력되었습니다.
 
 ```
 $ sudo umount /dev/disk2
