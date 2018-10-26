@@ -88,6 +88,8 @@
 1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작
 1. Handbrake
 1. 실습 : Handbrake를 이용해서 일괄 Proxy 동영상 생성
+1. 경로를 분리하는 방법
+1. 레귤러 익스프레션
 1. OpenImageIO 이야기
 1. 의존성을 설명하기전에 ldd 명령어 사용법
 1. 의존성이야기
@@ -107,6 +109,7 @@
 1. 파이프라인툴 이야기 : Shotgun, Ftrack, Tactic, 인하우스툴
 1. Nuke Gizmo : Slate제작
 1. Nuke API
+1. 뉴크에서 파이썬을 실행하는 방법
 1. 뉴크 내부에서 사용하는 파이썬 버전을 확인하기
 1. 뉴크 버전관리
 1. .nuke, NUKE_PATH의 이해
@@ -126,7 +129,11 @@
 1. Qt Designer로 GUI 제작하기
 1. .ui 파일과 python의 연동
 1. DB의 종류와 사용되는 예
-1. MySQL
-1. PostrgreSQL
-1. MongoDB
-1. Redis
+1. MySQL 설치
+1. MySQL PythonAPI 실습
+1. PostrgreSQL 설치
+1. PostrgreSQL PythonAPI 실습
+1. MongoDB 설치
+1. MongoDB PythonAPI 실습
+1. Redis 설치
+1. Redis PythonAPI 실습
