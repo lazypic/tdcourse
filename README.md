@@ -107,6 +107,10 @@
 1. USD
 1. API 이야기, 사용되는 언어
 1. 파이프라인툴 이야기 : Shotgun, Ftrack, Tactic, 인하우스툴
+1. 뉴크 익스프레션
+1. TCL
+1. Nuke Gizmo 소개
+1. Gizmo knob 생성
 1. Nuke Gizmo : Slate제작
 1. Nuke API
 1. 뉴크에서 파이썬을 실행하는 방법
