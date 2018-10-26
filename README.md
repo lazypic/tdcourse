@@ -142,6 +142,8 @@
 1. Nuke Gizmo 소개
 1. Gizmo knob 생성
 1. Nuke Gizmo : Slate제작
+1. Nuke Command line
+1. 실습 : Nuke Command line rendering & Python
 1. Nuke API
 1. 뉴크에서 파이썬을 실행하는 방법
 1. 뉴크 내부에서 사용하는 파이썬 버전을 확인하기
