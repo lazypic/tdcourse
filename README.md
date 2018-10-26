@@ -203,5 +203,6 @@
 1. Alembic
 1. USD 컴파일
 1. github.io 소개
+1. 개발내용을 스크린 캡쳐하기
 1. 실습 : github.io를 통한 자신의 포트폴리오 사이트 제작.
 1. 실습 : linkedin 작성
