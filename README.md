@@ -56,6 +56,7 @@
 1. vi 소개
 1. crontab
 1. yum
+1. fun cmds : https://www.binarytides.com/linux-fun-commands/
 1. 프로세스 이해 ps, pstree
 1. top
 1. kill
@@ -65,6 +66,7 @@
 1. sshd
 1. httpd
 1. man, man number : https://unix.stackexchange.com/questions/3586/what-do-the-numbers-in-a-man-page-mean
+1. very simple GUI : zenity
 1. .sh 스크립트 생성
 1. 환경변수란?
 1. 환경변수,패키징 관리툴 : [Rez](http://nerdvegas.github.io/rez/), [Ecosystem](https://github.com/PeregrineLabs/Ecosystem)
@@ -106,6 +108,8 @@
 1. Script : 리네임툴 제작
 1. python test코드 작성하기
 1. 파일의 변환
+1. DJV View : http://djv.sourceforge.net
+1. RV player : http://www.tweaksoftware.com
 1. ImageMagick 소개
 1. ImageMagick을 통한 이미지 변환.
 1. 실습 : ImageMagick을 이용해서 이미지 일괄 변환 스크립트 제작
