@@ -14,7 +14,7 @@
 	- 총 240개 테마를 준비할 것 : 12시간 제외(특강)
 
 #### 내 용
-1. Technical Director Course 소개
+1. [Technical Director Course 소개](intro.md)
 1. 개발자의 시선으로 바라보는 시장 흐름 : VFX, 애니메이션, 게임
 1. Windows
 1. macOS
@@ -50,6 +50,7 @@
 1. 환경변수,패키징 관리툴 : [Rez](http://nerdvegas.github.io/rez/), [Ecosystem](https://github.com/PeregrineLabs/Ecosystem)
 1. 환경변수 셋팅파일 만들기
 1. .bashrc 셋팅
+1. ~/.files 의 개념
 1. 토론 : 이 강의실의 모든 사람이 같이 사용할 에디터를 리서치하기. 왜 그 에디터를 사용해야하는지 이유도 설명하기.
 1. 토론 : 모두가 사용할 에디터 선정회의
 1. 모두 같은 에디터를 사용하고 설정을 공유한다.
@@ -163,6 +164,7 @@
 1. 타팀에서 사용하는 플러그인 셋팅. 예)3DE
 1. Python으로 노드짜기
 1. 예제 : Pyside2를 이용해서 스크립트 실습
+1. make
 1. gcc 관리
 1. oiio 제작
 1. github.io를 통한 자신의 포트폴리오 사이트 제작.
