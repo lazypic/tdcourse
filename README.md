@@ -36,9 +36,12 @@
 1. 커널부터 응용프로그램까지
 1. who
 1. ssh
+1. vi 소개
 1. crond
+1. yum
 1. 프로세스 이해 ps
 1. 데몬이야기
+1. ifconfig
 1. sshd
 1. httpd
 1. 환경변수란?
@@ -119,8 +122,9 @@
 1. 노드로 폴더를 여는 스크립트 제작
 1. 타팀에서 사용하는 플러그인 셋팅. 예)3DE
 1. Python으로 노드짜기
-1. Pyside / PyQt
-1. Qt Designer
+1. Pyside / PyQt 설치
+1. Qt Designer로 GUI 제작하기
+1. .ui 파일과 python의 연동
 1. DB의 종류와 사용되는 예
 1. MySQL
 1. PostrgreSQL
