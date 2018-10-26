@@ -36,6 +36,8 @@
 1. 커널부터 응용프로그램까지
 1. who
 1. ssh
+1. wget
+1. curl
 1. vi 소개
 1. crond
 1. yum
@@ -90,6 +92,16 @@
 1. 실습 : Handbrake를 이용해서 일괄 Proxy 동영상 생성
 1. 경로를 분리하는 방법
 1. 레귤러 익스프레션
+1. mediainfo 명령어
+1. mediainfo 활용하기
+1. openEXR 컴파일
+1. exrenvmap
+1. exrmakepreview
+1. exrmultipart
+1. exrstdattr
+1. exrheader
+1. exrmaketiled
+1. exrmultiview
 1. OpenImageIO 이야기
 1. 의존성을 설명하기전에 ldd 명령어 사용법
 1. 의존성이야기
@@ -105,11 +117,14 @@
 1. OpenVDB
 1. Alembic
 1. USD
+1. mov, mp4 and codec
+1. python으로 API 만들기
 1. API 이야기, 사용되는 언어
 1. 파이프라인툴 이야기 : Shotgun, Ftrack, Tactic, 인하우스툴
 1. Pyside / PyQt 설치
 1. Qt Designer로 GUI 제작하기
 1. .ui 파일과 python의 연동
+1. 파이썬을 이용해서 엑셀파일 읽기, 쓰기
 1. DB의 종류와 사용되는 예
 1. MySQL 설치
 1. MySQL PythonAPI 실습
@@ -143,3 +158,6 @@
 1. 타팀에서 사용하는 플러그인 셋팅. 예)3DE
 1. Python으로 노드짜기
 1. 예제 : Pyside2를 이용해서 스크립트 실습
+1. gcc 관리
+1. oiio 제작
+
