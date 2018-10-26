@@ -50,8 +50,8 @@
 1. Git 명령어의 기초
 1. Git 명령어의 심화
 1. 토론 : Github 가입, ID 제출
+1. [VFX Platform 소개](https://www.vfxplatform.com)
 1. Github / 오픈소스 이야기
-	- [VFX Platform 소개](https://www.vfxplatform.com)
 	- [ ] Disney : https://github.com/disney
 	- [ ] Pixar : https://github.com/PixarAnimationStudios
     - [ ] Weta : https://github.com/wetadigital
