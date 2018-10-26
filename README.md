@@ -49,7 +49,7 @@
 1. Git 설치 / 설정
 1. Git 명령어의 기초
 1. Git 명령어의 심화
-1. Github 가입, ID 제출
+1. 토론 : Github 가입, ID 제출
 1. Github / 오픈소스 이야기
 	- [VFX Platform 소개](https://www.vfxplatform.com)
 	- [ ] Disney : https://github.com/disney
