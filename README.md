@@ -174,6 +174,7 @@
 1. Nuke Gizmo 소개
 1. Gizmo knob 생성
 1. Nuke Gizmo : Slate제작
+1. Nuke Gizmo : Keycode 뷰어
 1. Nuke Command line
 1. 실습 : Nuke Command line rendering & Python
 1. Render management Tools 소개
