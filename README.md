@@ -107,6 +107,17 @@
 1. USD
 1. API 이야기, 사용되는 언어
 1. 파이프라인툴 이야기 : Shotgun, Ftrack, Tactic, 인하우스툴
+1. DB의 종류와 사용되는 예
+1. MySQL 설치
+1. MySQL PythonAPI 실습
+1. PostrgreSQL 설치
+1. PostrgreSQL PythonAPI 실습
+1. MongoDB 설치
+1. MongoDB PythonAPI 실습
+1. Redis 설치
+1. Redis PythonAPI 실습
+
+#### Nuke
 1. 뉴크 익스프레션
 1. TCL
 1. Nuke Gizmo 소개
@@ -132,12 +143,3 @@
 1. Pyside / PyQt 설치
 1. Qt Designer로 GUI 제작하기
 1. .ui 파일과 python의 연동
-1. DB의 종류와 사용되는 예
-1. MySQL 설치
-1. MySQL PythonAPI 실습
-1. PostrgreSQL 설치
-1. PostrgreSQL PythonAPI 실습
-1. MongoDB 설치
-1. MongoDB PythonAPI 실습
-1. Redis 설치
-1. Redis PythonAPI 실습
