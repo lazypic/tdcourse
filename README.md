@@ -80,7 +80,7 @@
 1. 토론 : Github 가입, ID 제출
 1. [VFX Platform 소개](https://www.vfxplatform.com)
 1. Github / 오픈소스 이야기
-	- [ ] Disney : https://github.com/disney
+	- [ ] Disney : https://github.com/disney, https://github.com/wdas
 	- [ ] Pixar : https://github.com/PixarAnimationStudios
     - [ ] Weta : https://github.com/wetadigital
 		- https://github.com/justinfx
