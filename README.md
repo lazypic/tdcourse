@@ -64,44 +64,44 @@
 	- [ ] studio 2L : https://github.com/studio2l
 	- [ ] MGS Korea : https://github.com/mgskorea
 	- 구글, 아마존, 마이크로소프트, 애플등.. 수많은 소스들..
-- Git 협업방식 설명
-- Git 이슈, Pull Request
-- 명령어의 구성요소
-- 컴퓨터의 데이터 처리 : Add, Set, Get, Rm
-- Argv 이해
-- 파이프의 이해
-- StdIn, StdOut, StdErr 이해
-- Script : 리네임툴 제작
-- 파일의 변환
-- ImageMagick
-- FFmpeg
-- Handbrake
-- OpenImageIO
-- ldd 이야기
-- 의존성이야기
-- 바이너리와 아스키
-- VFX에서 자주 사용되는 파일개요
-- openEXR
-- ACES / OpenColorIO
-- Lut : .3dl, .blut, .cms, .csp, .csp, .cub, .cube, .vf, .vfz
-- OpenColorIO Lut : .cc, .ccc
-- EDL
-- Json, ini, Markdown, Xml
-- OSL
-- OpenVDB
-- Alembic
-- USD
-- API 이야기, 사용되는 언어
-- 파이프라인툴 이야기 : Shotgun, Ftrack, Tactic, 인하우스툴
-- Nuke Gizmo : Slate제작
-- Nuke API
-- .nuke, NUKE_PATH의 이해
-- init.py, menu.py 설정
-- 메뉴생성
-- Pyside / PyQt
-- Qt Designer
-- DB의 종류와 사용되는 예
-- MySQL
-- PostrgreSQL
-- MongoDB
-- Redis
+1. Git 협업방식 설명
+1. Git 이슈, Pull Request
+1. 명령어의 구성요소
+1. 컴퓨터의 데이터 처리 : Add, Set, Get, Rm
+1. Argv 이해
+1. 파이프의 이해
+1. StdIn, StdOut, StdErr 이해
+1. Script : 리네임툴 제작
+1. 파일의 변환
+1. ImageMagick
+1. FFmpeg
+1. Handbrake
+1. OpenImageIO
+1. ldd 이야기
+1. 의존성이야기
+1. 바이너리와 아스키
+1. VFX에서 자주 사용되는 파일개요
+1. openEXR
+1. ACES / OpenColorIO
+1. Lut : .3dl, .blut, .cms, .csp, .csp, .cub, .cube, .vf, .vfz
+1. OpenColorIO Lut : .cc, .ccc
+1. EDL
+1. Json, ini, Markdown, Xml
+1. OSL
+1. OpenVDB
+1. Alembic
+1. USD
+1. API 이야기, 사용되는 언어
+1. 파이프라인툴 이야기 : Shotgun, Ftrack, Tactic, 인하우스툴
+1. Nuke Gizmo : Slate제작
+1. Nuke API
+1. .nuke, NUKE_PATH의 이해
+1. init.py, menu.py 설정
+1. 메뉴생성
+1. Pyside / PyQt
+1. Qt Designer
+1. DB의 종류와 사용되는 예
+1. MySQL
+1. PostrgreSQL
+1. MongoDB
+1. Redis
