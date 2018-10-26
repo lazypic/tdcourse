@@ -131,6 +131,7 @@
 1. 의존성이야기
 1. 바이너리와 아스키
 1. VFX에서 자주 사용되는 파일개요
+1. 촬영데이터 파일명의 구조
 1. openEXR
 1. ACES / OpenColorIO
 1. Lut : .3dl, .blut, .cms, .csp, .csp, .cub, .cube, .vf, .vfz
