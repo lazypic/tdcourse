@@ -198,6 +198,8 @@
 1. 타팀에서 사용하는 플러그인 셋팅. 예)3DE
 1. Python으로 노드짜기
 1. 예제 : Pyside2를 이용해서 스크립트 실습
+1. blink
+1. C++ / NDK / OpenFX
 1. make
 1. gcc 관리
 1. NumPy 설치
