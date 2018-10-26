@@ -101,6 +101,9 @@
 1. .nuke, NUKE_PATH의 이해
 1. init.py, menu.py 설정
 1. 메뉴생성
+1. 단축키 설정
+1. Alexa lut 다운로드
+1. Viewport에 lut 넣기
 1. Pyside / PyQt
 1. Qt Designer
 1. DB의 종류와 사용되는 예
