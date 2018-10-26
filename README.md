@@ -48,6 +48,7 @@
 1. ifconfig
 1. sshd
 1. httpd
+1. .sh 스크립트 생성
 1. 환경변수란?
 1. 환경변수,패키징 관리툴 : [Rez](http://nerdvegas.github.io/rez/), [Ecosystem](https://github.com/PeregrineLabs/Ecosystem)
 1. 환경변수 셋팅파일 만들기
