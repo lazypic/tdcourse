@@ -23,24 +23,7 @@
 1. 실습 : CentOS7 둘러보기
 1. 토론 : 팀장과 팀원의 선출
 1. 토론 : 팀명 정하기
-1. 리눅스의 기본 명령어 배우기
-	1. ls
-	1. cd
-	1. . .. ~ /
-	1. cp
-	1. mv
-	1. mkdir
-	1. 숨김폴더, 숨김파일 만들기
-	1. rm, rmdir
-	1. pwd
-	1. df, du
-	1. cat
-	1. more
-	1. which, whereis
-	1. touch
-	1. echo
-	1. reboot
-	1. shutdown now
+1. [리눅스의 기본 명령어](linux_cmd.md)
 1. find, grep, ripgrep
 1. `>, >>`
 1. 파이프의 이해, say, cow
