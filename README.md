@@ -66,7 +66,6 @@
 1. Git 명령어의 기초
 1. Git 명령어의 심화
 1. 토론 : Github 가입, ID 제출
-1. [VFX Platform 소개](https://www.vfxplatform.com)
 1. Github / 오픈소스 이야기
 	- [ ] Disney : https://github.com/disney, https://github.com/wdas
 	- [ ] Pixar : https://github.com/PixarAnimationStudios
@@ -136,6 +135,7 @@
 1. python으로 API 만들기
 1. API 이야기, 사용되는 언어
 1. 파이프라인툴 이야기 : Shotgun, Ftrack, Tactic, 인하우스툴
+1. [VFX Platform 소개](https://www.vfxplatform.com)
 1. 컴파일 환경만들기 : gcc, g++ 설치
 1. Pyside / PyQt 설치
 1. Qt Designer로 GUI 제작하기
