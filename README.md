@@ -136,7 +136,7 @@
 1. API 이야기, 사용되는 언어
 1. 파이프라인툴 이야기 : Shotgun, Ftrack, Tactic, 인하우스툴
 1. [VFX Platform 소개](https://www.vfxplatform.com)
-1. 컴파일 환경만들기 : gcc, g++ 설치
+1. [gcc설치](install_gcc.md)
 1. Pyside / PyQt 설치
 1. Qt Designer로 GUI 제작하기
 1. .ui 파일과 python의 연동
@@ -189,7 +189,6 @@
 1. blink
 1. C++ / NDK / OpenFX
 1. make
-1. gcc 관리
 1. NumPy 설치
 1. ptex 컴파일 : https://github.com/wdas/ptex
 1. oiio 제작
