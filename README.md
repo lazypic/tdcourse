@@ -30,6 +30,7 @@
 	1. cp
 	1. mv
 	1. mkdir
+	1. 숨김폴더, 숨김파일 만들기
 	1. rm, rmdir
 	1. pwd
 	1. df, du
@@ -57,6 +58,7 @@
 1. crontab
 1. yum
 1. fun cmds : https://www.binarytides.com/linux-fun-commands/
+1. Linux 폴더구조
 1. 프로세스 이해 ps, pstree
 1. top
 1. kill
