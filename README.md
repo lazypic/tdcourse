@@ -157,6 +157,7 @@
 1. repository 생성
 1. 폴더 구조생성 : .so, .python, .gizmo, .png, .lut
 1. 뉴크 익스프레션
+1. 뉴크 Text 노드에서 자주 사용되는 익스프레션
 1. TCL
 1. Nuke Gizmo 소개
 1. Gizmo knob 생성
