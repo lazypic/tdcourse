@@ -58,6 +58,7 @@
 1. crontab
 1. yum
 1. fun cmds : https://www.binarytides.com/linux-fun-commands/
+1. Linux 폴더구조
 1. 프로세스 이해 ps, pstree
 1. top
 1. kill
