@@ -152,6 +152,7 @@
 1. python으로 API 만들기
 1. API 이야기, 사용되는 언어
 1. 파이프라인툴 이야기 : Shotgun, Ftrack, Tactic, 인하우스툴
+1. 컴파일 환경만들기 : gcc, g++ 설치
 1. Pyside / PyQt 설치
 1. Qt Designer로 GUI 제작하기
 1. .ui 파일과 python의 연동
