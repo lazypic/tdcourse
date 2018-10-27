@@ -30,6 +30,7 @@
 	1. cp
 	1. mv
 	1. mkdir
+	1. 숨김폴더, 숨김파일 만들기
 	1. rm, rmdir
 	1. pwd
 	1. df, du
