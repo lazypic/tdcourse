@@ -32,8 +32,9 @@
 1. [리눅스 네트워크 명령](linux_net_cmd.md)
 1. [프로세스 이해](process.md)
 1. [find, grep, ripgrep](find_grep.md)
-1. 시간설정, 타임서버
-1. vi 소개
+1. [시간설정, 타임서버](time.md)
+1. [vim 소개](vim.md)
+1. 실습 : Vim
 1. crontab
 1. yum
 1. 실습 : 재미있는 명령어를 설치해보자. https://www.binarytides.com/linux-fun-commands/
