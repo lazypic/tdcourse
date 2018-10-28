@@ -27,20 +27,19 @@
 1. [리눅스의 기본 명령어](linux_cmd.md)
 1. [리다이렉트, 파이프](redirect_pipe.md)
 1. [권한 이해하기](permission.md)
-1. [쉘 이야기 sh bash csh](shell.md)
-1. 쉘을 통해서 쉘을 들어가자
-1. 커널부터 응용프로그램까지
+1. [쉘 이야기](shell.md)
+1. [커널부터 응용프로그램까지](linux_struct.md)
 1. [리눅스 네트워크 명령](linux_net_cmd.md)
+1. 프로세스 이해 ps, pstree
+1. kill, pkill
 1. [find, grep, ripgrep](find_grep.md)
+1. 시간설정, 타임서버
 1. vi 소개
 1. crontab
 1. yum
-1. fun cmds : https://www.binarytides.com/linux-fun-commands/
+1. 실습 : 재미있는 명령어를 설치해보자. https://www.binarytides.com/linux-fun-commands/
 1. Linux 폴더구조
-1. 프로세스 이해 ps, pstree
 1. top
-1. kill
-1. pkill
 1. 데몬이야기
 1. ifconfig
 1. sshd
@@ -49,7 +48,7 @@
 1. very simple GUI : zenity
 1. .sh 스크립트 생성
 1. 환경변수란?
-1. 환경변수,패키징 관리툴 : [Rez](http://nerdvegas.github.io/rez/), [Ecosystem](https://github.com/PeregrineLabs/Ecosystem)
+1. 환경변수, 패키징 관리툴 : [Rez](http://nerdvegas.github.io/rez/), [Ecosystem](https://github.com/PeregrineLabs/Ecosystem)
 1. 환경변수 셋팅파일 만들기
 1. .bashrc 셋팅
 1. ~/.files 의 개념
