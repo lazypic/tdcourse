@@ -166,7 +166,8 @@
 1. 뉴크 버전관리
 1. .nuke, NUKE_PATH의 이해
 1. init.py, menu.py 설정
-1. nukepedia 사이트 소개
+1. nukepedia 사이트 소개 : http://www.nukepedia.com/
+1. 실습 : nukepedia 가입 및 살펴보기
 1. 메뉴생성
 1. 단축키 설정
 1. 아이콘 넣기
