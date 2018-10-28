@@ -38,7 +38,7 @@
 1. [crontab](crontab.md)
 1. yum
 1. 실습 : 재미있는 명령어를 설치해보자. https://www.binarytides.com/linux-fun-commands/
-1. [notifi](notifi.md)
+1. [notify](notify.md)
 1. Linux 폴더구조
 1. top
 1. 데몬이야기
