@@ -35,18 +35,17 @@
 1. [시간설정, 타임서버](time.md)
 1. [vim 소개](vim.md)
 1. 실습 : Vim
-1. crontab
+1. [crontab](crontab.md)
 1. yum
 1. 실습 : 재미있는 명령어를 설치해보자. https://www.binarytides.com/linux-fun-commands/
 1. Linux 폴더구조
 1. top
 1. 데몬이야기
-1. ifconfig
 1. sshd
 1. httpd
 1. man, man number : https://unix.stackexchange.com/questions/3586/what-do-the-numbers-in-a-man-page-mean
-1. very simple GUI : zenity
 1. .sh 스크립트 생성
+1. very simple GUI : zenity
 1. 환경변수란?
 1. 환경변수, 패키징 관리툴 : [Rez](http://nerdvegas.github.io/rez/), [Ecosystem](https://github.com/PeregrineLabs/Ecosystem)
 1. 환경변수 셋팅파일 만들기
