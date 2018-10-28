@@ -30,8 +30,7 @@
 1. [쉘 이야기](shell.md)
 1. [커널부터 응용프로그램까지](linux_struct.md)
 1. [리눅스 네트워크 명령](linux_net_cmd.md)
-1. 프로세스 이해 ps, pstree
-1. kill, pkill
+1. [프로세스 이해](process.md)
 1. [find, grep, ripgrep](find_grep.md)
 1. 시간설정, 타임서버
 1. vi 소개
