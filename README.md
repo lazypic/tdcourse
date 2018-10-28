@@ -25,19 +25,13 @@
 1. 토론 : 팀장과 팀원의 선출
 1. 토론 : 팀명 정하기
 1. [리눅스의 기본 명령어](linux_cmd.md)
-1. find, grep, ripgrep
-1. `>, >>`
-1. 파이프의 이해, say, cow
-1. 권한 이해하기 : chmod, chown
-1. 쉘이이야기 sh bash csh
+1. [find, grep, ripgrep](find_grep.md)
+1. `>, >>, |` 리다이렉트, cowsay
+1. [권한 이해하기 : chmod, chown](permission.md)
+1. [쉘 이야기 sh bash csh](shell.md)
 1. 쉘을 통해서 쉘을 들어가자
 1. 커널부터 응용프로그램까지
-1. ping
-1. who
-1. whoami
-1. ssh
-1. wget
-1. curl
+1. [리눅스 네트워크 명령](linux_net_cmd.md)
 1. vi 소개
 1. crontab
 1. yum
