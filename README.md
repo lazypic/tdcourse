@@ -22,14 +22,13 @@
 1. macOS
 1. [Linux설치](install_centos.md)
 1. 실습 : CentOS7 둘러보기
-1. 토론 : 팀장과 팀원의 선출
+1. 토론 : 팀장 선출
 1. 토론 : 팀명 정하기
 1. [리눅스의 기본 명령어](linux_cmd.md)
 1. [리다이렉트, 파이프](redirect_pipe.md)
 1. [권한 이해하기](permission.md)
 1. [쉘 이야기](shell.md)
 1. [커널부터 응용프로그램까지](linux_struct.md)
-1. [리눅스 네트워크 명령](linux_net_cmd.md)
 1. [프로세스 이해](process.md)
 1. [find, grep, ripgrep](find_grep.md)
 1. [시간설정, 타임서버](time.md)
@@ -41,22 +40,22 @@
 1. [notify](notify.md)
 1. [Linux 폴더구조](foldertree.md)
 1. [top](top.md)
+1. [man](man.md) : https://unix.stackexchange.com/questions/3586/what-do-the-numbers-in-a-man-page-mean
 1. [Deamon](deamon.md)
-1. man, man number : https://unix.stackexchange.com/questions/3586/what-do-the-numbers-in-a-man-page-mean
+1. [리눅스 네트워크 명령](linux_net_cmd.md)
 1. .sh 스크립트 생성
-1. very simple GUI : zenity
-1. 환경변수란?
+1. 실습 : trans 명령을 자동으로 설치하는 .sh 파일을 만들어보기
+1. [간단한 GUI : zenity](zenity.md)
+1. [환경변수란?](env.md)
 1. 환경변수, 패키징 관리툴 : [Rez](http://nerdvegas.github.io/rez/), [Ecosystem](https://github.com/PeregrineLabs/Ecosystem)
-1. 환경변수 셋팅파일 만들기
-1. .bashrc 셋팅
-1. ~/.files 의 개념
+1. [.bashrc 셋팅](bashrc.md)
 1. 토론 : 이 강의실의 모든 사람이 같이 사용할 에디터를 리서치하기. 왜 그 에디터를 사용해야하는지 이유도 설명하기.
 1. 토론 : 모두가 사용할 에디터 선정회의
 1. 모두 같은 에디터를 사용하고 설정을 공유한다.
 1. Git 설치 / 설정
 1. Git 명령어의 기초
 1. Git 명령어의 심화
-1. 토론 : Github 가입, ID 제출
+1. 토론 : Github 가입, 학생들의 Github ID 제출
 1. Github / 오픈소스 이야기
 	- [ ] Disney : https://github.com/disney, https://github.com/wdas
 	- [ ] Pixar : https://github.com/PixarAnimationStudios
@@ -73,7 +72,7 @@
 	- [ ] studio 2L : https://github.com/studio2l
 	- [ ] MGS Korea : https://github.com/mgskorea
 	- 구글, 아마존, 마이크로소프트, 애플등.. 수많은 소스들..
-1. Markdown Documents
+1. [Markdown](https://guides.github.com/features/mastering-markdown/)
 1. Git 협업방식 설명
 1. Git 협업서비스
 1. Git 이슈, Pull Request
@@ -149,7 +148,7 @@
 1. 폴더 구조생성 : .so, .python, .gizmo, .png, .lut
 1. 뉴크 익스프레션
 1. 뉴크 Text 노드에서 자주 사용되는 익스프레션
-1. TCL
+1. [TCL](https://www.tcl.tk/)
 1. Nuke Gizmo 소개
 1. Gizmo knob 생성
 1. Nuke Gizmo : Slate제작
@@ -172,6 +171,7 @@
 1. 아이콘 넣기
 1. Alexa lut 다운로드
 1. Viewport에 lut 넣기
+1. Read노드에서 정보 가지고 오기
 1. Write노드 생성 스크립트 제작
 1. .nk파일을 아스키 형태로 분리해서 생각하기
 1. 노드로 폴더를 여는 스크립트 제작
