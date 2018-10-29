@@ -40,7 +40,7 @@
 1. 실습 : 재미있는 명령어를 설치해보자. https://www.binarytides.com/linux-fun-commands/
 1. [notify](notify.md)
 1. [Linux 폴더구조](foldertree.md)
-1. top
+1. [top](top.md)
 1. 데몬이야기
 1. sshd
 1. httpd
