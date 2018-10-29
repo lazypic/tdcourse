@@ -36,7 +36,7 @@
 1. [vim 소개](vim.md)
 1. 실습 : Vim
 1. [crontab](crontab.md)
-1. yum
+1. [yum](yum.md)
 1. 실습 : 재미있는 명령어를 설치해보자. https://www.binarytides.com/linux-fun-commands/
 1. [notify](notify.md)
 1. Linux 폴더구조
