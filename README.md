@@ -5,8 +5,8 @@
 - 인 원 : 25명 모집
 - 기 간 : 18.12.28 ~ 19.2.27 
 - 시 간 :월~금
-	- 2019년 1월 : 오전 10시 ~ 오후3시 4시간 / 교육, 실습(리서치)의 순서
-	- 2019년 2월 : 오전 10시 ~ 오후7시 8시간 / 교육, 실습(리서치)의 순서
+	- 2019년 1월 : 오전 10시~오후3시 4시간 / 2시간 교육, 2시간 실습
+	- 2019년 2월 : 오전 10시~오후7시 8시간 / 4시간 교육, 4시간 실습
 	- 점심시간 : 오후 1시
 - 교육방식 : Github를 활용한 대화, 이슈 방식의 TD 교육
 - 자 리 : 총 21석, 3자리 묶음, 총 7개팀
@@ -41,9 +41,7 @@
 1. [notify](notify.md)
 1. [Linux 폴더구조](foldertree.md)
 1. [top](top.md)
-1. 데몬이야기
-1. sshd
-1. httpd
+1. [Deamon](deamon.md)
 1. man, man number : https://unix.stackexchange.com/questions/3586/what-do-the-numbers-in-a-man-page-mean
 1. .sh 스크립트 생성
 1. very simple GUI : zenity
