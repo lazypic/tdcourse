@@ -10,6 +10,7 @@
 	- 점심시간 : 오후 1시
 - 교육방식 : Github를 활용한 대화, 이슈 방식의 TD 교육
 - 자 리 : 총 21석, 3자리 묶음, 총 7개팀
+- 문 의 : khw7096@gmail.com
 
 #### 내 용
 1. [Technical Director Course 소개](intro.md)
