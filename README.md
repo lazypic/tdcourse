@@ -183,7 +183,7 @@
 1. make
 1. NumPy 설치
 1. ptex 컴파일 : https://github.com/wdas/ptex
-1. oiio 제작
+1. [OpenImageIO](openimageio.md)
 1. intel TBB : http://m.cafe.daum.net/betterspeed/8V7A/3?q=D_jDGwPlH16FY0&
 1. intel Math Kernel Library : https://software.intel.com/en-us/mkl
 1. OpenVDB 컴파일
