@@ -32,6 +32,10 @@
 1. [시간설정, 타임서버](time.md)
 1. [vim 소개](vim.md)
 1. 실습 : Vim
+1. 실습 : Thunderbird 설치
+1. 실습 : LibreOffice 설치
+1. 실습 : 크롬설치 https://blog.bypass.sh/961
+1. 실습 : [mpv](mpv.md)
 1. [crontab](crontab.md)
 1. [yum](yum.md)
 1. 실습 : 재미있는 명령어를 설치해보자. https://www.binarytides.com/linux-fun-commands/
@@ -40,6 +44,8 @@
 1. [top](top.md)
 1. [man](man.md) : https://unix.stackexchange.com/questions/3586/what-do-the-numbers-in-a-man-page-mean
 1. [Deamon](deamon.md)
+1. [vnc](vnc.md)
+1. [ftp, sftp](ftp.md)
 1. [리눅스 네트워크 명령](linux_net_cmd.md)
 1. .sh 스크립트 생성
 1. 실습 : trans 명령을 자동으로 설치하는 .sh 파일을 만들어보기
