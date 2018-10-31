@@ -14,8 +14,8 @@ OpenVDB, Ptex, Photoshop PSD, Wavefront RLA, SGI, WebP, GIF, DICOM,
 ### 설치
 - CentOS7.5
 ```
-yum install OpenImageIO
-yum install OpenImageIO-utils
+# yum install OpenImageIO
+# yum install OpenImageIO-utils
 ```
 
 - macOS
