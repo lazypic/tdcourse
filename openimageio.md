@@ -28,8 +28,8 @@ $ brew install openimageio
 	- https://sites.google.com/site/openimageio/building-oiio-on-windows
 
 ### .exr to .tga
-일반적으로 exr 이미지는 linear 컬러스페이스를 가지며, tga는 sRGB 컬러스페이스를 가집니다.
-oiiotool 디폴트로 알파에 대해서 premult를 하지 않으니 알파가 있는 exr 컨버팅시에는 꼭 `--premult` 옵션을 달아주세요.
+일반적으로 exr 이미지는 linear 컬러스페이스를 가지며, tga 파일은 sRGB 컬러스페이스를 가집니다.
+oiiotool 명령어는 기본적으로 이미지 알파 채널에 대해서 premult를 하지 않으니 알파가 있는 exr 이미지 컨버팅시에는 꼭 `--premult` 옵션을 달아주세요.
 
 ```
 $ oiiotool -i input.exr --colorconvert linear srgb --premult -o output.tga
