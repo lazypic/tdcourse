@@ -3,6 +3,8 @@
 OpenImageIO는 VFX, 게임, 애니메이션 작업등 제작 파이프라인엣 사용할 수 있는 이미지 컨버팅 도구, API 입니다.
 ACES(OpenColorIO)를 지원합니다.
 
+이미지를 컨버팅함에 있어서 그 어떤 소프트웨어의 라이센스도 사용하지 않기 때문에 오픈소스로 파이프라인을 구축할 때 굉장히 파워풀한 도구가 됩니다.
+
 ### 지원하는 포멧
 TIFF, JPEG/JFIF, OpenEXR, PNG, HDR/RGBE, ICO, BMP, Targa, JPEG-2000,
 RMan Zfile, FITS, DDS, Softimage PIC, PNM, DPX, Cineon, IFF, Field3D,
