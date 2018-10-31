@@ -92,7 +92,7 @@
 1. [Markdown](https://guides.github.com/features/mastering-markdown/)
 1. Git 협업방식 설명
 1. Git 협업서비스
-1. Git 이슈, Pull Request
+1. Git 이슈, Shift+PrintScn, Pull Request
 1. 명령어의 구성요소
 1. 컴퓨터의 데이터 처리 : Add, Set, Get, Rm
 1. Argv 이해
