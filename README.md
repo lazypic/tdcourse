@@ -44,7 +44,7 @@
 1. [find, grep, ripgrep](find_grep.md)
 1. [시간설정, 타임서버](time.md)
 1. [vim 소개](vim.md)
-1. 실습 : Vim
+1. 실습 : Vim관련 자료, 다른 기능들을 탐구해보자.
 1. 실습 : Thunderbird 설치
 1. 실습 : LibreOffice 설치
 1. 실습 : 크롬설치 https://blog.bypass.sh/961
