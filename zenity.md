@@ -10,7 +10,7 @@
 ```
 cp -rf ./src/images/*.exr /dst | tee >(zenity --progress --pulsate)
 ```
-| tee 명령어는 stdout을 화면과 파일로 동시체 출력하는 리눅스 명령어 입니다.
+| tee 명령어는 stdout을 화면과 파일로 동시에 출력하는 리눅스 명령어 입니다.
 
 - 선택창
 ```
