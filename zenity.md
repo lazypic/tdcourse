@@ -6,6 +6,13 @@
 여러분의 스크립트가 단순하다면 단순한 GUI Zenity를 사용해보세요.
 
 ### 사용법
+- 진행률 처리
+```
+cp -rf ./src/images/*.exr /dst | tee >(zenity --progress --pulsate)
+```
+| tee 명령어는 stdout을 화면과 파일로 동시체 출력하는 리눅스 명령어 입니다.
+
+- 선택창
 ```
 ans=$(zenity  --list  --text "어떤색을 좋아해요?" --checklist  --column "선택" --column "옵션" FALSE "흰색" TRUE "검정" --separator=":"); echo $ans
 ```
