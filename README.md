@@ -163,6 +163,7 @@
 	1. https://www.foundry.com/products/nuke/developers
 1. repository 생성
 1. 폴더 구조생성 : .so, .python, .gizmo, .png, .lut
+1. 파이프라인툴의 기본 input, output
 1. 뉴크 익스프레션
 1. 뉴크 Text 노드에서 자주 사용되는 익스프레션
 1. [TCL](https://www.tcl.tk/)
