@@ -6,4 +6,6 @@
 여러분의 스크립트가 단순하다면 단순한 GUI Zenity를 사용해보세요.
 
 ### 사용법
-
+```
+ans=$(zenity  --list  --text "어떤색을 좋아해요?" --checklist  --column "선택" --column "옵션" FALSE "흰색" TRUE "검정" --separator=":"); echo $ans
+```
