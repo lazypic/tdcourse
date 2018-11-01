@@ -48,6 +48,7 @@
 1. 실습 : Thunderbird 설치
 1. 실습 : LibreOffice 설치
 1. 실습 : 크롬설치 https://blog.bypass.sh/961
+1. 실습 : 뉴크 설치 / 라이센스 설치
 1. 실습 : [mpv](mpv.md)
 1. [crontab](crontab.md)
 1. [yum](yum.md)
