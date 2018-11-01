@@ -9,9 +9,12 @@ $ env
 ```
 
 ### 시스템에 예약된 환경변수
+자주 사용되는 환경변수
+
 ```
 $ echo $HOME
-작성해보기..
+$ echo $USER
+$ echo $PATH
 ```
 
 ### .bashrc
