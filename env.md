@@ -31,5 +31,5 @@ export OCIO=$HOME/OpenColorIO-Configs/aces_1.0.3/config.ocio
 source를 이용해서 부를 수 있습니다.
 
 ```
-$ source ~/custom.bash
+$ source ~/custom.env
 ```
