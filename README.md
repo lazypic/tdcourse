@@ -80,6 +80,7 @@
 1. 실습 : [Pro Git](https://git-scm.com/book/ko/v2)
 1. 토론 : Github 가입, 학생들의 Github ID 제출
 1. Github / 오픈소스 이야기
+	- https://github.com/trending
 	- [ ] Disney : https://github.com/disney, https://github.com/wdas
 	- [ ] Pixar : https://github.com/PixarAnimationStudios
     - [ ] Weta : https://github.com/wetadigital
