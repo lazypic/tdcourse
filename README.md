@@ -32,6 +32,7 @@
 1. Windows
 1. macOS
 1. [Linux설치](install_centos.md)
+1. 실습 : Linux 설치를 위한 USB 만들기
 1. 실습 : CentOS7 둘러보기
 1. 토론 : 팀장 선출
 1. 토론 : 팀명 정하기
