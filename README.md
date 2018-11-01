@@ -76,7 +76,7 @@
 1. [버전관리의 중요성](version_control_system.md)
 1. Git 설치 / 설정
 1. Git 명령어의 기초
-1. 실습 : [Git 심화](https://git-scm.com/book/ko/v2)
+1. 실습 : [Pro Git](https://git-scm.com/book/ko/v2)
 1. 토론 : Github 가입, 학생들의 Github ID 제출
 1. Github / 오픈소스 이야기
 	- [ ] Disney : https://github.com/disney, https://github.com/wdas
