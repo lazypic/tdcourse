@@ -14,3 +14,5 @@
 ```
 source $HOME/env/custom.env
 ```
+
+`n` 이라는 문자를 타이핑하면 뉴크가 실행되도록 해보세요.
