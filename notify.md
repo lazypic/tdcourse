@@ -5,7 +5,7 @@
 $ echo "hello terminal notify" | wall
 ```
 
-#### notify-send
+#### CentOS / notify-send
 
 ```
 $ notify-send "hello notify"
@@ -25,4 +25,11 @@ yum -y install gimp && notify-send 'Install Complete' 'Your system install Gimp 
 ssh 명령어를 이용해서 해당 서버에 notify-send 날리기
 ```
 ssh -X user@192.168.0.112 "DISPLAY=:0 notify-send 'Title' 'Body' -u critical -i face-worried'
+```
+
+#### macOS
+macOS에는 osascript 명령을 이용할 수 있다.
+
+```
+$ osascript -e 'display notification "body" with title "Title"'
 ```
