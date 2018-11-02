@@ -25,3 +25,6 @@ $ git config --global user.email khw7096@gmail.com
 $ git config user.name
 $ git config user.email
 ```
+
+### GUI Clients
+- https://git-scm.com/download/gui/linux
