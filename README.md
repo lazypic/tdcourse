@@ -76,7 +76,7 @@
 1. 모두 같은 에디터를 사용하고 설정을 공유한다.
 1. [버전관리의 중요성](version_control_system.md)
 1. [Git 설치 / 설정](init_git.md)
-1. Git 명령어의 기초
+1. [Git 명령어의 기초](git_basic.md)
 1. 실습 : [Pro Git](https://git-scm.com/book/ko/v2)
 1. [Github와 오픈소스 이야기](github.md)
 	- https://github.com/trending
@@ -96,7 +96,7 @@
 	- MGS Korea : https://github.com/mgskorea
 	- 구글, 아마존, 마이크로소프트, 애플등.. 수많은 소스들..
 1. 토론 : Github 가입, 학생들의 Github ID 제출
-1. [Markdown](https://guides.github.com/features/mastering-markdown/)
+1. [Markdown 문법배우기](https://guides.github.com/features/mastering-markdown/)
 1. Git 협업방식 설명
 1. Git 협업서비스
 1. Git 이슈, Shift+PrintScn, Pull Request
