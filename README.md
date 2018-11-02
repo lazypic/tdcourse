@@ -75,7 +75,7 @@
 1. 토론 : 모두가 사용할 에디터 선정회의
 1. 모두 같은 에디터를 사용하고 설정을 공유한다.
 1. [버전관리의 중요성](version_control_system.md)
-1. Git 설치 / 설정
+1. [Git 설치 / 설정](init_git.md)
 1. Git 명령어의 기초
 1. 실습 : [Pro Git](https://git-scm.com/book/ko/v2)
 1. 토론 : Github 가입, 학생들의 Github ID 제출
