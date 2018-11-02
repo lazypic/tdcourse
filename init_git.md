@@ -26,5 +26,13 @@ $ git config user.name
 $ git config user.email
 ```
 
+### 설정파일
+설정파일은 ~/.gitconfig 에 존재합니다.
+
+vim으로 설정파일을 관찰해보세요.
+```
+$ vim ~/.gitconfig
+```
+
 ### GUI Clients
 - https://git-scm.com/download/gui/linux
