@@ -78,24 +78,24 @@
 1. [Git 설치 / 설정](init_git.md)
 1. Git 명령어의 기초
 1. 실습 : [Pro Git](https://git-scm.com/book/ko/v2)
-1. 토론 : Github 가입, 학생들의 Github ID 제출
-1. Github / 오픈소스 이야기
+1. [Github와 오픈소스 이야기](github.md)
 	- https://github.com/trending
-	- [ ] Disney : https://github.com/disney, https://github.com/wdas
-	- [ ] Pixar : https://github.com/PixarAnimationStudios
-    - [ ] Weta : https://github.com/wetadigital
+	- Disney : https://github.com/disney, https://github.com/wdas
+	- Pixar : https://github.com/PixarAnimationStudios
+    - Weta : https://github.com/wetadigital
 		- https://github.com/justinfx
-	- [ ] Blizzard : https://github.com/Blizzard
-	- [ ] ILM : https://github.com/openexr -> 개발자를 타고 이동하기
-	- [ ] Sony : https://github.com/imageworks
-	- [ ] Dreamworks : https://github.com/dreamworksanimation
-	- [ ] AnimalLogic : https://github.com/AnimalLogic
-	- [ ] EpicGames : https://github.com/EpicGames
-	- [ ] Unity-Technologies : https://github.com/Unity-Technologies
-	- [ ] NCsoft : https://github.com/ncsoft
-	- [ ] studio 2L : https://github.com/studio2l
-	- [ ] MGS Korea : https://github.com/mgskorea
+	- Blizzard : https://github.com/Blizzard
+	- ILM : https://github.com/openexr -> 개발자를 타고 이동하기
+	- Sony : https://github.com/imageworks
+	- Dreamworks : https://github.com/dreamworksanimation
+	- AnimalLogic : https://github.com/AnimalLogic
+	- EpicGames : https://github.com/EpicGames
+	- Unity-Technologies : https://github.com/Unity-Technologies
+	- NCsoft : https://github.com/ncsoft
+	- studio 2L : https://github.com/studio2l
+	- MGS Korea : https://github.com/mgskorea
 	- 구글, 아마존, 마이크로소프트, 애플등.. 수많은 소스들..
+1. 토론 : Github 가입, 학생들의 Github ID 제출
 1. [Markdown](https://guides.github.com/features/mastering-markdown/)
 1. Git 협업방식 설명
 1. Git 협업서비스
