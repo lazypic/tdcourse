@@ -27,9 +27,20 @@ linux 환경에 긴 명령어나 값을 간단하게 줄여서 설정한 값.
 회사에서는 모두가 자주 사용하는 소프트웨어를 실행할 때
 alias를 만들어서 간단하게 타이핑후 실행되도록 만듭니다.
 
-.bashrc 파일에 아래처럼 정의해 보세요.
+.bashrc 파일에 alias를 지정하면 명령어를 사용할 수 있습니다.
+저는 개인적으로 제가 자주 주문하는 중국집을 alias로 잡아보겠습니다.
 ```
-alias weather="curl wttr.in/seoul"
+alias 차이홍="echo 031-916-8867"
+```
+
+말도 하게 해보죠. 컴퓨터가 말을 하려면 espeak를 설치합니다.
+```
+# yum install espeak
+```
+
+다시한번 알리아스를 수정해 보겠습니다.
+```
+alias 차이홍="echo 031-916-8867 && espeak 'The contact number for Chinese restaurant is 0319168867.'"
 ```
 
 ### export
