@@ -12,6 +12,8 @@
 $ xcode-select --install
 ```
 
+- Windows : https://git-scm.com/downloads 에서 다운로드 받아 설치합니다.
+
 ### 최초 셋팅
 Git을 최초에 설치하고 사용하기 위해서는 name, e-mail 설정이 필요합니다.
 
