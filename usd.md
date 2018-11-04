@@ -4,3 +4,4 @@ https://github.com/vfxpro99/usd-build-club
 
 https://github.com/vfxpro99/usd-build-club/tree/master/prerequisites-linux
 https://github.com/meshula/mkvfx
+https://graphics.pixar.com/usd/overview.html
