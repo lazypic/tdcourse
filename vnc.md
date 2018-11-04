@@ -12,7 +12,7 @@ http://www.digimoon.net/blog/449
 
 - vim으로 설정파일을 열고 <USER> 라고 되어있는 부분을 로그인할 user이름으로 바꾸어주세요.
 ```
-# vim /etc/systemd/system/vncserver@:1.service/etc/systemd/system/vncserver@:1.service
+# vim /etc/systemd/system/vncserver@:1.service
 ```
 
 - 방화벽을 열어줍니다.
@@ -32,4 +32,9 @@ $ vncserver
 # systemctl enable vncserver@:1.service
 # reboot
 # systemctl start vncserver@:1.service
+```
+
+- 데몬을 체크하기
+```
+# systemctl status vncserver@1.service
 ```
