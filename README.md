@@ -109,10 +109,10 @@
 1. 파일의 변환
 1. DJV View : http://djv.sourceforge.net
 1. RV player : http://www.tweaksoftware.com
-1. ImageMagick 소개
+1. [ImageMagick 소개](imagemagick.md)
 1. ImageMagick을 통한 이미지 변환.
 1. 실습 : ImageMagick을 이용해서 이미지 일괄 변환 스크립트 제작
-1. FFmpeg 소개
+1. [FFmpeg 소개](ffmpeg.md)
 1. FFmpeg를 통한 동영상 변환
 1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작
 1. Handbreak : https://blendermarket.com/posts/reduce-the-size-of-your-training-videos
