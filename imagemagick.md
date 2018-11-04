@@ -1,3 +1,3 @@
 ```
-# yum install imagemagick
+# yum install ImageMagick
 ```
