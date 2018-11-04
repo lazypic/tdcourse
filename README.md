@@ -119,7 +119,7 @@
 1. 실습 : Handbreak를 이용해서 일괄 Proxy 동영상 생성
 1. 경로를 분리하는 방법
 1. 레귤러 익스프레션
-1. mediainfo 명령어
+1. [mediainfo 설치](mediainfo.md)
 1. mediainfo 활용하기
 1. openEXR 컴파일
 1. exrenvmap
