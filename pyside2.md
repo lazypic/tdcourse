@@ -1,5 +1,7 @@
 # PySide2
 먼저 [pip](pip.md)를 설치합니다.
+
+### 설치
 ```
 # pip install PySide2
 ```
@@ -26,3 +28,6 @@ sys.exit(app.exec_())
 ```
 $ python pyside2_test.py
 ```
+
+### Qt5 Designer 설치
+프로그램 > 즐겨찾기 > 응용프로그램 설치 > Qt5 Designer 설치
