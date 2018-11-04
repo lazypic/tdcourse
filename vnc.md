@@ -19,6 +19,11 @@ VNC 서버를 셋팅하는 방법에 대해서 알아보겠습니다.
 # vim /etc/systemd/system/vncserver@:1.service
 ```
 
+- `sed`명령어(stream editor)를 이용해서 자동으로 문자를 일괄변경 할 수 있습니다.
+```
+# sed -i -- 's/<USER>/woong/g' /etc/systemd/system/vncserver@:1.service
+```
+
 - VNC 서비스를 위한 방화벽을 열어주고 방화벽을 다시 Load 합니다.
 ```
 # firewall-cmd --permanent --zone=public --add-service vnc-server
