@@ -1,5 +1,6 @@
 # MediaInfo
 
+[샘플파일](sample.md)
 ### Commandline Tool
 ```
 # yum install mediainfo
