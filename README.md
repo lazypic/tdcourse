@@ -151,7 +151,8 @@
 1. 파이프라인툴 이야기 : Shotgun, Ftrack, Tactic, 인하우스툴
 1. [VFX Platform 소개](https://www.vfxplatform.com)
 1. [gcc설치](install_gcc.md)
-1. Pyside / PyQt 설치
+1. [pip 설치](pip.md)
+1. [Pyside2 설치](pyside2.md)
 1. Qt Designer로 GUI 제작하기
 1. .ui 파일과 python의 연동
 1. 파이썬을 이용해서 엑셀파일 읽기, 쓰기
