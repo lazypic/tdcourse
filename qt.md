@@ -1,0 +1,3 @@
+```
+# yum install qt-creator
+```
