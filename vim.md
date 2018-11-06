@@ -72,6 +72,12 @@ esc키를 누릅니다.
 :%retab!
 ```
 
+#### Hex 모드 전환
+```
+:%!xxd // hex mode
+:%!xxd -r // back to text mode
+```
+
 
 #### Reference
 - Vim 책중에 유명한 책 입니다. https://www.amazon.com/Practical-Vim-Edit-Speed-Thought-ebook/dp/B018T6ZVPK/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1540733339&sr=1-1&keywords=vim
