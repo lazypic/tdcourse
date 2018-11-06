@@ -11,3 +11,6 @@ $ git clone https://github.com/OpenImageIO/oiio-images.git
 ### Alexa Plate
 
 ### Red Plate
+
+### BLENDER 3D Scene
+- https://www.blender.org/download/demo-files/
