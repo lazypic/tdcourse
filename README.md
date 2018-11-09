@@ -14,7 +14,7 @@
 
 구 분|강 의|실 습| 내 용
 ----|----|----|----
-12월28일|2시간|2시간|소개,리눅스 설치
+12월28일|2시간|2시간|강의소개, 리눅스 설치
 1월2일~4일|2시간|2시간|리눅스
 1월7일~11일|2시간|2시간|환경변수, Git
 1월14일~18일|2시간|2시간|응용유틸리티, PythonScript
@@ -49,7 +49,7 @@
 1. 실습 : Thunderbird 설치
 1. 실습 : LibreOffice 설치
 1. 실습 : 크롬설치 https://blog.bypass.sh/961
-1. 실습 : 뉴크 설치 / 라이센스 설치
+1. 실습 : 뉴크 설치 / 라이센스 셋팅
 1. 실습 : [mpv](mpv.md)
 1. [crontab](crontab.md)
 1. [yum](yum.md)
@@ -129,7 +129,7 @@
 1. OpenVDB
 1. Alembic
 1. USD
-1. mov, mp4 and codec
+1. 동영상 포멧과 Codec
 1. python으로 API 만들기
 1. API 이야기, 사용되는 언어
 1. 파이프라인툴 이야기 : Shotgun, Ftrack, Tactic, 인하우스툴
@@ -191,7 +191,8 @@
 1. Python으로 노드짜기
 1. 예제 : Pyside2를 이용해서 스크립트 실습
 1. blink
-1. C++ / NDK / OpenFX
+1. NDK / C++
+1. OpenFX
 1. make
 1. NumPy 설치
 1. ptex 컴파일 : https://github.com/wdas/ptex
@@ -201,9 +202,9 @@
 1. OpenVDB 컴파일
 1. OpenSubdiv
 1. Alembic
-1. USD 컴파일
+1. [USD](usd.md)
 1. github.io 소개
-1. 개발내용을 스크린 캡쳐하기
+1. 개발내용을 ffmpeg를 이용해서 스크린 캡쳐하기
 1. 실습 : github.io를 통한 자신의 포트폴리오 사이트 제작.
 1. 실습 : linkedin 작성
 1. 실습 : 자신이 제작하고 싶은 프로그램 제작, 기술지원, 멘토링

@@ -43,7 +43,7 @@ current_branch=$(git symbolic-ref --short HEAD)
 
 if [ $current_branch == "master" ]
 then
-	echo "prevent push master."
+	echo "prevent master push."
 	exit 1
 fi
 
