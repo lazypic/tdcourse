@@ -1,6 +1,8 @@
 # Git Collaboration
 여러 사람이 하나의 리포지터리를 관리하기 위해서는 몇가지 규칙들을 알 필요가 있습니다.
 
+![git_upstream](https://user-images.githubusercontent.com/1149996/48260553-29da5280-e45f-11e8-9dab-7860025f6134.png)
+
 ### 협업방식
 1. Github에 존재하는 프로젝트를 Fork 합니다.
 1. Fork한 자신의 리포지터리를 git pull 합니다.
