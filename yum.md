@@ -4,11 +4,12 @@ Yum(Yellowdog Updater Modified)은 Red Hat 리눅스 계열에서 사용하는 �
 
 리눅스에서는 yum 이외에도 많은 패키지 툴이 존재합니다.
 
+### 패키지툴의 종류
 - RPM ( Red Hat Package Manager)
-	- YUM ( Yellowdog Updater, Modified)
-	- DNF ( Dandified Yum ) : yum 을 대체할 차세대 패키징툴, Fedora22 부터는 DNF가 yum 대신 사용됩니다.
+	- yum ( Yellowdog Updater, Modified)
+	- dnf ( Dandified Yum ) : yum 을 대체할 차세대 패키징툴, Fedora22 부터는 DNF가 yum 대신 사용됩니다.
 - DPKG ( Debian Package Management System )
-	- APT(Advanced Packaging Tool)
+	- apt(Advanced Packaging Tool)
 	- Aptitude Package Manager
 	- Synaptic Package Manager
 - Arch Linux : Packman Package manager

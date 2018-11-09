@@ -101,8 +101,8 @@
 1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작
 1. Handbreak : https://blendermarket.com/posts/reduce-the-size-of-your-training-videos
 1. 실습 : Handbreak를 이용해서 일괄 Proxy 동영상 생성
-1. 경로를 분리하는 방법
-1. 레귤러 익스프레션
+1. Python : 경로를 분리하는 방법
+1. Python : 레귤러 익스프레션
 1. [mediainfo 설치](mediainfo.md)
 1. mediainfo 활용하기
 1. [openEXR 컴파일](openexr.md)
@@ -137,6 +137,7 @@
 1. [gcc설치](install_gcc.md)
 1. [pip 설치](pip.md)
 1. [Pyside2 설치](pyside2.md)
+1. Qt Designer 설치
 1. Qt Designer로 GUI 제작하기
 1. .ui 파일과 python의 연동
 1. 파이썬을 이용해서 엑셀파일 읽기, 쓰기
@@ -153,8 +154,8 @@
 1. 자료소개
 	1. https://community.foundry.com/discuss/forum/191/nuke-dev
 	1. https://www.foundry.com/products/nuke/developers
-1. repository 생성
-1. 폴더 구조생성 : .so, .python, .gizmo, .png, .lut
+1. nuke repository 생성
+1. 폴더 구조생성 : lib, python, gizmo, images, lut
 1. 파이프라인툴의 기본 input, output
 1. 뉴크 익스프레션
 1. 뉴크 Text 노드에서 자주 사용되는 익스프레션
@@ -164,7 +165,7 @@
 1. Nuke Gizmo : Slate제작
 1. Nuke Gizmo : Timecode 뷰어
 1. Nuke Command line
-1. 실습 : Nuke Command line rendering & Python
+1. 실습 : Nuke Command line Rendering & Python
 1. Render management Tools 소개
 	1. Tractor : https://renderman.pixar.com/tractor
 	1. Deadline : https://deadline.thinkboxsoftware.com/
