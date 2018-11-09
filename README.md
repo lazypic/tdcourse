@@ -121,7 +121,7 @@
 1. 레귤러 익스프레션
 1. [mediainfo 설치](mediainfo.md)
 1. mediainfo 활용하기
-1. openEXR 컴파일
+1. [openEXR 컴파일](openexr.md)
 1. exrenvmap
 1. exrmakepreview
 1. exrmultipart
