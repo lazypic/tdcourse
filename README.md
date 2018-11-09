@@ -81,9 +81,9 @@
 1. [Github와 오픈소스 이야기](github.md)
 1. 토론 : Github 가입, 학생들의 Github ID 제출
 1. [Markdown 문법배우기](https://guides.github.com/features/mastering-markdown/)
-1. Git 협업방식 설명
-1. Git 협업서비스
-1. Git 이슈, Shift+PrintScn, Pull Request
+1. [Git 협업방식 설명](github_collaboration.md)
+1. 실습 : Git 협업모델 테스트
+1. 이슈 작성법, Shift+PrintScn, 좋은 Pull Request
 1. 명령어의 구성요소
 1. 컴퓨터의 데이터 처리 : Add, Set, Get, Rm
 1. Argv 이해
