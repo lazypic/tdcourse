@@ -58,7 +58,7 @@
 1. [Linux 폴더구조](foldertree.md)
 1. [top](top.md)
 1. [man](man.md) : https://unix.stackexchange.com/questions/3586/what-do-the-numbers-in-a-man-page-mean
-1. [Deamon](deamon.md)
+1. [Daemon](daemon.md)
 1. [vnc](vnc.md)
 1. [ftp, sftp](ftp.md)
 1. [리눅스 네트워크 명령](linux_net_cmd.md)
@@ -67,7 +67,7 @@
 1. [간단한 GUI : zenity](zenity.md)
 1. [환경변수란?](env.md)
 1. [환경변수관리](managing_env.md)
-	1. 패키징 관리툴 : [Rez](http://nerdvegas.github.io/rez/)
+	1. 패키징 관리툴 : [Rez](https://github.com/nerdvegas/rez/wiki)
 	1. [Ecosystem](https://github.com/PeregrineLabs/Ecosystem)
 	1. [run](https://github.com/studio2l/run)
 1. 실습 : [자신만의 .bashrc 셋팅하기](custom_bashrc.md)
@@ -85,8 +85,7 @@
 1. 실습 : Git 협업모델 테스트
 1. [이슈, Pull Request 상태에서의 토론](discussion.md), Shift+PrintScn
 1. [명령어의 구성요소](command.md)
-1. 컴퓨터의 데이터 처리 : Add, Set, Get, Rm
-1. Argv 이해
+1. 컴퓨터에서 데이터 처리 : Add, Set, Get, Rm
 1. StdIn, StdOut, StdErr 이해
 1. Script : 리네임툴 제작
 1. python test코드 작성하기
