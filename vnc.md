@@ -38,7 +38,7 @@ $ vncserver
 - VNC 데몬을 활성화합니다.
 ```
 # systemctl daemon-reload
-# systemctl enable vncserver@:1.service
+# systemctl enable vncserver@:1.service #부팅이 되더라도 서비스가 활성화 기능켜기
 # reboot
 # systemctl start vncserver@:1.service
 ```
