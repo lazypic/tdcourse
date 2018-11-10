@@ -28,6 +28,7 @@ $ diskutil list
 
 ```
 $ sudo umount /dev/disk2
+$ sudo diskutil unmountDisk disk3 # 만약 Resource busy가 뜨면 타이핑해주세요.
 $ sudo dd if=~/Downloads/CentOS-7-x86_64-Everything-1804.img of=/dev/rdisk2 bs=1m
 ```
 - 잘 진행이 되면 아래 메시지를 출력후 종료됩니다.
