@@ -24,7 +24,7 @@ $ mv ~/Downloads/CentOS-7-x86_64-Everything-1804.img.dmg ~/Downloads/CentOS-7-x8
 $ diskutil list
 ```
 
-- 제 컴퓨터에서는 disk2 로 출력되었습니다.
+- 제 컴퓨터에서는 disk2 로 출력되었습니다. 컴퓨터마다 다를 수 있습니다.
 
 ```
 $ sudo umount /dev/disk2
