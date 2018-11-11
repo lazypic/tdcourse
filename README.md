@@ -85,7 +85,7 @@
 1. 실습 : Git 협업모델 테스트
 1. [이슈, Pull Request 상태에서의 토론](discussion.md), Shift+PrintScn
 1. [명령어의 구성요소](command.md)
-1. 컴퓨터에서 데이터 처리 : Add, Set, Get, Rm
+1. [우리가 프로그래밍으로 하는 대부분의 일](add_set_rm_get.md)
 1. StdIn, StdOut, StdErr 이해
 1. Script : 리네임툴 제작
 1. python test코드 작성하기
