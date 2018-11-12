@@ -8,8 +8,10 @@
 	- 2019년 1월 : 오전 10시~오후3시 4시간 / 2시간 교육, 2시간 실습
 	- 2019년 2월 : 오전 10시~오후7시 8시간 / 4시간 교육, 4시간 실습
 	- 점심시간 : 오후 1시
-- 교육방식 : Github를 활용한 대화, 이슈 방식의 TD 교육
-- 자 리 : 총 21석, 3자리 묶음, 총 7개팀
+- 교육내용 : Technical Director 기초과정.
+- 교육방식 : Github를 활용한 협업방식, VFX, 애니메이션 분야의 파이프라인
+- 라이센스 지원 : The foundry Nuke
+- 강의자리 : 총 21석, 3자리 묶음, 총 7개팀
 - 문 의 : hello@lazypic.org
 
 구 분|강 의|실 습| 내 용
@@ -49,6 +51,7 @@
 1. 실습 : Thunderbird 설치
 1. 실습 : LibreOffice 설치
 1. 실습 : 크롬설치 https://blog.bypass.sh/961
+1. [사운드 제거](soundoff.md)
 1. 실습 : 뉴크 설치 / 라이센스 셋팅
 1. 실습 : [mpv](mpv.md)
 1. [crontab](crontab.md)
@@ -73,7 +76,7 @@
 1. 실습 : [자신만의 .bashrc 셋팅하기](custom_bashrc.md)
 1. 토론 : 이 강의실의 모든 사람이 같이 사용할 에디터를 리서치하기. 왜 그 에디터를 사용해야하는지 이유도 설명하기.
 1. 토론 : 모두가 사용할 에디터 선정회의
-1. 모두 같은 에디터를 사용하고 설정을 공유한다.
+1. 모두 같은 에디터를 사용하고 설정을 공유
 1. [버전관리의 중요성](version_control_system.md)
 1. [Git 설치 / 설정](init_git.md)
 1. [Git 명령어의 기초](git_basic.md)
@@ -86,10 +89,11 @@
 1. [이슈, Pull Request 상태에서의 토론](discussion.md), Shift+PrintScn
 1. [명령어의 구성요소](command.md)
 1. [우리가 프로그래밍으로 하는 대부분의 일](add_set_rm_get.md)
-1. StdIn, StdOut, StdErr 이해
-1. Script : 리네임툴 제작
+1. 파이프라인툴의 기본 input, output
+1. [Standard Streams](standard_steams.md)
 1. python test코드 작성하기
-1. 파일의 변환
+1. [리네임](rename.md)
+1. 파일 변환 유틸리티
 1. DJV View : http://djv.sourceforge.net
 1. RV player : http://www.tweaksoftware.com
 1. [ImageMagick 소개](imagemagick.md)
@@ -123,7 +127,7 @@
 1. Lut : .3dl, .blut, .cms, .csp, .csp, .cub, .cube, .vf, .vfz
 1. OpenColorIO Lut : .cc, .ccc
 1. EDL
-1. Json, ini, Markdown, Xml
+1. json, ini, Markdown, xml
 1. OSL
 1. OpenVDB
 1. Alembic
@@ -150,12 +154,23 @@
 1. Redis 설치
 1. Redis PythonAPI 실습
 1. SW 개발에 집중하기
+1. OpenFX
+1. make
+1. NumPy 설치
+1. ptex 컴파일 : https://github.com/wdas/ptex
+1. [OpenImageIO](openimageio.md)
+1. intel TBB : http://m.cafe.daum.net/betterspeed/8V7A/3?q=D_jDGwPlH16FY0&
+1. intel Math Kernel Library : https://software.intel.com/en-us/mkl
+1. OpenVDB 컴파일
+1. OpenSubdiv
+1. Alembic
+1. [USD](usd.md)
+----
 1. 자료소개
 	1. https://community.foundry.com/discuss/forum/191/nuke-dev
 	1. https://www.foundry.com/products/nuke/developers
 1. nuke repository 생성
 1. 폴더 구조생성 : lib, python, gizmo, images, lut
-1. 파이프라인툴의 기본 input, output
 1. 뉴크 익스프레션
 1. 뉴크 Text 노드에서 자주 사용되는 익스프레션
 1. [TCL](https://www.tcl.tk/)
@@ -191,17 +206,7 @@
 1. 예제 : Pyside2를 이용해서 스크립트 실습
 1. blink
 1. NDK / C++
-1. OpenFX
-1. make
-1. NumPy 설치
-1. ptex 컴파일 : https://github.com/wdas/ptex
-1. [OpenImageIO](openimageio.md)
-1. intel TBB : http://m.cafe.daum.net/betterspeed/8V7A/3?q=D_jDGwPlH16FY0&
-1. intel Math Kernel Library : https://software.intel.com/en-us/mkl
-1. OpenVDB 컴파일
-1. OpenSubdiv
-1. Alembic
-1. [USD](usd.md)
+----
 1. github.io 소개
 1. 개발내용을 ffmpeg를 이용해서 스크린 캡쳐하기
 1. 실습 : github.io를 통한 자신의 포트폴리오 사이트 제작.
