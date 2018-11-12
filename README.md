@@ -33,7 +33,7 @@
 1. 개인의 경험, 백그라운드를 토론하는 자리, 왜 이 강의를 지원하게 되었는가?
 1. Windows
 1. macOS
-1. [Linux설치](install_centos.md)
+1. [Linux설치 - CentOS7.5](install_centos.md)
 1. 실습 : Linux 설치를 위한 USB 만들기
 1. 실습 : CentOS7 둘러보기
 1. 토론 : 팀장 선출
