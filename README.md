@@ -35,7 +35,7 @@
 1. macOS
 1. [Linux설치 - CentOS7.5](install_centos.md)
 1. 실습 : Linux 설치를 위한 USB 만들기
-1. 실습 : CentOS7 둘러보기
+1. 실습 : CentOS 둘러보기
 1. 토론 : 팀장 선출
 1. 토론 : 팀명 정하기
 1. [리눅스의 기본 명령어](linux_cmd.md)
@@ -89,7 +89,7 @@
 1. [이슈, Pull Request 상태에서의 토론](discussion.md), Shift+PrintScn
 1. [명령어의 구성요소](command.md)
 1. [우리가 프로그래밍으로 하는 대부분의 일](add_set_rm_get.md)
-1. 파이프라인툴의 기본 input, output
+1. [파이프라인의 기본 Input, Output](input_output.md)
 1. [Standard Streams](standard_steams.md)
 1. python test코드 작성하기
 1. [리네임](rename.md)
