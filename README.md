@@ -30,7 +30,7 @@
 #### 내 용
 1. [Technical Director Course 소개](intro.md)
 1. 개발자의 시선으로 바라보는 시장 흐름 : VFX, 애니메이션, 게임
-1. 개인의 경험, 백그라운드를 토론하는 자리, 왜 이 강의를 지원하게 되었는가?
+1. 개인의 경험, 백그라운드를 토론하는 자리, 여러분은 왜 이 강의를 지원하게 되었는가?
 1. Windows
 1. macOS
 1. [Linux설치 - CentOS7.5](install_centos.md)
