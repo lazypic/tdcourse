@@ -40,6 +40,7 @@
 1. 토론 : 팀명 정하기
 1. [리눅스의 기본 명령어](linux_cmd.md)
 1. [리다이렉트, 파이프](redirect_pipe.md)
+1. [리네임](rename.md)
 1. [권한 이해하기](permission.md)
 1. [쉘 이야기](shell.md)
 1. [커널부터 응용프로그램까지](linux_struct.md)
@@ -91,11 +92,12 @@
 1. [우리가 프로그래밍으로 하는 대부분의 일](add_set_rm_get.md)
 1. [파이프라인의 기본 Input, Output](input_output.md)
 1. [Standard Streams](standard_steams.md)
-1. python test코드 작성하기
-1. [리네임](rename.md)
+1. [Python Test코드 작성하기](python_testcode.md)
+1. Player
+	1. Mplayer
+	1. DJV View : http://djv.sourceforge.net
+	1. RV player : http://www.tweaksoftware.com
 1. 파일 변환 유틸리티
-1. DJV View : http://djv.sourceforge.net
-1. RV player : http://www.tweaksoftware.com
 1. [ImageMagick 소개](imagemagick.md)
 1. ImageMagick을 통한 이미지 변환.
 1. 실습 : ImageMagick을 이용해서 이미지 일괄 변환 스크립트 제작
