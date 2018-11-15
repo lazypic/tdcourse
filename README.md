@@ -93,10 +93,7 @@
 1. [파이프라인의 기본 Input, Output](input_output.md)
 1. [Standard Streams](standard_steams.md)
 1. [Python Test코드 작성하기](python_testcode.md)
-1. Player
-	1. Mplayer
-	1. DJV View : http://djv.sourceforge.net
-	1. RV player : http://www.tweaksoftware.com
+1. [Player](player.md)
 1. 파일 변환 유틸리티
 1. [ImageMagick 소개](imagemagick.md)
 1. ImageMagick을 통한 이미지 변환.
