@@ -1,5 +1,6 @@
 # Player
 미디어에 대한 재생문제를 다루다 보면 미디어 종류에 따라서 재생할 수 있는 플레이어가 다르다는 것을 알 수 있습니다.
+미디어 재생을 위한 플레이어들을 알아보고 설치해 봅시다.
 
 ## [mpv](https://mpv.io/)
 영상을 볼 때 자주 사용하는 플레이어 입니다. 예전에는 mplayer를 사용했지만 mpv는 mplayer, mplayer2를 fork 하여 개발중인 차세대 영상 플레이어 입니다.
@@ -47,17 +48,23 @@
 # cd mpv-build
 # echo --enable-openssl >> ffmpeg_options
 # echo --enable-nonfree >> ffmpeg_options
-# ./rebuild -j4
+# ./rebuild -j4 # 오래걸립니다.
 # ./install
 ```
 
-
+잘 작동되는지 확인해 봅시다. 터미널에서 아래처럼 타이핑 해보세요.
+```
+$ mpv https://www.youtube.com/watch?v=O1qJ5FcV__0
+```
 ## DJV View
 오픈소스 플레이어입니다. EXR 시퀀스, JPG 시퀀스를 빠르게 확인하기 좋습니다.
 
 http://djv.sourceforge.net
 
 ## RV player
+
+![rv](https://d2.alternativeto.net/dist/s/65d5a1c2-d8bc-e011-9727-0025902c7e73_2_full.jpg?format=jpg&width=1600&height=1600&mode=min&upscale=false)
+
 아마도 대부분의 VFX회사에서는 이 플레이어를 사용합니다.
 샷건 파이프라인툴을 사용하면 이 플레이어를 무료로 사용할 수 있습니다.
 
