@@ -4,7 +4,7 @@
 ## Mplayer
 
 ## DJV View
-오픈소스 플레이어입니다. EXR 시퀀스를 확인할 때 사용하기 좋습니다.
+오픈소스 플레이어입니다. EXR 시퀀스, JPG 시퀀스를 빠르게 확인하기 좋습니다.
 
 http://djv.sourceforge.net
 
