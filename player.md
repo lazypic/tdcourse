@@ -29,7 +29,7 @@ $ cd src/mio_ffmpeg
 $ vim init.cpp
 ```
 
-init.cpp 중 아래 항목에 대한 코드가 보입니다.
+init.cpp 중 아래 항목에 대한 코드가 보입니다. 나열된 코드는 법적문제가 있는 코덱들입니다.
 ```
 static const char* disallowedCodecsArray[] = {
     "mp3",
@@ -45,7 +45,7 @@ static const char* disallowedCodecsArray[] = {
     0 };
 ```
 
-코드를 아래처럼 바꾸어주세요.
+init.cpp내용중 위 코드를 아래처럼 바꾸어주세요.
 ```
 static const char* disallowedCodecsArray[] = {
     0 };
@@ -59,17 +59,19 @@ $ make
 $ make install
 ```
 
-컴파일시 아래 에러가 난다면..
+컴파일시 아래와 같은 내용의 에러가 발생한다면..
 ```
 warning: include path for stdlibc++ headers not found; pass '-std=libc++' on the command line to use the libc++ standard library instead [-Wstdlibcxx-not-found]
 ```
 
-Makefile 내용에서 아래항목을 다음 줄처럼 수정해주세요.
+Makefile 내용에서 아래항목을 다음 줄처럼 수정해주세요. 개인적으로 저는 macOS Mojave 에서 위에 해당하는 에러를 만났습니다.
 
+이 내용을
 ```
 STD_CXXFLAGS = -std=gnu++98 -stdlib=libstdc++
 ```
 
+아래 처럼 수정해줍니다.
 ```
 STD_CXXFLAGS = -std=gnu++98 -stdlib=libc++
 ```
