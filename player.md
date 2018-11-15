@@ -57,7 +57,7 @@
 $ mpv https://www.youtube.com/watch?v=O1qJ5FcV__0
 ```
 ## DJV View
-오픈소스 플레이어입니다. EXR 시퀀스, JPG 시퀀스를 빠르게 확인하기 좋습니다.
+오픈소스 플레이어입니다. Exr, Jpg 시퀀스를 빠르게 확인하기 좋습니다.
 
 http://djv.sourceforge.net
 
@@ -67,6 +67,7 @@ http://djv.sourceforge.net
 
 아마도 대부분의 VFX회사에서는 이 플레이어를 사용합니다.
 샷건 파이프라인툴을 사용하면 이 플레이어를 무료로 사용할 수 있습니다.
+Python을 이용해서 플레이어에 기능을 추가할 수 있습니다.
 
 - http://www.tweaksoftware.com
 - Download : http://www.tweaksoftware.com/downloads/tweak-software-license-terms-and-conditions
