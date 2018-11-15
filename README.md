@@ -52,7 +52,7 @@
 1. 실습 : Thunderbird 설치
 1. 실습 : LibreOffice 설치
 1. 실습 : 크롬설치 https://blog.bypass.sh/961
-1. [사운드 제거](soundoff.md)
+1. [CentOS Beep 사운드 제거](soundoff.md)
 1. 실습 : 뉴크 설치 / 라이센스 셋팅
 1. 실습 : [mpv](mpv.md)
 1. [crontab](crontab.md)
@@ -207,7 +207,7 @@
 1. NDK / C++
 ----
 1. github.io 소개
-1. 개발내용을 ffmpeg를 이용해서 스크린 캡쳐하기
+1. ffmpeg 명령어를 이용해서 개발내용 스크린 캡쳐하기
 1. 실습 : github.io를 통한 자신의 포트폴리오 사이트 제작.
 1. 실습 : linkedin 작성
 1. 실습 : 자신이 제작하고 싶은 프로그램 제작, 기술지원, 멘토링
