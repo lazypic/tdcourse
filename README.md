@@ -91,7 +91,7 @@
 1. [명령어의 구성요소](command.md)
 1. [우리가 프로그래밍으로 하는 대부분의 일](add_set_rm_get.md)
 1. [파이프라인의 기본 Input, Output](input_output.md)
-1. [Standard Streams](standard_steams.md)
+1. [Standard Streams](standard_streams.md)
 1. [Python Test코드 작성하기](python_testcode.md)
 1. [Player](player.md)
 1. 파일 변환 유틸리티
