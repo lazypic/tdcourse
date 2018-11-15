@@ -1,7 +1,56 @@
 # Player
-미디어를 다루다보면 미디어 종류에 따라서 재생할 수 있는 미디어가 다르다는 것을 알 수 있습니다.
+미디어에 대한 재생문제를 다루다 보면 미디어 종류에 따라서 재생할 수 있는 플레이어가 다르다는 것을 알 수 있습니다.
 
-## Mplayer
+## [mpv](https://mpv.io/)
+영상을 볼 때 자주 사용하는 플레이어 입니다. 예전에는 mplayer를 사용했지만 mpv는 mplayer, mplayer2를 fork 하여 개발중인 차세대 영상 플레이어 입니다.
+
+열심히 CentOS를 설치했는데 영화 한편 볼 수 없다면 슬플것 같지 않나요?
+그래서 아래 설치방법을 기록해 둡니다.
+
+![mpv](https://mpv.io/images/mpv-screenshot-34cd36ae.jpg)
+
+설치 방법은 아래와 같습니다.
+```
+# yum install yasm
+# yum install fribidi
+# yum install youtube-dl
+# yum install freetype-devel
+# yum install fribidi-devel
+# yum install fontconfig-devel
+# yum install harfbuzz-devel
+# yum install cmake
+# yum install mercurial
+# yum install nasm
+# yum install openssl-devel
+# yum install libX11-devel
+# yum install python-docutils
+# yum install luajit-devel
+# yum install libbluray-devel
+# yum install libdvdread-devel
+# yum install libcdio-paranoia-devel
+# yum install lcms2-devel
+# yum install pulseaudio-libs-devel
+# yum install jack-audio-connection-kit-devel
+# yum install alsa-lib-devel
+# yum install libdrm-devel
+# yum install libxkbcommon-devel
+# yum install libXScrnSaver-devel
+# yum install libXext-devel
+# yum install libXv-devel
+# yum install PyQt4-devel
+# yum install libvdpau-devel
+# yum install libva-devel
+# yum install gstreamer1-vaapi-devel
+# yum install libcaca-devel
+# cd /opt
+# git clone https://github.com/mpv-player/mpv-build.git
+# cd mpv-build
+# echo --enable-openssl >> ffmpeg_options
+# echo --enable-nonfree >> ffmpeg_options
+# ./rebuild -j4
+# ./install
+```
+
 
 ## DJV View
 오픈소스 플레이어입니다. EXR 시퀀스, JPG 시퀀스를 빠르게 확인하기 좋습니다.
