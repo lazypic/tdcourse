@@ -94,6 +94,7 @@
 1. [Standard Streams](standard_streams.md)
 1. [Python Test코드 작성하기](python_testcode.md)
 1. [Player](player.md)
+1. 동영상 포멧과 Codec
 1. 파일 변환 유틸리티
 1. [ImageMagick 소개](imagemagick.md)
 1. ImageMagick을 통한 이미지 변환.
@@ -117,7 +118,7 @@
 1. exrmultiview
 1. OpenImageIO 이야기
 1. 의존성을 설명하기전에 ldd 명령어 사용법
-1. 의존성이야기
+1. [의존성이야기](dependency.md)
 1. 바이너리와 아스키
 1. VFX에서 자주 사용되는 파일개요
 1. 촬영데이터 파일명의 구조
@@ -126,12 +127,11 @@
 1. Lut : .3dl, .blut, .cms, .csp, .csp, .cub, .cube, .vf, .vfz
 1. OpenColorIO Lut : .cc, .ccc
 1. EDL
-1. json, ini, Markdown, xml
+1. json, ini, xml
 1. OSL
 1. OpenVDB
 1. Alembic
 1. USD
-1. 동영상 포멧과 Codec
 1. python으로 API 만들기
 1. API 이야기, 사용되는 언어
 1. 파이프라인툴 이야기 : Shotgun, Ftrack, Tactic, 인하우스툴
