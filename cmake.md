@@ -10,7 +10,7 @@ Cross Platform을 위한 빌드 지원 툴입니다.
 https://cmake.org/download/ 에서 리눅스용 cmake를 다운로드 받습니다.
 
 ```
-$ ./configure --prefix=/opt/cmake3.13
+$ ./configure --prefix=$HOME/app/cmake3.13
 $ make
 # make install
 ```
