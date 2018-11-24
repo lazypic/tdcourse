@@ -59,15 +59,37 @@ $ mpv https://www.youtube.com/watch?v=O1qJ5FcV__0
 ## DJV View
 오픈소스 플레이어입니다. Exr, Jpg 시퀀스를 빠르게 확인하기 좋습니다.
 
-http://djv.sourceforge.net
+홈페이지 : http://djv.sourceforge.net
+
+http://djv.sourceforge.net/Download.html 에서 rpm파일을 다운로드 받습니다.
+
+```
+rpm -ivh DJV-1.2.4-1.x86_64.rpm
+```
+
+프로그램 > 그래픽 > djv_view에 설치됩니다.
+실제 설치경로는 /usr/local/djv/bin 입니다.
+
+터미널에서 실행하려면 .bashrc 파일에 아래 옵션을 추가해 줘야한다.
+```
+export PATH=$PATH:/usr/local/djv/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/djv/lib
+```
+
+#### 설치
+컴파일하고 설치할 때 djv view는 cmake 3.12 이상을 요구합니다.
+
+[cmake 3.13](cmake.md)을 설치합니다.
+
+http://djv.sourceforge.net/BuildLinux.html Third Party Libraries 항목을 따라합니다.
 
 ## RV player
 
 ![rv](https://d2.alternativeto.net/dist/s/65d5a1c2-d8bc-e011-9727-0025902c7e73_2_full.jpg?format=jpg&width=1600&height=1600&mode=min&upscale=false)
 
-아마도 대부분의 VFX회사에서는 이 플레이어를 사용합니다.
+아마도 대부분의 VFX회사에서는 이 플레이어를 가장 많이 사용합니다.
 샷건 파이프라인툴을 사용하면 이 플레이어를 무료로 사용할 수 있습니다.
-Python을 이용해서 플레이어에 기능을 추가할 수 있습니다.
+Python을 이용해서 RV 플레이어에 기능을 추가할 수 있습니다.
 
 - http://www.tweaksoftware.com
 - Download : http://www.tweaksoftware.com/downloads/tweak-software-license-terms-and-conditions
