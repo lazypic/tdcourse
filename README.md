@@ -8,7 +8,7 @@
 	- 2019년 1월 : 오전 10시~오후3시 4시간 / 2시간 교육, 2시간 실습
 	- 2019년 2월 : 오전 10시~오후7시 8시간 / 4시간 교육, 4시간 실습
 	- 점심시간 : 오후 1시
-- 교육내용 : Technical Director 기초과정.
+- 교육내용 : Technical Director 기초과정
 - 교육방식 : Github를 활용한 협업방식, 리눅스를 활용한 VFX, 애니메이션 파이프라인
 - 라이센스 지원 : The foundry Nuke
 - 강의자리 : 총 21석, 3자리 묶음, 총 7개팀
@@ -31,7 +31,7 @@
 1. [Technical Director Course 소개](intro.md)
 1. 개발자의 시선으로 바라보는 시장 흐름 : VFX, 애니메이션, 게임
 1. 개인의 경험, 백그라운드를 토론하는 자리, 여러분은 왜 이 강의를 지원하게 되었는가?
-1. Windows, macOS, Linux 설명. 기업은 왜 리눅스를 사용하는가?
+1. [Windows, macOS, Linux 설명. 기업은 왜 리눅스를 사용하는가?](why_linux.md)
 1. [Linux설치 - CentOS7.5](install_centos.md)
 1. 실습 : Linux 설치를 위한 USB 만들기
 1. 실습 : CentOS 둘러보기
@@ -190,8 +190,8 @@
 1. init.py, menu.py 설정
 1. nukepedia 사이트 소개 : http://www.nukepedia.com/
 1. 실습 : nukepedia 가입 및 살펴보기
-1. 메뉴생성
-1. 단축키 설정
+1. 뉴크 메뉴생성
+1. 뉴크 단축키 설정
 1. 아이콘 넣기
 1. Alexa lut 다운로드
 1. Viewport에 lut 넣기
@@ -207,9 +207,10 @@
 1. NDK / C++
 1. OpenFX
 ----
-1. github.io 소개
+1. 개인 포트폴리오 제작을 위한 github.io 소개
 1. ffmpeg 명령어를 이용해서 개발내용 스크린 캡쳐하기
 1. 실습 : github.io를 통한 자신의 포트폴리오 사이트 제작
 1. 실습 : linkedin 작성
 1. 실습 : 자신이 제작하고 싶은 프로그램 제작, 기술지원, 멘토링
 1. 포트폴리오 제작, 기술지원
+1. 발표, 기술공유
