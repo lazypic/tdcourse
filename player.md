@@ -86,18 +86,18 @@ $ git clone git://git.code.sf.net/p/djv/git-third-party djv-git-third-party
 $ cd djv-git-third-party-Debug
 $ cmake ../djv-git-third-party \
     -DCMAKE_BUILD_TYPE=Debug \
-    -DCMAKE_PREFIX_PATH=$BUILD_DIR/djv-install-Debug \
-    -DCMAKE_INSTALL_PREFIX=$BUILD_DIR/djv-install-Debug
+    -DCMAKE_PREFIX_PATH=$HOME/app/djv-install-Debug \
+    -DCMAKE_INSTALL_PREFIX=$HOME/app/djv-install-Debug
 $ make
 $ cd ..
 
-$ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/djv/djv-install-Debug/lib
+$ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/app/djv-install-Debug/lib
 
 $ git clone git://git.code.sf.net/p/djv/git djv-git
 
 mkdir djv-git-Debug
 cd djv-git-Debug
-/opt/cmake3.13/bin/cmake ../djv-git -DCMAKE_BUILD_TYPE=Debug -DCMAKE_PREFIX_PATH=/opt/djv/djv-install-Debug -DDJV_THIRD_PARTY=/opt/djv/djv-install-Debug
+/opt/cmake3.13/bin/cmake ../djv-git -DCMAKE_BUILD_TYPE=Debug -DCMAKE_PREFIX_PATH=$HOME/app/djv-install-Debug -DDJV_THIRD_PARTY=$HOME/app/djv-install-Debug
 make
 make install
 ```
@@ -106,7 +106,7 @@ make install
 djv 실행을 위해서 설치했던 lib 폴더를 LD_LIBRARY_PATH로 잡아준다.
 
 ```
-$ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/djv/djv-install-Debug/lib
+$ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/app/djv-install-Debug/lib
 $ djv_view
 ```
 
