@@ -94,7 +94,7 @@
 1. [Standard Streams](standard_streams.md)
 1. [Python Test코드 작성하기](python_testcode.md)
 1. [Player](player.md)
-1. 동영상 포멧과 Codec
+1. [동영상 포멧과 Codec](format_codec.md)
 1. 파일 변환 유틸리티
 1. [ImageMagick 소개](imagemagick.md)
 1. ImageMagick을 통한 이미지 변환.
