@@ -21,4 +21,5 @@
 
 ## Reference
 - Autodesk : https://knowledge.autodesk.com/support/maya/learn-explore/caas/sfdcarticles/sfdcarticles/System-requirements-for-Autodesk-Maya-2018.html
-- Foundry : https://www.foundry.com/products/nuke/requirements
+- Foundry Nuke : https://www.foundry.com/products/nuke/requirements
+- Foundry Katana : https://www.foundry.com/products/katana/requirements
