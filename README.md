@@ -76,17 +76,17 @@
 1. 실습 : [자신만의 .bashrc 셋팅하기](custom_bashrc.md)
 1. 토론 : 이 강의실의 모든 사람이 같이 사용할 에디터를 리서치하기. 왜 그 에디터를 사용해야하는지 이유도 설명하기.
 1. 토론 : 모두가 사용할 에디터 선정회의
-1. 모두 같은 에디터를 사용하고 설정을 공유
 1. [버전관리의 중요성](version_control_system.md)
 1. [Git 설치 / 설정](init_git.md)
 1. [Git 명령어의 기초](git_basic.md)
 1. 실습 : [Pro Git](https://git-scm.com/book/ko/v2)
 1. [Github와 오픈소스 이야기](github.md)
 1. 토론 : Github 가입, 학생들의 Github ID 제출
+1. 모두 같은 에디터를 사용하고 설정을 공유하는 리포지터리 제작
 1. [Markdown 문법배우기](https://guides.github.com/features/mastering-markdown/)
 1. [Git 협업방식 설명](github_collaboration.md)
 1. 실습 : Git 협업모델 테스트
-1. [이슈, Pull Request 상태에서의 토론](discussion.md), Shift+PrintScn
+1. [이슈, Pull Request 상태에서의 토론](discussion.md)
 1. [명령어의 구성요소](command.md)
 1. [우리가 프로그래밍으로 하는 대부분의 일](add_set_rm_get.md)
 1. [파이프라인의 기본 Input, Output](input_output.md)
