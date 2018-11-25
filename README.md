@@ -9,7 +9,7 @@
 	- 2019년 2월 : 오전 10시~오후7시 8시간 / 4시간 교육, 4시간 실습
 	- 점심시간 : 오후 1시
 - 교육내용 : Technical Director 기초과정.
-- 교육방식 : Github를 활용한 협업방식, VFX, 애니메이션 분야의 파이프라인
+- 교육방식 : Github를 활용한 협업방식, 리눅스를 활용한 VFX, 애니메이션 파이프라인
 - 라이센스 지원 : The foundry Nuke
 - 강의자리 : 총 21석, 3자리 묶음, 총 7개팀
 - 문 의 : hello@lazypic.org
@@ -31,8 +31,7 @@
 1. [Technical Director Course 소개](intro.md)
 1. 개발자의 시선으로 바라보는 시장 흐름 : VFX, 애니메이션, 게임
 1. 개인의 경험, 백그라운드를 토론하는 자리, 여러분은 왜 이 강의를 지원하게 되었는가?
-1. Windows
-1. macOS
+1. Windows, macOS, Linux 설명. 기업은 왜 리눅스를 사용하는가?
 1. [Linux설치 - CentOS7.5](install_centos.md)
 1. 실습 : Linux 설치를 위한 USB 만들기
 1. 실습 : CentOS 둘러보기
@@ -96,42 +95,46 @@
 1. [Player](player.md)
 1. [동영상 포멧과 Codec](format_codec.md)
 1. 파일 변환 유틸리티
-1. [ImageMagick 소개](imagemagick.md)
-1. ImageMagick을 통한 이미지 변환.
-1. 실습 : ImageMagick을 이용해서 이미지 일괄 변환 스크립트 제작
-1. [FFmpeg 소개](ffmpeg.md)
-1. FFmpeg를 통한 동영상 변환
-1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작
-1. Handbreak : https://blendermarket.com/posts/reduce-the-size-of-your-training-videos
-1. 실습 : Handbreak를 이용해서 일괄 Proxy 동영상 생성
-1. Python : 경로를 분리하는 방법
-1. Python : 레귤러 익스프레션
-1. [mediainfo 설치](mediainfo.md)
-1. mediainfo 활용하기
-1. [openEXR 컴파일](openexr.md)
-1. exrenvmap
-1. exrmakepreview
-1. exrmultipart
-1. exrstdattr
-1. exrheader
-1. exrmaketiled
-1. exrmultiview
-1. OpenImageIO 이야기
+	1. [ImageMagick 소개](imagemagick.md)
+	1. ImageMagick을 통한 이미지 변환.
+	1. 실습 : ImageMagick + python을 이용한 이미지 일괄 변환 스크립트 제작
+	1. [FFmpeg 소개](ffmpeg.md)
+	1. FFmpeg를 통한 동영상 변환
+	1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작
+	1. Handbreak : https://blendermarket.com/posts/reduce-the-size-of-your-training-videos
+	1. 실습 : Handbreak를 이용해서 일괄 Proxy 동영상 생성
+	1. [mediainfo 설치](mediainfo.md)
+	1. mediainfo 활용하기
+	1. OpenImageIO 이야기
+	1. [OpenImageIO 설치](openimageio.md)
+1. 경로기반의 파이프라인
+	1. Python : 경로를 분리하는 방법
+	1. Python : 레귤러 익스프레션
+1. [OpenEXR 컴파일](openexr.md)
+1. OpenEXR 명령어
+	1. exrenvmap
+	1. exrmakepreview
+	1. exrmultipart
+	1. exrstdattr
+	1. exrheader
+	1. exrmaketiled
+	1. exrmultiview
+
 1. 의존성을 설명하기전에 ldd 명령어 사용법
 1. [의존성이야기](dependency.md)
 1. 바이너리와 아스키
 1. VFX에서 자주 사용되는 파일개요
-1. 촬영데이터 파일명의 구조
-1. openEXR
-1. ACES / OpenColorIO
-1. Lut : .3dl, .blut, .cms, .csp, .csp, .cub, .cube, .vf, .vfz
-1. OpenColorIO Lut : .cc, .ccc
-1. EDL
-1. json, ini, xml
-1. OSL
-1. OpenVDB
-1. Alembic
-1. USD
+	1. 촬영데이터 파일명의 구조
+	1. OpenEXR
+	1. ACES / OpenColorIO
+	1. Lut : .3dl, .blut, .cms, .csp, .csp, .cub, .cube, .vf, .vfz
+	1. OpenColorIO Lut : .cc, .ccc
+	1. EDL
+	1. json, ini, xml
+	1. OSL
+	1. OpenVDB
+	1. Alembic
+	1. USD
 1. python으로 API 만들기
 1. API 이야기, 사용되는 언어
 1. 파이프라인툴 이야기 : Shotgun, Ftrack, Tactic, 인하우스툴
@@ -144,20 +147,17 @@
 1. .ui 파일과 python의 연동
 1. 파이썬을 이용해서 엑셀파일 읽기, 쓰기
 1. DB의 종류와 사용되는 예
-1. MySQL 설치
-1. MySQL PythonAPI 실습
-1. PostrgreSQL 설치
-1. PostrgreSQL PythonAPI 실습
-1. MongoDB 설치
-1. MongoDB PythonAPI 실습
-1. Redis 설치
-1. Redis PythonAPI 실습
-1. SW 개발에 집중하기
-1. OpenFX
+	1. MySQL 설치
+	1. MySQL PythonAPI 실습
+	1. PostrgreSQL 설치
+	1. PostrgreSQL PythonAPI 실습
+	1. MongoDB 설치
+	1. MongoDB PythonAPI 실습
+	1. Redis 설치
+	1. Redis PythonAPI 실습
 1. make
 1. NumPy 설치
 1. ptex 컴파일 : https://github.com/wdas/ptex
-1. [OpenImageIO](openimageio.md)
 1. intel TBB : http://m.cafe.daum.net/betterspeed/8V7A/3?q=D_jDGwPlH16FY0&
 1. intel Math Kernel Library : https://software.intel.com/en-us/mkl
 1. OpenVDB 컴파일
@@ -205,10 +205,11 @@
 1. 예제 : Pyside2를 이용해서 스크립트 실습
 1. blink
 1. NDK / C++
+1. OpenFX
 ----
 1. github.io 소개
 1. ffmpeg 명령어를 이용해서 개발내용 스크린 캡쳐하기
-1. 실습 : github.io를 통한 자신의 포트폴리오 사이트 제작.
+1. 실습 : github.io를 통한 자신의 포트폴리오 사이트 제작
 1. 실습 : linkedin 작성
 1. 실습 : 자신이 제작하고 싶은 프로그램 제작, 기술지원, 멘토링
 1. 포트폴리오 제작, 기술지원
