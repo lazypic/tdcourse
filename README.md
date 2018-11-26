@@ -95,8 +95,7 @@
 1. [Player](player.md)
 1. [동영상 포멧과 Codec](format_codec.md)
 1. 파일 변환 유틸리티
-	1. [ImageMagick 소개](imagemagick.md)
-	1. ImageMagick을 통한 이미지 변환.
+	1. [ImageMagick](imagemagick.md)
 	1. 실습 : ImageMagick + python을 이용한 이미지 일괄 변환 스크립트 제작
 	1. [FFmpeg 소개](ffmpeg.md)
 	1. FFmpeg를 통한 동영상 변환
@@ -119,7 +118,6 @@
 	1. exrheader
 	1. exrmaketiled
 	1. exrmultiview
-
 1. 의존성을 설명하기전에 ldd 명령어 사용법
 1. [의존성이야기](dependency.md)
 1. 바이너리와 아스키
