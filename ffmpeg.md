@@ -15,7 +15,7 @@ $ tar xpvf ffmpeg-git-64bit-static.tar.xz --strip 1
 - ffprobe : 데이터를 분석하는 툴
 
 ## 지원하는 포멧과 코덱을 알아보기
-자주 사용하게 될 코덱을 지원하는지 grep을 통해서 체크해보겠습니다.
+자주 사용하게 될 코덱과 포멧을 지원하는지 grep을 통해서 체크해보겠습니다.
 ```
 $ ffmpeg -codecs
 $ ffmpeg -codecs | grep prores
@@ -24,7 +24,10 @@ $ ffmpeg -codecs | grep h264
 $ ffmpeg -codecs | grep hevc
 $ ffmpeg -codecs | grep vp9
 $ ffmpeg -codecs | grep av1
-$ ffmpeg -formats
+$ ffmpeg -formats | grep mov
+$ ffmpeg -formats | grep mp4
+$ ffmpeg -formats | grep webm
+$ ffmpeg -formats | grep ogg
 ```
 
 예) AV1 코덱의 옵션을 알아보는 명령어는 아래와 같습니다.
