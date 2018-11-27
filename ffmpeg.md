@@ -27,7 +27,7 @@ $ ffmpeg -codecs | grep av1
 $ ffmpeg -formats
 ```
 
-AV1 코덱의 옵션을 알아보는 명령어는 아래와 같습니다.
+예) AV1 코덱의 옵션을 알아보는 명령어는 아래와 같습니다.
 ```
 $ ffmpeg -h encoder=libaom-av1
 ```
