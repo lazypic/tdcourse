@@ -50,3 +50,8 @@ $ ffprobe -v quiet -print_format json -show_format -show_streams input.mp4
 
 ## 컴파일 설치방법
 https://trac.ffmpeg.org/wiki/CompilationGuide/Centos
+
+
+## 레퍼런스
+- ffmpeg와 비슷한 명령어 libav : https://www.libav.org
+- ffmpeg와 libav의 분쟁 : http://klutzy.nanabi.org/blog/2012/11/16/ffmpeg-libav/

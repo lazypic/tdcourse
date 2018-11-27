@@ -98,13 +98,13 @@
 	1. [ImageMagick](imagemagick.md)
 	1. 실습 : ImageMagick + python을 이용한 이미지 일괄 변환 스크립트 제작
 	1. [FFmpeg 소개](ffmpeg.md)
-	1. FFmpeg를 통한 동영상 변환
+	1. 실습 : FFmpeg를 통한 동영상 변환
 	1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작
-	1. Handbreak : https://blendermarket.com/posts/reduce-the-size-of-your-training-videos
-	1. 실습 : Handbreak를 이용해서 일괄 Proxy 동영상 생성
+	1. [HandBrake](handbrake.md)
+	1. 실습 : HandBrakeCLI를 이용해서 일괄 Proxy 동영상 생성
 	1. [mediainfo 설치](mediainfo.md)
-	1. mediainfo 활용하기
-	1. OpenImageIO 이야기
+	1. 실습 : mediainfo 활용하기
+	1. OpenImageIO 스토리
 	1. [OpenImageIO 설치](openimageio.md)
 1. 경로기반의 파이프라인
 	1. Python : 경로를 분리하는 방법
@@ -205,7 +205,7 @@
 1. NDK / C++
 1. OpenFX
 ----
-1. 개인 포트폴리오 제작을 위한 github.io 소개
+1. 개인 포트폴리오 홈페이지 제작을 위한 github.io 소개
 1. ffmpeg 명령어를 이용해서 개발내용 스크린 캡쳐하기
 1. 실습 : github.io를 통한 자신의 포트폴리오 사이트 제작
 1. 실습 : linkedin 작성
