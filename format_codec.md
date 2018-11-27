@@ -53,7 +53,7 @@ Avid에서 제작 관리되는 포멧입니다. Avid 장비를 사용하는 업�
 다운로드 : http://avid.force.com/pkb/articles/en_US/download/en423319
 
 ### AV1
-Google, Microsoft, Amazon, Facebook, Cisco, Netflix 등의 기업이 참여하며 만들고 있는 코덱입니다.
+Google, Apple, Microsoft, Amazon, Facebook, Netflix, Nvidia 등의 기업이 참여하며 만들고 있는 코덱입니다.
 
 - 샘플파일 : http://download.opencontent.netflix.com/?prefix=AV1/
 
