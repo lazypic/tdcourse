@@ -17,6 +17,7 @@ $ mediainfo input.png
 
 ## PyMediaInfo
 mediainfo은 파이썬 라이브러리로도 존재합니다.
+홈페이지 : https://pypi.org/project/pymediainfo/
 
 설치는 아래와 같습니다.
 
