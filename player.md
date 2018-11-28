@@ -185,3 +185,7 @@ STD_CXXFLAGS = -std=gnu++98 -stdlib=libc++
 ```
 
 컴파일을 다시 해줍니다.
+
+
+## Reference
+https://www.uncleninja.com/uncategorized/2016-05-04/install-mpv-player-smplayer-centos-7/
