@@ -104,7 +104,7 @@
 	1. 실습 : HandBrakeCLI를 이용해서 일괄 Proxy 동영상 생성
 	1. [mediainfo 설치](mediainfo.md)
 	1. 실습 : mediainfo 활용하기
-	1. OpenImageIO 스토리
+	1. [컬러스페이스의 역사](history_colorspace.md)
 	1. [OpenImageIO 설치](openimageio.md)
 1. 경로기반의 파이프라인
 	1. Python : 경로를 분리하는 방법

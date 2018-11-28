@@ -1,4 +1,5 @@
 # Handbrake
+오픈소스 비디오 변환툴입니다.
 
 ## 설치
 ~/app 폴더에 handbrake를 설치해 보겠습니다.
