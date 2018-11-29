@@ -38,16 +38,18 @@ OpenColorIO를 설치하기 전에 컬러스페이스부터 설명하겠습니�
 디지털 시네마 기술도 발전하여 코닥은 필름을 스캔하여 디지털 작업을 할 수 있도록 하는 장치를 만들기 시작했습니다.
 그리고 그 장치는 .cin 파일 log로 저장되었습니다. 이후 이 포멧은 좀더 발전하여 .dpx가 됩니다.
 ![cin_scan](https://www.movie-college.de/images/Filmschule/postproduktion/ScannerArri1200.jpg)
+
 과거 작업자는 필름이 스캔된 이미지를 불러서 log2lin 후 작업하고 lin2log로 저장해야 했습니다.
 
 로그로 촬영하는 이유는 사람의 눈은 어두운곳에 더 민감하게 반응하도록 되어있습니다.
 카메라 센서는 linear로 작동되게 되어있어요.
 그래서 카메라에게 암부를 민감하게 찍고, 밝은 부분은 정보가 덜 담기게 찍어달라고 감마 설정하는 것 입니다. 이 감마의 모양은 Log곡선과 비슷해서 로그촬영이라고 합니다.
 
+아래 이미지는 쉐이크라는 과거에 사용된 합성툴 스크린 샷 입니다. 툴 기능중 LogLin 이라고 하는 기능이 보이나요?
 ![shake](http://lewissaunders.com/rubbish/gam13correct.png)
 
-촬영 카메라도 점점 발전하며 과거보다 더 많은 정보를 저장할 수 있게 되었죠.
-제조사가 직접 자신의 카메라에 맞는 컬러스페이스를 제작하기도 합니다.
+시간이 지남에 따라서 촬영 카메라도 점점 발전하며 과거보다 더 많은 비트수와 정보를 저장할 수 있게 되었습니다.
+또한 카메라 제조사가 직접 자신의 카메라에 맞는 컬러스페이스, gamut을 제작하기도 합니다.
 
 - 파나비전의 Panalog
 - 레드사의 REDLog, REDSpace
@@ -61,20 +63,25 @@ OpenColorIO를 설치하기 전에 컬러스페이스부터 설명하겠습니�
 - Technicolor CineStyle
 - Magic Lantern RAW
 
-회사가 나오고 각 회사가 장비를 만들 때마다 이러한 colorspace와 gamut은 점점 늘어날 것 입니다. 성능이 좋아지면서 좀더 많은 계조, 노출정보들도 담기게 될것이구요.
+각 회사가 장비를 만들 때마다 이러한 colorspace와 gamut은 시장에 점점 늘어날 것 입니다. 하드웨어의 성능이 좋아지면서 좀더 많은 계조, 해상도, 노출정보들도 담기게 될것이구요.
 
-과거의 유물 LogLin 역시 시간이 지나 검정,흰색을 이용하여 연산하지만 회색 단색을 이용해서 LogLin을 하는 [PLogLin](https://learn.foundry.com/nuke/content/reference_guide/color_nodes/ploglin.html)형태로 변형되기도 했습니다.
+과거의 유물 LogLin 역시 시간이 지나 검정,흰색을 이용하여 연산하지만 회색 단색을 이용해서 LogLin을 하는 [PLogLin](https://learn.foundry.com/nuke/content/reference_guide/color_nodes/ploglin.html)형태가 나오기도 했습니다.
 
-표준이 없이 이러한 컬러 관련된 colorspace, gamut등이 늘어나는것은 아티스트, 개발자 모두에게 좋지않습니다. 작업을 복잡하게 만들고 프로젝트를 진행할 때 항상 복잡해집니다.
+표준이 없이 이러한 컬러 관련된 colorspace, gamut, 촬영방식 등이 늘어나는것은 아티스트, 개발자 모두에게 좋지않습니다. 작업을 복잡하게 만들고 프로젝트를 진행할 때 항상 복잡해집니다.
 
-사람들이 모여서 회의를 시작했습니다. "표준 컬러매니징 시스템을 만들면 좋겠어!"
+관련 업계의 사람들이 모여서 회의를 시작했습니다.
 
+```
+"표준 컬러매니징 시스템을 만들면 좋겠어!"
 "이대로 두면 세상은 점점 컬러를 처리할 때 굉장히 복잡해질꺼야!"
-
 "같이 사용할 수 있는 컬러메니징 시스템을 만들어보자."
+```
 
-이러한 노력끝에 ACES 프로젝트 OpenColorIO 컬러 매니지먼트 툴이 개발되기 시작합니다.
+이러한 노력끝에 ACES / OpenColorIO 컬러 매니지먼트 툴이 개발되기 시작합니다.
 근래에는 많은 프로젝트가 ACES 기반으로 작업이 많이 되어지고 있습니다. 여러분이 실무작업을 하는 미래에는 더욱 많이 사용되게 될 것입니다.
+
+실제로 OpenColorIO를 사용하는 것은 실습을 통해 알아보겠습니다.
+또한 OpenColorIO를 이용한 OpenImageIO 사용법도 추후 알아보겠습니다.
 
 #### Reference
 - http://vfxcamdb.com/color-spaces/
