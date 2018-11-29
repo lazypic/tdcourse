@@ -1,5 +1,5 @@
 # MediaInfo
-미디어 파일의 관련된 정보를 볼 수 있는 프로그램입니다. 보통 코덱, 이미지 사이즈, 기타 메타데이터 정보등을 알아낼 때 사용합니다.
+미디어 파일의 관련된 정보를 출력하는 프로그램입니다. 보통 코덱, 이미지 사이즈, 기타 메타데이터 정보등을 알아낼 때 사용합니다.
 
 mediainfo를 테스트할 [샘플파일](sample.md)
 
@@ -29,7 +29,7 @@ pypi 홈페이지 : https://pypi.org/project/pymediainfo/
 
 파이썬을 이용하여 bit_rate, bit_rate_mode, codec을 가지고 오는 예제
 
-```
+```python
 from pymediainfo import MediaInfo
 media_info = MediaInfo.parse('test.mov')
 for track in media_info.tracks:
