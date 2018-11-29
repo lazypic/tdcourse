@@ -128,7 +128,7 @@
 	1. Lut : .3dl, .blut, .cms, .csp, .csp, .cub, .cube, .vf, .vfz
 	1. OpenColorIO Lut : .cc, .ccc
 	1. EDL
-	1. json, ini, xml
+	1. json, xml, ini(예, Unreal설정파일)
 	1. OSL
 	1. OpenVDB
 	1. Alembic
