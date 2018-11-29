@@ -69,7 +69,7 @@
 1. 실습 : trans 명령을 자동으로 설치하는 .sh 파일을 만들어보기
 1. [간단한 GUI : zenity](zenity.md)
 1. [환경변수란?](env.md)
-1. [환경변수관리](managing_env.md)
+1. 환경변수 관리 툴
 	1. 패키징 관리툴 : [Rez](https://github.com/nerdvegas/rez/wiki)
 	1. [Ecosystem](https://github.com/PeregrineLabs/Ecosystem)
 	1. [run](https://github.com/studio2l/run)
