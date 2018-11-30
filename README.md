@@ -11,7 +11,7 @@
 - 교육내용 : Technical Director 기초과정
 - 교육방식 : Github를 활용한 협업방식, 리눅스를 활용한 VFX, 애니메이션 파이프라인
 - 라이센스 지원 : The foundry Nuke
-- 강의자리 : 총 21석, 3자리 묶음, 총 7개팀
+- 강의자리 : 총 21석
 - 문 의 : hello@lazypic.org
 
 구 분|강 의|실 습| 내 용
@@ -31,14 +31,11 @@
 1. 강의 소개, 개별 소개, 리눅스 설치
 	1. [Technical Director Course 소개](intro.md)
 	1. 개발자의 시선으로 바라보는 시장 흐름 : VFX, 애니메이션, 게임
-	1. 개인의 경험, 백그라운드를 토론하는 자리, 여러분은 왜 이 강의를 지원하게 되었는가?
-	1. [Windows, macOS, Linux 설명. 기업은 왜 리눅스를 사용하는가?](why_linux.md)
-	1. [Linux설치 - CentOS7.5](install_centos.md)
+	1. [기업은 왜 리눅스를 사용하는가?](why_linux.md)
+	1. [Linux설치 - CentOS 7.5](install_centos.md)
 	1. 실습 : Linux 설치를 위한 USB 만들기
 	1. 실습 : CentOS 둘러보기
-1. 팀 셋팅, 리눅스 명령어 기본
-	1. 토론 : 팀장 선출
-	1. 토론 : 팀명 정하기
+1. 리눅스 설치, 리눅스 명령어 기본
 	1. [리눅스의 기본 명령어](linux_cmd.md)
 	1. [리다이렉트, 파이프](redirect_pipe.md)
 	1. [리네임](rename.md)
@@ -78,7 +75,7 @@
 
 1. 뉴크 설치
 	1. 실습 : 뉴크 설치 / 라이센스 셋팅
-1. 쉘스크립트
+1. 쉘 스크립트
 	1. .sh 스크립트 생성
 	1. 실습 : trans 명령을 자동으로 설치하는 .sh 파일을 만들어보기
 1. [환경변수란?](env.md)
@@ -161,13 +158,14 @@
 	1. [pip 설치](pip.md)
 	1. [Pyside2 설치](pyside2.md)
 	1. Qt Designer 설치
-	1. Qt Designer로 GUI 제작하기
+	
 
 1. GUI제작-1
 	1. [간단한 GUI : zenity](zenity.md)
 	1. python을 이용한 기초 GUI 제작
 
 1. GUI제작2
+	1. Qt Designer로 GUI 제작하기
 	1. .ui 파일과 python의 연동
 
 1. 파이썬을 이용해서 엑셀파일 읽기, 쓰기
@@ -181,7 +179,8 @@
 	1. MongoDB PythonAPI 실습
 	1. Redis 설치
 	1. Redis PythonAPI 실습
-1. 관련된 라이브러리와 포멧
+
+1. VFX와 관련된 라이브러리
 	1. ptex 컴파일 : https://github.com/wdas/ptex
 	1. intel TBB : http://m.cafe.daum.net/betterspeed/8V7A/3?q=D_jDGwPlH16FY0&
 	1. intel Math Kernel Library : https://software.intel.com/en-us/mkl
@@ -190,7 +189,7 @@
 	1. Alembic
 	1. [USD](usd.md)
 
-1. 자료소개
+1. 뉴크를 개발하기전에 알아야할 기본지식
 	1. https://community.foundry.com/discuss/forum/191/nuke-dev
 	1. https://www.foundry.com/products/nuke/developers
 	1. 뉴크에서 파이썬을 실행하는 방법
@@ -203,11 +202,11 @@
 	1. .nuke설정
 	1. init.py, menu.py 설정
 
-1. nukepedia 사이트 소개 : http://www.nukepedia.com/
+1. Nukepedia 사이트 소개 : http://www.nukepedia.com/
 	1. 실습 : nukepedia 가입 및 살펴보기
 	1. 플러그인 설치해보기
 
-1. 기즈모 준비
+1. 기즈모 제작
 	1. 뉴크 익스프레션
 	1. 뉴크 Text 노드에서 자주 사용되는 익스프레션
 	1. [TCL](https://www.tcl.tk/)
