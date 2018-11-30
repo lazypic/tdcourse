@@ -74,10 +74,10 @@
 	1. [Daemon](daemon.md)
 	1. [vnc](vnc.md)
 	1. [ftp, sftp](ftp.md)
+1. [Linux 폴더구조](foldertree.md)
+
 1. 뉴크 설치
 	1. 실습 : 뉴크 설치 / 라이센스 셋팅
-
-1. [Linux 폴더구조](foldertree.md)
 1. 쉘스크립트
 	1. .sh 스크립트 생성
 	1. 실습 : trans 명령을 자동으로 설치하는 .sh 파일을 만들어보기
