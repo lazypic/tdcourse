@@ -59,8 +59,8 @@
 	1. [yum](yum.md)
 	1. 실습 : 재미있는 명령어를 설치해보자. https://www.binarytides.com/linux-fun-commands/
 	1. make
-	1. NumPy 설치
 	1. [pip](pip.md) 설치
+	1. NumPy 설치
 
 1. 유용한 시스템 명령어
 	1. [crontab](crontab.md)
@@ -130,10 +130,10 @@
 	1. [바이너리와 아스키](binary_ascii.md)
 
 1. [의존성이야기](dependency.md)
-	1. 의존성을 설명하기전에 ldd 명령어 사용법
+	1. [의존성을 확인할 수 있는 명령어 ldd](ldd.md)
 
 1. VFX에서 자주 사용되는 파일
-	1. 촬영데이터 파일명의 구조
+	1. [촬영데이터 파일명의 구조](raw_name.md)
 	1. OpenEXR
 	1. ACES / OpenColorIO
 	1. Lut : .3dl, .blut, .cms, .csp, .csp, .cub, .cube, .vf, .vfz
@@ -236,6 +236,6 @@
 	1. 실습 : github.io를 통한 자신의 포트폴리오 사이트 제작
 	1. 실습 : linkedin 작성
 1. 포트폴리오 준비 2
-	1. 실습 : 자신이 제작하고 싶은 프로그램 제작, 기술지원, 멘토링
-	1. 포트폴리오 제작, 기술지원
-	1. 발표, 기술공유
+	1. 기술지원, 멘토링
+	1. 포트폴리오 제작
+	1. 발표, 기술공유, 정보나눔
