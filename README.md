@@ -116,25 +116,18 @@
 		1. [컬러스페이스의 역사](history_colorspace.md)
 		1. [OpenImageIO 설치](openimageio.md)
 1. [경로기반의 파이프라인](path_based_pipeline.md)
-	1. Python : 경로를 분리하는 방법
-	1. Python : 레귤러 익스프레션
+	1. [Python : 경로를 분리하는 방법](path_control.md)
+	1. [Python : 레귤러 익스프레션](path_regexp.md)
 1. OpenEXR
 	1. [OpenEXR 컴파일](openexr.md)
-	1. OpenEXR 명령어
-		1. exrenvmap
-		1. exrmakepreview
-		1. exrmultipart
-		1. exrstdattr
-		1. exrheader
-		1. exrmaketiled
-		1. exrmultiview
+	1. [OpenEXR 명령어](openexr_cmd.md)
 1. 프로그램을 만들기전에 알아야 할 기본적인 지식
 	1. [명령어의 구성요소](command.md)
 	1. [우리가 프로그래밍으로 하는 대부분의 일](add_set_rm_get.md)
 	1. [파이프라인의 기본 Input, Output](input_output.md)
 	1. [Standard Streams](standard_streams.md)
 	1. [Python Test코드 작성하기](python_testcode.md)
-	1. 바이너리와 아스키
+	1. [바이너리와 아스키](binary_ascii.md)
 
 1. [의존성이야기](dependency.md)
 	1. 의존성을 설명하기전에 ldd 명령어 사용법
@@ -235,7 +228,7 @@
 	1. 타팀에서 사용하는 플러그인 셋팅. 예)3DE
 1. 노드로 폴더를 여는 스크립트 제작
 1. Python으로 노드짜기
-	1. 예제 : Pyside2를 이용해서 스크립트 실습
+	1. 예제 : 뉴크 내부에서 Pyside2를 이용해서 스크립트 제작
 	1. 다른 개발방법들 : blink, NDK, OpenFX
 1. 포트폴리오 준비 1
 	1. 개인 포트폴리오 홈페이지 제작을 위한 github.io 소개
