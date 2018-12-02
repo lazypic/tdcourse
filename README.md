@@ -2,16 +2,17 @@
 
 #### Info
 - 장 소 : [mofacacademy](https://www.mofacacademy.com)
-- 인 원 : 25명 모집
+- 인 원 : 동국대 면접을 통한 인원모집
+- 면 접 : 2018. 12. 11~12
 - 기 간 : 18.12.28 ~ 19.2.27 
 - 시 간 :월~금
-	- 2019년 1월 : 오전 10시~오후3시 4시간 / 2시간 교육, 2시간 실습
-	- 2019년 2월 : 오전 10시~오후7시 8시간 / 4시간 교육, 4시간 실습
-	- 점심시간 : 오후 1시
+	- 2019년 1월 : 09:00 ~ 13:00 4시간 / 2시간 교육, 2시간 실습
+	- 2019년 2월 : 09:00 ~1  8:00 8시간 / 4시간 교육, 4시간 실습
+	- 점심시간 : 13:00 ~ 14:00
 - 교육내용 : Technical Director 기초과정
 - 교육방식 : Github를 활용한 협업방식, 리눅스를 활용한 VFX, 애니메이션 파이프라인
 - 라이센스 지원 : The foundry Nuke
-- 강의자리 : 총 21석
+- 강의실 총 좌석 21석
 - 문 의 : hello@lazypic.org
 
 구 분|강 의|실 습| 내 용
@@ -117,17 +118,17 @@
 
 1. 파일변환 유틸리티
 	1. [파일 변환 유틸리티](convert_util.md)
-		1. [ImageMagick](imagemagick.md)
-		1. 실습 : ImageMagick + python을 이용한 이미지 일괄 변환 스크립트 제작
-		1. [FFmpeg 소개](ffmpeg.md)
-		1. 실습 : FFmpeg를 통한 동영상 변환
-		1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작
-		1. [HandBrake](handbrake.md)
-		1. 실습 : HandBrakeCLI를 이용해서 일괄 Proxy 동영상 생성
-		1. [mediainfo 설치](mediainfo.md)
-		1. 실습 : mediainfo 활용하기
-		1. [컬러스페이스의 역사](history_colorspace.md)
-		1. [OpenImageIO 설치](openimageio.md)
+	1. [ImageMagick](imagemagick.md)
+	1. 실습 : ImageMagick + python을 이용한 이미지 일괄 변환 스크립트 제작
+	1. [FFmpeg 소개](ffmpeg.md)
+	1. 실습 : FFmpeg를 통한 동영상 변환
+	1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작
+	1. [HandBrake](handbrake.md)
+	1. 실습 : HandBrakeCLI를 이용해서 일괄 Proxy 동영상 생성
+	1. [mediainfo 설치](mediainfo.md)
+	1. 실습 : mediainfo 활용하기
+	1. [컬러스페이스의 역사](history_colorspace.md)
+	1. [OpenImageIO 설치](openimageio.md)
 
 1. [경로기반의 파이프라인](path_based_pipeline.md)
 	1. [Python : 경로를 분리하는 방법](path_control.md)
