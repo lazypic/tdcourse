@@ -94,6 +94,7 @@
 	1. 실습 : [자신만의 .bashrc 셋팅하기](custom_bashrc.md)
 
 1. 팀규모의 에디터 셋팅
+	1. [에디터](editor.md)
 	1. 토론 : 이 강의실의 모든 사람이 같이 사용할 에디터를 리서치하기. 왜 그 에디터를 사용해야하는지 이유도 설명하기.
 	1. 토론 : 모두가 사용할 에디터 선정회의
 
@@ -102,7 +103,7 @@
 	1. [Git 명령어의 기초](git_basic.md)
 	1. 실습 : [Pro Git](https://git-scm.com/book/ko/v2)
 	1. [Github와 오픈소스 이야기](github.md)
-	1. 토론 : Github 가입, 학생들의 Github ID 제출
+	1. 토론 : Github 가입, 학생들의 Github ID 공유하기
 	1. 모두 같은 에디터를 사용하고 설정을 공유하는 리포지터리 제작
 
 1. Git, Readme 작성을 위한 [Markdown 문법배우기](https://guides.github.com/features/mastering-markdown/)
@@ -153,15 +154,15 @@
 
 1. VFX에서 자주 사용되는 파일 : 컬러매니징
 	1. [ACES / OpenColorIO](opencolorio.md)
-	1. Lut : .3dl, .blut, .cms, .csp, .csp, .cub, .cube, .vf, .vfz
-	1. [OpenColorIO Lut](opencolorio_lut.md) : .cc, .ccc
+	1. [Lut](lut.md)
+	1. [OpenColorIO Lut](opencolorio_lut.md)
 
 1. VFX에서 자주 사용되는 파일 : 편집데이터
 	1. [EDL](edl.md)
 	1. [xml](xml.md)
 
 1. VFX에서 자주 사용되는 파일 : 쉐이더
-	1. [OSL](osl.md)
+	1. [OpenShandingLanguage](osl.md)
 
 1. VFX에서 자주 사용되는 파일 : 설정파일
 	1. json, xml, ini(예, Unreal설정파일)
@@ -267,7 +268,7 @@
 	1. 실습 : github.io를 통한 자신의 포트폴리오 사이트 제작
 	1. 실습 : linkedin 작성
 
-1. 포트폴리오 준비 2
+1. 포트폴리오 준비 2(실습8시간)
 	1. 기술지원, 멘토링
 	1. 포트폴리오 제작
 	1. 발표, 기술공유, 정보나눔
