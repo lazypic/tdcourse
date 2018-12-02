@@ -90,6 +90,7 @@
 1. [환경변수란?](env.md)
 	1. 환경변수 관리 툴
 		1. 패키징 관리툴 : [Rez](https://github.com/nerdvegas/rez/wiki)
+		1. https://github.com/est77/rez-packages
 		1. [Ecosystem](https://github.com/PeregrineLabs/Ecosystem)
 		1. [run](https://github.com/studio2l/run)
 	1. 실습 : [자신만의 .bashrc 셋팅하기](custom_bashrc.md)
@@ -239,6 +240,7 @@
 	1. Render management Tools 소개
 		1. Tractor : https://renderman.pixar.com/tractor
 		1. Deadline : https://deadline.thinkboxsoftware.com/
+		1. Flamenco : https://github.com/armadillica/flamenco
 
 1. 메뉴, 뷰어 설정
 	1. 뉴크 메뉴생성
@@ -269,7 +271,7 @@
 	1. 실습 : github.io를 통한 자신의 포트폴리오 사이트 제작
 	1. 실습 : linkedin 작성
 
-1. 포트폴리오 준비 2(실습8시간)
+1. 포트폴리오 준비 2
 	1. 기술지원, 멘토링
 	1. 포트폴리오 제작
 	1. 발표, 기술공유, 정보나눔
