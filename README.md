@@ -118,9 +118,7 @@
 1. [경로기반의 파이프라인](path_based_pipeline.md)
 	1. [Python : 경로를 분리하는 방법](path_control.md)
 	1. [Python : 레귤러 익스프레션](path_regexp.md)
-1. OpenEXR
-	1. [OpenEXR 컴파일](openexr.md)
-	1. [OpenEXR 명령어](openexr_cmd.md)
+	
 1. 프로그램을 만들기전에 알아야 할 기본적인 지식
 	1. [명령어의 구성요소](command.md)
 	1. [우리가 프로그래밍으로 하는 대부분의 일](add_set_rm_get.md)
@@ -132,18 +130,28 @@
 1. [의존성이야기](dependency.md)
 	1. [의존성을 확인할 수 있는 명령어 ldd](ldd.md)
 
-1. VFX에서 자주 사용되는 파일
+1. VFX에서 자주 사용되는 파일 : 촬영데이터
 	1. [촬영데이터 파일명의 구조](raw_name.md)
-	1. OpenEXR
+1. VFX에서 자주 사용되는 파일 : OpenEXR
+	1. [OpenEXR](openexr.md)
+	1. [OpenEXR 컴파일](openexr_compile.md)
+	1. [OpenEXR 명령어](openexr_cmd.md)
+1. VFX에서 자주 사용되는 파일 : 컬러메니징
 	1. ACES / OpenColorIO
 	1. Lut : .3dl, .blut, .cms, .csp, .csp, .cub, .cube, .vf, .vfz
 	1. OpenColorIO Lut : .cc, .ccc
+1. VFX에서 자주 사용되는 파일 : 편집데이터
 	1. EDL
-	1. json, xml, ini(예, Unreal설정파일)
+	1. xml
+1. VFX에서 자주 사용되는 파일 : 쉐이더
 	1. OSL
-	1. OpenVDB
+1. VFX에서 자주 사용되는 파일 : 설정파일
+	1. json, xml, ini(예, Unreal설정파일)
+1. VFX에서 자주 사용되는 파일 : 3D 데이터
 	1. Alembic
-	1. USD
+	1. [USD](usd.md)
+1. VFX에서 자주 사용되는 파일 : 볼륨데이터
+	1. OpenVDB
 
 1. 파이프라인툴 이야기 : Shotgun, Ftrack, Tactic, 인하우스툴
 1. [VFX Platform 소개](https://www.vfxplatform.com)
@@ -178,9 +186,7 @@
 	1. intel TBB : http://m.cafe.daum.net/betterspeed/8V7A/3?q=D_jDGwPlH16FY0&
 	1. intel Math Kernel Library : https://software.intel.com/en-us/mkl
 	1. OpenVDB 컴파일
-	1. OpenSubdiv
-	1. Alembic
-	1. [USD](usd.md)
+	1. OpenSubdiv : http://graphics.pixar.com/opensubdiv/docs/intro.html
 
 1. 뉴크를 개발하기전에 알아야할 기본지식
 	1. https://community.foundry.com/discuss/forum/191/nuke-dev
