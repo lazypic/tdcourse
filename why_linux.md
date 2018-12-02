@@ -18,6 +18,9 @@
 - Redhat은 Fedora에서 테스팅하여 만들어집니다.
 - CentOS는 Redhat이 배포되면 같은 코드 그대로 사용됩니다.
 
+#### CentOS의 특징
+- https://www.lesstif.com/pages/viewpage.action?pageId=20775405
+
 ## 각 소프트웨어 요구사항 Reference
 - Autodesk : https://knowledge.autodesk.com/support/maya/learn-explore/caas/sfdcarticles/sfdcarticles/System-requirements-for-Autodesk-Maya-2018.html
 - Foundry Nuke : https://www.foundry.com/products/nuke/requirements
