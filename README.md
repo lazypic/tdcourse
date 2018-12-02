@@ -34,8 +34,7 @@
 	1. 개발자의 시선으로 바라보는 시장 흐름 : VFX, 애니메이션, 게임
 	1. [기업은 왜 리눅스를 사용하는가?](why_linux.md)
 	1. [Linux설치 - CentOS 7.5](install_centos.md)
-	1. 실습 : Linux 설치를 위한 USB 만들기
-	1. 실습 : CentOS 둘러보기
+	1. 실습 : 설치이후 CentOS 둘러보기
 	1. [규칙](rule.md)
 
 1. 리눅스 설치, 리눅스 명령어 기본

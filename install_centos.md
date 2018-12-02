@@ -5,6 +5,8 @@
 - 강의실에서는 다른 수업의 경우 윈도우로 진행하기 때문에 리눅스 설치시 멀티 부팅을 할 수 있도록 설치합니다.
 - 강의실 Root 패스워드는 추후 관리를 위해서 `I'm_groot!`로 통일해주세요.
 
+## USB 만들기
+
 #### .iso to USB (windows)
 - https://rufus.ie/ko_KR.html
 
