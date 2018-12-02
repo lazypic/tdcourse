@@ -259,7 +259,7 @@
 
 1. Python으로 노드짜기
 	1. 예제 : 뉴크 내부에서 Pyside2를 이용해서 스크립트 제작
-	1. 다른 개발방법들 : blink, NDK, OpenFX
+	1. 다른 개발방법들 : blink, NDK, OFX(OpenFX)
 
 1. 포트폴리오 준비 1
 	1. 개인 포트폴리오 홈페이지 제작을 위한 github.io 소개
