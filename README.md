@@ -165,14 +165,14 @@
 	1. [OpenShandingLanguage](osl.md)
 
 1. VFX에서 자주 사용되는 파일 : 설정파일
-	1. json, xml, ini(예, Unreal설정파일)
+	1. [json](json.md), [xml](xml.md), [ini](ini.md)(예, Unreal설정파일)
 
 1. VFX에서 자주 사용되는 파일 : 3D 데이터
 	1. [Alembic](abc.md)
 	1. [USD](usd.md)
 
 1. VFX에서 자주 사용되는 파일 : 볼륨데이터
-	1. OpenVDB
+	1. [OpenVDB](openvdb.md)
 
 1. 파이프라인툴 이야기 : Shotgun, Ftrack, Tactic, 인하우스툴
 1. [VFX Platform 소개](https://www.vfxplatform.com)
