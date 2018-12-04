@@ -160,7 +160,6 @@
 
 1. VFX에서 자주 사용되는 파일 : 편집데이터
 	1. [EDL](edl.md)
-	1. [xml](xml.md)
 
 1. VFX에서 자주 사용되는 파일 : 쉐이더
 	1. [OpenShandingLanguage](osl.md)
