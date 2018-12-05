@@ -137,4 +137,51 @@ $ make help
 
 
 ## abc뷰어
-https://github.com/alembic/abcview
+3D 소프트웨어가 없더라도 .abc 파일을 볼 수 있다면 편리합니다.
+그 역할을 하는 abcview를 컴파일해보겠습니다.
+
+#### boost 컴파일
+VFX Platform CY2019 기준 Boost는 1.66을 사용합니다.
+abcview를 컴파일 하기 위해서는 Boost가 필요합니다.
+
+오래걸림. 수업 초반에 진행할 것
+```
+$ wget https://dl.bintray.com/boostorg/release/1.66.0/source/boost_1_66_0_rc2.tar.gz
+$ tar -zxvf boost_1_66_0_rc2.tar.gz
+$ mv boost_1_66_0 boost_1_66_0_src
+$ mkdir boost_1_66_0
+$ cd boost_1_66_0_src
+$ ./bootstrap.sh --prefix=$HOME/app/boost_1_66_0
+$ ./b2 install
+```
+
+#### OpenGL 설치
+```
+# yum install freeglut-devel
+```
+
+#### Python library 설치
+```
+# yum install python-devel
+```
+
+#### abcview 컴파일(wip)
+
+소스코드 : https://github.com/alembic/abcview
+
+컴파일이 아직 되지 않는다. 기존에 컴파일한 리스트중 다 활성화 햐여 컴파일 해보기.
+```
+cd ~/app
+git clone https://github.com/alembic/abcview abcview_src
+mkdir abcview
+mkdir abcview_build
+cd abcview_build
+scl enable devtoolset-6 bash
+cmake ../abcview_src -DBOOST_ROOT=$HOME/app/boost_1_66_0 -DILMBASE_ROOT=$HOME/app/IlmBase -DALEMBIC_LIB=$HOME/app/alembic/lib -DALEMBIC_INCLUDE_PATH=$HOME/app/alembic/incloud -DGLEW_INCLUDE_DIR=/usr/inclued -DGLEW_LIBRARY=/usr/lib64 -DUSE_PYTHON=OFF -DCMAKE_INSTALL_PREFIX=$HOME/app/abcview 
+
+-DPYTHON_ROOT=/usr/lib64/python2.7/config -DPYTHON_LIBRARY=/usr/lib64/python2.7/config/libpython2.7.so -DPYTHON_INCLUDE_DIR=/usr/include/python2.7
+
+$ make -j2
+$ make install
+$ make help
+```
