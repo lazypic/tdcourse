@@ -44,12 +44,95 @@ $ make help
 
 컴파일이 되면 아래 명령어를 사용할 수 있게 됩니다.
 
-- abcdiff : 
-- abcecho : 
-- abcechobounds : 
-- abcls : 
-- abcstitcher : 
-- abctree : 
+- abcdiff
+
+    2개의 abc 파일을 입력해서 다른 부분만 abc파일로 출력됩니다.
+    다른 부분이 없다면 `No differences detected` 메시지가 출력됩니다.
+    ```
+    $ abcdiff input1.abc input2.abc output.abc
+    ```
+
+- abcecho
+
+    .abc파일의 디테일한 정보를 볼 수 있습니다.
+    ```
+    $ abcecho box.abc
+    ```
+    ```
+    AbcEcho for Alembic 1.7.10 (built Dec  5 2018 17:30:01)
+    file written by: Blender
+    using Alembic : Alembic 1.7.8 (built Sep 10 2018 16:59:10)
+    written on : Wed Dec  5 19:56:39 2018
+    user description : untitled
+
+    ScalarProperty name=.childBnds;interpretation=box;datatype=float64_t[6];arraysize=6;numsamps=250
+    Object name=/Cube
+    CompoundProperty name=.xform;schema=AbcGeom_Xform_v3
+    ScalarProperty name=.inherits;interpretation=;datatype=bool_t;arraysize=1;numsamps=250
+    ScalarProperty name=.ops;interpretation=;datatype=uint8_t;arraysize=1;numsamps=250
+    ScalarProperty name=.vals;interpretation=;datatype=float64_t[16];arraysize=16;numsamps=250
+    ScalarProperty name=visible;interpretation=;datatype=int8_t;arraysize=1;numsamps=250
+    Object name=/Cube/CubeShape
+    CompoundProperty name=.geom;schema=AbcGeom_PolyMesh_v1
+    ScalarProperty name=.selfBnds;interpretation=box;datatype=float64_t[6];arraysize=6;numsamps=1
+    ArrayProperty name=P;interpretation=point;datatype=float32_t[3];arraysize=8;numsamps=1
+    ArrayProperty name=.faceIndices;interpretation=;datatype=int32_t;arraysize=24;numsamps=1
+    ArrayProperty name=.faceCounts;interpretation=;datatype=int32_t;arraysize=6;numsamps=1
+    CompoundProperty name=.userProperties;schema=
+    ScalarProperty name=meshtype;interpretation=;datatype=bool_t;arraysize=1;numsamps=1
+    CompoundProperty name=.arbGeomParams;schema=
+    CompoundProperty name=uv;schema=
+    ArrayProperty name=.vals;interpretation=vector;datatype=float32_t[2];arraysize=14;numsamps=1
+    ArrayProperty name=.indices;interpretation=;datatype=uint32_t;arraysize=24;numsamps=1
+    ArrayProperty name=N;interpretation=normal;datatype=float32_t[3];arraysize=8;numsamps=1
+    ```
+
+- abcechobounds
+
+    .abc 파일 내부 바운딩 박스의 사이즈 크기를 반환하는 명령어 입니다.
+    ```
+    $ abcechobounds box.abc
+    ```
+
+    Output:
+    ```
+    /Cube/CubeShape (-1 -1 -1) (1 1 1)
+    / (-1 -1 -1) (1 1 1)
+    ```
+
+- abcls
+
+    .abc 파일 내부에 있는 오브젝트 이름을 반환합니다.
+    ```
+    $ abcls box.abc
+    ```
+
+    Output:
+    ```
+    Cube
+    ```
+
+- abcstitcher
+    
+    .abc 파일을 묶어서 하나의 .abc파일로 만들어줍니다.
+    ```
+    $ abcstitcher output.abc input1.abc input2.abc input3.abc ...
+    ```
+- abctree
+
+    .abc 파일의 구조를 Tree 형태로 그려주는 명령어 입니다.
+
+    ```
+    $ abctree box.abc
+    ```
+
+    Output:
+    ```
+    ABC
+        --Cube
+            --CubeShape
+    ```
+
 
 
 ## abc뷰어
