@@ -115,7 +115,7 @@ $ make help
 - abcstitcher
     
     각 프레임마다 연산된 .abc 파일을 묶어서 하나의 .abc파일로 만들어줍니다.
-    프레임영역이 겹치면 `ERROR: overlapping frame range between` 에러가 발생합니다.
+    프레임영역이 겹치면 `ERROR: overlapping frame range between` 에러가 발생합니다. 보통 개별로 bake된 시뮬레이션 파일을 합칠 때 자주 사용됩니다.
     ```
     $ abcstitcher output.abc input.0001.abc input.0002.abc input.0003.abc ...
     ```
