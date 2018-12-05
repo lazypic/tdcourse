@@ -31,7 +31,7 @@
 #### 내 용
 1. 강의 소개, 리눅스 설치
 	1. [Technical Director Course 소개](intro.md)
-	1. 개발자의 시선으로 바라보는 시장 흐름 : VFX, 애니메이션, 게임
+	1. [개발자의 시선으로 바라보는 시장 흐름 : VFX, 애니메이션, 게임](market.md)
 	1. [기업은 왜 리눅스를 사용하는가?](why_linux.md)
 	1. [Linux설치 - CentOS 7.5](install_centos.md)
 	1. 실습 : 설치이후 CentOS 둘러보기
@@ -162,6 +162,7 @@
 
 1. VFX에서 자주 사용되는 파일 : 편집데이터
 	1. [EDL](edl.md)
+	1. [OpenTimelineIO](https://opentimelineio.readthedocs.io/en/latest/)
 
 1. VFX에서 자주 사용되는 파일 : 쉐이더
 	1. [OpenShandingLanguage](osl.md)
@@ -169,6 +170,7 @@
 1. [VFX에서 자주 사용되는 설정파일](etc_files.md)
 
 1. VFX에서 자주 사용되는 파일 : 3D 데이터
+	1. [Obj](obj.md)
 	1. [Alembic](abc.md)
 	1. [USD](usd.md)
 
@@ -176,6 +178,7 @@
 	1. [OpenVDB](openvdb.md)
 
 1. 파이프라인툴 이야기 : Shotgun, Ftrack, Tactic, 인하우스툴
+
 1. [VFX Platform 소개](https://www.vfxplatform.com)
 	1. [gcc설치](install_gcc.md)
 	1. [pip 설치](pip.md)
