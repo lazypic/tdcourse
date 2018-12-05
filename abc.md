@@ -25,7 +25,8 @@ Alembic은 3D 데이터를 교환하기 위해서 만들어진 Framework입니�
 ## Alembic 컴파일하기
 소스코드 : https://github.com/alembic/alembic
 
-소스코드를 이용하여 Ogawa(기본값) 형식만 지원하도록 컴파일 하겠습니다. Ogawa 파일은 HDF5 보다 용량이 작고 더 빠르게 로드됩니다. HDF5는 예전에 abc에서 사용하던 방식입니다. IlmBase 라이브러리는 OpenEXR 컴파일 할 때 이미 진행했습니다.
+abc는 ogawa, hdf5 두가지 포멧을 지원합니다.
+교육의 편의성을 위해서 소스코드를 이용하여 Ogawa(기본값) 형식만 지원하도록 컴파일 하겠습니다. Ogawa 파일은 HDF5 보다 용량이 작고 더 빠르게 로드됩니다. HDF5는 예전에 abc에서 사용하던 방식입니다. IlmBase 라이브러리는 컴파일 중간에 사용되며 OpenEXR 컴파일 할 때 이미 생성한 데이터를 사용할 예정입니다.
 
 ```bash
 $ cd ~/app
