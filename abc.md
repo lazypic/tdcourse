@@ -15,6 +15,8 @@ Alembic은 3D 데이터를 교환하기 위해서 만들어진 Framework입니�
 
 ## abc를 지원하는 프로그램
 - Maya
+- Katana
+- Houdini
 - Nuke
 - 3dsmax
 - Blender
