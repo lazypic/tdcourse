@@ -2,13 +2,13 @@
 
 - git을 이용해서 OpenEXR 소스코드를 다운로드 합니다.
 ```
-$ git clone https://github.com/openexr/openexr
+$ git clone https://github.com/openexr/openexr openexr_src
 ```
 
 #### IlmBase 컴파일
 - 먼저 IlmBase 라이브러리를 컴파일 하겠습니다. IlmBase 폴더로 이동합니다.
 ```
-$ cd openexr/IlmBase
+$ cd openexr_src/IlmBase
 ```
 
 - configure 파일을 생성하기 위해서 bootstrap을 타이핑합니다.
@@ -18,7 +18,8 @@ $ ./bootstrap
 - bootstrap이 잘 실행되었다면, configure 파일이 생성됩니다.
 - configure 파일을 실행합니다. --prefix 옵션을 달아서 어디로 컴파일 할것인지 옵션을 설정하세요.
 ```
-./configure --prefix=/Users/woong/compiled/IlmBase
+$ scl enable devtoolset-6 bash
+$ ./configure --prefix=$HOME/app/IlmBase
 ```
 - make 명령을 이용해서 컴파일 합니다.
 ```
@@ -34,11 +35,11 @@ $ make install
 
 #### OpenEXR 컴파일
 - 위와 같은 방식으로 똑같이 OpenEXR 컴파일을 진행합니다.
-- prefix경로는 `/Users/woong/compiled/OpenEXR`로 변경했습니다.
+- prefix경로는 `~/app/OpenEXR`로 변경했습니다.
 ```
 $ cd openexr/OpenEXR
 $ ./bootstrap
-$ ./configure --prefix=/Users/woong/compiled/OpenEXR
+$ ./configure --prefix=$HOME/app/OpenEXR
 $ make
 $ make install
 ```
