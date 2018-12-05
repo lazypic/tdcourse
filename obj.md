@@ -3,6 +3,8 @@
 적은 용량의 3D 데이터를 저장할 때 오래된 포멧이긴 하지만 아직도 굉장히 인기있는 포멧입니다.
 
 ## 파일 분석
+![blender_box](https://user-images.githubusercontent.com/1149996/49495307-e7613580-f8a5-11e8-86dd-c578f77adf27.png)
+
 .obj 파일을 열면 아래와 같은 구조를 지닙니다.
 ```
 mtllib box.mtl
