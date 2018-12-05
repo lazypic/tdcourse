@@ -164,8 +164,7 @@
 1. VFX에서 자주 사용되는 파일 : 쉐이더
 	1. [OpenShandingLanguage](osl.md)
 
-1. VFX에서 자주 사용되는 파일 : 설정파일
-	1. [json](json.md), [xml](xml.md), [ini](ini.md)(예, Unreal설정파일)
+1. [VFX에서 자주 사용되는 설정파일](etc_files.md)
 
 1. VFX에서 자주 사용되는 파일 : 3D 데이터
 	1. [Alembic](abc.md)
