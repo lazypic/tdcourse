@@ -114,9 +114,10 @@ $ make help
 
 - abcstitcher
     
-    .abc 파일을 묶어서 하나의 .abc파일로 만들어줍니다.
+    각 프레임마다 연산된 .abc 파일을 묶어서 하나의 .abc파일로 만들어줍니다.
+    프레임영역이 겹치면 `ERROR: overlapping frame range between` 에러가 발생합니다.
     ```
-    $ abcstitcher output.abc input1.abc input2.abc input3.abc ...
+    $ abcstitcher output.abc input.0001.abc input.0002.abc input.0003.abc ...
     ```
 - abctree
 
