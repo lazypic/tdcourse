@@ -18,7 +18,8 @@
 
 ## 상용소프트웨어도 오픈소스 진형에서 사용하고 있는 전략중 장점들을 채용하여 취하고 있습니다.
 - 교육용 버전 또는 일정 해상도 작업까지는 무료화
-    - Nuke PLE 버전
+    - [Nuke PLE 버전](https://www.foundry.com/products/nuke/non-commercial)
+    - [Renderman Non-Commercial](https://renderman.pixar.com/intro)
     - [Houdini apprentice](https://www.sidefx.com/products/houdini-apprentice/)
 - 제품 출시 이후 일정 수익을 분배하는 구조
     - Unreal Engine
@@ -31,4 +32,4 @@
 
 ## Sass, 인하우스툴 -> 상용
 - 과거 인하우스로 제작되던 프로젝트 매니지먼트 툴들이 Sass서비스 형태로 변경. Shotgun 서비스
-- 뉴크, 마리, 카타나 같은 VFX회사 내부 인하우스 툴을 Foundry가 채택하여 시장에 배포하는 형태의 비즈니스 모델이 활성화
+- 뉴크, 마리, 카타나 같은 VFX회사 내부 인하우스 툴을 Foundry가 채택하여 시장에 배포하는 형태의 비즈니스 모델이 활성화.
