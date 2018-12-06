@@ -65,7 +65,8 @@ Windows10이 깔려있는 곳에 리눅스를 설치하는 것은 모팩아카�
 - 검색 -> 컴퓨터관리
 
 ## 그래픽카드 드라이버 셋팅
-강의실 그래픽 카드는 Nvidia Quadro M4000 입니다.
+- A클래스의 강의실 그래픽 카드는 Nvidia Quadro K2200 입니다.
+- B클래스의 강의실 그래픽 카드는 Nvidia Quadro M4000 입니다.
 
 ```
 yum update
