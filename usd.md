@@ -10,9 +10,14 @@ Universal Scene Description의 약자입니다.
 - 여러 툴을 이용해서 콘텐츠를 만들 수 있습니다.(아직 USD가 활발하게 모든 툴에 탑제 되려면 조금더 시간이 필요하긴 합니다.)
 - 여러 아티스트가 하나의 에셋을 작업할 수 있습니다.
 - 데이터 로딩시 소요되는 시간을 최소화할 수 있습니다.
-- 사용자가 커스텀하게 원하는 데이터를 추가할 수 있습니다.
+- 사용자가 커스텀하게 원하는 데이터를 추가할 수 있습니다.(굉장히 강력한 기능입니다.)
 
-https://graphics.pixar.com/usd/docs/index.html
+홈페이지 : https://graphics.pixar.com/usd/docs/index.html
+
+## 파일의 종류
+- .usd
+- .usda : 아스키 파일
+- .usdc : 바이너리 파일
 
 ## PyOpenGL 설치
 
@@ -30,13 +35,49 @@ $ python USD/build_scripts/build_usd.py ~/app/USD
 $ usdview extras/usd/tutorials/convertingLayerFormats/Sphere.usda
 ```
 
-## 설치
-https://github.com/PixarAnimationStudios/USD
+## 파일구조
+usd파일은 아래와 같은 형태를 가지고 있습니다.
 
-https://github.com/vfxpro99/usd-build-club
+```
+#usda 1.0
 
-https://github.com/vfxpro99/usd-build-club/tree/master/prerequisites-linux
+class "_class_Planet"
+{
+    bool has_life=False
+}
 
-https://github.com/meshula/mkvfx
+def Xform "SolarSystem"
+{
+    def "Earth" (
+        references = @./planet.usda@</Planet>
+    )
+    {
+        bool has_life = True
+        string color = "blue"
+    }
 
-https://graphics.pixar.com/usd/overview.html
+    def "Mars" (
+        references = @./plant.usda@</Plant>
+    )
+    {
+        string color = "red"
+    }
+
+    def "Saturn" (
+        references = @./plant.usda@</Plant>
+        variants = {
+            string rings = "with_rings"
+        }
+    )
+    {
+        string color = "beige"
+    }
+}
+```
+
+## Reference
+- https://github.com/PixarAnimationStudios/USD
+- https://github.com/vfxpro99/usd-build-club
+- https://github.com/vfxpro99/usd-build-club/tree/master/prerequisites-linux
+- https://github.com/meshula/mkvfx
+- https://graphics.pixar.com/usd/overview.html
