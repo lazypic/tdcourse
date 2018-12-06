@@ -180,7 +180,7 @@
 1. VFX에서 자주 사용되는 파일 : 볼륨데이터
 	1. [OpenVDB](openvdb.md)
 
-1. 파이프라인툴 이야기 : Shotgun, Ftrack, Tactic, 인하우스툴
+1. [파이프라인툴 이야기](pipeline_tools.md)
 
 1. [VFX Platform 소개](https://www.vfxplatform.com)
 	1. [gcc설치](install_gcc.md)
