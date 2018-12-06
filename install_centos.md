@@ -46,7 +46,19 @@ $ diskutil eject /dev/disk2
 Disk /dev/disk2 ejected
 ```
 
-#### 멀티부팅 with Windows
+## 멀티부팅 with Windows
+#### Windows10 설치
+이미 강의실에는 Windows10이 설치되어 있습니다.
+Windows10이 깔려있는 곳에 리눅스를 설치하는 것은 모팩아카데미와 측에서 권장하지 않습니다.
+하드디스크를 하나 준비하여 시스템에 붙히고 리눅스를 설치하기로 했습니다.
+
+#### CentOS 설치
+- 준비물 : 하드디스크, CentOS 이미지를 준비합니다.
+
+#### Grub2 설정
+
+
+#### Reference
 - http://thrillfighter.tistory.com/618
 - http://eeingee.tistory.com/1
 - 검색 -> 컴퓨터관리
