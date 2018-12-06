@@ -212,7 +212,6 @@
 	1. ptex 컴파일 : https://github.com/wdas/ptex
 	1. intel TBB : http://m.cafe.daum.net/betterspeed/8V7A/3?q=D_jDGwPlH16FY0&
 	1. intel Math Kernel Library : https://software.intel.com/en-us/mkl
-	1. OpenVDB 컴파일
 	1. OpenSubdiv : http://graphics.pixar.com/opensubdiv/docs/intro.html
 
 1. 뉴크를 개발하기전에 알아야할 기본지식
@@ -242,10 +241,7 @@
 
 1. Nuke Command line
 	1. 실습 : Nuke Command line Rendering & Python
-	1. Render management Tools 소개
-		1. Tractor : https://renderman.pixar.com/tractor
-		1. Deadline : https://deadline.thinkboxsoftware.com/
-		1. Flamenco : https://github.com/armadillica/flamenco
+	1. [Render management Tools 소개](render_management_tools.md)
 
 1. 메뉴, 뷰어 설정
 	1. 뉴크 메뉴생성
