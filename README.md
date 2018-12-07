@@ -56,7 +56,6 @@
 1. 에디터, 유틸리티 설치
 	1. [vim 소개](vim.md)
 	1. [에디터 추천](editor.md)
-	1. 실습 : Vim관련 자료, 다른 기능들을 탐구해보자.
 	1. 실습 : Thunderbird 설치
 	1. 실습 : LibreOffice 설치
 	1. 실습 : 크롬설치 https://blog.bypass.sh/961
@@ -180,6 +179,8 @@
 
 1. [파이프라인툴 이야기](pipeline_tools.md)
 
+1. [파이썬을 이용해서 엑셀파일 읽기, 쓰기](excel_python.md)
+
 1. [VFX Platform 소개](vfx_platform.md)
 
 1. GUI제작-1
@@ -190,8 +191,6 @@
 	1. [Qt Designer 설치](qt_designer.md)
 	1. [Qt Designer로 GUI 제작하기](gen_qt_designer_gui.md)
 	1. [.ui 파일과 python의 연동](load_ui_from_python.md)
-
-1. [파이썬을 이용해서 엑셀파일 읽기, 쓰기](excel_python.md)
 
 1. [DB의 종류. 사용되는 예](db.md)
 	1. [MySQL 설치](install_mysql.md)
