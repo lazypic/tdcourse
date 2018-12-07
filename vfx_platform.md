@@ -1,7 +1,6 @@
 # VFX Reference Platform
-VFX Reference Platform은 제안서입니다.
 VFX 시장에서 툴과 라이브러리를 제작할 때 수많은 언어, 라이브러리를 사용합니다.
-회사, 개발자들이 언어, 라이브러리의 버전을 약속하여 사용는 일종의 제안서라고 생각하세요.
+회사, 개발자들이 언어, 라이브러리의 버전을 약속하기 위한 제안규칙이라고 생각해주세요.
 
 이런 작업을 하는 이유
 - 다른 소프트웨어들 끼리 호환되지 않는 문제를 최소화
@@ -55,6 +54,11 @@ devtoolset-6의 설치 위치는 `/opt/rh/devtoolset-6` 입니다.
 
 ## Glibc
 The GNU C Library 입니다. VFX Reference Platform 권장버전은 2.17입니다.
+
+#### 설치
+```
+# yum install glibc
+```
 
 리눅스에서 버전을 확인하는 방법
 ```
@@ -165,7 +169,8 @@ int main()
 }
 ```
 
-실행하기 CentOS7.5 기본 Boost는 1.53입니다.
+윜 코드를 컴파일하고 실행하는 방법은 아래와 같습니다. CentOS7.5 기본 Boost는 1.53입니다.
+
 ```bash
 $ g++ boost.cpp
 $ ./a.out
