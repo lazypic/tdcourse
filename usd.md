@@ -101,6 +101,17 @@ def Xform "SolarSystem"
 }
 ```
 
+```
+#usda 1.0
+
+def Cube "Box"
+{
+    float3 xformOp:scale = (5, 5, 5)
+    uniform token[] xformOpOrder = ["xformOp:scale"]
+}
+```
+
+
 ## Reference
 - https://github.com/PixarAnimationStudios/USD
 - https://github.com/vfxpro99/usd-build-club

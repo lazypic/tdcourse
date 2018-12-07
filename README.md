@@ -181,16 +181,13 @@
 1. [파이프라인툴 이야기](pipeline_tools.md)
 
 1. [VFX Platform 소개](vfx_platform.md)
-	1. [gcc설치](install_gcc.md)
-	1. [pip 설치](pip.md)
-	1. [Pyside2 설치](pyside2.md)
-	1. [Qt Designer 설치](qt_designer.md)
 
 1. GUI제작-1
 	1. [간단한 GUI : zenity](zenity.md)
 	1. [python Pyside2를 이용한 기초 GUI 제작](pyside2_gui.md)
 
 1. GUI제작-2
+	1. [Qt Designer 설치](qt_designer.md)
 	1. [Qt Designer로 GUI 제작하기](gen_qt_designer_gui.md)
 	1. [.ui 파일과 python의 연동](load_ui_from_python.md)
 
@@ -207,10 +204,7 @@
 	1. Redis PythonAPI 실습
 
 1. VFX와 관련된 라이브러리
-	1. ptex 컴파일 : https://github.com/wdas/ptex
-	1. intel TBB : http://m.cafe.daum.net/betterspeed/8V7A/3?q=D_jDGwPlH16FY0&
-	1. intel Math Kernel Library : https://software.intel.com/en-us/mkl
-	1. OpenSubdiv : http://graphics.pixar.com/opensubdiv/docs/intro.html
+	
 
 1. 뉴크를 개발하기전에 알아야할 기본지식
 	1. https://community.foundry.com/discuss/forum/191/nuke-dev
