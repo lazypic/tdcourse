@@ -8,6 +8,8 @@
 ## USB 만들기
 
 #### .iso to USB (windows)
+![rufus](https://user-images.githubusercontent.com/1149996/49558884-04524300-f950-11e8-833e-2b9e6d7a1fce.png)
+
 - https://rufus.ie/ko_KR.html
 
 #### .iso to USB (macOS)
