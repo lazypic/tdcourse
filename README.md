@@ -184,6 +184,7 @@
 1. [VFX Platform 소개](vfx_platform.md)
 
 1. GUI제작-1
+	1. [GUI 솔루션](gui_solution.md)
 	1. [간단한 GUI : zenity](zenity.md)
 	1. [python Pyside2를 이용한 기초 GUI 제작](pyside2_gui.md)
 
