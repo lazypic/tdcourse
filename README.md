@@ -203,9 +203,6 @@
 	1. [Redis 설치](install_redis.md)
 	1. Redis PythonAPI 실습
 
-1. VFX와 관련된 라이브러리
-	
-
 1. 뉴크를 개발하기전에 알아야할 기본지식
 	1. https://community.foundry.com/discuss/forum/191/nuke-dev
 	1. https://www.foundry.com/products/nuke/developers
