@@ -216,7 +216,7 @@
 	1. [NUKE_PATH 연결](nuke_path.md)
 	1. [.nuke설정](dot_nuke.md)
 	1. init.py, menu.py 생성
-	1. 폴더 구조생성 : lib, python, gizmo, images, lut
+	1. 폴더 구조생성 : lib, scripts, gizmo, images, luts
 
 1. Nukepedia 사이트 소개 : http://www.nukepedia.com/
 	1. 실습 : nukepedia 가입 및 살펴보기
@@ -226,13 +226,13 @@
 	1. 뉴크 익스프레션
 	1. 뉴크 Text 노드에서 자주 사용되는 익스프레션
 	1. [TCL](https://www.tcl.tk/)
-	1. Gizmo knob 생성
+	1. Gizmo Knob 생성
 	1. Nuke Gizmo : Slate제작
 	1. Nuke Gizmo : Timecode 뷰어
 
 1. Nuke Command line
 	1. [Nuke Command line Rendering](nuke_cmd.md)
-	1. [Render management Tools 소개](render_management_tools.md)
+	1. [Render Management Tools 소개](render_management_tools.md)
 
 1. 메뉴, 뷰어 설정
 	1. 뉴크 메뉴생성
@@ -255,7 +255,11 @@
 
 1. Python으로 노드짜기
 	1. 예제 : 뉴크 내부에서 Pyside2를 이용해서 스크립트 제작
-	1. 다른 개발방법들 : blink, NDK, OFX(OpenFX)
+
+1. 다른 개발방법들
+	1. blink
+	1. NDK
+	1. OFX(OpenFX)
 
 1. 포트폴리오 준비 1
 	1. 개인 포트폴리오 홈페이지 제작을 위한 github.io 소개
