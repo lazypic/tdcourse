@@ -118,6 +118,8 @@
 	1. [Player](player.md)
 	1. [동영상 포멧과 Codec](format_codec.md)
 
+1. 파이썬 기초를 다룰지 학생들과 토론하기
+
 1. 파일변환 유틸리티
 	1. [파일 변환 유틸리티](convert_util.md)
 	1. [ImageMagick](imagemagick.md)
@@ -229,7 +231,7 @@
 	1. Nuke Gizmo : Timecode 뷰어
 
 1. Nuke Command line
-	1. 실습 : Nuke Command line Rendering & Python
+	1. [Nuke Command line Rendering](nuke_cmd.md)
 	1. [Render management Tools 소개](render_management_tools.md)
 
 1. 메뉴, 뷰어 설정
