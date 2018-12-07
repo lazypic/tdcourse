@@ -24,7 +24,8 @@ $ cat /sys/class/net/*/address
 00:00:00:00:00:00
 ```
 
-## 라이센스 셋팅
+## 노드락 라이센스 셋팅
+Foundry License Utility(FLU)를 다운로드 받습니다.
 - https://www.foundry.com/licensing?_ga=2.38553443.1364747009.1544115508-920726775.1531228820
 
 ```bash
@@ -39,7 +40,7 @@ System ID : 001f162056e0 #mac address가 출력됩니다. 이 정보를 벤더�
 라이센스 파일 설치
 
 ```
-$ ./FoundryLicenseUtility -l licensefile.lic
+$ ./FoundryLicenseUtility -l foundry.lic
 ```
 
-라이센스 
+뉴크를 실행해 봅니다.
