@@ -23,3 +23,23 @@ $ cat /sys/class/net/*/address
 52:54:00:17:16:e9
 00:00:00:00:00:00
 ```
+
+## 라이센스 셋팅
+- https://www.foundry.com/licensing?_ga=2.38553443.1364747009.1544115508-920726775.1531228820
+
+```bash
+$ cd ~/app
+$ wget https://s3.amazonaws.com/thefoundry/tools/FLT/7.3v2/FLT7.3v2-linux-x86-release-64.tgz
+$ tar -xvf FLT7.3v2-linux-x86-release-64.tgz
+$ cd FLT_7.3v2_linux-x86-release-64RH
+$ ./FoundryLicenseUtility -i
+System ID : 001f162056e0 #mac address가 출력됩니다. 이 정보를 벤더사에 보내주세요.
+```
+
+라이센스 파일 설치
+
+```
+$ ./FoundryLicenseUtility -l licensefile.lic
+```
+
+라이센스 
