@@ -180,7 +180,7 @@
 
 1. [파이프라인툴 이야기](pipeline_tools.md)
 
-1. [VFX Platform 소개](https://www.vfxplatform.com)
+1. [VFX Platform 소개](vfx_platform.md)
 	1. [gcc설치](install_gcc.md)
 	1. [pip 설치](pip.md)
 	1. [Pyside2 설치](pyside2.md)
