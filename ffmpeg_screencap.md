@@ -10,4 +10,4 @@ ffmpeg가 잘 설치되어있다면, 아래명령어를 실행해주세요.
 $ ffmpeg -framerate 24 -s 1280x800 -f x11grab -i 0.0 ~/desktop_$(date +%Y%m%dT%H%M%S).mp4
 ```
 
-자주 사용한다면 alias 를 등록하여 사용하면 더욱 편리하게 사용할 수 있습니다.
+자주 사용한다면 .bashrc 설정파일에 alias 를 등록하여 사용하면 더욱 편리하게 사용할 수 있습니다.
