@@ -2,7 +2,7 @@
 
 #### Info
 - 장 소 : [mofacacademy](https://www.mofacacademy.com)
-- 인 원 : 동국대 면접을 통한 인원모집
+- 인 원 : 동국대 학생 면접을 통한 인원모집
 - 면 접 : 2018. 12. 11~12
 - 기 간 : 18.12.28 ~ 19.2.27 
 - 시 간 : 월 ~ 금
@@ -244,19 +244,19 @@
 	1. 예제 : 뉴크 내부에서 Pyside2를 이용해서 스크립트 제작
 
 1. 다른 개발방법들
-	1. blink
-	1. NDK
-	1. OFX(OpenFX)
+	1. [Blink](blink.md)
+	1. [NDK](ndk.md)
+	1. [OFX(OpenFX)](openfx.md)
 
 1. 포트폴리오 준비 1
-	1. [개인 포트폴리오 홈페이지 제작을 위한 github.io 소개](github_io.md)
 	1. [ffmpeg 명령어를 이용해서 개발내용 스크린 캡쳐](ffmpeg_screencap.md)
+	1. [개인 포트폴리오 홈페이지 제작을 위한 github.io 소개](github_io.md)
 	1. 실습 : github.io를 통한 자신의 포트폴리오 사이트 제작
 	1. 실습 : [linkedin](https://www.linkedin.com) 가입 / 작성
 
 1. 포트폴리오 준비 2
 	1. 남은 8시간은 하루동안 기존에 배운것들을 천천히 정리하는 시간입니다.
 	1. 기술지원, 멘토링
-	1. github를 이용한 포트폴리오 제작
+	1. github를 이용한 포트폴리오 제작. README 작성.
 	1. 기술공유, 정보나눔
 	1. 종 강
