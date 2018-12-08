@@ -17,3 +17,22 @@ $ top
 - h : help
 - j : 오른쪽 정렬
 - z : color mode
+
+
+### Tracker-Extract
+CentOS에는 Tracker라는 데몬이 돌고 있습니다.
+이 프로그램의 역할은 파일을 어디에 두었던지 상관없이 잘 찾기 위해서 인덱싱, 메타데이터들을 분석하는 툴입니다. 문제는 저사양의 노트북에서 이 서비스가 CPU를 많이 먹는다는 것에 있습니다.
+
+강제로 끄는 법은 아래과 같습니다.
+
+아래 명령어를 터미널에 붙혀넣기 하고 Enter를 치세요.
+```
+tracker daemon -t
+cd ~/.config/autostart
+cp -v /etc/xdg/autostart/tracker-* ./
+for FILE in `ls`; do echo Hidden=true >> $FILE; done
+rm -rf ~/.cache/tracker ~/.local/share/tracker
+```
+
+#### Reference
+- https://gist.github.com/vancluever/d34b41eb77e6d077887c
