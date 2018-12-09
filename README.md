@@ -52,7 +52,7 @@
 	1. [yum](yum.md)
 	1. 실습 : 재미있는 명령어를 설치해보자. https://www.binarytides.com/linux-fun-commands/
 	1. [pip](pip.md) 설치
-	1. NumPy 설치
+	1. [NumPy 설치](numpy.md)
 
 1. 유용한 시스템 명령어
 	1. [crontab](crontab.md)
