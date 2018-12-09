@@ -14,7 +14,7 @@
 - 강의실 : 모집인원에 따라서 강의실이 결정됨.
 	- A클래스 : 15석
 	- B클래스 : 20석
-- 문 의 : hello@lazypic.org
+- 문 의 : 김한웅 / hello@lazypic.org
 - 강의실 시스템 엔지니어 : 김태진 차장 / 010-7794-3111
 
 ## 내 용
@@ -43,8 +43,6 @@
 1. 에디터, 유틸리티 설치
 	1. [vim 소개](docs/vim.md)
 	1. [에디터 추천](docs/editor.md)
-	1. 실습 : Thunderbird 설치
-	1. 실습 : LibreOffice 설치
 	1. 실습 : 크롬설치 https://blog.bypass.sh/961
 	1. [CentOS Beep 사운드 제거](docs/soundoff.md)
 
@@ -235,7 +233,7 @@
 1. 인아웃 셋팅
 	1. [Read 노드에서 정보 가지고 오기](docs/get_readnode_info.md)
 	1. [Write노드 생성 스크립트 제작](docs/gen_writenode.md)
-	1. .nk 파일에서 아스키 정보를 이용해서 소스 가지고 오기.
+	1. .nk 파일에서 소스정보를 가지고 오는 방법.
 
 1. 자주 사용하는 플러그인 설치해보기
 	1. [크립토매트 설치해보기](docs/cryptomatte.md)

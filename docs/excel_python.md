@@ -4,6 +4,9 @@
 
 따라서 일반적으로 프로젝트 매니징 파이프라인툴은 .xlex, .csv 파일등을 지원하는 것이 필수가 되었습니다.
 
+## LibreOffice 설치
+리눅스에서는 Excel대신 LibreOffice를 많이 사용합니다.
+
 ## 지원 예
 - Shotgun : https://support.shotgunsoftware.com/hc/en-us/articles/219031188-How-to-import-an-existing-bid-sheet-to-create-Shots-and-Tasks
 - Ftrack : https://www.youtube.com/watch?v=DBQvcj--1KM
