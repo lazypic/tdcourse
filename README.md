@@ -1,6 +1,6 @@
 # curriculum
 
-#### Info
+## Info
 - 장 소 : [mofacacademy](https://www.mofacacademy.com)
 - 인 원 : 동국대 학생 면접을 통한 인원모집
 - 면 접 : 2018. 12. 11~12
@@ -17,7 +17,7 @@
 - 문 의 : hello@lazypic.org
 - 강의실 시스템 엔지니어 : 김태진 차장 / 010-7794-3111
 
-#### 내 용
+## 내 용
 1. 강의 소개, 리눅스 설치
 	1. [Technical Director Course 소개](intro.md)
 	1. [개발자의 시선으로 바라보는 시장 흐름 : VFX, 애니메이션, 게임](market.md)
@@ -243,10 +243,10 @@
 1. Python으로 노드짜기
 	1. 예제 : 뉴크 내부에서 Pyside2를 이용해서 스크립트 제작
 
-1. 다른 개발방법들
+1. 뉴크에서 활용가능한 다른 개발방법들
+	1. [OFX(OpenFX)](openfx.md)
 	1. [Blink](blink.md)
 	1. [NDK](ndk.md)
-	1. [OFX(OpenFX)](openfx.md)
 
 1. 포트폴리오 준비 1
 	1. [ffmpeg 명령어를 이용해서 개발내용 스크린 캡쳐](ffmpeg_screencap.md)
@@ -258,5 +258,5 @@
 	1. 남은 8시간은 하루동안 기존에 배운것들을 천천히 정리하는 시간입니다.
 	1. 기술지원, 멘토링
 	1. github를 이용한 포트폴리오 제작. README 작성.
-	1. 기술공유, 정보나눔
+	1. 기술공유, 추후 정보를 나눌 채널, 이슈정리 약속 정하기
 	1. 종 강
