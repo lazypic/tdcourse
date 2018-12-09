@@ -4,7 +4,11 @@
 
 ![fortran](https://image.slidesharecdn.com/20161030pythonatwarpspeed-4zu3-161115155137/95/python-at-warp-speed-13-638.jpg?cb=1479225194)
 
-우리가 사용하는 라이브러리, 프로그램 내부에서 Numpy를 자주 사용합니다. 설치해줍니다.
+우리가 사용하는 라이브러리, 프로그램 내부에서 Numpy를 접하기도 하고 자주 사용됩니다. 설치해줍니다.
+
+## 설치방법
+
+먼저 [pip를 설치](pip.md)합니다.
 
 ```
 # pip install numpy
