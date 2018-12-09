@@ -14,7 +14,7 @@
 - 셋팅방법 : https://github.com/mgskorea/tractor
 
 ## Deadline
-![deadline](http://www.thinkboxsoftware.com/storage/deadline-8-monitor-with-limits.png?__SQUARESPACE_CACHEVERSION=1461082082107)
+![deadline_img](figures/deadline.png)
 - 홈페이지 : https://deadline.thinkboxsoftware.com/
 
 ## Flamenco

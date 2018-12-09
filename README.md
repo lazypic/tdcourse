@@ -49,16 +49,16 @@
 	1. [CentOS Beep 사운드 제거](soundoff.md)
 
 1. 설치 유틸리티
-	1. [yum](yum.md)
+	1. [yum](yum.md) 설치
 	1. 실습 : 재미있는 명령어를 설치해보자. https://www.binarytides.com/linux-fun-commands/
 	1. [pip](pip.md) 설치
-	1. NumPy 설치
+	1. [NumPy](numpy.md) 설치
 
 1. 유용한 시스템 명령어
 	1. [crontab](crontab.md)
 	1. [notify](notify.md)
 	1. [top](top.md)
-	1. [man](man.md) : https://unix.stackexchange.com/questions/3586/what-do-the-numbers-in-a-man-page-mean
+	1. [man](man.md)
 
 1. 서비스와 데몬
 	1. [Daemon](daemon.md)
@@ -130,6 +130,7 @@
 	1. [우리가 프로그래밍으로 하는 대부분의 일](add_set_rm_get.md)
 	1. [파이프라인의 기본 Input, Output](input_output.md)
 	1. [Standard Streams](standard_streams.md)
+	1. [Python argv 처리](python_argv.md)
 	1. [Python Test코드 작성하기](python_testcode.md)
 	1. [바이너리와 아스키](binary_ascii.md)
 
@@ -151,7 +152,7 @@
 
 1. VFX에서 자주 사용되는 파일 : 편집데이터
 	1. [EDL](edl.md)
-	1. [OpenTimelineIO](https://opentimelineio.readthedocs.io/en/latest/)
+	1. [OpenTimelineIO](opentimelineio.md)
 
 1. VFX에서 자주 사용되는 파일 : 쉐이더
 	1. [OpenShandingLanguage](osl.md)
@@ -195,48 +196,50 @@
 1. 뉴크를 개발하기전에 알아야할 기본지식
 	1. https://community.foundry.com/discuss/forum/191/nuke-dev
 	1. https://www.foundry.com/products/nuke/developers
-	1. 뉴크에서 파이썬창을 띄우는 방법
-	1. 뉴크 내부에서 사용하는 파이썬 버전을 확인하기
-	1. 뉴크 버전관리
+	1. [뉴크에서 파이썬창을 띄우는 방법](python_in_nuke.md)
+	1. [뉴크 내부에서 사용하는 파이썬 버전을 확인하기](check_py_ver_in_nuke.md)
+	1. [뉴크 버전관리](managing_nukever.md)
 
 1. Nuke 셋팅을 위한 Repository 생성
 	1. [NUKE_PATH 연결](nuke_path.md)
 	1. [.nuke설정](dot_nuke.md)
-	1. init.py, menu.py 생성
-	1. 폴더 구조생성 : lib, scripts, gizmo, images, luts
+	1. [init.py, menu.py 생성](set_init_menu_py.md)
+	1. [폴더 구조생성](set_assets_dir.md) : lib, scripts, gizmo, images, luts
+
+1. 기즈모 제작
+	1. [뉴크 익스프레션](nuke_exp.md)
+	1. [뉴크 Text 노드에서 자주 사용되는 익스프레션](nuke_text_exp.md)
+	1. [TCL](tcl.md)
+	1. [Gizmo Knob 생성](gen_knob.md)
+	1. [Nuke Gizmo : Slate제작](gen_slate_gizmo.md)
+	1. [Nuke Gizmo : Timecode 뷰어](gen_timecode_gizmo.md)
 
 1. Nukepedia 사이트 소개 : http://www.nukepedia.com/
 	1. 실습 : nukepedia 가입 및 살펴보기
-	1. 플러그인 설치해보기
-
-1. 기즈모 제작
-	1. 뉴크 익스프레션
-	1. 뉴크 Text 노드에서 자주 사용되는 익스프레션
-	1. [TCL](https://www.tcl.tk/)
-	1. Gizmo Knob 생성
-	1. Nuke Gizmo : Slate제작
-	1. Nuke Gizmo : Timecode 뷰어
+	1. 플러그인 설치 / 우리가 만든 슬레이트와 비교 : http://www.nukepedia.com/gizmos/draw/burnin
+	1. http://www.nukepedia.com/gizmos/filter/aberration_jb
+	1. Bridge : http://www.nukepedia.com/nubridge
 
 1. Nuke Command line
 	1. [Nuke Command line Rendering](nuke_cmd.md)
 	1. [Render Management Tools 소개](render_management_tools.md)
 
 1. 메뉴, 뷰어 설정
-	1. 뉴크 메뉴생성
-	1. 뉴크 단축키 설정
-	1. 아이콘 넣기
+	1. [뉴크 메뉴생성](create_menu.md)
+	1. [뉴크 단축키 설정](nuke_hotkey.md)
+	1. [아이콘 넣기](set_icon.md)
 	1. LUT 설정
-		1. Alexa lut 다운로드
-		1. Viewport에 lut 넣기
+		1. [Arri Alexa lut 다운로드](download_arri_lut.md)
+		1. [Viewport LUT 설정](set_viewlut_in_nuke.md)
 
 1. 인아웃 셋팅
-	1. Read 노드에서 정보 가지고 오기
-	1. Write노드 생성 스크립트 제작
+	1. [Read 노드에서 정보 가지고 오기](get_readnode_info.md)
+	1. [Write노드 생성 스크립트 제작](gen_writenode.md)
 	1. .nk 파일에서 아스키 정보를 이용해서 소스 가지고 오기.
 
 1. 자주 사용하는 플러그인 설치해보기
-	1. 크립토매트 설치해보기
-	1. 타팀에서 사용하는 플러그인 셋팅. 예)3DE
+	1. [크립토매트 설치해보기](cryptomatte.md)
+	1. [타팀에서 사용하는 플러그인 셋팅](set_other_plugins.md)
 
 1. 노드로 폴더를 여는 스크립트 제작
 
