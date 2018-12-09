@@ -12,7 +12,7 @@ Script Editor를 띄워서 Python 코드를 테스트 할 수 있습니다.
 
 시간을 들여서 프로그래밍 해야하는 상황에서 에디터를 이용해서 프로그래밍 하는것을 추천합니다.
 
-![nuke_python_menu](figures/nuke_python_menu.png)
+![nuke_python_menu](../figures/nuke_python_menu.png)
 
 파이썬 코드를 Script Editor 에서 작성할 수 있습니다.
 

@@ -5,11 +5,11 @@ QT Designer를 이용해서 .ui를 만들고 Python 코드에서 로드하여 �
 
 QT Designer에서 기본 Dialog 양식으로 파일을 시작합니다.
 
-![qtdesigner_basic_dialog](figures/basic_dialog.png)
+![qtdesigner_basic_dialog](../figures/basic_dialog.png)
 
 test.ui로 파일을 저장해주세요. 
 
-같은 경로에 아래처럼 파이썬을 작성하세요.
+같은 경로에 아래처럼 파이썬 예제를 작성해주세요.
 
 ```python
 import sys  

@@ -2,7 +2,7 @@
 텍스트 노드에서도 뉴크 익스프레션을 사용할 수 있습니다.
 Text노드에서 자주 사용되는 익스프레션을 실습해 보겠습니다.
 
-![text_message](figures/text_message.png)
+![text_message](../figures/text_message.png)
 
 프레임 표기
 ```
