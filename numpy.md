@@ -13,3 +13,11 @@
 ```
 # pip install numpy
 ```
+
+#### Reference
+그래프에 보면 Cython의 퍼포먼스가 더 좋다는 것을 알 수 있습니다. 여러분의 파이썬 코드를 cython을 이용해서 .so 파일로  컴파일하면 속도를 올릴 수 있습니다. 만약 Cython도 추후 설치하고 싶다면, 아래처럼 설치해주세요.
+
+```
+# pip install Cython
+```
+- https://cython.readthedocs.io/en/latest/src/tutorial/cython_tutorial.html
