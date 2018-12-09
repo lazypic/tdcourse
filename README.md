@@ -193,7 +193,7 @@
 	1. [Redis 설치](install_redis.md)
 	1. Redis PythonAPI 실습
 
-1. 뉴크를 개발하기전에 알아야할 기본지식
+1. The foundry Nuke를 알아보는 시간.
 	1. https://community.foundry.com/discuss/forum/191/nuke-dev
 	1. https://www.foundry.com/products/nuke/developers
 	1. [뉴크에서 파이썬창을 띄우는 방법](python_in_nuke.md)
