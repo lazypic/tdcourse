@@ -66,7 +66,7 @@
 1. [Linux 폴더구조](docs/foldertree.md)
 
 1. 뉴크 설치
-	1. 실습 : 뉴크 설치
+	1. 실습 : [뉴크 설치](docs/install_nuke.md)
 	1. [라이센스 셋팅](docs/license.md)
 
 1. 쉘 스크립트
@@ -242,15 +242,15 @@
 	1. [Blink](docs/blink.md)
 	1. [NDK](docs/ndk.md)
 
-1. 포트폴리오 준비 1
+1. 포트폴리오 준비
 	1. [ffmpeg 명령어를 이용해서 개발내용 스크린 캡쳐](docs/ffmpeg_screencap.md)
 	1. [개인 포트폴리오 홈페이지 제작을 위한 github.io 소개](docs/github_io.md)
 	1. 실습 : github.io를 통한 자신의 포트폴리오 사이트 제작
 	1. 실습 : [linkedin](https://www.linkedin.com) 가입 / 작성
 
-1. 포트폴리오 준비 2
+1. 포트폴리오 진행
 	1. 남은 8시간은 하루동안 기존에 배운것들을 천천히 정리하는 시간입니다.
 	1. 기술지원, 멘토링
 	1. github를 이용한 포트폴리오 제작. README 작성.
 	1. 기술공유, 추후 정보를 나눌 채널, 이슈정리 약속 정하기
-	1. 종 강
+	
