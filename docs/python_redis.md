@@ -31,7 +31,7 @@ print(value)
 import redis
 r = redis.Redis(host='192.168.219.105',port=6379)
 r.set('count',0)
-r.incr('count') #+1
+r.incr('count') # count += 1
 print(r.get('count'))
 ```
 

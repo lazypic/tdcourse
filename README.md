@@ -185,7 +185,7 @@
 	1. [MySQL 설치](docs/install_mysql.md)
 	1. MySQL PythonAPI 실습
 	1. [PostrgreSQL 설치](docs/install_postrgresql.md)
-	1. PostrgreSQL PythonAPI 실습
+	1. [PostrgreSQL PythonAPI 실습](docs/python_postrgresql.md)
 	1. [MongoDB 설치](docs/install_mongodb.md)
 	1. [MongoDB PythonAPI 실습](docs/pymongo.md)
 	1. [Redis 설치](docs/install_redis.md)
