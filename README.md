@@ -181,9 +181,7 @@
 	1. [Qt Designer로 GUI 제작하기](docs/gen_qt_designer_gui.md)
 	1. [.ui 파일과 python의 연동](docs/load_ui_from_python.md)
 
-1. [DB의 종류. 사용되는 예](docs/db.md)
-	1. [MySQL 설치](docs/install_mysql.md)
-	1. MySQL PythonAPI 실습
+1. [DB의 종류](docs/db.md)
 	1. [PostrgreSQL 설치](docs/install_postrgresql.md)
 	1. [PostrgreSQL PythonAPI 실습](docs/python_postrgresql.md)
 	1. [MongoDB 설치](docs/install_mongodb.md)
@@ -200,7 +198,6 @@
 
 1. Nuke 셋팅을 위한 Repository 생성
 	1. [NUKE_PATH 연결](docs/nuke_path.md)
-	1. [.nuke설정](docs/dot_nuke.md)
 	1. [init.py, menu.py 생성](docs/set_init_menu_py.md)
 	1. [폴더 구조생성](docs/set_assets_dir.md)
 

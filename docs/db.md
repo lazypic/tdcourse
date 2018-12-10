@@ -16,6 +16,7 @@
 
 ## MySQL
 - 사용툴 : [Ftrack](https://help.ftrack.com/administering-ftrack/on-prem/handling-backups)
+- 사용이 PostrgreSQL과 같습니다. 따로 테스트하지 않습니다.
 
 ## MongoDB
 collection, documents 베이스의 NoSQL입니다. 문서는 json으로 저장됩니다.
