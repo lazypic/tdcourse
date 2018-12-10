@@ -83,7 +83,7 @@
 
 1. 팀규모의 에디터 셋팅
 	1. [에디터](docs/editor.md)
-	1. 토론 : 이 강의실의 모든 사람이 같이 사용할 에디터를 리서치하기. 왜 그 에디터를 사용해야하는지 이유도 설명하기.
+	1. 토론 : 이 강의실의 모든 사람이 같이 사용할 에디터를 리서치하기. 왜 그 에디터를 사용해야하는지 작은 이유도 같은 설명하기.
 	1. 토론 : 모두가 사용할 에디터 선정회의
 
 1. [버전관리의 중요성](docs/version_control_system.md)
@@ -94,7 +94,7 @@
 	1. 토론 : Github 가입, 학생들의 Github ID 공유하기
 	1. 모두 같은 에디터를 사용하고 설정을 공유하는 리포지터리 제작
 
-1. Git, Readme 작성을 위한 [Markdown 문법배우기](https://guides.github.com/features/mastering-markdown/)
+1. Git, Readme 작성을 위한 [Markdown 문법배우기](docs/markdown.md)
 	1. [Git 협업방식 설명](docs/github_collaboration.md)
 	1. 실습 : Git 협업모델 테스트
 	1. [이슈, Pull Request 상태에서의 토론](docs/discussion.md)
