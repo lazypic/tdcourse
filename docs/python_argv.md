@@ -34,7 +34,7 @@ parser.add_argument("-t", "--task", help="task name")
 args = parser.parse_args()
 ```
 
-인수 출력하기
+인수 출력하는 코드 추가
 ```python
 print(args.project)
 print(args.shot)
@@ -42,14 +42,13 @@ print(args.user)
 print(args.task)
 ```
 
-도움말 출력
-```
+터미널에서 도움말 출력
+```bash
 $ python info.py -h
 ```
 
-테스트 입력
-
-```
+터미널에서 인수 테스트
+```bash
 $ python info.py -p circle -t comp -u woong -s FOO_0010
 ```
 
