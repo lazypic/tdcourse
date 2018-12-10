@@ -1,9 +1,13 @@
 # install CentOS
-- centOS 이미지를 다운로드 받습니다.
+CentOS7.5를 설치해보겠습니다.
+
+## 이미지 다운로드
+- CentOS 이미지를 다운로드 받습니다.
 - https://www.centos.org/download/
 - CentOS를 사용하는 이유 : https://www.foundry.com/products/nuke/requirements
 - 강의실에서는 다른 수업의 경우 윈도우로 진행하기 때문에 리눅스 설치시 멀티 부팅을 할 수 있도록 설치합니다.
-- 강의실 Root 패스워드는 추후 관리를 위해서 `I'm_groot!`로 통일해주세요.
+- 강의실 Root 패스워드는 추후 관리를 위해서 `I'm_root!`로 통일해주세요.
+- 강의실에서 부팅을 USB로 하기 위해서는 Bios 패스워드를 알아야 합니다.(협의중)
 
 ## USB 만들기
 
@@ -49,6 +53,8 @@ Disk /dev/disk2 ejected
 ```
 
 ## 멀티부팅 with Windows
+이 항목은 아직 학원측과 협의중입니다. 아직 따라하지 말아주세요.
+
 #### Windows10 설치
 이미 강의실에는 Windows10이 설치되어 있습니다.
 Windows10이 깔려있는 곳에 리눅스를 설치하는 것은 모팩아카데미와 측에서 권장하지 않습니다.
@@ -61,12 +67,10 @@ Windows10이 깔려있는 곳에 리눅스를 설치하는 것은 모팩아카�
 #### Grub2 설정
 
 
-#### Reference
-- http://thrillfighter.tistory.com/618
-- http://eeingee.tistory.com/1
-- 검색 -> 컴퓨터관리
 
 ## 그래픽카드 드라이버 셋팅
+Nvidia 그래픽카드 드라이버를 설치해보겠습니다.
+
 - A클래스의 강의실 그래픽 카드는 Nvidia Quadro K2200 입니다.
 - B클래스의 강의실 그래픽 카드는 Nvidia Quadro M4000 입니다.
 
@@ -94,7 +98,7 @@ rd.driver.blacklist=nouveau nouveau.modeset=0
 blacklist nouveau
 ```
 
-과거 initramfs를 백업하고 새로 운 파일을 생성합니다.
+과거 initramfs를 백업하고 새로운 파일을 생성합니다.
 ```
 # mv /boot/initramfs-$(uname-r).img /boot/initramfs-$(uname -r)-nouveau.img
 # dracut /boot/initramfs-$(uname -r).img $(uname -r)
@@ -110,5 +114,7 @@ blacklist nouveau
 재부팅을 다시 합니다.
 
 
-#### Referenece
-http://www.advancedclustering.com/act_kb/installing-nvidia-drivers-rhel-centos-7
+## Referenece
+- http://www.advancedclustering.com/act_kb/installing-nvidia-drivers-rhel-centos-7
+- http://thrillfighter.tistory.com/618
+- http://eeingee.tistory.com/1

@@ -3,7 +3,7 @@
 ## Info
 - 장 소 : [mofacacademy](https://www.mofacacademy.com)
 - 인 원 : 동국대 학생 면접을 통한 인원모집
-- 면 접 : 2018. 12. 11~12
+- 면 접 : 2018. 12. 12 / 13:30 ~ 18:00
 - 기 간 : 18.12.28 ~ 19.2.27 
 - 시 간 : 월 ~ 금
 	- 2019년 1월 : 09:00 ~ 13:00 4시간 / 2시간 교육, 2시간 실습
@@ -212,11 +212,7 @@
 	1. [Nuke Gizmo : Slate제작](docs/gen_slate_gizmo.md)
 	1. [Nuke Gizmo : Timecode 뷰어](docs/gen_timecode_gizmo.md)
 
-1. Nukepedia 사이트 소개 : http://www.nukepedia.com/
-	1. 실습 : nukepedia 가입 및 살펴보기
-	1. 플러그인 설치 / 우리가 만든 슬레이트와 비교 : http://www.nukepedia.com/gizmos/draw/burnin
-	1. http://www.nukepedia.com/gizmos/filter/aberration_jb
-	1. Bridge : http://www.nukepedia.com/nubridge
+1. [Nukepedia 사이트 소개](docs/nukepedia.md)
 
 1. Nuke Command line
 	1. [Nuke Command line Rendering](docs/nuke_cmd.md)
