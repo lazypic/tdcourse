@@ -191,7 +191,7 @@
 	1. [Redis 설치](docs/install_redis.md)
 	1. [Redis PythonAPI 실습](docs/python_redis.md)
 
-1. The foundry Nuke를 알아보는 시간.
+1. TheFoundry Nuke를 알아보는 시간.
 	1. https://community.foundry.com/discuss/forum/191/nuke-dev
 	1. https://www.foundry.com/products/nuke/developers
 	1. [뉴크에서 파이썬창을 띄우는 방법](docs/python_in_nuke.md)
@@ -202,7 +202,7 @@
 	1. [NUKE_PATH 연결](docs/nuke_path.md)
 	1. [.nuke설정](docs/dot_nuke.md)
 	1. [init.py, menu.py 생성](docs/set_init_menu_py.md)
-	1. [폴더 구조생성](docs/set_assets_dir.md) : lib, scripts, gizmo, images, luts
+	1. [폴더 구조생성](docs/set_assets_dir.md)
 
 1. 기즈모 제작
 	1. [뉴크 익스프레션](docs/nuke_exp.md)
