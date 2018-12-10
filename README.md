@@ -187,9 +187,9 @@
 	1. [PostrgreSQL 설치](docs/install_postrgresql.md)
 	1. PostrgreSQL PythonAPI 실습
 	1. [MongoDB 설치](docs/install_mongodb.md)
-	1. MongoDB PythonAPI 실습
+	1. [MongoDB PythonAPI 실습](docs/pymongo.md)
 	1. [Redis 설치](docs/install_redis.md)
-	1. Redis PythonAPI 실습
+	1. [Redis PythonAPI 실습](docs/python_redis.md)
 
 1. The foundry Nuke를 알아보는 시간.
 	1. https://community.foundry.com/discuss/forum/191/nuke-dev

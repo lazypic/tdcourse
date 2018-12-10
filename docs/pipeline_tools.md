@@ -21,8 +21,9 @@
 ![ftrack](https://i.ytimg.com/vi/PBjgVmQfZus/maxresdefault.jpg)
 - 사용업체 : [모팩](https://forum.ftrack.com/profile/992-mofac/)
 - 홈페이지 : https://www.ftrack.com/en/
-- DB : PostgreSQL
+- DB : MySQL
 - API : https://bitbucket.org/ftrack/ftrack-python-api
+- python API : http://ftrack-python-api.rtd.ftrack.com/en/stable/introduction.html
 
 #### Wormhole
 국내 C2Monster사에서 제작되는 파이프라인툴 입니다.
