@@ -10,7 +10,7 @@ print(sys.argv)
 
 파이썬에는 인수처리를 위한 argparse가 내장되어있습니다.
 
-project, shot, user, task를 입력받는 간단한 info 프로그램을 제작해 보겠습니다.
+Project, Shot, User, Task를 입력받아 간단하게 출력할 info.py 프로그램을 제작해 보겠습니다.
 
 초기화
 ```python
