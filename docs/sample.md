@@ -22,6 +22,9 @@ Alexa Plate 는 http://www.arri.com/camera/alexa/learn/alexa_sample_footage/ 주
 
 받은 footage는 [Arri Converter](http://www.arri.com/camera/alexa/tools/arriraw_converter/)를 이용해서 컨버팅후 사용합니다.
 
+#### ALEXA LF ProRes Mov파일
+- https://arriwebgate.com/en/directlink/e631dcb5b6ac8eb5
+
 ### Red Plate
 
 ### BLENDER 3D Scene

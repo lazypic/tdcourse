@@ -53,11 +53,26 @@ $ ffprobe -v quiet -print_format json -show_format -show_streams input.mp4
 ```
 
 ## Burn-in
-동영상에 글씨를 넣는 방법입니다.(테스트할것)
-```
-ffmpeg -f image2 -i ~/example/FOO_0010/FOO_0010.%04d.jpg -vcodec libx264 -cmp 22 -vf "drawtext=fontfile=DroidSansMono.ttf: timecode='09\:57\:00\:00': r=23.976: x=(w-tw)/2: y=h-(2*lh): fontcolor=white: box=1: boxcolor=0x00000099" -y output.mov
+ffmpeg를 이용해서 동영상에 글씨를 넣는 방법입니다. 이 방식은 라이센스를 사용하지 않고 동영상에 Burn-In을 할 수 있는 장점이 있습니다.
+
+![ffmpeg_slate](../figures/ffmpeg_slate.png)
+
+예제 소스를 받습니다.
+```bash
+$ cd ~
+$ git clone http://github.com/cgiseminar/examples
 ```
 
+```bash
+$ ffmpeg -f image2 -start_number 100 -i ~/examples/FOO_0010/FOO_0010.%4d.jpg  -vcodec libx264 -cmp 22 -vf "drawtext=fontfile=/usr/share/fonts/gnu-free/FreeMono.ttf: text='CIRCLE, FOO_0010, PLATE, WOONG\ ': timecode='09\:57\:00\:00': fontsize=30: r=23.976: x=(w-tw)/2: y=h-(2*lh): fontcolor=white: box=1: boxcolor=0x00000099" -y output.mov
+```
+drawtext를 사용하기 위해서는 ffmpeg를 컴파일할 때 configure 옵션에 --enable-libfreetype 옵션을 달아서 컴파일 한 ffmpeg를 사용해야 합니다. 위에서 설치한 ffmpeg는 이미 위 옵션이 활성화되어 컴파일된 ffmpeg 입니다.
+
+폰트 경로
+- CentOS : /usr/share/fonts
+- macOS : /Library/Fonts/Courier New.ttf
+#### Reference
+- https://video.stackexchange.com/questions/14924/ffmpeg-drawtext-clipping-to-a-bounding-box
 
 ## 컴파일 설치방법
 https://trac.ffmpeg.org/wiki/CompilationGuide/Centos
