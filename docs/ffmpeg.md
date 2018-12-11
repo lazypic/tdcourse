@@ -52,6 +52,13 @@ input.mp4 영상 분석하기
 $ ffprobe -v quiet -print_format json -show_format -show_streams input.mp4
 ```
 
+## Burn-in
+동영상에 글씨를 넣는 방법입니다.(테스트할것)
+```
+ffmpeg -f image2 -i ~/example/FOO_0010/FOO_0010.%04d.jpg -vcodec libx264 -cmp 22 -vf "drawtext=fontfile=DroidSansMono.ttf: timecode='09\:57\:00\:00': r=23.976: x=(w-tw)/2: y=h-(2*lh): fontcolor=white: box=1: boxcolor=0x00000099" -y output.mov
+```
+
+
 ## 컴파일 설치방법
 https://trac.ffmpeg.org/wiki/CompilationGuide/Centos
 

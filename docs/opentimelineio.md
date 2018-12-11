@@ -6,6 +6,9 @@ EDL은 간단하지만 정보가 너무 최초이고,
 AAF 포멧은 너무 많은 정보를 담고 있습니다.
 OTIO는 중간정도의 입장에서 개발될 예정입니다.
 
+결국 OTIO가 좋은점은 사용자 메타데이터를 넣을 수 있는 점이예요.
+애니메이션 코코에서는 편집장비에서 EDL파일을 뽑아서 필요한 메타데이터를 넣고 OTIO를 만들어서 RV에서 리뷰했답니다.
+
 ## AAF란?
 Advanced Authoring Format 의 약자입니다.
 포스트프로덕션 환경에서 사용할 수 있는 프로페셔널 포멧입니다.
@@ -26,3 +29,21 @@ OTIO 프로젝트가 생겼을 만큼 AAF는 복잡합니다.
 
 - 문서 : https://opentimelineio.readthedocs.io/en/latest/
 - 소스코드 : http://opentimeline.io/
+
+
+## 설치
+pip를 이용해서 설치할 수 있습니다.
+
+```
+# pip install PySide2
+# pip install opentimelineio
+```
+
+## 명령어
+- otiocat
+- otioconvert
+- otiostat
+- otioview
+```
+$ otioview path/to/your/file.edl
+```
