@@ -25,5 +25,5 @@ $ cd examples/lut
 
 ## Reference
 - https://www.convergent-design.com/preset-luts
-
 - https://www.convergent-design.com/preset-luts
+- http://indiecinerental.com/gammaluts.html
