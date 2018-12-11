@@ -68,13 +68,22 @@ $ ffmpeg -f image2 -start_number 100 -i ~/examples/FOO_0010/FOO_0010.%4d.jpg  -v
 ```
 drawtext를 사용하기 위해서는 ffmpeg를 컴파일할 때 configure 옵션에 --enable-libfreetype 옵션을 달아서 컴파일 한 ffmpeg를 사용해야 합니다. 위에서 설치한 ffmpeg는 이미 위 옵션이 활성화되어 컴파일된 ffmpeg 입니다.
 
-폰트 경로
-- CentOS : /usr/share/fonts
+#### 자주 사용되는 폰트 경로
+슬레이트에 사용하는 폰트는 모노스페이스 폰트를 보통 사용합니다.
+모노스페이스 폰트는 각 글자의 가로 길이가 같은 폰트이고 글씨가 애니메이션되더라도 자간이 흔들리지 않는 특징이 있습니다.
+
+- CentOS : /usr/share/fonts/gnu-free/FreeMono.ttf
 - macOS : /Library/Fonts/Courier New.ttf
+
+#### 실습
+대량의 데이터를 각각 다른 Slate가 처리되도록 스크립트를 작성해봅시다.
+
 #### Reference
 - https://video.stackexchange.com/questions/14924/ffmpeg-drawtext-clipping-to-a-bounding-box
 
-## 컴파일 설치방법
+## FFmpeg 컴파일 설치방법
+직접 ffmpeg를 설치하는 문서입니다.
+
 https://trac.ffmpeg.org/wiki/CompilationGuide/Centos
 
 
