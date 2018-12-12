@@ -33,13 +33,13 @@
 뉴크셋팅 경로는 홈디렉톨에 nuke라는 폴더를 만들고 제작해보겠습니다.
 ```
 $ cd ~
-$ mkdir nuke
+$ cd nuke
 ```
 
 위 에셋들중에서 scripts, gizmos, lib, images 에셋은 Plugin이기 때문에 플러그인 패스에 추가합니다.
 추가하면 menu.py에서 해당경로의 리소스를 사용할 수 있게 됩니다.
 
-init.py
+init.py에 아래 줄을 추가해주세요.
 ```
 import nuke
 nuke.pluginAppendPath("./gizmos")
@@ -49,13 +49,16 @@ nuke.pluginAppendPath("./scripts")
 ```
 
 ## 폰트
-font의 경우 뉴크에서는 `NUKE_FONT_PATH` 환경변수를 잡아서 사용합니다.
+font도 좋은 에셋이 됩니다. 폰트의 경우 뉴크에서는 `NUKE_FONT_PATH` 환경변수를 잡아서 사용합니다.
 
 .bashrc
 ```
 export NUKE_PATH="$HOME/nuke"
 export NUKE_FONT_PATH="$NUKE_PATH/font"
 ```
+
+font폴더에 폰트를 넣으면 뉴크에서 사용가능한 상태가 됩니다.
+폰트를 사용할 때는 항상 라이센스 정책을 확인하시고 사용하세요.
 
 ## Reference
 - https://www.programcreek.com/python/example/91909/nuke.pluginAddPath
