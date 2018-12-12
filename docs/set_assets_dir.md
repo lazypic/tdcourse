@@ -21,7 +21,7 @@
 
 - lib : 컴파일된 C++ 데이터
 - scripts : Python, Tcl 스크립트
-- gizmo : 뉴크 기즈모
+- gizmos : 뉴크 기즈모
 - images : 이미지 에셋
 - luts : LUT파일
 - font : 폰트데이터
@@ -30,3 +30,17 @@
 위 예는 The Foundry 뉴크를 기준으로 리스트를 작성했지만,
 다른 툴들도 개념은 굉장히 비슷합니다.
 
+위 에셋들중에서 scripts, gizmos, lib, images 에셋은 Plugin이기 때문에 플러그인 패스에 추가합니다.
+추가하면 menu.py에서 해당경로의 리소스를 사용할 수 있게 됩니다.
+
+init.py
+```
+import nuke
+nuke.pluginAppendPath("./gizmos")
+nuke.pluginAppendPath("./images")
+nuke.pluginAppendPath("./lib")
+nuke.pluginAppendPath("./scripts")
+```
+
+## Reference
+https://www.programcreek.com/python/example/91909/nuke.pluginAddPath
