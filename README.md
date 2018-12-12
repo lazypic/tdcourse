@@ -14,6 +14,7 @@
 	- B클래스 : 20석
 - 문 의 : 김한웅 / hello@lazypic.org
 - 강의실 시스템 엔지니어 : 김태진 차장 / 010-7794-3111
+- 프로그래밍 기초가 약한 분들은 한번씩 읽고 오세요. : https://wikidocs.net/book/2
 
 ## 내 용
 1. 강의 소개, 리눅스 설치
@@ -101,11 +102,23 @@
 	1. [Player](docs/player.md)
 	1. [동영상 포멧과 Codec](docs/format_codec.md)
 
-1. 파이썬 기초를 다룰지 학교 및 학생들과 토론하기
-	1. 기초 추천사이트 : https://wikidocs.net/book/2
+1. 파이썬 기초 실무
 	1. 파이썬 X in Y minute
 	1. 함수만들기
 	1. 클래스
+
+1. [경로기반의 파이프라인](docs/path_based_pipeline.md)
+	1. [Python : 경로를 분리하는 방법](docs/ath_control.md)
+	1. [Python : 레귤러 익스프레션](docs/path_regexp.md)
+	
+1. 프로그램을 만들기전에 알아야 할 기본적인 지식
+	1. [명령어의 구성요소](docs/command.md)
+	1. [우리가 프로그래밍으로 하는 대부분의 일](docs/add_set_rm_get.md)
+	1. [파이프라인의 기본 Input, Output](docs/input_output.md)
+	1. [Standard Streams](docs/standard_streams.md)
+	1. [Python argv 처리](docs/python_argv.md)
+	1. [Python Test코드 작성하기](docs/python_testcode.md)
+	1. [바이너리와 아스키](docs/binary_ascii.md)
 
 1. 파일변환 유틸리티
 	1. [파일 변환 유틸리티](docs/convert_util.md)
@@ -120,19 +133,6 @@
 	1. 실습 : mediainfo 활용하기
 	1. [컬러스페이스의 역사](docs/history_colorspace.md)
 	1. [OpenImageIO 설치](docs/openimageio.md)
-
-1. [경로기반의 파이프라인](docs/path_based_pipeline.md)
-	1. [Python : 경로를 분리하는 방법](docs/ath_control.md)
-	1. [Python : 레귤러 익스프레션](docs/path_regexp.md)
-	
-1. 프로그램을 만들기전에 알아야 할 기본적인 지식
-	1. [명령어의 구성요소](docs/command.md)
-	1. [우리가 프로그래밍으로 하는 대부분의 일](docs/add_set_rm_get.md)
-	1. [파이프라인의 기본 Input, Output](docs/input_output.md)
-	1. [Standard Streams](docs/standard_streams.md)
-	1. [Python argv 처리](docs/python_argv.md)
-	1. [Python Test코드 작성하기](docs/python_testcode.md)
-	1. [바이너리와 아스키](docs/binary_ascii.md)
 
 1. [의존성이야기](docs/dependency.md)
 	1. [의존성을 확인할 수 있는 명령어 ldd](docs/ldd.md)
