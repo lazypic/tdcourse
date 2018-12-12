@@ -4,8 +4,8 @@
 - 장 소 : [mofacacademy](https://www.mofacacademy.com)
 - 기 간 : 18.12.28 ~ 19.2.27 
 - 시 간 : 월 ~ 금
-	- 2019년 1월 : 09:00 ~ 13:00 4시간 / 14:00 ~ 18:00 4시간 툴교육
-	- 2019년 2월 : 09:00 ~1  8:00 8시간 
+	- 2019년 1월 : 09:00 ~ 13:00 4시간 / 14:00 ~ 18:00 4시간 툴교육(뉴크,마야)
+	- 2019년 2월 : 09:00 ~18:00 8시간 
 	- 점심시간 : 13:00 ~ 14:00 / 지하2층 구내식당 / 식비는 학생부담 / 식권은 오후3~4시 구매가능
 - 교육내용 : Technical Director 기초과정
 - 교육방식 : Github를 활용한 협업방식, 리눅스를 활용한 VFX, 애니메이션 파이프라인
@@ -103,9 +103,9 @@
 	1. [동영상 포멧과 Codec](docs/format_codec.md)
 
 1. 파이썬 기초 실무
-	1. 파이썬 X in Y minute
-	1. 함수만들기
-	1. 클래스
+	1. [파이썬 X in Y minutes](https://learnxinyminutes.com/docs/python/)
+	1. 함수실무 응용
+	1. 클래스실무 응용
 
 1. [경로기반의 파이프라인](docs/path_based_pipeline.md)
 	1. [Python : 경로를 분리하는 방법](docs/ath_control.md)
