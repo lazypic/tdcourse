@@ -9,7 +9,11 @@ $ git clone https://github.com/OpenImageIO/oiio-images.git
 ### DPX
 - https://f1.creativecow.net/1318/dpx-sample
 
-### ACES exr
+### ACES exr(Arri ACES reference Image)
+아래 URL을 통해서 Arri Alexa로 찍은 이미지를 어떻게 ACES Exr로 컨버팅 되는지 알 수 있습니다.
+각 컨버팅 이미지가 어떻게 보이는지 예제 파일을 다운로드 받을 수 있습니다.
+
+- https://www.arri.com/service/search/en/49664?query=aces
 
 ### Alexa Plate
 Alexa Plate 는 http://www.arri.com/camera/alexa/learn/alexa_sample_footage/ 주소를 통해서 다운로드 받을 수 있습니다.
@@ -31,3 +35,13 @@ Alexa Plate 는 http://www.arri.com/camera/alexa/learn/alexa_sample_footage/ 주
 강의중에는 지원되는 라이센스를 통해서만 교육이 됩니다. 간혹 3D데이터가 필요할 때 활용할 수 있는 Blender 데모파일 입니다.
 
 - https://www.blender.org/download/demo-files/
+
+## Arri Raw Converter
+
+.ari 파일을 컨버팅 하기 위해서는 일반적으로 arriraw_converter를 사용합니다.
+소프트웨어는 아래에서 다운로드 받을 수 있습니다.
+
+https://www.arri.com/en/learn-help/learn-help-camera-system/tools/arriraw-converter
+
+ACES로 출력하기 위한 옵션은 아래와 같습니다.
+![raw_convert](../figures/arriraw_convert_aces.png)
