@@ -28,3 +28,8 @@ $ su
 $ echo "hello Linux" | cowsay
 $ echo "hello CentOS" | cowthink
 ```
+
+#### 응용 : 폴더안의 파일 갯수 세기
+```
+$ ls | wc -l
+```

@@ -13,6 +13,7 @@ mediainfo를 테스트할 [샘플파일](sample.md)
 
 ```
 $ mediainfo input.png
+$ mediainfo input.mov
 ```
 
 ## PyMediaInfo
@@ -42,14 +43,17 @@ from pymediainfo import MediaInfo
 media_info = MediaInfo.parse(os.getenv("HOME")+"/examples/movs/H264_1280x720_24fps.mov")
 for track in media_info.tracks:
         if track.track_type == 'Video':
-                print track.codec_id
-                print track.duration #4125 / 4.125초 
-                print track.frame_rate
-                print track.width
-                print track.height
+                print "codec", track.codec_id
+                print "duration", track.duration #4209 / 4.209초 round(4.209 * 24)
+                print "fps", track.frame_rate
+                print "width", track.width
+                print "height", track.height
+                print "frames", int(round((float(track.duration) * float(track.frame_rate))/1000))
 ```
+결과가 잘 출력되는 확인해주세요.
 
-아래와 같은 에러가 발생하면 mediainfo가 설치되어있지 않아서 그렇습니다.
+
+참고 : 아래와 같은 에러가 발생하면 mediainfo가 설치되어있지 않아서 그렇습니다.
 
 ```
 OSError: dlopen(libmediainfo.so, 6): image not found
