@@ -50,9 +50,8 @@
 
 1. 설치 유틸리티
 	1. [yum](docs/yum.md) 설치
-	1. 실습 : 재미있는 명령어를 설치해보자. https://www.binarytides.com/linux-fun-commands/
+	1. [실습 : 재미있는 명령어를 설치해보자.](docs/fun_cmds.md)
 	1. [pip](docs/pip.md) 설치
-	1. [NumPy](docs/numpy.md) 설치
 
 1. 유용한 시스템 명령어
 	1. [crontab](docs/crontab.md)
@@ -173,6 +172,7 @@
 1. [파이썬을 이용해서 엑셀파일 읽기, 쓰기](docs/excel_python.md)
 
 1. [VFX Platform 소개](docs/vfx_platform.md)
+	1. [NumPy](docs/numpy.md)
 
 1. GUI제작-1
 	1. [GUI 솔루션](docs/gui_solution.md)
