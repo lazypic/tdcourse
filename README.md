@@ -20,11 +20,11 @@
 1. 강의 소개, 리눅스 설치
 	1. [Technical Director Course 소개](docs/intro.md)
 	1. [개발자의 시선으로 바라보는 시장 흐름 : VFX, 애니메이션, 게임](docs/market.md)
+	1. [회사의 발전단계](docs/techtree.md)
 	1. [기업은 왜 리눅스를 사용하는가?](docs/why_linux.md)
 	1. [Linux설치 - CentOS 7.5](docs/install_centos.md)
 	1. 실습 : 설치이후 CentOS 둘러보기
 	1. [규칙](docs/rule.md)
-	1. [회사의 발전단계](docs/techtree.md)
 
 1. 리눅스 설치, 리눅스 명령어 기본
 	1. [리눅스의 기본 명령어](docs/linux_cmd.md)
