@@ -235,8 +235,6 @@
 	1. [크립토매트 설치해보기](docs/cryptomatte.md)
 	1. [타팀에서 사용하는 플러그인 셋팅](docs/set_other_plugins.md)
 
-1. 노드로 폴더를 여는 스크립트 제작
-
 1. Python으로 노드짜기
 	1. 예제 : 뉴크 내부에서 PySide2를 이용해서 스크립트 제작
 
