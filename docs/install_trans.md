@@ -16,13 +16,14 @@ $ echo $PATH
 우리는 `~/bin` 폴더에 설치할 예정입니다.
 
 ```bash
-$ wget
 $ cd ~
 $ mkdir bin
 $ cd bin
-$ wget transurl
+$ wget https://github.com/lazypic/trans/releases/download/v0.1/trans_linux.tgz
+$ tar -zxvf trans_linux.tgz
+$ rm trans_linux.tgz
 ```
 
 ## 실습
 - 위 형태를 .sh 파일로 만들어서 설치 스크립트를 만들어 보겠습니다.
-- 응용 : 위 형태를 잘 이용하면 여러분이 강의를 통해서 배우는 모든 설치작업을 스크립트로 바꿀 수 있습니다.
+- 응용 : 위 형태의 .sh 파일을 잘 만들 수 있다면 여러분이 강의를 통해서 배우는 모든 설치작업을 자동화 스크립트로 바꿀 수 있습니다.

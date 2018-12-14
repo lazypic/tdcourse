@@ -50,12 +50,7 @@ $ who
 제가 만든 trans 명령어를 wget으로 받아서 시스템에 설치해 봅시다.
 
 ```bash
-$ cd ~
-$ mkdir bin
-$ cd bin
 $ wget https://github.com/lazypic/trans/releases/download/v0.1/trans_linux.tgz
-$ tar -zxvf trans_linux.tgz
-$ rm trans_linux.tgz
 ```
 
 ## curl
