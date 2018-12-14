@@ -124,13 +124,12 @@
 	1. [파일 변환 유틸리티](docs/convert_util.md)
 	1. [ImageMagick](docs/imagemagick.md)
 	1. 실습 : ImageMagick + python을 이용한 이미지 일괄 변환 스크립트 제작
-	1. [FFmpeg 소개](docs/ffmpeg.md)
+	1. [FFmpeg](docs/ffmpeg.md)
 	1. 실습 : FFmpeg를 통한 동영상 변환
 	1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작
 	1. [HandBrake](docs/handbrake.md)
 	1. 실습 : HandBrakeCLI를 이용해서 일괄 Proxy 동영상 생성
-	1. [mediainfo 설치](docs/mediainfo.md)
-	1. 실습 : mediainfo 활용하기
+	1. [mediainfo](docs/mediainfo.md)
 	1. [컬러스페이스의 역사](docs/history_colorspace.md)
 	1. [OpenImageIO 설치](docs/openimageio.md)
 

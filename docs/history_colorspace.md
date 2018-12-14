@@ -83,6 +83,12 @@ OpenColorIO를 설치하기 전에 컬러스페이스부터 설명하겠습니�
 실제로 OpenColorIO를 사용하는 것은 실습을 통해 알아보겠습니다.
 또한 OpenColorIO를 이용한 OpenImageIO 사용법도 추후 알아보겠습니다.
 
+## 실습
+- 8bit sRGB 파일을 뉴크에서 로딩
+- dpx파일을 뉴크에서 로딩
+- dpx파일을 뉴크에서 로딩, Lut적용
+- ACES exr을 뉴크에서 로딩
+
 #### Reference
 - http://vfxcamdb.com/color-spaces/
 - https://www.rocketstock.com/blog/tips-for-log-color-space-compositing/
