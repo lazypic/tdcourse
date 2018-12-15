@@ -188,4 +188,4 @@ STD_CXXFLAGS = -std=gnu++98 -stdlib=libc++
 
 
 ## Reference
-https://www.uncleninja.com/uncategorized/2016-05-04/install-mpv-player-smplayer-centos-7/
+- https://www.uncleninja.com/uncategorized/2016-05-04/install-mpv-player-smplayer-centos-7/

@@ -87,9 +87,10 @@
 	1. [Git 명령어의 기초](docs/git_basic.md)
 	1. [Github와 오픈소스 이야기](docs/github.md)
 	1. 토론 : Github 가입, 학생들의 Github ID 공유하기
+	1. [모든학생 Github 그룹에 참여하도록 설정](docs/github_org_setting.md)
 	1. 모두 같은 에디터를 사용하고 설정을 공유하는 리포지터리 제작
 
-1. Git, Readme 작성을 위한 [Markdown 문법배우기](docs/markdown.md)
+1. Git, README.md 작성을 위한 [Markdown 문법배우기](docs/markdown.md)
 	1. [Git 협업방식 설명](docs/github_collaboration.md)
 	1. 실습 : Git 협업모델 테스트
 	1. [이슈, Pull Request 상태에서의 토론](docs/discussion.md)
