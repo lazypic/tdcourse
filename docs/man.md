@@ -2,6 +2,7 @@
 man 명령어는 각 명령어의 메뉴얼을 볼 수 있도록 도와주는 명령어입니다.
 
 ls 매뉴얼을 읽기위해서 아래처럼 터미널에서 타이핑 해주세요.
+
 ```bash
 $ man ls
 ```
@@ -15,10 +16,12 @@ LS(1)                     BSD General Commands Manual                    LS(1)
 ..
 .
 ```
-상단 `명령어(숫자)` 형태로 첫번째 줄이 구성되어있습니다.
+출력 결과의 맨 윗줄은 `명령어(숫자)` 형태로 첫번째 줄이 구성되어있습니다.
 메뉴얼을 읽을 때 이 숫자가 의미하는 것을 알고 메뉴얼을 읽으면 더욱 도움이 됩니다.
+숫자의 의미를 이해하고 있다면, 자신이 찾고 있던 분야에 대한 명령어가 맞는지 확인할 수 있습니다.
 
-## 매뉴얼 코드 읽기
+## 매뉴얼 숫자의 의미
+
 - 1 : 일반 명령어
 - 2 : System Call(커널에 접근하기 위한 인터페이스)
     - 프로세서 제어(process Control)
@@ -35,7 +38,9 @@ LS(1)                     BSD General Commands Manual                    LS(1)
 
 ## 메뉴얼 파일 위치
 
-cd /usr/local/man
+```bash
+$ cd /usr/local/man
+```
 
 ## Reference
 - https://unix.stackexchange.com/questions/3586/what-do-the-numbers-in-a-man-page-mean
