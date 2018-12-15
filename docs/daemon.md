@@ -54,7 +54,7 @@ $ vim /etc/httpd/conf/httpd.conf
 
 /var/www/html/index.html 문서를 만들어보세요.
 
-```
+```bash
 # vim /var/www/html/index.html
 ```
 
@@ -67,3 +67,6 @@ index.html 파일내용
 <body>Hello World!</body>
 </html>
 ```
+
+ifconfig를 이용해서 ip를 알아내고 옆친구가 웹서버에 잘 접속되는지 체크해보세요.
+
