@@ -67,7 +67,7 @@
 1. [Linux 폴더구조](docs/foldertree.md)
 
 1. 뉴크 설치
-	1. 실습 : [뉴크 설치](docs/install_nuke.md)
+	1. [뉴크 설치](docs/install_nuke.md)
 	1. [라이센스 셋팅](docs/license.md)
 
 1. 쉘 스크립트
