@@ -85,7 +85,6 @@
 1. [버전관리의 중요성](docs/version_control_system.md)
 	1. [Git 설치 / 설정](docs/init_git.md)
 	1. [Git 명령어의 기초](docs/git_basic.md)
-	1. 실습 : [Pro Git](docs/https://git-scm.com/book/ko/v2)
 	1. [Github와 오픈소스 이야기](docs/github.md)
 	1. 토론 : Github 가입, 학생들의 Github ID 공유하기
 	1. 모두 같은 에디터를 사용하고 설정을 공유하는 리포지터리 제작
