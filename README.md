@@ -62,7 +62,7 @@
 1. 서비스와 데몬
 	1. [Daemon](docs/daemon.md)
 	1. [vnc](docs/vnc.md)
-	1. [ftp, sftp](docs/ftp.md)
+	1. [sftp](docs/sftp.md)
 
 1. [Linux 폴더구조](docs/foldertree.md)
 
