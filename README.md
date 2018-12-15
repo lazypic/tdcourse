@@ -71,7 +71,7 @@
 	1. [라이센스 셋팅](docs/license.md)
 
 1. 쉘 스크립트
-	1. .sh 스크립트 생성
+	1. [.sh 스크립트 생성](docs/shell_script.md)
 	1. 실습 : [trans 명령을 자동으로 설치하는 .sh 파일을 만들어보기](docs/install_trans.md)
 
 1. [환경변수란?](docs/env.md)
