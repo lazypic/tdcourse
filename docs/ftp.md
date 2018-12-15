@@ -1,9 +1,22 @@
-# ftp 서버 셋팅
+# sftp 서버 셋팅
+이미 ssh 서비스가 열려있다면 이미 sftp를 사용할 수 있는 환경입니다.
+ftp보다 더 보안에 더 안전합니다.
 
-http://goddaehee.tistory.com/73
-http://aeac.tistory.com/22
+예전에는 telnet, ftp가 사용되었다면 현재는 보안이 강화되어 ssh, sftp가 사용됩니다.
 
+실무에서는 항상 보안이 중요하니 같은 솔루션이라면 보안이 강화된 솔루션을 사용하세요.
 
-#### 클라이언트 소프트웨어 다운받기
+## 클라이언트 소프트웨어 설치
+파일질라를 설치해 보겠습니다.
 
-https://filezilla-project.org/download.php?type=client
+```bash
+# yum install filezilla
+```
+
+## 접속
+- 호스트 : ip를 입력합니다.
+- id : 아이디를 입력합니다.
+- pw : 패스워드를 입력합니다.
+- port : 22번을 사용합니다.
+
+## sftp를 위한 사용자 만들기
