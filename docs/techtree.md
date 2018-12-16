@@ -5,18 +5,19 @@
 
 ## SW
 - 문서 시스템 : 모두가 문서를 작성하고 공유하는 플랫폼
-- 커뮤니케이션도구 : 메일, 메신저
+- 커뮤니케이션도구 : 메일, 메신저, Slack(협업툴) 형태의 툴
 - 파일관리 도구
 - 인원관리 도구 : ERP시스템
 - 인증시스템 : AD(ActiveDirectory), LDAP
 - 업무 효율화 도구 : 자동화 스크립트
 - 에셋(라이브러리) 관리 도구
-- 프로젝트 매니징 도구
+- 프로젝트 매니징 툴
 - 렌더팜 관리 도구
 - 제작 소프트웨어 : 마야, 뉴크, 후디니, 게임엔진, 플러그인 등등
 - 분석툴
     - https://grafana.com
     - https://prometheus.io
+- 빌드툴 : [Jenkins](https://jenkins.io), [SemaphoreCI](https://semaphoreci.com), [Travis](https://travis-ci.org)
 
 ## HW
 - 네트워크 장비

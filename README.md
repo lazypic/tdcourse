@@ -109,7 +109,7 @@
 	1. [파이썬 클래스 만들기](docs/python_make_class.md)
 
 1. [경로기반의 파이프라인](docs/path_based_pipeline.md)
-	1. [Python : 경로를 분리하는 방법](docs/ath_control.md)
+	1. [Python : 경로를 분리하는 방법](docs/path_control.md)
 	1. [Python : 레귤러 익스프레션](docs/path_regexp.md)
 	
 1. 프로그램을 만들기전에 알아야 할 기본적인 지식
