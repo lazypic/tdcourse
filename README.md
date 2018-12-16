@@ -31,7 +31,6 @@
 	1. 실습 : 설치이후 CentOS 둘러보기
 	1. [규칙](docs/rule.md)
 
-
 1. 리눅스 명령어 기본
 	1. [리눅스의 기본 명령어](docs/linux_cmd.md)
 	1. [리다이렉트, 파이프](docs/redirect_pipe.md)
