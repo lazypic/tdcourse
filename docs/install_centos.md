@@ -52,20 +52,64 @@ $ diskutil eject /dev/disk2
 Disk /dev/disk2 ejected
 ```
 
-## 멀티부팅 with Windows
-이 항목은 아직 학원측과 협의중입니다. 아직 따라하지 말아주세요.
 
-#### Windows10 설치
+## Windows10 설치
 이미 강의실에는 Windows10이 설치되어 있습니다.
 Windows10이 깔려있는 곳에 리눅스를 설치하는 것은 모팩아카데미와 측에서 권장하지 않습니다.
 하드디스크를 하나 준비하여 시스템에 붙히고 리눅스를 설치하기로 했습니다.
 
-#### CentOS 설치
+#### 멀티부팅 with Windows
+이 항목은 아직 학원측과 협의중입니다. 아직 따라하지 말아주세요.
+
+#### Grub2 설정
+아직 강의실과 협의가 남아있습니다.
+
+## CentOS 설치
 - 준비물 : 하드디스크, CentOS USB 이미지를 준비합니다.
 - 부팅시 F12를 눌러서 USB로 부팅할 수 있도록 해주세요. 바이오스 패스워드는 강의실에서 공유합니다.
 
-#### Grub2 설정
+![install_centos01](../figures/cent_install_01.png)
 
+Test this media & install CentOS7을 선택합니다. 이미지가 문제가 없는지 체크하는 과정이 있습니다.
+
+![install_centos02](../figures/cent_install_02.png)
+
+언어를 선택합니다.
+
+![install_centos03](../figures/cent_install_03.png)
+
+소프트웨어 선택에 들어가서 GNOME 데스크탑을 선택합니다.
+
+![install_centos04](../figures/cent_install_04.png)
+
+설치 대상에서 설치할 하드디스크를 선택합니다.
+
+![install_centos05](../figures/cent_install_05.png)
+
+설치가 진행됩니다.
+설치중에 Root 사용자, 일반 사용자의 계정을 만들 수 있습니다.
+
+![install_centos06](../figures/cent_install_06.png)
+
+루트 사용자 패스워드를 설정해주세요. 관리를 위해서 `imroot`로 입력해주세요.
+
+![install_centos07](../figures/cent_install_07.png)
+
+사용자 생성을 진행합니다. 자신이 사용할 이름과 패스워드를 설정해주세요.
+
+설치가 끝나면 재부팅을 하게 됩니다.
+
+![install_centos08](../figures/cent_install_08.png)
+
+재부팅 이후 라이센스 약관동의 창이 뜹니다.
+
+![install_centos09](../figures/cent_install_09.png)
+
+버추얼머신에서는 이더넷을 활성화 해야 인터넷이 됩니다.
+
+![install_centos10](../figures/cent_install_10.png)
+
+버추얼박스에서는 해상도 제약이 있습니다.
 
 
 ## 그래픽카드 드라이버 셋팅

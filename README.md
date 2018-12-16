@@ -24,11 +24,15 @@
 	1. [개발자의 시선으로 바라보는 시장 흐름 : VFX, 애니메이션, 게임](docs/market.md)
 	1. [회사의 발전단계](docs/techtree.md)
 	1. [기업은 왜 리눅스를 사용하는가?](docs/why_linux.md)
+
+1. 리눅스 설치(강의 조건에 따라서 선택하여 설치)
+	1. [Linux가상설치 - CentOS 7.5 설치준비](docs/install_centos_on_virtualbox.md)
 	1. [Linux설치 - CentOS 7.5](docs/install_centos.md)
 	1. 실습 : 설치이후 CentOS 둘러보기
 	1. [규칙](docs/rule.md)
 
-1. 리눅스 설치, 리눅스 명령어 기본
+
+1. 리눅스 명령어 기본
 	1. [리눅스의 기본 명령어](docs/linux_cmd.md)
 	1. [리다이렉트, 파이프](docs/redirect_pipe.md)
 	1. [리네임](docs/rename.md)
@@ -244,6 +248,8 @@
 	1. [개인 포트폴리오 홈페이지 제작을 위한 github.io 소개](docs/github_io.md)
 	1. 실습 : github.io를 통한 자신의 포트폴리오 사이트 제작
 	1. 실습 : [linkedin](https://www.linkedin.com) 가입 / 작성
+
+1. 프로그래밍 진행
 
 1. 포트폴리오 진행
 	1. 남은 8시간은 하루동안 기존에 배운것들을 천천히 정리하는 시간입니다.
