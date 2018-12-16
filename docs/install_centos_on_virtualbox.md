@@ -74,6 +74,14 @@ CentOS7.5 아이콘이 생성되었습니다.
 
 - https://download.virtualbox.org/virtualbox/5.2.22/Oracle_VM_VirtualBox_Extension_Pack-5.2.22.vbox-extpack
 
-다운로드 받고 더블클릭하면 VirtualBox가 실행되며 설치 여부를 묻습니다.
+다운로드 받고 더블클릭하면 VirtualBox가 실행되며 설치 여부를 묻습니다. 설치를 누릅니다.
+
+![vb_14](../figures/vb_14.png)
+
+VirtualBox 메뉴에서 설정으로 들어갑니다.
+
+![vb_15](../figures/vb_15.png)
+
+확장 탭에서 VirtualBox와 같은 버전의 확장팩이 설치 완료되었는지 체크합니다.
 
 https://extrememanual.net/8844
