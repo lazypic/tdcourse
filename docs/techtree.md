@@ -14,10 +14,8 @@
 - 프로젝트 매니징 툴
 - 렌더팜 관리 도구
 - 제작 소프트웨어 : 마야, 뉴크, 후디니, 게임엔진, 플러그인 등등
-- 분석툴
-    - https://grafana.com
-    - https://prometheus.io
-- 빌드툴 : [Jenkins](https://jenkins.io), [SemaphoreCI](https://semaphoreci.com), [Travis](https://travis-ci.org)
+- 분석툴 : [Prometheus](https://prometheus.io), [Grafana](https://grafana.com) ...
+- 빌드툴 : [Jenkins](https://jenkins.io), [SemaphoreCI](https://semaphoreci.com), [Travis](https://travis-ci.org) ...
 
 ## HW
 - 네트워크 장비
@@ -29,7 +27,7 @@
 ## HR
 - 경영지원 팀
 - 주어진 역할을 수행할 수 있는 전문인력
-- 리더 : 프로젝트를 이끌 수 있는 인력
+- 리더 : 프로젝트를 팀 단위로 이끌 수 있는 인력
 - 팀원
 
 그리고 가장 중요한 것 "과연 우리는 모여서 무엇을 할 것인가?"
