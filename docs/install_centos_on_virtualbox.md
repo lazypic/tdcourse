@@ -69,7 +69,11 @@ CentOS7.5 아이콘이 생성되었습니다.
 시작을 누르면 CentOS 설치가 시작됩니다.
 
 
-## CentOS7 게스트 확장설치
-
+## VirtualBox Extension Pack 설치
 그냥 사용하면 제한된 해상도에서만 사용가능합니다.
+
+- https://download.virtualbox.org/virtualbox/5.2.22/Oracle_VM_VirtualBox_Extension_Pack-5.2.22.vbox-extpack
+
+다운로드 받고 더블클릭하면 VirtualBox가 실행되며 설치 여부를 묻습니다.
+
 https://extrememanual.net/8844
