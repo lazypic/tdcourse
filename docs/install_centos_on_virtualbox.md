@@ -84,4 +84,25 @@ VirtualBox 메뉴에서 설정으로 들어갑니다.
 
 확장 탭에서 VirtualBox와 같은 버전의 확장팩이 설치 완료되었는지 체크합니다.
 
-https://extrememanual.net/8844
+CentOS에 로그인 합니다.
+
+```
+# yum update kernel*
+
+# reboot
+# yum install epel-release
+# yum install perl gcc dkms kernel-devel kernel-headers make bzip2
+# reboot
+```
+
+![vb_16](../figures/vb_16.png)
+
+VirtualBox 메뉴에서 Device > Insert Guest Edition CD Image 를 클릭합니다.
+
+![vb_17](../figures/vb_17.png)
+
+실행을 할 것인지 창이 뜨면 `실행`을 클릭합니다. root 암호를 입력해줍니다.
+
+```
+# reboot
+```
