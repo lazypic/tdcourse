@@ -88,8 +88,6 @@ CentOS에 로그인 합니다.
 
 ```
 # yum update kernel*
-
-# reboot
 # yum install epel-release
 # yum install perl gcc dkms kernel-devel kernel-headers make bzip2
 # reboot
