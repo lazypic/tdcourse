@@ -106,10 +106,6 @@
 	1. [파이썬 X in Y minutes](https://learnxinyminutes.com/docs/python/)
 	1. [파이썬 함수 만들기](docs/python_make_function.md)
 	1. [파이썬 클래스 만들기](docs/python_make_class.md)
-
-1. [경로기반의 파이프라인](docs/path_based_pipeline.md)
-	1. [Python : 경로를 분리하는 방법](docs/path_control.md)
-	1. [Python : 레귤러 익스프레션](docs/path_regexp.md)
 	
 1. 프로그램을 만들기전에 알아야 할 기본적인 지식
 	1. [명령어의 구성요소](docs/command.md)
@@ -119,6 +115,10 @@
 	1. [Python argv 처리](docs/python_argv.md)
 	1. [Python Test코드 작성하기](docs/python_testcode.md)
 	1. [바이너리와 아스키](docs/binary_ascii.md)
+
+1. [경로기반의 파이프라인](docs/path_based_pipeline.md)
+	1. [Python : 경로를 분리하는 방법](docs/path_control.md)
+	1. [Python : 레귤러 익스프레션](docs/path_regexp.md)
 
 1. 파일변환 유틸리티
 	1. [파일 변환 유틸리티](docs/convert_util.md)
