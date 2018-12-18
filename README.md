@@ -17,6 +17,7 @@
 
 ## 내 용
 1. 강의 소개, 리눅스 설치
+	1. PPT 발표
 	1. [Technical Director Course 소개](docs/intro.md)
 	1. [개발자의 시선으로 바라보는 시장 흐름 : VFX, 애니메이션, 게임](docs/market.md)
 	1. [회사의 발전단계](docs/techtree.md)
