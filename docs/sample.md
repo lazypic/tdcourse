@@ -15,6 +15,9 @@ $ git clone https://github.com/OpenImageIO/oiio-images.git
 
 - https://www.arri.com/service/search/en/49664?query=aces
 
+### Black Magic Camera
+- 샘플 다운로드 : https://www.blackmagicdesign.com/kr/products/blackmagicpocketcinemacamera/gallery
+
 ### Alexa Plate
 Alexa Plate 는 http://www.arri.com/camera/alexa/learn/alexa_sample_footage/ 주소를 통해서 다운로드 받을 수 있습니다.
 
