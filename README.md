@@ -1,4 +1,4 @@
-# curriculum
+# Curriculum
 
 ## Info
 - 장 소 : [mofacacademy](https://www.mofacacademy.com)
@@ -122,7 +122,6 @@
 	1. [ImageMagick](docs/imagemagick.md)
 	1. 실습 : ImageMagick + python을 이용한 이미지 일괄 변환 스크립트 제작
 	1. [FFmpeg](docs/ffmpeg.md)
-	1. 실습 : FFmpeg를 통한 동영상 변환
 	1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작
 	1. [HandBrake](docs/handbrake.md)
 	1. 실습 : HandBrakeCLI를 이용해서 일괄 Proxy 동영상 생성
@@ -131,14 +130,13 @@
 	1. [OpenImageIO 설치](docs/openimageio.md)
 
 1. [의존성이야기](docs/dependency.md)
-	1. [의존성을 확인할 수 있는 명령어 ldd](docs/ldd.md)
+	1. [의존성을 최소화 하기 위해서 사용했던 언어. Go](docs/ldd.md)
 
 1. VFX에서 자주 사용되는 파일 : 촬영데이터
 	1. [촬영데이터 파일명의 구조](docs/raw_name.md)
 
 1. VFX에서 자주 사용되는 파일 : OpenEXR
 	1. [OpenEXR](docs/openexr.md)
-	1. [OpenEXR 컴파일](docs/openexr_compile.md)
 	1. [OpenEXR 명령어](docs/openexr_cmd.md)
 
 1. VFX에서 자주 사용되는 파일 : 컬러매니징
@@ -245,7 +243,8 @@
 	1. 실습 : github.io를 통한 자신의 포트폴리오 사이트 제작
 	1. 실습 : [linkedin](https://www.linkedin.com) 가입 / 작성
 
-1. 프로그래밍 진행
+1. 프로그래밍 실습진행
+	- 파일관리툴 제작
 
 1. 포트폴리오 진행
 	1. 남은 8시간은 하루동안 기존에 배운것들을 천천히 정리하는 시간입니다.
