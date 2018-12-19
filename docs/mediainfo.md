@@ -1,15 +1,16 @@
 # MediaInfo
 미디어 파일의 관련된 정보를 출력하는 프로그램입니다. 보통 코덱, 이미지 사이즈, 기타 메타데이터 정보등을 알아낼 때 사용합니다.
 
-mediainfo를 테스트할 [샘플파일](sample.md)
+mediainfo를 테스트할 [샘플파일](sample.md) 다운로드
 
-## Commandline Tool
-```
+## 설치
+
+```bash
 # yum install mediainfo
 ```
 
-#### 사용법
-굉장히 간단합니다. 명령어 이후 분석할 파일경로를 입력하면 됩니다.
+## 사용법
+명령어 이후 분석할 파일경로를 입력하면 됩니다.
 
 ```
 $ mediainfo input.png
@@ -28,7 +29,7 @@ pypi 홈페이지 : https://pypi.org/project/pymediainfo/
 # pip install pymediainfo
 ```
 
-파이썬을 이용하여 bit_rate, bit_rate_mode, codec을 가지고 오는 예제
+파이썬을 이용하여 bit_rate, bit_rate_mode, codec을 가지고 오는 예제를 작성해보겠습니다.
 
 example 리포지터리를 다운로드 받습니다. 이미 과거에 받았다면 이 단계는 넘겨도 좋습니다.
 ```
@@ -36,7 +37,9 @@ cd ~
 git clone https://github.com/cgiseminar/examples
 ```
 
+
 ```python
+#!/usr/bin/env python
 import os
 from pymediainfo import MediaInfo
 
@@ -50,11 +53,15 @@ for track in media_info.tracks:
                 print "height", track.height
                 print "frames", int(round((float(track.duration) * float(track.frame_rate))/1000))
 ```
-결과가 잘 출력되는 확인해주세요.
+mov 정보가 잘 출력되는 확인해주세요.
 
 
-참고 : 아래와 같은 에러가 발생하면 mediainfo가 설치되어있지 않아서 그렇습니다.
+> 참고 : 아래와 같은 에러가 발생하면 mediainfo가 설치되어있지 않아서 그렇습니다.
 
 ```
 OSError: dlopen(libmediainfo.so, 6): image not found
 ```
+
+## 응용
+- A 프로젝트에서는 아티스트에 의해 하루 수백개의 동영상이 생성됩니다. H.264 코덱으로 렌더링 하기로 약속했습니다. 규칙을 지키지 않은 mov를 찾는 스크립트를 고민해보세요.
+- 서로 약속한 이미지 아웃풋 사이즈가 다를 때 경고를 주는 스크립트를 고민해보세요.
