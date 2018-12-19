@@ -9,7 +9,8 @@
 ## Tractor
 웹브라우저에서 바로 사용할 수 있기 때문에 클라이언트(아티스트)가 정보를 확인하기 편리합니다.
 
-![tractor](https://rmanwiki.pixar.com/download/attachments/11108632/joblist_pane.png?version=1&modificationDate=1481810406738&api=v2)
+![tractor](../figures/tractor.png)
+
 - 홈페이지 : https://renderman.pixar.com/tractor
 - 셋팅방법 : https://github.com/mgskorea/tractor
 
