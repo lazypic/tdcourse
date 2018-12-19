@@ -105,7 +105,7 @@ $ import -window root screen.jpg
     - https://imagemagick.org/script/conjure.php
 - display : 이미지를 볼 때 사용합니다.
 - mogrify : convert명령어와 비슷합니다. 오리지널 파일을 덮어쓰기 때문에 실무에서는 사용하지 않습니다.
-- stream : 이미지를 스토리지타입으로 변환할 때 사용합니다.
+- stream : 이미지를 스토리지 타입으로 변환할 때 사용합니다.
     ```
     stream -map rgb -storage-type {type} input.jpg output.dat
     ```
