@@ -160,6 +160,9 @@
 1. [VFX에서 자주 사용되는 설정파일](docs/etc_files.md)
 
 1. VFX에서 자주 사용되는 파일 : 3D 데이터
+	1. 마야데이터 : .mb, .ma)
+	1. 맥스 : .max
+	1. FBX
 	1. [Obj](docs/obj.md)
 	1. [Alembic](docs/abc.md)
 	1. [USD](docs/usd.md)
@@ -243,13 +246,11 @@
 	1. [Blink](docs/blink.md)
 	1. [NDK](docs/ndk.md)
 
-1. 포트폴리오 준비
-	1. [ffmpeg 명령어를 이용해서 개발내용 스크린 캡쳐](docs/ffmpeg_screencap.md)
-
-1. 프로그래밍 실습진행
+1. 포트폴리오 준비 / 실습
 	- 파일관리툴 제작
 
 1. 포트폴리오 진행
+	1. [ffmpeg 명령어를 이용해서 개발내용 스크린 캡쳐](docs/ffmpeg_screencap.md)
 	1. 남은 8시간은 하루동안 기존에 배운것들을 천천히 정리하는 시간입니다.
 	1. 기술지원, 멘토링
 	1. github를 이용한 포트폴리오 제작. README 작성.
