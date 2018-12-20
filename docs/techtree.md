@@ -13,7 +13,7 @@
 - 에셋(라이브러리) 관리 도구
 - 프로젝트 매니징 툴
 - 렌더팜 관리 도구
-- 보안툴 : MPAA규칙(https://www.mpaa.org/what-we-do/advancing-creativity/additional-resources/#content-protection-best-practices)
+- 보안툴 제작 / 참고규칙 : MPAA규칙(https://www.mpaa.org/what-we-do/advancing-creativity/additional-resources/#content-protection-best-practices)
 - 제작 소프트웨어 : 마야, 뉴크, 후디니, 게임엔진, 플러그인 등등
 - 소프트웨어 관리툴 : [Puppet](https://puppet.com), [Ansible](https://www.ansible.com), [Chef](https://www.chef.io) ...
 - 모니터링툴 : [Prometheus](https://prometheus.io), [Grafana](https://grafana.com) ...
