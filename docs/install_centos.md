@@ -103,15 +103,6 @@ Test this media & install CentOS7을 선택합니다. 이미지가 문제가 없
 
 재부팅 이후 라이센스 약관동의 창이 뜹니다.
 
-![install_centos09](../figures/cent_install_09.png)
-
-버추얼머신에서는 이더넷을 활성화 해야 인터넷이 됩니다.
-
-![install_centos10](../figures/cent_install_10.png)
-
-버추얼박스에서는 해상도 제약이 있습니다.
-
-
 ## 그래픽카드 드라이버 셋팅
 Nvidia 그래픽카드 드라이버를 설치해보겠습니다.
 

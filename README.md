@@ -6,13 +6,13 @@
 - 시 간 : 월 ~ 금
 	- 2019년 1월 : 09:00 ~ 13:00 4시간 / 14:00 ~ 18:00 4시간 툴교육(뉴크,마야)
 	- 2019년 2월 : 09:00 ~18:00 8시간 
-	- 점심시간 : 13:00 ~ 14:00 / 지하2층 구내식당 / 식비는 학생부담 / 식권은 오후3~4시 구매가능
+	- 점심시간 : 13:00 ~ 14:00 / 지하2층 구내식당
 - 교육내용 : Technical Director 기초과정
 - 교육방식 : Github를 활용한 협업방식, 리눅스를 활용한 VFX, 애니메이션 파이프라인
 - 문 의 : 김한웅 / hello@lazypic.org
 - 강의실 시스템 엔지니어 : 김태진 차장 / 010-7794-3111
 - 업무협의 : 정선화 부원장 / 010-8663-4626
-- 준비물 : USB 1개 16기가 이상으로 준비할 것 (CentOS 7.5 이미지 설치용)
+- 준비물 : USB 1개 16기가 이상(현 협의중)
 - 프로그래밍 기초가 약한 분들은 한번씩 읽고 오세요. : https://wikidocs.net/book/2
 
 ## 내 용
@@ -23,7 +23,15 @@
 	1. [회사의 발전단계](docs/techtree.md)
 	1. [기업은 왜 리눅스를 사용하는가?](docs/why_linux.md)
 
-1. 리눅스 설치(강의 조건에 따라서 선택하여 설치)
+1. [Github와 오픈소스 이야기](docs/github.md)
+	1. 토론 : Github 가입
+	1. [모든학생 Github 그룹에 참여하도록 설정](docs/github_org_setting.md)
+	1. [개인 포트폴리오 홈페이지 제작을 위한 github.io 소개](docs/github_io.md)
+	1. 실습 : github.io를 통한 자신의 포트폴리오 사이트 리포지터리 생성
+	1. [linkedin](https://www.linkedin.com) 가입 및 이력서 작성준비
+
+1. 리눅스 설치
+	1. USB, 하드디스크 전달
 	1. [Linux가상설치 - CentOS 7.5 설치준비](docs/install_centos_on_virtualbox.md)
 	1. [Linux설치 - CentOS 7.5](docs/install_centos.md)
 	1. 실습 : 설치이후 CentOS 둘러보기
@@ -86,9 +94,6 @@
 1. [버전관리의 중요성](docs/version_control_system.md)
 	1. [Git 설치 / 설정](docs/init_git.md)
 	1. [Git 명령어의 기초](docs/git_basic.md)
-	1. [Github와 오픈소스 이야기](docs/github.md)
-	1. 토론 : Github 가입, 학생들의 Github ID 공유하기
-	1. [모든학생 Github 그룹에 참여하도록 설정](docs/github_org_setting.md)
 	1. 모두 같은 에디터를 사용하고 설정을 공유하는 리포지터리 제작
 
 1. Git, README.md 작성을 위한 [Markdown 문법배우기](docs/markdown.md)
@@ -240,9 +245,6 @@
 
 1. 포트폴리오 준비
 	1. [ffmpeg 명령어를 이용해서 개발내용 스크린 캡쳐](docs/ffmpeg_screencap.md)
-	1. [개인 포트폴리오 홈페이지 제작을 위한 github.io 소개](docs/github_io.md)
-	1. 실습 : github.io를 통한 자신의 포트폴리오 사이트 제작
-	1. 실습 : [linkedin](https://www.linkedin.com) 가입 / 작성
 
 1. 프로그래밍 실습진행
 	- 파일관리툴 제작
@@ -252,3 +254,4 @@
 	1. 기술지원, 멘토링
 	1. github를 이용한 포트폴리오 제작. README 작성.
 	1. 기술공유, 추후 정보를 나눌 채널, 이슈정리 약속 정하기
+	1. 수료증 전달
