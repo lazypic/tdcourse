@@ -4,8 +4,8 @@
 - 장 소 : [mofacacademy](https://www.mofacacademy.com)
 - 기 간 : 18.12.28 ~ 19.2.27 
 - 시 간 : 월 ~ 금
-	- 2019년 1월 : 09:00 ~ 13:00 4시간 / 14:00 ~ 18:00 4시간 툴교육(뉴크,마야)
-	- 2019년 2월 : 09:00 ~18:00 8시간 
+	- 2019년 1월 : 10:00 ~ 13:00 3시간 / 14:00 ~ 18:00 4시간 툴교육(뉴크,마야)
+	- 2019년 2월 : 10:00 ~18:00 7시간
 	- 점심시간 : 13:00 ~ 14:00 / 지하2층 구내식당
 - 교육내용 : Technical Director 기초과정
 - 교육방식 : Github를 활용한 협업방식, 리눅스를 활용한 VFX, 애니메이션 파이프라인
@@ -213,6 +213,7 @@
 	1. [TCL](docs/tcl.md)
 	1. [Nuke Gizmo : Timecode 뷰어](docs/gen_timecode_gizmo.md)
 	1. [Nuke Gizmo : Slate제작](docs/gen_slate_gizmo.md)
+	1. [Nuke Gizmo등록](docs/add_gizmo.md)
 
 1. [Nukepedia 사이트 소개](docs/nukepedia.md)
 
