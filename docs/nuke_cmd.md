@@ -146,4 +146,5 @@ $ nuke -t imageconvertwithargs.py myimage.####.tif myimage.####.jpg
 - https://learn.foundry.com/nuke/8.0/content/user_guide/configuring_nuke/command_line_operations.html
 
 ## 실습
-- 한 폴더에 모여있는 뉴크파일을 렌더링 하는 스크립트를 python으로 작성해보세요.
+1. 스크립트를 작성하기 전에 먼저 렌더링을 위한 뉴크파일을 다양하게 생성합니다.
+1. 한 폴더에 모여있는 뉴크파일을 렌더링 하는 스크립트를 python으로 작성해보세요.

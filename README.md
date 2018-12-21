@@ -160,7 +160,7 @@
 1. [VFX에서 자주 사용되는 설정파일](docs/etc_files.md)
 
 1. VFX에서 자주 사용되는 파일 : 3D 데이터
-	1. 마야데이터 : .mb, .ma)
+	1. 마야데이터 : .mb, .ma
 	1. 맥스 : .max
 	1. FBX
 	1. [Obj](docs/obj.md)
@@ -223,8 +223,6 @@
 
 1. 메뉴, 뷰어 설정
 	1. [뉴크 메뉴생성](docs/create_menu.md)
-	1. [뉴크 단축키 설정](docs/nuke_hotkey.md)
-	1. [아이콘 넣기](docs/set_icon.md)
 	1. LUT 설정
 		1. [Arri Alexa lut 다운로드](docs/download_arri_lut.md)
 		1. [Viewport LUT 설정](docs/set_viewlut_in_nuke.md)
@@ -241,13 +239,15 @@
 1. Python으로 노드짜기
 	1. 예제 : 뉴크 내부에서 PySide2를 이용해서 스크립트 제작
 
-1. 뉴크에서 활용가능한 다른 개발방법들
+1. 뉴크에서 활용가능한 다른 개발방법들 소개
 	1. [OFX(OpenFX)](docs/openfx.md)
 	1. [Blink](docs/blink.md)
 	1. [NDK](docs/ndk.md)
 
-1. 포트폴리오 준비 / 실습
-	- 파일관리툴 제작
+1. 포트폴리오 준비 / 실습 / 프로그래밍 진행
+	- 참고 : 아래 단계는 시간이 되는 만큼 진행됩니다.
+	1. 다른 .nk 노드를 내부로 불러오기
+	2. 파일관리툴 제작
 
 1. 포트폴리오 진행
 	1. [ffmpeg 명령어를 이용해서 개발내용 스크린 캡쳐](docs/ffmpeg_screencap.md)

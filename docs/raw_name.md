@@ -5,8 +5,11 @@ Alexa, Red 카메라등으로 촬영을 하면 파일들이 외장 스토리지�
 ```
 A007C006_160424_R28L.ari // Arri
 A007_C006_160424_001.r3d // Red
-lazypica_1_2000-08-06_2347_C0001.mov // BlackMagic
+CAMNAME_1_2000-08-06_2347_C0001.mov // BlackMagic
 ```
+
+가장 많이 사용하는 Arri 형태로 설명하곘습니다.
+
 - Camera index : A
 - Camera Reel Count(001-999) : 007
 - Cut : C
@@ -17,6 +20,10 @@ lazypica_1_2000-08-06_2347_C0001.mov // BlackMagic
 위 특징을 알고 있다면 추후 해당 데이터를 가지고 프로그래밍할 때 데이터 이해하기  쉽습니다.
 
 특정 편집장비는 `A007C006_160424_R28L` 문자가 길어서 실제 출력할 때는 `A007R28L` 형태로 줄여서 출력하기도 합니다.
+
+## 촬영데이터 관찰
+
+[샘플파일](sample.md) 다운로드
 
 ## Reference
 - https://www.arri.com/forum/viewtopic.php?f=48&t=274
