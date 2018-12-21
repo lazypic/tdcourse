@@ -1,6 +1,6 @@
 # TCL
 뉴크 내부에서 사용하는 익스프레션은 Tcl 문법입니다.
-익스프레션 문법 자체가 궁금할 때는 뉴크 메뉴얼보다 간혹 Tcl Language 메뉴얼을 보는것이 개념이해가 더 빠르때가 있습니다.
+익스프레션 문법 자체가 궁금할 때는 뉴크 메뉴얼보다 간혹 Tcl Language 메뉴얼을 보는것이 개념적으로 이해가 더 빠르때가 있습니다.
 
 - 홈페이지 : http://www.tcl.tk
 
@@ -16,5 +16,5 @@ https://stackoverflow.com/questions/26288633/tcl-file-parser-for-python
 
 
 ## Reference
-- TCL역사 1997 : https://en.wikipedia.org/wiki/Tcl
+- TCL역사 1997년도 : https://en.wikipedia.org/wiki/Tcl
 - 뉴크의 역사 : https://www.thefoundry.co.uk/blog/a-brief-history-of-nuke/

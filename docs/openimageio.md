@@ -379,7 +379,13 @@ oiiotool을 가장 많이 사용할 때는 ACES exr 파일을 아티스트가 �
 테스팅 할 것
 
 ```bash
-$ oiiotool -i input.exr --colorconvert acescg rec709 -o ouput.jpg
+$ oiiotool -i input.exr --colorconvert "ACES - ACEScg" "Output - Rec.709" -o ouput.jpg
+```
+
+프리뷰 이미지를 만들 때 --fit 옵션을 사용하면 리사이즈 할 수 있습니다.
+
+```
+$ oiiotool -i input.exr --colorconvert "ACES - ACEScg" "Output - Rec.709" --fit 320x240 -o ouput.jpg
 ```
 
 ## .exr to .tga

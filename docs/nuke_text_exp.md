@@ -1,4 +1,4 @@
-# Nuke Expression Text+
+# Nuke Expression for Text Node
 텍스트 노드에서도 뉴크 익스프레션을 사용할 수 있습니다.
 Text노드에서 자주 사용되는 익스프레션을 실습해 보겠습니다.
 
@@ -43,7 +43,14 @@ USER 환경변수를 가지고 오는 예
 [python os.getenv('USER')]
 ```
 
+## 시간 가지고오기
+시간 정보를 가지고 오는 방법은 뉴크 메뉴얼보다는 Tcl 문서를 보는것이 더 편리합니다.
+
+```
+[date %Y]-[date %m]-[date %d] [date %T]
+```
+
+- Tcl 시간포멧팅 문서 : https://www.tcl.tk/man/tcl8.5/tutorial/Tcl41.html
 
 ## Reference
 - https://learn.foundry.com/nuke/8.0/content/user_guide/effects/entering_text.html
-- 날짜처리 : http://www.tcl.tk/man/tcl8.5/tutorial/Tcl41.html

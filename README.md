@@ -211,9 +211,8 @@
 	1. [뉴크 익스프레션](docs/nuke_exp.md)
 	1. [뉴크 Text 노드에서 자주 사용되는 익스프레션](docs/nuke_text_exp.md)
 	1. [TCL](docs/tcl.md)
-	1. [Gizmo Knob 생성](docs/gen_knob.md)
-	1. [Nuke Gizmo : Slate제작](docs/gen_slate_gizmo.md)
 	1. [Nuke Gizmo : Timecode 뷰어](docs/gen_timecode_gizmo.md)
+	1. [Nuke Gizmo : Slate제작](docs/gen_slate_gizmo.md)
 
 1. [Nukepedia 사이트 소개](docs/nukepedia.md)
 
