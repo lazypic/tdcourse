@@ -228,7 +228,7 @@
 		1. [Viewport LUT 설정](docs/set_viewlut_in_nuke.md)
 
 1. 인아웃 셋팅
-	1. [Read 노드에서 정보 가지고 오기](docs/get_readnode_info.md)
+	1. [노드에 file 옵션이 있다면 폴더를 여는 기능 제작](docs/nkpython_openfile.md)
 	1. [Write노드 생성 스크립트 제작](docs/gen_writenode.md)
 	1. .nk 파일에서 소스정보를 가지고 오는 방법.
 
