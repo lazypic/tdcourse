@@ -196,8 +196,7 @@
 	1. [Redis PythonAPI 실습](docs/python_redis.md)
 
 1. TheFoundry Nuke를 알아보는 시간.
-	1. https://community.foundry.com/discuss/forum/191/nuke-dev
-	1. https://www.foundry.com/products/nuke/developers
+	1. [개발에 도움이 되는 사이트](docs/help_nukedev.md)
 	1. [뉴크에서 파이썬창을 띄우는 방법](docs/python_in_nuke.md)
 	1. [뉴크 내부에서 사용하는 파이썬 버전을 확인하기](docs/check_py_ver_in_nuke.md)
 	1. [뉴크 버전관리](docs/managing_nukever.md)
@@ -234,7 +233,7 @@
 1. 인아웃 셋팅
 	1. [자주 사용하는 포멧등록](docs/add_format.md)
 	1. [노드에 file 옵션이 있다면 폴더를 여는 기능 제작](docs/nkpython_openfile.md)
-	1. [퍼포먼스 체크 기능 추가하기](docs/performance_time_check.md)
+	1. [노드구조 퍼포먼스 체크 기능 추가하기](docs/performance_time_check.md)
 	1. [Write노드 생성 스크립트 제작](docs/gen_writenode.md)
 
 1. 자주 사용하는 플러그인 설치해보기
