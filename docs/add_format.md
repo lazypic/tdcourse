@@ -16,5 +16,7 @@ nuke.addFormat("360 360 kakaoEmoticon")
 프로젝트를 진행하며 자신이 자주 사용하는 이미지 포멧사이즈를 menu.py에 등록해두세요.
 이미지 포멧사이즈를 선택하는 상황을 마주할 때 마다 편리합니다.
 
+뉴크에서 리포멧을 꺼내고 우리가 설정한 사이즈가 잘 들어왔는지 체크해보세요.
+
 ## Reference
 - https://emoticonstudio.kakao.com/pages/start
