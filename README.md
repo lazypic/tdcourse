@@ -232,7 +232,6 @@
 	1. [노드에 file 옵션이 있다면 폴더를 여는 기능 제작](docs/nkpython_openfile.md)
 	1. [퍼포먼스 체크 기능 추가하기](docs/performance_time_check.md)
 	1. [Write노드 생성 스크립트 제작](docs/gen_writenode.md)
-	1. .nk 파일에서 소스정보를 가지고 오는 방법.
 
 1. 자주 사용하는 플러그인 설치해보기
 	1. [루마픽쳐스에서 사용중인 기즈모 등록](docs_lumapic.md)
