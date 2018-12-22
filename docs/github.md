@@ -20,6 +20,7 @@ Github 에서 오늘 가장 핫한 리포지터리들이 출력되는 곳입니�
 - Sony : https://github.com/imageworks
 - Dreamworks : https://github.com/dreamworksanimation
 - AnimalLogic : https://github.com/AnimalLogic
+- LumaPictures : https://github.com/LumaPictures
 - EpicGames : https://github.com/EpicGames
 - Unity-Technologies : https://github.com/Unity-Technologies
 - NCsoft : https://github.com/ncsoft
