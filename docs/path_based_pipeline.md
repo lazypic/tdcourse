@@ -26,10 +26,38 @@ http://opencolorio.org/userguide/contexts.html 문서를 보면 showcfg 같은 �
 우리나라 회사들도 이러한 특징을 많이 반영하며 회사 경로 구성시 따라하고 있습니다.
 
 ```
-/shows/프로젝트명/FOO/0010/팀명/작업파일
-/shows/프로젝트명/BAR/0010/팀명/작업파일
+/show/프로젝트명/shot/FOO/0010/팀명/작업파일
+/show/프로젝트명/shot/BAR/0010/팀명/작업파일
 ```
 
 프로젝트, 샷명, 팀명 이외에 중간에 추가되는 경로로는..
 
 문서파일, 에셋경로, 상대방으로 부터 받은 데이터, 현장데이터, 레퍼런스, 컨셉, 외주로 보낼 데이터, 샷 작업파일, 최종 배포파일, 버전, Proxy파일, 프로젝트 고유 설정파일등 프로젝트에 필요한 경로가 추가됩니다.
+
+```
+.
+└── circle
+    ├── asset
+    │   ├── char
+    │   │   └── mamma
+    │   └── prop
+    │       └── stone
+    ├── doc
+    ├── edit
+    ├── input
+    ├── output
+    ├── ref
+    └── shot
+        └── FOO
+            └── 0010
+                ├── comp
+                │   ├── input
+                │   ├── output
+                │   └── v001.nk
+                ├── fx
+                ├── plate
+                │   └── v001
+                └── src
+                    └── v001
+
+```
