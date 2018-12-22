@@ -129,6 +129,7 @@
 	1. 실습 : ImageMagick + python을 이용한 이미지 일괄 변환 스크립트 제작
 	1. [FFmpeg](docs/ffmpeg.md)
 	1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작
+	1. [ffmpeg 명령어를 이용해서 개발내용 스크린 캡쳐](docs/ffmpeg_screencap.md)
 	1. [HandBrake](docs/handbrake.md)
 	1. 실습 : HandBrakeCLI를 이용해서 일괄 Proxy 동영상 생성
 	1. [mediainfo](docs/mediainfo.md)
@@ -252,7 +253,6 @@
 	1. 파일관리툴 제작
 
 1. 포트폴리오 진행
-	1. [ffmpeg 명령어를 이용해서 개발내용 스크린 캡쳐](docs/ffmpeg_screencap.md)
 	1. 남은 8시간은 하루동안 기존에 배운것들을 천천히 정리하는 시간입니다.
 	1. 기술지원, 멘토링
 	1. github를 이용한 포트폴리오 제작. README 작성.
