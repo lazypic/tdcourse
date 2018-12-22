@@ -58,7 +58,7 @@
 	1. [CentOS Beep 사운드 제거](docs/soundoff.md)
 
 1. 설치 유틸리티
-	1. [yum](docs/yum.md) 설치
+	1. [yum](docs/yum.md) 명령어
 	1. [실습 : 재미있는 명령어를 설치해보자.](docs/fun_cmds.md)
 	1. [pip](docs/pip.md) 설치
 
