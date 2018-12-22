@@ -69,7 +69,7 @@ $ nuke -F 1001-1100 -X Write1 myscript.nk
 - `--sro` : 렌더 Order 순서대로 렌더링 합니다.
 - `-remap` : 경로를 바꾸어서 렌더링할 때 사용합니다. 항상 `,`구분문자를 기준으로 짝수가 되어야 합니다. 회사 내부에 윈도우즈, 리눅스가 혼용되어 사용하면 이 옵션은 렌더링시 굉장히 편리할 수 있습니다.
     ```
-    $ nuke -t -remap "//10.20.30.40/show,/show,//10.20.30.40/source,/source"
+    $ nuke -t -remap "//10.20.30.40/project,/project,//10.20.30.40/source,/source"
     ```
 
 

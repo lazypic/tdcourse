@@ -55,5 +55,5 @@ host all all ::1/128 ident 문자열을 host all all ::1/128 md5 로 변경
 ```
 # su – postgres
 -bash-4.2$ psql
-postgres=# CREATE DATABASE shows;
+postgres=# CREATE DATABASE projects;
 ```

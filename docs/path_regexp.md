@@ -7,8 +7,8 @@
 
 우리가 실습하는 문자열은 아래와 같습니다.
 ```
-리눅스 : /show/circle/shot/FOO/0010/comp/v001.nk
-윈도우 : \\10.20.30.40\show\circle\shot\FOO\0010\v001.nk
+리눅스 : /project/circle/shot/FOO/0010/comp/v001.nk
+윈도우 : \\10.20.30.40\project\circle\shot\FOO\0010\v001.nk
 ```
 
 > 참고 : 일반적으로 기업중 컴퓨터가 많이 필요한 회사는 내부망 네트워크 설정시 사설IP A 클래스 대역을 많이 사용합니다.
@@ -26,10 +26,10 @@ pathapi.py
 import sys
 import re
 
-path = "/show/circle/shot/FOO/0010/comp/v001.nk"
+path = "/project/circle/shot/FOO/0010/comp/v001.nk"
 
 def project(path):
-    p = re.findall('/show/(\S[^/]+)', path.replace("\\","/"))
+    p = re.findall('/project/(\S[^/]+)', path.replace("\\","/"))
     if len(p) == 1:
         return p[0], None
     return "", "project 정보를 경로에서 가지고 올 수 없습니다."
@@ -43,7 +43,7 @@ if __name__ == "__main__":
 ```
 - `( )` 내부에 적혀있는 정규식과 일치하는 그룹을 반환할 때 사용합니다. 
 - `\S` 를 사용한 이유는 공백이 없는 유니코드가 프로젝트이름 조건과 같기 때문입니다.
-- `[^/]` 가 붙어있는 이유는 `/show/circle/` 형태로 입력을 받을 때 맨 뒤 `/`를 제거하기 위함 입니다. `[ ]` 문자 내부에 `^`문자를 사용하면 예외시키라는 뜻이 있습니다.
+- `[^/]` 가 붙어있는 이유는 `/project/circle/` 형태로 입력을 받을 때 맨 뒤 `/`를 제거하기 위함 입니다. `[ ]` 문자 내부에 `^`문자를 사용하면 예외시키라는 뜻이 있습니다.
 
 pathapi_test.py
 ```python
@@ -54,10 +54,10 @@ from pathapi import *
 
 class Test_path(unittest.TestCase):
     def test_project(self):
-        self.assertEqual(project("/show/circle"), ("circle",None))
-        self.assertEqual(project("/show/circle/"), ("circle",None))
-        self.assertEqual(project("\\\\10.20.30.40\\show\\circle\\"), ("circle",None))
-        self.assertEqual(project("/show/circle/shot/FOO/0010/comp/v001.nk"), ("circle",None))
+        self.assertEqual(project("/project/circle"), ("circle",None))
+        self.assertEqual(project("/project/circle/"), ("circle",None))
+        self.assertEqual(project("\\\\10.20.30.40\\project\\circle\\"), ("circle",None))
+        self.assertEqual(project("/project/circle/shot/FOO/0010/comp/v001.nk"), ("circle",None))
 
 if __name__ == "__main__":
     unittest.main()

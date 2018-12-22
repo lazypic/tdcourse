@@ -8,7 +8,7 @@
 ## 실습
 
 #### 데이터 넣기
-shows 라는 DB에 circle 이라는 가상프로젝트 컬랙션을 만들고 간단한 샷 item을 하나 추가하는 예제입니다.
+projects 라는 DB에 circle 이라는 가상프로젝트 컬랙션을 만들고 간단한 샷 item을 하나 추가하는 예제입니다.
 
 이 예제는 심플하게 값이 DB로 들어가도록 설정되어있습니다.
 계속 코드를 실행하면 값이 중복으로 들어갑니다.
@@ -19,7 +19,7 @@ from pymongo import MongoClient
 import datetime
 
 client = MongoClient("192.168.219.105", 27017)
-db = client.shows
+db = client.projects
 project = "circle"
 date = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
 item = {"name":"BAR_0010",
@@ -34,7 +34,7 @@ db[project].insert_one(item)
 
 ```
 $ mongo
-> use shows
+> use projects
 > db.circle.find()
 ```
 
@@ -44,7 +44,7 @@ from pymongo import MongoClient
 import datetime
 
 client = MongoClient("192.168.219.105", 27017)
-db = client.shows
+db = client.projects
 project = "circle"
 date = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
 item = db[project].find_one({'name': "BAR_0010"})
@@ -60,7 +60,7 @@ db[project].update_one({"name":"BAR_0010"}, {"$set": item}, upsert=False)
 from pymongo import MongoClient
 
 client = MongoClient("192.168.219.105", 27017)
-db = client.shows
+db = client.projects
 project = "circle"
 
 item = db[project].find_one({'name': "BAR_0010"})
@@ -76,7 +76,7 @@ print(item["date"])
 from pymongo import MongoClient
 
 client = MongoClient("192.168.219.105", 27017)
-db = client.shows
+db = client.projects
 project = "circle"
 
 result = db[project].delete_many({"name": "BAR_0010"})

@@ -18,7 +18,7 @@
 pathconvention.py
 ```python
 class PathConvention:
-    root = "/shows"
+    root = "/project"
     project = ""
     name = ""
     task = ""

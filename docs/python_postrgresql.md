@@ -26,9 +26,9 @@ import psycopg2
 def create_tables():
     commands = (
         """
-        CREATE TABLE shows (
-            show_id SERIAL PRIMARY KEY,
-            show_name VARCHAR(255) NOT NULL
+        CREATE TABLE projects (
+            project_id SERIAL PRIMARY KEY,
+            project_name VARCHAR(255) NOT NULL
         )
         """,
         """ CREATE TABLE users (
@@ -37,22 +37,22 @@ def create_tables():
         )
         """,
         """
-        CREATE TABLE show_extension (
-                show_id INTEGER PRIMARY KEY,
-                show_deadline VARCHAR(25),
-                FOREIGN KEY (show_id)
-                    REFERENCES shows (show_id)
+        CREATE TABLE project_extension (
+                project_id INTEGER PRIMARY KEY,
+                project_deadline VARCHAR(25),
+                FOREIGN KEY (project_id)
+                    REFERENCES projects (project_id)
                     ON UPDATE CASCADE ON DELETE CASCADE
         )
         """,
         """
-        CREATE TABLE show_user (
-                show_id INTEGER NOT NULL,
+        CREATE TABLE project_user (
+                project_id INTEGER NOT NULL,
                 user_id INTEGER NOT NULL,
                 role VARCHAR(25),
-                PRIMARY KEY (show_id , user_id),
-                FOREIGN KEY (show_id)
-                    REFERENCES shows (show_id)
+                PRIMARY KEY (project_id , user_id),
+                FOREIGN KEY (project_id)
+                    REFERENCES projects (project_id)
                     ON UPDATE CASCADE ON DELETE CASCADE,
                 FOREIGN KEY (user_id)
                     REFERENCES users (user_id)
@@ -62,7 +62,7 @@ def create_tables():
     conn = None
     try:
         # connect to the PostgreSQL server
-        conn = psycopg2.connect(host="192.168.219.105",database="shows", user="postgres", password="postgres")
+        conn = psycopg2.connect(host="192.168.219.105",database="projects", user="postgres", password="postgres")
         cur = conn.cursor()
         # create table one by one
         for command in commands:
@@ -85,15 +85,15 @@ if __name__ == '__main__':
 
 ```bash
 # su – postgres
--bash-4.2$ psql -d shows
+-bash-4.2$ psql -d projects
 postgres=# \dt
 
             List of relations
  Schema |      Name      | Type  |  Owner   
 --------+----------------+-------+----------
- public | show_extension | table | postgres
- public | show_user      | table | postgres
- public | shows          | table | postgres
+ public | project_extension | table | postgres
+ public | project_user      | table | postgres
+ public | projects          | table | postgres
  public | users          | table | postgres
 (4 rows)
 
@@ -101,25 +101,25 @@ postgres=# \q
 ```
 
 ## 테이블에 데이터 추가
-shows 테이블에 데이터를 추가해 보겠습니다.
+projects 테이블에 데이터를 추가해 보겠습니다.
 
 ```python
 #!/usr/bin/env python
 import psycopg2
  
-def insert_show(show_name):
-    sql = """INSERT INTO shows(show_name)
-             VALUES(%s) RETURNING show_id;"""
+def insert_project(project_name):
+    sql = """INSERT INTO projects(project_name)
+             VALUES(%s) RETURNING project_id;"""
     conn = None
-    show_id = None
+    project_id = None
     try:
-        conn = psycopg2.connect(host="192.168.219.105",database="shows", user="postgres", password="postgres")
+        conn = psycopg2.connect(host="192.168.219.105",database="projects", user="postgres", password="postgres")
         # create a new cursor
         cur = conn.cursor()
         # execute the INSERT statement
-        cur.execute(sql, (show_name,))
+        cur.execute(sql, (project_name,))
         # get the generated id back
-        show_id = cur.fetchone()[0]
+        project_id = cur.fetchone()[0]
         # commit the changes to the database
         conn.commit()
         # close communication with the database
@@ -129,10 +129,10 @@ def insert_show(show_name):
     finally:
         if conn is not None:
             conn.close()
-    return show_id
+    return project_id
 
 if __name__ == '__main__':
-    insert_show("circle")
+    insert_project("circle")
 ```
 
 ## 테이블에서 데이터 가지고 오기
@@ -140,17 +140,17 @@ if __name__ == '__main__':
 #!/usr/bin/env python
 import psycopg2
 
-def get_shows():
+def get_projects():
     conn = None
     try:
-        conn = psycopg2.connect(host="192.168.219.105",database="shows", user="postgres", password="postgres")
+        conn = psycopg2.connect(host="192.168.219.105",database="projects", user="postgres", password="postgres")
         cur = conn.cursor()
         cur.execute("""
-            SELECT show_id, show_name
-            FROM shows
-            ORDER BY show_name;
+            SELECT project_id, project_name
+            FROM projects
+            ORDER BY project_name;
         """)
-        print("The number of shows: ", cur.rowcount)
+        print("The number of projects: ", cur.rowcount)
         row = cur.fetchone()
  
         while row is not None:
@@ -164,7 +164,7 @@ def get_shows():
             conn.close()
 
 if __name__ == '__main__':
-    get_shows()
+    get_projects()
 ```
 
 ## 테이블에서 데이터 업데이트하기
@@ -172,18 +172,18 @@ if __name__ == '__main__':
 #!/usr/bin/env python
 import psycopg2 
 
-def update_show(show_id, show_name):
-    sql = """ UPDATE shows
-                SET show_name = %s
-                WHERE show_id = %s"""
+def update_project(project_id, project_name):
+    sql = """ UPDATE projects
+                SET project_name = %s
+                WHERE project_id = %s"""
     conn = None
     updated_rows = 0
     try:
-        conn = psycopg2.connect(host="192.168.219.105",database="shows", user="postgres", password="postgres")
+        conn = psycopg2.connect(host="192.168.219.105",database="projects", user="postgres", password="postgres")
         # create a new cursor
         cur = conn.cursor()
         # execute the UPDATE  statement
-        cur.execute(sql, (show_name, show_id))
+        cur.execute(sql, (project_name, project_id))
         # get the number of updated rows
         updated_rows = cur.rowcount
         # Commit the changes to the database
@@ -198,7 +198,7 @@ def update_show(show_id, show_name):
  
     return updated_rows
 if __name__ == '__main__':
-    update_show("1","circle2")
+    update_project("1","circle2")
 ```
 
 ## 테이블에서 데이터 삭제
@@ -207,7 +207,7 @@ if __name__ == '__main__':
 #!/usr/bin/env python
 import psycopg2
  
-def delete_show(show_id):
+def delete_project(project_id):
     conn = None
     rows_deleted = 0
     try:
@@ -218,7 +218,7 @@ def delete_show(show_id):
         # create a new cursor
         cur = conn.cursor()
         # execute the UPDATE  statement
-        cur.execute("DELETE FROM shows WHERE show_id = %s", (show_id,))
+        cur.execute("DELETE FROM projects WHERE project_id = %s", (project_id,))
         # get the number of updated rows
         rows_deleted = cur.rowcount
         # Commit the changes to the database
@@ -233,7 +233,7 @@ def delete_show(show_id):
     return rows_deleted
 
 if __name__ == '__main__':
-    delete_show("1")
+    delete_project("1")
 ```
 
 ## Reference

@@ -13,17 +13,17 @@
 오늘 우리는 폴더에서 프로젝트를 가지고 오는 방법을 다룹니다.
 
 대부분의 모든 회사는 프로젝트 목록을 가지고 오는 함수 하나쯤은 내부에 작성되어 있을 확률이 높습니다.
-회사에서 /shows 폴더 내부에서 모든 프로젝트가 진행된다고 가정을 하고 프로젝트 리스트를 가지고 오는 함수를 제작해보겠습니다.
+회사에서 /project 폴더 내부에서 모든 프로젝트가 진행된다고 가정을 하고 프로젝트 리스트를 가지고 오는 함수를 제작해보겠습니다.
 
-먼저 `/` 경로에 `show` 폴더를 제작해보겠습니다. `/show` 내부는 앞으로도 관리자가 아닌 일반 사용자가 필요한 폴더를 만들 수 있어야 하기 때문에 사용자 권한을 추가했습니다. 또한 `/show` 폴더 내부에 `circle` 이라고 하는 프로젝트 폴더도 생성하겠습니다. 관련된 명령어는 아래와 같습니다.
+먼저 `/` 경로에 `project` 폴더를 제작해보겠습니다. `/project` 내부는 앞으로도 관리자가 아닌 일반 사용자가 필요한 폴더를 만들 수 있어야 하기 때문에 사용자 권한을 추가했습니다. 또한 `/project` 폴더 내부에 `circle` 이라고 하는 프로젝트 폴더도 생성하겠습니다. 관련된 명령어는 아래와 같습니다.
 ```bash
 $ su
 # cd /
-# mkdir show
-# chmod 775 show
-# chown root:$USER show
+# mkdir project
+# chmod 775 project
+# chown root:$USER project
 # exit
-$ cd shows
+$ cd project
 $ mkdir circle
 $ mkdir rectangle
 $ mkdir triangle
@@ -38,7 +38,7 @@ def Projects():
     """
     Projects 함수는 프로젝트 목록을 리스트로 반환한다.
     """
-    return os.listdir("/show")
+    return os.listdir("/project")
 
 if __name__ == '__main__':
     print(Projects())
@@ -55,8 +55,8 @@ def Projects():
     Projects 함수는 프로젝트 목록을 리스트로 반환한다.
     """
     plist = []
-    for i in os.listdir("/show"):
-        if not os.path.isdir("/show/"+i):
+    for i in os.listdir("/project"):
+        if not os.path.isdir("/project/"+i):
             continue
         plist.append(i)
     return plist
