@@ -30,6 +30,10 @@
 하지만 많은 기업은 인트라넷 환경으로 구성되어있습니다.
 이 점을 참고하여 진행해주세요.
 
+## 매력
+리눅스에는 수많은 개발도구들이 지원됩니다.
+개발자들이 서로 협력하는 모델, 지원하는 개발툴들의 매력에 빠지게 된다면 어쩌면 당신도 다른 OS를 사용하지 못할 수 있어요.
+
 ## 각 소프트웨어 요구사항 Reference
 - Autodesk : https://knowledge.autodesk.com/support/maya/learn-explore/caas/sfdcarticles/sfdcarticles/System-requirements-for-Autodesk-Maya-2018.html
 - Foundry Nuke : https://www.foundry.com/products/nuke/requirements
