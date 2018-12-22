@@ -27,7 +27,7 @@
 	1. 토론 : Github 가입
 	1. [모든학생 Github 그룹에 참여하도록 설정](docs/github_org_setting.md)
 	1. [개인 포트폴리오 홈페이지 제작을 위한 github.io 소개](docs/github_io.md)
-	1. 실습 : github.io를 통한 자신의 포트폴리오 사이트 리포지터리 생성
+	1. 실습 : id.github.io를 통한 자신의 포트폴리오 사이트 리포지터리 생성
 	1. [linkedin](https://www.linkedin.com) 가입 및 이력서 작성준비
 
 1. 리눅스 설치
@@ -202,6 +202,11 @@
 	1. [뉴크 내부에서 사용하는 파이썬 버전을 확인하기](docs/check_py_ver_in_nuke.md)
 	1. [뉴크 버전관리](docs/managing_nukever.md)
 
+1. 뉴크에서 활용가능한 다른 개발방법들 소개
+	1. [OFX(OpenFX)](docs/openfx.md)
+	1. [Blink](docs/blink.md)
+	1. [NDK](docs/ndk.md)
+
 1. Nuke 셋팅을 위한 Repository 생성
 	1. [NUKE_PATH 연결](docs/nuke_path.md)
 	1. [init.py, menu.py 생성](docs/set_init_menu_py.md)
@@ -222,10 +227,9 @@
 	1. [Render Management Tools 소개](docs/render_management_tools.md)
 
 1. 메뉴, 뷰어 설정
-	1. [뉴크 메뉴생성](docs/create_menu.md)
-	1. LUT 설정
-		1. [Arri Alexa lut 다운로드](docs/download_arri_lut.md)
-		1. [Viewport LUT 설정](docs/set_viewlut_in_nuke.md)
+	1. [뉴크 메뉴바 생성](docs/create_menu.md)
+	1. [Arri Alexa lut 다운로드](docs/download_arri_lut.md)
+	1. [Viewport LUT 설정](docs/set_viewlut_in_nuke.md)
 
 1. 인아웃 셋팅
 	1. [자주 사용하는 포멧등록](docs/add_format.md)
@@ -241,15 +245,12 @@
 1. Python으로 노드짜기
 	1. 예제 : 뉴크 내부에서 PySide2를 이용해서 스크립트 제작
 
-1. 뉴크에서 활용가능한 다른 개발방법들 소개
-	1. [OFX(OpenFX)](docs/openfx.md)
-	1. [Blink](docs/blink.md)
-	1. [NDK](docs/ndk.md)
+1. 라이브러리의 기초
+	1. 경로를 통해서 Read노드 만들기
+	1. 다른 .nk 노드를 내부로 불러오기
 
 1. 포트폴리오 준비 / 실습 / 프로그래밍 진행
-	- 참고 : 아래 단계는 시간이 되는 만큼 진행됩니다.
-	1. 다른 .nk 노드를 내부로 불러오기
-	2. 파일관리툴 제작
+	1. 파일관리툴 제작
 
 1. 포트폴리오 진행
 	1. [ffmpeg 명령어를 이용해서 개발내용 스크린 캡쳐](docs/ffmpeg_screencap.md)
