@@ -17,6 +17,28 @@ bin폴더에 Designer.app 파일이 있습니다. 실행합니다.
 ~/anaconda2/bin/Designer.app/Contents/MacOS
 ```
 
+anaconda가 설치되면 ~/.bash_profile 파일에 아래줄이 추가됩니다. 참고하세요.
+```
+# added by Anaconda2 5.3.1 installer
+# >>> conda init >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$(CONDA_REPORT_ERRORS=false '/Users/woong/anaconda2/bin/conda' shell.bash hook 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    \eval "$__conda_setup"
+else
+    if [ -f "/Users/woong/anaconda2/etc/profile.d/conda.sh" ]; then
+        . "/Users/woong/anaconda2/etc/profile.d/conda.sh"
+        CONDA_CHANGEPS1=false conda activate base
+    else
+        \export PATH="/Users/woong/anaconda2/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+```
+
+Designer 만 사용한다면 위 설정 내용을 ~/.bash_profile에서 제거해주세요.
+
+
 ## 실습
 
 간단하게 인터페이스를 만들어 보겠습니다.
