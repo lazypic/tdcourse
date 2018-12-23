@@ -387,6 +387,17 @@ $ oiiotool -i input.exr --colorconvert "ACES - ACEScg" "Output - Rec.709" -o oup
 ```
 $ oiiotool -i input.exr --colorconvert "ACES - ACEScg" "Output - Rec.709" --fit 320x240 -o ouput.jpg
 ```
+## Dpx to sRGB
+참고 : ADX10은 ACES DPX 10bit 의 약자입니다.
+
+```bash
+$ oiiotool -i input.dpx --colorconvert "Input - ADX - ADX10" "Output - sRGB" -o ouput.jpg
+```
+
+만약 dpx가 Arri V3 LogC 커브로 인코딩 되어있다면 아래같은 옵션을 사용할 수 있습니다.
+```bash
+$ oiiotool -i input.dpx --colorconvert "Input - ARRI - Curve - V3 LogC (EI800)" "Output - sRGB" -o ouput.jpg
+```
 
 ## .exr to .tga
 일반적으로 .exr 이미지는 linear 컬러스페이스를 가지며, tga 파일은 sRGB 컬러스페이스를 가집니다.

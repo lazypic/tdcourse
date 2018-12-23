@@ -171,7 +171,7 @@
 1. VFX에서 자주 사용되는 파일 : 볼륨데이터
 	1. [OpenVDB](docs/openvdb.md)
 
-1. [파이프라인툴 이야기](docs/pipeline_tools.md)
+1. [프로젝트 매니징 파이프라인툴](docs/pipeline_tools.md)
 
 1. [파이썬을 이용해서 엑셀파일 읽기, 쓰기](docs/excel_python.md)
 
