@@ -34,6 +34,8 @@ http://opencolorio.org/userguide/contexts.html 문서를 보면 showcfg 같은 �
 
 문서파일, 에셋경로, 상대방으로 부터 받은 데이터, 현장데이터, 레퍼런스, 컨셉, 외주로 보낼 데이터, 샷 작업파일, 최종 배포파일, 버전, Proxy파일, 프로젝트 고유 설정파일등 프로젝트에 필요한 경로가 추가됩니다.
 
+tree명령어를 통해서 경로의 구조를 쉽게 그릴 수 있습니다.
+
 ```
 .
 └── circle
@@ -60,4 +62,16 @@ http://opencolorio.org/userguide/contexts.html 문서를 보면 showcfg 같은 �
                 └── src
                     └── v001
 
+```
+
+설치는 간단합니다.
+
+linux
+```
+# yum install tree 
+```
+
+macOS
+```
+$ brew install tree
 ```
