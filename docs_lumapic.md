@@ -7,4 +7,4 @@
 - 소스코드 : https://github.com/LumaPictures/LumaNukeGizmos
 
 ## 실습
-- 같이 코드를 관찰하고 코드에서 복잡함을 제거하고 기즈모만 설치해봅시다.
+- 같이 코드를 관찰하고 기즈모를 설치해 봅시다.
