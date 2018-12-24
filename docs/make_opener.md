@@ -41,3 +41,6 @@
 - 사용자 로그를 쌓고 분석하기
 - 작업파일 백업 시스템 제작
 - 등등
+
+## Reference
+- https://learn.foundry.com/nuke/developers/111/pythondevguide/asset.html

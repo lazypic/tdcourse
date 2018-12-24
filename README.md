@@ -231,7 +231,7 @@
 	1. [Arri Alexa lut 다운로드](docs/download_arri_lut.md)
 	1. [Viewport LUT 설정](docs/set_viewlut_in_nuke.md)
 
-1. 인아웃 셋팅
+1. 인아웃 셋팅, 노드생성
 	1. [자주 사용하는 포멧등록](docs/add_format.md)
 	1. [노드에 file 옵션이 있다면 폴더를 여는 기능 제작](docs/nkpython_openfile.md)
 	1. [노드구조 퍼포먼스 체크 기능 추가하기](docs/performance_time_check.md)
@@ -242,8 +242,8 @@
 	1. [크립토매트 설치해보기](docs/cryptomatte.md)
 	1. [타팀에서 사용하는 플러그인 셋팅](docs/set_other_plugins.md)
 
-1. Python으로 노드짜기
-	1. 예제 : 뉴크 내부에서 PySide2를 이용해서 스크립트 제작
+1. Nuke GUI
+	1. [예제 : 뉴크 내부에서 PySide2를 이용해서 스크립트 제작](docs/nuke_pyside2.md)
 
 1. 라이브러리의 기초
 	1. [경로를 통해서 Read노드 만들기](docs/path_to_read.md)
