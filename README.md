@@ -1,6 +1,6 @@
 # Curriculum
 
-## Info
+## 기본정보
 - 장 소 : [mofacacademy](https://www.mofacacademy.com)
 - 기 간 : 18.12.28 ~ 19.2.27 
 - 시 간 : 월 ~ 금
