@@ -67,3 +67,16 @@ layout.addWidget(button5, 2, 1)
 window.setLayout(layout)
 window.show()
 ```
+
+# 실습
+버튼을 2개 만들고 실제 작동되는 기능을 제작해보자.
+
+- 리눅스 경로를 윈도우즈 경로로 변경하기.
+```
+/project/ -> //10.20.30.40/project/
+```
+
+- 윈도우즈 경로를 리눅스 경로로 변경하기.
+```
+//10.20.30.40/project/ -> /project/
+```
