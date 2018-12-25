@@ -54,7 +54,7 @@
 1. 에디터, 유틸리티 설치
 	1. [vim 소개](docs/vim.md)
 	1. [에디터 추천](docs/editor.md)
-	1. 실습 : 크롬설치 https://blog.bypass.sh/961
+	1. [설치](docs/install_chrome.md)
 	1. [CentOS Beep 사운드 제거](docs/soundoff.md)
 
 1. 설치 유틸리티
