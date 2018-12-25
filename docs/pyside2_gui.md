@@ -21,3 +21,6 @@ $ cd examples
 ```
 $ git clone https://github.com/pyside/pyside2-examples
 ```
+
+## Reference
+- pyside, pyqt를 사용하는 회사 : http://www.nukepedia.com/prepare-for-qt5
