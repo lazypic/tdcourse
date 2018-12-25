@@ -189,3 +189,6 @@ STD_CXXFLAGS = -std=gnu++98 -stdlib=libc++
 
 ## Reference
 - https://www.uncleninja.com/uncategorized/2016-05-04/install-mpv-player-smplayer-centos-7/
+
+## Torrent 설치
+- [토렌트설치](docs/torrent.md)를 해보세요.
