@@ -90,7 +90,7 @@
 
 1. [환경변수란?](docs/env.md)
 	1. [자신만의 .bashrc 셋팅하기](docs/custom_bashrc.md)
-	1. [환경변수 및 패키징 관리툴 관리 툴](dos/env_managing.md)
+	1. [환경변수 및 패키징 관리툴 관리 툴](docs/env_managing.md)
 
 1. 팀규모의 에디터 셋팅
 	1. [에디터](docs/editor.md)
@@ -243,7 +243,7 @@
 	1. [Write노드 생성 스크립트 제작](docs/gen_writenode.md)
 
 1. 자주 사용하는 플러그인 설치해보기
-	1. [루마픽쳐스에서 사용중인 기즈모 등록](docs_lumapic.md)
+	1. [루마픽쳐스에서 사용중인 기즈모 등록](docs/lumapic.md)
 	1. [크립토매트 설치해보기](docs/cryptomatte.md)
 	1. [타팀에서 사용하는 플러그인 셋팅](docs/set_other_plugins.md)
 
