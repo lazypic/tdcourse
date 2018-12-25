@@ -6,6 +6,17 @@ OpenColorIO는 ACES 표준을 따르는 컬러메니징 솔루션입니다.
 
 - 소스코드 : https://github.com/imageworks/OpenColorIO
 
+## 설치
+```
+cd ~/app
+git clone https://github.com/imageworks/OpenColorIO OpenColorIO_src
+mkdir OpenColorIO_build
+cd OpenColorIO_build
+/opt/cmake3.13/bin/cmake ../OpenColorIO_src -DCMAKE_INSTALL_PREFIX=$HOME/app/OpenColorIO -DGLEW_INCLUDE_DIR=/usr/include -DGLEW_LIBRARY=/usr/lib64
+make
+make install
+```
+
 #### OCIO를 지원하는 툴
 - Renderman
 - Vray
