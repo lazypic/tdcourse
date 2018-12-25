@@ -59,7 +59,6 @@
 
 1. 설치 유틸리티
 	1. [yum](docs/yum.md) 명령어
-	1. [실습 : 재미있는 명령어를 설치해보자.](docs/fun_cmds.md)
 	1. [pip](docs/pip.md) 설치
 
 1. 유용한 시스템 명령어
@@ -67,6 +66,12 @@
 	1. [notify](docs/notify.md)
 	1. [top](docs/top.md)
 	1. [man](docs/man.md)
+
+1. 재미있는 명령어 설치
+	1. [Torrent](docs/torrent.md)
+	1. [실습 : 재미있는 명령어를 설치해보자.](docs/fun_cmds.md)
+	1. [steam](docs/steam.md)
+	1. [slack](docs/slack.md)
 
 1. 서비스와 데몬
 	1. [Daemon](docs/daemon.md)
