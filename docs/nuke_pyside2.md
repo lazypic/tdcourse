@@ -23,7 +23,7 @@ w.setLayout(layout)
 w.show()
 ```
 
-레이아웃
+레이아웃1
 ```python
 from PySide2.QtWidgets import *
 
