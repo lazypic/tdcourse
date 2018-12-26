@@ -196,7 +196,7 @@ $ otiocat input.edl
 #### otioconvert
 edl 파일등을 otio로 변환할 때 사용합니다.
 
-```
+```bash
 $ otioconvert -i input.edl -o output.otio
 ```
 
