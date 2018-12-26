@@ -50,7 +50,20 @@ shader TDdiffuse_ramp(
 아직 지원하고 있지 않습니다. 아래 URL에서 해당 사항에 대해서 Discussion은 올라와 있습니다.
 https://forums.unrealengine.com/development-discussion/rendering/36083-osl-support
 
+## 컴파일정보
+- 소스코드 및 사용된 프로젝트 : https://github.com/imageworks/OpenShadingLanguage
+- 컴파일정보 : https://github.com/imageworks/OpenShadingLanguage/blob/master/INSTALL.md
+
+OSL을 컴파일 하기 위해서는 LLVM이 필요합니다.
+- LLVM 설명 : http://kyejusung.com/2015/11/llvm이란-clang-비트코드-포함/
+
+```bash
+# yum install centos-release-scl
+# yum install llvm-toolset-7
+$ scl enable llvm-toolset-7 bash
+$ clang --version
+```
+
 ## Reference
-- https://github.com/imageworks/OpenShadingLanguage
 - https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=2ahUKEwi5kfuTuYHfAhWBF4gKHaDGAVgQFjAAegQIChAC&url=https%3A%2F%2Fraw.githubusercontent.com%2Fimageworks%2FOpenShadingLanguage%2Fmaster%2Fsrc%2Fdoc%2Fosl-languagespec.pdf&usg=AOvVaw0fnZDAj-almK7unV7NKApA
 - https://blendersushi.blogspot.com/2013/10/osl-basic-functions.html

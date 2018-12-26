@@ -37,6 +37,7 @@ echo "Hello $MY_NAME"
 
 ## 인수처리
 argv.sh
+
 ```bash
 #!/bin/sh
 echo $1
@@ -44,7 +45,8 @@ echo $2
 ```
 
 ## 경로체크
-뉴크가 설치되어있는지 체크하는 방법
+우리는 지난시간에 뉴크를 $HOME 경로에 설치했습니다.
+bash 스크립트를 통해서 뉴크가 설치되어있는지 체크하는 방법은 아래와 같습니다.
 
 ```bash
 if [ -d "$HOME/Nuke11.2v5" ]; then
@@ -68,6 +70,8 @@ if [ ! -f "$HOME/test.py" ]; then
     echo "홈디렉토리에 test.py 파일이 존재하지 않습니다."
 fi
 ```
+
+위 형태의 코드를 통해서 "무언가가 설치되어있지 않다면 설치해라!" 형태의 쉘 스크립트를 제작할 수 있습니다.
 
 ## Reference
 - http://www.compciv.org/recipes/cli/basic-shell-scripts/

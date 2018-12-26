@@ -50,7 +50,7 @@ alias 차이홍="echo 031-916-8867 && espeak 'The contact number for Chinese res
 ```
 
 ## export
-특정값을 환경변수로 설정할 수 있습니다.
+특정경로를 환경변수로 설정할 수 있습니다.
 
 아래 예제는 OCIO 환경변수에 `$HOME/OpenColorIO-configs/aces_1.0.3/config.ocio` 값을 설정하는 예제입니다.
 
@@ -67,14 +67,15 @@ OCIO는 OpenColorIO의 약자이며 이 환경변수를 가지고 추후 컬러�
 환경변수, alias가 정의된 custom.bash 파일이 있다면,
 source 명령어를 이용해서 파일에 선언된 환경변수를 부를 수 있습니다.
 
-~/custom.env
+~/env/custom.env
 ```bash
 PROJECT=CIRCLE
 SHOT=FOO_0010
 ```
 
+터미널에서 값이 잘 인식되는지 확인합니다.
 ```bash
-$ source ~/custom.env
+$ source $HOME/env/custom.env
 $ echo $PROJECT
 $ echo $SHOT
 ```

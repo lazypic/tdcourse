@@ -407,5 +407,19 @@ oiiotool 명령어는 기본적으로 이미지 알파 채널에 대해서 premu
 $ oiiotool -i input.exr --colorconvert linear srgb --premult -o output.tga
 ```
 
+## 컴파일
+위에서 필요한 명령어는 간단하게 설치가 끝났습니다.
+명령어를 위해서 컴파일 할 필요는 없지만, 다른 프로그램을 컴파일할 때 활용됩니다.
+컴파일 해보겠습니다.
+
+```bash
+$ cd ~/app
+$ git clone https://github.com/OpenImageIO/oiio OpenImageIO_src
+$ mkdir OpenImageIO_build
+$ mkdir OpenImageIO
+$ cd OpenImageIO_build
+$ ~/app/cmake3.13.2/bin/cmake ../OpenImageIO_src
+```
+
 ## Reference
 - https://github.com/OpenImageIO/oiio/blob/master/src/doc/openimageio.pdf

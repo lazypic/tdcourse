@@ -10,7 +10,7 @@
 - 자동설치 툴
 
 취업을 목적으로 한다면 위 툴들을 테스트로 제작해보는 것을 추천합니다.
-
+실무에 자주 사용되는 툴 패턴이기 때문입니다.
 
 ## 예제파일
 ```
@@ -25,3 +25,5 @@ $ git clone https://github.com/pyside/pyside2-examples
 ## Reference
 - pyside, pyqt를 사용하는 회사 : http://www.nukepedia.com/prepare-for-qt5
 - 샷건이 사용하는 PySide2 형태를 볼 수 있는 사이트 : https://support.shotgunsoftware.com/hc/en-us/articles/219032858-Nuke?mobile_site=true
+- David Emeny 블로그 : https://davemne.wordpress.com
+- 프로젝트에 활용되는 GUI : https://benmorgananimation.wordpress.com/2017/09/13/making-a-picker-gui-for-maya-with-pyside-and-qtdesigner/
