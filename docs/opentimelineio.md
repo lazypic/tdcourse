@@ -40,10 +40,37 @@ pip를 이용해서 설치할 수 있습니다.
 ```
 
 ## 명령어
-- otiocat
+- otiocat : otio파일을 STDOUT으로 출력합니다.
 - otioconvert
-- otiostat
+```
+ env OTIO_PLUGIN_MANIFEST_PATH=mymanifest.otio.json:$OTIO_PLUGIN_MANIFEST_PATH bin/otioconvert -i somefile.edl --media-linker="awesome_studios_media_linker" -o /var/tmp/test.otio
+```
+
+```
+python otioconvert.py -i /mnt/Entretenimento/Temp/sandro/R01_BASE_Reference_v2.edl -o /mnt/Entretenimento/Temp/sandro/R01_BASE_Reference_v2.rv
+```
+
+- otiostat : otio 파일의 유효성 검사, 통계를 출력합니다.
+
+아래서처럼 파일에 이상이 있는지 체크할 수 있습니다.
+
+```
+$ otiostat test.edl
+```
+
+파일에 이상이 있다면 무엇이 이상한지 출력해줍니다.
+파일에 존재하면 안되는 수치가 있다면 출력해줍니다.
+아래는 에러내용중 하나입니다.
+
+Error
+```
+The file did not successfully parse, with error: Source and record duration don't match: RationalTime(260, 24.0) != RationalTime(284, 24.0) for clip Test rename
+```
+
 - otioview
-```
-$ otioview path/to/your/file.edl
-```
+![otioview](https://user-images.githubusercontent.com/3489076/44323186-a54ed980-a405-11e8-8c65-28999d6c244f.png)
+
+    사용법
+    ```
+    $ otioview path/to/your/file.edl
+    ```

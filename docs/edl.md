@@ -77,8 +77,20 @@ M2   A007C011_161208_R10A       037.5                      00:00:00:00
 .edl 파일 안에는 타임코드 정보가 있습니다. 이 타임코드를 파싱할 때는 
 https://code.google.com/archive/p/pytimecode/ 라이브러리를 사용하세요. 물론 직접 작성하는 것도 이론을 이해하기에 좋습니다.
 
+- 테스트 데이터 : https://github.com/simonh10/python-edl/tree/master/tests/test_data
+
+## 포멧
+- CMX 3600 : 현대의 툴은 대부분 이 포멧입니다. (다빈치 리졸브 사용)
+- CMX 3400A : CMX 340 포멧이 발전된 형태입니다. 거의 사용되지 않습니다.
+- CMX 340/3400 : CMX 340은 최초 CMX 포멧입니다.
+- Grass Valley
+- Sony 9100 V2
+- Sony 910
+
 ## Reference
 - http://resources.avid.com/SupportFiles/attach/EDLManagerGuide_4.0_8.0.pdf
 - http://www.niwa.nu/2013/05/how-to-read-an-edl/
 - http://www.edlmax.com/EdlMaxHelp/Edl/maxguide.html
 - http://www.niwa.nu/2013/05/how-to-read-an-edl/
+- http://www.edlmax.com/EdlMaxHelp/Edl/Edl_Overview.htm
+- http://www.edlmax.com/EdlMaxHelp/Edl/maxguide.html

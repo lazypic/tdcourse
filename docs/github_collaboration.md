@@ -58,3 +58,4 @@ exit 0
 
 ### Reference link
 - https://blog.ghost.org/prevent-master-push/
+- upstream 사용 예) : https://opentimelineio.readthedocs.io/en/latest/tutorials/contributing.html
