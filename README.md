@@ -1,6 +1,6 @@
 # Curriculum
 
-## Info
+## 기본정보
 - 장 소 : [mofacacademy](https://www.mofacacademy.com)
 - 기 간 : 18.12.28 ~ 19.2.27 
 - 시 간 : 월 ~ 금
@@ -16,7 +16,7 @@
 - 프로그래밍 기초가 약한 분들은 한번씩 읽고 오세요. : https://wikidocs.net/book/2
 
 ## 내 용
-1. 강의 소개, 리눅스 설치
+1. 강의 소개
 	1. 자기소개, PPT 발표
 	1. [Technical Director Course 소개](docs/intro.md)
 	1. [개발자의 시선으로 바라보는 시장 흐름 : VFX, 애니메이션, 게임](docs/market.md)
@@ -54,19 +54,25 @@
 1. 에디터, 유틸리티 설치
 	1. [vim 소개](docs/vim.md)
 	1. [에디터 추천](docs/editor.md)
-	1. 실습 : 크롬설치 https://blog.bypass.sh/961
+	1. [설치](docs/install_chrome.md)
 	1. [CentOS Beep 사운드 제거](docs/soundoff.md)
 
 1. 설치 유틸리티
 	1. [yum](docs/yum.md) 명령어
-	1. [실습 : 재미있는 명령어를 설치해보자.](docs/fun_cmds.md)
 	1. [pip](docs/pip.md) 설치
+	1. [cmake](docs/cmake.md) 설치
 
 1. 유용한 시스템 명령어
 	1. [crontab](docs/crontab.md)
 	1. [notify](docs/notify.md)
 	1. [top](docs/top.md)
 	1. [man](docs/man.md)
+
+1. 재미있는 명령어 설치
+	1. [Torrent](docs/torrent.md)
+	1. [실습 : 재미있는 명령어를 설치해보자.](docs/fun_cmds.md)
+	1. [steam](docs/steam.md)
+	1. [slack](docs/slack.md)
 
 1. 서비스와 데몬
 	1. [Daemon](docs/daemon.md)
@@ -85,7 +91,7 @@
 
 1. [환경변수란?](docs/env.md)
 	1. [자신만의 .bashrc 셋팅하기](docs/custom_bashrc.md)
-	1. [환경변수 및 패키징 관리툴 관리 툴](dos/env_managing.md)
+	1. [환경변수 및 패키징 관리툴 관리 툴](docs/env_managing.md)
 
 1. 팀규모의 에디터 셋팅
 	1. [에디터](docs/editor.md)
@@ -238,7 +244,7 @@
 	1. [Write노드 생성 스크립트 제작](docs/gen_writenode.md)
 
 1. 자주 사용하는 플러그인 설치해보기
-	1. [루마픽쳐스에서 사용중인 기즈모 등록](docs_lumapic.md)
+	1. [루마픽쳐스에서 사용중인 기즈모 등록](docs/lumapic.md)
 	1. [크립토매트 설치해보기](docs/cryptomatte.md)
 	1. [타팀에서 사용하는 플러그인 셋팅](docs/set_other_plugins.md)
 
@@ -251,6 +257,7 @@
 
 1. 포트폴리오 준비 / 실습 / 프로그래밍 진행
 	1. [파일관리툴 제작](docs/make_opener.md)
+	1. [시간이 되면 진행할 테마](docs/dev_todo.md)
 
 1. 포트폴리오 진행
 	1. 남은 8시간은 하루동안 기존에 배운것들을 천천히 정리하는 시간입니다.

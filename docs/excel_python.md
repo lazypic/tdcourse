@@ -14,10 +14,24 @@
 
 ## Python으로 핸들링하기
 
-## CSV 파서
+#### CSV 파서
 - https://realpython.com/python-csv/
 
-## Excel 파서
+#### Excel 파서
 
-#### Reference
+자주 사용하는 라이브러리를 일괄 설치합니다.
+```
+pip install openpyxl
+pip install xlsxwriter
+pip install xlrd
+pip install xlwt
+pip install xlutils
+pip install pillow <- 엑셀에 이미지를 넣을 때 사용됩니다.
+```
+
+## 실습
+- 리브레오피스를 설치하고 Excel 파일을 만들어서 저장해주세요.
+- 엑셀파일을 직접 만들어보고 데이터를 로딩해보세요.
+
+## Reference
 - http://www.python-excel.org/

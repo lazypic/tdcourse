@@ -177,7 +177,7 @@ mkdir abcview
 mkdir abcview_build
 cd abcview_build
 scl enable devtoolset-6 bash
-cmake ../abcview_src -DBOOST_ROOT=$HOME/app/boost_1_66_0 -DILMBASE_ROOT=$HOME/app/IlmBase -DALEMBIC_LIB=$HOME/app/alembic/lib -DALEMBIC_INCLUDE_PATH=$HOME/app/alembic/incloud -DGLEW_INCLUDE_DIR=/usr/inclued -DGLEW_LIBRARY=/usr/lib64 -DUSE_PYTHON=OFF -DCMAKE_INSTALL_PREFIX=$HOME/app/abcview 
+cmake ../abcview_src -DBOOST_ROOT=$HOME/app/boost_1_66_0 -DILMBASE_ROOT=$HOME/app/IlmBase -DALEMBIC_LIB=$HOME/app/alembic/lib -DALEMBIC_INCLUDE_PATH=$HOME/app/alembic/incloud -DGLEW_INCLUDE_DIR=/usr/include -DGLEW_LIBRARY=/usr/lib64 -DUSE_PYTHON=OFF -DCMAKE_INSTALL_PREFIX=$HOME/app/abcview 
 
 -DPYTHON_ROOT=/usr/lib64/python2.7/config -DPYTHON_LIBRARY=/usr/lib64/python2.7/config/libpython2.7.so -DPYTHON_INCLUDE_DIR=/usr/include/python2.7
 
