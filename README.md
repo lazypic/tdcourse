@@ -16,7 +16,7 @@
 - 프로그래밍 기초가 약한 분들은 한번씩 읽고 오세요. : https://wikidocs.net/book/2
 
 ## 내 용
-1. 강의 소개, 리눅스 설치
+1. 강의 소개
 	1. 자기소개, PPT 발표
 	1. [Technical Director Course 소개](docs/intro.md)
 	1. [개발자의 시선으로 바라보는 시장 흐름 : VFX, 애니메이션, 게임](docs/market.md)
@@ -60,6 +60,7 @@
 1. 설치 유틸리티
 	1. [yum](docs/yum.md) 명령어
 	1. [pip](docs/pip.md) 설치
+	1. [cmake](docs/cmake.md) 설치
 
 1. 유용한 시스템 명령어
 	1. [crontab](docs/crontab.md)
@@ -256,6 +257,7 @@
 
 1. 포트폴리오 준비 / 실습 / 프로그래밍 진행
 	1. [파일관리툴 제작](docs/make_opener.md)
+	1. [시간이 되면 진행할 테마](docs/dev_todo.md)
 
 1. 포트폴리오 진행
 	1. 남은 8시간은 하루동안 기존에 배운것들을 천천히 정리하는 시간입니다.
