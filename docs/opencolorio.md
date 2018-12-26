@@ -130,6 +130,23 @@ Tests complete.
 - Gaffer
 - Natron
 
+## ACES 2065-1, ACEScg, ACEScc
+일반적으로 CG 작업에는 ACEScg를 사용합니다.
+ACES 프로젝트중 데이터를 ACES 2065-1로 보내달라고 하는 경우가 있습니다.
+
+- ACES 2065-1 : 표준 ACES 컬러스페이스 입니다.
+- ACEScg : 일반적으로 Visual Effects 프로그램에서 컬러를 인코딩하기 위해서 사용하는 ACES 컬러스페이스입니다.
+- ACEScc : ACES의 로그 컬러스페이스입니다.
+
+#### Reference
+- https://community.foundry.com/discuss/topic/137176/about-the-aces-vfx-pulls-aces-2065-1-or-acescg
+- https://www.slideshare.net/hpduiker/acescg-a-common-color-encoding-for-visual-effects-applications
+
+## OCIO Core Library
+OCIO Core Library는 OpenImageIO 같은 툴을 컴파일할 때 간혹 사용한다. 아래 링크에서 Core Library를 다운로드 받을 수 있다.
+
+http://opencolorio.org/downloads.html#downloads
+
 ## Reference
 - ociobakelut : http://opencolorio.org/CompatibleSoftware.html
 - http://opencolorio.org/userguide/tool_overview.html

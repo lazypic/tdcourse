@@ -13,9 +13,9 @@ https://cmake.org/download/ 에서 리눅스용 cmake를 다운로드 받습니�
 $ cd ~/Downloads
 $ tar -zxvf cmake-3.13.2.tar.gz -C ~/app
 $ cd ~/app
-$ mv cmake-3.13.2 cmake-3.13.2_src
-$ cd cmake-3.13.2_src
-$ ./configure --prefix=$HOME/app/cmake3.13.2
+$ mv ~/app/cmake-3.13.2 ~/app/cmake-3.13.2_src
+$ cd ~/app/cmake-3.13.2_src
+$ ./configure --prefix=$HOME/app/cmake-3.13.2
 $ make
-# make install
+$ make install
 ```

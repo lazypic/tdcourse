@@ -128,6 +128,12 @@ exrheader, 뉴크에서 메타데이터를 확인하면 view 값이 설정되어
 
 - ref : https://openexr-devel.nongnu.narkive.com/q1Cos7DF/multipart-backward-compatibility
 
+## exr2aces
+exr이미지를 aces exr로 바꾼다.
+```
+# exr2aces input.exr output.exr
+```
+
 ## 실습
 명령어에 -h 옵션을 붙히면 수많은 옵션들이 출력됩니다.
 궁금한 옵션들을 실습 하면서 실제 이미지가 어떻게 변하는지 체크해보세요.

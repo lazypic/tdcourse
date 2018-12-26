@@ -8,6 +8,15 @@ VFX에서 많이 사용됩니다.
 - 홈페이지 : http://www.openexr.com
 - 소스코드 : https://github.com/openexr/openexr
 
+## 설치
+yum을 이용하여 간단하게 OpenEXR을 설치할 수 있습니다.
+
+```
+yum install OpenEXR
+yum install OpenEXR-libs
+yum install OpenEXR-devel
+```
+
 
 ## OpenEXR 컴파일하기.
 
