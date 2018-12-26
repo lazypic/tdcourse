@@ -6,7 +6,7 @@ CentOS7.5를 설치해보겠습니다.
 - https://www.centos.org/download/
 - CentOS를 사용하는 이유 : https://www.foundry.com/products/nuke/requirements
 - 강의실에서는 다른 수업의 경우 윈도우로 진행하기 때문에 리눅스 설치시 멀티 부팅을 할 수 있도록 설치합니다.
-- 강의실 Root 패스워드는 추후 관리를 위해서 `I'm_root!`로 통일해주세요.
+- 강의실 Root 패스워드는 추후 관리를 위해서 `imroot`로 통일해주세요.
 - 강의실에서 부팅을 USB로 하기 위해서는 Bios 패스워드를 알아야 합니다.(협의중)
 
 ## USB 만들기
@@ -59,10 +59,9 @@ Windows10이 깔려있는 곳에 리눅스를 설치하는 것은 모팩아카�
 하드디스크를 하나 준비하여 시스템에 붙히고 리눅스를 설치하기로 했습니다.
 
 #### 멀티부팅 with Windows
-이 항목은 아직 학원측과 협의중입니다. 아직 따라하지 말아주세요.
+이 항목은 아직 학원측과 협의중입니다. 진행하지 않습니다.
 
-#### Grub2 설정
-아직 강의실과 협의가 남아있습니다.
+- Grub2 설정 : 아직 강의실과 협의되지 않았습니다.
 
 ## CentOS 설치
 - 준비물 : 하드디스크, CentOS USB 이미지를 준비합니다.
@@ -103,50 +102,7 @@ Test this media & install CentOS7을 선택합니다. 이미지가 문제가 없
 
 재부팅 이후 라이센스 약관동의 창이 뜹니다.
 
-## 그래픽카드 드라이버 셋팅
-Nvidia 그래픽카드 드라이버를 설치해보겠습니다.
 
-- A클래스의 강의실 그래픽 카드는 Nvidia Quadro K2200 입니다.
-- B클래스의 강의실 그래픽 카드는 Nvidia Quadro M4000 입니다.
-
-```
-yum update
-yum groupinstall "GNOME Desktop" "Development Tools"
-yum install kernel-devel
-yum install epel-release
-yum install dkms
-```
-
-드라이버를 다운로드 합니다.
-http://www.nvidia.com/object/unix.html
-
-$ vim /etc/default/grub. Append the following to "GRUB_CMDLINE_LINUX"
-rd.driver.blacklist=nouveau nouveau.modeset=0
-
-```
-# grub2-mkconfig -o /boot/grub2/grub.cfg
-```
-
-/etc/modprobe.d/blacklist.conf 파일에 아래 내용을 추가합니다.
-
-```
-blacklist nouveau
-```
-
-과거 initramfs를 백업하고 새로운 파일을 생성합니다.
-```
-# mv /boot/initramfs-$(uname-r).img /boot/initramfs-$(uname -r)-nouveau.img
-# dracut /boot/initramfs-$(uname -r).img $(uname -r)
-```
-
-재부팅합니다.
-
-```
-# systemctl isolate multi-user.target
-# sh NVIDIA-Linux-x86_64-*.run
-```
-
-재부팅을 다시 합니다.
 
 
 ## Referenece

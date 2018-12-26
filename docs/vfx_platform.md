@@ -86,13 +86,13 @@ python3으로 올리고 설치해주세요. 대부분의 VFX 툴은 아직 Pytho
 
 ## PySide
 설치
-```
+```bash
 # pip install PySide2
 ```
 
 버전체크
 
-```
+```bash
 $ python
 >>> import PySide2
 >>> print PySide2.__version__
@@ -104,7 +104,7 @@ $ python
 
 pyside2_test.py
 
-```
+```python
 import sys
 from PySide2 import QtWidgets
 
@@ -124,12 +124,12 @@ $ python pyside2_test.py
 ```
 
 ## NumPy
-```
-pip install numpy
+```bash
+# pip install numpy
 ```
 
 버전확인
-```
+```bash
 python
 >>> import numpy
 >>> print numpy.__version__
@@ -149,7 +149,7 @@ python
 ## [OpenColorIO](opencolorio.md)
 
 ## FBX
-FBX는 Autodesk에서 개발하는 포멧입니다. 리눅스에서는 SDK를 받아서 사용할 수 있습니다. SDK만 지원하고 소스를 지원하지는 않습니다.
+FBX는 Autodesk에서 개발하는 포멧입니다. 리눅스에서는 SDK를 받아서 사용할 수 있습니다. 개발자를 위한 SDK만 지원하고 소스를 지원하지는 않습니다.
 - https://www.autodesk.com/developer-network/platform-technologies/fbx-sdk-2019-2
 
 ## Boost

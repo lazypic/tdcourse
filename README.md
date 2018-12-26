@@ -24,7 +24,7 @@
 	1. [기업은 왜 리눅스를 사용하는가?](docs/why_linux.md)
 
 1. [Github와 오픈소스 이야기](docs/github.md)
-	1. 토론 : Github 가입
+	1. 실습 : Github 가입
 	1. [모든학생 Github 그룹에 참여하도록 설정](docs/github_org_setting.md)
 	1. [개인 포트폴리오 홈페이지 제작을 위한 github.io 소개](docs/github_io.md)
 	1. 실습 : id.github.io를 통한 자신의 포트폴리오 사이트 리포지터리 생성
@@ -32,9 +32,9 @@
 
 1. 리눅스 설치
 	1. USB, 하드디스크 전달
-	1. [Linux가상설치 - CentOS 7.5 설치준비](docs/install_centos_on_virtualbox.md)
 	1. [Linux설치 - CentOS 7.5](docs/install_centos.md)
-	1. 실습 : 설치이후 CentOS 둘러보기
+	1. 실습 : CentOS 둘러보기
+	1. [그래픽카드 드라이버 설치](docs/install_nvidia.md) : 테스트하고 진행합니다.
 	1. [규칙](docs/rule.md)
 
 1. 리눅스 명령어 기본
@@ -68,9 +68,9 @@
 	1. [top](docs/top.md)
 	1. [man](docs/man.md)
 
-1. 재미있는 명령어 설치
-	1. [Torrent](docs/torrent.md)
+1. 재미있는 명령어 설치 : 리눅스를 자신의 데스크탑으로 사용하고 싶은 유저를 위해서 정보를 공유합니다.
 	1. [실습 : 재미있는 명령어를 설치해보자.](docs/fun_cmds.md)
+	1. [Torrent](docs/torrent.md)
 	1. [steam](docs/steam.md)
 	1. [slack](docs/slack.md)
 
