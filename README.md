@@ -84,6 +84,7 @@
 1. 뉴크 설치
 	1. [뉴크 설치](docs/install_nuke.md)
 	1. [라이센스 셋팅](docs/license.md)
+	1. 뉴크 둘러보기
 
 1. 쉘 스크립트
 	1. [.sh 스크립트 생성](docs/shell_script.md)
@@ -208,7 +209,7 @@
 	1. [뉴크 내부에서 사용하는 파이썬 버전을 확인하기](docs/check_py_ver_in_nuke.md)
 	1. [뉴크 버전관리](docs/managing_nukever.md)
 
-1. 뉴크에서 활용가능한 다른 개발방법들 소개
+1. 뉴크에서 활용 가능한 다양한 개발 방법론 소개
 	1. [OFX(OpenFX)](docs/openfx.md)
 	1. [Blink](docs/blink.md)
 	1. [NDK](docs/ndk.md)

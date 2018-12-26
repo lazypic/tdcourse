@@ -29,6 +29,7 @@ $ ./bootstrap
 ```
 - bootstrap이 잘 실행되었다면, configure 파일이 생성됩니다.
 - configure 파일을 실행합니다. --prefix 옵션을 달아서 어디로 컴파일 할것인지 옵션을 설정하세요.
+- gcc6 이상 사용을 위해서 devtoolset-6 설정을 해줍니다.
 ```
 $ scl enable devtoolset-6 bash
 $ ./configure --prefix=$HOME/app/IlmBase
