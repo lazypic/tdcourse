@@ -422,7 +422,10 @@ $ mkdir OpenImageIO_build
 $ mkdir OpenImageIO
 $ cd OpenImageIO_build
 $ scl enable devtoolset-6 bash
-$ ~/app/cmake-3.13.2/bin/cmake ../OpenImageIO_src -DILMBASE_ROOT=$HOME/app/IlmBase -DILMBASE_INCLUDE_PATH=$HOME/app/IlmBase/include -DCMAKE_INSTALL_PREFIX=$HOME/app/OpenImageIO
+$ ~/app/cmake-3.13.2/bin/cmake ../OpenImageIO_src -DILMBASE_INCLUDE_PATH=$HOME/app/IlmBase/include -DOPENEXR_INCLUDE_PATH=$HOME/app/OpenEXR/include
+-DCMAKE_INSTALL_DIR=$HOME/app/OpenImageIO
+make
+make install
 ```
 
 ## Reference
