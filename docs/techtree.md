@@ -11,7 +11,7 @@
 - 인증시스템 : AD(ActiveDirectory), LDAP
 - 업무 효율화 도구 : 자동화 스크립트
 - 에셋(라이브러리) 관리 도구
-- 프로젝트 매니징 툴
+- 프로젝트 매니징 툴, DB
 - 렌더팜 관리 도구
 - 보안툴 제작 / 참고규칙 : MPAA규칙(https://www.mpaa.org/what-we-do/advancing-creativity/additional-resources/#content-protection-best-practices)
 - 제작 소프트웨어 : 마야, 뉴크, 후디니, 게임엔진, 플러그인 등등
