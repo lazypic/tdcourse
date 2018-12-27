@@ -65,6 +65,12 @@ $ scl enable llvm-toolset-7 bash
 $ clang --version
 ```
 
+```
+cd ~/app
+git clone https://github.com/imageworks/OpenShadingLanguage.git OSL_src
+~/app/cmake-3.13.2/bin/cmake ../OSL_src
+```
+
 ## Reference
 - https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=2ahUKEwi5kfuTuYHfAhWBF4gKHaDGAVgQFjAAegQIChAC&url=https%3A%2F%2Fraw.githubusercontent.com%2Fimageworks%2FOpenShadingLanguage%2Fmaster%2Fsrc%2Fdoc%2Fosl-languagespec.pdf&usg=AOvVaw0fnZDAj-almK7unV7NKApA
 - https://blendersushi.blogspot.com/2013/10/osl-basic-functions.html

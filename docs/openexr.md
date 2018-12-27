@@ -42,6 +42,7 @@ $ ./bootstrap
 ```
 $ scl enable devtoolset-6 bash
 $ ./configure --prefix=$HOME/app/IlmBase
+$ 
 ```
 - make 명령을 이용해서 컴파일 합니다.
 ```
@@ -52,16 +53,17 @@ $ make
 $ make install
 ```
 
-- 잘 배포되면 prefix 경로에 include, lib 폴더가 생성되어 있습니다.
-- 위 prefix경로는 다른 라이브러리 또는 프로그램 컴파일시 `--with-ilmbase-prefix`, `ILMBASE_HOME`등 키값에 대한 변수로 사용할 수 있습니다.
+- 잘 배포되면 ~/app/IlmBase 경로에 include, lib 폴더가 생성되어 있습니다.
+- ~/app/IlmBase 경로는 다른 라이브러리 또는 프로그램 컴파일시 `--with-ilmbase-prefix`, `ILMBASE_HOME`등 키값에 대한 변수로 사용할 수 있습니다.
 
 #### OpenEXR 컴파일
 - 위와 같은 방식으로 똑같이 OpenEXR 컴파일을 진행합니다.
-- prefix경로는 `~/app/OpenEXR`로 변경했습니다.
+- prefix경로는 `~/app/OpenEXR`로 설정하겠습니다.
 ```
-$ cd openexr/OpenEXR
+$ cd openexr_src/OpenEXR
+$ scl enable devtoolset-6 bash
 $ ./bootstrap
-$ ./configure --prefix=$HOME/app/OpenEXR
+$ ./configure --prefix=$HOME/app/OpenEXR --with-ilmbase-prefix=$HOME/app/IlmBase
 $ make
 $ make install
 ```
