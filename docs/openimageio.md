@@ -581,8 +581,7 @@ CMake Warning at src/iv/CMakeLists.txt:12 (add_executable):
       /usr/local/lib
 
   Some of these libraries may not be found correctly.
-
-
 ```
 ## Reference
 - https://github.com/OpenImageIO/oiio/blob/master/src/doc/openimageio.pdf
+- [webp 란?](https://ko.wikipedia.org/wiki/WebP) : jpeg를 대체하기 위해 구글에서 개발된 포멧
