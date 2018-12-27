@@ -104,37 +104,7 @@ Test this media & install CentOS7을 선택합니다. 이미지가 문제가 없
 1. F10을 눌러서 설정을 마칩니다.
 1. File > Save Changes and Exit 를 눌러줍니다.
 
-## 부팅메뉴 설정(Grub2)
-- 부팅메뉴 창에서 c 키를 눌러줍니다.
 
-파티션 정보가 출력됩니다.
-```
-grub> ls -l
-```
-
-출력되는 정보를 통해서 윈도우즈가 설치된 하드디스크정보를 가지고 옵니다.
-
-> 1024KB 라고 적힌 부분을 읽습니다.
-
-hd1,msdos1 이 강의실에서는 윈도우즈 10이 설치된 하드디스크 입니다.
-
-CentOS7로 부팅합니다.
-
-관리자로 전환하여 아래 명령어를 입력해주세요.
-```
-$ su
-# vim /boot/grub2/grub.cfg
-```
-
-맨 아랫줄에 다음 내용을 추가합니다.
-```
-# windows10
-menuentry 'Windows10' {
-    insmod ntfs
-    set root=(hd1,msdos1)
-    chainloader +1
-}
-```
 
 ## Referenece
 - http://www.advancedclustering.com/act_kb/installing-nvidia-drivers-rhel-centos-7

@@ -56,7 +56,9 @@ M2   A007C011_161208_R10A       037.5                      00:00:00:00
 순서, Reelname, 채널, 트렌지션, 소스 IN타임코드, 소스 OUT타임코드, 편집 IN타임코드, 편집 OUT타임코드 순으로 구성되어 있습니다.
 
 - TITLE : EDL 파일의 제목입니다.
-- FCM : Frame Code Mode의 약자입니다. 편집시 Drop Frame 모드인지 None Drop Frame 모드인지 알려주는 장치 입니다.
+- FCM : Frame Code Mode의 약자입니다. 편집시 Drop Frame 모드인지 None Drop Frame 모드인지 알려주는 장치 입니다. 
+- 드롭프레임과 논드롭 프레임의 추가설명 : https://m.blog.naver.com/PostView.nhn?blogId=scinew&logNo=90180767422&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F
+
 - 숫자 : 보통 3자리의 숫자로 되어있습니다. 0-999
 - Reel네임(소스이름) : 장비에 따라 최대 8자리로 제한된 소프트웨어도 있습니다. A-Z, 0-9 문자만 사용할 수 있습니다. .edl 포멧마다 최대 7자리의 문자만 사용할 수 있기 때문에 이 특징이 파이프라인을 작성할 때 그대로 반영되는 경우가 많습니다. 예) 샷이름이 `FOO_0010`, `BAR_0010` 형태가 결국 될 수 밖에 없는 이유.
 
@@ -91,20 +93,31 @@ https://code.google.com/archive/p/pytimecode/ 라이브러리를 사용하세요
 
 .edl 파일을 파싱해보겠습니다.
 
+필요한 라이브러리를 먼저 설치합니다.
 ```
-pip install timecode
-pip install edl
-```
-
-
-```bash
 # pip install timecode
-$ cd ~/app
-$ git clone https://github.com/simonh10/python-edl
-$ cd python-edl
-$ python setup.py install
+# pip install edl
 ```
 
+```python
+import os
+from edl import Parser
+
+home = os.path.expanduser("~")
+parser=Parser('23.98')
+with open(home+'/examples/edl/lazypic_example.edl') as f:
+    edl=parser.parse(f)
+    for event in edl.events:
+        print "Event Number:"+str(event.num)
+        print "Source file:"+str(event.source_file)
+        print "Clip Name:"+str(event.clip_name)
+```
+
+필요한 메소드가 있다면 dir을 이용해서 볼 수 있습니다.
+
+```python
+print dir(event)
+```
 
 ## Reference
 - http://resources.avid.com/SupportFiles/attach/EDLManagerGuide_4.0_8.0.pdf
