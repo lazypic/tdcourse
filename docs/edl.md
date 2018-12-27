@@ -87,6 +87,25 @@ https://code.google.com/archive/p/pytimecode/ 라이브러리를 사용하세요
 - Sony 9100 V2
 - Sony 910
 
+## 실습
+
+.edl 파일을 파싱해보겠습니다.
+
+```
+pip install timecode
+pip install edl
+```
+
+
+```bash
+# pip install timecode
+$ cd ~/app
+$ git clone https://github.com/simonh10/python-edl
+$ cd python-edl
+$ python setup.py install
+```
+
+
 ## Reference
 - http://resources.avid.com/SupportFiles/attach/EDLManagerGuide_4.0_8.0.pdf
 - http://www.niwa.nu/2013/05/how-to-read-an-edl/

@@ -53,19 +53,14 @@ Disk /dev/disk2 ejected
 ```
 
 
-## Windows10 설치
-이미 강의실에는 Windows10이 설치되어 있습니다.
-Windows10이 깔려있는 곳에 리눅스를 설치하는 것은 모팩아카데미와 측에서 권장하지 않습니다.
-하드디스크를 하나 준비하여 시스템에 붙히고 리눅스를 설치하기로 했습니다.
-
-#### 멀티부팅 with Windows
-이 항목은 아직 학원측과 협의중입니다. 진행하지 않습니다.
-
-- Grub2 설정 : 아직 강의실과 협의되지 않았습니다.
+## Windows10
+강의실에는 Windows10이 설치되어 있습니다.
+Windows10이 깔려있는 하드디스크에 리눅스를 설치하는 것은 모팩아카데미와 측에서 권장하지 않습니다.
+SSD 하드디스크를 준비하여 시스템에 붙히고 리눅스 설치를 진행합니다.
 
 ## CentOS 설치
 - 준비물 : 하드디스크, CentOS USB 이미지를 준비합니다.
-- 부팅시 F12를 눌러서 USB로 부팅할 수 있도록 해주세요. 바이오스 패스워드는 강의실에서 공유합니다.
+- 부팅시 F9를 눌러서 USB로 부팅할 수 있도록 해주세요. 바이오스 패스워드는 강의실에서 공유합니다.
 
 ![install_centos01](../figures/cent_install_01.png)
 
@@ -102,8 +97,44 @@ Test this media & install CentOS7을 선택합니다. 이미지가 문제가 없
 
 재부팅 이후 라이센스 약관동의 창이 뜹니다.
 
+## 바이오스 셋팅
+1. F10을 눌러서 바이오스에 들어갑니다.
+1. Storage > Boot Order
+1. SSD 하드의 순서를 위로 올려줍니다.
+1. F10을 눌러서 설정을 마칩니다.
+1. File > Save Changes and Exit 를 눌러줍니다.
 
+## 부팅메뉴 설정(Grub2)
+- 부팅메뉴 창에서 c 키를 눌러줍니다.
 
+파티션 정보가 출력됩니다.
+```
+grub> ls -l
+```
+
+출력되는 정보를 통해서 윈도우즈가 설치된 하드디스크정보를 가지고 옵니다.
+
+> 1024KB 라고 적힌 부분을 읽습니다.
+
+hd1,msdos1 이 강의실에서는 윈도우즈 10이 설치된 하드디스크 입니다.
+
+CentOS7로 부팅합니다.
+
+관리자로 전환하여 아래 명령어를 입력해주세요.
+```
+$ su
+# vim /boot/grub2/grub.cfg
+```
+
+맨 아랫줄에 다음 내용을 추가합니다.
+```
+# windows10
+menuentry 'Windows10' {
+    insmod ntfs
+    set root=(hd1,msdos1)
+    chainloader +1
+}
+```
 
 ## Referenece
 - http://www.advancedclustering.com/act_kb/installing-nvidia-drivers-rhel-centos-7

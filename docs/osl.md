@@ -1,9 +1,9 @@
 # Open Shanding Language
 최초 소니이미지 픽쳐스에서 아놀드 렌더러에 사용하기 위해서 만들어진 쉐이딩 렝귀지 입니다.
 
-쉐이더를 만들기 위한 언어입니다. 많은 렌더러들이 지원하며 렌더러마다 약간의 문법은 다릅니다.
+쉐이더를 만들기 위한 언어입니다. 많은 렌더러들이 지원하며 렌더러마다 조금씩 문법의 차이는 있습니다.
 쉐이더를 작성할 때 조금 수고 스럽더라도 OSL로 작성하면 라이브러리화 하기 쉽습니다.
-다른 렌더러로 전환되더라도 재활용하기가 편리합니다.
+조직이 다른 렌더러로 갈아타더라도 쉐이더를 재활용하기가 편리하기 때문입니다.
 
 지원하는 렌더러는 아래와 같습니다.
 
@@ -49,6 +49,7 @@ shader TDdiffuse_ramp(
 ## Unreal
 아직 지원하고 있지 않습니다. 아래 URL에서 해당 사항에 대해서 Discussion은 올라와 있습니다.
 https://forums.unrealengine.com/development-discussion/rendering/36083-osl-support
+
 
 ## 컴파일정보
 - 소스코드 및 사용된 프로젝트 : https://github.com/imageworks/OpenShadingLanguage
