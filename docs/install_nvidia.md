@@ -65,60 +65,10 @@ GRUB_DISABLE_RECOVERY="true"
 # bash ./NVIDIA-Linux-x86_64-410.78.run
 ```
 
-잘 설치가 되었다면 터미
+잘 설치가 되었다면 터미널에서 아래처럼 타이핑해서 설정창이 잘 뜨는지 체크합니다.
 ```
 $ nvidia-settings
 ```
-
-nouveau 을 활성화시키면 충돌가능성이 있기에 blacklist해준다. 
-```
-# echo 'blacklist nouveau' >> /etc/modprobe.d/blacklist.conf
-# dracut /boot/initramfs-$(uname -r).img $(uname -r) --force
-# reboot
-```
-
-```
-# wget http://kr.download.nvidia.com/XFree86/Linux-x86_64/410.78/NVIDIA-Linux-x86_64-410.78.run
-```
-
-```
-# bash NVIDIA-Linux-x86_64-390.59.run
-```
-
-```
-# nvidia-smi
-```
-
-```
-$ vim /etc/default/grub. Append the following to "GRUB_CMDLINE_LINUX"
-rd.driver.blacklist=nouveau nouveau.modeset=0
-```
-
-```
-# grub2-mkconfig -o /boot/grub2/grub.cfg
-```
-
-/etc/modprobe.d/blacklist.conf 파일에 아래 내용을 추가합니다.
-
-```
-blacklist nouveau
-```
-
-과거 initramfs를 백업하고 새로운 파일을 생성합니다.
-```
-# mv /boot/initramfs-$(uname-r).img /boot/initramfs-$(uname -r)-nouveau.img
-# dracut /boot/initramfs-$(uname -r).img $(uname -r)
-```
-
-재부팅합니다.
-
-```
-# systemctl isolate multi-user.target
-# sh NVIDIA-Linux-x86_64-*.run
-```
-
-재부팅을 다시 합니다.
-
 
 ## Reference
 https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-centos-7-linux
