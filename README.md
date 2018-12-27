@@ -30,6 +30,7 @@
 	1. [개인 포트폴리오 홈페이지 제작을 위한 github.io 소개](docs/github_io.md)
 	1. 실습 : id.github.io를 통한 자신의 포트폴리오 사이트 리포지터리 생성
 	1. [linkedin](docs/linkedin.md)
+	
 
 1. 리눅스 설치
 	1. USB, 하드디스크 전달
