@@ -5,7 +5,7 @@
 
 ## SW
 - 문서 시스템 : 모두가 문서를 작성하고 공유하는 플랫폼
-- 커뮤니케이션도구 : 메일, 메신저, Slack(협업툴) 형태의 도구
+- 커뮤니케이션도구 : 메일, 메신저, [Slack](https://slack.com), [Rocket.Chat](https://rocket.chat), [Mattermost](https://www.mattermost.org)
 - 파일관리 도구
 - 인원관리 도구 : ERP시스템
 - 인증시스템 : AD(ActiveDirectory), LDAP
@@ -18,6 +18,7 @@
 - 소프트웨어 관리툴 : [Puppet](https://puppet.com), [Ansible](https://www.ansible.com), [Chef](https://www.chef.io) ...
 - 모니터링툴 : [Prometheus](https://prometheus.io), [Grafana](https://grafana.com) ...
 - 빌드툴(Continuous Integration) : [Jenkins](https://jenkins.io), [SemaphoreCI](https://semaphoreci.com), [Travis](https://travis-ci.org), [Hudson](http://hudson-ci.org) ...
+- 통합관리 시스템 : [SAP](https://www.sap.com/korea/index.html)
 
 ## HW
 - 네트워크 장비

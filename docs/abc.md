@@ -35,7 +35,7 @@ $ mkdir alembic_build
 $ mkdir alembic
 $ cd alembic_build
 $ scl enable devtoolset-6 bash
-# yum install devtoolset-6-libatomic-devel // 중간에 libatomic 에러가나 나면 설치해줍니다.
+# yum install devtoolset-6-libatomic-devel // 중간에 libatomic 에러가 나면 설치해줍니다.
 $ cmake ../alembic_src -DILMBASE_ROOT=$HOME/app/IlmBase -DALEMBIC_SHARED_LIBS=OFF -DUSE_HDF5=OFF -DALEMBIC_LIB_USES_TR1=ON -DCMAKE_INSTALL_PREFIX=$HOME/app/alembic
 $ make -j2
 $ make install
@@ -146,6 +146,7 @@ abcview를 컴파일 하기 위해서는 Boost가 필요합니다.
 
 오래걸림. 수업 초반에 진행할 것
 ```
+$ cd ~/app
 $ wget https://dl.bintray.com/boostorg/release/1.66.0/source/boost_1_66_0_rc2.tar.gz
 $ tar -zxvf boost_1_66_0_rc2.tar.gz
 $ mv boost_1_66_0 boost_1_66_0_src
@@ -170,14 +171,14 @@ $ ./b2 install
 소스코드 : https://github.com/alembic/abcview
 
 컴파일이 아직 되지 않는다. 기존에 컴파일한 리스트중 다 활성화 햐여 컴파일 해보기.
-```
-cd ~/app
-git clone https://github.com/alembic/abcview abcview_src
-mkdir abcview
-mkdir abcview_build
-cd abcview_build
-scl enable devtoolset-6 bash
-cmake ../abcview_src -DBOOST_ROOT=$HOME/app/boost_1_66_0 -DILMBASE_ROOT=$HOME/app/IlmBase -DALEMBIC_LIB=$HOME/app/alembic/lib -DALEMBIC_INCLUDE_PATH=$HOME/app/alembic/incloud -DGLEW_INCLUDE_DIR=/usr/include -DGLEW_LIBRARY=/usr/lib64 -DUSE_PYTHON=OFF -DCMAKE_INSTALL_PREFIX=$HOME/app/abcview 
+```bash
+$ cd ~/app
+$ git clone https://github.com/alembic/abcview abcview_src
+$ mkdir abcview
+$ mkdir abcview_build
+$ cd abcview_build
+$ scl enable devtoolset-6 bash
+$ cmake ../abcview_src -DBOOST_ROOT=$HOME/app/boost_1_66_0 -DILMBASE_ROOT=$HOME/app/IlmBase -DALEMBIC_LIB=$HOME/app/alembic/lib -DALEMBIC_INCLUDE_PATH=$HOME/app/alembic/incloud -DGLEW_INCLUDE_DIR=/usr/include -DGLEW_LIBRARY=/usr/lib64 -DUSE_PYTHON=OFF -DCMAKE_INSTALL_PREFIX=$HOME/app/abcview 
 
 -DPYTHON_ROOT=/usr/lib64/python2.7/config -DPYTHON_LIBRARY=/usr/lib64/python2.7/config/libpython2.7.so -DPYTHON_INCLUDE_DIR=/usr/include/python2.7
 
