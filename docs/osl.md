@@ -51,24 +51,18 @@ shader TDdiffuse_ramp(
 https://forums.unrealengine.com/development-discussion/rendering/36083-osl-support
 
 
-## 컴파일정보
+## 컴파일정보(준비중)
 - 소스코드 및 사용된 프로젝트 : https://github.com/imageworks/OpenShadingLanguage
 - 컴파일정보 : https://github.com/imageworks/OpenShadingLanguage/blob/master/INSTALL.md
 
-OSL을 컴파일 하기 위해서는 LLVM이 필요합니다.
-- LLVM 설명 : http://kyejusung.com/2015/11/llvm이란-clang-비트코드-포함/
-
-```bash
-# yum install centos-release-scl
-# yum install llvm-toolset-7
-$ scl enable llvm-toolset-7 bash
-$ clang --version
-```
 
 ```
 cd ~/app
 git clone https://github.com/imageworks/OpenShadingLanguage.git OSL_src
-~/app/cmake-3.13.2/bin/cmake ../OSL_src
+mkdir OSL_build
+cd OSL_build
+~/app/cmake-3.13.2/bin/cmake ../OSL_src -DOPENEXR_ROOT_DIR=$HOME/app/OpenEXR --DCMAKE_INSTALL_PREFIX=$HOME/app/OSL
+
 ```
 
 ## Reference
