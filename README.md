@@ -13,7 +13,7 @@
 - 문 의 : 김한웅 / hello@lazypic.org
 - 강의실 시스템 엔지니어 : 김태진 차장 / 010-7794-3111
 - 업무협의 : 정선화 부원장 / 010-8663-4626
-- 준비물 : USB 1개 / 동국대학교에서 지원예정.
+- 준비물 : USB 1개 / 동국대학교에서 준비
 - 프로그래밍 기초가 약한 분들은 한번씩 읽고 오세요. : https://wikidocs.net/book/2
 
 ## 내 용
@@ -150,19 +150,23 @@
 
 1. VFX에서 자주 사용되는 파일 : 촬영, 현장데이터
 	1. [촬영데이터 파일명의 구조](docs/raw_name.md)
+	1. raw2exr
+	1. metaextractor
+	1. setellite
+	1. photo, ref, lidar, 프로젝트에 사용하는 솔루션과 관련된 파일
+
+1. VFX에서 자주 사용되는 파일 : 컬러매니징(DI), 편집작업
+	1. [ACES / OpenColorIO](docs/opencolorio.md)
+	1. [Lut](docs/lut.md)
+	1. [OpenColorIO Lut](docs/opencolorio_lut.md)
+	1. [EDL](docs/edl.md)
+	1. [OpenTimelineIO](docs/opentimelineio.md)
+
+1. [프로젝트 매니징 파이프라인툴](docs/pipeline_tools.md)
 
 1. VFX에서 자주 사용되는 파일 : OpenEXR
 	1. [OpenEXR](docs/openexr.md)
 	1. [OpenEXR 명령어](docs/openexr_cmd.md)
-
-1. VFX에서 자주 사용되는 파일 : 컬러매니징
-	1. [ACES / OpenColorIO](docs/opencolorio.md)
-	1. [Lut](docs/lut.md)
-	1. [OpenColorIO Lut](docs/opencolorio_lut.md)
-
-1. VFX에서 자주 사용되는 파일 : 편집데이터
-	1. [EDL](docs/edl.md)
-	1. [OpenTimelineIO](docs/opentimelineio.md)
 
 1. VFX에서 자주 사용되는 파일 : 쉐이더
 	1. [OpenShandingLanguage](docs/osl.md)
@@ -179,8 +183,6 @@
 
 1. VFX에서 자주 사용되는 파일 : 볼륨데이터
 	1. [OpenVDB](docs/openvdb.md)
-
-1. [프로젝트 매니징 파이프라인툴](docs/pipeline_tools.md)
 
 1. [파이썬을 이용해서 엑셀파일 읽기, 쓰기](docs/excel_python.md)
 
