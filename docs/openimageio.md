@@ -415,6 +415,8 @@ $ oiiotool -i input.exr --colorconvert linear srgb --premult -o output.tga
 # yum install clang
 ```
 
+아래 명령어를 실행하면 일단 빌드가 됩니다.
+oiio와 함께 연동이 필요한 라이브러리는 필요시 추가하여 빌드합니다.
 ```bash
 $ cd ~/app
 $ git clone https://github.com/OpenImageIO/oiio OpenImageIO_src
@@ -428,5 +430,159 @@ make
 make install
 ```
 
+
+필요한 라이브러리
+```
+CMake Warning (dev) at /home/woong/app/cmake-3.13.2/share/cmake-3.13/Modules/FindOpenGL.cmake:270 (message):
+  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  FindOpenGL found both a legacy GL library:
+
+    OPENGL_gl_LIBRARY: /usr/lib64/libGL.so
+
+  and GLVND libraries for OpenGL and GLX:
+
+    OPENGL_opengl_LIBRARY: /usr/lib64/libOpenGL.so
+    OPENGL_glx_LIBRARY: /usr/lib64/libGLX.so
+
+  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+  compatibility with CMake 3.10 and below the legacy GL library will be used.
+Call Stack (most recent call first):
+  src/cmake/externalpackages.cmake:131 (find_package)
+  CMakeLists.txt:130 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- OCIO not found. Specify OCIO_PATH to locate it
+-- Skipping OpenColorIO support
+-- FFMPEG not found
+-- Field3d will not be used
+-- Intel TBB not found, TBB_ROOT_DIR=''
+-- OpenVDB will not be used, could not find Intel TBB
+-- LibRaw not found!
+-- WebP library not found
+-- OpenCV library not found
+-- DCMTK_INCLUDE_DIR = DCMTK_INCLUDE_DIR-NOTFOUND
+-- DCMTK not found. Specify DCMTK_PATH to locate it
+-- Downloading local Tessil/robin-map
+-- robin-map include dir: /home/woong/app/OpenImageIO_src/ext/robin-map
+CMake Warning at src/dicom.imageio/CMakeLists.txt:7 (message):
+  DICOM plugin will not be built, no DCMTK
+
+
+-- FFmpeg not found: ffmpeg plugin will not be built
+CMake Warning at src/gif.imageio/CMakeLists.txt:7 (message):
+  GIF plugin will not be built
+
+
+CMake Warning at src/jpeg2000.imageio/CMakeLists.txt:16 (message):
+  Jpeg-2000 plugin will not be built
+
+
+CMake Warning at src/raw.imageio/CMakeLists.txt:7 (message):
+  Raw plugin will not be built
+
+
+-- WebP plugin will not be built
+-- pybind11 include dir: /home/woong/app/OpenImageIO_src/ext/pybind11/include
+-- Python version 2.7.5
+-- Could not Find Nuke. Skipping build of Nuke plugins.
+-- 
+
+Did not find /home/woong/app/OpenImageIO_src/../oiio-images
+--   -> Will not run tests gpsread;oiiotool;oiiotool-attribs;oiiotool-readerror;oiiotool-xform;oiiotool-fixnan;maketx;oiiotool-maketx;misnamed-file;dpx;ico;iff;png;psd;rla;sgi;zfile;texture-interp-bicubic;texture-blurtube;texture-crop;texture-cropover;texture-derivs;texture-fill;texture-filtersize;texture-flipt;texture-gettexels;texture-gray;texture-mip-nomip;texture-mip-trilinear;texture-overscan;texture-pointsample;texture-uint8;texture-width0blur;texture-fat;texture-skinny;texture-wrapfill;texture-missing;texture-res;texture-udim;texture-udim2
+--   -> You can find it at 
+
+-- 
+
+Did not find /home/woong/app/OpenImageIO_src/../openexr-images
+--   -> Will not run tests oiiotool-deep
+--   -> You can find it at 
+
+-- 
+
+Did not find /home/woong/app/OpenImageIO_src/../oiio-images
+--   -> Will not run tests python-typedesc;python-imagespec;python-roi;python-deep;python-imageinput;python-imageoutput;python-imagebuf;python-imagebufalgo
+--   -> You can find it at 
+
+-- 
+
+Did not find /home/woong/app/OpenImageIO_src/../bmpsuite
+--   -> Will not run tests bmp
+--   -> You can find it at http://entropymine.com/jason/bmpsuite/bmpsuite.zip
+
+-- 
+
+Did not find /home/woong/app/OpenImageIO_src/../libtiffpic
+--   -> Will not run tests tiff-suite;tiff-depths;tiff-misc
+--   -> You can find it at http://www.simplesystems.org/libtiff/images.html
+
+-- 
+
+Did not find /home/woong/app/OpenImageIO_src/../openexr-images
+--   -> Will not run tests openexr-suite;openexr-multires;openexr-chroma;openexr-v2;perchannel
+--   -> You can find it at http://www.openexr.com/downloads.html
+
+-- 
+
+Did not find /home/woong/app/OpenImageIO_src/../oiio-images
+--   -> Will not run tests gif
+--   -> You can find it at Recent checkout of oiio-images
+
+-- 
+
+Did not find /home/woong/app/OpenImageIO_src/../j2kp4files_v1_5
+--   -> Will not run tests jpeg2000
+--   -> You can find it at http://www.itu.int/net/ITU-T/sigdb/speimage/ImageForm-s.aspx?val=10100803
+
+-- 
+
+Did not find /home/woong/app/OpenImageIO_src/../oiio-images/pnm
+--   -> Will not run tests pnm
+--   -> You can find it at Recent checkout of oiio-images
+
+-- 
+
+Did not find /home/woong/app/OpenImageIO_src/../oiio-images/raw
+--   -> Will not run tests raw
+--   -> You can find it at Recent checkout of oiio-images
+
+-- 
+
+Did not find /home/woong/app/OpenImageIO_src/../TGAUTILS
+--   -> Will not run tests targa-tgautils
+--   -> You can find it at http://tgautils.inequation.org/
+
+-- 
+
+Did not find /home/woong/app/OpenImageIO_src/../fits-images
+--   -> Will not run tests fits
+--   -> You can find it at http://www.cv.nrao.edu/fits/data/tests/
+
+-- 
+
+Did not find /home/woong/app/OpenImageIO_src/../webp-images
+--   -> Will not run tests webp
+--   -> You can find it at http://code.google.com/speed/webp/gallery.html
+
+-- Configuring done
+CMake Warning at src/iv/CMakeLists.txt:12 (add_executable):
+  Cannot generate a safe runtime search path for target iv because files in
+  some directories may conflict with libraries in implicit directories:
+
+    runtime library [libQt5OpenGL.so.5] in /usr/lib64 may be hidden by files in:
+      /usr/local/lib
+    runtime library [libQt5Widgets.so.5] in /usr/lib64 may be hidden by files in:
+      /usr/local/lib
+    runtime library [libQt5Gui.so.5] in /usr/lib64 may be hidden by files in:
+      /usr/local/lib
+    runtime library [libQt5Core.so.5] in /usr/lib64 may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+
+
+```
 ## Reference
 - https://github.com/OpenImageIO/oiio/blob/master/src/doc/openimageio.pdf
