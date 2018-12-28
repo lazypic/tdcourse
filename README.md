@@ -36,10 +36,10 @@
 1. 리눅스 설치
 	1. USB, 하드디스크 전달
 	1. [Linux설치 - CentOS 7.5](docs/install_centos.md)
-	1. 실습 : CentOS 둘러보기
 	1. [그래픽카드 드라이버 설치](docs/install_nvidia.md)
 	1. [grub셋팅](docs/setup_grub.md)
 	1. [규칙](docs/rule.md)
+	1. 실습 : CentOS 둘러보기
 
 1. 리눅스 명령어 기본
 	1. [리눅스의 기본 명령어](docs/linux_cmd.md)
