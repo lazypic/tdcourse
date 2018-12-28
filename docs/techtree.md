@@ -11,9 +11,10 @@
 - 인증시스템 : [AD(ActiveDirectory)](https://ko.wikipedia.org/wiki/액티브_디렉터리), [LDAP](https://ko.wikipedia.org/wiki/LDAP)
 - 에셋(라이브러리) 관리 도구
 - 업무 효율화 도구 : 자동화 스크립트
-- 프로젝트 매니징 툴, DB
+- 프로젝트 매니징 툴
+- DB
 - 렌더팜 관리 도구
-- 보안툴 제작, 규칙 : [MPAA규칙](https://www.mpaa.org/what-we-do/advancing-creativity/additional-resources/#content-protection-best-practices) 문서가 docs 양식입니다. LibreOffice를 설치하고 열람할 수 있습니다.
+- 보안툴 제작, 규칙 : [MPAA규칙](https://www.mpaa.org/what-we-do/advancing-creativity/additional-resources/#content-protection-best-practices) 문서는 doc 양식입니다. LibreOffice를 설치하고 열람할 수 있습니다.
 - 제작 소프트웨어 : 마야, 뉴크, 후디니, 게임엔진, 플러그인 등등
 - 제작 소프트웨어를 지원하는 스크립트, 자체 제작 프로그램
 - 소프트웨어 관리툴 : [Puppet](https://puppet.com), [Ansible](https://www.ansible.com), [Chef](https://www.chef.io) ...
