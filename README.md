@@ -1,7 +1,7 @@
 # Curriculum
 
 ## 기본정보
-- 장 소 : [mofacacademy](https://www.mofacacademy.com)
+- 장 소 : [MofacAcademy](https://www.mofacacademy.com)
 - 기 간 : 18.12.28 ~ 19.2.27 
 - 시 간 : 월 ~ 금
 	- 2019년 1월 : 10:00 ~ 13:00 3시간 / 14:00 ~ 18:00 4시간 툴교육(뉴크,마야)
@@ -58,7 +58,7 @@
 1. 에디터, 유틸리티 설치
 	1. [vim 소개](docs/vim.md)
 	1. [에디터 추천](docs/editor.md)
-	1. [설치](docs/install_chrome.md)
+	1. [크롬설치](docs/install_chrome.md)
 	1. [CentOS Beep 사운드 제거](docs/soundoff.md)
 
 1. 설치 유틸리티
@@ -141,6 +141,7 @@
 	1. [FFmpeg](docs/ffmpeg.md)
 	1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작
 	1. [ffmpeg 명령어를 이용해서 개발내용 스크린 캡쳐](docs/ffmpeg_screencap.md)
+	1. [mencoder](docs/mencoder.md)
 	1. [HandBrake](docs/handbrake.md)
 	1. 실습 : HandBrakeCLI를 이용해서 일괄 Proxy 동영상 생성
 	1. [mediainfo](docs/mediainfo.md)
@@ -150,12 +151,14 @@
 1. [의존성이야기](docs/dependency.md)
 	1. [의존성을 최소화 하기 위해서 사용했던 Go 언어](docs/ldd.md)
 
+1. [파이썬을 이용해서 엑셀파일 읽기, 쓰기](docs/excel_python.md)
+
 1. VFX에서 자주 사용되는 파일 : 촬영, 현장데이터
 	1. [촬영데이터 파일명의 구조](docs/raw_name.md)
-	1. raw2exr
-	1. metaextractor
-	1. setellite
-	1. photo, ref, lidar, 프로젝트에 사용하는 솔루션과 관련된 파일
+	1. [raw2exr](docs/arriconverter_cmd.md)
+	1. [metaextractor](docs/arri_metaextract.md)
+	1. [현장데이터 수집툴](docs/setellite.md)
+	1. [기타 현장데이터](docs/etc_onsetdata.md)
 
 1. VFX에서 자주 사용되는 파일 : 컬러매니징(DI), 편집작업
 	1. [ACES / OpenColorIO](docs/opencolorio.md)
@@ -185,8 +188,6 @@
 
 1. VFX에서 자주 사용되는 파일 : 볼륨데이터
 	1. [OpenVDB](docs/openvdb.md)
-
-1. [파이썬을 이용해서 엑셀파일 읽기, 쓰기](docs/excel_python.md)
 
 1. [VFX Platform 소개](docs/vfx_platform.md)
 	1. [NumPy](docs/numpy.md)

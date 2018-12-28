@@ -227,3 +227,4 @@ https://trac.ffmpeg.org/wiki/CompilationGuide/Centos
 - https://trac.ffmpeg.org/wiki/Scaling
 - https://ffmpeg.org/ffmpeg-codecs.html
 - https://video.stackexchange.com/questions/16682/ffmpeg-white-padding-is-light-grey-but-not-white
+- VFX를 위한 FFmpeg 사용예 : https://trac.ffmpeg.org/wiki/Encode/VFX
