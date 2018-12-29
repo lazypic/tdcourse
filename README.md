@@ -24,7 +24,6 @@
 	1. [개발자의 시선으로 바라보는 시장 흐름 : VFX, 애니메이션, 게임](docs/market.md)
 	1. [회사의 발전단계](docs/techtree.md)
 	1. [기업은 왜 리눅스를 사용하는가?](docs/why_linux.md)
-
 1. [Github와 오픈소스 이야기](docs/github.md)
 	1. 실습 : Github 가입
 	1. [모든학생 Github 그룹에 참여하도록 설정](docs/github_org_setting.md)
