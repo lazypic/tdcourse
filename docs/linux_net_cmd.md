@@ -63,7 +63,7 @@ $ curl wttr.in/seoul
 ```
 
 ## scp
-secure copy의 약자입니다. 네트워크를 이용해서 파일전송시 보안을 지키며 데이터를 복사할 수 있습니다.
+secure copy의 약자입니다. 네트워크를 이용해서 파일전송시 보안을 지키며 데이터를 복사할 수 있습니다.
 
 ```bash
 $ scp /home/woong/image.jpg woong@192.168.219.100:/home/woong
