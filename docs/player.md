@@ -69,15 +69,16 @@ $ mpv https://www.youtube.com/watch?v=O1qJ5FcV__0
 
 http://djv.sourceforge.net/Download.html 에서 rpm파일을 다운로드 받습니다.
 
-```
-rpm -ivh DJV-1.2.4-1.x86_64.rpm
+```bash
+# rpm -ivh DJV-1.2.4-1.x86_64.rpm
 ```
 
 프로그램 > 그래픽 > djv_view에 설치됩니다.
 실제 설치경로는 /usr/local/djv/bin 입니다.
 
 터미널에서 실행하려면 .bashrc 파일에 아래 옵션을 추가해 줘야한다.
-```
+
+```bash
 export PATH=$PATH:/usr/local/djv/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/djv/lib
 ```
@@ -87,7 +88,8 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/djv/lib
 
 [Cmake 설치](cmake.md)을 설치합니다.
 
-```
+```bash
+$ cd ~/app
 $ git clone git://git.code.sf.net/p/djv/git-third-party djv-git-third-party
 $ cd djv-git-third-party-Debug
 $ cmake ../djv-git-third-party \
@@ -101,17 +103,17 @@ $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/app/djv-install-Debug/lib
 
 $ git clone git://git.code.sf.net/p/djv/git djv-git
 
-mkdir djv-git-Debug
-cd djv-git-Debug
-/opt/cmake3.13/bin/cmake ../djv-git -DCMAKE_BUILD_TYPE=Debug -DCMAKE_PREFIX_PATH=$HOME/app/djv-install-Debug -DDJV_THIRD_PARTY=$HOME/app/djv-install-Debug
-make
-make install
+$ mkdir djv-git-Debug
+$ cd djv-git-Debug
+$ ~/app/cmake3.13/bin/cmake ../djv-git -DCMAKE_BUILD_TYPE=Debug -DCMAKE_PREFIX_PATH=$HOME/app/djv-install-Debug -DDJV_THIRD_PARTY=$HOME/app/djv-install-Debug
+$ make
+$ make install
 ```
 
 #### 실행
 djv 실행을 위해서 설치했던 lib 폴더를 LD_LIBRARY_PATH로 잡아준다.
 
-```
+```bash
 $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/app/djv-install-Debug/lib
 $ djv_view
 ```
@@ -138,6 +140,7 @@ prores코덱을 재생하도록 배포시 RV 플레이어에서 기본적으로 
 이 내용은 init.cpp 파일 상단 주석에도 표기되어 있습니다.
 
 RV가 설치된 폴더로 이동합니다.
+
 ```
 $ cd src/mio_ffmpeg
 $ vim init.cpp
@@ -168,24 +171,26 @@ static const char* disallowedCodecsArray[] = {
 
 저장후 빠져나와 아래 처럼 컴파일 합니다.
 
-```
+```bash
 $ make
 $ make install
 ```
 
 컴파일시 아래와 같은 내용의 에러가 발생한다면..
+
 ```
 warning: include path for stdlibc++ headers not found; pass '-std=libc++' on the command line to use the libc++ standard library instead [-Wstdlibcxx-not-found]
 ```
 
-Makefile 내용에서 아래항목을 다음 줄처럼 수정해주세요. 개인적으로 저는 macOS Mojave 에서 위에 해당하는 에러를 만났습니다.
+Makefile 내용에서 아래항목을 다음 줄처럼 수정해주세요.
+저는 macOS Mojave 에서 위에 해당하는 에러를 만났습니다.
 
-이 내용을
+Makefile에서 아래 줄을 찾아줍니다.
 ```
 STD_CXXFLAGS = -std=gnu++98 -stdlib=libstdc++
 ```
 
-아래 처럼 수정해줍니다.
+위 내용을 아래 처럼 수정해줍니다.
 ```
 STD_CXXFLAGS = -std=gnu++98 -stdlib=libc++
 ```
