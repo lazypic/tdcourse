@@ -3,9 +3,9 @@
 미디어 재생을 위한 플레이어들을 알아보고 설치해 봅시다.
 
 ## [mpv](https://mpv.io/)
-영상을 볼 때 자주 사용하는 플레이어 입니다. 예전에는 mplayer를 사용했지만 mpv는 mplayer, mplayer2를 fork 하여 개발중인 차세대 영상 플레이어 입니다.
+영상을 볼 때 자주 사용하는 플레이어 입니다. 예전에는 mplayer를 사용했지만 mpv는 mplayer, mplayer2를 Fork 하여 개발중인 차세대 영상 플레이어 입니다.
 
-열심히 CentOS를 설치했는데 영화 한편 볼 수 없다면 슬플것 같지 않나요?
+열심히 CentOS를 설치했는데 영화 한편 볼 수 없다면 너무 슬플것 같지 않나요?
 그래서 아래 설치방법을 기록해 둡니다.
 
 ![mpv](https://mpv.io/images/mpv-screenshot-34cd36ae.jpg)
@@ -43,8 +43,9 @@
 # yum install libva-devel
 # yum install gstreamer1-vaapi-devel
 # yum install libcaca-devel
-# cd /opt
-# git clone https://github.com/mpv-player/mpv-build.git
+# cd ~/app
+# git clone https://github.com/mpv-player/mpv-build.git mpv_src
+# cd mpv_src
 # cd mpv-build
 # echo --enable-openssl >> ffmpeg_options
 # echo --enable-nonfree >> ffmpeg_options
@@ -56,6 +57,11 @@
 ```
 $ mpv https://www.youtube.com/watch?v=O1qJ5FcV__0
 ```
+
+## 실습
+- 다른곳에 CentOS7을 설치했을 때 mpv 플레이어를 자동으로 설치할 수 있도록 쉘 스크립트를 만들어 봅시다.
+- 위 설치 코드를 .sh 로 저장하고 github 리포지터리에 저장해봅시다.
+
 ## DJV View
 오픈소스 플레이어입니다. Exr, Jpg 시퀀스를 빠르게 확인하기 좋습니다.
 
@@ -79,7 +85,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/djv/lib
 #### 설치
 컴파일하고 설치할 때 djv view는 cmake 3.12 이상을 요구합니다.
 
-[cmake 3.13](cmake.md)을 설치합니다.
+[Cmake 설치](cmake.md)을 설치합니다.
 
 ```
 $ git clone git://git.code.sf.net/p/djv/git-third-party djv-git-third-party
@@ -189,6 +195,3 @@ STD_CXXFLAGS = -std=gnu++98 -stdlib=libc++
 
 ## Reference
 - https://www.uncleninja.com/uncategorized/2016-05-04/install-mpv-player-smplayer-centos-7/
-
-## Torrent 설치
-- [토렌트설치](docs/torrent.md)를 해보세요.
