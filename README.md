@@ -74,8 +74,8 @@
 1. 재미있는 명령어 설치 : 리눅스를 자신의 데스크탑으로 사용하고 싶은 유저를 위해서 정보를 공유합니다.
 	1. [실습 : 재미있는 명령어를 설치해보자.](docs/fun_cmds.md)
 	1. [Torrent](docs/torrent.md)
-	1. [steam](docs/steam.md)
-	1. [slack](docs/slack.md)
+	1. [Steam](docs/steam.md)
+	1. [Slack](docs/slack.md)
 
 1. 서비스와 데몬
 	1. [Daemon](docs/daemon.md)
