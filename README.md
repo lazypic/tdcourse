@@ -61,6 +61,7 @@
 	1. [CentOS Beep 사운드 제거](docs/soundoff.md)
 
 1. 설치 유틸리티
+	1. 토론 : [에디터 선정](docs/talk_about_editor.md)
 	1. [yum](docs/yum.md) 명령어
 	1. [pip](docs/pip.md) 설치
 	1. [cmake](docs/cmake.md) 설치
@@ -96,10 +97,6 @@
 1. [환경변수란?](docs/env.md)
 	1. [자신만의 .bashrc 셋팅하기](docs/custom_bashrc.md)
 	1. [환경변수 및 패키징 관리툴 관리 툴](docs/env_managing.md)
-
-1. 팀규모의 에디터 셋팅
-	1. [에디터](docs/editor.md)
-	1. 토론 : [에디터 선정](docs/talk_about_editor.md)
 
 1. [버전관리의 중요성](docs/version_control_system.md)
 	1. [Git 설치 / 설정](docs/init_git.md)
