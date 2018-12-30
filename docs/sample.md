@@ -1,4 +1,4 @@
-# sample파일
+# Sample 파일 다운로드
 각 개발자의 노고가 담겨있기 때문에 최대한 출처를 살려서 기록해두었습니다.
 실무에서는 다양한 데이터를 다루게 됩니다. 많은 장비를 통해서 촬영된 데이터를 다루어보세요.
 
@@ -19,7 +19,7 @@ DPX 이미지 샘플 파일입니다.
 
 - https://f1.creativecow.net/1318/dpx-sample
 
-## ACES exr
+## ACES Exr
 Arri ACES reference Image 주소입니다.
 아래 URL을 통해서 Arri Alexa 카메라로 찍은 이미지를 어떻게 ACES Exr로 컨버팅 되는지 알 수 있습니다.
 각 컨버팅 이미지가 어떻게 보이는지 예제 파일을 다운로드 받을 수 있습니다.
@@ -29,7 +29,7 @@ Arri ACES reference Image 주소입니다.
 ## Black Magic Camera
 - 샘플 다운로드 : https://www.blackmagicdesign.com/kr/products/blackmagicpocketcinemacamera/gallery
 
-## Alexa Plate
+## Arri Alexa Plate
 Alexa Plate 는 http://www.arri.com/camera/alexa/learn/alexa_sample_footage/ 주소를 통해서 다운로드 받을 수 있습니다.
 
 실제 데이터는 ftp를 통해서 다운로드 받을 수 있습니다. 파일질라를 설치하고 다운로드 받아봅시다.
@@ -40,7 +40,7 @@ Alexa Plate 는 http://www.arri.com/camera/alexa/learn/alexa_sample_footage/ 주
 
 받은 footage는 [Arri Converter](http://www.arri.com/camera/alexa/tools/arriraw_converter/)를 이용해서 컨버팅후 사용합니다.
 
-## ALEXA LF ProRes Mov파일
+## Arri ALEXA LF ProRes Mov파일
 Alexa LF 카메라로 촬영된 Prores 코덱의 mov 파일입니다.
 
 - https://arriwebgate.com/en/directlink/e631dcb5b6ac8eb5
