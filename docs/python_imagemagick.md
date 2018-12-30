@@ -1,11 +1,11 @@
 # 파이썬 & ImageMagick
 파이썬을 활용한 첫번째 실습입니다.
 
-git 명령어를 이용하여 ~/example 파일을 다운로드 합니다.
+git 명령어를 이용하여 ~/examples 파일을 다운로드 합니다.
 
 ```
 $ cd ~
-$ git clone http://github.com/cgiseminar/example
+$ git clone http://github.com/cgiseminar/examples
 ```
 
 프로그래밍이 처음인 분을 위해서 코드가 쉽게 읽히도록
