@@ -23,7 +23,7 @@ ImageMagick이 설치되면 OS에서 아래 명령어를 사용할 수 있게 �
 기존 작업이 클라이언트에 OK 되었어도 이후 아티스트가 좀더 작업하는 경우가 실수로 많이 발생합니다.
 후반작업 완료된 이후 그 데이터를 이용하여 타 회사로 입체 컨버팅 작업이 남아있을 때는 클라이언트가 OK된 플레이트와 회사에서 최종 작업한 플레이트의 아웃풋에 오차가 있는지 점검하는 프로세스를 넣어야 하는 경우가 발생합니다.
 
-```
+```bash
 $ compare -metric MAE a.dpx b.dpx /tmp/diff.dpx
 
 480.728 (0.00733544) # 다르면 이런 형태의 숫자가 나옵니다.
@@ -78,7 +78,7 @@ $ convert test.jpg -thumbnail 360x240 -background black -gravity center -extent 
 
 #### identify
 이미지 정보를 간단하게 분석할 때 사용하는 명령어 입니다.
-이 명령어보다는 [mediainfo](mediainfo.md)를 더 많이 사용합니다.
+identify 명령어보다는 실무에서 [mediainfo](mediainfo.md)를 더 많이 사용합니다.
 
 ```bash
 $ identify test.png
