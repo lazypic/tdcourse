@@ -8,3 +8,4 @@
 - 카메라 데이터 정리툴 & 심링크
 - 뉴크 Read노드 정보를 이용한 Proxy 이미지 자동 생성
 - 뉴크파일 퍼블리쉬툴 제작
+- 메모리 관리 : https://www.tecmint.com/clear-ram-memory-cache-buffer-and-swap-space-on-linux/
