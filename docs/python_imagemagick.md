@@ -3,7 +3,7 @@
 
 git 명령어를 이용하여 ~/examples 파일을 다운로드 합니다.
 
-```
+```bash
 $ cd ~
 $ git clone http://github.com/cgiseminar/examples
 ```
