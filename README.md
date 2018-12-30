@@ -132,7 +132,7 @@
 1. 파일변환 유틸리티
 	1. [파일 변환 유틸리티](docs/convert_util.md)
 	1. [ImageMagick](docs/imagemagick.md)
-	1. 실습 : ImageMagick + python을 이용한 이미지 일괄 변환 스크립트 제작
+	1. [실습 : ImageMagick + python을 이용한 이미지 일괄 변환 스크립트 제작](docs/python_imagemagick.md)
 	1. [FFmpeg](docs/ffmpeg.md)
 	1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작
 	1. [ffmpeg 명령어를 이용해서 개발내용 스크린 캡쳐](docs/ffmpeg_screencap.md)
