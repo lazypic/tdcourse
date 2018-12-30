@@ -46,7 +46,7 @@ Alexa LF 카메라로 촬영된 Prores 코덱의 mov 파일입니다.
 - https://arriwebgate.com/en/directlink/e631dcb5b6ac8eb5
 
 ## BLENDER 3D Scene
-강의중에는 사용되는 소프트웨어는 라이센스가 지원되는 툴만 사용할 수 있습니다. 급하게  3D데이터를 필요로 할 때 활용할 수 있는 Blender 데모파일 입니다.
+강의중에 사용되는 소프트웨어는 라이센스가 지원되는 툴만 사용할 수 있습니다. 급하게  3D데이터를 필요로 할 때 활용할 수 있는 Blender 데모파일 입니다.
 아래 주소에서 무료로 다운로드 받을 수 있습니다.
 
 블랜더 다운로드 : https://builder.blender.org/download/
