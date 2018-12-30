@@ -1,4 +1,4 @@
-# 파이썬 & ImageMagick
+# Python & ImageMagick
 파이썬을 활용한 첫번째 실습입니다.
 
 git 명령어를 이용하여 ~/examples 파일을 다운로드 합니다.
