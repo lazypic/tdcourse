@@ -74,3 +74,16 @@ $ mongo
 
 ## Reference
 - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-red-hat/
+
+
+# macOS
+macOS에서 mongoDB를 설치하는 방법
+
+```bash
+$ brew install mongodb
+```
+
+## 서비스 시작
+```bash
+$ brew services start mongodb
+```
