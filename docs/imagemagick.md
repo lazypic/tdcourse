@@ -1,10 +1,9 @@
 # ImageMagick
-이미지를 변환, 편집, 합성할 때 사용하는 오픈소스 이미지 연산 유틸리티 입니다.
+이미지를 간단하게 변환, 편집, 합성할 때 사용하는 오픈소스 이미지 연산 유틸리티 입니다.
 인식하는 이미지 파일은 약 200여개 정도 됩니다.
 
 ## 설치
 Imagemagick은 yum 을 이용해서 간단하게 설치 할 수 있습니다.
-`ImageMagick 6.7.8-9` 버전이 설치 됩니다.
 
 ```bash
 $ su
@@ -12,6 +11,10 @@ $ su
 ```
 
 ## 실무에서 자주 사용하는 명령어
+ImageMagick이 설치되면 OS에서 아래 명령어를 사용할 수 있게 됩니다.
+
+실습을 위해서 샘플 파일을 다운로드 하겠습니다. [샘플파일 다운로드](sample.md)
+
 
 #### compare
 두 이미지가 같은지 확인할 때 사용합니다.
@@ -111,5 +114,3 @@ $ import -window root screen.jpg
     ```
     - 지원타입 : char, double, float, integer, long, quantum, short
 
-## 샘플파일
-- [샘플파일 다운로드](sample.md)
