@@ -3,7 +3,7 @@
 터미널만으로 인스톨 할 수 없는 소프트웨어도 간혹 발생합니다.
 VNC 서버를 셋팅하는 방법에 대해서 알아보겠습니다.
 
-### 서버설치
+## 서버설치
 - tigervnc server를 설치합니다.
 ```
 # yum install tigervnc-server
@@ -31,8 +31,9 @@ VNC 서버를 셋팅하는 방법에 대해서 알아보겠습니다.
 ```
 
 - vnc에 접속할 계정으로 로그인 후, vncserver 명령어를 입력하여  패스워드 설정을 진행합니다.
+
 ```
-$ vncserver                                                                                
+$ vncserver
 ```
 
 - VNC 데몬을 활성화합니다.
@@ -43,16 +44,27 @@ $ vncserver
 # systemctl start vncserver@:1.service
 ```
 
-### 클라이언트 설치
-- macOS : https://bintray.com/tigervnc/stable/tigervnc/1.9.0
-- centOS7.x
-```
+## Tigervnc 클라이언트 설치
+클라이언트 설치는 yum 을 통해서 간단하게 설치할 수 있습니다.
+
+```bash
 # yum install tigervnc
 ```
 
-### 접속해보기
+## 접속해보기
 - tigerVNC를 이용해서 서버에 접속합니다.
 - IP뒤에 `:1` 을 붙혀주세요.
 ```
 192.168.219.105:1
 ```
+
+# macOS
+macOS에서는 화면공유를 위해서 무언가를 따로 설치할 필요가 없습니다.
+화면공유를 위해서는 터미널에서 아래처럼 입력해주세요.
+
+```bash
+$ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -activate -configure -access -off -restart -agent -privs -all -allowAccessFor -allUsers
+```
+
+## Tigervnc 클라이언트 설치
+다운로드 : https://bintray.com/tigervnc/stable/tigervnc/1.9.0
