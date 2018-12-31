@@ -12,12 +12,20 @@ Nvidia 그래픽카드 드라이버를 설치해보겠습니다.
 driver 부분이 `driver=nouveau` 로 잡혀있는지 체크합니다.
 
 ```
-# yum groupinstall "GNOME Desktop" "Development Tools"
+$ su
+# yum update
 # yum install kernel-devel
 # yum install kernel-headers
-# yum install epel-release
-# yum install dkms
+# yum install gcc make
 ```
+
+```
+# uname -r
+# rpm -q kernel-devel
+```
+중요 : 위 명령어를 타이핑 했을 때 무조껀 버전이 같아야 합니다.
+버전이 같지 않다면 재부팅하고 버전이 같을 때까지 반복하여 맞추어주세요.
+
 
 드라이버를 다운로드 합니다.
 http://www.nvidia.com/drivers
@@ -26,8 +34,14 @@ http://www.nvidia.com/drivers
 # wget http://kr.download.nvidia.com/XFree86/Linux-x86_64/410.78/NVIDIA-Linux-x86_64-410.78.run
 ```
 
+grub 설정파일이 있는 곳으로 이동후 설정파일을 백업하고 편집합니다.
+```
+# cd /etc/default
+# cp grub grub.bak
+# vim grub
+```
 
-vim /etc/default/grub
+내용은 아래처럼 변경합니다.
 ```
 GRUB_TIMEOUT=5
 GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"
@@ -48,14 +62,16 @@ GRUB_DISABLE_RECOVERY="true"
 # reboot
 ```
 
-드라이버부분을 다시한번 체크해주세요.
-접근이 되지 않으면 ctrl + alt + f2로 콘솔접근을 해주세요.
+만약 부팅이 되지 않으면 ctrl + alt + f2 키를 눌러서 콘솔접근을 해주세요.
+
 ```
 #  lshw -numeric -C display
 ```
+
 `driver=nouveau` 부분이 사라져 있는지 체크합니다.
 
 드라이버를 설치하기 위해서는 Xorg server를 중지해야합니다.
+
 ```
 # systemctl isolate multi-user.target
 ```
