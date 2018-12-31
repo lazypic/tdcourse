@@ -183,6 +183,12 @@ $ ffprobe -v quiet -print_format json -show_format -show_streams H264_1280x720_2
 }
 ```
 
+자주 사용되는 테크닉. 같은 경로에 같은 이름의 json을 생성할 수 있습니다.
+```bash
+$ ffprobe -v quiet -print_format json -show_format -show_streams H264_1280x720_24fps.mov > H264_1280x720_24fps.json
+```
+
+
 ## Burn-in
 FFmpeg를 이용해서 동영상에 글씨를 넣는 방법입니다. 기존에 뉴크 또는 그래픽스 툴을 사용하지 않기 때문에 툴 라이센스를 사용하지 않고 동영상에 Burn-In을 할 수 있는 장점이 있습니다.
 
