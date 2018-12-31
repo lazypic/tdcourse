@@ -9,7 +9,7 @@ CentOS7.5를 설치해보겠습니다.
 - 강의실 Root 패스워드는 추후 관리를 위해서 `imroot`로 통일해주세요.
 - 강의실에서 부팅을 USB로 하기 위해서는 Bios 패스워드를 알아야 합니다.(협의중)
 
-## USB 만들기
+## 부팅 USB 만들기
 
 #### .iso to USB (windows)
 ![rufus](https://user-images.githubusercontent.com/1149996/49558884-04524300-f950-11e8-833e-2b9e6d7a1fce.png)
