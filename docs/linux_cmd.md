@@ -244,6 +244,19 @@ $ su
 $ <- 사용자로 돌아옵니다.
 ```
 
+## 사용자 추가
+다른 사람들을 위해서 guest 계정을 만들어봅시다.
+
+id, pw 모두 `guest` 입니다.
+
+```
+$ su
+# adduser guest
+# passwd guest
+# exit
+$ exit
+```
+
 ## reboot
 컴퓨터를 재부팅합니다.
 
