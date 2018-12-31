@@ -13,6 +13,8 @@ $ su
 ```
 driver 부분이 `driver=nouveau` 로 잡혀있는지 체크합니다.
 
+그래픽카드 드라이버를 설치하기 위해서는 yum 업데이트 및 아래 도구가 필요합니다.
+
 ```bash
 $ su
 # yum update
