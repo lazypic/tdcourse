@@ -43,7 +43,7 @@ http, https 서비스를 허용하고 방화벽을 재시작 해줍니다.
 $ vim /etc/httpd/conf/httpd.conf
 ```
 
-설정파일을 수정했다면 서비스를 제시작 해주세요.
+설정파일을 수정했다면 서비스를 재시작 해주세요.
 
 ```bash
 # systemctl restart httpd.service
