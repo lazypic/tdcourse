@@ -257,17 +257,28 @@ $ su
 $ exit
 ```
 
+## 테스트 시퀀스 데이터 생성
+`{startnum..endnum}` 형태를 입력하면 명령어는 선언된 번호 리스트만큼 for 문을 수행합니다.
+
+```bash
+$ mkdir -p S{1..10}/C{100..110}
+
+or
+
+$ touch test.{1001..1200}.jpg
+```
 ## reboot
 컴퓨터를 재부팅합니다.
 
-```
+```bash
 $ su
 # reboot
 ```
 
 ## shutdown now
 컴퓨터를 끕니다.
-```
+
+```bash
 $ su
 # shutdown now
 ```
