@@ -28,6 +28,7 @@ OCIO의 1D lut파일입니다.
 .cc파일의 그룹이라고 생각하면 됩니다. id를 이용해서 각 정보를 구분합니다.
 
 ```
+<ColorCorrectionCollection xmlns="urn:ASC:CDL:v1.2">
 <ColorCorrection id="FOO_0010">
         <SOPNode>
              <Slope>2 1 1</Slope>
@@ -49,7 +50,12 @@ OCIO의 1D lut파일입니다.
              <Saturation>1</Saturation>
         </SATNode>
 </ColorCorrection>
+</ColorCorrectionCollection>
 ```
+
+뉴크에서 OCIOCDLTransform을 이용해서 파일을 로딩할 수 있습니다.
+![ocio_cdl_transform](../figures/nuke_ocio_cdl_transform.png)
+
 
 ## 실습
 뉴크를 이용해서 .cc 파일을 만들어봅시다.
