@@ -7,7 +7,7 @@
 	- 2019년 1월 : 10:00 ~ 13:00 3시간 / 14:00 ~ 18:00 4시간 툴교육(뉴크,마야)
 	- 2019년 2월 : 10:00 ~ 18:00 7시간
 	- 매주 금 : 14:00 ~ 15:00 1시간 / The Foundry 위원식 지사장
-	- 점심시간 : 13:00 ~ 14:00 / 지하2층 구내식당
+	- 점심시간 : 13:00 ~ 14:00 / 지하2층 구내식당 / 식권판매 10:45분~ 지하2층 구내식당
 	- 쉬는시간 : 매 50분에서 10분간.
 - 교육내용 : Technical Director 기초과정
 - 교육방식 : Github를 활용한 협업방식, 리눅스를 활용한 VFX, 애니메이션 파이프라인
@@ -18,11 +18,12 @@
 
 ## 내 용
 1. 강의 소개
-	1. 자기소개, PPT 발표
+	1. PPT 발표, 자기소개
 	1. [Technical Director Course 소개](docs/intro.md)
 	1. [개발자의 시선으로 바라보는 시장 흐름 : VFX, 애니메이션, 게임](docs/market.md)
 	1. [회사의 발전단계](docs/techtree.md)
 	1. [기업은 왜 리눅스를 사용하는가?](docs/why_linux.md)
+
 1. [Github와 오픈소스 이야기](docs/github.md)
 	1. 실습 : Github 가입
 	1. [모든학생 Github 그룹에 참여하도록 설정](docs/github_org_setting.md)
@@ -31,9 +32,11 @@
 	1. [linkedin](docs/linkedin.md)
 	
 
-1. 리눅스 설치
+1. 리눅스 설치1
 	1. USB, 하드디스크 전달
 	1. [Linux설치 - CentOS 7.5](docs/install_centos.md)
+
+1. 리눅스 설치2
 	1. [그래픽카드 드라이버 설치](docs/install_nvidia.md)
 	1. [Grub셋팅](docs/setup_grub.md)
 	1. [규칙](docs/rule.md)
