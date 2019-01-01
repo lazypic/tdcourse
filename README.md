@@ -33,7 +33,7 @@
 		
 
 1. 리눅스 설치1
-	1. USB, 하드디스크 전달
+	1. USB, SSD 하드디스크 전달
 	1. [Linux설치 - CentOS 7.5](docs/install_centos.md)
 
 1. 리눅스 설치2
