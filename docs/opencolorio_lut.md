@@ -1,5 +1,6 @@
 # OpenColorIO LUT
-일반적으로 .cc, .ccc를 사용하며, Sony Pictures Image 에서는 1D lut는 .spi1d, 3D lut는 .spi3d 포멧으로 사용합니다.
+OpenColorIO에서는 컬러컬렉션을 위해서 .cc, .ccc 파일을 사용합니다.
+참고로 Sony Pictures Image 에서는 1D lut는 .spi1d, 3D lut는 .spi3d 포멧이 사용됩니다. 사실상 같은 포멧입니다.
 OpenColorIO의 LUT는 xml 포멧으로 작성되어 있습니다.
 
 ## .cc
