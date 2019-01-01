@@ -54,8 +54,10 @@ OCIO의 1D lut파일입니다.
 ```
 
 뉴크에서 OCIOCDLTransform을 이용해서 파일을 로딩할 수 있습니다.
-![ocio_cdl_transform](../figures/nuke_ocio_cdl_transform.png)
+![nuke_ocio_cdl_transform](../figures/nuke_ocio_cdl_transform.png)
 
+나트론 OCIOCDLTransform에서도 파일을 로딩할 수 있습니다.
+![natron_ocio_cdl_transform](../figures/natron_ocio_cdl_transform.png)
 
 ## 실습
 뉴크를 이용해서 .cc 파일을 만들어봅시다.
