@@ -143,6 +143,9 @@
 	1. [컬러스페이스의 역사](docs/history_colorspace.md)
 	1. [OpenImageIO 설치](docs/openimageio.md)
 
+1. [VFX Platform 소개](docs/vfx_platform.md)
+	1. [NumPy](docs/numpy.md)
+
 1. [의존성이야기](docs/dependency.md)
 	1. [의존성을 최소화 하기 위해서 사용했던 Go 언어](docs/ldd.md)
 
@@ -168,9 +171,6 @@
 	1. [OpenEXR](docs/openexr.md)
 	1. [OpenEXR 명령어](docs/openexr_cmd.md)
 
-1. VFX에서 자주 사용되는 파일 : 쉐이더
-	1. [OpenShandingLanguage](docs/osl.md)
-
 1. [VFX에서 자주 사용되는 설정파일](docs/etc_files.md)
 
 1. VFX에서 자주 사용되는 파일 : 3D 데이터
@@ -181,11 +181,11 @@
 	1. [Alembic](docs/abc.md)
 	1. [USD](docs/usd.md)
 
+1. VFX에서 자주 사용되는 파일 : 쉐이더
+	1. [OpenShandingLanguage](docs/osl.md)
+
 1. VFX에서 자주 사용되는 파일 : 볼륨데이터
 	1. [OpenVDB](docs/openvdb.md)
-
-1. [VFX Platform 소개](docs/vfx_platform.md)
-	1. [NumPy](docs/numpy.md)
 
 1. GUI제작-1
 	1. [GUI 솔루션](docs/gui_solution.md)
