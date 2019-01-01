@@ -102,3 +102,8 @@ Shift + v
 
 ## Reference
 - Vim 책중에 유명한 책 입니다. https://www.amazon.com/Practical-Vim-Edit-Speed-Thought-ebook/dp/B018T6ZVPK/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1540733339&sr=1-1&keywords=vim
+
+## 개인적으로 사용하는 vim 셋팅
+강의중 사용하는 vim 셋팅입니다. 사용하고 싶다면 사용하세요.
+
+https://github.com/khw7096/vimset
