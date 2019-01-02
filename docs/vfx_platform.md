@@ -197,7 +197,7 @@ $ make
 Relese, Debug 폴더는 리눅스 커널마다 다를 수 있습니다.
 
 #### Reference
-https://github.com/01org/tbb/tree/tbb_2019/cmake
+- 예제 컴파일 문서 : https://github.com/01org/tbb/tree/tbb_2019/cmake
 
 #### 읽어보기
 - http://m.cafe.daum.net/betterspeed/8V7A/3?q=D_jDGwPlH16FY0&
