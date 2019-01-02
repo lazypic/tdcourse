@@ -245,7 +245,7 @@
 1. 자주 사용하는 플러그인 설치해보기
 	1. [루마픽쳐스에서 사용중인 기즈모 등록](docs/lumapic.md)
 	1. [크립토매트 설치해보기](docs/cryptomatte.md)
-	1. [타팀에서 사용하는 플러그인 셋팅](docs/set_other_plugins.md)
+	1. [다른 작업에 사용되는 플러그인 셋팅](docs/set_other_plugins.md)
 
 1. Nuke GUI
 	1. [예제 : 뉴크 내부에서 PySide2를 이용해서 스크립트 제작](docs/nuke_pyside2.md)
