@@ -201,14 +201,6 @@
 	1. [Qt Designer로 GUI 제작하기](docs/gen_qt_designer_gui.md)
 	1. [.ui 파일과 python의 연동](docs/load_ui_from_python.md)
 
-1. [DB의 종류](docs/db.md)
-	1. [PostrgreSQL 설치](docs/install_postrgresql.md)
-	1. [PostrgreSQL PythonAPI 실습](docs/python_postrgresql.md)
-	1. [MongoDB 설치](docs/install_mongodb.md)
-	1. [MongoDB PythonAPI 실습](docs/pymongo.md)
-	1. [Redis 설치](docs/install_redis.md)
-	1. [Redis PythonAPI 실습](docs/python_redis.md)
-
 1. TheFoundry Nuke를 알아보는 시간.
 	1. [개발에 도움이 되는 사이트](docs/help_nukedev.md)
 	1. [뉴크에서 파이썬창을 띄우는 방법](docs/python_in_nuke.md)
@@ -264,7 +256,17 @@
 
 1. 포트폴리오 준비 / 실습 / 프로그래밍 진행
 	1. [파일관리툴 제작](docs/make_opener.md)
-	1. [시간이 남았을 때 진행할 테마](docs/dev_todo.md)
+	
+1. DB 소개 및 실습
+	1. [DB의 종류](docs/db.md)
+	1. [PostrgreSQL 설치](docs/install_postrgresql.md)
+	1. [PostrgreSQL PythonAPI 실습](docs/python_postrgresql.md)
+	1. [MongoDB 설치](docs/install_mongodb.md)
+	1. [MongoDB PythonAPI 실습](docs/pymongo.md)
+	1. [Redis 설치](docs/install_redis.md)
+	1. [Redis PythonAPI 실습](docs/python_redis.md)
+
+1. [시간이 남았을 때 진행할 테마](docs/dev_todo.md)
 
 1. 포트폴리오 진행
 	1. 남은 8시간은 하루동안 기존에 배운것들을 천천히 정리하는 시간입니다.
