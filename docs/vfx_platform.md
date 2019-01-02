@@ -2,10 +2,10 @@
 VFX 시장에서 툴과 라이브러리를 제작할 때 수많은 언어, 라이브러리를 사용합니다.
 회사, 개발자들이 언어, 라이브러리의 버전을 약속하기 위한 제안규칙이라고 생각해주세요.
 
-이런 작업을 하는 이유
+버전을 공유하고 제안하는 이유
 - 다른 소프트웨어들 끼리 호환되지 않는 문제를 최소화
 - 리눅스 파이프라인을 지원할 때 드는 비용을 감소
-- 각 회사에 리눅스 파이프라인을 채택을 장려하기 위함입니다.
+- 각 회사에 리눅스 파이프라인 채택을 장려하기 위함입니다.
 
 VFX Refercene Platform 규칙은 [Visual Effects Society Technology Committee](https://www.visualeffectssociety.com/ves-committees?jump-9)에서 회의를 통해 매년 업데이트합니다. 이 규칙은 Foundry같은 회사가 따르고 있습니다.
 
