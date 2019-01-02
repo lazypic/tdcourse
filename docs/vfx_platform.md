@@ -209,6 +209,7 @@ Intel Math Kernel Library의 약자입니다.
 소프트웨어 개발자가 이 라이브러리를 사용했다면 역시 필요한 라이브러리 입니다.
 
 - 홈페이지 : https://software.intel.com/en-us/mkl
+- 다운로드 : https://software.intel.com/en-us/mkl/choose-download/linux
 
 #### Reference
 https://software.intel.com/en-us/articles/intel-math-kernel-library-intel-mkl-2018-install-guide
