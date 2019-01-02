@@ -182,6 +182,23 @@ Threading + Building Blocks의 약자입니다.
 Intel 소프트웨어팀에서 개발한 병렬처리용 C++ 라이브러리.
 병렬처리연산이 들어간 프로그램을 컴파일할 때 이 라이브러리가 사용될 확률이 높습니다.
 
+#### 컴파일
+```
+$ cd ~/app
+$ git clone https://github.com/01org/tbb tbb
+$ cd tbb
+$ make
+```
+- TBB_INSTALL_DIR = $HOME/tbb
+- TBB_INCLUDE = $TBB_INSTALL_DIR/include
+- TBB_LIBRARY_RELEASE = $TBB_INSTALL_DIR/build/linux_intel64_gcc_cc6.3.1_libc2.17_kernel3.10.0_release
+- TBB_LIBRARY_DEBUG = $TBB_INSTALL_DIR/build/linux_intel64_gcc_cc6.3.1_libc2.17_kernel3.10.0_debug
+
+Relese, Debug 폴더는 리눅스 커널마다 다를 수 있습니다.
+
+#### Reference
+https://github.com/01org/tbb/tree/tbb_2019/cmake
+
 #### 읽어보기
 - http://m.cafe.daum.net/betterspeed/8V7A/3?q=D_jDGwPlH16FY0&
 - http://hootybaby.blogspot.com/2010/05/tbb.html
@@ -192,6 +209,9 @@ Intel Math Kernel Library의 약자입니다.
 소프트웨어 개발자가 이 라이브러리를 사용했다면 역시 필요한 라이브러리 입니다.
 
 - 홈페이지 : https://software.intel.com/en-us/mkl
+
+#### Reference
+https://software.intel.com/en-us/articles/intel-math-kernel-library-intel-mkl-2018-install-guide
 
 #### 읽어보기
 - http://www.sandia.co.kr/intelsw/performance_libraries/reseller_prodpage_mkl_and_mkl_cluster_edition.htm

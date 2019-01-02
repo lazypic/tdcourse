@@ -3,10 +3,10 @@
 미디어 재생을 위한 플레이어들을 알아보고 설치해 봅시다.
 
 ## [mpv](https://mpv.io/)
-영상을 볼 때 자주 사용하는 플레이어 입니다. 예전에는 mplayer를 사용했지만 mpv는 mplayer, mplayer2를 Fork 하여 개발중인 차세대 영상 플레이어 입니다.
+영상을 볼 때 사용하는 플레이어 입니다. 예전에는 mplayer를 사용했지만 mpv는 mplayer, mplayer2를 Fork 하여 개발중인 차세대 영상 플레이어 입니다.
 
-열심히 CentOS를 설치했는데 영화 한편 볼 수 없다면 너무 슬플것 같지 않나요?
-그래서 아래 설치방법을 기록해 둡니다.
+열심히 CentOS7을 설치했는데 영화 한편 볼 수 없다면 너무 슬플것 같지 않나요?
+그래서 준비했습니다. mpv 설치방법을 기록해 둡니다.
 
 ![mpv](https://mpv.io/images/mpv-screenshot-34cd36ae.jpg)
 
@@ -76,17 +76,17 @@ http://djv.sourceforge.net/Download.html 에서 rpm파일을 다운로드 받습
 프로그램 > 그래픽 > djv_view에 설치됩니다.
 실제 설치경로는 /usr/local/djv/bin 입니다.
 
-터미널에서 실행하려면 .bashrc 파일에 아래 옵션을 추가해 줘야한다.
+터미널에서 실행하려면 .bashrc 파일에 아래 옵션을 추가해 줘야합니다.
 
 ```bash
 export PATH=$PATH:/usr/local/djv/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/djv/lib
 ```
 
-#### 설치
+#### 컴파일
 컴파일하고 설치할 때 djv view는 cmake 3.12 이상을 요구합니다.
 
-[Cmake 설치](cmake.md)을 설치합니다.
+[Cmake](cmake.md)를 먼저 설치합니다.
 
 ```bash
 $ cd ~/app

@@ -29,5 +29,27 @@
 - openvdb_render
 - openvdb_view
 
+blosc 설치 : [blosc](http://www.blosc.org)는 바이너리 데이터를 나누고 섞는 무손실 압축 라이브러리 입니다. openVDB에 사용됩니다.
+```
+$ cd ~/app
+$ git clone https://github.com/Blosc/c-blosc c-blosc_src
+$ mkdir c-blosc_build
+$ mkdir c-blosc
+$ cd c-blosc_build
+$ ~/app/cmake-3.13.2/bin/cmake ../c-blosc_src -DCMAKE_INSTALL_PREFIX=$HOME/app/c-blosc
+$ make
+$ make install
+```
+
+```
+$ cd ~/app
+$ git clone https://github.com/AcademySoftwareFoundation/openvdb.git openvdb_src
+$ mkdir openvdb_build
+$ mkdir openvdb
+$ cd openvdb_build
+$ scl enable devtoolset-6 bash
+$ ~/app/cmake-3.13.2/bin/cmake ../openvdb_src -DBLOSC_LOCATION=$HOME/app/c-blosc -DCMAKE_INSTALL_PREFIX=$HOME/app/openvdb -DTBB_LOCATION=$HOME/app/tbb
+
+```
 ## 샘플파일 다운로드
 http://www.openvdb.org/download

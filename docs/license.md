@@ -3,7 +3,7 @@
 ## Windows10에서 맥 어드레스 알아내는 방법
 `WindowKey + R > cmd 입력후 Enter` 키를 이용해서 터미널을 띄웁니다.
 
-아래 명령어를 타이핑 하면 맥어드레스를 알아낼 수 있습니다.
+아래 명령어를 타이핑 하면 맥 어드레스를 알아낼 수 있습니다.
 ```
 > getmac /v
 ```
@@ -37,11 +37,11 @@ $ ./FoundryLicenseUtility -i
 System ID : 001f162056e0 #mac address가 출력됩니다. 이 정보를 벤더사에 보내주세요.
 ```
 
-벤더사에서 보내준 이메일내부에 FoundryLicenseKeys.zip 파일을 다운로드 받습니다.
+라이센스 요청이 받아들여지면 벤더사에서 이메일을 보내줍니다. 첨부파일에는  FoundryLicenseKeys.zip 라이센스 파일이 존재하게됩니다.
 ```
 $ cd ~/Download
 $ unzip FoundryLicenseKeys.zip
-# FoundryLicenseUtility -l ~/Downloads/FoundryLicenseKeys/foundry.lic
+# ~/app/FoundryLicenseUtility -l ~/Downloads/FoundryLicenseKeys/foundry.lic
 ```
 
-뉴크가 정상적으로 실행되는지 체크합니다.
+뉴크 또는 Foundry 제품이 정상적으로 잘 실행되는지 체크합니다.
