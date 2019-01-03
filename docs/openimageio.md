@@ -12,6 +12,14 @@ RMan Zfile, FITS, DDS, Softimage PIC, PNM, DPX, Cineon, IFF, Field3D,
 OpenVDB, Ptex, Photoshop PSD, Wavefront RLA, SGI, WebP, GIF, DICOM,
 많은 디지털카메라의 Raw포멧 등
 
+## 명령어
+- oiiotool
+- iinfo
+- iconvert
+- idiff
+- igrep
+- iv
+
 ## 설치
 - CentOS7.5
 ```
