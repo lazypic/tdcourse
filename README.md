@@ -67,7 +67,7 @@
 	1. 실습 : 오피스 제품을 설치하고 MPAA 문서보기
 	1. [크롬설치](docs/install_chrome.md)
 	1. [CentOS Beep 사운드 제거](docs/soundoff.md)
-	1. [mpv 플레이어 설치](docs/mpv.md)
+	1. [MPV 플레이어 설치](docs/mpv.md)
 	1. [Torrent](docs/torrent.md)
 	1. [Steam](docs/steam.md)
 
