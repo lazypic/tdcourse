@@ -1,5 +1,5 @@
 # Yum
-Yum(Yellowdog Updater Modified)은 Red Hat 리눅스 계열에서 사용하는 패키지 메니징 툴입니다.
+Yum(Yellowdog Updater Modified)은 Red Hat 리눅스 계열에서 사용하는 패키지 매니징 툴입니다.
 이 툴을 이용해서 리눅스에 패키지를 검색, 설치, 삭제 할 수 있습니다.
 
 리눅스에서는 yum 이외에도 많은 패키지 툴이 존재합니다.
@@ -14,7 +14,7 @@ Yum(Yellowdog Updater Modified)은 Red Hat 리눅스 계열에서 사용하는 �
 	- Aptitude Package Manager
 	- Synaptic Package Manager
 - Arch Linux : Packman Package manager
-- openSuse : Zypper Package Manager
+- OpenSuse : Zypper Package Manager
 - Gentoo : Portae Package Manager
 
 
