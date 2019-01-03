@@ -10,3 +10,4 @@
 - 뉴크파일 퍼블리쉬툴 제작
 - 메모리 관리 : https://www.tecmint.com/clear-ram-memory-cache-buffer-and-swap-space-on-linux/
 - FFmpeg를 이용한 슬레이트 제작
+- 협력툴 [Slack](docs/slack.md) 설치

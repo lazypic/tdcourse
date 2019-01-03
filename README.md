@@ -49,22 +49,34 @@
 	1. [권한 이해하기](docs/permission.md)
 
 1. 리눅스 명령어 심화
+	1. [yum](docs/yum.md) 명령어
+	1. [실습 : 재미있는 명령어를 설치해보자.](docs/fun_cmds.md)
 	1. [쉘 이야기](docs/shell.md)
-	1. [커널부터 응용프로그램까지](docs/linux_struct.md)
-	1. [프로세스 이해](docs/process.md)
-	1. [find, grep, ripgrep](docs/find_grep.md)
 	1. [시간설정, 타임서버](docs/time.md)
 	1. [리눅스 네트워크 명령](docs/linux_net_cmd.md)
+	1. [커널부터 응용프로그램까지](docs/linux_struct.md)
 
-1. 에디터, 유틸리티 설치
-	1. [vim 소개](docs/vim.md)
-	1. [에디터 추천](docs/editor.md)
+1. 뉴크 설치
+	1. [뉴크 설치](docs/install_nuke.md)
+	1. [뉴크 라이센스 셋팅](docs/license.md) : 임시라이센스를 사용합니다.
+	1. 뉴크 실행하고 둘러보기
+	1. [프로세스 이해](docs/process.md)
+	1. [find, grep, ripgrep](docs/find_grep.md)
+	
+1. 유틸리티 설치
+	1. 실습 : 오피스 제품을 설치하고 MPAA 문서보기
 	1. [크롬설치](docs/install_chrome.md)
 	1. [CentOS Beep 사운드 제거](docs/soundoff.md)
+	1. [mpv 플레이어 설치](docs/mpv.md)
+	1. [Torrent](docs/torrent.md)
+	1. [Steam](docs/steam.md)
 
-1. 설치 유틸리티
+1. 에디터
+	1. [vim 소개](docs/vim.md)
+	1. [에디터 추천](docs/editor.md)
 	1. 토론 : [에디터 선정](docs/talk_about_editor.md)
-	1. [yum](docs/yum.md) 명령어
+
+1. 개발자 유틸리티 설치
 	1. [pip](docs/pip.md) 설치
 	1. [cmake](docs/cmake.md) 설치
 
@@ -74,11 +86,9 @@
 	1. [top](docs/top.md)
 	1. [man](docs/man.md)
 
-1. 재미있는 명령어 설치
-	1. [실습 : 재미있는 명령어를 설치해보자.](docs/fun_cmds.md)
-	1. [Torrent](docs/torrent.md)
-	1. [Steam](docs/steam.md)
-	1. [Slack](docs/slack.md)
+1. 동영상과 코텍
+	1. [Player](docs/player.md)
+	1. [동영상 포멧과 Codec](docs/format_codec.md)
 
 1. 서비스와 데몬
 	1. [Daemon](docs/daemon.md)
@@ -86,11 +96,6 @@
 	1. [sftp](docs/sftp.md)
 
 1. [Linux 폴더구조](docs/foldertree.md)
-
-1. 뉴크 설치
-	1. [뉴크 설치](docs/install_nuke.md)
-	1. [라이센스 셋팅](docs/license.md)
-	1. 뉴크 둘러보기
 
 1. 쉘 스크립트
 	1. [.sh 스크립트 생성](docs/shell_script.md)
@@ -109,10 +114,6 @@
 	1. [Git 협업방식 설명](docs/github_collaboration.md)
 	1. 실습 : Git 협업모델 테스트
 	1. [이슈, Pull Request 상태에서의 토론](docs/discussion.md)
-
-1. 동영상과 코텍
-	1. [Player](docs/player.md)
-	1. [동영상 포멧과 Codec](docs/format_codec.md)
 
 1. 파이썬 기초 실무
 	1. [파이썬 X in Y minutes](https://learnxinyminutes.com/docs/python/)
