@@ -430,11 +430,11 @@ oiio와 함께 연동이 필요한 라이브러리는 필요시 추가하여 빌
 ```bash
 $ cd ~/app
 $ git clone https://github.com/OpenImageIO/oiio OpenImageIO_src
-$ mkdir OpenImageIO_build
 $ mkdir OpenImageIO
+$ mkdir OpenImageIO_build
 $ cd OpenImageIO_build
 $ scl enable devtoolset-6 bash
-$ ~/app/cmake-3.13.2/bin/cmake -DSTOP_ON_WARNING=0 ../OpenImageIO_src -DOPENEXR_ROOT_DIR=$HOME/app/openexr -DILMBASE_ROOT_DIR=$HOME/app/IlmBase -DOCIO_HOME=$HOME/app/imageworks-OpenColorIO-2b12063 -DUSE_LIBCPLUSPLUS=1 -DUSE_QT=0 -DCMAKE_INSTALL_PREFIX=$HOME/app/OpenImageIO
+$ ~/app/cmake-3.13.2/bin/cmake -DSTOP_ON_WARNING=0 ../OpenImageIO_src -DOPENEXR_INCLUDE_DIR=$HOME/app/openexr/include -DOPENEXR_LIB_DIR=$HOME/app/openexr/lib -DILMBASE_INCLUDE_DIR=$HOME/app/IlmBase/include -DOCIO_PATH=$HOME/app/OpenColorIO -DCMAKE_INSTALL_PREFIX=$HOME/app/OpenImageIO
 $ make
 $ make install
 ```

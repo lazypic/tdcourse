@@ -25,7 +25,6 @@ $ cd ~/app
 $ wget https://github.com/openexr/openexr/archive/v2.3.0.tar.gz
 $ tar -zxvf v2.3.0.tar.gz
 $ cd openexr-2.3.0
-
 ```
 
 #### IlmBase 컴파일
