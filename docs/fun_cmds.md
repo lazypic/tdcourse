@@ -37,9 +37,6 @@ $ oneko
 $ echo "test" | pv -qL 10
 ```
 
-```
-
-```
 ## 스타워즈 영화보기
 ```
 $ telnet towel.blinkenlights.nl
