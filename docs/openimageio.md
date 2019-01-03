@@ -442,11 +442,28 @@ $ mkdir OpenImageIO
 $ mkdir OpenImageIO_build
 $ cd OpenImageIO_build
 $ scl enable devtoolset-6 bash
-$ ~/app/cmake-3.13.2/bin/cmake -DSTOP_ON_WARNING=0 ../OpenImageIO_src -DOPENEXR_INCLUDE_DIR=$HOME/app/openexr/include -DOPENEXR_LIB_DIR=$HOME/app/openexr/lib -DILMBASE_INCLUDE_DIR=$HOME/app/IlmBase/include -DOCIO_PATH=$HOME/app/OpenColorIO -DCMAKE_INSTALL_PREFIX=$HOME/app/OpenImageIO
+$ ~/app/cmake-3.13.2/bin/cmake -DSTOP_ON_WARNING=0 ../OpenImageIO_src -DOPENEXR_INCLUDE_DIR=$HOME/app/openexr/include -DOPENEXR_LIB_DIR=$HOME/app/openexr/lib -DILMBASE_INCLUDE_DIR=$HOME/app/IlmBase/include -DILMBASE_LIB_DIR=$HOME/app/IlmBase/lib -DOCIO_PATH=$HOME/app/OpenColorIO -DCMAKE_INSTALL_PREFIX=$HOME/app/OpenImageIO
 $ make
 $ make install
 ```
 
+에러내용 : https://github.com/OpenImageIO/oiio/issues/1406
+```
+[ 74%] Linking CXX executable simd_test
+/opt/rh/devtoolset-6/root/usr/libexec/gcc/x86_64-redhat-linux/6.3.1/ld: warning: libHalf.so.24, needed by /home/woong/app/openexr/lib/libIlmImf.so, may conflict with libHalf.so.6
+/opt/rh/devtoolset-6/root/usr/libexec/gcc/x86_64-redhat-linux/6.3.1/ld: warning: libHalf.so.24, needed by /home/woong/app/openexr/lib/libIlmImf.so, may conflict with libHalf.so.6
+/opt/rh/devtoolset-6/root/usr/libexec/gcc/x86_64-redhat-linux/6.3.1/ld: CMakeFiles/simd_test.dir/simd_test.cpp.o: undefined reference to symbol '_ZTIN7Iex_2_37BaseExcE'
+//home/woong/app/IlmBase/lib/libIex-2_3.so.24: error adding symbols: DSO missing from command line
+collect2: error: ld returned 1 exit status
+src/libutil/CMakeFiles/simd_test.dir/build.make:130: 'src/libutil/simd_test' \ud0c0\uac9f\uc5d0 \ub300\ud55c \uba85\ub839\uc774 \uc2e4\ud328\ud588\uc2b5\ub2c8\ub2e4
+make[2]: *** [src/libutil/simd_test] \uc624\ub958 1
+CMakeFiles/Makefile2:1346: 'src/libutil/CMakeFiles/simd_test.dir/all' \ud0c0\uac9f\uc5d0 \ub300\ud55c \uba85\ub839\uc774 \uc2e4\ud328\ud588\uc2b5\ub2c8\ub2e4
+make[1]: *** [src/libutil/CMakeFiles/simd_test.dir/all] \uc624\ub958 2
+Makefile:162: 'all' \ud0c0\uac9f\uc5d0 \ub300\ud55c \uba85\ub839\uc774 \uc2e4\ud328\ud588\uc2b5\ub2c8\ub2e4
+make: *** [all] \uc624\ub958 2
+[woong@localhost OpenImageIO_build]$ ~/app/cmake-3.13.2/bin/cmake -DSTOP_ON_WARNING=0 ../OpenImageIO_src -DOPENEXR_INCLUDE_DIR=$HOME/app/openexr/include -DOPENEXR_LIB_DIR=$HOME/app/openexr/lib -DILMBASE_INCLUDE_DIR=$HOME/app/IlmBase/include -DILMBASE_LIB_DIR=$HOME/app/IlmBase/lib -DOCIO_PATH=$HOME/app/OpenColorIO -DCMAKE_INSTALL_PREFIX=$HOME/app/OpenImageIO
+
+```
 
 ## Reference
 - https://github.com/OpenImageIO/oiio/blob/master/src/doc/openimageio.pdf
