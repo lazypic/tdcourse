@@ -25,6 +25,7 @@ $ cat ~/ls.txt
 - cowsay 명령어를 설치하고 파이프를 테스트해보는 예제.
 ```
 $ su
+# yum install epel-release
 # yum install cowsay
 # exit
 $ echo "hello Linux" | cowsay
