@@ -434,7 +434,7 @@ $ mkdir OpenImageIO_build
 $ mkdir OpenImageIO
 $ cd OpenImageIO_build
 $ scl enable devtoolset-6 bash
-$ ~/app/cmake-3.13.2/bin/cmake -DSTOP_ON_WARNING=0 ../openexr-2.3.0 -DOPENEXR_HOME=$HOME/app/openexr -DILMBASE_HOME=$HOME/app/IlmBase -DOCIO_HOME=$HOME/app/imageworks-OpenColorIO-2b12063 -DUSE_LIBCPLUSPLUS=1 -DUSE_QT=0 -DCMAKE_INSTALL_PREFIX=$HOME/app/OpenImageIO
+$ ~/app/cmake-3.13.2/bin/cmake -DSTOP_ON_WARNING=0 ../OpenImageIO_src -DOPENEXR_ROOT_DIR=$HOME/app/openexr -DILMBASE_ROOT_DIR=$HOME/app/IlmBase -DOCIO_HOME=$HOME/app/imageworks-OpenColorIO-2b12063 -DUSE_LIBCPLUSPLUS=1 -DUSE_QT=0 -DCMAKE_INSTALL_PREFIX=$HOME/app/OpenImageIO
 $ make
 $ make install
 ```
