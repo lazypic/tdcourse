@@ -30,7 +30,6 @@
 		1. [개인 포트폴리오 홈페이지 제작을 위한 github.io 소개](docs/github_io.md)
 		1. 실습 : id.github.io를 통한 자신의 포트폴리오 사이트 리포지터리 생성
 		1. [linkedin](docs/linkedin.md)
-		
 
 1. 리눅스 설치1
 	1. USB, SSD 하드디스크 전달
@@ -47,9 +46,9 @@
 	1. [리눅스의 기본 명령어](docs/linux_cmd.md)
 	1. [리다이렉트, 파이프](docs/redirect_pipe.md)
 	1. [리네임](docs/rename.md)
+	1. [권한 이해하기](docs/permission.md)
 
 1. 리눅스 명령어 심화
-	1. [권한 이해하기](docs/permission.md)
 	1. [쉘 이야기](docs/shell.md)
 	1. [커널부터 응용프로그램까지](docs/linux_struct.md)
 	1. [프로세스 이해](docs/process.md)
@@ -273,4 +272,4 @@
 	1. 기술지원, 멘토링
 	1. github를 이용한 포트폴리오 제작. README 작성.
 	1. 기술공유, 추후 정보를 나눌 채널, 이슈정리 약속 정하기
-	1. 수료증 전달
+	1. SSD제거, 수료증 전달
