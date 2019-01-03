@@ -14,7 +14,6 @@ yum을 이용하여 간단하게 OpenEXR을 설치할 수 있습니다.
 ```
 yum install OpenEXR
 yum install OpenEXR-libs
-yum install OpenEXR-devel
 ```
 
 
@@ -23,13 +22,16 @@ yum install OpenEXR-devel
 - git을 이용해서 OpenEXR 소스코드를 다운로드 합니다.
 ```
 $ cd ~/app
-$ git clone https://github.com/openexr/openexr openexr_src
+$ wget https://github.com/openexr/openexr/archive/v2.3.0.tar.gz
+$ tar -zxvf v2.3.0.tar.gz
+$ cd openexr-2.3.0
+
 ```
 
 #### IlmBase 컴파일
 - 먼저 IlmBase 라이브러리를 컴파일 하겠습니다. IlmBase 폴더로 이동합니다.
 ```
-$ cd openexr_src/IlmBase
+$ cd ~/app/openexr-2.3.0/IlmBase
 ```
 
 - configure 파일을 생성하기 위해서 bootstrap을 타이핑합니다.
@@ -42,14 +44,7 @@ $ ./bootstrap
 ```
 $ scl enable devtoolset-6 bash
 $ ./configure --prefix=$HOME/app/IlmBase
-$ 
-```
-- make 명령을 이용해서 컴파일 합니다.
-```
 $ make
-```
-- make 컴파일된 명령어를 prefix 경로로 배포합니다.
-```
 $ make install
 ```
 
@@ -60,13 +55,13 @@ $ make install
 - 위와 같은 방식으로 똑같이 OpenEXR 컴파일을 진행합니다.
 - prefix경로는 `~/app/OpenEXR`로 설정하겠습니다.
 ```
-$ cd openexr_src/OpenEXR
+$ cd ~/app/openexr-2.3.0/OpenEXR
 $ scl enable devtoolset-6 bash
 $ ./bootstrap
-$ ./configure --prefix=$HOME/app/OpenEXR --with-ilmbase-prefix=$HOME/app/IlmBase
+$ ./configure --prefix=$HOME/app/openexr --with-ilmbase-prefix=$HOME/app/IlmBase
 $ make
 $ make install
 ```
 
 #### prefix 경로 확인
-- ~/app/OpenEXR 경로에 bin, include, lib, share 경로가 생성됩니다.
+- ~/app/openexr 경로에 bin, include, lib, share 경로가 생성됩니다.

@@ -418,6 +418,13 @@ $ oiiotool -i input.exr --colorconvert linear srgb --premult -o output.tga
 # yum install opencv-devel
 ```
 
+OpenColorIO Core 가 필요합니다. app에 설치해주세요.
+```
+cd ~/app
+wget http://github.com/imageworks/OpenColorIO/tarball/v1.0.9
+tar -zxvf v1.0.9
+```
+
 아래 명령어를 실행하면 일단 빌드가 됩니다.
 oiio와 함께 연동이 필요한 라이브러리는 필요시 추가하여 빌드합니다.
 ```bash
@@ -427,30 +434,12 @@ $ mkdir OpenImageIO_build
 $ mkdir OpenImageIO
 $ cd OpenImageIO_build
 $ scl enable devtoolset-6 bash
-$ ~/app/cmake-3.13.2/bin/cmake -DSTOP_ON_WARNING=0 ../OpenImageIO_src -DOPENEXR_ROOT_DIR=$HOME/app/OpenEXR -DILMBASE_ROOT_DIR=$HOME/app/IlmBase -DILMBASE_INCLUDE_DIR=$HOME/app/IlmBase/include
-
-make
-make install
+$ ~/app/cmake-3.13.2/bin/cmake -DSTOP_ON_WARNING=0 ../openexr-2.3.0 -DOPENEXR_HOME=$HOME/app/openexr -DILMBASE_HOME=$HOME/app/IlmBase -DOCIO_HOME=$HOME/app/imageworks-OpenColorIO-2b12063 -DUSE_LIBCPLUSPLUS=1 -DUSE_QT=0 -DCMAKE_INSTALL_PREFIX=$HOME/app/OpenImageIO
+$ make
+$ make install
 ```
 
 
-필요한 라이브러리
-```
-[ 70%] Building CXX object src/libutil/CMakeFiles/simd_test.dir/simd_test.cpp.o
-[ 70%] Linking CXX executable simd_test
-/opt/rh/devtoolset-6/root/usr/libexec/gcc/x86_64-redhat-linux/6.3.1/ld: warning: libHalf.so.24, needed by /home/woong/app/OpenEXR/lib/libIlmImf.so, may conflict with libHalf.so.6
-/opt/rh/devtoolset-6/root/usr/libexec/gcc/x86_64-redhat-linux/6.3.1/ld: warning: libHalf.so.24, needed by /home/woong/app/OpenEXR/lib/libIlmImf.so, may conflict with libHalf.so.6
-/opt/rh/devtoolset-6/root/usr/libexec/gcc/x86_64-redhat-linux/6.3.1/ld: CMakeFiles/simd_test.dir/simd_test.cpp.o: undefined reference to symbol '_ZTIN7Iex_2_37BaseExcE'
-//home/woong/app/IlmBase/lib/libIex-2_3.so.24: error adding symbols: DSO missing from command line
-collect2: error: ld returned 1 exit status
-src/libutil/CMakeFiles/simd_test.dir/build.make:128: 'src/libutil/simd_test' 타겟에 대한 명령이 실패했습니다
-make[2]: *** [src/libutil/simd_test] 오류 1
-CMakeFiles/Makefile2:1346: 'src/libutil/CMakeFiles/simd_test.dir/all' 타겟에 대한 명령이 실패했습니다
-make[1]: *** [src/libutil/CMakeFiles/simd_test.dir/all] 오류 2
-Makefile:162: 'all' 타겟에 대한 명령이 실패했습니다
-make: *** [all] 오류 2
-
-```
 ## Reference
 - https://github.com/OpenImageIO/oiio/blob/master/src/doc/openimageio.pdf
 - [webp 란?](https://ko.wikipedia.org/wiki/WebP) : jpeg를 대체하기 위해 구글에서 개발된 포멧
