@@ -413,6 +413,9 @@ $ oiiotool -i input.exr --colorconvert linear srgb --premult -o output.tga
 
 ```bash
 # yum install clang
+# yum install webp-devel
+# yum install LibRaw-devel
+# yum install opencv-devel
 ```
 
 아래 명령어를 실행하면 일단 빌드가 됩니다.
@@ -424,8 +427,8 @@ $ mkdir OpenImageIO_build
 $ mkdir OpenImageIO
 $ cd OpenImageIO_build
 $ scl enable devtoolset-6 bash
-$ ~/app/cmake-3.13.2/bin/cmake ../OpenImageIO_src -DILMBASE_INCLUDE_PATH=$HOME/app/IlmBase/include -DOPENEXR_INCLUDE_PATH=$HOME/app/OpenEXR/include
--DCMAKE_INSTALL_DIR=$HOME/app/OpenImageIO
+$ ~/app/cmake-3.13.2/bin/cmake ../OpenImageIO_src -DILMBASE_INCLUDE_PATH=$HOME/app/IlmBase/include -DOPENEXR_INCLUDE_PATH=$HOME/app/OpenEXR/include -DCMAKE_INSTALL_DIR=$HOME/app/OpenImageIO -DOPENEXR_ROOT_DIR=$HOME/app/OpenEXR -DOCIO_PATH=$HOME/app/OpenColorIO -DTBB_ROOT_DIR=$HOME/app/tbb/build -DOpenGL_GL_PREFERENCE=GLVND
+
 make
 make install
 ```
@@ -433,25 +436,6 @@ make install
 
 필요한 라이브러리
 ```
-CMake Warning (dev) at /home/woong/app/cmake-3.13.2/share/cmake-3.13/Modules/FindOpenGL.cmake:270 (message):
-  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
-  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
-  cmake_policy command to set the policy and suppress this warning.
-
-  FindOpenGL found both a legacy GL library:
-
-    OPENGL_gl_LIBRARY: /usr/lib64/libGL.so
-
-  and GLVND libraries for OpenGL and GLX:
-
-    OPENGL_opengl_LIBRARY: /usr/lib64/libOpenGL.so
-    OPENGL_glx_LIBRARY: /usr/lib64/libGLX.so
-
-  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
-  compatibility with CMake 3.10 and below the legacy GL library will be used.
-Call Stack (most recent call first):
-  src/cmake/externalpackages.cmake:131 (find_package)
-  CMakeLists.txt:130 (include)
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
 -- OCIO not found. Specify OCIO_PATH to locate it
@@ -460,9 +444,6 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 -- Field3d will not be used
 -- Intel TBB not found, TBB_ROOT_DIR=''
 -- OpenVDB will not be used, could not find Intel TBB
--- LibRaw not found!
--- WebP library not found
--- OpenCV library not found
 -- DCMTK_INCLUDE_DIR = DCMTK_INCLUDE_DIR-NOTFOUND
 -- DCMTK not found. Specify DCMTK_PATH to locate it
 -- Downloading local Tessil/robin-map
