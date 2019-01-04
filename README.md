@@ -180,7 +180,7 @@
 1. VFX에서 자주 사용되는 파일 : 3D 데이터
 	1. 마야데이터 : .mb, .ma
 	1. 맥스 : .max
-	1. FBX
+	1. .fbx
 	1. [Obj](docs/obj.md)
 	1. [Alembic](docs/abc.md)
 	1. [USD](docs/usd.md)
