@@ -59,7 +59,7 @@
 
 1. 뉴크 설치
 	1. [뉴크 설치](docs/install_nuke.md)
-	1. [뉴크 라이센스 셋팅](docs/license.md) : 임시라이센스를 사용합니다.
+	1. [뉴크 라이센스 셋팅](docs/license.md)
 	1. 뉴크 실행하고 둘러보기
 	1. [프로세스 이해](docs/process.md)
 	1. [find, grep, ripgrep](docs/find_grep.md)
@@ -73,7 +73,7 @@
 	1. [Steam](docs/steam.md)
 
 1. 에디터
-	1. [vim 소개](docs/vim.md)
+	1. [Vim 소개](docs/vim.md)
 	1. [에디터 추천](docs/editor.md)
 	1. 토론 : [에디터 선정](docs/talk_about_editor.md)
 

@@ -50,7 +50,7 @@ echo $2
 bash 스크립트를 통해서 뉴크가 설치되어있는지 체크하는 방법은 아래와 같습니다.
 
 ```bash
-if [ -d "$HOME/Nuke11.2v5" ]; then
+if [ -d "$HOME/Nuke11.3v1" ]; then
     echo "뉴크가 설치되어있습니다."
 fi
 ```
@@ -73,6 +73,10 @@ fi
 ```
 
 위 형태의 코드를 통해서 "무언가가 설치되어있지 않다면 설치해라!" 형태의 쉘 스크립트를 제작할 수 있습니다.
+
+## 실습
+- CentOS가 설치된 이후 설치해야하는 프로그램을 일괄 설치하는 .sh 파일을 만들어봅시다.
+
 
 ## Reference
 - http://www.compciv.org/recipes/cli/basic-shell-scripts/

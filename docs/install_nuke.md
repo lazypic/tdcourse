@@ -11,8 +11,8 @@ http://foundry.com/products/nuke/download 를 클릭하고 로그인해서 제�
 
 ```bash
 $ cd ~/Download
-$ tar -xvf Nuke11.2v5-linux-x86-release-64.tgz
-$ ./Nuke11.2v5-linux-x86-release-64-installer
+$ tar -xvf Nuke11.3v1-linux-x86-release-64.tgz
+$ ./Nuke11.3v1-linux-x86-release-64-installer
 ```
 
 관리자(root) 계정으로 뉴크를 설치하지 않았습니다.
@@ -20,7 +20,7 @@ $ ./Nuke11.2v5-linux-x86-release-64-installer
 사용자 권한으로 설치하게 되면 뉴크는 홈디렉토리에 설치됩니다. 위치는 아래와 같습니다.
 
 ```
-~/Nuke11.2v5
+~/Nuke11.3v1
 ```
 
 ## 에러
@@ -31,4 +31,12 @@ Failed to load libstudio-11.3.1.so: libGLU.so.1: cannot open shared object file:
 
 ```
 # yum install mesa-libGLU
+```
+
+## 라이센스파일 권한변경
+뉴크를 실행하려고 해도 인터넷에서 라이센스를 발급받아 적용하기 위해서는 `/usr/local/foundry/`경로에 일반 사용자가 읽기 쓰기 권한을 설정해줘야합니다.
+
+터미널에서 아래처럼 권한을 설정해주세요.
+```
+# chmod 
 ```
