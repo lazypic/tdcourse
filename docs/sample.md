@@ -34,7 +34,8 @@ Arri ACES reference Image 주소입니다.
 ## Arri Alexa Plate
 Alexa Plate 는 http://www.arri.com/camera/alexa/learn/alexa_sample_footage/ 주소를 통해서 다운로드 받을 수 있습니다.
 
-실제 데이터는 ftp를 통해서 다운로드 받을 수 있습니다. 파일질라를 설치하고 다운로드 받아봅시다.
+실제 데이터는 ftp를 통해서 다운로드 받을 수 있습니다.
+[파일질라](sftp.md)를 설치하고 다운로드 받아봅시다.
 
 - Server : ftp-footage.arri.de
 - User : ALEXA
