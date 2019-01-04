@@ -29,7 +29,7 @@ NTP synchronized: yes
 
 ## NTP를 이용해서 시간동기화
 ```
-# timedatectl set-ntp yes
+# timedatectl set-ntp true
 ```
 
 - 한국 NTP 서버 : https://www.pool.ntp.org/zone/kr
