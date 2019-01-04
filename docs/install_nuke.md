@@ -22,3 +22,13 @@ $ ./Nuke11.2v5-linux-x86-release-64-installer
 ```
 ~/Nuke11.2v5
 ```
+
+## 에러
+아래 에러가 발생하면 mesa-libGLU를 설치해주세요.
+```
+Failed to load libstudio-11.3.1.so: libGLU.so.1: cannot open shared object file: No such file or directory
+```
+
+```
+# yum install mesa-libGLU
+```
