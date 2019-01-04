@@ -14,9 +14,9 @@ cd ~/app
 git clone https://github.com/imageworks/OpenColorIO-Configs
 ```
 
-뉴크에 기본 탑재된 OCIO가 아닌 위 Configs 파일을 이용하고 싶다면 .bashrc에 OCIO경로를 지정하면 뉴크가 자동으로 인식하여 뉴크 실행시 OpenColorIO-Configs를 로딩합니다.
+뉴크에 기본 탑재된 OCIO가 아닌 위 Configs 파일을 이용하고 싶다면 환경변수에 OCIO경로를 지정하면 뉴크가 자동으로 인식하여 뉴크 실행시 OpenColorIO-Configs를 로딩합니다.
 
-.bashrc
+환경변수 파일에 아래 내용을 추가합니다.
 ```
 export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.0.3/config.ocio
 ```

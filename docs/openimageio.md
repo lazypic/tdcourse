@@ -12,14 +12,6 @@ RMan Zfile, FITS, DDS, Softimage PIC, PNM, DPX, Cineon, IFF, Field3D,
 OpenVDB, Ptex, Photoshop PSD, Wavefront RLA, SGI, WebP, GIF, DICOM,
 많은 디지털카메라의 Raw포멧 등
 
-## 명령어
-- oiiotool
-- iinfo
-- iconvert
-- idiff
-- igrep
-- iv
-
 ## 설치
 - CentOS7.5
 ```
@@ -35,6 +27,69 @@ $ brew install openimageio
 - Windows
 	- https://github.com/OpenImageIO/oiio/blob/master/INSTALL.md
 	- https://sites.google.com/site/openimageio/building-oiio-on-windows
+
+## 명령어
+OpenImageIO, OpenImageIO Util 명령어를 알아보겠습니다.
+
+### iinfo
+이미지의 정보를 분석하는 툴입니다.
+
+```bash
+$ iinfo test.exr 
+test.exr : 2880 x 1620, 3 channel, half openexr
+```
+
+### iconvert
+이미지를 컨버팅할 때 사용합니다.
+
+```bash
+$ iconvert --inplace --caption testimage test.exr
+```
+
+이미지에 키워드 추가하기
+```bash
+$ iconvert --inplace --keyword woong test.exr
+```
+
+exr이미지에 어트리뷰트 추가하기
+```bash
+$ iconvert --inplace --attrib project circle --attrib shot FOO_0010 test.exr
+```
+### idiff
+이미지를 비교하는 명령어
+
+PASS 문자가 출력되면 같은 이미지 입니다.
+```bash
+$ idiff image1.exr image2.exr 
+Comparing "image1.exr" and "image2.exr"
+PASS
+```
+
+결과가 다르면 분석값을 출력하고 FAILURE을 최종 출력합니다.
+```
+$ idiff image1.exr image2.exr
+Comparing "image1.exr" and "image2.exr"
+  Mean error = 0.327311
+  RMS error = 0.508405
+  Peak SNR = 28.74
+  Max error  = 13.0548 @ (843, 275, B)
+  4665600 pixels (100%) over 1e-06
+  4665600 pixels (100%) over 1e-06
+FAILURE
+```
+### igrep
+이미지 메타데이터를 검색할 때 사용합니다.
+
+만약 이미지 내부에 `A004R23J` 문자가 존재하는지 검사할 때
+
+```bash
+$ igrep A004R23J test.exr
+```
+
+
+### oiiotool
+OpenImageIO를 설치하면 사용할 수 있는 이미지 프로세싱 툴입니다.
+가장 많이 사용하게 될 명령어 입니다.
 
 ## 컬러 프로파일 로딩 체크
 ```

@@ -74,6 +74,11 @@
 	1. [Torrent](docs/torrent.md)
 	1. [Steam](docs/steam.md)
 
+1. 서비스와 데몬
+	1. [Daemon](docs/daemon.md)
+	1. [vnc](docs/vnc.md)
+	1. [sftp](docs/sftp.md)
+
 1. 에디터
 	1. [Vim 소개](docs/vim.md)
 	1. [에디터 추천](docs/editor.md)
@@ -92,11 +97,6 @@
 1. 동영상과 코텍
 	1. [Player](docs/player.md)
 	1. [동영상 포멧과 Codec](docs/format_codec.md)
-
-1. 서비스와 데몬
-	1. [Daemon](docs/daemon.md)
-	1. [vnc](docs/vnc.md)
-	1. [sftp](docs/sftp.md)
 
 1. [Linux 폴더구조](docs/foldertree.md)
 
