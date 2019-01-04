@@ -52,6 +52,7 @@
 	1. [yum](docs/yum.md) 명령어
 	1. [실습 : 재미있는 명령어를 설치해보자.](docs/fun_cmds.md)
 	1. [쉘 이야기](docs/shell.md)
+	1. [홈디렉토리 영문설정](docs/centos_home_kr2en.md)
 	1. [시간설정, 타임서버](docs/time.md)
 	1. [리눅스 네트워크 명령](docs/linux_net_cmd.md)
 	1. [커널부터 응용프로그램까지](docs/linux_struct.md)
