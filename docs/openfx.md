@@ -19,6 +19,10 @@ OpenFX API를 이용해서 플러그인을 만들게 되면 뉴크 이외 다른
 - Sony Vegas
 - Avid
 
+## 플러그인의 예
+- https://kognat.com/
+- https://www.neatvideo.com/
+
 ## Reference
 - OFX C API : http://openfx.sourceforge.net/Documentation/​
 - 관련 코드들이 있는 Github사이트 : http://github.com/gatgui/ofxpp/
