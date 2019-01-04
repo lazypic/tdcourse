@@ -11,6 +11,7 @@
 
 ```
 alias weather="curl wttr.in/seoul"
+alias curriculum="firefox https://github.com/cgiseminar/curriculum"
 ```
 
 ## .bashrc에 custom.env 파일 물리기
