@@ -6,7 +6,8 @@
 
 HandbrakeCLI를 컴파일하기 위해서 필요한 라이브러리를 먼저 설치합니다.
 
-```bash
+```
+$ su
 # yum update
 # yum groupinstall "Development Tools" "Additional Development"
 # yum install fribidi-devel git jansson-devel libogg-devel libsamplerate-devel libtheora-devel libvorbis-devel opus-devel

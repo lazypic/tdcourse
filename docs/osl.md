@@ -50,6 +50,9 @@ shader TDdiffuse_ramp(
 아직 지원하고 있지 않습니다. 아래 URL에서 해당 사항에 대해서 Discussion은 올라와 있습니다.
 https://forums.unrealengine.com/development-discussion/rendering/36083-osl-support
 
+## 실습
+OSL을 작성, 적용하기 위해서는 3D 소프트웨어가 필요합니다.
+Blender는 오픈소스이면서 OSL을 지원합니다. Blender 환경에서 OSL을 작성하고 기본적인 렌더링을 해보겠습니다.
 
 ## 컴파일정보(준비중)
 - 소스코드 및 사용된 프로젝트 : https://github.com/imageworks/OpenShadingLanguage

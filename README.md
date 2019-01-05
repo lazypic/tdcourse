@@ -19,7 +19,7 @@
 - 프로그래밍 기초가 약한 분들은 한번씩 읽고 오세요. : https://wikidocs.net/book/2
 
 ## 내 용
-1. 강의 소개
+1. 강의 소개(12.28)
 	1. PPT 발표, 개요
 		1. [Technical Director Course 소개](docs/intro.md)
 		1. [개발자의 시선으로 바라보는 시장 흐름 : VFX, 애니메이션, 게임](docs/market.md)
@@ -33,24 +33,24 @@
 		1. 실습 : id.github.io를 통한 자신의 포트폴리오 사이트 리포지터리 생성
 		1. [linkedin](docs/linkedin.md)
 
-1. 리눅스 설치1
+1. 리눅스 설치1 (12.31)
 	1. USB, SSD 하드디스크 전달
 	1. [Linux설치 - CentOS 7.5](docs/install_centos.md)
 	1. 실습 : 같이 CentOS 둘러보기
 
-1. 리눅스 설치2
+1. 리눅스 설치2(1.2)
 	1. [그래픽카드 드라이버 설치](docs/install_nvidia.md)
 	1. [Grub셋팅](docs/setup_grub.md)
 	1. [규칙](docs/rule.md)
 	1. 실습 : 같이 CentOS 둘러보기
 
-1. 리눅스 명령어 기본
+1. 리눅스 명령어 기본(1.3)
 	1. [리눅스의 기본 명령어](docs/linux_cmd.md)
 	1. [리다이렉트, 파이프](docs/redirect_pipe.md)
 	1. [리네임](docs/rename.md)
 	1. [권한 이해하기](docs/permission.md)
 
-1. 리눅스 명령어 심화
+1. 리눅스 명령어 심화(1.4)
 	1. [yum](docs/yum.md) 명령어
 	1. [실습 : 재미있는 명령어를 설치해보자.](docs/fun_cmds.md)
 	1. [쉘 이야기](docs/shell.md)
@@ -59,12 +59,16 @@
 	1. [리눅스 네트워크 명령](docs/linux_net_cmd.md)
 	1. [커널부터 응용프로그램까지](docs/linux_struct.md)
 
-1. 뉴크 설치
-	1. [뉴크 설치](docs/install_nuke.md)
+	1. 뉴크설치
+		1. [뉴크 설치](docs/install_nuke.md)
+		1. [뉴크 버전관리](docs/managing_nukever.md)
+
+1. 뉴크 라이센스 셋팅(1.7)
 	1. [뉴크 라이센스 셋팅](docs/license.md)
 	1. 뉴크 실행하고 둘러보기
-	1. [프로세스 이해](docs/process.md)
-	1. [find, grep, ripgrep](docs/find_grep.md)
+	1. 프로세스, Grep
+		1. [프로세스 이해](docs/process.md)
+		1. [find, grep, ripgrep](docs/find_grep.md)
 	
 1. 유틸리티 설치
 	1. 실습 : 오피스 제품을 설치하고 MPAA 문서보기
@@ -76,8 +80,8 @@
 
 1. 서비스와 데몬
 	1. [Daemon](docs/daemon.md)
-	1. [vnc](docs/vnc.md)
-	1. [sftp](docs/sftp.md)
+	1. [VNC](docs/vnc.md)
+	1. [sFTP](docs/sftp.md)
 
 1. 에디터
 	1. [Vim 소개](docs/vim.md)
@@ -133,6 +137,8 @@
 	1. [Python argv 처리](docs/python_argv.md)
 	1. [Python Test코드 작성하기](docs/python_testcode.md)
 	1. [바이너리와 아스키](docs/binary_ascii.md)
+	1. [의존성이야기](docs/dependency.md)
+	1. [의존성을 최소화 하기 위해서 사용했던 Go 언어](docs/ldd.md)
 
 1. [경로기반의 파이프라인](docs/path_based_pipeline.md)
 	1. [Python : 경로를 분리하는 방법](docs/path_control.md)
@@ -154,9 +160,6 @@
 
 1. [VFX Platform 소개](docs/vfx_platform.md)
 	1. [NumPy](docs/numpy.md)
-
-1. [의존성이야기](docs/dependency.md)
-	1. [의존성을 최소화 하기 위해서 사용했던 Go 언어](docs/ldd.md)
 
 1. [파이썬을 이용해서 엑셀파일 읽기, 쓰기](docs/excel_python.md)
 
@@ -210,7 +213,6 @@
 	1. [개발에 도움이 되는 사이트](docs/help_nukedev.md)
 	1. [뉴크에서 파이썬창을 띄우는 방법](docs/python_in_nuke.md)
 	1. [뉴크 내부에서 사용하는 파이썬 버전을 확인하기](docs/check_py_ver_in_nuke.md)
-	1. [뉴크 버전관리](docs/managing_nukever.md)
 
 1. 뉴크에서 활용 가능한 다양한 개발 방법론 소개
 	1. [OFX(OpenFX)](docs/openfx.md)
@@ -236,7 +238,7 @@
 	1. [Nuke Command line Rendering](docs/nuke_cmd.md)
 	1. [Render Management Tools 소개](docs/render_management_tools.md)
 
-1. 메뉴, 뷰어 설정
+1. 메뉴, ViewLut 설정
 	1. [뉴크 메뉴바 생성](docs/create_menu.md)
 	1. [Arri Alexa lut 다운로드](docs/download_arri_lut.md)
 	1. [Viewport LUT 설정](docs/set_viewlut_in_nuke.md)
@@ -275,7 +277,7 @@
 
 1. 포트폴리오 진행
 	1. 남은 8시간은 하루동안 기존에 배운것들을 천천히 정리하는 시간입니다.
-	1. 기술지원, 멘토링
-	1. github를 이용한 포트폴리오 제작. README 작성.
-	1. 기술공유, 추후 정보를 나눌 채널, 이슈정리 약속 정하기
-	1. SSD제거, 수료증 전달
+	1. 기술지원, 멘토링 지원
+	1. github를 이용한 포트폴리오 제작. README.md 작성
+	1. 기술공유, 추후 정보를 나눌 채널, 이슈정리, 커뮤니케이션 약속 정하기
+	1. SSD제거, 수료증 전달, 카페토론
