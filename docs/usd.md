@@ -222,6 +222,7 @@ def Cube "Box"
 
 ## Sample 파일 다운로드
 
+- http://graphics.pixar.com/usd/downloads.html
 
 ## Reference
 - https://github.com/PixarAnimationStudios/USD
