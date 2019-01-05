@@ -30,7 +30,7 @@
 
 shader TDdiffuse_ramp(
         normal Normal = N,
-        color Color1 = color(0.8, 0.0, 0.0),
+        color Color1 = color(0.235205, 0.8, 0.025),
         color Color2 = color(0.0, 0.8, 0.0),
         color Color3 = color(0.0, 0.0, 0.8),
         color Color4 = 0.1,
@@ -68,3 +68,5 @@ cd OSL_build
 ## Reference
 - https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=2ahUKEwi5kfuTuYHfAhWBF4gKHaDGAVgQFjAAegQIChAC&url=https%3A%2F%2Fraw.githubusercontent.com%2Fimageworks%2FOpenShadingLanguage%2Fmaster%2Fsrc%2Fdoc%2Fosl-languagespec.pdf&usg=AOvVaw0fnZDAj-almK7unV7NKApA
 - https://blendersushi.blogspot.com/2013/10/osl-basic-functions.html
+- https://www.youtube.com/watch?v=9CYDi8h0SuE
+- http://thhube.github.io/tutorials/osl/osl.html
