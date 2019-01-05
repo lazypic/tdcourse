@@ -35,7 +35,7 @@ $ cd USD_src
 $ python build_scripts/build_usd.py --alembic --openimageio ~/app/USD
 ```
 
-터미널에서 2개의 값을 임시로 설정합니다.
+터미널에서 2개의 환경변수값을 추가합니다.
 
 ```
 $ export PYTHONPATH="${PYTHONPATH}:$HOME/app/USD/lib/python"
