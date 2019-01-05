@@ -18,6 +18,7 @@ Universal Scene Description의 약자입니다.
 - .usd
 - .usda : 아스키 파일
 - .usdc : 바이너리 파일
+- .usdz : .usd 모음파일
 
 ## PyOpenGL 설치
 usdview는 PyOpenGL을 사용합니다. 설치해주세요.
@@ -31,7 +32,7 @@ usdview는 PyOpenGL을 사용합니다. 설치해주세요.
 $ cd ~/app
 $ git clone https://github.com/PixarAnimationStudios/USD USD_src
 $ cd USD_src
-$ python USD/build_scripts/build_usd.py ~/app/USD
+$ python build_scripts/build_usd.py --alembic --openimageio ~/app/USD
 ```
 
 터미널에서 2개의 값을 임시로 설정합니다.
@@ -105,6 +106,12 @@ $ usdcat input.usd
 $ usdcat input.usdz
 ```
 
+abc를 usd로, usd를 abc로 바꿀 수 있습니다.
+```bash
+$ usdcat hello.usda --out hello.abc
+$ usdcat hello.abc --out hello_converted.usda
+```
+
 ### usdchecker
 usd 데이터에 이상이 있는지 체크한다.
 ```
@@ -161,6 +168,7 @@ usd 파일을 볼 때 사용합니다.
 
 ```
 $ usdview input.usd
+$ usdview input.abc
 ```
 
 
