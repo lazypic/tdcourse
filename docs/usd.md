@@ -14,11 +14,18 @@ Universal Scene Description의 약자입니다.
 
 홈페이지 : https://graphics.pixar.com/usd/docs/index.html
 
+## 지원하는 프로그램
+- 마야
+- 후디니
+- 카타나
+- Unreal : UE4\Plugins\Editor\USDImporter 파일은 존재함. 준비중.
+- Renderman
+
 ## 파일의 종류
 - .usd
 - .usda : 아스키 파일
-- .usdc : 바이너리 파일
-- .usdz : .usd 모음파일
+- .usdc : USD Crate 파일(바이너리 파일)
+- .usdz : .usd Zip 압축파일
 
 ## PyOpenGL 설치
 usdview는 PyOpenGL을 사용합니다. 설치해주세요.
@@ -28,7 +35,8 @@ usdview는 PyOpenGL을 사용합니다. 설치해주세요.
 ```
 
 ## 컴파일
-```
+
+```bash
 $ cd ~/app
 $ git clone https://github.com/PixarAnimationStudios/USD USD_src
 $ cd USD_src
@@ -37,12 +45,12 @@ $ python build_scripts/build_usd.py --alembic --openimageio ~/app/USD
 
 터미널에서 2개의 환경변수값을 추가합니다.
 
-```
+```bash
 $ export PYTHONPATH="${PYTHONPATH}:$HOME/app/USD/lib/python"
 $ export PATH="${PATH}:$HOME/app/USD/bin"
 ```
 
-```
+```bash
 $ usdview extras/usd/tutorials/convertingLayerFormats/Sphere.usda
 ```
 
@@ -53,7 +61,8 @@ $ usdview extras/usd/tutorials/convertingLayerFormats/Sphere.usda
 ## 명령어
 ### sdfdump
 usd파일에 대한 Report를 출력합니다.
-```
+
+```bash
 $ sdfdump input.usd
 ```
 
@@ -82,65 +91,69 @@ output
 ### sdffilter
 필터링하여 데이터를 검색 다른 데이터로 아웃풋 할 수 있다.
 
-```
+```bash
 $ sdffilter
 ```
 
 ### stringify
 파일에 어떤 문자열이 있는지 전부 출력한다. 엔터역시 `\n`으로 출력된다.
 
-```
+```bash
 $ stringify test.usd
 ```
 
 ### testusdview
-```
+
+```bash
 $ testusdview --testScript scriptpath input.usd
 ```
 
 ### usdcat
 리눅스의 cat 과 비슷한 명령어 입니다. usdz 파일도 아스키로 보여줍니다.
 
-```
+```bash
 $ usdcat input.usd
 $ usdcat input.usdz
 ```
 
 abc를 usd로, usd를 abc로 바꿀 수 있습니다.
+
 ```bash
-$ usdcat hello.usda --out hello.abc
-$ usdcat hello.abc --out hello_converted.usda
+$ usdcat -o ouput.usdc input.usda
+$ usdcat input.usda -o output.abc
+$ usdcat input.abc -o output.usda
 ```
 
 ### usdchecker
-usd 데이터에 이상이 있는지 체크한다.
-```
+usd 데이터에 이상이 있는지 체크합니다.
+
+```bash
 $ usdchecker input.usd
 ```
 
-아래 문장이 나오면 파일에 이상이 없다.
+아래 문장이 나오면 파일에 이상이 없다는 것 입니다.
 ```
 Success!
 ```
 
 ### usddiff
-```
+```bash
 usddiff input1.usd input2.usd
 ```
 
-만약 다르다면 다른 부분만 아래처럼 출력된다.
-```
+만약 다르다면 다른 부분만 아래처럼 출력됩니다.
+```bash
 @ -5 +5 @@
 -    float3 xformOp:scale = (5, 5, 5)
 +    float3 xformOp:scale = (10, 5, 5)
 ```
 
 ### usdedit
-usd파일을 읽을 수 만 있는 에디터를 연다.
-USD_EDITOR 환경변수로 잡혀있는 에디터를 이용해서 usd파일을 연다.
-만약 편집하고 싶다면 `-f` 옵션을 넣고 실행한다.
+usd파일을 읽을 수 만 있는 에디터를 실행합니다.
+USD_EDITOR 환경변수로 잡혀있는 에디터를 이용해서 usd파일을 엽니다.
+만약 편집하고 싶다면 `-f` 옵션을 넣고 실행합니다.
 
-```
+```bash
 $ usdedit input.usd
 ```
 
@@ -148,17 +161,17 @@ $ usdedit input.usd
 $ usdedit -f input.usd
 ```
 ### usdstitch
-각각의 usd 파일을 묶는 명령어이다.
+각각의 usd 파일을 묶는 명령어입니다.
 프레임 데이터가 충돌하면 strong layer를 우선시 하여 연산합니다.
 
-```
+```bash
 $ usdstitch -o output.usd in.0001.usd in.0002.usd ....
 ```
 
 ### usdstitchclips
 여러 usd파일을 합쳐서 하나의 클립으로 제작합니다.
 
-```
+```bash
 $ usdstitchclips -o output.usd --clipPath /path/clip1.usd clip2.usd
 ```
 ### usdview
@@ -166,7 +179,7 @@ usd 파일을 볼 때 사용합니다.
 
 ![usdview](https://user-images.githubusercontent.com/1149996/49622382-ba7b6280-fa0c-11e8-9898-e1031142de91.png)
 
-```
+```bash
 $ usdview input.usd
 $ usdview input.abc
 ```
@@ -174,7 +187,8 @@ $ usdview input.abc
 
 ### usdzip
 에셋들을 하나의 .usdz 파일로 만들 때 사용합니다.
-```
+
+```bash
 $ usdzip output.usdz asset1.usd asset2.usd
 ```
 
@@ -229,7 +243,6 @@ def Cube "Box"
 ```
 
 ## Sample 파일 다운로드
-
 - http://graphics.pixar.com/usd/downloads.html
 
 ## Reference

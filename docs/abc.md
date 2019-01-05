@@ -140,6 +140,12 @@ $ make help
 3D 소프트웨어가 없더라도 .abc 파일을 볼 수 있다면 편리합니다.
 그 역할을 하는 abcview를 컴파일해보겠습니다.
 
+usd를 컴파일하면 usdview가 설치됩니다. usdview에서는 abc파일도 같이 볼 수 있습니다.
+
+```
+$ usdview input.abc
+```
+
 #### boost 컴파일
 VFX Platform CY2019 기준 Boost는 1.66을 사용합니다.
 abcview를 컴파일 하기 위해서는 Boost가 필요합니다.
