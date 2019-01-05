@@ -19,7 +19,7 @@
 - 프로그래밍 기초가 약한 분들은 한번씩 읽고 오세요. : https://wikidocs.net/book/2
 
 ## 내 용
-1. 강의 소개(12.28)
+1. [x] 강의 소개
 	1. PPT 발표, 개요
 		1. [Technical Director Course 소개](docs/intro.md)
 		1. [개발자의 시선으로 바라보는 시장 흐름 : VFX, 애니메이션, 게임](docs/market.md)
