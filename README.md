@@ -113,6 +113,8 @@
 	1. [Git 명령어의 기초](docs/git_basic.md)
 	1. 모두 같은 에디터를 사용하고 설정을 공유하는 리포지터리 제작
 
+1. 예제파일 설치하기
+
 1. Git, README.md 작성을 위한 [Markdown 문법배우기](docs/markdown.md)
 	1. [Git 협업방식 설명](docs/github_collaboration.md)
 	1. 실습 : Git 협업모델 테스트
