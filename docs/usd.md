@@ -45,25 +45,130 @@ $ export PATH="${PATH}:$HOME/app/USD/bin"
 $ usdview extras/usd/tutorials/convertingLayerFormats/Sphere.usda
 ```
 
-![usdview](https://user-images.githubusercontent.com/1149996/49622382-ba7b6280-fa0c-11e8-9898-e1031142de91.png)
-
 화면처럼 Usdview가 잘 뜨면 위 환경변수를 자신의 .bashrc에 잘 추가해두세요.
 우리는 많은 기능을 활성화해서 컴파일하지 않았습니다. 더 많은 기능을 이용하고 싶다면 사용하는 라이브러리를 추가 설정하여 다시 컴파일하면 됩니다.
 
 
 ## 명령어
-- sdfdump
-- sdffilter
-- stringify
-- testusdview
-- usdcat
-- usdchecker
-- usddiff
-- usdedit
-- usdstitch
-- usdstitchclip
-- usdview
-- usdzip
+### sdfdump
+usd파일에 대한 Report를 출력합니다.
+```
+$ sdfdump input.usd
+```
+
+output
+```
+@test.usd@
+</> : SdfSpecTypePseudoRoot
+  primChildren: vector<TfToken, allocator<TfToken> > = [ Box ]
+</Box> : SdfSpecTypePrim
+  specifier: SdfSpecifier = SdfSpecifierDef
+  typeName: TfToken = Cube
+  properties: vector<TfToken, allocator<TfToken> > = [ xformOp:scale xformOpOrder ]
+</Box.xformOp:scale> : SdfSpecTypeAttribute
+  custom: bool = 0
+  typeName: TfToken = float3
+  variability: SdfVariability = SdfVariabilityVarying
+  default: GfVec3f = (5, 5, 5)
+</Box.xformOpOrder> : SdfSpecTypeAttribute
+  custom: bool = 0
+  typeName: TfToken = token[]
+  variability: SdfVariability = SdfVariabilityUniform
+  default: VtArray<TfToken> size 1
+
+```
+
+### sdffilter
+필터링하여 데이터를 검색 다른 데이터로 아웃풋 할 수 있다.
+
+```
+$ sdffilter
+```
+
+### stringify
+파일에 어떤 문자열이 있는지 전부 출력한다. 엔터역시 `\n`으로 출력된다.
+
+```
+$ stringify test.usd
+```
+
+### testusdview
+```
+$ testusdview --testScript scriptpath input.usd
+```
+
+### usdcat
+리눅스의 cat 과 비슷한 명령어 입니다. usdz 파일도 아스키로 보여줍니다.
+
+```
+$ usdcat input.usd
+$ usdcat input.usdz
+```
+
+### usdchecker
+usd 데이터에 이상이 있는지 체크한다.
+```
+$ usdchecker input.usd
+```
+
+아래 문장이 나오면 파일에 이상이 없다.
+```
+Success!
+```
+
+### usddiff
+```
+usddiff input1.usd input2.usd
+```
+
+만약 다르다면 다른 부분만 아래처럼 출력된다.
+```
+@ -5 +5 @@
+-    float3 xformOp:scale = (5, 5, 5)
++    float3 xformOp:scale = (10, 5, 5)
+```
+
+### usdedit
+usd파일을 읽을 수 만 있는 에디터를 연다.
+USD_EDITOR 환경변수로 잡혀있는 에디터를 이용해서 usd파일을 연다.
+만약 편집하고 싶다면 `-f` 옵션을 넣고 실행한다.
+
+```
+$ usdedit input.usd
+```
+
+```
+$ usdedit -f input.usd
+```
+### usdstitch
+각각의 usd 파일을 묶는 명령어이다.
+프레임 데이터가 충돌하면 strong layer를 우선시 하여 연산합니다.
+
+```
+$ usdstitch -o output.usd in.0001.usd in.0002.usd ....
+```
+
+### usdstitchclips
+여러 usd파일을 합쳐서 하나의 클립으로 제작합니다.
+
+```
+$ usdstitchclips -o output.usd --clipPath /path/clip1.usd clip2.usd
+```
+### usdview
+usd 파일을 볼 때 사용합니다.
+
+![usdview](https://user-images.githubusercontent.com/1149996/49622382-ba7b6280-fa0c-11e8-9898-e1031142de91.png)
+
+```
+$ usdview input.usd
+```
+
+
+### usdzip
+에셋들을 하나의 .usdz 파일로 만들 때 사용합니다.
+```
+$ usdzip output.usdz asset1.usd asset2.usd
+```
 
 ## 파일구조
 usd파일은 아래와 같은 형태를 가지고 있습니다.
@@ -114,6 +219,8 @@ def Cube "Box"
     uniform token[] xformOpOrder = ["xformOp:scale"]
 }
 ```
+
+## Sample 파일 다운로드
 
 
 ## Reference
