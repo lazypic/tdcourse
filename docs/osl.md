@@ -70,3 +70,4 @@ cd OSL_build
 - https://blendersushi.blogspot.com/2013/10/osl-basic-functions.html
 - https://www.youtube.com/watch?v=9CYDi8h0SuE
 - http://thhube.github.io/tutorials/osl/osl.html
+- https://www.youtube.com/watch?v=sEqQFZkVVEE
