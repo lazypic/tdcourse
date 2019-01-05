@@ -1,10 +1,10 @@
 # 뉴크 View LUT 설정
-view lut를 추가히기 위해서는 init.py를 수정해야 합니다.
-앞서 사용했던 `AlexaV3_K1S1_LogC2Video_Rec709_EE_nuke3d.cube` Lut를 뉴크 Viewer에 등록해보겠습니다.
+View LUT를 추가히기 위해서는 init.py를 수정해야 합니다.
+앞서 사용했던 `AlexaV3_K1S1_LogC2Video_Rec709_EE_nuke3d.cube` LUT를 뉴크 Viewer에 등록해보겠습니다.
 
 이 실습을 따라하기 위해서는 NUKE_PATH 환경변수가 잡힌 경로의 luts폴더에 `AlexaV3_K1S1_LogC2Video_Rec709_EE_nuke3d.cube` 파일을 넣어주어야 합니다.
 
-참고 : 뉴크의 Vectorfield 노드는 lut를 이미지에 적용하는 노드입니다.
+참고 : 뉴크의 Vectorfield 노드는 LUT를 이미지에 적용하는 노드입니다.
 
 init.py
 ```python
