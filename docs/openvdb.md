@@ -1,7 +1,6 @@
 # OpenVDB
-최초 드림웍스에서 개발된 C++ 라이브러리 입니다.
-계층데이터를 구성하거나, 볼륨데이터를 적은 용량으로 효율적 저장, 조작하기 위해서 개발되었습니다.
-현재 이 프로젝트는 [Academy Software Foundation(ASWF)](https://www.aswf.io)에 의해서 관리되고 있습니다.
+구름처럼 넓게 퍼져있는 볼륨을 계층 구조를 이용하여 효율적으로 저장, 조작하기 위해서 개발된 C++ 라이브러리 입니다.
+원래 드림웍스에서 개발되었지만 지금은 [Academy Software Foundation(ASWF)](https://www.aswf.io)에 의해서 관리되고 있습니다.
 
 라이센스 : Mozilla Public License Version 2.0
 
