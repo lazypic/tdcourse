@@ -1,6 +1,7 @@
 # Curriculum
 
 ## 기본정보
+
 - 장 소 : [MofacAcademy](https://www.mofacacademy.com)
 - 기 간 : 18.12.28 ~ 19.2.27 
 - 시 간 : 월 ~ 금
@@ -18,8 +19,10 @@
 - 업무협의 : 정선화 부원장 / 010-8663-4626
 - 프로그래밍 기초가 약한 분들은 한번씩 읽고 오세요. : https://wikidocs.net/book/2
 
+![Progress](http://progressed.io/bar/10?title=progress)
+
 ## 내 용
-1. [x] 강의 소개
+1. [x] 강의 소개 (12.28)
 	1. PPT 발표, 개요
 		1. [Technical Director Course 소개](docs/intro.md)
 		1. [개발자의 시선으로 바라보는 시장 흐름 : VFX, 애니메이션, 게임](docs/market.md)
@@ -33,24 +36,24 @@
 		1. 실습 : id.github.io를 통한 자신의 포트폴리오 사이트 리포지터리 생성
 		1. [linkedin](docs/linkedin.md)
 
-1. 리눅스 설치1 (12.31)
+1. [x] 리눅스 설치1 (12.31)
 	1. USB, SSD 하드디스크 전달
 	1. [Linux설치 - CentOS 7.5](docs/install_centos.md)
 	1. 실습 : 같이 CentOS 둘러보기
 
-1. 리눅스 설치2(1.2)
+1. [x] 리눅스 설치2(1.2)
 	1. [그래픽카드 드라이버 설치](docs/install_nvidia.md)
 	1. [Grub셋팅](docs/setup_grub.md)
 	1. [규칙](docs/rule.md)
 	1. 실습 : 같이 CentOS 둘러보기
 
-1. 리눅스 명령어 기본(1.3)
+1. [x] 리눅스 명령어 기본(1.3)
 	1. [리눅스의 기본 명령어](docs/linux_cmd.md)
 	1. [리다이렉트, 파이프](docs/redirect_pipe.md)
 	1. [리네임](docs/rename.md)
 	1. [권한 이해하기](docs/permission.md)
 
-1. 리눅스 명령어 심화(1.4)
+1. [x] 리눅스 명령어 심화(1.4)
 	1. [yum](docs/yum.md) 명령어
 	1. [실습 : 재미있는 명령어를 설치해보자.](docs/fun_cmds.md)
 	1. [쉘 이야기](docs/shell.md)
