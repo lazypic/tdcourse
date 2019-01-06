@@ -4,9 +4,11 @@
 
 라이센스 : Mozilla Public License Version 2.0
 
+> 참고 : .vdb 파일은 gaffer에서 미리보기 할 수 있습니다.
+
 지원하는 소프트웨어
 - Houdini
-- Renderman
+- [Renderman](prman.md)
 - Arnold
 - Realflow
 - Clarisse
@@ -17,6 +19,7 @@
 - Octane Render
 - 3Delight
 - VFX Reference Platform
+- [Gaffer](gaffer.md)
 
 ## 컴파일
 

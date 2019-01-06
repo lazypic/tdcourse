@@ -3,7 +3,7 @@
 각 툴을 만들어 보면서 github와 연동하여 포트폴리오를 준비합니다.
 
 - 배운 지식으로 gaffer 소스코드 보기 http://www.gafferhq.org
-- Renderman 설치후 bin 폴더 관찰하기
+- Renderman Non커머셜 설치후 bin 폴더 관찰하기
 - 뉴크 Read, Write 노드 정보를 이용해서 ffmpeg로 mov 제작
 - CentOS7 설치 이후 자동 설치 .sh 스크립트 제작
 - 위 CentOS7 설치 이후 자동 설치되는 .sh 스크립트와 GUI 연동
