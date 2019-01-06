@@ -17,7 +17,7 @@
 - 문 의 : 김한웅 / hello@lazypic.org
 - 강의실 시스템 엔지니어 : 김태진 차장 / 010-7794-3111
 - 업무협의 : 정선화 부원장 / 010-8663-4626
-- 프로그래밍 기초가 약한 분들은 한번씩 읽고 오세요. : https://wikidocs.net/book/2
+- 프로그래밍이 처음이라면 한번씩 읽고 오세요 : https://wikidocs.net/book/2
 
 ![Progress](http://progressed.io/bar/10?title=progress)
 
