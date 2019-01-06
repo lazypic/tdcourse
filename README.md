@@ -73,7 +73,7 @@
 		1. [프로세스 이해](docs/process.md)
 		1. [find, grep, ripgrep](docs/find_grep.md)
 	
-1. 유틸리티 설치
+1. 기타 유틸리티 설치
 	1. 실습 : 오피스 제품을 설치하고 MPAA 문서보기
 	1. [크롬설치](docs/install_chrome.md)
 	1. [CentOS Beep 사운드 제거](docs/soundoff.md)
