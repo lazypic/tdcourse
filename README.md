@@ -25,19 +25,19 @@
 1. [x] 강의 소개 (12.28)
 	1. PPT 발표, 개요
 		1. [Technical Director Course 소개](docs/intro.md)
-		1. [개발자의 시선으로 바라보는 시장 흐름 : VFX, 애니메이션, 게임](docs/market.md)
+		1. [개발자가 보는 시장 : VFX, 애니메이션, 게임](docs/market.md)
 		1. [회사의 발전단계](docs/techtree.md)
-		1. [기업은 왜 리눅스를 사용하는가?](docs/why_linux.md)
+		1. [왜 리눅스를 사용하는가?](docs/why_linux.md)
 
 	1. [Github와 오픈소스 이야기](docs/github.md)
 		1. 실습 : Github 가입
-		1. [모든학생 Github 그룹에 참여하도록 설정](docs/github_org_setting.md)
-		1. [개인 포트폴리오 홈페이지 제작을 위한 github.io 소개](docs/github_io.md)
-		1. 실습 : id.github.io를 통한 자신의 포트폴리오 사이트 리포지터리 생성
+		1. [Github 그룹 설정](docs/github_org_setting.md)
+		1. [포트폴리오 마케팅용 github.io 소개](docs/github_io.md)
+		1. id.github.io 리포지터리 생성
 		1. [linkedin](docs/linkedin.md)
 
 1. [x] 리눅스 설치1 (12.31)
-	1. USB, SSD 하드디스크 전달
+	1. USB, SSD 전달
 	1. [Linux설치 - CentOS 7.5](docs/install_centos.md)
 	1. 실습 : 같이 CentOS 둘러보기
 
@@ -55,7 +55,7 @@
 
 1. [x] 리눅스 명령어 심화(1.4)
 	1. [yum](docs/yum.md) 명령어
-	1. [실습 : 재미있는 명령어를 설치해보자.](docs/fun_cmds.md)
+	1. [재미있는 명령어 설치](docs/fun_cmds.md)
 	1. [쉘 이야기](docs/shell.md)
 	1. [홈디렉토리 영문설정](docs/centos_home_kr2en.md)
 	1. [시간설정, 타임서버](docs/time.md)
@@ -107,18 +107,18 @@
 
 1. [Linux 폴더구조](docs/foldertree.md)
 
-1. 쉘 스크립트
-	1. [.sh 스크립트 생성](docs/shell_script.md)
-	1. 실습 : [trans 명령을 자동으로 설치하는 .sh 파일을 만들어보기](docs/install_trans.md)
-
-1. [환경변수란?](docs/env.md)
-	1. [자신만의 .bashrc 셋팅하기](docs/custom_bashrc.md)
-	1. [환경변수 및 패키징 관리툴 관리 툴](docs/env_managing.md)
-
 1. [버전관리의 중요성](docs/version_control_system.md)
 	1. [Git 설치 / 설정](docs/init_git.md)
 	1. [Git 명령어의 기초](docs/git_basic.md)
 	1. 모두 같은 에디터를 사용하고 설정을 공유하는 리포지터리 제작
+
+1. 쉘 스크립트
+	1. [.sh 스크립트 생성](docs/shell_script.md)
+	1. 실습 : [trans 명령 자동설치 스크립트](docs/install_trans.md)
+
+1. [환경변수란?](docs/env.md)
+	1. [자신만의 .bashrc 셋팅하기](docs/custom_bashrc.md)
+	1. [환경변수 및 패키징 관리툴 관리 툴](docs/env_managing.md)
 
 1. 예제파일 설치하기
 
