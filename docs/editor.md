@@ -63,3 +63,8 @@ $ wget https://github.com/atom/atom/releases/download/v1.32.2/atom.x86_64.rpm
 $ su
 # yum localinstall atom.x86_64.rpm -y
 ```
+
+## Reference
+- Eclipse : https://www.itzgeek.com/how-tos/linux/centos-how-tos/install-eclipse-4-4-luna-ide-on-centos-7-rhel-7.html
+- PyCharm : https://www.jetbrains.com/pycharm/
+- Spacemacs : http://spacemacs.org
