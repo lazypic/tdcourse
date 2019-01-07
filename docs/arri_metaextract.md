@@ -3,7 +3,12 @@ Arri 카메라 메타데이터를 추출하는 툴입니다.
 카메라 렌즈를 각 프레임마다 어떻게 조작했는지, 카메라 정보등을 추출할 수 있습니다.
 ![arrimetaextract](https://cdn.hdvideopro.com/2018/11/GunchBlog-2018-38-data.jpg)
 
-정보는 csv로 추출됩니다.
+![lds01](../figures/lds01.png)
+
+![lds02](../figures/lds02.png)
+
+정보는 csv로 추출됩니다. 
+이 정보는 파이프라인툴에 넣는 툴을 제작하거나 또는 매치무브팀에 전달하고 활용할 시스템을 구축합니다.
 
 ## Arri Converter cmd 설치
 ```

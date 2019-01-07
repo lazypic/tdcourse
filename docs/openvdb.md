@@ -55,3 +55,6 @@ $ ~/app/cmake-3.13.2/bin/cmake ../openvdb_src -DBLOSC_LOCATION=$HOME/app/c-blosc
 ```
 ## 샘플파일 다운로드
 http://www.openvdb.org/download
+
+## Reference
+- 컴파일 유투브영상 : https://www.youtube.com/watch?v=aQFzVv_2TTg
