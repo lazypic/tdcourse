@@ -3,6 +3,17 @@
 - 홈페이지를 통해서 뉴크를 설치하면 트라이얼 버전은 1달간 이용할 수 있습니다.
 - PLE 모드는 무료로 사용할 수 있습니다.
 
+## 라이센스 폴더 권한설정
+라이센스 파일은 /usr/local/foundry/RLM에 저장됩니다.
+일반 사용자의 권한으로 임시 라이센스를 설치하기 위해서 아래 명령어들을 타이핑해주세요.
+
+```bash
+$ su
+# mkdir -p /usr/local/foundry/RLM
+# chmod -R 775 /usr/local/foudnry
+# chown -R root:$USER /usr/local/foundry
+```
+
 # 정품 라이센스 설치법
 
 ## Windows10에서 맥 어드레스 알아내는 방법
