@@ -78,16 +78,16 @@
 	1. 실습 : 오피스 제품을 설치하고 MPAA 문서보기
 	1. [크롬설치](docs/install_chrome.md)
 	1. [CentOS Beep 사운드 제거](docs/soundoff.md)
-	1. [MPV 플레이어 설치](docs/mpv.md)
 	1. [Torrent](docs/torrent.md)
 	1. [Steam](docs/steam.md)
+	1. [MPV 플레이어 설치](docs/mpv.md)
 
-1. 서비스와 데몬
+1. 서비스와 데몬(1.8)
 	1. [Daemon](docs/daemon.md)
 	1. [VNC](docs/vnc.md)
 	1. [sFTP](docs/sftp.md)
 
-1. 에디터
+1. 에디터(1.9)
 	1. [Vim 소개](docs/vim.md)
 	1. [에디터 추천](docs/editor.md)
 	1. 토론 : [에디터 선정](docs/talk_about_editor.md)
