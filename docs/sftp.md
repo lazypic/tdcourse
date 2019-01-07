@@ -11,7 +11,8 @@ ftp는 보안이 강화된 sftp가 사용됩니다.
 ## 클라이언트 소프트웨어 설치
 파일질라를 설치해 보겠습니다.
 
-```bash
+```
+$ su
 # yum install filezilla
 ```
 
