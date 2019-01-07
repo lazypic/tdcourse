@@ -41,15 +41,15 @@
 # yum install libva-devel
 # yum install gstreamer1-vaapi-devel
 # yum install libcaca-devel
-# mkdir ~/app
-# cd ~/app
-# git clone https://github.com/mpv-player/mpv-build.git mpv_src
-# cd mpv_src
-# mkdir mpv-build
-# echo --enable-openssl >> ffmpeg_options
-# echo --enable-nonfree >> ffmpeg_options
-# ./rebuild -j4 # 오래걸립니다.
-# ./install
+$ mkdir ~/app
+$ cd ~/app
+$ git clone https://github.com/mpv-player/mpv-build.git mpv_src
+$ cd mpv_src
+$ mkdir mpv-build
+$ echo --enable-openssl >> ffmpeg_options
+$ echo --enable-nonfree >> ffmpeg_options
+$ ./rebuild -j4 # 오래걸립니다.
+$ ./install
 ```
 
 잘 작동되는지 확인해 봅시다. 터미널에서 아래처럼 타이핑 해보세요.
