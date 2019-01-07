@@ -49,7 +49,7 @@ $ mkdir mpv-build
 $ echo --enable-openssl >> ffmpeg_options
 $ echo --enable-nonfree >> ffmpeg_options
 $ ./rebuild -j4 # 오래걸립니다.
-$ ./install
+# ./install
 ```
 
 잘 작동되는지 확인해 봅시다. 터미널에서 아래처럼 타이핑 해보세요.
