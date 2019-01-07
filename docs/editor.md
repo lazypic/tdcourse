@@ -58,7 +58,7 @@ Microsoft Visual Studio Code 설치
 ![atom](../figures/atom.png)
 
 ```
-$ ~/app
+$ cd /tmp
 $ wget https://github.com/atom/atom/releases/download/v1.32.2/atom.x86_64.rpm
 $ su
 # yum localinstall atom.x86_64.rpm -y
