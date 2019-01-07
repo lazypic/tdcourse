@@ -75,6 +75,12 @@ Python을 이용해서 RV 플레이어에 기능을 추가할 수 있습니다.
 - http://www.tweaksoftware.com
 - Download : http://www.tweaksoftware.com/downloads/tweak-software-license-terms-and-conditions
 
+```bash
+$ cd ~/app
+$ wget http://www.tweaksoftware.com/static/downloads/rv-Linux-x86-64-7.3.0.tar.gz
+$ tar -zxvf rv-Linux-x86-64-7.3.0.tar.gz
+```
+
 #### prores 코덱 활성화하기
 주의! 이 방식을 사용하면 법적 책임이 발생할 수 있습니다.
 prores코덱을 재생하도록 배포시 RV 플레이어에서 기본적으로 지원하지 않는 이유는
