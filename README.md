@@ -72,6 +72,7 @@
 	1. 프로세스, Grep
 		1. [프로세스 이해](docs/process.md)
 		1. [find, grep, ripgrep](docs/find_grep.md)
+	1. [스터디 그룹을 위한 컴파일러 설치](docs/gcc.md)
 	
 1. 기타 유틸리티 설치
 	1. 실습 : 오피스 제품을 설치하고 MPAA 문서보기
