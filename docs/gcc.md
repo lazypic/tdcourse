@@ -9,6 +9,13 @@ $ su
 # yum install gcc
 ```
 
+## 테스트 코드작성
+
+```
+$ cd ~
+$ vim hello.c
+```
+
 hello.c
 ```
 #include <stdio.h>
