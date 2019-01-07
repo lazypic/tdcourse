@@ -10,7 +10,7 @@
 ```bash
 $ su
 # mkdir -p /usr/local/foundry/RLM
-# chmod -R 775 /usr/local/foudnry
+# chmod -R 775 /usr/local/foundry
 # chown -R root:$USER /usr/local/foundry
 ```
 
