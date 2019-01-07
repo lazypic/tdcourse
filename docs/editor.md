@@ -11,17 +11,22 @@
 모두가 에디터를 선택하지 않으면 vim 에디터를 기본 에디터로 사용하겠습니다.
 
 ### Gvim
+![gvim](../figures/gvim.png)
+
 ```
 # yum install gvim
 ```
 
 ### Emacs
+![emacs](../figures/emacs.png)
+
 ```
 # yum install emacs
 ```
 
 ### Visual Studio Code
 Microsoft Visual Studio Code 설치
+![vcode](../figures/vcode.png)
 
 ```
 # rpm --import https://packages.microsoft.com/keys/microsoft.asc
@@ -33,6 +38,9 @@ Microsoft Visual Studio Code 설치
 - https://code.visualstudio.com/docs/setup/linux
 
 ### Sublime
+
+![sublime](../figures/sublime.png)
+
 ```
 # rpm -v --import https://download.sublimetext.com/sublimehq-rpm-pub.gpg
 # yum-config-manager --add-repo https://download.sublimetext.com/rpm/stable/x86_64/sublime-text.repo
@@ -43,7 +51,11 @@ Microsoft Visual Studio Code 설치
 - 홈페이지 : https://atom.io/
 - 소스코드 : https://github.com/atom/atom
 
+![atom](../figures/atom.png)
+
 ```
-# wget https://github.com/atom/atom/releases/download/v1.32.2/atom.x86_64.rpm
+$ ~/app
+$ wget https://github.com/atom/atom/releases/download/v1.32.2/atom.x86_64.rpm
+$ su
 # yum localinstall atom.x86_64.rpm -y
 ```

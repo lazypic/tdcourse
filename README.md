@@ -19,7 +19,7 @@
 - 업무협의 : 정선화 부원장 / 010-8663-4626
 - 프로그래밍이 처음이라면 한번씩 읽고 오세요 : https://wikidocs.net/book/2
 
-![Progress](http://progressed.io/bar/10?title=progress)
+![Progress](http://progressed.io/bar/14?title=progress)
 
 ## 내 용
 1. [x] 강의 소개 (12.28)
@@ -89,7 +89,7 @@
 
 1. 에디터(1.9)
 	1. [Vim 소개](docs/vim.md)
-	1. [에디터 추천](docs/editor.md)
+	1. [에디터 설치](docs/editor.md)
 	1. 토론 : [에디터 선정](docs/talk_about_editor.md)
 
 1. 개발자 유틸리티 설치
