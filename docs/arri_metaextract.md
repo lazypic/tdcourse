@@ -24,5 +24,9 @@ $ cd ARRI_Meta_Extract_CMD 3.5.3.3_Cent_OS_7
 ## 다운로드 페이지
 https://www.arri.com/en/learn-help/learn-help-camera-system/tools/arri-meta-extract
 
+## 실습
+- LDS .csv 파일을 파이썬으로 파싱해보자.
+- 원하는 수치를 뽑아볼 것
+
 ## Reference
 - https://www.hdvideopro.com/blog/metadata-tool-to-uncover-the-facts/
