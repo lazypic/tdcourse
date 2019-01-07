@@ -32,11 +32,3 @@ Failed to load libstudio-11.3.1.so: libGLU.so.1: cannot open shared object file:
 ```
 # yum install mesa-libGLU
 ```
-
-## 라이센스파일 권한변경
-뉴크를 실행하려고 해도 인터넷에서 라이센스를 발급받아 적용하기 위해서는 `/usr/local/foundry/`경로에 일반 사용자가 읽기 쓰기 권한을 설정해줘야합니다.
-
-터미널에서 아래처럼 권한을 설정해주세요.
-```
-# chmod 
-```
