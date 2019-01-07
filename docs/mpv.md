@@ -44,7 +44,7 @@
 # cd ~/app
 # git clone https://github.com/mpv-player/mpv-build.git mpv_src
 # cd mpv_src
-# cd mpv-build
+# mkdir mpv-build
 # echo --enable-openssl >> ffmpeg_options
 # echo --enable-nonfree >> ffmpeg_options
 # ./rebuild -j4 # 오래걸립니다.
