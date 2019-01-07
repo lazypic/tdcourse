@@ -66,7 +66,7 @@
 		1. [뉴크 설치](docs/install_nuke.md)
 		1. [뉴크 버전관리](docs/managing_nukever.md)
 
-1. 뉴크 라이센스 셋팅(1.7)
+1. [x] 뉴크 라이센스 셋팅(1.7)
 	1. [뉴크 라이센스 셋팅](docs/license.md)
 	1. 뉴크 실행하고 둘러보기
 	1. 프로세스, Grep
@@ -74,7 +74,7 @@
 		1. [find, grep, ripgrep](docs/find_grep.md)
 	1. [스터디 그룹을 위한 컴파일러 설치](docs/gcc.md)
 	
-1. 기타 유틸리티 설치
+1. [x] 기타 유틸리티 설치(1.7)
 	1. 실습 : 오피스 제품을 설치하고 MPAA 문서보기
 	1. [크롬설치](docs/install_chrome.md)
 	1. [CentOS Beep 사운드 제거](docs/soundoff.md)
