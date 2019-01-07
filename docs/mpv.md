@@ -41,6 +41,7 @@
 # yum install libva-devel
 # yum install gstreamer1-vaapi-devel
 # yum install libcaca-devel
+# mkdir ~/app
 # cd ~/app
 # git clone https://github.com/mpv-player/mpv-build.git mpv_src
 # cd mpv_src
