@@ -10,7 +10,7 @@ http://foundry.com/products/nuke/download 를 클릭하고 로그인해서 제�
 ## 설치
 
 ```bash
-$ cd ~/Download
+$ cd ~/Downloads
 $ tar -xvf Nuke11.3v1-linux-x86-release-64.tgz
 $ ./Nuke11.3v1-linux-x86-release-64-installer
 ```
