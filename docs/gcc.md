@@ -15,16 +15,18 @@ hello.c
 int main()
 {
    // printf() displays the string inside quotation
-   printf("Hello, World!");
+   printf("Hello, World!\n");
    return 0;
 }
 ```
 
+코드 컴파일과 실행
 ```
 $ gcc hello.c
-$ ./
+$ ./a.out
 ```
 
 Output
 ```
+Hello, World!
 ```
