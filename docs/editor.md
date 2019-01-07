@@ -10,6 +10,10 @@
 
 모두가 에디터를 선택하지 않으면 vim 에디터를 기본 에디터로 사용하겠습니다.
 
+### vim
+![vim](../figures/vim.png)
+터미널에서 바로 사용할 수 있는 vim 에디터
+
 ### Gvim
 ![gvim](../figures/gvim.png)
 
