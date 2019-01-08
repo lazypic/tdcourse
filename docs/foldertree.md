@@ -11,7 +11,7 @@ $ ls -al
 
 ### 폴더설명
 - bin : 리눅스 명령어가 모여있는 폴더
-- boot : 리눅스 부트로더가 존재하는 폴더. grub.conf 설정시 자주 들어간다.
+- boot : 리눅스 부트로더가 존재하는 폴더. grub.conf 설정시 들어가는 폴더
 - dev : 시스템 장치, 하드디스크
 - etc : 시스템의 설정파일이 존재하는 경로
 	- /etc/passwd : 사용자관리
@@ -35,7 +35,7 @@ $ ls -al
 	- /usr/bin : 일반사용자의 명령어는 이곳에 모여있습니다.
 	- /usr/include : 프로그램에 필요한 헤더파일(.h)이 있습니다.
 	- /usr/lib : /lib 에 들어가지 않는 라이브러리가 존재합니다.
-	- /usr/src : 프로그램 소스가 저장되는 곳
+	- /usr/src : 프로그램 소스가 저장되는 곳 입니다.
 	- /usr/local : 일반 어플리케이션들이 컴파일할 때 사용되는 장소 입니다.
 	- /usr/share/man : 리눅스 메뉴얼이 존재합니다.
 - var : 시스템 운용중에 생성되었다가 삭제되는 데이터를 일시적으로 저장할 때 사용되는 경로
@@ -44,5 +44,5 @@ $ ls -al
 	- /var/spool/mail : 메일
 	- /var/spool/cron : cron 설정파일
 
-### Reference
+## Reference
 - Filesystem Hierarchy Standard : http://www.pathname.com/fhs/pub/fhs-2.3.html#LIBESSENTIALSHAREDLIBRARIESANDKERN

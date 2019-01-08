@@ -78,8 +78,9 @@ fi
 - CentOS가 설치된 이후 설치해야하는 프로그램을 일괄 설치하는 .sh 파일을 만들어봅시다.
 - 비프음을 제거하는 .sh 파일을 만들어 봅시다.
 - 만들어진 .sh 파일을 github에 저장합니다.
+- mpv 플레이어를 자동으로 설치할 수 있도록 쉘 스크립트를 만들어 봅시다.
+- 위 설치 코드를 .sh 로 저장하고 github 리포지터리에 저장해봅시다.
 - github README.md를 작성합니다.
-
 
 ## Reference
 - http://www.compciv.org/recipes/cli/basic-shell-scripts/
