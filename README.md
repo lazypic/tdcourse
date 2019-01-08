@@ -19,7 +19,7 @@
 - 업무협의 : 정선화 부원장 / 010-8663-4626
 - 프로그래밍이 처음이라면 한번씩 읽고 오세요 : https://wikidocs.net/book/2
 
-![Progress](http://progressed.io/bar/14?title=progress)
+![Progress](http://progressed.io/bar/16?title=progress)
 
 ## 내 용
 1. [x] 강의 소개 (12.28)
@@ -82,14 +82,15 @@
 	1. [Steam](docs/steam.md)
 	1. [MPV 플레이어 설치](docs/mpv.md)
 
-1. 서비스와 데몬(1.8)
+1. [x] 서비스와 데몬(1.8)
 	1. [Daemon](docs/daemon.md)
 	1. [VNC](docs/vnc.md)
 	1. [sFTP](docs/sftp.md)
 
 1. 에디터(1.9)
-	1. [Vim 소개](docs/vim.md)
+	1. [Vim 에디터 기본](docs/vim.md)
 	1. [에디터 설치](docs/editor.md)
+	1. 위 파이썬 책을 이용해서 에디터를 타이핑하며 사용해보세요.
 	1. 토론 : [에디터 선정](docs/talk_about_editor.md)
 
 1. 개발자 유틸리티 설치
@@ -102,11 +103,11 @@
 	1. [top](docs/top.md)
 	1. [man](docs/man.md)
 
+1. [Linux 폴더구조](docs/foldertree.md)
+
 1. 동영상과 코텍
 	1. [Player](docs/player.md)
 	1. [동영상 포멧과 Codec](docs/format_codec.md)
-
-1. [Linux 폴더구조](docs/foldertree.md)
 
 1. [버전관리의 중요성](docs/version_control_system.md)
 	1. [Git 설치 / 설정](docs/init_git.md)
