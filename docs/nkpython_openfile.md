@@ -52,10 +52,3 @@ mb.addCommand("OpenFile", "openfile.openfile()", "F8")
 ## 실습
 - 여러분이 작성한 함수 리펙토링
 - github 업로드, 코드리뷰
-
-## ffmpeg를 활용한 mov 생성
-일반적으로 렌더팜을 이용해서 mov를 생성하지만 저희는 렌더팜 환경이 아니기 때문에 FFmpeg를 이용해서 mov를 생성하는 코드를 작성해보겠습니다.
-
-- ref : http://www.nukepedia.com/gizmos/image/ffmpeg_write
-
-## proxy 이미지 생성

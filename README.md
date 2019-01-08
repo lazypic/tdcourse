@@ -119,7 +119,7 @@
 
 1. 예제파일 설치하기
 
-1. Git, README.md 작성을 위한 [Markdown 문법배우기](docs/markdown.md)
+1. Git, Readme 문서 작성을 위한 [Markdown 문법배우기](docs/markdown.md)
 	1. [Git 협업방식 설명](docs/github_collaboration.md)
 	1. 실습 : Git 협업모델 테스트
 	1. [이슈, Pull Request 상태에서의 토론](docs/discussion.md)
@@ -222,6 +222,7 @@
 	1. [OFX(OpenFX)](docs/openfx.md)
 	1. [Blink](docs/blink.md)
 	1. [NDK](docs/ndk.md)
+	1. PythonAPI
 
 1. Nuke 셋팅을 위한 Repository 생성
 	1. [NUKE_PATH 연결](docs/nuke_path.md)
