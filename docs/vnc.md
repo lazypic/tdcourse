@@ -47,8 +47,14 @@ $ vncserver
 ## Tigervnc 클라이언트 설치
 클라이언트 설치는 yum 을 통해서 간단하게 설치할 수 있습니다.
 
+리눅스
 ```bash
 # yum install tigervnc
+```
+
+macOS
+```
+$ brew install tiger-vnc
 ```
 
 ## 접속해보기

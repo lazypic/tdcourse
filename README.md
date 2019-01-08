@@ -90,12 +90,7 @@
 1. 에디터(1.9)
 	1. [Vim 에디터 기본](docs/vim.md)
 	1. [에디터 설치](docs/editor.md)
-	1. 위 파이썬 책을 이용해서 에디터를 타이핑하며 사용해보세요.
 	1. 토론 : [에디터 선정](docs/talk_about_editor.md)
-
-1. 개발자 유틸리티 설치
-	1. [pip](docs/pip.md) 설치
-	1. [cmake](docs/cmake.md) 설치
 
 1. 유용한 시스템 명령어
 	1. [crontab](docs/crontab.md)
@@ -133,7 +128,11 @@
 	1. [파이썬 X in Y minutes](https://learnxinyminutes.com/docs/python/)
 	1. [파이썬 함수 만들기](docs/python_make_function.md)
 	1. [파이썬 클래스 만들기](docs/python_make_class.md)
-	
+
+1. 개발자 유틸리티 설치
+	1. [pip](docs/pip.md) 설치
+	1. [cmake](docs/cmake.md) 설치
+
 1. 프로그램을 만들기전에 알아야 할 기본적인 지식
 	1. [명령어의 구성요소](docs/command.md)
 	1. [우리가 프로그래밍으로 하는 대부분의 일](docs/add_set_rm_get.md)
