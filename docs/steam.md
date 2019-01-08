@@ -7,10 +7,5 @@
 # yum -y install steam
 ```
 
-libva-intel-driver(x86-32)이 필요하다고 뜨면 아래줄을 입력해주세요.
-```
-# yum-config-manager --add-repo=http://negativo17.org/repos/epel-multimedia.repo
-```
-
 ## Reference
 - https://negativo17.org/steam/
