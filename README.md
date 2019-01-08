@@ -88,7 +88,7 @@
 	1. [sFTP](docs/sftp.md)
 
 1. 에디터(1.9)
-	1. [Vim 에디터 기본](docs/vim.md)
+	1. [Vim 기본 사용법](docs/vim.md)
 	1. [에디터 설치](docs/editor.md)
 	1. 토론 : [에디터 선정](docs/talk_about_editor.md)
 
@@ -134,7 +134,7 @@
 	1. [cmake](docs/cmake.md) 설치
 
 1. 프로그램을 만들기전에 알아야 할 기본적인 지식
-	1. [명령어의 구성요소](docs/command.md)
+	1. [명령어의 구성요소 - 인수편](docs/command.md)
 	1. [우리가 프로그래밍으로 하는 대부분의 일](docs/add_set_rm_get.md)
 	1. [파이프라인의 기본 Input, Output](docs/input_output.md)
 	1. [Standard Streams](docs/standard_streams.md)
