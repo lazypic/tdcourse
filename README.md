@@ -82,7 +82,7 @@
 	1. [Steam](docs/steam.md)
 	1. [MPV 플레이어 설치](docs/mpv.md)
 
-1. [x] 서비스와 데몬(1.8)
+1. [x] 데몬(서비스)(1.8)
 	1. [Daemon](docs/daemon.md)
 	1. [VNC](docs/vnc.md)
 	1. [sFTP](docs/sftp.md)
@@ -125,7 +125,7 @@
 	1. [이슈, Pull Request 상태에서의 토론](docs/discussion.md)
 
 1. 파이썬 기초 실무
-	1. [파이썬 X in Y minutes](https://learnxinyminutes.com/docs/python/)
+	1. [파이썬 X in Y minutes](docs/python_x_in_y_min.md)
 	1. [파이썬 함수 만들기](docs/python_make_function.md)
 	1. [파이썬 클래스 만들기](docs/python_make_class.md)
 
