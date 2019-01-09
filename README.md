@@ -87,22 +87,18 @@
 	1. [VNC](docs/vnc.md)
 	1. [sFTP](docs/sftp.md)
 
-1. 에디터(1.9)
+1. [x] 에디터(1.9)
 	1. [Vim 기본 사용법](docs/vim.md)
 	1. [에디터 설치](docs/editor.md)
-	1. 토론 : [에디터 선정](docs/talk_about_editor.md)
+	1. 토론 : [에디터 선정](docs/talk_about_editor.md) / Vim으로 결정
 
-1. 유용한 시스템 명령어
+1. [x] 유용한 시스템 명령어
 	1. [crontab](docs/crontab.md)
 	1. [notify](docs/notify.md)
 	1. [top](docs/top.md)
 	1. [man](docs/man.md)
 
-1. [Linux 폴더구조](docs/foldertree.md)
-
-1. 동영상과 코텍
-	1. [Player](docs/player.md)
-	1. [동영상 포멧과 Codec](docs/format_codec.md)
+1. [x] [Linux 폴더구조](docs/foldertree.md)
 
 1. [버전관리의 중요성](docs/version_control_system.md)
 	1. [Git 설치 / 설정](docs/init_git.md)
@@ -161,6 +157,10 @@
 	1. [mediainfo](docs/mediainfo.md)
 	1. [컬러스페이스의 역사](docs/history_colorspace.md)
 	1. [OpenImageIO 설치](docs/openimageio.md)
+
+1. 동영상과 코텍
+	1. [Player](docs/player.md)
+	1. [동영상 포멧과 Codec](docs/format_codec.md)
 
 1. [VFX Platform 소개](docs/vfx_platform.md)
 	1. [NumPy](docs/numpy.md)
