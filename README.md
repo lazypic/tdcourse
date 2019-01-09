@@ -101,7 +101,7 @@
 	1. [Git 설치 / 설정](docs/init_git.md)
 	1. [Git 명령어의 기초](docs/git_basic.md)
 	1. 모두 같은 에디터를 사용하고 설정을 공유하는 리포지터리 제작
-	1. Git, Readme 문서 작성을 위한 [Markdown 문법배우기](docs/markdown.md)
+	1. Readme 문서 작성을 위한 [Markdown 문법배우기](docs/markdown.md)
 
 1. 쉘 스크립트
 	1. [.sh 스크립트 생성](docs/shell_script.md)
