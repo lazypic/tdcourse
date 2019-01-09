@@ -29,7 +29,7 @@ $ notify-send "Title" "hello notify" -u critical -i '/home/user/icon.png'
 
 ssh 명령어를 이용해서 해당 서버에 notify-send 명령어를 실행하는 방법
 ```bash
-ssh -X user@192.168.0.112 "DISPLAY=:0 notify-send 'Title' 'Body' -u critical -i face-worried'"
+ssh -X user@192.168.0.112 "DISPLAY=:0 notify-send 'Title' 'Body' -u critical -i face-worried"
 ```
 
 ## macOS
