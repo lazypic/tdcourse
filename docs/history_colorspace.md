@@ -86,6 +86,9 @@ OpenColorIO를 설치하기 전에 컬러스페이스부터 설명하겠습니�
 근래에는 많은 프로젝트가 ACES 기반으로 작업이 많이 되어지고 있습니다.
 여러분이 실무작업에 몸담게 되는 미래에는 더욱 많이 사용되겠지요.
 
+![AlexaV3LogC](../figures/alexaV3LogC.png)
+위 이미지는 Arri Converter를 이용해서 DPX를 LogC 컬러스페이스로 설정한 값과 뉴크 뷰어의 비교이미지 입니다.
+
 ![aces2065-1](../figures/aces2065-1.png)
 위 이미지는 Arri Converter 에서 ACES 뷰 입니다. 뉴크와 동일하게 컬러를 볼 수 있습니다.
 물론 그래픽스툴이 ACES를 지원한다면, 항상 같은 컬러를 볼 수 있답니다.
@@ -96,8 +99,8 @@ OpenColorIO를 설치하기 전에 컬러스페이스부터 설명하겠습니�
 ## 실습
 - 8bit sRGB 파일을 뉴크에서 로딩, 설명
 - dpx파일을 뉴크에서 로딩. 설명
-- dpx파일을 뉴크에서 로딩, Lut적용
-- ACES exr을 뉴크에서 로딩, 설명
+- dpx파일을 뉴크에서 로딩, Lut적용하기
+- ACES exr을 뉴크에서 로딩, 설명하기
 
 #### Reference
 - http://vfxcamdb.com/color-spaces/
