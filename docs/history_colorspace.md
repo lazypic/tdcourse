@@ -86,8 +86,12 @@ OpenColorIO를 설치하기 전에 컬러스페이스부터 설명하겠습니�
 근래에는 많은 프로젝트가 ACES 기반으로 작업이 많이 되어지고 있습니다.
 여러분이 실무작업에 몸담게 되는 미래에는 더욱 많이 사용되겠지요.
 
-앞으로 OpenColorIO를 사용하는 것을 다루어볼 예정입니다.
-또한 OpenColorIO를 이용한 OpenImageIO 사용법도 알아보겠습니다.
+![aces2065-1](../figures/aces2065-1.png)
+위 이미지는 Arri Converter 에서 ACES 뷰 입니다. 뉴크와 동일하게 컬러를 볼 수 있습니다.
+물론 그래픽스툴이 ACES를 지원한다면, 항상 같은 컬러를 볼 수 있답니다.
+
+앞으로 컬러매니징을 위해서 ACES / OpenColorIO를 사용하는 것을 다루어볼 예정입니다.
+또한 OpenColorIO를 이용한 이미지 컨버팅툴인 OpenImageIO 사용법도 알아보겠습니다.
 
 ## 실습
 - 8bit sRGB 파일을 뉴크에서 로딩, 설명
