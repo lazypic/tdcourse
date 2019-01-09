@@ -3,6 +3,8 @@
 VFX를 위한 미디어 재생 플레이어들을 알아보고 설치해 봅시다.
 
 ## DJV View
+![djvview](../figures/djvview.png)
+
 오픈소스 플레이어입니다. Exr, Jpg 시퀀스를 빠르게 확인하기 좋습니다.
 
 홈페이지 : http://djv.sourceforge.net
