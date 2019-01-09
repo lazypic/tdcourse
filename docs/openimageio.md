@@ -106,6 +106,11 @@ OCIO를 인식하는지 체크해보겠습니다.
 $ oiiotool --help
 ```
 
+OpenImageIO 2.1.0 버전처럼 높은 버전에서는 Colorspace 리스트를 보기위해 아래 명령어처럼 입력이 필요합니다.
+```
+$ oiiotool --colorconfig
+```
+
 아래처럼 컬러스페이스 리스트가 나오면 정상입니다.
 ```
 Known color spaces:
