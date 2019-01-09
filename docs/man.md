@@ -39,7 +39,7 @@ LS(1)                     BSD General Commands Manual                    LS(1)
 ## 메뉴얼 파일 위치
 
 ```bash
-$ cd /usr/local/man
+$ cd /usr/local/share/man
 ```
 
 ## Reference
