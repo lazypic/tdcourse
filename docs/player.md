@@ -7,10 +7,13 @@ VFX를 위한 미디어 재생 플레이어들을 알아보고 설치해 봅시�
 
 홈페이지 : http://djv.sourceforge.net
 
-http://djv.sourceforge.net/Download.html 에서 rpm파일을 다운로드 받습니다.
+쉽게 설치하는 방법
+
+https://sourceforge.net/projects/djv/files/djv-stable/ 에서 너무 높지 않은 버전의 rpm파일을 다운로드 받습니다.
+CentOS7.5~6 에서는 1.1.2를 다운로드 받습니다.
 
 ```bash
-# rpm -ivh DJV-1.2.4-1.x86_64.rpm
+# yum install DJV-1.1.2.x86_64.rpm
 ```
 
 프로그램 > 그래픽 > djv_view에 설치됩니다.
@@ -19,8 +22,8 @@ http://djv.sourceforge.net/Download.html 에서 rpm파일을 다운로드 받습
 터미널에서 실행하려면 .bashrc 파일에 아래 옵션을 추가해 줘야합니다.
 
 ```bash
-export PATH=$PATH:/usr/local/djv/bin
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/djv/lib
+export PATH=$PATH:/usr/local/djv-1.1.2-Linux-64/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/djv-1.1.2-Linux-64/lib
 ```
 
 #### 컴파일
@@ -31,13 +34,15 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/djv/lib
 ```bash
 $ cd ~/app
 $ git clone git://git.code.sf.net/p/djv/git-third-party djv-git-third-party
+$ mkdir djv-git-third-party-Debug
+$ mkdir djv-install-Debug
 $ cd djv-git-third-party-Debug
-$ cmake ../djv-git-third-party \
+$ ~/app/cmake3.13/bin/cmake ../djv-git-third-party \
     -DCMAKE_BUILD_TYPE=Debug \
     -DCMAKE_PREFIX_PATH=$HOME/app/djv-install-Debug \
     -DCMAKE_INSTALL_PREFIX=$HOME/app/djv-install-Debug
 $ make
-$ cd ..
+$ cd ~/app
 
 $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/app/djv-install-Debug/lib
 

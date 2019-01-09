@@ -507,7 +507,6 @@ $ mkdir OpenImageIO
 $ cd OpenImageIO_src
 $ scl enable devtoolset-6 bash
 $ make VERBOSE=1 OPENEXR_HOME=$HOME/app/openexr ILMBASE_HOME=$HOME/app/IlmBase OCIO_HOME=$HOME/app/OpenColorIO STOP_ON_WARNING=0 USE_OCIO=1 INSTALL_PREFIX=$HOME/app/OpenImageIO
-$ make install
 ```
 
 ## Reference
