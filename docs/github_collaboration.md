@@ -28,6 +28,7 @@
     ```
 1. branch가 많아지면 관리하기 힘드니 완료된 branch는 제거합니다.
     ```
+    $ git branch
     $ git branch -d iss53
     ```
 

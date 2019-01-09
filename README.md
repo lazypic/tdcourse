@@ -62,15 +62,14 @@
 	1. [리눅스 네트워크 명령](docs/linux_net_cmd.md)
 	1. [커널부터 응용프로그램까지](docs/linux_struct.md)
 
-	1. 뉴크설치
-		1. [뉴크 설치](docs/install_nuke.md)
-		1. [뉴크 버전관리](docs/managing_nukever.md)
-
-1. [x] 뉴크 라이센스 셋팅(1.7)
+1. [x] 뉴크설치(1.7)
+	1. [뉴크 설치](docs/install_nuke.md)
+	1. [뉴크 버전관리](docs/managing_nukever.md)
 	1. [뉴크 라이센스 셋팅](docs/license.md)
 	1. 뉴크 실행하고 둘러보기
 	1. 프로세스, Grep
 		1. [프로세스 이해](docs/process.md)
+		1. [top](docs/top.md)
 		1. [find, grep, ripgrep](docs/find_grep.md)
 	1. [스터디 그룹을 위한 컴파일러 설치](docs/gcc.md)
 	
@@ -92,18 +91,17 @@
 	1. [에디터 설치](docs/editor.md)
 	1. 토론 : [에디터 선정](docs/talk_about_editor.md) / Vim으로 결정
 
-1. [x] 유용한 시스템 명령어
+1. [x] 유용한 시스템 명령어 / 폴더구조 (1.9)
 	1. [crontab](docs/crontab.md)
 	1. [notify](docs/notify.md)
-	1. [top](docs/top.md)
 	1. [man](docs/man.md)
-
-1. [x] [Linux 폴더구조](docs/foldertree.md)
+	1. [Linux 폴더구조](docs/foldertree.md)
 
 1. [버전관리의 중요성](docs/version_control_system.md)
 	1. [Git 설치 / 설정](docs/init_git.md)
 	1. [Git 명령어의 기초](docs/git_basic.md)
 	1. 모두 같은 에디터를 사용하고 설정을 공유하는 리포지터리 제작
+	1. Git, Readme 문서 작성을 위한 [Markdown 문법배우기](docs/markdown.md)
 
 1. 쉘 스크립트
 	1. [.sh 스크립트 생성](docs/shell_script.md)
@@ -115,7 +113,7 @@
 
 1. 예제파일 설치하기
 
-1. Git, Readme 문서 작성을 위한 [Markdown 문법배우기](docs/markdown.md)
+1. Github로 협업하기
 	1. [Git 협업방식 설명](docs/github_collaboration.md)
 	1. 실습 : Git 협업모델 테스트
 	1. [이슈, Pull Request 상태에서의 토론](docs/discussion.md)

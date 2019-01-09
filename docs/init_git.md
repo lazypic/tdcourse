@@ -27,10 +27,13 @@ $ git config --global user.email khw7096@gmail.com
 ```
 
 ### 설정값 확인
-```
+
+```bash
 $ git config user.name
 $ git config user.email
 ```
+
+이제 정말로 Git을 활용할 수 있는 준비는 끝났습니다.
 
 ### 설정파일
 설정파일은 ~/.gitconfig 에 존재합니다.
@@ -41,4 +44,6 @@ $ vim ~/.gitconfig
 ```
 
 ### GUI Clients
+Git을 이용해서 소스코드를 관리하는 방법은 터미널을 이용할 수 있습니다.
+또한 GUI툴을 활용할 수 도 있습니다.
 - https://git-scm.com/download/gui/linux

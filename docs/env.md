@@ -79,3 +79,7 @@ $ source $HOME/env/custom.env
 $ echo $PROJECT
 $ echo $SHOT
 ```
+
+## 실습
+- 우리가 자주 사용하는 환경변수 폴더를 생성합니다.
+- 환경변수 리포지터리를 생성하고 환경변수 폴더를 저장합니다.
