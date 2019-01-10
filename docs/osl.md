@@ -60,11 +60,12 @@ Blender는 오픈소스이면서 OSL을 지원합니다. Blender 환경에서 OS
 
 
 ```
-cd ~/app
-git clone https://github.com/imageworks/OpenShadingLanguage.git OSL_src
-mkdir OSL_build
-cd OSL_build
-~/app/cmake-3.13.2/bin/cmake ../OSL_src -DOPENEXR_ROOT_DIR=$HOME/app/OpenEXR --DCMAKE_INSTALL_PREFIX=$HOME/app/OSL
+$ cd ~/app
+$ git clone https://github.com/imageworks/OpenShadingLanguage.git OSL_src
+$ mkdir OSL_build
+$ mkdir OSL
+$ cd OSL_build
+$ ~/app/cmake-3.13.2/bin/cmake ../OSL_src -DOPENEXR_ROOT_DIR=$HOME/app/OpenEXR --DCMAKE_INSTALL_PREFIX=$HOME/app/OSL
 
 ```
 
