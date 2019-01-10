@@ -480,6 +480,12 @@ oiiotool 명령어는 기본적으로 이미지 알파 채널에 대해서 premu
 $ oiiotool -i input.exr --colorconvert linear srgb --premult -o output.tga
 ```
 
+## 이미지 리사이즈 
+이미지를 리사이즈 할 때는 `--resize` 옵션을 사용할 수 있습니다.
+```
+$ oiiotool -i input.exr --resize 2048x1152 -o output.exr
+```
+
 ## 컴파일
 위에서 필요한 명령어는 간단하게 설치가 끝났습니다.
 명령어를 위해서 컴파일 할 필요는 없지만, 다른 프로그램을 컴파일할 때 활용됩니다.
