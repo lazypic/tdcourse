@@ -4,6 +4,19 @@ OpenColorIO는 ACES 표준을 따르는 컬러메니징 솔루션입니다.
 
 소니이미지웍스에서 개발되었습니다.
 
+## 지원하는 프로그램
+- Houdini
+- Katana
+- Mari
+- Nuke
+- Krita
+- Blender
+- Gaffer
+- Vray
+- Renderman
+- Natron
+- [언리얼](https://docs.unrealengine.com/en-us/Engine/Rendering/PostProcessEffects/ColorGrading)
+
 ## OpenColorIO-Configs 셋팅하기
 OpenColorIO-Configs는 OpenColorIO의 컬러 설정파일입니다.
 
