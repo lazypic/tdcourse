@@ -40,4 +40,4 @@ $ git commit -m "나는 이러이러한것을 코드에 추가했다."
 상황이 발생했을 때 같이 익혀갑시다.
 
 ## Reference
-- Git 을 소개하는 자료중 [Pro Git](docs/https://git-scm.com/book/ko/v2) E-book이 가장 유명합니다.
+- Git 을 소개하는 자료중 [Pro Git](https://progit2.s3.amazonaws.com/ko/2015-07-08-5c390/progit-ko.582.pdf) E-book이 가장 유명합니다.
