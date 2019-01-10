@@ -14,6 +14,7 @@ $ cd ~/Downloads
 $ tar -zxvf cmake-3.13.2.tar.gz -C ~/app
 $ cd ~/app
 $ mv ~/app/cmake-3.13.2 ~/app/cmake-3.13.2_src
+$ mkdir cmake-3.13.2
 $ cd ~/app/cmake-3.13.2_src
 $ ./configure --prefix=$HOME/app/cmake-3.13.2
 $ make
