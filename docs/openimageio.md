@@ -96,6 +96,11 @@ $ igrep A004R23J test.exr
 ### iv
 이미지 뷰어입니다.
 
+![iv](../figures/iv.png)
+
+```
+$ iv input.ext
+```
 
 ### maketx
 
