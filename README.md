@@ -19,7 +19,7 @@
 - 업무협의 : 정선화 부원장 / 010-8663-4626
 - 프로그래밍이 처음이라면 한번씩 읽고 오세요 : https://wikidocs.net/book/2
 
-![Progress](http://progressed.io/bar/16?title=progress)
+![Progress](http://progressed.io/bar/22?title=progress)
 
 ## 내 용
 1. [x] 강의 소개 (12.28)
@@ -97,7 +97,7 @@
 	1. [man](docs/man.md)
 	1. [Linux 폴더구조](docs/foldertree.md)
 
-1. [버전관리의 중요성](docs/version_control_system.md)
+1. [x] [버전관리의 중요성](docs/version_control_system.md) (1.10)
 	1. [Git 설치 / 설정](docs/init_git.md)
 	1. [Git 명령어의 기초](docs/git_basic.md)
 	1. 모두 같은 에디터를 사용하고 설정을 공유하는 리포지터리 제작
