@@ -103,7 +103,31 @@ $ iv input.ext
 ```
 
 ### maketx
+[minmap](https://ko.wikipedia.org/wiki/밉맵) tx 파일이 생성됩니다.(작은이미지를 미리 만들어 놓는 과정. -> 렌더링 속도 향상을 목적으로 합니다.)
+이미지를 MipMap 타일 이미지로 변환하는 명령어 입니다. Pixar Renderman의 txmake와 비슷한 명령어입니다.
+소니이미지웍스의 Larry Gritz에 의해서 개발되었습니다.
 
+> 참고 : 렌더맨의 txmake와 혼동하기 쉽습니다.
+
+```
+$ maketx input.jpg
+input.tx 파일이 생성됩니다.
+```
+
+oiio 타일사이즈 기준으로 변경.
+```
+$ maketx -v -u --oiio --checknan --filter lanczos3 path/to/fileIn.tif -o path/to/fileOut.tx
+```
+
+렌더맨 타일사이즈 기준으로 변경.
+```
+$ maketx -v -u --prman --checknan --filter lanczos3 path/to/fileIn.tif -o path/to/fileOut.tx
+```
+
+#### Reference
+- https://docs.arnoldrenderer.com/display/A5AFMUG/Tx+Manager
+- https://docs.arnoldrenderer.com/display/A5AFMUG/Maketx
+- https://answers.unity.com/questions/310352/texture-mipmap-distance.html
 
 ### oiiotool
 OpenImageIO를 설치하면 사용할 수 있는 이미지 프로세싱 툴입니다.
