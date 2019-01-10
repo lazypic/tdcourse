@@ -7,7 +7,8 @@ Cross Platform을 위한 빌드 지원 툴입니다.
 순차적으로 프로그램이 수행이 되기를 바랄 때 사용합니다.
 
 ## 설치
-https://cmake.org/download/ 에서 리눅스용 cmake를 다운로드 받습니다.
+- https://cmake.org/download/ 에서 리눅스용 cmake를 다운로드 받습니다.
+- 
 
 ```
 $ cd ~/Downloads
