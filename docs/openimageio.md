@@ -519,6 +519,11 @@ $ scl enable devtoolset-6 bash
 $ make VERBOSE=1 OPENEXR_HOME=$HOME/app/openexr ILMBASE_HOME=$HOME/app/IlmBase OCIO_HOME=$HOME/app/OpenColorIO STOP_ON_WARNING=0 USE_OCIO=1 INSTALL_PREFIX=$HOME/app/OpenImageIO
 ```
 
+## 실습
+- oiio를 컴파일 합니다.
+- python과 oiiotool을 이용해서 썸네일을 만들어봅시다.
+- 각 옵션들을 다르게 설정해서 실행해 봅니다.
+
 ## Reference
 - https://github.com/OpenImageIO/oiio/blob/master/src/doc/openimageio.pdf
 - [webp 란?](https://ko.wikipedia.org/wiki/WebP) : jpeg를 대체하기 위해 구글에서 개발된 포멧
