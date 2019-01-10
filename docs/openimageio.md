@@ -19,7 +19,10 @@ OpenVDB, Ptex, Photoshop PSD, Wavefront RLA, SGI, WebP, GIF, DICOM,
 리눅스
 ```
 # yum install OpenImageIO
+# yum install OpenImageIO-iv
+# yum install OpenImageIO-devel
 # yum install OpenImageIO-utils
+# yum install python-OpenImageIO
 ```
 
 macOS
@@ -92,6 +95,7 @@ $ igrep A004R23J test.exr
 
 ### iv
 이미지 뷰어입니다.
+
 
 ### maketx
 

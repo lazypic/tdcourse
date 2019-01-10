@@ -60,14 +60,39 @@ Blender는 오픈소스이면서 OSL을 지원합니다. Blender 환경에서 OS
 
 
 ```
+# yum install llvm-toolset-7
+```
+
+```
 $ cd ~/app
 $ git clone https://github.com/imageworks/OpenShadingLanguage.git OSL_src
 $ mkdir OSL_build
 $ mkdir OSL
 $ cd OSL_build
-$ scl enable devtoolset-6 bash
-$ ~/app/cmake-3.13.2/bin/cmake ../OSL_src -DOPENEXR_ROOT_DIR=$HOME/app/OpenEXR -DCMAKE_INSTALL_PREFIX=$HOME/app/OSL -DILMBASE_INCLUDE_PATH=$HOME/app/IlmBase
+$ scl enable llvm-toolset-7 bash
+$ ~/app/cmake-3.13.2/bin/cmake ../OSL_src -DOPENEXR_INCLUDE_PATH=$HOME/app/openexr/include -DOPENEXR_LIBRARY_PATH=$HOME/app/openexr/lib -DCMAKE_INSTALL_PREFIX=$HOME/app/OSL -DILMBASE_INCLUDE_PATH=$HOME/app/IlmBase -DOPENIMAGEIO_INCLUDE_DIR=$HOME/app/OpenImageIO/include -DOPENIMAGEIO_ROOT_DIR=$HOME/app/OpenImageIO
 
+$ make OPENEXR_HOME=$HOME/app/openexr OPENIMAGEIO_INCLUDE_DIR=$HOME/app/OpenImageIO/include
+```
+
+에러
+```
+-- Project build dir   = /home/woong/app/OSL_build
+-- Project install dir = /home/woong/app/OSL
+-- platform = linux64
+-- CMAKE_CXX_COMPILER is /bin/c++
+-- CMAKE_CXX_COMPILER_ID is GNU
+-- Building for C++11
+-- Setting Namespace to: OSL_v1_11
+-- Using OpenImageIO 2.1.0
+CMake Error at /home/woong/app/cmake-3.13.2/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake:137 (message):
+  Could NOT find LLVM: Found unsuitable version "", but required is at least
+  "4.0" (found )
+Call Stack (most recent call first):
+  /home/woong/app/cmake-3.13.2/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake:376 (_FPHSA_FAILURE_MESSAGE)
+  src/cmake/modules/FindLLVM.cmake:113 (find_package_handle_standard_args)
+  src/cmake/externalpackages.cmake:70 (find_package)
+  CMakeLists.txt:128 (include)
 ```
 
 ## Reference
