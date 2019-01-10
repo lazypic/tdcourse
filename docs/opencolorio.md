@@ -13,9 +13,17 @@ OpenColorIO는 ACES 표준을 따르는 컬러메니징 솔루션입니다.
 - Blender
 - Gaffer
 - Vray
+- Arnold
 - Renderman
 - Natron
-- [언리얼](https://docs.unrealengine.com/en-us/Engine/Rendering/PostProcessEffects/ColorGrading)
+- Maya
+- Max
+- Davinci Resolve
+- Photoshop(macOS)
+- Silhouette
+- Hiero
+- Rv
+- [Unreal](https://docs.unrealengine.com/en-us/Engine/Rendering/PostProcessEffects/ColorGrading)
 
 ## OpenColorIO-Configs 셋팅하기
 OpenColorIO-Configs는 OpenColorIO의 컬러 설정파일입니다.
@@ -129,19 +137,6 @@ Tests complete.
 
 맨 마지막에 Tests complete. 문구가 뜨면 정상입니다.
 
-## OCIO를 지원하는 툴
-- Renderman
-- Vray
-- Arnold
-- Kantana
-- Nuke
-- Blender
-- Krita
-- Silhouette
-- Hiero
-- Rv
-- Gaffer
-- Natron
 
 ## ACES 2065-1, ACEScg, ACEScc
 일반적으로 CG 작업에는 ACEScg를 사용합니다.
