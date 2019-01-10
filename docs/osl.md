@@ -66,7 +66,7 @@ $ mkdir OSL_build
 $ mkdir OSL
 $ cd OSL_build
 $ scl enable devtoolset-6 bash
-$ ~/app/cmake-3.13.2/bin/cmake ../OSL_src -DOPENEXR_ROOT_DIR=$HOME/app/OpenEXR -DCMAKE_INSTALL_PREFIX=$HOME/app/OSL
+$ ~/app/cmake-3.13.2/bin/cmake ../OSL_src -DOPENEXR_ROOT_DIR=$HOME/app/OpenEXR -DCMAKE_INSTALL_PREFIX=$HOME/app/OSL -DILMBASE_INCLUDE_PATH=$HOME/app/IlmBase
 
 ```
 
