@@ -13,14 +13,17 @@ OpenVDB, Ptex, Photoshop PSD, Wavefront RLA, SGI, WebP, GIF, DICOM,
 많은 디지털카메라의 Raw포멧 등
 
 ## 설치
-- CentOS7.5
+낮은 버전은 CentOS7.6 에서 아래처럼 손쉽게 설치할 수 있습니다.
+높은 버전을 사용하기 위해서는 직접 컴파일이 필요합니다.
+
+리눅스
 ```
 # yum install OpenImageIO
 # yum install OpenImageIO-utils
 ```
 
-- macOS
-```
+macOS
+```bash
 $ brew install openimageio
 ```
 
@@ -41,6 +44,7 @@ test.exr : 2880 x 1620, 3 channel, half openexr
 
 ### iconvert
 이미지를 컨버팅할 때 사용합니다.
+일반적으로 exr파일에 메타데이터를 추가할 때 더 많이 사용하는 명령어 입니다.
 
 ```bash
 $ iconvert --inplace --caption testimage test.exr
