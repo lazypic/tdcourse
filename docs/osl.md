@@ -65,7 +65,7 @@ $ git clone https://github.com/imageworks/OpenShadingLanguage.git OSL_src
 $ mkdir OSL_build
 $ mkdir OSL
 $ cd OSL_build
-$ ~/app/cmake-3.13.2/bin/cmake ../OSL_src -DOPENEXR_ROOT_DIR=$HOME/app/OpenEXR --DCMAKE_INSTALL_PREFIX=$HOME/app/OSL
+$ ~/app/cmake-3.13.2/bin/cmake ../OSL_src -DOPENEXR_ROOT_DIR=$HOME/app/OpenEXR -DCMAKE_INSTALL_PREFIX=$HOME/app/OSL
 
 ```
 
