@@ -111,6 +111,10 @@
 	1. [자신만의 .bashrc 셋팅하기](docs/custom_bashrc.md)
 	1. [환경변수 및 패키징 관리툴 관리 툴](docs/env_managing.md)
 
+1. 동영상과 코텍
+	1. [Player](docs/player.md)
+	1. [동영상 포멧과 Codec](docs/format_codec.md)
+
 1. 예제파일 설치하기
 
 1. Github로 협업하기
@@ -155,10 +159,6 @@
 	1. [mediainfo](docs/mediainfo.md)
 	1. [컬러스페이스의 역사](docs/history_colorspace.md)
 	1. [OpenImageIO 설치](docs/openimageio.md)
-
-1. 동영상과 코텍
-	1. [Player](docs/player.md)
-	1. [동영상 포멧과 Codec](docs/format_codec.md)
 
 1. [VFX Platform 소개](docs/vfx_platform.md)
 	1. [NumPy](docs/numpy.md)
