@@ -79,8 +79,8 @@ fi
 - 비프음을 제거하는 .sh 파일을 만들어 봅니다.
 - 만들어진 .sh 파일을 github에 centos 리포지터리를 만들고 script 폴더를 만들고 저장합니다.
 - mpv 플레이어를 자동으로 설치할 수 있도록 쉘 스크립트를 만들어 봅니다.
-- 우리가 진행했던 과정을 반복하지 않도록 필요한 .sh 스크립트가 있다면 작성합니다.
 - github README.md를 작성합니다.
+- 우리가 진행했던 과정을 반복하지 않도록 필요한 .sh 스크립트가 있다면 작성합니다. : code, atom ..
 
 ## Reference
 - http://www.compciv.org/recipes/cli/basic-shell-scripts/
