@@ -9,7 +9,7 @@
 test.sh
 ```bash
 #!/bin/sh
-echo `Hello World`
+echo "Hello World"
 ```
 
 맨 윗줄 `#!/bin/sh` 문장은 이 스크립트를 실행할 기본 명령어를 지정하는 줄입니다. 우리는 Shell Script를 작성하기 때문에 `/bin/sh` 명령어가 이 스크립트를 실행하도록 선언하였습니다.
@@ -31,7 +31,7 @@ echo $VAR
 ## 사용자 값 받기
 ```
 #!/bin/sh
-echo What is your name?
+echo "What is your name?"
 read MY_NAME
 echo "Hello $MY_NAME"
 ```
@@ -56,7 +56,7 @@ fi
 ```
 
 ## 파일체크
-~/test.py 파일이 존재하는지 체크하는 방법
+~/Nuke11.3v1/Nuke11.3 파일이 존재하는지 체크하는 방법
 
 ```bash
 if [ -f "$HOME/Nuke11.3v1/Nuke11.3" ]; then
