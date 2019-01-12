@@ -10,6 +10,13 @@ Arri 카메라 메타데이터를 추출하는 툴입니다.
 정보는 csv로 추출됩니다. 
 이 정보는 파이프라인툴에 넣는 툴을 제작하거나 또는 매치무브팀에 전달하고 활용할 시스템을 구축합니다.
 
+![LDS](https://vmi.tv/upload/images/WLCS%20Essay/metadata.jpg)
+LDS 시스템의 기본 구조
+
+## 샘플파일 위치
+
+[LDS example csv](https://github.com/cgiseminar/examples/blob/master/arriLDS/A003C025_150830_R0D0.csv) 미리보기
+
 ## Arri Converter cmd 설치
 ```
 $ cd ~/app
