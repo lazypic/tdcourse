@@ -155,3 +155,4 @@ Call Stack (most recent call first):
 - https://www.youtube.com/watch?v=9CYDi8h0SuE
 - http://thhube.github.io/tutorials/osl/osl.html
 - https://www.youtube.com/watch?v=sEqQFZkVVEE
+- MaterialX : http://www.cgchannel.com/2017/07/lucasfilm-and-ilm-open-source-materialx/

@@ -141,7 +141,9 @@ $ make help
 3D 소프트웨어가 없더라도 .abc 파일을 볼 수 있다면 편리합니다.
 그 역할을 하는 abcview를 컴파일해보겠습니다.
 
-usd를 컴파일하면 usdview가 설치됩니다. usdview에서는 abc파일도 같이 볼 수 있습니다.
+- usd를 컴파일하면 usdview가 설치됩니다. usdview에서는 abc파일도 같이 볼 수 있습니다.
+- Gaffer 를 설치해도 abc를 볼 수 있습니다.
+- 뉴크에서도 abc를 로딩하여 데이터를 확인할 수 있습니다.
 
 ```
 $ usdview input.abc
