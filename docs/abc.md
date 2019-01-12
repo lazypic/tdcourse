@@ -17,10 +17,11 @@ Alembic은 3D 데이터를 교환하기 위해서 만들어진 Framework입니�
 - Maya
 - Katana
 - Houdini
-- Nuke
 - 3dsmax
 - Blender
 - [Unreal](https://docs.unrealengine.com/en-us/Engine/Content/AlembicImporter)
+- Nuke
+- Gaffer
 
 ## Alembic 컴파일하기
 소스코드 : https://github.com/alembic/alembic
@@ -173,6 +174,7 @@ $ ./b2 install
 ```
 
 #### abcview 컴파일(wip)
+> 참고 : usdview에는 이미 abc파일을 볼 수 있습니다. 개인적으로 usd가 컴파일이 더 잘되어서 abcview 대신 usdview를 사용하고 있습니다.
 
 소스코드 : https://github.com/alembic/abcview
 
@@ -192,3 +194,9 @@ $ make -j2
 $ make install
 $ make help
 ```
+
+## 실습
+- 3D툴을 이용해서 abc 파일 제작.
+- 뉴크에 로딩해보기
+- 명령어 실습
+- centos/script에 필요한 코드 설치 자동화 추가하기

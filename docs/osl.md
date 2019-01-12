@@ -60,6 +60,7 @@ https://forums.unrealengine.com/development-discussion/rendering/36083-osl-suppo
 ## 명령어
 gaffer를 설치하면 내부에 이미 osl 명령어가 존재합니다.
 osl 명령어를 사용하기 위해서 gaffer가 설치된 경로의 LD_LIBRARY_PATH를 .bashrc에 설정할 필요가 있습니다.
+Renderman Non커머셜을 설치해도 빌드된 명령어를 이용할 수 있습니다. 렌더맨이 설치된 경로의 /bin 디렉토리에는 오픈소스 명령어도 많이 존재합니다. 렌더맨을 제외한 나머지 명령어는 오픈소스이기 때문에 활용가능합니다.
 
 ### oslc
 osl 컴파일러 컴파일러 입니다.
@@ -80,6 +81,13 @@ input.osl input.oso
 ```bash
 $ oslinfo --runstats noise.oso
 0.00605843 sec for noise.oso
+```
+
+### osltoargs
+oso파일을 xml로 출력합니다.
+
+```bash
+$ osltoargs noise.oso -o output.xml
 ```
 
 쉐이더의 옵션을 터미널에서 볼 수 있습니다.

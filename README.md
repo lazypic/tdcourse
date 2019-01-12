@@ -103,7 +103,7 @@
 	1. 모두 같은 에디터를 사용하고 설정을 공유하는 리포지터리 제작
 	1. Readme 문서 작성을 위한 [Markdown 문법배우기](docs/markdown.md)
 
-1. 쉘 스크립트
+1. [ ] 쉘 스크립트 (1.11)
 	1. [.sh 스크립트 생성](docs/shell_script.md)
 	1. 실습 : [trans 명령 자동설치 스크립트](docs/install_trans.md)
 
