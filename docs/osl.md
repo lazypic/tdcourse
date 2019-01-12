@@ -171,3 +171,4 @@ Call Stack (most recent call first):
 - https://www.shadertoy.com
 - Vray OSL 강좌 : http://help.chaosgroup.com/vray/help/200R1/examples_vrayosl.htm
 - Skin : https://docs.sharktacos.com/vray/osl.html
+- 블렌더 소스코드를 받으면 내부에서 활용하기 위해서 작성된 OSL 코드 전체를 볼 수 있습니다.
