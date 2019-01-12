@@ -1,14 +1,18 @@
 # Arri Meta Extract
 Arri 카메라 메타데이터를 추출하는 툴입니다.
 카메라 렌즈를 각 프레임마다 어떻게 조작했는지, 카메라 정보등을 추출할 수 있습니다.
+이 정보는 나중에 각 프레임별로 카메라 조작 정보가 바뀌는 상황(예를 들어 촬영자가 줌렌즈를 이용해서 자유롭게 조작시)에 매치무브를 할 때 유용한 정보가 됩니다.
+
 ![arrimetaextract](https://cdn.hdvideopro.com/2018/11/GunchBlog-2018-38-data.jpg)
+Arri MetaExtract 소프트웨어를 이용하면 arri 데이터를 미리보기 할 수 있으며 .csv 파일로 뽑을 수 있습니다. 이 데이터는 파이썬을 이용해서 파싱할 수 있습니다.
 
 ![lds01](../figures/lds01.png)
 
-![lds02](../figures/lds02.png)
+Arri Raw converter 에서도 조작된 수치를 그래프로 볼 수 있는 기능을 제공합니다.
 
-정보는 csv로 추출됩니다. 
-이 정보는 파이프라인툴에 넣는 툴을 제작하거나 또는 매치무브팀에 전달하고 활용할 시스템을 구축합니다.
+![lds02](../figures/lds02.png)
+Arri Raw Converter 우측에도 자세한 정보를 미리 볼 수 있습니다.
+
 
 ![LDS](https://vmi.tv/upload/images/WLCS%20Essay/metadata.jpg)
 LDS 시스템의 기본 구조
