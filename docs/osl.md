@@ -20,6 +20,7 @@
 - [Animal Logic: Glimpse renderer](https://www.fxguide.com/featured/a-glimpse-at-animal-logic/)
 - [Image Engine: Gaffer (for expressions and deformers)](http://www.gafferhq.org)
 - Ubisoft motion picture group's proprietary renderer
+- 마야 : 기본 렌더러는 아놀드이며, Vray, Renderman을 사용할 수 있습니다.
 
 ## 언어구성
 보통 아래 형태의 언어를 띕니다. C++ 코드와 비슷하게 생겼습니다.
