@@ -111,7 +111,7 @@
 	1. [자신만의 .bashrc 셋팅하기](docs/custom_bashrc.md)
 	1. [환경변수 및 패키징 관리툴 관리 툴](docs/env_managing.md)
 
-1. 동영상과 코텍
+1. 동영상과 코덱
 	1. [Player](docs/player.md)
 	1. [동영상 포멧과 Codec](docs/format_codec.md)
 
