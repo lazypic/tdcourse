@@ -188,7 +188,7 @@
 1. [VFX에서 자주 사용되는 설정파일](docs/etc_files.md)
 
 1. VFX에서 자주 사용되는 파일 : 3D 데이터
-	1. 마야데이터 : .mb, .ma
+	1. 마야데이터 : .mb .ma
 	1. 맥스 : .max
 	1. .fbx
 	1. [Obj](docs/obj.md)
@@ -204,12 +204,12 @@
 1. GUI제작-1
 	1. [GUI 솔루션](docs/gui_solution.md)
 	1. [간단한 GUI : zenity](docs/zenity.md)
-	1. [python Pyside2를 이용한 기초 GUI 제작](docs/pyside2_gui.md)
+	1. [Pyside2 알아보기](docs/pyside2_gui.md)
 
 1. GUI제작-2
 	1. [Qt Designer 설치](docs/qt_designer.md)
-	1. [Qt Designer로 GUI 제작하기](docs/gen_qt_designer_gui.md)
 	1. [.ui 파일과 python의 연동](docs/load_ui_from_python.md)
+	1. 간단한 Pyside2 프로그램 제작
 
 1. TheFoundry Nuke를 알아보는 시간.
 	1. [개발에 도움이 되는 사이트](docs/help_nukedev.md)
