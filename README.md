@@ -251,6 +251,8 @@
 	1. [노드에 file 옵션이 있다면 폴더를 여는 기능 제작](docs/nkpython_openfile.md)
 	1. [노드구조 퍼포먼스 체크 기능 추가하기](docs/performance_time_check.md)
 	1. [Write노드 생성 스크립트 제작](docs/gen_writenode.md)
+	1. 실습 : 뉴크스크립트에서 활용할 소스 폴더 열기 기능 제작
+	1. 각각의 시퀀스를 묶어서 하나의 mov로 제작하는 스크립트 제작
 
 1. 자주 사용하는 플러그인 설치해보기
 	1. [루마픽쳐스에서 사용중인 기즈모 등록](docs/lumapic.md)
@@ -258,7 +260,7 @@
 	1. [다른 작업에 사용되는 플러그인 셋팅](docs/set_other_plugins.md)
 
 1. Nuke GUI
-	1. [예제 : 뉴크 내부에서 PySide2를 이용해서 스크립트 제작](docs/nuke_pyside2.md)
+	1. [예제 : 뉴크 PySide2를 이용해서 GUI 제작](docs/nuke_pyside2.md)
 
 1. 라이브러리의 기초
 	1. [경로를 통해서 Read노드 만들기](docs/path_to_read.md)
@@ -267,7 +269,7 @@
 1. 포트폴리오 준비 / 실습 / 프로그래밍 진행
 	1. [파일관리툴 제작](docs/make_opener.md)
 	
-1. DB 소개 및 실습
+1. DB 소개 및 활용예
 	1. [DB의 종류](docs/db.md)
 	1. [PostrgreSQL 설치](docs/install_postrgresql.md)
 	1. [PostrgreSQL PythonAPI 실습](docs/python_postrgresql.md)
@@ -276,7 +278,7 @@
 	1. [Redis 설치](docs/install_redis.md)
 	1. [Redis PythonAPI 실습](docs/python_redis.md)
 
-1. [시간이 남았을 때 진행할 테마](docs/dev_todo.md)
+1. [응용 및 실습](docs/dev_todo.md)
 
 1. 포트폴리오 진행
 	1. 남은 8시간은 하루동안 기존에 배운것들을 천천히 정리하는 시간입니다.
