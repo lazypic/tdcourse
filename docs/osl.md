@@ -52,6 +52,7 @@ https://forums.unrealengine.com/development-discussion/rendering/36083-osl-suppo
 
 ## 명령어
 gaffer를 설치하면 내부에 이미 osl 명령어가 존재합니다.
+osl 명령어를 사용하기 위해서 gaffer가 설치된 경로의 LD_LIBRARY_PATH를 .bashrc에 설정할 필요가 있습니다.
 
 ### oslc
 osl 컴파일러 컴파일러 입니다.
