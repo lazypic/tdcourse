@@ -1,5 +1,6 @@
 # OpenVDB
-구름처럼 넓게 퍼져있는 볼륨을 계층 구조를 이용하여 효율적으로 저장, 조작하기 위해서 개발된 C++ 라이브러리 입니다.
+구름처럼 넓게 퍼져있는 볼륨 형태의 데이터를 저장할 때 사용합니다.
+계층 구조를 이용하여 효율적으로 저장, 조작하기 위해서 개발된 C++ 라이브러리 입니다.
 원래 드림웍스에서 개발되었지만 지금은 [Academy Software Foundation(ASWF)](https://www.aswf.io)에 의해서 관리되고 있습니다.
 
 라이센스 : Mozilla Public License Version 2.0
@@ -16,12 +17,14 @@
 - Maxwell Render
 - Modo
 - Vray
+- RedShift
 - Octane Render
 - 3Delight
 - VFX Reference Platform
 - [Gaffer](gaffer.md)
 
-## 컴파일
+## 컴파일(진행중)
+Youtube 영상을 1차로 따라해보고 기록하기.
 
 소스코드 : https://github.com/AcademySoftwareFoundation/openvdb.git
 
@@ -51,10 +54,11 @@ $ mkdir openvdb
 $ cd openvdb_build
 $ scl enable devtoolset-6 bash
 $ ~/app/cmake-3.13.2/bin/cmake ../openvdb_src -DBLOSC_LOCATION=$HOME/app/c-blosc -DCMAKE_INSTALL_PREFIX=$HOME/app/openvdb -DTBB_LOCATION=$HOME/app/tbb
-
 ```
+
 ## 샘플파일 다운로드
 http://www.openvdb.org/download
 
 ## Reference
 - 컴파일 유투브영상 : https://www.youtube.com/watch?v=aQFzVv_2TTg
+- 관련데이터 : http://pointclouds.org
