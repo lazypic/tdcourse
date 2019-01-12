@@ -50,6 +50,43 @@ shader TDdiffuse_ramp(
 아직 지원하고 있지 않습니다. 아래 URL에서 해당 사항에 대해서 Discussion은 올라와 있습니다.
 https://forums.unrealengine.com/development-discussion/rendering/36083-osl-support
 
+## 명령어
+gaffer를 설치하면 내부에 이미 osl 명령어가 존재합니다.
+
+### oslc
+osl 컴파일러 컴파일러 입니다.
+osl 파일을 이용해서 oso 파일을 생성하면 렌더러가 바로 사용할 수 있습니다.
+일반적으로 렌더러는 이 과정을 자동으로 많이 해줍니다.
+
+```bash
+$ osl input.osl
+Compiled noise.osl -> noise.oso
+$ ls
+input.osl input.oso
+```
+
+### oslinfo
+터미널에서 oso 파일 정보를 출력합니다.
+
+쉐이더 로딩타임 측정
+```bash
+$ oslinfo --runstats noise.oso
+0.00605843 sec for noise.oso
+```
+
+쉐이더의 옵션을 터미널에서 볼 수 있습니다.
+```bash
+$ oslinfo noise.oso
+shader "noise"
+float Time  1
+point Point nodefault
+output float Cell  0
+output color Perlin  [ 0.8 0.8 0.8 ]
+output color UPerlin  [ 0.8 0.8 0.8 ]
+output color Simplex  [ 0.8 0.8 0.8 ]
+output color USimplex  [ 0.8 0.8 0.8 ]
+```
+
 ## 실습
 OSL을 작성, 적용하기 위해서는 3D 소프트웨어가 필요합니다.
 Blender는 오픈소스이면서 OSL을 지원합니다. Blender 환경에서 OSL을 작성하고 기본적인 렌더링을 해보겠습니다.
