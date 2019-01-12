@@ -20,14 +20,16 @@
 - [Animal Logic: Glimpse renderer](https://www.fxguide.com/featured/a-glimpse-at-animal-logic/)
 - [Image Engine: Gaffer (for expressions and deformers)](http://www.gafferhq.org)
 - Ubisoft motion picture group's proprietary renderer
-- 마야 : 기본 렌더러는 아놀드이며, Vray, Renderman을 사용할 수 있습니다.
+- 마야 : 기본 렌더러 : Arnold, Plug-ins : Vray, Renderman을 사용할 수 있습니다.
 
 ## 강점
-그냥 3D 소프트웨어로 작업을 할 때 효율성도 좋지않기도 하고 이 언어 자체를 이용해서 작업ㅇ르 할 필요는 없습니다.
+그냥 3D 소프트웨어로 작업을 할 때 효율성도 좋지않기도 하고 이 언어 자체를 이용해서 작업을 할 필요는 없습니다.
 내부에서 지원하는 도구를 이용해서 쉐이더를 작성하면 되니까요.
 하지만 회사 전체에 쉐이더 시스템을 에셋으로 구축하고 텍스쳐 라이브러리를 구성하고 바로 렌더가능하도록 모든 리소스를 빌드하고 싶다면 상황은 달라집니다.
 대부분 렌더러가 OSL 을 지원하기 때문에 OSL 베이스로 쉐이더 에셋을 구축해두면 미래적으로 경쟁력 있는 조직, 회사가 될 수 있습니다.
 OSL을 알아두면 나중에 렌더맨을 공부할 때 도움이 됩니다. 굉장히 프로세스가 비슷합니다.
+
+룩뎁이 끝나고 모든 쉐이더를 Lock 걸어야 할 때 실수로 아티스트가 옵션을 건드리지 않도록 할 때도 활용할 수 있습니다.
 
 ## 언어구성
 보통 아래 형태의 언어를 띕니다. C++ 코드와 비슷하게 생겼습니다.
@@ -167,3 +169,5 @@ Call Stack (most recent call first):
 - https://www.youtube.com/watch?v=sEqQFZkVVEE
 - MaterialX : http://www.cgchannel.com/2017/07/lucasfilm-and-ilm-open-source-materialx/
 - https://www.shadertoy.com
+- Vray OSL 강좌 : http://help.chaosgroup.com/vray/help/200R1/examples_vrayosl.htm
+- Skin : https://docs.sharktacos.com/vray/osl.html
