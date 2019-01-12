@@ -104,6 +104,16 @@ output color Simplex  [ 0.8 0.8 0.8 ]
 output color USimplex  [ 0.8 0.8 0.8 ]
 ```
 
+### osltoy
+osl 코드를 인터렉티브하게 보여주는 툴입니다.
+
+```bash
+$ osltoy input.osl
+```
+
+![osltoy](https://github.com/imageworks/OpenShadingLanguage/blob/master/src/doc/Figures/osltoy/osltoy-fbm.jpg?raw=true)
+
+
 ## 실습
 OSL을 작성, 적용하기 위해서는 3D 소프트웨어가 필요합니다.
 Blender는 오픈소스이면서 OSL을 지원합니다. Blender 환경에서 OSL을 작성하고 기본적인 렌더링을 해보겠습니다.
@@ -156,3 +166,4 @@ Call Stack (most recent call first):
 - http://thhube.github.io/tutorials/osl/osl.html
 - https://www.youtube.com/watch?v=sEqQFZkVVEE
 - MaterialX : http://www.cgchannel.com/2017/07/lucasfilm-and-ilm-open-source-materialx/
+- https://www.shadertoy.com
