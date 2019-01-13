@@ -26,8 +26,8 @@ http://opencolorio.org/userguide/contexts.html 문서를 보면 showcfg 같은 �
 우리나라 회사들도 이러한 특징을 많이 반영하며 회사 경로 구성시 따라하고 있습니다.
 
 ```
-/project/프로젝트명/shot/FOO/0010/팀명/작업파일
-/project/프로젝트명/shot/BAR/0010/팀명/작업파일
+/project/프로젝트명/shot/FOO/0010/task/...
+/project/프로젝트명/shot/BAR/0010/task/...
 ```
 
 프로젝트, 샷명, 팀명 이외에 중간에 추가되는 경로로는..
@@ -46,21 +46,21 @@ tree명령어를 통해서 경로의 구조를 쉽게 그릴 수 있습니다.
     │       └── stone
     ├── doc
     ├── edit
-    ├── input
-    ├── output
+    ├── in
+    ├── ou
     ├── ref
     └── shot
         └── FOO
             └── 0010
                 ├── comp
-                │   ├── input
-                │   ├── output
-                │   └── v001.nk
+                │   ├── in
+                │   ├── out
+                │   └── FOO_0010_comp_v001.nk
                 ├── fx
                 ├── plate
-                │   └── v001
+                │   └── FOO_0010_plate_v001
                 └── src
-                    └── v001
+                    └── FOO_0010_src_v001
 
 ```
 
@@ -76,3 +76,7 @@ macOS
 ```
 $ brew install tree
 ```
+
+## 실습
+- tree 설치도 최초 리눅스 셋팅시 자동으로 설치되도록 추가합니다.
+- 카메라 데이터를 샷에 복사하는 스크립트를 Python으로 작성해봅니다.

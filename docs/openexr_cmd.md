@@ -129,7 +129,8 @@ exrheader, 뉴크에서 메타데이터를 확인하면 view 값이 설정되어
 - ref : https://openexr-devel.nongnu.narkive.com/q1Cos7DF/multipart-backward-compatibility
 
 ## exr2aces
-exr이미지를 aces exr로 바꾼다.
+exr이미지를 aces exr로 바꿉니다.
+
 ```
 # exr2aces input.exr output.exr
 ```
