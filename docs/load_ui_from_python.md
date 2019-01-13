@@ -43,7 +43,12 @@ if __name__ == '__main__':
     sys.exit(app.exec_())
 ```
 
-이런 형태로 코드를 작성하면 Gui는 Qt Designer에서 프로그래밍 로직은 파이썬에 작성할 수 있습니다.
+이런 형태로 코드를 작성하면 Gui는 Qt Designer에서 생성합니다.
+프로그래밍 로직은 파이썬에서 코드로 작성할 수 있습니다.
+
+## 실습
+- pip 인스톨 스크립트를 제작하고 Pyside2 라이브러리를 추가하고 centos 리포지터리에 등록합니다.
+
 
 #### Reference
 https://stackoverflow.com/questions/4442286/python-code-generation-with-pyside-uic

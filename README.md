@@ -170,7 +170,7 @@
 	1. [raw2exr](docs/arriconverter_cmd.md)
 	1. [metaextractor](docs/arri_metaextract.md)
 	1. [현장데이터 수집툴](docs/setellite.md)
-	1. [기타 현장데이터](docs/etc_onsetdata.md)
+	1. [기타 현장데이터 종류](docs/etc_onsetdata.md)
 
 1. VFX에서 자주 사용되는 파일 : 컬러매니징(DI), 편집작업
 	1. [ACES / OpenColorIO](docs/opencolorio.md)
