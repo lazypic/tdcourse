@@ -116,6 +116,8 @@
 	1. [동영상 포멧과 Codec](docs/format_codec.md)
 
 1. 예제파일 설치하기
+	1. ~/examples
+	1. [샘플파일설치](docs/sample.md)
 
 1. Github로 협업하기
 	1. [Git 협업방식 설명](docs/github_collaboration.md)
