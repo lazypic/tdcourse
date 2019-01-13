@@ -15,3 +15,4 @@
 - 협력툴 [Slack](docs/slack.md) 설치
 - 템플릿 : 여러 타입의 ffmpeg 슬레이트 제작
 - 터미널 유틸리티 Yakuake 설치 : https://github.com/KDE/yakuake
+- Read노드에 디스크 사용용량 표기
