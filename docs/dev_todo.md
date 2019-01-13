@@ -11,7 +11,7 @@
 - 뉴크 Read노드 정보를 이용한 Proxy 이미지 자동 생성
 - 뉴크파일 퍼블리쉬툴 제작
 - 메모리 관리 : https://www.tecmint.com/clear-ram-memory-cache-buffer-and-swap-space-on-linux/
-- FFmpeg를 이용한 슬레이트 제작(뉴크 라이센스 사용을 줄일 수 있습니다.)
+- [FFmpeg를 이용한 슬레이트 제작](slate_ffmpeg.md) : 뉴크 라이센스 사용을 줄일 수 있습니다.
 - 협력툴 [Slack](docs/slack.md) 설치
 - 템플릿 : 여러 타입의 ffmpeg 슬레이트 제작
 - 터미널 유틸리티 Yakuake 설치 : https://github.com/KDE/yakuake
