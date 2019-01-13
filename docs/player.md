@@ -150,6 +150,11 @@ STD_CXXFLAGS = -std=gnu++98 -stdlib=libc++
 
 컴파일을 다시 해줍니다.
 
+## 실습
+- djv view를 환경변수에 추가해 줍니다.
+- djv view를 app 폴더에 자동으로 설치 할 수 있도록 .sh 파일을 제작합니다.
+- 실행명령어도 alias로 추가해 줍니다.
+- env alias가 출력되도록 echo 화면을 만들어 봅시다.
 
 ## Reference
 - https://www.uncleninja.com/uncategorized/2016-05-04/install-mpv-player-smplayer-centos-7/
