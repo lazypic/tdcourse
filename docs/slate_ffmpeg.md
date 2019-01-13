@@ -2,8 +2,8 @@
 
 w, W, width
 h, H, height
-iw image width
-ih image height
+iw : image width
+ih : image height
 tw : text width
 th : the height of the renderd text
 line_h, lh : the height of each text line
