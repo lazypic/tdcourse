@@ -25,7 +25,7 @@ echo "=============================="
 ```
 
 ## .bashrc에 custom.env 파일 물리기
-~/.bashrc 파일에 source 합니다.
+~/.bashrc 파일에 위에서 만든 env 설정파일을 source 합니다.
 ```
 source $HOME/centos/env/init.env
 source $HOME/centos/env/help.env
