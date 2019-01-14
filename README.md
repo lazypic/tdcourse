@@ -111,13 +111,13 @@
 	1. [자신만의 .bashrc 셋팅하기](docs/custom_bashrc.md)
 	1. [환경변수 및 패키징 관리툴 관리 툴](docs/env_managing.md)
 
-1. 동영상과 코덱
-	1. [Player](docs/player.md)
-	1. [동영상 포멧과 Codec](docs/format_codec.md)
-
 1. 예제파일 설치하기
 	1. ~/examples
 	1. [샘플파일설치](docs/sample.md)
+
+1. 동영상과 코덱
+	1. [Player](docs/player.md)
+	1. [동영상 포멧과 Codec](docs/format_codec.md)
 
 1. Github로 협업하기
 	1. [Git 협업방식 설명](docs/github_collaboration.md)

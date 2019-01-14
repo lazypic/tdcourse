@@ -5,7 +5,7 @@
 
 ![git_upstream](https://user-images.githubusercontent.com/1149996/48260553-29da5280-e45f-11e8-9dab-7860025f6134.png)
 
-### 협업방식
+## 협업방식
 1. Github에 존재하는 프로젝트를 Fork 합니다.
 1. Fork한 자신의 리포지터리를 git pull 합니다.
 1. git pull 한 리포지터리에서 up stream 설정을 합니다.
@@ -32,7 +32,7 @@
     $ git branch -d iss53
     ```
 
-### Master 브랜치에 Push하는 것을 막는 방법
+## Master 브랜치에 Push하는 것을 막는 방법
 push 하기전에 master 브랜치인지 체크하기 위해서 아래 경로에 파일을 생성해줍니다.
 
 ```
@@ -57,6 +57,7 @@ exit 0
 
 자신이 master에서 자주 push 하는 습관이 있다면 이 스크립트를 활용해 보세요.
 
-### Reference link
+## Reference link
 - https://blog.ghost.org/prevent-master-push/
 - upstream 사용 예) : https://opentimelineio.readthedocs.io/en/latest/tutorials/contributing.html
+- merge type : https://help.github.com/articles/about-merge-methods-on-github/
