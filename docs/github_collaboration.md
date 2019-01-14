@@ -6,11 +6,20 @@
 ![git_upstream](https://user-images.githubusercontent.com/1149996/48260553-29da5280-e45f-11e8-9dab-7860025f6134.png)
 
 ## 협업방식
+설명을 위해서 단체는 lazypic을 개인은 woong 이라는 예제로 작성되었습니다.
+
 1. Github에 존재하는 프로젝트를 Fork 합니다.
-1. Fork한 자신의 리포지터리를 git pull 합니다.
+1. Fork한 자신의 리포지터리를 생성합니다.
+    ```
+    $ git clone https://github.com/woong/repo.git
+    ```
 1. git pull 한 리포지터리에서 up stream 설정을 합니다.
     ```
-    $ git remote add upstream https://github.com/organization/repo.git
+    $ git remote add upstream https://github.com/lazypic/repo.git
+    ```
+1. upstream에서 최신 코드를 다운로드 받습니다. fetch는 오직 다운로드만 받는 명령어 입니다.
+    ```
+    $ git fetch upstream
     ```
 1. branch를 만들고 해당 이슈로 개발을 진행합니다.
     ```
@@ -21,18 +30,18 @@
     $ git push origin iss53
     ```
 1. 이슈와 함께 제안(Pull Request) 합니다.
-1. 제안이 받아들여지면 master branch로 바꾸고 up stream에서 git pull 하여 최신의 master branch 를 유지합니다.
+1. 제안이 받아들여지면 master branch로 바꾸고 upstream에서 git fetch 하여 최신의 master branch 를 유지합니다.
     ```
     $ git checkout origin master
-    $ git pull upstream master
+    $ git fetch upstream
     ```
-1. branch가 많아지면 관리하기 힘드니 완료된 branch는 제거합니다.
+1. branch가 많아지면 관리하기 힘드니 완료된 issue branch는 제거합니다.
     ```
     $ git branch
     $ git branch -d iss53
     ```
 
-## Master 브랜치에 Push하는 것을 막는 방법
+## 팁: Master 브랜치에 Push하는 것을 막는 방법
 push 하기전에 master 브랜치인지 체크하기 위해서 아래 경로에 파일을 생성해줍니다.
 
 ```
