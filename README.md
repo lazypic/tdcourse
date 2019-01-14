@@ -112,7 +112,7 @@
 	1. [환경변수 및 패키징 관리툴 관리 툴](docs/env_managing.md)
 
 1. 예제파일 설치하기
-	1. ~/examples
+	1. ~/examples : `cd~ && git clone https://github.com/cgiseminar/examples`
 	1. [샘플파일설치](docs/sample.md)
 
 1. 동영상과 코덱
