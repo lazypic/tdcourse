@@ -103,11 +103,11 @@
 	1. 모두 같은 에디터를 사용하고 설정을 공유하는 리포지터리 제작
 	1. Readme 문서 작성을 위한 [Markdown 문법배우기](docs/markdown.md)
 
-1. [ ] 쉘 스크립트 (1.11)
+1. [x] 쉘 스크립트 (1.11)
 	1. [.sh 스크립트 생성](docs/shell_script.md)
 	1. 실습 : [trans 명령 자동설치 스크립트](docs/install_trans.md)
 
-1. [환경변수란?](docs/env.md)
+1. [ ] [환경변수란?](docs/env.md) (1.14)
 	1. [자신만의 .bashrc 셋팅하기](docs/custom_bashrc.md)
 	1. [환경변수 및 패키징 관리툴 관리 툴](docs/env_managing.md)
 
