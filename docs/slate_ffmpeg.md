@@ -22,7 +22,10 @@ FFmpeg를 이용해서 슬레이트를 제작하면 기존 슬레이트 제작�
 아티스트명 테스크 버전, 메모, 타임코드 프레임
 
 ```
-ffmpeg -f image2 -start_number 100 -r 24 -i ~/examples/FOO_0010/FOO_0010.%4d.jpg  -vcodec libx264 -vf "drawbox=x=0:y=0:w=iw:h=50:color=black@0.5:width=iw:height=50:t=50","drawbox=x=0:y=ih-50:w=iw:h=ih:color=black@0.5:width=iw:height=50:t=50","drawtext=fontfile=/usr/share/fonts/gnu-free/FreeMono.ttf: text='CIRCLE': text='%{localtime\:%Y-%m-%d %T}' : text='%{n}': start_number=100: fontsize=30: x=10: y=((50-th)/2) : fontcolor=white","drawtext=fontfile=/usr/share/fonts/gnu-free/FreeMono.ttf: timecode='09\:57\:00\:00': r=23.976: fontsize=30: x=(w-tw)/2: y=h-50+((50-th)/2): fontcolor=white" -y output.mov
+ffmpeg -f image2 -start_number 100 -r 24 -i ~/examples/FOO_0010/FOO_0010.%4d.jpg  -vcodec libx264 -vf "drawbox=x=0:y=0:w=iw:h=50:color=black@0.3:width=iw:height=50:t=50","drawbox=x=0:y=ih-50:w=iw:h=ih:color=black@0.3:width=iw:height=50:t=50","drawtext=fontfile=/usr/share/fonts/gnu-free/FreeMono.ttf: text='CIRCLE': fontsize=30: x=10: y=((50-th)/2) : fontcolor=white","drawtext=fontfile=/usr/share/fonts/gnu-free/FreeMono.ttf: text='FOO_0010': fontsize=30: x=(w-tw)/2: y=((50-th)/2) : fontcolor=white","drawtext=fontfile=/usr/share/fonts/gnu-free/FreeMono.ttf: text='%{localtime\:%Y-%m-%d %T}': fontsize=30: x=(w-tw-10): y=((50-th)/2) : fontcolor=white","drawtext=fontfile=/usr/share/fonts/gnu-free/FreeMono.ttf: text='$USER comp v001': fontsize=30: x=10: y=h-50+((50-th)/2): fontcolor=white","drawtext=fontfile=/usr/share/fonts/gnu-free/FreeMono.ttf: timecode='09\:57\:00\:00': r=23.976: fontsize=30: x=(w-tw)/2: y=h-50+((50-th)/2): fontcolor=white","drawtext=fontfile=/usr/share/fonts/gnu-free/FreeMono.ttf: text='%{n}': start_number=100: fontsize=30: x=(w-tw-10): y=h-50+((50-th)/2): fontcolor=white" -y output.mov
+```
+```
+ffmpeg -f image2 -start_number 100 -r 24 -i ~/examples/FOO_0010/FOO_0010.%4d.jpg  -vcodec libx264 -vf "drawbox=x=0:y=0:w=iw:h=50:color=black@0.5:width=iw:height=50:t=50", "drawbox=x=0:y=ih-50:w=iw:h=ih:color=black@0.5:width=iw:height=50:t=50" -y output.mov
 ```
 
 ## 유닉스 타임을 가지고 오는 방법
