@@ -107,15 +107,15 @@
 	1. [.sh 스크립트 생성](docs/shell_script.md)
 	1. 실습 : [trans 명령 자동설치 스크립트](docs/install_trans.md)
 
-1. [ ] [환경변수란?](docs/env.md) (1.14)
+1. [x] [환경변수란?](docs/env.md) (1.14)
 	1. [자신만의 .bashrc 셋팅하기](docs/custom_bashrc.md)
 	1. [환경변수 및 패키징 관리툴 관리 툴](docs/env_managing.md)
 
-1. 예제파일 설치하기
-	1. ~/examples : `cd~ && git clone https://github.com/cgiseminar/examples`
+1. [x] 예제파일 설치하기 (1.15)
+	1. ~/examples : `cd ~ && git clone https://github.com/cgiseminar/examples`
 	1. [샘플파일설치](docs/sample.md)
 
-1. 동영상과 코덱
+1. [ ] 동영상과 코덱
 	1. [Player](docs/player.md)
 	1. [동영상 포멧과 Codec](docs/format_codec.md)
 
