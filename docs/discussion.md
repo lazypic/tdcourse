@@ -90,3 +90,13 @@ git merge upstream/master
 ```bash
 $ git branch -D test
 ```
+
+1. Fork한 리포지터리도 업데이트합니다.
+```bash
+$ git push origin master
+```
+
+1. gitk를 설치하고 관찰합니다.
+```
+# yum install gitk
+```
