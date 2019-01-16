@@ -46,7 +46,7 @@ $ cd curriculum
 $ git remote add upstream https://github.com/cgiseminar/curriculum.git
 ```
 
-1. 설정중에도 만약 최신코드가 있을지 모르니 fetch 합니다.
+1. 설정중에도 만약 최신코드가 있을지 모르니 fetch 합니다. fetch는 upstream에서 코드를 자동으로 머지하지 않습니다.(pull은 자동으로 머지합니다.)
 ```bash
 $ git fetch upsteam
 ```
@@ -83,7 +83,7 @@ $ git push origin test
 ```bash
 $ git checkout master
 $ git branch
-$ git fetch upstream
+git merge upstream/master
 ```
 
 1. test 브랜치를 제거합니다.
