@@ -16,3 +16,4 @@
 - 템플릿 : 여러 타입의 ffmpeg 슬레이트 제작
 - 터미널 유틸리티 Yakuake 설치 : https://github.com/KDE/yakuake
 - Read 노드 하단에 디스크 사용용량 표기, 소스 전체 사용량 출력하기.
+- [Graphviz](graphviz.md)
