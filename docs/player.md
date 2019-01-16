@@ -28,8 +28,9 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/djv-1.1.2-Linux-64/lib
 ```
 
 #### OpenGL 체크
+DJV 뷰어는 OpenGL3.3 이상이어야 작동합니다. 아래 명령어를 통해서 OpenGL 버전을 알 수 있습니다.
 ```
-https://www.electrictoolbox.com/yum-list-installed-packages/
+$ glxinfo | grep "OpenGL version"
 ```
 
 #### 컴파일
