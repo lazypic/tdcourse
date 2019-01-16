@@ -121,8 +121,8 @@
 
 1. [ ] Github로 협업하기 (1.17)
 	1. [Git 협업방식 설명](docs/github_collaboration.md)
-	1. 실습 : Git 협업모델 테스트
 	1. [이슈, Pull Request 상태에서의 토론](docs/discussion.md)
+	1. 실습 : Git 협업모델 테스트, github.io 코드 작성
 
 1. [파이썬 X in Y minutes](docs/python_x_in_y_min.md)
 
