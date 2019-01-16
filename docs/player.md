@@ -11,15 +11,14 @@ VFX를 위한 미디어 재생 플레이어들을 알아보고 설치해 봅시�
 
 쉽게 설치하는 방법
 
-https://sourceforge.net/projects/djv/files/djv-stable/ 에서 너무 높지 않은 버전의 rpm파일을 다운로드 받습니다.
-CentOS7.5~6 에서는 1.1.2를 다운로드 받습니다.
+OpenGL에러가 발생하면 https://sourceforge.net/projects/djv/files/djv-stable/ 에서 너무 높지 않은 버전의 rpm파일을 다운로드 받습니다.
 
 ```bash
-# yum install DJV-1.1.2.x86_64.rpm
+# yum install DJV-1.2.5-1.x86_64.rpm
 ```
 
 프로그램 > 그래픽 > djv_view에 설치됩니다.
-실제 설치경로는 /usr/local/djv-1.1.2-Linux-64/bin 입니다.
+실제 설치경로는 /usr/local/DJV/bin 입니다.
 
 터미널에서 실행하려면 .bashrc 파일에 아래 옵션을 추가해 줘야합니다.
 
