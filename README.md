@@ -112,7 +112,7 @@
 	1. [환경변수 및 패키징 관리툴 관리 툴](docs/env_managing.md)
 
 1. [x] 예제파일 설치하기 (1.15)
-	1. ~/examples : `cd ~ && git clone https://github.com/cgiseminar/examples`
+	1. ~/examples 설치 : `cd ~ && git clone https://github.com/cgiseminar/examples`
 	1. [샘플파일설치](docs/sample.md)
 
 1. [x] 동영상과 코덱 (1.16)
@@ -124,8 +124,9 @@
 	1. 실습 : Git 협업모델 테스트
 	1. [이슈, Pull Request 상태에서의 토론](docs/discussion.md)
 
+1. [파이썬 X in Y minutes](docs/python_x_in_y_min.md)
+
 1. 파이썬 기초 실무
-	1. [파이썬 X in Y minutes](docs/python_x_in_y_min.md)
 	1. [파이썬 함수 만들기](docs/python_make_function.md)
 	1. [파이썬 클래스 만들기](docs/python_make_class.md)
 
@@ -169,6 +170,7 @@
 
 1. VFX에서 자주 사용되는 파일 : 촬영, 현장데이터
 	1. [촬영데이터 파일명의 구조](docs/raw_name.md)
+	1. 촬영데이터 복사
 	1. [raw2exr](docs/arriconverter_cmd.md)
 	1. [metaextractor](docs/arri_metaextract.md)
 	1. [현장데이터 수집툴](docs/setellite.md)
