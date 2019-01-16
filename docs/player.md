@@ -28,6 +28,11 @@ export PATH=$PATH:/usr/local/djv-1.1.2-Linux-64/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/djv-1.1.2-Linux-64/lib
 ```
 
+#### OpenGL 체크
+```
+https://www.electrictoolbox.com/yum-list-installed-packages/
+```
+
 #### 컴파일
 컴파일하고 설치할 때 djv view는 cmake 3.12 이상을 요구합니다.
 
