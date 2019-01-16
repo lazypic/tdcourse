@@ -19,7 +19,7 @@
 - 업무협의 : 정선화 부원장 / 010-8663-4626
 - 프로그래밍이 처음이라면 한번씩 읽고 오세요 : https://wikidocs.net/book/2
 
-![Progress](http://progressed.io/bar/22?title=progress)
+![Progress](http://progressed.io/bar/31?title=progress)
 
 ## 내 용
 1. [x] 강의 소개 (12.28)
@@ -115,11 +115,11 @@
 	1. ~/examples : `cd ~ && git clone https://github.com/cgiseminar/examples`
 	1. [샘플파일설치](docs/sample.md)
 
-1. [ ] 동영상과 코덱
+1. [x] 동영상과 코덱 (1.16)
 	1. [Player](docs/player.md)
 	1. [동영상 포멧과 Codec](docs/format_codec.md)
 
-1. Github로 협업하기
+1. [ ] Github로 협업하기 (1.17)
 	1. [Git 협업방식 설명](docs/github_collaboration.md)
 	1. 실습 : Git 협업모델 테스트
 	1. [이슈, Pull Request 상태에서의 토론](docs/discussion.md)
