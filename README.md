@@ -242,7 +242,7 @@
 1. [Nukepedia 사이트 소개](docs/nukepedia.md)
 
 1. Nuke Command line
-	1. [Nuke Command line Rendering](docs/nuke_cmd.md)
+	1. [Nuke Command Line Rendering](docs/nuke_cmd.md)
 	1. [Render Management Tools 소개](docs/render_management_tools.md)
 
 1. 메뉴, ViewLut 설정
