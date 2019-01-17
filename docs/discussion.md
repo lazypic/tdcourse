@@ -100,3 +100,5 @@ $ git push origin master
 ```
 # yum install gitk
 ```
+git push --delete origin iss60
+
