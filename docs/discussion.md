@@ -86,9 +86,14 @@ $ git branch
 $ git pull upstream master
 ```
 
-1. test 브랜치를 제거합니다.
+1. test 브랜치를 제거합니다.(현재 컴퓨터의 브랜치)
 ```bash
 $ git branch -D test
+```
+
+1. 브랜치를 제거합니다.(깃허브의 브랜치)
+```bash
+$ git push --delete origin iss60
 ```
 
 1. Fork한 리포지터리도 업데이트합니다.
