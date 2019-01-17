@@ -37,7 +37,7 @@ Apple에서 제작 관리되는 코덱입니다. 파이널컷 프로 Base에서 
 - Prores 422LT : 실무에서 자주 사용됨
 - Prores Proxy : Onset(현장)에서 자주 사용됨
 
-​https://support.apple.com/ko-kr/HT202410​
+https://support.apple.com/ko-kr/HT200321
 
 ### H.264
 동영상을 배포하기 위해서 가장 많이 사용되는 코덱입니다.
