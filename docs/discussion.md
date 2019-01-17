@@ -90,6 +90,10 @@ $ git pull upstream master
 ```bash
 $ git branch -D test
 ```
+1. github 웹에서 브랜치를 제거합니다.
+```bash
+$  git push --delete origin iss60
+```
 
 1. Fork한 리포지터리도 업데이트합니다.
 ```bash
