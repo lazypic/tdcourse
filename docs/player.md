@@ -77,7 +77,7 @@ $ djv_view
 ![rv](https://d2.alternativeto.net/dist/s/65d5a1c2-d8bc-e011-9727-0025902c7e73_2_full.jpg?format=jpg&width=1600&height=1600&mode=min&upscale=false)
 
 아마도 대부분의 VFX회사에서는 이 플레이어를 가장 많이 사용합니다.
-샷건 파이프라인툴을 사용하면 이 플레이어를 무료로 사용할 수 있습니다.
+샷건 파이프라인툴을 사용하면 이 플레이어를 무료로 사용할 수 있습니다.
 Python을 이용해서 RV 플레이어에 기능을 추가할 수 있습니다.
 
 - http://www.tweaksoftware.com
