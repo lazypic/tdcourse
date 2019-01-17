@@ -48,7 +48,7 @@ $ git remote add upstream https://github.com/cgiseminar/curriculum.git
 
 1. 설정중에도 만약 최신코드가 있을지 모르니 fetch 합니다. fetch는 upstream에서 코드를 자동으로 머지하지 않습니다.(pull은 자동으로 머지합니다.)
 ```bash
-$ git fetch upsteam
+$ git fetch upstream
 ```
 
 1. 이슈,버그리스트를 보고 branch를 생성합니다.
