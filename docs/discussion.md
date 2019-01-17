@@ -90,6 +90,9 @@ git merge upstream/master
 ```bash
 $ git branch -D test
 ```
+1. github 웹에서도 test 브렌치를 제거합니다.
+```bash
+$ git push --delete origin test
 
 1. Fork한 리포지터리도 업데이트합니다.
 ```bash
