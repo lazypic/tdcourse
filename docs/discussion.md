@@ -93,7 +93,7 @@ $ git branch -D test
 
 1. 브랜치를 제거합니다.(깃허브의 브랜치)
 ```bash
-$ git push --delete origin iss60
+$ git push --delete origin test
 ```
 
 1. Fork한 리포지터리도 업데이트합니다.
@@ -104,9 +104,4 @@ $ git push origin master
 1. gitk를 설치하고 관찰합니다.
 ```
 # yum install gitk
-```
-
-1. github에서의 이슈 브런치를 제거합니다.
-```bash
-$ git push --delete origin test
 ```
