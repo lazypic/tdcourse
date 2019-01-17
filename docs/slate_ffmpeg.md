@@ -15,6 +15,9 @@ ffmpeg -f image2 -start_number 100 -r 24 -i ~/examples/FOO_0010/FOO_0010.%4d.jpg
 ffmpeg -i ~/examples/FOO_0010/FOO_0010.0100.jpg -vf "drawbox=x=0:y=0:w=iw:h=50:color=black@0.3:width=iw:height=50:t=50","drawbox=x=0:y=ih-50:w=iw:h=ih:color=black@0.3:width=iw:height=50:t=50","drawtext=fontfile=/usr/share/fonts/gnu-free/FreeMono.ttf: text='LAZYPIC | CIRCLE': fontsize=30: x=10: y=((50-th)/2) : fontcolor=white","drawtext=fontfile=/usr/share/fonts/gnu-free/FreeMono.ttf: text='FOO_0010': fontsize=30: x=(w-tw)/2: y=((50-th)/2) : fontcolor=white","drawtext=fontfile=/usr/share/fonts/gnu-free/FreeMono.ttf: text='%{localtime\:%Y-%m-%d %a %T}': fontsize=30: x=(w-tw-10): y=((50-th)/2) : fontcolor=white","drawtext=fontfile=/usr/share/fonts/gnu-free/FreeMono.ttf: text='$USER comp v001': fontsize=30: x=10: y=h-50+((50-th)/2): fontcolor=white","drawtext=fontfile=/usr/share/fonts/gnu-free/FreeMono.ttf: timecode='09\:57\:00\:00': r=23.976: fontsize=30: x=(w-tw)/2: y=h-50+((50-th)/2): fontcolor=white","drawtext=fontfile=/usr/share/fonts/gnu-free/FreeMono.ttf: text='%{n}': start_number=100: fontsize=30: x=(w-tw-10): y=h-50+((50-th)/2): fontcolor=white" -y output.jpg
 ```
 
+폰트는 리버레이션 모노
+
+
 ## 슬레이트 디자인시 자주 사용되는 옵션
 - `w`, `W`, `width`
 - `h`, `H`, `height`
