@@ -83,7 +83,7 @@ $ git push origin test
 ```bash
 $ git checkout master
 $ git branch
-git merge upstream/master
+$ git pull upstream master
 ```
 
 1. test 브랜치를 제거합니다.
