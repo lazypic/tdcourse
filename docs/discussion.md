@@ -105,3 +105,8 @@ $ git push origin master
 ```
 # yum install gitk
 ```
+
+1. github에서의 이슈 브런치를 제거합니다.
+```bash
+$ git push --delete origin test
+```
