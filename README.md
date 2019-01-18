@@ -19,7 +19,7 @@
 - 업무협의 : 정선화 부원장 / 010-8663-4626
 - 프로그래밍이 처음이라면 한번씩 읽고 오세요 : https://wikidocs.net/book/2
 
-![Progress](http://progressed.io/bar/31?title=progress)
+![Progress](http://progressed.io/bar/34?title=progress)
 
 ## 내 용
 1. [x] 강의 소개 (12.28)
@@ -119,13 +119,15 @@
 	1. [Player](docs/player.md)
 	1. [동영상 포멧과 Codec](docs/format_codec.md)
 
-1. [ ] Github로 협업하기 (1.17)
+1. [x] Github로 협업하기 (1.17)
 	1. [Git 협업방식 설명](docs/github_collaboration.md)
 	1. [이슈, Pull Request 상태에서의 토론](docs/discussion.md)
 	1. [gitk](docs/gitk.md)
-	1. 실습 : Git 협업모델 테스트, github.io 코드 작성
+	1. 실습 : Git 협업모델 테스트
 
-1. [파이썬 X in Y minutes](docs/python_x_in_y_min.md)
+1. [x] [파이썬 X in Y minutes 1](docs/python_x_in_y_min.md) (1.18)
+
+1. [파이썬 X in Y minutes 2](docs/python_x_in_y_min.md)
 
 1. 파이썬 기초 실무
 	1. [파이썬 함수 만들기](docs/python_make_function.md)
