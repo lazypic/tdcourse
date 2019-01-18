@@ -22,3 +22,7 @@ $ ./configure --prefix=$HOME/app/cmake-3.13.2
 $ make
 $ make install
 ```
+
+## 실습
+- cmake를 설치하는 스크립트를 작성하고 Github에 올립니다.
+- cmake 라고 터미널에 실행했을 때 높은 버전의 cmake가 작동되도록 설정합니다.

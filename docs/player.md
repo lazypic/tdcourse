@@ -11,21 +11,26 @@ VFX를 위한 미디어 재생 플레이어들을 알아보고 설치해 봅시�
 
 쉽게 설치하는 방법
 
-https://sourceforge.net/projects/djv/files/djv-stable/ 에서 너무 높지 않은 버전의 rpm파일을 다운로드 받습니다.
-CentOS7.5~6 에서는 1.1.2를 다운로드 받습니다.
+OpenGL에러가 발생하면 https://sourceforge.net/projects/djv/files/djv-stable/ 에서 너무 높지 않은 버전의 rpm파일을 다운로드 받습니다.
 
 ```bash
-# yum install DJV-1.1.2.x86_64.rpm
+# yum install DJV-1.2.5-1.x86_64.rpm
 ```
 
 프로그램 > 그래픽 > djv_view에 설치됩니다.
-실제 설치경로는 /usr/local/djv-1.1.2-Linux-64/bin 입니다.
+실제 설치경로는 /usr/local/DJV/bin 입니다.
 
 터미널에서 실행하려면 .bashrc 파일에 아래 옵션을 추가해 줘야합니다.
 
 ```bash
 export PATH=$PATH:/usr/local/djv-1.1.2-Linux-64/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/djv-1.1.2-Linux-64/lib
+```
+
+#### OpenGL 체크
+DJV 뷰어는 OpenGL3.3 이상이어야 작동합니다. 아래 명령어를 통해서 OpenGL 버전을 알 수 있습니다.
+```
+$ glxinfo | grep "OpenGL version"
 ```
 
 #### 컴파일
@@ -72,7 +77,7 @@ $ djv_view
 ![rv](https://d2.alternativeto.net/dist/s/65d5a1c2-d8bc-e011-9727-0025902c7e73_2_full.jpg?format=jpg&width=1600&height=1600&mode=min&upscale=false)
 
 아마도 대부분의 VFX회사에서는 이 플레이어를 가장 많이 사용합니다.
-샷건 파이프라인툴을 사용하면 이 플레이어를 무료로 사용할 수 있습니다.
+샷건 파이프라인툴을 사용하면 이 플레이어를 무료로 사용할 수 있습니다.
 Python을 이용해서 RV 플레이어에 기능을 추가할 수 있습니다.
 
 - http://www.tweaksoftware.com
@@ -87,8 +92,9 @@ $ tar -zxvf rv-Linux-x86-64-7.3.0.tar.gz
 #### prores 코덱 활성화하기
 주의! 이 방식을 사용하면 법적 책임이 발생할 수 있습니다.
 prores코덱을 재생하도록 배포시 RV 플레이어에서 기본적으로 지원하지 않는 이유는
-아래 나열된 코덱은 독점권, 지적 재산권 하에서 보호되는 알고리즘이 사용되기 때문입니다. 이 코덱을 실제로 사용하기 위해서는 적절한 라이센스와 권리가지고 사용해야 하며 무단으로 사용하게 되면 그에 따른 책임이 발생할 수 있습니다.
-만약 책임지기 싫다면 항목에서 제거하고 컴파일하여 사용하지 말아주세요.
+아래 나열된 코덱은 독점권, 지적 재산권 하에서 보호되는 알고리즘이 사용되기 때문입니다.
+이 코덱을 실제로 사용하기 위해서는 적절한 라이센스와 권리가지고 사용해야 하며 무단으로 사용하게 되면 그에 따른 책임이 발생할 수 있습니다.
+만약 책임지기 싫다면 항목을 따라하지 말아주세요.
 
 이 내용은 init.cpp 파일 상단 주석에도 표기되어 있습니다.
 
@@ -150,6 +156,11 @@ STD_CXXFLAGS = -std=gnu++98 -stdlib=libc++
 
 컴파일을 다시 해줍니다.
 
+## 실습
+- djv_view를 환경변수에 추가해 줍니다.
+- djv_view를 app 폴더에 자동으로 설치 할 수 있도록 .sh 파일을 제작합니다.
+- djv_view 실행명령어도 alias로 추가해 줍니다.
+- djv_view alias가 출력되도록 echo 화면을 만들어 봅시다.
 
 ## Reference
 - https://www.uncleninja.com/uncategorized/2016-05-04/install-mpv-player-smplayer-centos-7/

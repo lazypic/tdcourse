@@ -56,10 +56,16 @@ alias 차이홍="echo 031-916-8867 && espeak 'The contact number for Chinese res
 
 ~/.bashrc
 ```
-export OCIO=$HOME/OpenColorIO-Configs/aces_1.0.3/config.ocio
+export EMAIL="hello@lazypic.org"
+export OCIO="$HOME/app/OpenColorIO-Configs/aces_1.0.3/config.ocio"
 ```
 
-OCIO는 OpenColorIO의 약자이며 이 환경변수를 가지고 추후 컬러매니징을 다루게 됩니다.
+터미널을 새로 열고 값이 잘 적용되어있는지 echo를 이용해서 확인해보세요.
+
+```bash
+$ echo $EMAIL
+$ echo $OCIO
+```
 
 ## source
 설정파일을 불러올 때 사용합니다.
@@ -67,19 +73,18 @@ OCIO는 OpenColorIO의 약자이며 이 환경변수를 가지고 추후 컬러�
 환경변수, alias가 정의된 custom.bash 파일이 있다면,
 source 명령어를 이용해서 파일에 선언된 환경변수를 부를 수 있습니다.
 
-~/env/custom.env
+~/centos/env/init.env
 ```bash
-PROJECT=CIRCLE
-SHOT=FOO_0010
+TEST="OK"
 ```
 
 터미널에서 값이 잘 인식되는지 확인합니다.
 ```bash
-$ source $HOME/env/custom.env
-$ echo $PROJECT
-$ echo $SHOT
+$ source $HOME/env/init.env
+$ echo $TEST
+OK
 ```
 
 ## 실습
-- 우리가 자주 사용하는 환경변수 폴더를 생성합니다.
-- 환경변수 리포지터리를 생성하고 환경변수 폴더를 저장합니다.
+- ~/centos/env 경로로 자주 사용하는 환경변수 파일을 생성합니다.
+- 환경변수 리포지터리를 생성하고 환경변수 값을 추가로 설정합니다.

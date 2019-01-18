@@ -7,7 +7,7 @@
 - 시 간 : 월 ~ 금
 	- 2018.12.28 ~ 2019.01.14 : 10:00 ~ 13:00 TD교육 / 14:00 ~ 18:00 툴교육
 	- 2019.01.15 ~ 2019.01.28 : 09:00 ~ 13:00 TD교육 / 14:00 ~ 17:00 툴교육
-	- 2019.01.29 ~ 2019.02.27 : 10:00 ~ 13:00 TD교육 / 14:00 ~ 18:00 TD교육
+	- 2019.01.29 ~ 2019.02.27 : 09:00 ~ 13:00 TD교육 / 14:00 ~ 17:00 TD교육
 	- 매주 금 : 14:00 ~ 15:00 1시간 / The Foundry 위원식 지사장
 	- 쉬는시간 : 매 50분에서 10분간
 	- 점심시간 : 13:00 ~ 14:00 / 지하2층 구내식당
@@ -19,7 +19,7 @@
 - 업무협의 : 정선화 부원장 / 010-8663-4626
 - 프로그래밍이 처음이라면 한번씩 읽고 오세요 : https://wikidocs.net/book/2
 
-![Progress](http://progressed.io/bar/22?title=progress)
+![Progress](http://progressed.io/bar/31?title=progress)
 
 ## 내 용
 1. [x] 강의 소개 (12.28)
@@ -103,27 +103,30 @@
 	1. 모두 같은 에디터를 사용하고 설정을 공유하는 리포지터리 제작
 	1. Readme 문서 작성을 위한 [Markdown 문법배우기](docs/markdown.md)
 
-1. [ ] 쉘 스크립트 (1.11)
+1. [x] 쉘 스크립트 (1.11)
 	1. [.sh 스크립트 생성](docs/shell_script.md)
 	1. 실습 : [trans 명령 자동설치 스크립트](docs/install_trans.md)
 
-1. [환경변수란?](docs/env.md)
+1. [x] [환경변수란?](docs/env.md) (1.14)
 	1. [자신만의 .bashrc 셋팅하기](docs/custom_bashrc.md)
 	1. [환경변수 및 패키징 관리툴 관리 툴](docs/env_managing.md)
 
-1. 동영상과 코덱
+1. [x] 예제파일 설치하기 (1.15)
+	1. ~/examples 설치 : `cd ~ && git clone https://github.com/cgiseminar/examples`
+	1. [샘플파일설치](docs/sample.md)
+
+1. [x] 동영상과 코덱 (1.16)
 	1. [Player](docs/player.md)
 	1. [동영상 포멧과 Codec](docs/format_codec.md)
 
-1. 예제파일 설치하기
-
-1. Github로 협업하기
+1. [ ] Github로 협업하기 (1.17)
 	1. [Git 협업방식 설명](docs/github_collaboration.md)
-	1. 실습 : Git 협업모델 테스트
 	1. [이슈, Pull Request 상태에서의 토론](docs/discussion.md)
+	1. 실습 : Git 협업모델 테스트, github.io 코드 작성
+
+1. [파이썬 X in Y minutes](docs/python_x_in_y_min.md)
 
 1. 파이썬 기초 실무
-	1. [파이썬 X in Y minutes](docs/python_x_in_y_min.md)
 	1. [파이썬 함수 만들기](docs/python_make_function.md)
 	1. [파이썬 클래스 만들기](docs/python_make_class.md)
 
@@ -167,6 +170,7 @@
 
 1. VFX에서 자주 사용되는 파일 : 촬영, 현장데이터
 	1. [촬영데이터 파일명의 구조](docs/raw_name.md)
+	1. 촬영데이터 복사
 	1. [raw2exr](docs/arriconverter_cmd.md)
 	1. [metaextractor](docs/arri_metaextract.md)
 	1. [현장데이터 수집툴](docs/setellite.md)
@@ -238,7 +242,7 @@
 1. [Nukepedia 사이트 소개](docs/nukepedia.md)
 
 1. Nuke Command line
-	1. [Nuke Command line Rendering](docs/nuke_cmd.md)
+	1. [Nuke Command Line Rendering](docs/nuke_cmd.md)
 	1. [Render Management Tools 소개](docs/render_management_tools.md)
 
 1. 메뉴, ViewLut 설정

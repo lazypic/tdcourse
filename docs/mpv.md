@@ -10,6 +10,7 @@
 
 설치 방법은 아래와 같습니다.
 ```
+# yum install epel-release
 # yum install yasm
 # yum install fribidi
 # yum install youtube-dl
