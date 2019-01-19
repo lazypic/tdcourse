@@ -6,7 +6,7 @@
 # yum install graphviz
 ```
 
-![graphviz](../figures/graphviz.png)
+![graphviz](../figures/graphviz.jpg)
 
 test.dot
 ```
@@ -37,12 +37,12 @@ shape = "record"
 ];
 
 "client" [
-label = "client | 10.0.0.2-254"
+label = "client | 10.0.0.2-254 | subnetmask | 255.255.255.0 | gatway | 10.0.0.1"
 shape = "record"
 ];
 
 "macmini" [
-label = "macmini | 10.0.1.23"
+label = "macmini | 10.0.1.23 | subnetmask | 255.255.255.0 | gatway | 10.0.1.1"
 shape = "record"
 ];
 
