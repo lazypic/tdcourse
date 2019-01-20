@@ -13,3 +13,6 @@ $ curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
 
 ## 실습
 - pip를 자동으로 설치하는 `pip.sh` 스크립트를 작성하고 Github에 올립니다.
+
+## Reference
+- 설치 원문 : https://pip.pypa.io/en/stable/installing/
