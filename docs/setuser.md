@@ -19,7 +19,7 @@ Zenity를 이용해서 사용자 환경변수 등록 프로그램을 제작해�
 ![setuser07](../figures/setuser07.png)
 ![setuser08](../figures/setuser08.png)
 
-잘 설정되면 ~/.bashrc에 환경변수가 추가되어야 합니다.
+잘 설정되면 ~/.bashrc에 환경변수가 우리가 입력한 변수가 추가되어야 합니다.
 ![setuser09](../figures/setuser09.png)
 
 프로그램을 다시 실행하면 기존 정보는 삭제되고 새로운 정보가 갱신되어야 합니다.
