@@ -109,7 +109,7 @@
 
 1. [x] [환경변수란?](docs/env.md) (1.14)
 	1. [자신만의 .bashrc 셋팅하기](docs/custom_bashrc.md)
-	1. [환경변수 및 패키징 관리툴 관리 툴](docs/env_managing.md)
+	1. [환경변수 및 패키징 관리툴](docs/env_managing.md)
 
 1. [x] 예제파일 설치하기 (1.15)
 	1. ~/examples 설치 : `cd ~ && git clone https://github.com/cgiseminar/examples`
