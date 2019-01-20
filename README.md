@@ -125,9 +125,9 @@
 	1. [gitk](docs/gitk.md)
 	1. 실습 : Git 협업모델 테스트
 
-1. [x] [파이썬 X in Y minutes 1](docs/python_x_in_y_min.md) (1.18)
+1. [x] [파이썬 X in Y minutes 1부](docs/python_x_in_y_min.md) (1.18)
 
-1. [파이썬 X in Y minutes 2](docs/python_x_in_y_min.md)
+1. [파이썬 X in Y minutes 2부](docs/python_x_in_y_min.md)
 
 1. 파이썬 기초 실무
 	1. [파이썬 함수 만들기](docs/python_make_function.md)
