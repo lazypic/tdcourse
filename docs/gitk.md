@@ -1,13 +1,13 @@
 # git history
-프로젝트의 역사를 볼 수 있는 프로그램
+프로젝트의 역사를 볼 수 있는 프로그램을 알아보겠습니다.
 
 ## gitk
-설치
+gitk 설치하기
 ```
 # yum -y install gitk
 ```
 
-실행
+.git 폴더가 존재하는 리포지터리로 이동하고 gitk를 실행합니다.
 ```
 $ cd curriculum/
 $ gitk
