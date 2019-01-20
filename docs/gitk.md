@@ -5,7 +5,7 @@
 ```
 # yum install gitk
 ```
-1. 실행
+2. 실행
 ```
 $ cd curriculum/
 $ gitk
