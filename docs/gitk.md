@@ -17,4 +17,4 @@ $ gitk
 - https://gist.github.com/qiaoxueshi/5910150
 
 ## 실습
-- centos/scripts 에 gitk 가 자동 설치되도록 기능을 추가해주세요.
+- github centos/scripts 에 gitk 가 자동 설치되도록 기능을 추가해주세요.
