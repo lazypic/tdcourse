@@ -133,6 +133,10 @@
 	1. [파이썬 함수 만들기](docs/python_make_function.md)
 	1. [파이썬 클래스 만들기](docs/python_make_class.md)
 
+1. [경로기반의 파이프라인](docs/path_based_pipeline.md)
+	1. [Python : 경로를 분리하는 방법](docs/path_control.md)
+	1. [Python : 레귤러 익스프레션](docs/path_regexp.md)
+
 1. 개발자 유틸리티 설치
 	1. [pip](docs/pip.md) 설치
 	1. [cmake](docs/cmake.md) 설치
@@ -147,10 +151,6 @@
 	1. [바이너리와 아스키](docs/binary_ascii.md)
 	1. [의존성이야기](docs/dependency.md)
 	1. [의존성을 최소화 하기 위해서 사용했던 Go 언어](docs/ldd.md)
-
-1. [경로기반의 파이프라인](docs/path_based_pipeline.md)
-	1. [Python : 경로를 분리하는 방법](docs/path_control.md)
-	1. [Python : 레귤러 익스프레션](docs/path_regexp.md)
 
 1. 파일변환 유틸리티
 	1. [파일 변환 유틸리티](docs/convert_util.md)
