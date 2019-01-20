@@ -211,6 +211,7 @@
 1. GUI제작-1
 	1. [GUI 솔루션](docs/gui_solution.md)
 	1. [간단한 GUI : zenity](docs/zenity.md)
+	1. [Zenity 응용 : 사용자 환경변수 등록](docs/setuser.md)
 	1. [Pyside2 알아보기](docs/pyside2_gui.md)
 
 1. GUI제작-2
