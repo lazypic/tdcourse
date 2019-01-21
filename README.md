@@ -19,7 +19,7 @@
 - 업무협의 : 정선화 부원장 / 010-8663-4626
 - 프로그래밍이 처음이라면 한번씩 읽고 오세요 : https://wikidocs.net/book/2
 
-![Progress](http://progressed.io/bar/34?title=progress)
+![Progress](http://progressed.io/bar/35?title=progress)
 
 ## 내 용
 1. [x] 강의 소개 (12.28)
@@ -127,7 +127,10 @@
 
 1. [x] [파이썬 X in Y minutes 1부](docs/python_x_in_y_min.md) (1.18)
 
-1. [파이썬 X in Y minutes 2부](docs/python_x_in_y_min.md)
+1. [x] [파이썬 X in Y minutes 2부](docs/python_x_in_y_min.md) (1.21)
+
+1. [파이썬 X in Y minutes 3부](docs/python_x_in_y_min.md) (1.22)
+	- github.io 개발 시작.
 
 1. 파이썬 기초 실무
 	1. [파이썬 함수 만들기](docs/python_make_function.md)
