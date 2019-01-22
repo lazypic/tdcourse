@@ -68,7 +68,7 @@ def Projects():
         if not os.path.isdir("/project/"+i):
             continue
         plist.append(i)
-    return plis
+    return plist
 
 if __name__ == '__main__':
     print(Projects())
