@@ -129,10 +129,10 @@
 
 1. [x] [파이썬 X in Y minutes 2부](docs/python_x_in_y_min.md) (1.21)
 
-1. [파이썬 X in Y minutes 3부](docs/python_x_in_y_min.md) (1.22)
+1. [x] [파이썬 X in Y minutes 3부](docs/python_x_in_y_min.md) (1.22)
 	- github.io 개발시작
 
-1. 파이썬 기초 실무
+1. 파이썬 기초 실무 (1.23)
 	1. [파이썬 함수 만들기](docs/python_make_function.md)
 	1. [파이썬 클래스 만들기](docs/python_make_class.md)
 
