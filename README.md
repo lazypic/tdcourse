@@ -132,11 +132,11 @@
 1. [x] [파이썬 X in Y minutes 3부](docs/python_x_in_y_min.md) (1.22)
 	- github.io 개발시작
 
-1. 파이썬 기초 실무 (1.23)
+1. [x] 파이썬 기초 실무 (1.23)
 	1. [파이썬 함수 만들기](docs/python_make_function.md)
 	1. [파이썬 클래스 만들기](docs/python_make_class.md)
 
-1. [경로기반의 파이프라인](docs/path_based_pipeline.md)
+1. [경로기반의 파이프라인](docs/path_based_pipeline.md) (1.24)
 	1. [Python : 경로를 분리하는 방법](docs/path_control.md)
 	1. [Python : 레귤러 익스프레션](docs/path_regexp.md)
 
