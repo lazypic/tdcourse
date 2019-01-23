@@ -5,6 +5,10 @@
 
 https://learnxinyminutes.com/docs/python/
 
+## 실습
+- 3줄로 구구단 함수 제작
+- 강의실 모델을 클래스로 제작하기
+
 ## Reference
 - class method, static method : http://schoolofweb.net/blog/posts/파이썬-oop-part-4-클래스-메소드와-스태틱-메소드-class-method-and-static-method/
 - yield : https://kkamikoon.tistory.com/90

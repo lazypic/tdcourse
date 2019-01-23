@@ -1,5 +1,5 @@
 # 파이썬으로 경로 추출하기
-프로젝트 경로를 분리하는 방법을 다루어 보겠습니다.
+경로에서 정보를 추출하는 방법을 다루어 보겠습니다.
 
 ```
 /project/circle/shot/FOO/0010/comp/v001.nk
@@ -20,26 +20,25 @@
 /project/circle/shot/FOO/0010/src/v001/FOO_0010_src_v001.####.exr
 /project/circle/shot/FOO/0010/ref/v001/FOO_0010_ref_v001.####.exr
 
-/project/circle/shot/FOO/0010/comp/v001.nk
-/project/circle/shot/FOO/0010/comp/pub.nk
+/project/circle/shot/FOO/0010/comp/FOO_0010_comp_v001.nk
 ```
 
 ## 기본적인 경로 스플릿
 
 ```python
-p = "/project/circle/shot/FOO/0010/comp/v001.nk"
+p = "/project/circle/shot/FOO/0010/comp/FOO_0010_comp_v001.nk"
 plist = p.split("/")
 print(plist)
 ```
 
 ```
-['', 'project', 'circle', 'shot', 'FOO', '0010', 'comp', 'v001.nk']
+['', 'project', 'circle', 'shot', 'FOO', '0010', 'comp', 'FOO_0010_comp_v001.nk']
 ```
 
 ## 패스와 파일명을 분리하는 패턴
 
 ```python
-p = "/project/circle/shot/FOO/0010/comp/v001.nk"
+p = "/project/circle/shot/FOO/0010/comp/FOO_0010_comp_v001.nk"
 path, filename = os.path.split(p)
 print path
 print filename
@@ -48,13 +47,13 @@ print filename
 Output:
 ```
 /project/circle/shot/FOO/0010/comp
-v001.nk
+FOO_0010_comp_v001.nk
 ```
 
 ## 파일명과 확장자를 가지고 오는 패턴
 
 ```python
-p = "/project/circle/shot/FOO/0010/comp/v001.nk"
+p = "/project/circle/shot/FOO/0010/comp/FOO_0010_comp_v001.nk"
 filename_with_ext = os.path.basename(p)
 filename, ext = os.path.splitext(filename_with_ext)
 print filename
@@ -63,6 +62,6 @@ print ext
 
 Output:
 ```
-v001
+FOO_0010_comp_v001
 .nk
 ```
