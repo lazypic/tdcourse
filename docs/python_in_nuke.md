@@ -26,9 +26,10 @@ macOS : 자주 사용하는 단축키
 
 ## 실습
 
-```
+```bash
 print("hello nuke python")
 ```
+
 위 코드를 타이핑하고 `Ctrl + Enter` 키를 눌러보세요.
 
 Output창에 아래와 같은 결과가 출력되면 정상입니다.
