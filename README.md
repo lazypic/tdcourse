@@ -285,13 +285,13 @@
 	
 1. DB 소개 및 활용예
 	1. [DB의 종류](docs/db.md)
-	1. [PostrgreSQL 설치](docs/install_postrgresql.md)
-	1. [PostrgreSQL PythonAPI 실습](docs/python_postrgresql.md)
-	1. [MongoDB 설치](docs/install_mongodb.md)
-	1. [MongoDB PythonAPI 실습](docs/pymongo.md)
 	1. [Redis 설치](docs/install_redis.md)
 	1. [Redis PythonAPI 실습](docs/python_redis.md)
-
+	1. [MongoDB 설치](docs/install_mongodb.md)
+	1. [MongoDB PythonAPI 실습](docs/pymongo.md)
+	1. [PostrgreSQL 설치](docs/install_postrgresql.md)
+	1. [PostrgreSQL PythonAPI 실습](docs/python_postrgresql.md)
+	
 1. [응용 및 실습](docs/dev_todo.md)
 
 1. 포트폴리오 진행
