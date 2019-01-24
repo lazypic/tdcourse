@@ -44,7 +44,7 @@ http://opencolorio.org/userguide/contexts.html 문서를 보면 showcfg 같은 �
     │   │   └── mamma
     │   │       └── model
     │   │           └── char_mamma_model_v001.blend
-    │   └── shader
+    │   └── osl
     │       └── shader.osl
     ├── config
     │   ├── ocio
