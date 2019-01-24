@@ -28,6 +28,7 @@
 		1. [개발자가 보는 시장 : VFX, 애니메이션, 게임](docs/market.md)
 		1. [회사의 발전단계](docs/techtree.md)
 		1. [왜 리눅스를 사용하는가?](docs/why_linux.md)
+		1. [강의를 위한 단축키](docs/ppt_hotkey.md)
 
 	1. [Github와 오픈소스 이야기](docs/github.md)
 		1. 실습 : Github 가입
@@ -128,9 +129,10 @@
 1. [x] [파이썬 X in Y minutes 1부](docs/python_x_in_y_min.md) (1.18)
 
 1. [x] [파이썬 X in Y minutes 2부](docs/python_x_in_y_min.md) (1.21)
+	- 함수 예제 작성
 
 1. [x] [파이썬 X in Y minutes 3부](docs/python_x_in_y_min.md) (1.22)
-	- github.io 개발시작
+	- 클래스 예제 작성, github.io 개발시작
 
 1. [x] 파이썬 기초 실무 (1.23)
 	1. [파이썬 함수 만들기](docs/python_make_function.md)
