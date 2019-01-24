@@ -110,3 +110,4 @@ $ brew install tree
 - tree 명령어의 설치도 최초에 리눅스 셋팅시 자동 설치되도록 github에 추가합니다.
 - linux 에는 useradd or adduser, groupadd 명령어가 존재합니다. addproject 명령어를 만들어봅시다.
 - addproject 명령어의 역할은 프로젝트 폴더 생성, 내부 필요한 폴더를 생성하는 python 스크립트입니다.
+- 에러처리 : project가 존재하는지 체크할 것.
