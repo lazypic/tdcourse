@@ -19,7 +19,7 @@
 - 업무협의 : 정선화 부원장 / 010-8663-4626
 - 프로그래밍이 처음이라면 한번씩 읽고 오세요 : https://wikidocs.net/book/2
 
-![Progress](http://progressed.io/bar/35?title=progress)
+![Progress](http://progressed.io/bar/38?title=progress)
 
 ## 내 용
 1. [x] 강의 소개 (12.28)
