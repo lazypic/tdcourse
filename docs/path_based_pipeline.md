@@ -111,3 +111,19 @@ $ brew install tree
 - linux 에는 useradd or adduser, groupadd 명령어가 존재합니다. addproject 명령어를 만들어봅시다.
 - addproject 명령어의 역할은 프로젝트 폴더 생성, 내부 필요한 폴더를 생성하는 python 스크립트입니다.
 - 에러처리 : project가 존재하는지 체크할 것.
+- 프로젝트명의 시작이 숫자로 시작하는지 체크할 것.
+- 소문자 영문 이외에 다른 글씨가 존재하는지 체크할 것.
+- 윈도우즈에서 사용하면 안되는 글씨가 존재하는지 체크할 것.
+    - CON
+    - PRN
+    - AUX
+    - CLOCK$
+    - NUL
+    - A~Z
+    - COM1, COM2, COM3, COM4
+    - LPT1, LPT2, LPT3
+
+
+
+## Reference
+- https://www.thewindowsclub.com/create-restricted-files-folders-con-aux-nul-click-windows

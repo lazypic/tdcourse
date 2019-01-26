@@ -6,6 +6,11 @@
 
 일반적으로 렌더링 매니지먼트 툴은 command를 처리할 수 있기 때문에, 시뮬레이션, 베이크, 파일복사, mov생성등의 작업도 렌더링 매니지먼트 툴을 이용해서 처리합니다.
 
+## OpenCue
+소니이미지웍스에서 사용하는 렌더링 매니징툴이 오픈소스로 전환되었습니다.
+- 문서 : https://github.com/imageworks/OpenCue/wiki
+- 소스코드 : https://github.com/imageworks/OpenCue
+
 ## Tractor
 웹브라우저에서 바로 사용할 수 있기 때문에 클라이언트(아티스트)가 정보를 확인하기 편리합니다.
 
