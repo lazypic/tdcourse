@@ -19,7 +19,7 @@
 - 업무협의 : 정선화 부원장 / 010-8663-4626
 - 프로그래밍이 처음이라면 한번씩 읽고 오세요 : https://wikidocs.net/book/2
 
-![Progress](http://progressed.io/bar/35?title=progress)
+![Progress](http://progressed.io/bar/38?title=progress)
 
 ## 내 용
 1. [x] 강의 소개 (12.28)
@@ -286,13 +286,13 @@
 	
 1. DB 소개 및 활용예
 	1. [DB의 종류](docs/db.md)
-	1. [PostrgreSQL 설치](docs/install_postrgresql.md)
-	1. [PostrgreSQL PythonAPI 실습](docs/python_postrgresql.md)
-	1. [MongoDB 설치](docs/install_mongodb.md)
-	1. [MongoDB PythonAPI 실습](docs/pymongo.md)
 	1. [Redis 설치](docs/install_redis.md)
 	1. [Redis PythonAPI 실습](docs/python_redis.md)
-
+	1. [MongoDB 설치](docs/install_mongodb.md)
+	1. [MongoDB PythonAPI 실습](docs/pymongo.md)
+	1. [PostrgreSQL 설치](docs/install_postrgresql.md)
+	1. [PostrgreSQL PythonAPI 실습](docs/python_postrgresql.md)
+	
 1. [응용 및 실습](docs/dev_todo.md)
 
 1. 포트폴리오 진행

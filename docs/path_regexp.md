@@ -30,9 +30,10 @@ path = "/project/circle/shot/FOO/0010/comp/FOO_0010_comp_v001.nk"
 
 def project(path):
     p = re.findall('/project/(\S[^/]+)', path.replace("\\","/"))
-    if len(p) == 1:
-        return p[0], None
-    return "", "project 정보를 경로에서 가지고 올 수 없습니다."
+    if len(p) != 1:
+        return "", "project 정보를 경로에서 가지고 올 수 없습니다."
+    return p[0], None
+    
 
 if __name__ == "__main__":
     project, err = project(path)
