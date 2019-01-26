@@ -18,36 +18,42 @@ GUI생성
 ```python
 from PySide2.QtWidgets import *
 
-class Nklib(QtWidgets.QWidget):
+class NkLibrary(QWidget):
     currentItem = ""
+    nklist = QListWidget()
 
     def __init__(self):
-        super(Nklib, self).__init__()
-        lst = QListWidget()
+        super(NkLibrary, self).__init__()
         for i in range(100):
-            lst.addItem(QListWidgetItem("/test/"+str(i)+".nk"))
+            self.nklist.addItem(QListWidgetItem("/test/"+str(i)+".nk"))
         ok = QPushButton("OK")
         cancel = QPushButton("Cancel")
         ok.clicked.connect(self.bt_ok)
+        self.nklist.itemClicked.connect(self.item_click)
         cancel.clicked.connect(self.close)
 
         layout = QGridLayout()
-        layout.addWidget(lst, 0, 0, 1, 2)
+        layout.addWidget(self.nklist, 0, 0, 1, 2)
         layout.addWidget(ok, 2, 0)
         layout.addWidget(cancel, 2, 1)
         self.setLayout(layout)
-    
+    def item_click(self, item):
+        self.currentItem = item.text()
     def bt_ok(self):
-        print "ok"
+        print "load %s" % (self.currentItem)
+        self.close()
 
-global app
+# 이미 존재하는 customApp이 있다면 종료시킨다.
+global customApp
 try:
-    app.close()
+    customApp.close()
 except:
     pass
-app = Nklib()
+
+# customApp 변수로 NkLibrary를 실행한다.
+customApp = NkLibrary()
 try:
-    app.show()
+    customApp.show()
 except:
     pass
 ```
