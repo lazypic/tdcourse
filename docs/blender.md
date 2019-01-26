@@ -1,0 +1,33 @@
+# Blender
+
+블랜더 2.80 베타 파일명은 아래와 같습니다.
+blender-2.80-1b6da95ccb11-linux-glibc224-x86_64
+
+이름을 관찰하면 glibc2.24를 이용해서 컴파일된 정보를 확인할 수 있습니다.
+
+블랜더2.8 베타를 실행하려면 libmvec.so 파일이 필요합니다.
+관련된 파일을 컴파일 하는 방법을 다룹니다.
+
+```
+cd ~
+cd app
+mkdir glibc
+wget https://ftp.gnu.org/gnu/libc/glibc-2.24.tar.gz
+tar -xvzf ./glibc-2.24.tar.gz
+cd glibc-2.24
+mkdir _build
+cd _build
+../configure --enable-kernel=3.10 --prefix=$HOME/app/glibc
+```
+
+kernel version check
+```
+$ uname -a
+```
+
+blender file
+```
+cd lib
+ln -s $HOME/app/glibc-2.24/_build/mathvec/libmvec.so ./libmvec.so.1
+ln -s $HOME/app/glibc-2.24/_build/math/libm.so ./libm.so.6
+```
