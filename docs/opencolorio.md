@@ -2,7 +2,7 @@
 ACES는 Academy Color Encoding Specification의 약자입니다.
 OpenColorIO는 ACES 표준을 따르는 컬러메니징 솔루션입니다.
 
-소니이미지웍스에서 개발되었습니다.
+소니픽쳐스 이미지웍스에서 개발되었습니다.
 
 ## 지원하는 프로그램
 - Houdini
@@ -28,7 +28,8 @@ OpenColorIO는 ACES 표준을 따르는 컬러메니징 솔루션입니다.
 ## OpenColorIO-Configs 셋팅하기
 OpenColorIO-Configs는 OpenColorIO의 컬러 설정파일입니다.
 
-기본적으로 뉴크에는 OCIO가 탑재되어있습니다. 만약 내부 버전보다 더 높은 버전을 사용하고 싶다면 아래 설정을 따라해주세요.
+기본적으로 뉴크에는 OCIO가 탑재되어있습니다.
+뉴크 내부 버전보다 더 높은 버전의 OCIO를 사용하고 싶다면 아래 설정을 따라해주세요.
 
 ```bash
 cd ~/app
@@ -37,7 +38,7 @@ git clone https://github.com/imageworks/OpenColorIO-Configs
 
 뉴크에 기본 탑재된 OCIO가 아닌 위 Configs 파일을 이용하고 싶다면 환경변수에 OCIO경로를 지정하면 뉴크가 자동으로 인식하여 뉴크 실행시 OpenColorIO-Configs를 로딩합니다.
 
-환경변수 파일에 아래 내용을 추가합니다.
+~/centos/env/init.bash 파일에 아래 내용을 추가합니다.
 ```
 export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.0.3/config.ocio
 ```
@@ -53,20 +54,22 @@ OpenColorIO를 컴파일하면 각종 라이브러리, 명령어를 추가로 �
 # yum install glew-devel
 ```
 
-```
-cd ~/app
-git clone https://github.com/imageworks/OpenColorIO OpenColorIO_src
-mkdir OpenColorIO_build
-cd OpenColorIO_build
-scl enable devtoolset-6 bash
-/opt/cmake3.13/bin/cmake ../OpenColorIO_src -DCMAKE_INSTALL_PREFIX=$HOME/app/OpenColorIO -DGLEW_INCLUDE_DIR=/usr/include -DGLEW_LIBRARY=/usr/lib64 -DOCIO_BUILD_GPU_TESTS=OFF
+```bash
+$ scl enable devtoolset-6 bash
+$ cd ~/app
+$ git clone https://github.com/imageworks/OpenColorIO OpenColorIO_src
+$ mkdir OpenColorIO_build
+$ cd OpenColorIO_build
+$ /opt/cmake3.13/bin/cmake ../OpenColorIO_src -DCMAKE_INSTALL_PREFIX=$HOME/app/OpenColorIO -DGLEW_INCLUDE_DIR=/usr/include -DGLEW_LIBRARY=/usr/lib64 -DOCIO_BUILD_GPU_TESTS=OFF
 -DOIIO_LIBRARIES= -DOIIO_INCLUDE_DIR= -DOIIO_LIBRARY_DIR=
-make
-make install
+$ make
+$ make install
 ```
 
 ## 명령어
-명령어를 실행하기 위해서는 libOpenColorIO.so.2.0 파일이 필요합니다.
+OCIO 명령어를 실행하기 위해서는 libOpenColorIO.so.2.0 파일이 필요합니다.
+~/centos/env/init.bash에 설정해줍니다.
+
 ```bash
 $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/app/OpenColorIO/lib
 $ export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.0.3/config.ocio
@@ -79,7 +82,7 @@ ocio를 이용해서 lut를 생성합니다.
 $ ociobakelut --inputspace "ACES - ACEScg" --outputspace "Output - Rec.709" --format flame flame_acescg_to_rec709.3dl
 ```
 
-#### 지원하는 포멧
+#### ociobakelut명령어가 지원하는 포멧
 - flame (.3dl)
 - lustre (.3dl)
 - cinespace (.csp)
@@ -151,9 +154,13 @@ ACES 프로젝트중 데이터를 ACES 2065-1로 보내달라고 하는 경우�
 - https://www.slideshare.net/hpduiker/acescg-a-common-color-encoding-for-visual-effects-applications
 
 ## OCIO Core Library
-OCIO Core Library는 OpenImageIO 같은 툴을 컴파일할 때 간혹 사용한다. 아래 링크에서 Core Library를 다운로드 받을 수 있다.
+OCIO Core Library는 OpenImageIO 같은 툴을 컴파일할 때 간혹 사용됩니다.
+아래 링크에서 Core Library를 다운로드 받을 수 있습니다.
 
 http://opencolorio.org/downloads.html#downloads
+
+## 실습
+- OCIO 컴파일 스크립트를 자동화합니다.
 
 ## Reference
 - ociobakelut : http://opencolorio.org/CompatibleSoftware.html

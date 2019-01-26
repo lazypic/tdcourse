@@ -6,13 +6,14 @@
 
 ## LibreOffice 설치
 리눅스에서는 Excel 대신 LibreOffice를 많이 사용합니다.
+LibreOffice 엑셀을 설치해봅시다.
 
 ## 지원 예
 - Shotgun : https://support.shotgunsoftware.com/hc/en-us/articles/219031188-How-to-import-an-existing-bid-sheet-to-create-Shots-and-Tasks
 - Ftrack : https://www.youtube.com/watch?v=DBQvcj--1KM
 - Tactic : https://github.com/Southpaw-TACTIC/Docs/blob/master/section/doc/tactic-end-user/end-user/importing-csv-data/index.txt
 
-## Python으로 핸들링하기
+## Python 자주 사용하는 모듈
 
 #### CSV 파서
 python에는 csv 파서가 기본적으로 탑제 되어있습니다.
