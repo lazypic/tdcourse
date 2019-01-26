@@ -31,3 +31,6 @@ cd lib
 ln -s $HOME/app/glibc-2.24/_build/mathvec/libmvec.so ./libmvec.so.1
 ln -s $HOME/app/glibc-2.24/_build/math/libm.so ./libm.so.6
 ```
+
+## Reference
+- https://blender.stackexchange.com/questions/120890/blender-2-8-cannot-find-libmvec-so-1https://blender.stackexchange.com/questions/120890/blender-2-8-cannot-find-libmvec-so-1
