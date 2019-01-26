@@ -91,3 +91,4 @@ OK
 
 ## Reference
 - https://docs.python.org/2/library/re.html
+- https://www.xpressengine.com/tip/22635583
