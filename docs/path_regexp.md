@@ -77,6 +77,7 @@ OK
 ## 실습
 - pathapi.py 를 작성합니다.
 - project 를 가지고 오는 레귤러 익스프레션 추가
+- 테스트 코드 작성하기.
 - seq 를 가지고 오는 레귤러 익스프레션 추가
 - shot 을 가지고 오는 레귤러 익스프레션 추가
 - task를 가지고 오는 레귤러 익스프레션 추가
@@ -86,7 +87,7 @@ OK
     a = "FOO_0010_comp_v001.nk"
     re.findall("_v(\d+)",a)
     ```
-- 각 함수에 대해서 테스트코드 작성
+- 나머지 각 함수에 대해서 테스트코드 작성
 
 ## Reference
 - https://docs.python.org/2/library/re.html
