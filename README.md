@@ -238,6 +238,7 @@
 	1. PythonAPI
 
 1. Nuke 셋팅을 위한 Repository 생성
+	1. [핫코너 옵션 끄기](docs/off_hotcorner.md)
 	1. [NUKE_PATH 연결](docs/nuke_path.md)
 	1. [init.py, menu.py 생성](docs/set_init_menu_py.md)
 	1. [폴더 구조생성](docs/set_assets_dir.md)

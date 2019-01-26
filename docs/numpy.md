@@ -29,3 +29,7 @@ Cython은 파이썬 문법을 C/C++ 스테틱문법 바꾸어 컴파일 해줍�
 # pip install Cython
 ```
 - https://cython.readthedocs.io/en/latest/src/tutorial/cython_tutorial.html
+
+## 실습
+- numpy가 자동 설치 되도록 .sh을 추가합니다.
+- cython이 자동 설치 되도록 .sh을 추가합니다.
