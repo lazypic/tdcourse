@@ -64,40 +64,53 @@ m.setInput(0, tail)
 from PySide2.QtWidgets import *
 
 class GenWrite(QWidget):
-    reformatSize = "2048x1152"
+    formats = ["2048x1152","1920x1080","2048x872"]
+    exts = [".exr",".dpx",".tga"]
+    proxyExts = [".jpg",".png"]
+
     def __init__(self):
         super(GenWrite, self).__init__()
         self.ok = QPushButton("OK")
         self.cancel = QPushButton("Cancel")
-        self.cb = QComboBox()
-        self.cb.addItem("2048x1152")
-        self.cb.addItem("1920x1080")
-        self.cb.addItem("2048x872")
+        self.ext = QComboBox()
+        self.ext.addItems(self.exts)
+        self.proxyExt = QComboBox()
+        self.proxyExt.addItems(self.proxyExts)
+
+        self.fm = QComboBox()
+        self.fm.addItems(self.formats)
         self.reformat = QCheckBox("&reformat", self)
         self.reformat.setChecked(True)
         self.proxy = QCheckBox("&proxy", self)
         self.proxy.setChecked(True)
         self.slate = QCheckBox("&slate", self)
         self.slate.setChecked(True)
+
         #event
         self.ok.clicked.connect(self.bt_ok)
-        self.cb.currentIndexChanged.connect(self.indexChanged)
+        self.fm.currentIndexChanged.connect(self.indexChanged)
         self.cancel.clicked.connect(self.close)
         # set layout
         layout = QGridLayout()
         layout.addWidget(self.reformat, 0, 0)
-        layout.addWidget(self.cb, 0, 1)
-        layout.addWidget(self.proxy, 1, 0)
-        layout.addWidget(self.slate, 1, 1)
-        layout.addWidget(self.cancel, 2, 0)
-        layout.addWidget(self.ok, 2, 1)
+        layout.addWidget(self.fm, 0, 1)
+        layout.addWidget(QLabel("master Ext"), 1, 0)
+        layout.addWidget(self.ext, 1, 1)
+        layout.addWidget(QLabel("proxy Ext"), 2, 0)
+        layout.addWidget(self.proxyExt, 2,1)
+        layout.addWidget(self.proxy, 3, 0)
+        layout.addWidget(self.slate, 3, 1)
+        layout.addWidget(self.cancel, 4, 0)
+        layout.addWidget(self.ok, 4, 1)
         self.setLayout(layout)
 
     def indexChanged(self):
-        self.reformatSize = self.cb.currentText()
+        self.reformatSize = self.fm.currentText()
 
     def bt_ok(self):
-        print "reformatSize %s" % (self.reformatSize)
+        print self.fm.currentText()
+        print self.ext.currentText()
+        print self.proxyExt.currentText()
         print self.reformat.isChecked()
         print self.proxy.isChecked()
         print self.slate.isChecked()
