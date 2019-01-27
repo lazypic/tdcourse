@@ -12,6 +12,7 @@
 $ gnome-tweaks
 ```
 
+![off_hotcorner](../figures/off_hotcorner.png)
 
 ## 실습
 - 핫코너 비활성화를 위한 패키지 설치 .sh 스크립트를 github에 작성하고 git push 하기
