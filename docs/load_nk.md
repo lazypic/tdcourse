@@ -37,8 +37,10 @@ class NkLibrary(QWidget):
         layout.addWidget(ok, 2, 0)
         layout.addWidget(cancel, 2, 1)
         self.setLayout(layout)
+
     def item_click(self, item):
         self.currentItem = item.text()
+
     def bt_ok(self):
         print "load %s" % (self.currentItem)
         self.close()
