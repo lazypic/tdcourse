@@ -6,6 +6,9 @@
 # yum install graphviz
 ```
 
+네트워크 상황도를 그려보았습니다.
+도표를 꾸준하게 버전관리하면서 그려야 하는 상황에서 graphviz는 좋은 도구입니다.
+
 ![graphviz](../figures/graphviz.jpg)
 
 test.dot
