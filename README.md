@@ -239,17 +239,17 @@
 
 1. Nuke 셋팅을 위한 Repository 생성
 	1. [핫코너 옵션 끄기](docs/off_hotcorner.md)
-	1. [NUKE_PATH 연결](docs/nuke_path.md)
-	1. [init.py, menu.py 생성](docs/set_init_menu_py.md)
-	1. [폴더 구조생성](docs/set_assets_dir.md)
+	1. [NUKE_PATH 연결](docs/nuke_path.md)(★☆☆☆☆)
+	1. [init.py, menu.py 생성](docs/set_init_menu_py.md)(★☆☆☆☆)
+	1. [뉴크셋팅 폴더 구조생성](docs/set_assets_dir.md)(★☆☆☆☆)
 
 1. 기즈모 제작
 	1. [뉴크 익스프레션](docs/nuke_exp.md)
 	1. [뉴크 Text 노드에서 자주 사용되는 익스프레션](docs/nuke_text_exp.md)
 	1. [TCL](docs/tcl.md)
-	1. [Nuke Gizmo : Timecode 뷰어](docs/gen_timecode_gizmo.md)
-	1. [Nuke Gizmo : Slate제작](docs/gen_slate_gizmo.md)
-	1. [Nuke Gizmo등록](docs/add_gizmo.md)
+	1. [Nuke Gizmo : Timecode 뷰어](docs/gen_timecode_gizmo.md)(★☆☆☆☆)
+	1. [Nuke Gizmo : Slate제작](docs/gen_slate_gizmo.md)(★★☆☆☆)
+	1. [Nuke Gizmo등록](docs/add_gizmo.md)(★☆☆☆☆)
 
 1. [Nukepedia 사이트 소개](docs/nukepedia.md)
 
@@ -258,32 +258,36 @@
 	1. [Render Management Tools 소개](docs/render_management_tools.md)
 
 1. 메뉴, ViewLut 설정
-	1. [뉴크 메뉴바 생성](docs/create_menu.md)
-	1. [Arri Alexa lut 다운로드](docs/download_arri_lut.md)
-	1. [Viewport LUT 설정](docs/set_viewlut_in_nuke.md)
+	1. [뉴크 메뉴바 생성](docs/create_menu.md)(★☆☆☆☆)
+	1. [Arri Alexa lut 다운로드](docs/download_arri_lut.md)(★☆☆☆☆)
+	1. [Viewport LUT 설정](docs/set_viewlut_in_nuke.md)(★★☆☆☆)
 
-1. 인아웃 셋팅, 노드생성
-	1. [자주 사용하는 포멧등록](docs/add_format.md)
-	1. [노드에 file 옵션이 있다면 폴더를 여는 기능 제작](docs/nkpython_openfile.md)
-	1. [노드구조 퍼포먼스 체크 기능 추가하기](docs/performance_time_check.md)
+1. 간단한 뉴크 스크립트
+	1. [자주 사용하는 포멧등록](docs/add_format.md)(★☆☆☆☆)
+	1. [노드구조 퍼포먼스 체크 기능 추가하기](docs/performance_time_check.md)(★☆☆☆☆)
+	1. [노드에 file 옵션이 있다면 폴더를 여는 기능 제작](docs/nkpython_openfile.md)(★★☆☆☆)
+	1. 환경변수 체크 스크립트 제작(★★☆☆☆)
 	1. 실습 : 뉴크스크립트에서 활용할 in 소스 폴더 열기 기능 제작
 
+1. Nuke GUI
+	1. [예제 : 뉴크 PySide2를 이용해서 GUI 제작](docs/nuke_pyside2.md)(★☆☆☆☆)
+	1. [Write노드 생성 스크립트 제작](docs/gen_writenode.md)(★★★☆☆)
+
+1. 응용
+	1. 각각의 시퀀스를 묶어서 각각의 mov로 제작하는 스크립트 제작(★★★☆☆)
+
+1. 라이브러리의 기초
+	1. [경로를 통해서 Read노드 만들기](docs/path_to_read.md)(★★☆☆☆)
+	1. [다른 .nk 노드를 내부로 불러오기](docs/load_nk.md)(★★★☆☆)
+
 1. 자주 사용하는 플러그인 설치해보기
-	1. [루마픽쳐스에서 사용중인 기즈모 등록](docs/lumapic.md)
-	1. [크립토매트 설치해보기](docs/cryptomatte.md)
+	1. [크립토매트 설치해보기](docs/cryptomatte.md)(★★☆☆☆)
+	1. [루마픽쳐스에서 사용중인 기즈모 등록](docs/lumapic.md)(★★★☆☆)
 	1. [다른 작업에 사용되는 플러그인 셋팅](docs/set_other_plugins.md)
 
-1. Nuke GUI
-	1. [예제 : 뉴크 PySide2를 이용해서 GUI 제작](docs/nuke_pyside2.md)
-	1. [Write노드 생성 스크립트 제작](docs/gen_writenode.md)
-1. 응용
-	1. 각각의 시퀀스를 묶어서 각각의 mov로 제작하는 스크립트 제작
-1. 라이브러리의 기초
-	1. [경로를 통해서 Read노드 만들기](docs/path_to_read.md)
-	1. [다른 .nk 노드를 내부로 불러오기](docs/load_nk.md)
 
 1. 포트폴리오 준비 / 실습 / 프로그래밍 진행
-	1. [파일관리툴 제작](docs/make_opener.md)
+	1. [파일관리툴 제작](docs/make_opener.md)(★★★★☆)
 	
 1. DB 소개 및 활용예
 	1. [DB의 종류](docs/db.md)
