@@ -180,7 +180,7 @@
 
 1. VFX에서 자주 사용되는 파일 : 촬영, 현장데이터
 	1. [촬영데이터 파일명의 구조](docs/raw_name.md)
-	1. 촬영데이터 복사
+	1. [촬영데이터 복사](docs/copy_onsetdata.md)
 	1. [raw2exr](docs/arriconverter_cmd.md)
 	1. [metaextractor](docs/arri_metaextract.md)
 	1. [현장데이터 수집툴](docs/setellite.md)
