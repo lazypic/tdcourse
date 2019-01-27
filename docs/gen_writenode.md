@@ -58,5 +58,67 @@ m["frame"].setValue(1001)
 m.setInput(0, tail)
 ```
 
+## GUI테스트
+
+```python
+from PySide2.QtWidgets import *
+
+class GenWrite(QWidget):
+    reformatSize = "2048x1152"
+
+    def __init__(self):
+        super(GenWrite, self).__init__()
+
+
+        ok = QPushButton("OK")
+        cancel = QPushButton("Cancel")
+        self.cb = QComboBox()
+        self.cb.addItem("2048x1152")
+        self.cb.addItem("1920x1080")
+        self.cb.addItem("2048x872")
+
+        self.reformat = QCheckBox("Reformat", self)
+        self.reformat.setChecked(True)
+        
+        self.proxy = QCheckBox("proxy", self)
+        self.proxy.setChecked(True)
+        self.slate = QCheckBox("slate", self)
+        self.slate.setChecked(True)
+        layout = QGridLayout()
+
+        layout.addWidget(self.reformat, 0, 0)
+        layout.addWidget(self.cb, 0, 1)
+        layout.addWidget(self.proxy, 1, 0)
+        layout.addWidget(self.slate, 1, 1)
+        layout.addWidget(cancel, 2, 0)
+        layout.addWidget(ok, 2, 1)
+        ok.clicked.connect(self.bt_ok)
+        self.cb.currentIndexChanged.connect(self.indexChanged)
+        cancel.clicked.connect(self.close)
+
+        self.setLayout(layout)
+
+    def indexChanged(self):
+        self.reformatSize = self.cb.currentText()
+
+    def bt_ok(self):
+        print "reformatSize %s" % (self.reformatSize)
+        print self.reformat.isChecked()
+        print self.proxy.isChecked()
+        print self.slate.isChecked()
+        self.close()
+
+global customApp
+try:
+    customApp.close()
+except:
+    pass
+customApp = GenWrite()
+try:
+    customApp.show()
+except:
+    pass
+```
+
 ## 응용
 위 코드 패턴을 이용하면 굉장히 정형화된 합성작업들은 회사내부에서 자동화를 만들 수 있습니다.
