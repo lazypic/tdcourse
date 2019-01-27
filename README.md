@@ -142,7 +142,7 @@
 	1. addproject 명령어 제작하기
 	1. [Python : 경로를 분리하는 방법](docs/path_control.md)
 
-1. [Python : 레귤러 익스프레션](docs/path_regexp.md) (1.25)
+1. [ ] [Python : 레귤러 익스프레션](docs/path_regexp.md) (1.25~1.27)
 
 1. 개발자 유틸리티 설치
 	1. [pip](docs/pip.md) 설치
