@@ -65,37 +65,32 @@ from PySide2.QtWidgets import *
 
 class GenWrite(QWidget):
     reformatSize = "2048x1152"
-
     def __init__(self):
         super(GenWrite, self).__init__()
-
-
-        ok = QPushButton("OK")
-        cancel = QPushButton("Cancel")
+        self.ok = QPushButton("OK")
+        self.cancel = QPushButton("Cancel")
         self.cb = QComboBox()
         self.cb.addItem("2048x1152")
         self.cb.addItem("1920x1080")
         self.cb.addItem("2048x872")
-
-        self.reformat = QCheckBox("Reformat", self)
+        self.reformat = QCheckBox("&reformat", self)
         self.reformat.setChecked(True)
-        
-        self.proxy = QCheckBox("proxy", self)
+        self.proxy = QCheckBox("&proxy", self)
         self.proxy.setChecked(True)
-        self.slate = QCheckBox("slate", self)
+        self.slate = QCheckBox("&slate", self)
         self.slate.setChecked(True)
+        #event
+        self.ok.clicked.connect(self.bt_ok)
+        self.cb.currentIndexChanged.connect(self.indexChanged)
+        self.cancel.clicked.connect(self.close)
+        # set layout
         layout = QGridLayout()
-
         layout.addWidget(self.reformat, 0, 0)
         layout.addWidget(self.cb, 0, 1)
         layout.addWidget(self.proxy, 1, 0)
         layout.addWidget(self.slate, 1, 1)
-        layout.addWidget(cancel, 2, 0)
-        layout.addWidget(ok, 2, 1)
-        ok.clicked.connect(self.bt_ok)
-        self.cb.currentIndexChanged.connect(self.indexChanged)
-        cancel.clicked.connect(self.close)
-
+        layout.addWidget(self.cancel, 2, 0)
+        layout.addWidget(self.ok, 2, 1)
         self.setLayout(layout)
 
     def indexChanged(self):

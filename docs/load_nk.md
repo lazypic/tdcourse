@@ -20,31 +20,25 @@ from PySide2.QtWidgets import *
 
 class NkLibrary(QWidget):
     currentItem = ""
-    nklist = QListWidget()
-
     def __init__(self):
         super(NkLibrary, self).__init__()
+        self.nklist = QListWidget()
         for i in range(100):
             self.nklist.addItem(QListWidgetItem("/test/"+str(i)+".nk"))
-        ok = QPushButton("OK")
-        cancel = QPushButton("Cancel")
-        cb = QComboBox()
-        cb.addItem("test1")
-        cb.addItem("test2")
-        cb.addItem("test3")
-        checkbox = QCheckBox("C&heck Box", self)
-        ok.clicked.connect(self.bt_ok)
+        self.ok = QPushButton("OK")
+        self.cancel = QPushButton("Cancel")
+        
+        # event
+        self.ok.clicked.connect(self.bt_ok)
         self.nklist.itemClicked.connect(self.item_click)
-        cancel.clicked.connect(self.close)
+        self.cancel.clicked.connect(self.close)
 
+        # layout
+        self.setWindowTitle('Nuke Library')
         layout = QGridLayout()
         layout.addWidget(self.nklist, 0, 0)
-        layout.addWidget(cb, 1,0)
-        layout.addWidget(checkbox, 2,0)
-        layout.addWidget(ok, 3, 0)
-        layout.addWidget(cancel, 4, 0)
-
-        self.setWindowTitle('Nuke Library')
+        layout.addWidget(self.ok, 3, 0)
+        layout.addWidget(self.cancel, 4, 0)
         self.setLayout(layout)
 
     def item_click(self, item):
