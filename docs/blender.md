@@ -11,15 +11,15 @@ blender-2.80-1b6da95ccb11-linux-glibc224-x86_64
 관련된 파일을 컴파일 하는 방법을 다룹니다.
 
 ```
-cd ~
-cd app
-mkdir glibc
-wget https://ftp.gnu.org/gnu/libc/glibc-2.24.tar.gz
-tar -xvzf ./glibc-2.24.tar.gz
-cd glibc-2.24
-mkdir _build
-cd _build
-../configure --enable-kernel=3.10 --prefix=$HOME/app/glibc
+$ cd ~
+$ cd app
+$ mkdir glibc
+$ wget https://ftp.gnu.org/gnu/libc/glibc-2.24.tar.gz
+$ tar -xvzf ./glibc-2.24.tar.gz
+$ cd glibc-2.24
+$ mkdir build
+$ cd build
+$ ../configure --enable-kernel=3.10 --prefix=$HOME/app/glibc
 ```
 
 kernel version check
@@ -27,11 +27,11 @@ kernel version check
 $ uname -a
 ```
 
-blender file
+blender 실행파일이 있는 곳에서 아래처럼 타이핑 합니다.
 ```
-cd lib
-ln -s $HOME/app/glibc-2.24/_build/mathvec/libmvec.so ./libmvec.so.1
-ln -s $HOME/app/glibc-2.24/_build/math/libm.so ./libm.so.6
+$ cd lib
+$ ln -s $HOME/app/glibc-2.24/build/lib/libmvec.so ./libmvec.so.1
+$ ln -s $HOME/app/glibc-2.24/build/lib/libm.so ./libm.so.6
 ```
 
 ## Reference
