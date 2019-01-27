@@ -87,6 +87,12 @@ OK
     p = "FOO_0010_comp_v001.nk"
     re.findall("_v(\d+)",p)
     ```
+- 시퀀스 넘버를 가지고 오는 익스프레션 추가
+    ```python
+    import re
+    f = "FOO_0010_comp_v001.1001.exr"
+    re.findall("\.(\d+)\.",f)
+    ```
 - 나머지 각 함수에 대해서 테스트코드 작성
 
 ## Reference
