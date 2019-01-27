@@ -57,6 +57,7 @@ Alexa LF 카메라로 촬영된 Prores 코덱의 mov 파일입니다.
 - https://www.blender.org/download/demo-files/
 
 블랜더는 .obj, .abc 파일을 만들 수 있으며 이 데이터는 뉴크에서 활용할 수 있습니다.
+[블렌더 설치방법](blender.md) 페이지를 통해서 블렌더를 설치할 수 있습니다.
 
 ## HDRI
 반사맵으로 자주 사용되는 HDRI 이미자입니다.

@@ -273,9 +273,6 @@
 	1. [예제 : 뉴크 PySide2를 이용해서 GUI 제작](docs/nuke_pyside2.md)(★☆☆☆☆)
 	1. [Write노드 생성 스크립트 제작](docs/gen_writenode.md)(★★★☆☆)
 
-1. 응용
-	1. 각각의 시퀀스를 묶어서 각각의 mov로 제작하는 스크립트 제작(★★★☆☆)
-
 1. 라이브러리의 기초
 	1. [경로를 통해서 Read노드 만들기](docs/path_to_read.md)(★★☆☆☆)
 	1. [다른 .nk 노드를 내부로 불러오기](docs/load_nk.md)(★★★☆☆)
