@@ -28,14 +28,23 @@ class NkLibrary(QWidget):
             self.nklist.addItem(QListWidgetItem("/test/"+str(i)+".nk"))
         ok = QPushButton("OK")
         cancel = QPushButton("Cancel")
+        cb = QComboBox()
+        cb.addItem("test1")
+        cb.addItem("test2")
+        cb.addItem("test3")
+        checkbox = QCheckBox("C&heck Box", self)
         ok.clicked.connect(self.bt_ok)
         self.nklist.itemClicked.connect(self.item_click)
         cancel.clicked.connect(self.close)
 
         layout = QGridLayout()
-        layout.addWidget(self.nklist, 0, 0, 1, 2)
-        layout.addWidget(ok, 2, 0)
-        layout.addWidget(cancel, 2, 1)
+        layout.addWidget(self.nklist, 0, 0)
+        layout.addWidget(cb, 1,0)
+        layout.addWidget(checkbox, 2,0)
+        layout.addWidget(ok, 3, 0)
+        layout.addWidget(cancel, 4, 0)
+
+        self.setWindowTitle('Nuke Library')
         self.setLayout(layout)
 
     def item_click(self, item):

@@ -139,6 +139,7 @@
 	1. [파이썬 클래스 만들기](docs/python_make_class.md)
 
 1. [x] [경로기반의 파이프라인](docs/path_based_pipeline.md) (1.24)
+	1. addproject 명령어 제작하기
 	1. [Python : 경로를 분리하는 방법](docs/path_control.md)
 
 1. [Python : 레귤러 익스프레션](docs/path_regexp.md) (1.25)
@@ -179,7 +180,7 @@
 
 1. VFX에서 자주 사용되는 파일 : 촬영, 현장데이터
 	1. [촬영데이터 파일명의 구조](docs/raw_name.md)
-	1. 촬영데이터 복사
+	1. [촬영데이터 복사](docs/copy_onsetdata.md)
 	1. [raw2exr](docs/arriconverter_cmd.md)
 	1. [metaextractor](docs/arri_metaextract.md)
 	1. [현장데이터 수집툴](docs/setellite.md)
@@ -265,9 +266,7 @@
 	1. [자주 사용하는 포멧등록](docs/add_format.md)
 	1. [노드에 file 옵션이 있다면 폴더를 여는 기능 제작](docs/nkpython_openfile.md)
 	1. [노드구조 퍼포먼스 체크 기능 추가하기](docs/performance_time_check.md)
-	1. [Write노드 생성 스크립트 제작](docs/gen_writenode.md)
-	1. 실습 : 뉴크스크립트에서 활용할 소스 폴더 열기 기능 제작
-	1. 각각의 시퀀스를 묶어서 하나의 mov로 제작하는 스크립트 제작
+	1. 실습 : 뉴크스크립트에서 활용할 in 소스 폴더 열기 기능 제작
 
 1. 자주 사용하는 플러그인 설치해보기
 	1. [루마픽쳐스에서 사용중인 기즈모 등록](docs/lumapic.md)
@@ -276,7 +275,9 @@
 
 1. Nuke GUI
 	1. [예제 : 뉴크 PySide2를 이용해서 GUI 제작](docs/nuke_pyside2.md)
-
+	1. [Write노드 생성 스크립트 제작](docs/gen_writenode.md)
+1. 응용
+	1. 각각의 시퀀스를 묶어서 각각의 mov로 제작하는 스크립트 제작
 1. 라이브러리의 기초
 	1. [경로를 통해서 Read노드 만들기](docs/path_to_read.md)
 	1. [다른 .nk 노드를 내부로 불러오기](docs/load_nk.md)
