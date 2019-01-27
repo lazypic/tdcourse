@@ -8,7 +8,8 @@
 
 나머지는 정보를 얻고 공부하고 응용하는 것 뿐입니다. 너무 어렵게 생각하지 마세요.
 
-일반적인 DB설명은 DB책을 보면 자세히 나와있습니다. 저는 약간 실무적인 관점에서 DB를 설명하겠습니다.
+자주 사용하는 DB에 대해서 설치법 기본적인 사용법만 익혀두더라도
+추후 다른 솔루션을 설치 및 적용시 많은 도움이 됩니다.
 
 ## PostrgreSQL, MySQL
 - 사용툴 : [Shotgun](https://support.shotgunsoftware.com/hc/en-us/articles/114094526153-Shotgun-security-white-paper), [Tactic](http://community.southpawtech.com/community/link/data_management), [Ftrack](https://help.ftrack.com/administering-ftrack/on-prem/handling-backups)

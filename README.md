@@ -5,9 +5,9 @@
 - 장 소 : [MofacAcademy](https://www.mofacacademy.com)
 - 기 간 : 18.12.28 ~ 19.2.27 
 - 시 간 : 월 ~ 금
-	- 2018.12.28 ~ 2019.01.14 : 10:00 ~ 13:00 TD교육 / 14:00 ~ 18:00 툴교육
-	- 2019.01.15 ~ 2019.01.28 : 09:00 ~ 13:00 TD교육 / 14:00 ~ 17:00 툴교육
-	- 2019.01.29 ~ 2019.02.27 : 09:00 ~ 13:00 TD교육 / 14:00 ~ 17:00 TD교육
+	- 2018.12.28 ~ 2019.01.14 : 10:00 ~ 13:00 TD교육 / 14:00 ~ 18:00 툴교육 / 완료
+	- 2019.01.15 ~ 2019.01.28 : 09:00 ~ 13:00 TD교육 / 14:00 ~ 17:00 툴교육 / 진행중
+	- 2019.01.29 ~ 2019.02.27 : 09:00 ~ 13:00 TD교육 / 14:00 ~ 17:00 TD교육 / 진행예정
 	- 매주 금 : 14:00 ~ 15:00 1시간 / The Foundry 위원식 지사장
 	- 쉬는시간 : 매 50분에서 10분간
 	- 점심시간 : 13:00 ~ 14:00 / 지하2층 구내식당
@@ -251,9 +251,9 @@
 	1. [Nuke Gizmo : Slate제작](docs/gen_slate_gizmo.md)(★★☆☆☆)
 	1. [Nuke Gizmo등록](docs/add_gizmo.md)(★☆☆☆☆)
 
-1. [Nukepedia 사이트 소개](docs/nukepedia.md)
+1. [Nuke Pedia 사이트 소개](docs/nukepedia.md)
 
-1. Nuke Command line
+1. Nuke Command Line
 	1. [Nuke Command Line Rendering](docs/nuke_cmd.md)
 	1. [Render Management Tools 소개](docs/render_management_tools.md)
 
@@ -267,7 +267,7 @@
 	1. [노드구조 퍼포먼스 체크 기능 추가하기](docs/performance_time_check.md)(★☆☆☆☆)
 	1. [노드에 file 옵션이 있다면 폴더를 여는 기능 제작](docs/nkpython_openfile.md)(★★☆☆☆)
 	1. 환경변수 체크 스크립트 제작(★★☆☆☆)
-	1. 실습 : 뉴크스크립트에서 활용할 in 소스 폴더 열기 기능 제작
+	1. 실습 : 작업시 활용되는 in 소스 폴더 열기 기능 제작(★★☆☆☆)
 
 1. Nuke GUI
 	1. [예제 : 뉴크 PySide2를 이용해서 GUI 제작](docs/nuke_pyside2.md)(★☆☆☆☆)
@@ -284,7 +284,6 @@
 	1. [크립토매트 설치해보기](docs/cryptomatte.md)(★★☆☆☆)
 	1. [루마픽쳐스에서 사용중인 기즈모 등록](docs/lumapic.md)(★★★☆☆)
 	1. [다른 작업에 사용되는 플러그인 셋팅](docs/set_other_plugins.md)
-
 
 1. 포트폴리오 준비 / 실습 / 프로그래밍 진행
 	1. [파일관리툴 제작](docs/make_opener.md)(★★★★☆)
