@@ -23,7 +23,7 @@ w.setLayout(layout)
 w.show()
 ```
 
-레이아웃1
+QHBox 레이아웃 실습
 ```python
 from PySide2.QtWidgets import *
 
@@ -45,7 +45,7 @@ window.setLayout(layout)
 window.show()
 ```
 
-레이아웃2
+QGrid 레이아웃 실습
 ```python
 from PySide2.QtWidgets import *
 
