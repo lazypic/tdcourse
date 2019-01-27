@@ -235,7 +235,7 @@
 	1. [OFX(OpenFX)](docs/openfx.md)
 	1. [Blink](docs/blink.md)
 	1. [NDK](docs/ndk.md)
-	1. PythonAPI
+	1. PythonAPI : 앞으로 우리가 가장 많이 다루게 될 주제입니다.
 
 1. Nuke 셋팅을 위한 Repository 생성
 	1. [핫코너 옵션 끄기](docs/off_hotcorner.md)
