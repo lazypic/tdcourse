@@ -17,6 +17,7 @@ PySide2를 이용해서 간단하게 라이브러리를 만들고 로딩하는 �
 GUI생성
 ```python
 from PySide2.QtWidgets import *
+from PySide2.QtCore import *
 
 class NkLibrary(QWidget):
     currentItem = ""
@@ -27,6 +28,7 @@ class NkLibrary(QWidget):
             self.nklist.addItem(QListWidgetItem("/test/"+str(i)+".nk"))
         self.ok = QPushButton("OK")
         self.cancel = QPushButton("Cancel")
+        self.oc = QDialogButtonBox(QtCore.Qt.Horizontal)
         
         # event
         self.ok.clicked.connect(self.bt_ok)
@@ -39,6 +41,7 @@ class NkLibrary(QWidget):
         layout.addWidget(self.nklist, 0, 0)
         layout.addWidget(self.ok, 3, 0)
         layout.addWidget(self.cancel, 4, 0)
+        layout.addWidget(self.oc, 5, 0)
         self.setLayout(layout)
 
     def item_click(self, item):
