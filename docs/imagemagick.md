@@ -114,3 +114,5 @@ $ import -window root screen.jpg
     ```
     - 지원타입 : char, double, float, integer, long, quantum, short
 
+## 실습
+- CentOS 설치시 Imagemagick이 자동으로 설치되도록 .sh를 추가합니다.

@@ -20,7 +20,7 @@ http://johnvansickle.com 사이트에는 이미 우리가 자주 사용하는 �
 여러분이 지금 학생이라면 그냥 사용하세요.
 나중에 이러한 유틸리티들로 여러분의 경제활동이 이루어진다면 한번쯤 고마워하며 오픈소스 프로젝트에 기부 해보세요.
 
-```
+```bash
 $ cd ~
 $ mkdir -p app/ffmpeg
 $ cd app/ffmpeg
@@ -74,20 +74,20 @@ $ ffmpeg -i input.mp4 output.avi
 
 #### jpg시퀀스를 H.264, fps 23.98 .mp4로 만들기
 인수를 나열할 때 주의할 점은 프레임 레이트에 해당하는 `-r`옵션이 인풋 소스에 해당하는 `-i` 옵션 앞에 있어야 한다는 점입니다. 그렇게 해야 input 소스에 대해서 frame rate가 적용되어서 아웃풋 되는 결과물의 프레임수 오류가 없어집니다.
-```
+```bash
 $ ffmpeg -f image2 -start_number 100 -vframes 101 -r 24 -i ~/examples/FOO_0010/FOO_0010.%4d.jpg -vcodec libx264 output.mp4
 ```
 
 #### 비율을 유지하면서 가로픽셀을 1280으로 만들기
 
-```
+```bash
 $ ffmpeg -f image2 -start_number 100 -r 24 -i ~/examples/FOO_0010/FOO_0010.%4d.jpg -vframes 101 -vcodec libx264 -vf scale=1280:-1 output.mov
 ```
 
 #### 뉴크에서 아웃풋되는 mov와 최대한 비슷하게 만들어보기.(완벽히 같지 않습니다.)
 뉴크에서 .h264로 렌더링하고 mediainfo로 해당 미디어를 분석해보면 bt709 컬러스페이스로 설정되어있는 것을 볼 수 있습니다. ffmpeg에서도 bt709 옵션을 사용하면 mov 생성시 bt709 컬러스페이스 설정이 됩니다.
 
-```
+```bash
 $ ffmpeg -f image2 -start_number 100 -r 24 -i ~/examples/FOO_0010/FOO_0010.%4d.jpg -vframes 101 -vcodec libx264 -vf scale=1280:-1 -color_primaries bt709 -color_trc bt709 -colorspace bt709 output.mov
 ```
 
@@ -213,8 +213,12 @@ $ ffmpeg -f image2 -start_number 100 -r 24 -i ~/examples/FOO_0010/FOO_0010.%4d.j
 슬레이트에 사용하는 폰트는 모노스페이스 폰트를 보통 사용합니다.
 모노스페이스 폰트는 각 글자의 가로 길이가 같은 폰트이고 프레임 정보처럼 매프레임 글씨가 애니메이션되더라도 자간이 흔들리지 않는 특징이 있습니다.
 
-- CentOS : /usr/share/fonts/gnu-free/FreeMono.ttf
-- macOS : /Library/Fonts/Courier New.ttf
+추천폰트
+- CentOS
+    - /usr/share/fonts/liberation/LiberationMono-Regular.ttf
+    - /usr/share/fonts/gnu-free/FreeMono.ttf
+- macOS
+    - /Library/Fonts/Courier New.ttf
 
 #### 실습1
 자신이 원하는 형태의 Burn-In 이 되도록 스크립트를 작성해 봅시다.
@@ -226,7 +230,9 @@ $ ffmpeg -f image2 -start_number 100 -r 24 -i ~/examples/FOO_0010/FOO_0010.%4d.j
 직접 ffmpeg를 설치하는 문서입니다.
 
 https://trac.ffmpeg.org/wiki/CompilationGuide/Centos
- 
+
+## 실습
+- CentOS설치이후 /home/$USER/app 폴더에 ffmpeg가 자동으로 설치되도록 스크립트를 작성합니다.
 
 ## 레퍼런스
 - ffmpeg와 비슷한 명령어 libav : https://www.libav.org

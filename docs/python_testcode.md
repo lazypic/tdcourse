@@ -84,6 +84,7 @@ a값에 숫자가 올지, 문자가 올지, 리스트가 올지 알 수 없기 �
 아래 코드는 편의상 두 값을 더할 수 없다면 에러와 함께 0을 반환하도록 했습니다.
 
 ```python
+#!/usr/bin/env python
 # coding:utf-8
 # runcode.py
 def addNum(a,b):
@@ -101,7 +102,8 @@ def addNum(a,b):
 만약 a, b 값 둘다 리스트형으로 함수의 인수로 들어와 버리면 try/except로 구현한 코드는 오작동을 하게될 테니까요.
 
 ```python
-# coding:utf-8
+#!/usr/bin/env python
+# coding:utf8
 # runcode.py
 def addNum(a,b):
     """
@@ -118,7 +120,8 @@ def addNum(a,b):
 관련 테스트 코드는 아래와 같은 구조를 띄게 됩니다.
 
 ```python
-# coding:utf-8
+#!/usr/bin/env python
+# coding:utf8
 # testcode.py
 import unittest
 from runcode import *
