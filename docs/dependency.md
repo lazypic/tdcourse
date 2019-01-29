@@ -79,7 +79,7 @@ OS에서 해당 공유라이브러리가 없거나 버전이 너무 크게 다�
 /bin/echo 명령어를 한번 ldd로 체크해보겠습니다.
 
 ```bash
-$ ldd /bin/echo
+$ ldd /usr/bin/echo
 ```
 
 출력은 아래과 같습니다.
