@@ -9,6 +9,11 @@ CentOS7.6의 기본 cmake 는 버전이 낮아서 앞으로 우리가 사용하�
 소스코드(입력 파일)가 바뀌면 자동적으로 결과 파일이 바뀌기를 원할 때(예) 소스코드가 바뀌면 다시 컴파일 해야할 때) 순차적으로 프로그램이 수행이 되기를 바랄 때 사용합니다.
 
 ## 설치전 필요한 툴 설치 (gcc6)
+최신 cmake를 컴파일 하기 위해서 최신 gcc가 필요합니다.
+설치하겠습니다.
+
+참고 : [devtoolset-6을 설치하면 같이 설치되는 프로그램 리스트](https://access.redhat.com/documentation/en-us/red_hat_developer_toolset/6/html-single/user_guide/index)
+
 ```
 # yum install centos-release-scl
 # yum install devtoolset-6
