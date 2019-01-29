@@ -159,7 +159,9 @@
 	1. [의존성이야기](docs/dependency.md)
 	1. [의존성을 최소화 하기 위해서 사용했던 Go 언어](docs/ldd.md)
 
-1. [ ] 파일변환 유틸리티(1.30)
+1. [ ] [촬영데이터 복사](docs/copy_onsetdata.md)
+
+1. 파일변환 유틸리티(1.30)
 	1. [파일 변환 유틸리티](docs/convert_util.md)
 	1. [ImageMagick](docs/imagemagick.md)
 	1. [실습 : ImageMagick + python을 이용한 이미지 일괄 변환 스크립트 제작](docs/python_imagemagick.md)
@@ -180,7 +182,6 @@
 
 1. VFX에서 자주 사용되는 파일 : 촬영, 현장데이터
 	1. [촬영데이터 파일명의 구조](docs/raw_name.md)
-	1. [촬영데이터 복사](docs/copy_onsetdata.md)
 	1. [raw2exr](docs/arriconverter_cmd.md)
 	1. [metaextractor](docs/arri_metaextract.md)
 	1. [현장데이터 수집툴](docs/setellite.md)
