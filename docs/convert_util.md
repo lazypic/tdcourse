@@ -9,12 +9,11 @@
 
 아래는 업무에 많이 사용되는 오픈소스 이미지, 동영상 컨버팅 툴 입니다.
 
-- [ImageMagick](imagemagick.md)
-- [FFmpeg](ffmpeg.md)
-- [Mencoder](mencoder.md)
-- [OpenImageIO](openimageio.md)
-- [HandBrake](handbrake.md)
-- [Mediainfo](mediainfo.md)
-- [mencoder](mencoder.md)
+- [Mediainfo](mediainfo.md) : 이미지, 동영상 분석
+- [ImageMagick](imagemagick.md) : 이미지 컨버팅, 컬러변환
+- [OpenImageIO](openimageio.md) : 이미지 컨버팅, OCIO 컬러변환
+- [FFmpeg](ffmpeg.md) : 동영상 컨버팅
+- [HandBrake](handbrake.md) : 동영상 컨버팅
+- [mencoder](mencoder.md) : 동영상 컨버팅
 
 앞으로 각 솔루션을 천천히 알아보겠습니다.
