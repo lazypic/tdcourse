@@ -42,3 +42,14 @@ import subprocess
 p = subprocess.Popen(["echo", "hello world"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 print p.communicate()
 ```
+
+응용 : 환경변수와 같이 사용하기
+
+```python
+import subprocess
+import os
+env = os.environ.copy()
+env["PATH"] = "/usr/sbin:/sbin:" + env["PATH"]
+subprocess.Popen(["echo","hello world"], env=env)
+print p.communicate()
+```
