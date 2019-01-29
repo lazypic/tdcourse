@@ -8,6 +8,12 @@ CentOS7.6의 기본 cmake 는 버전이 낮아서 앞으로 우리가 사용하�
 > 참고 : make는 프로그램 그룹을 유지할 때 사용하는 툴입니다.
 소스코드(입력 파일)가 바뀌면 자동적으로 결과 파일이 바뀌기를 원할 때(예) 소스코드가 바뀌면 다시 컴파일 해야할 때) 순차적으로 프로그램이 수행이 되기를 바랄 때 사용합니다.
 
+gcc6
+```
+# yum install centos-release-scl
+# yum install devtoolset-6
+```
+
 ## 설치
 - https://cmake.org/download/ 에서 리눅스용 cmake를 다운로드 받습니다.
 
