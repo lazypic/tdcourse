@@ -31,5 +31,14 @@ for f in os.listdir(p):
 - 인터넷을 검색하여 os.system 함수 대신 subprocess 모듈을 사용해보세요.
 
 ## 제안
-이해를 돕기 위해서 os.system 함수를 사용했습니다.
+기존에는 리눅스 명령어 형태에 맞추어 이해를 돕기 위해서 `os.system` 함수를 사용했습니다.
 하지만 앞으로 프로그래밍을 할 때는 `os.system` 함수 보다는 `subprocess`를 사용하는 것을 추천합니다. 명령어를 실행할 때 프로세스를 생성해서 실행할 수 있으며, 환경변수 및 STDIN, STDOUT, STDERR 처리를 할 수 있습니다.
+
+```python
+#!/usr/bin/env python
+#coding:utf8
+import subprocess
+
+p = subprocess.Popen(["echo", "hello world"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+print p.communicate()
+```
