@@ -142,24 +142,24 @@
 	1. addproject 명령어 제작하기
 	1. [Python : 경로를 분리하는 방법](docs/path_control.md)
 
-1. [ ] [Python : 레귤러 익스프레션](docs/path_regexp.md) (1.25~1.27)
+1. [x] [Python : 레귤러 익스프레션](docs/path_regexp.md) (1.25)
 
-1. 개발자 유틸리티 설치
+1. [x] 개발자 유틸리티 설치(1.28)
 	1. [pip](docs/pip.md) 설치
 	1. [cmake](docs/cmake.md) 설치
 
-1. 프로그램을 만들기전에 알아야 할 기본적인 지식
+1. [x] 프로그램을 만들기전에 알아야 할 기본적인 지식(1.29)
 	1. [명령어의 구성요소 - 인수편](docs/command.md)
+	1. [Python argv 처리](docs/python_argv.md)
 	1. [우리가 프로그래밍으로 하는 대부분의 일](docs/add_set_rm_get.md)
 	1. [파이프라인의 기본 Input, Output](docs/input_output.md)
 	1. [Standard Streams](docs/standard_streams.md)
-	1. [Python argv 처리](docs/python_argv.md)
 	1. [Python Test코드 작성하기](docs/python_testcode.md)
 	1. [바이너리와 아스키](docs/binary_ascii.md)
 	1. [의존성이야기](docs/dependency.md)
 	1. [의존성을 최소화 하기 위해서 사용했던 Go 언어](docs/ldd.md)
 
-1. 파일변환 유틸리티
+1. [ ] 파일변환 유틸리티(1.30)
 	1. [파일 변환 유틸리티](docs/convert_util.md)
 	1. [ImageMagick](docs/imagemagick.md)
 	1. [실습 : ImageMagick + python을 이용한 이미지 일괄 변환 스크립트 제작](docs/python_imagemagick.md)
