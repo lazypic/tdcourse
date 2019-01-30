@@ -1,11 +1,10 @@
 # Curriculum
 
-## 기본정보
+## 기본정보 ![Progress](http://progressed.io/bar/46?title=progress)
 - 교육내용 : Technical Director 기초과정 / 리눅스를 활용한 VFX, 애니메이션 파이프라인
 - 교육방식 : Github를 활용한 교육 및 협업개발
 - 문 의 : 김한웅 / hello@lazypic.org
 - 프로그래밍이 처음이라면 한번씩 읽고 오세요 : https://wikidocs.net/book/2
-![Progress](http://progressed.io/bar/46?title=progress)
 
 ## 내 용
 1. [x] 소개 (12.28)
