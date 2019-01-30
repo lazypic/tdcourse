@@ -159,15 +159,18 @@
 	1. [의존성이야기](docs/dependency.md)
 	1. [의존성을 최소화 하기 위해서 사용했던 Go 언어](docs/ldd.md)
 
-1. [ ] [촬영데이터 복사](docs/copy_onsetdata.md)
-
-1. 파일변환 유틸리티(1.30)
+1. [x] 파일변환 유틸리티 : ImageMagick (1.30)
+	1. [촬영데이터 복사](docs/copy_onsetdata.md)
 	1. [파일 변환 유틸리티](docs/convert_util.md)
 	1. [ImageMagick](docs/imagemagick.md)
 	1. [실습 : ImageMagick + python을 이용한 이미지 일괄 변환 스크립트 제작](docs/python_imagemagick.md)
+
+1. [ ] 파일변환 유틸리티 : FFmpeg (1.31)
 	1. [FFmpeg](docs/ffmpeg.md)
 	1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작
 	1. [ffmpeg 명령어를 이용해서 개발내용 스크린 캡쳐](docs/ffmpeg_screencap.md)
+
+1. 파일변환 유틸리티 : Mencoder, HandBrake
 	1. [mencoder](docs/mencoder.md)
 	1. [HandBrake](docs/handbrake.md)
 	1. 실습 : HandBrakeCLI를 이용해서 일괄 Proxy 동영상 생성
@@ -302,4 +305,4 @@
 	1. 기술지원, 멘토링 지원
 	1. github를 이용한 포트폴리오 제작. README.md 작성
 	1. 기술공유, 추후 정보를 나눌 채널, 이슈정리, 커뮤니케이션 약속 정하기
-	1. SSD제거, 수료증 전달, 카페토론
+	1. SSD제거 및 반납, 수료증 전달, 카페토론
