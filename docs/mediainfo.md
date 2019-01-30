@@ -3,8 +3,8 @@
 
 mediainfo를 테스트할 [샘플파일](sample.md) 다운로드
 
-## 설치
-
+## 설 치
+mediainfo 는 yum 을 이용해서 설치가 가능합니다.
 ```bash
 # yum install mediainfo
 ```
@@ -31,10 +31,10 @@ pypi 홈페이지 : https://pypi.org/project/pymediainfo/
 
 파이썬을 이용하여 bit_rate, bit_rate_mode, codec을 가지고 오는 예제를 작성해보겠습니다.
 
-example 리포지터리를 다운로드 받습니다. 이미 과거에 받았다면 이 단계는 넘겨도 좋습니다.
-```
-cd ~
-git clone https://github.com/cgiseminar/examples
+example 리포지터리를 다운로드 받습니다. 이미 과거에 진행했다면 이 단계는 넘겨도 좋습니다.
+```bash
+$ cd ~
+$ git clone https://github.com/cgiseminar/examples
 ```
 
 
@@ -58,10 +58,14 @@ mov 정보가 잘 출력되는 확인해주세요.
 
 > 참고 : 아래와 같은 에러가 발생하면 mediainfo가 설치되어있지 않아서 그렇습니다.
 
-```
+```bash
 OSError: dlopen(libmediainfo.so, 6): image not found
 ```
 
-## 응용
+## 실 습
+- CentOS 설치 이후 mediainfo가 자동으로 설치되도록 자동 설치 스크립트에 기능을 추가합니다.
+- CentOS 설치 이후 pip를 이용해서 pymediainfo 가 설치되도록 pip.sh 스크립트에 기능을 추가합니다.
+
+## 응 용
 - A 프로젝트에서는 아티스트에 의해 하루 수백개의 동영상이 생성됩니다. H.264 코덱으로 렌더링 하기로 약속했습니다. 규칙을 지키지 않은 mov를 찾는 스크립트를 고민해보세요.
-- 서로 약속한 이미지 아웃풋 사이즈가 다를 때 경고를 주는 스크립트를 고민해보세요.
+- 서로 약속한 영상의 아웃풋 사이즈가 다를 때 경고를 주는 스크립트를 고민해보세요.
