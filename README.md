@@ -2,11 +2,8 @@
 
 ## 기본정보
 - 장 소 : [MofacAcademy](https://www.mofacacademy.com)
-- 기 간 : 18.12.28 ~ 19.2.27 
-- 시 간 : 월 ~ 금
-	- 2018.12.28 ~ 2019.01.14 : 10:00 ~ 13:00 TD교육 / 14:00 ~ 18:00 툴교육 / 완료
-	- 2019.01.15 ~ 2019.01.28 : 09:00 ~ 13:00 TD교육 / 14:00 ~ 17:00 툴교육 / 진행중
-	- 2019.01.29 ~ 2019.02.27 : 09:00 ~ 13:00 TD교육 / 14:00 ~ 17:00 TD교육 / 진행예정
+- 기 간 : 18.12.28 ~ 19.2.27
+- 시 간 : 월~금 09:00 ~ 17:00
 	- 매주 금 : 14:00 ~ 15:00 1시간 / The Foundry 위원식 지사장
 	- 쉬는시간 : 매 50분에서 10분간
 	- 점심시간 : 13:00 ~ 14:00 / 지하2층 구내식당
@@ -29,10 +26,8 @@
 	1. [왜 리눅스를 사용하는가?](docs/why_linux.md)
 	1. [강의를 위한 단축키](docs/ppt_hotkey.md)
 	1. [Github와 오픈소스 이야기](docs/github.md)
-	1. 실습 : Github 가입
 	1. [Github 그룹 설정](docs/github_org_setting.md)
 	1. [포트폴리오 마케팅용 github.io 소개](docs/github_io.md)
-	1. id.github.io 리포지터리 생성
 	1. [linkedin](docs/linkedin.md)
 
 1. [x] 리눅스 설치1 (12.31)
@@ -257,7 +252,7 @@
 
 1. [Nuke Pedia 사이트 소개](docs/nukepedia.md)
 
-1. Nuke Command Line
+1. Nuke Command Line Rendering
 	1. [Nuke Command Line Rendering](docs/nuke_cmd.md)
 	1. [Render Management Tools 소개](docs/render_management_tools.md)
 

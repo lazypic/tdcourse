@@ -10,10 +10,6 @@ Github에서는 자신이 진행하는 프로젝트 웹사이트 또는 개발�
 
 몇장의 이력서보다 좀더 가치있는 PR 방법입니다.
 
-## 실 습
-
-실습을 통해서 index.html 및 github.io 리포지터리를 셋팅해보겠습니다.
-
 ## 실제 사용 및 적용
 - 프로필 : https://github.com/kohyuk91
 - 소스코드 : https://github.com/kohyuk91/kohyuk91.github.io
@@ -28,3 +24,7 @@ Github에서는 자신이 진행하는 프로젝트 웹사이트 또는 개발�
 ## Reference
 - https://pages.github.com/
 - 예제 : https://github.com/collections/github-pages-examples
+
+## 실 습
+- 실습을 통해서 index.html 및 github.io 리포지터리를 셋팅해보겠습니다.
+- 앞으로 강의를 진행 하면서 기다리는 시간이 생길 때 마다 여유시간에 자신의 홈페이지를 제작해보세요.
