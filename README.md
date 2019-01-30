@@ -1,20 +1,10 @@
 # Curriculum
 
 ## 기본정보
-- 장 소 : [MofacAcademy](https://www.mofacacademy.com)
-- 기 간 : 18.12.28 ~ 19.2.27
-- 시 간 : 월~금 09:00 ~ 17:00
-	- 매주 금 : 14:00 ~ 15:00 1시간 / The Foundry 위원식 지사장
-	- 쉬는시간 : 매 50분에서 10분간
-	- 점심시간 : 13:00 ~ 14:00 / 지하2층 구내식당
-	- 식권판매 : 10:45분 / 지하2층 구내식당 사무실
 - 교육내용 : Technical Director 기초과정 / 리눅스를 활용한 VFX, 애니메이션 파이프라인
 - 교육방식 : Github를 활용한 교육 및 협업개발
 - 문 의 : 김한웅 / hello@lazypic.org
-- 강의실 시스템 엔지니어 : 김태진 차장 / 010-7794-3111
-- 업무협의 : 정선화 부원장 / 010-8663-4626
 - 프로그래밍이 처음이라면 한번씩 읽고 오세요 : https://wikidocs.net/book/2
-
 ![Progress](http://progressed.io/bar/46?title=progress)
 
 ## 내 용
