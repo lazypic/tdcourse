@@ -153,10 +153,10 @@
 	1. [ffmpeg 명령어를 이용해서 개발내용 스크린 캡쳐](docs/ffmpeg_screencap.md)
 
 1. 파일변환 유틸리티 : Mencoder, HandBrake, Mediainfo
+	1. [mediainfo](docs/mediainfo.md)
 	1. [mencoder](docs/mencoder.md)
 	1. [HandBrake](docs/handbrake.md)
 	1. 실습 : HandBrakeCLI를 이용해서 일괄 Proxy 동영상 생성
-	1. [mediainfo](docs/mediainfo.md)
 
 1. 파일변환 유틸리티 : OpenImageIO
 	1. [컬러스페이스의 역사](docs/history_colorspace.md)

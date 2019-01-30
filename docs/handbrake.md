@@ -13,7 +13,7 @@ $ su
 # yum install fribidi-devel git jansson-devel libogg-devel libsamplerate-devel libtheora-devel libvorbis-devel opus-devel
 # yum install libass-devel yasm
 # yum repo-pkgs zmrepo remove
-# yum remove zmrepo
+# yum remove zmrepo #lame-devel,x264-devel 를 zmrepo에서 가지고 오지 않도록 하기위해서 제거합니다.
 # yum localinstall --nogpgcheck https://download1.rpmfusion.org/free/el/rpmfusion-free-release-7.noarch.rpm
 # yum install lame-devel x264-devel
 ```
@@ -56,6 +56,8 @@ $ HandBrakeCLI -i source --preset-import-file presetfile.json -o destination
 ```
 
 ## Reference
+영상을 올릴때 특정 코덱, 형식등을 제한하여 업로드 하는 서비스를 만날 때 사용합니다.
+
 - https://handbrake.fr/docs/en/1.1.0/developer/build-linux.html
 - https://handbrake.fr/docs/en/1.1.0/cli/cli-guide.html
 - 개발 제품 데모를 만들때 동영상 셋팅 제안문서(블렌더 마켓) : https://blendermarket.com/posts/reduce-the-size-of-your-training-videos
