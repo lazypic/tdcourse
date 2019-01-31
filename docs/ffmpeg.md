@@ -78,6 +78,8 @@ $ ffmpeg -i input.mp4 output.avi
 $ ~/app/ffmpeg/ffmpeg -f image2 -start_number 100 -r 24 -i ~/examples/FOO_0010/FOO_0010.%4d.jpg -vcodec libx264 output.mp4
 ```
 
+실습 : 앞으로 ffmpeg 명령어를 자주 사용하게 됩니다. ffmpge alias를 설정합니다.
+
 #### 비율을 유지하면서 가로픽셀을 1280으로 만들기
 
 ```bash
@@ -231,8 +233,9 @@ $ ffmpeg -f image2 -start_number 100 -r 24 -i ~/examples/FOO_0010/FOO_0010.%4d.j
 
 https://trac.ffmpeg.org/wiki/CompilationGuide/Centos
 
-## 실습
+## 실 습
 - CentOS설치이후 /home/$USER/app 폴더에 ffmpeg가 자동으로 설치되도록 스크립트를 작성합니다.
+- 터미널을 열었을 때 ffmpeg가 인식될 수 있도록 ffmpeg, ffprobe를 알리아스 설정합니다.
 
 ## 레퍼런스
 - ffmpeg와 비슷한 명령어 libav : https://www.libav.org

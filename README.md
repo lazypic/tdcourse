@@ -147,8 +147,11 @@
 	1. [ImageMagick](docs/imagemagick.md)
 	1. [실습 : ImageMagick + python subprocess 활용](docs/python_imagemagick.md)
 
-1. [ ] 파일변환 유틸리티 : FFmpeg (1.31)
+1. [x] 파일변환 유틸리티 : FFmpeg 1부 (1.31)
 	1. [FFmpeg](docs/ffmpeg.md)
+	1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작
+
+1. [ ] 파일변환 유틸리티 : FFmpeg 2부 (2.1)
 	1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작
 	1. [ffmpeg 명령어를 이용해서 개발내용 스크린 캡쳐](docs/ffmpeg_screencap.md)
 
