@@ -13,3 +13,7 @@
 ```bash
 $ mencoder -oac copy -ovc copy first.0001-0100.mov second.0101-0200.mov -o all.mov
 ```
+
+## 실 습
+- CentOS가 설치되면 자동으로 mencoder가 설치되도록 기능 추가하기.
+- 자동생성된 mov를 한번에 묶는 python 스크립트 작성하기.

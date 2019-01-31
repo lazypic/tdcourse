@@ -55,6 +55,8 @@ $ HandBrakeCLI -i source -o destination
 $ HandBrakeCLI -i source --preset-import-file presetfile.json -o destination
 ```
 
+- CentOS가 설치되면 자동으로 Handbrake가 설치되도록 스크립트 작성하기
+
 ## Reference
 영상을 올릴때 특정 코덱, 형식등을 제한하여 업로드 하는 서비스를 만날 때 사용합니다.
 
