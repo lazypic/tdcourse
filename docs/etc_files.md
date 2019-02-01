@@ -33,6 +33,7 @@ html언어 처럼 이미 약속된 tag를 사용하는 것이 아닌, 사용자�
 파일의 구조는 아래 구조를 띕니다.
 파일을 저장하게되면 데이터보다 태그의 양이 상대적으로 더 많기 때문에 데이터 저장의 효율성적인 측면에서 꼭 Xml을 써야하는 상황이 아니라면 저는 잘 사용하지 않습니다.
 
+test.xml
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 
@@ -47,6 +48,12 @@ html언어 처럼 이미 약속된 tag를 사용하는 것이 아닌, 사용자�
         <name>BAR_0010</name>
     </item>
 </shots>
+```
+
+테스트필요
+```python
+import xml.etree.ElementTree
+e = xml.etree.ElementTree.parse("test.xml").getroot(0)
 ```
 
 - Katana SceneGraphXml에 사용됩니다. : https://learn.foundry.com/katana/current/Content/ug/scene_data/scenegraphxml.html
