@@ -125,10 +125,12 @@
 	1. [Python : 경로를 분리하는 방법](docs/path_control.md)
 
 1. [x] [Python : 레귤러 익스프레션](docs/path_regexp.md) (1.25)
+	1. pathapi.py 제작하기 1부
 
 1. [x] 개발자 유틸리티 설치(1.28)
 	1. [pip](docs/pip.md) 설치
 	1. [cmake](docs/cmake.md) 설치
+	1. pathapi.py 제작하기 2부
 
 1. [x] 프로그램을 만들기전에 알아야 할 기본적인 지식(1.29)
 	1. [명령어의 구성요소 - 인수편](docs/command.md)
@@ -151,15 +153,15 @@
 	1. [FFmpeg](docs/ffmpeg.md)
 	1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작
 
-1. [ ] 파일변환 유틸리티 : FFmpeg 2부 (2.1)
+1. [x] 파일변환 유틸리티 : FFmpeg 2부 (2.1)
 	1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작
 	1. [ffmpeg 명령어를 이용해서 개발내용 스크린 캡쳐](docs/ffmpeg_screencap.md)
 
 1. 파일변환 유틸리티 : Mencoder, HandBrake, Mediainfo
+	1. 뉴크 라이센스 갱신
 	1. [mediainfo](docs/mediainfo.md)
 	1. [mencoder](docs/mencoder.md)
 	1. [HandBrake](docs/handbrake.md)
-	1. 실습 : HandBrakeCLI를 이용해서 일괄 Proxy 동영상 생성
 
 1. 파일변환 유틸리티 : OpenImageIO
 	1. [컬러스페이스의 역사](docs/history_colorspace.md)
