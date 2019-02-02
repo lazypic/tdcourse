@@ -36,24 +36,29 @@ html언어 처럼 이미 약속된 tag를 사용하는 것이 아닌, 사용자�
 test.xml
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-
-<project>
-    <name>circle</name>
-</project>
-<shots>
-    <item>
-        <name>FOO_0010</name>
-    </item>
-    <item>
-        <name>BAR_0010</name>
-    </item>
-</shots>
+<info>
+    <project>
+        <name>circle</name>
+    </project>
+    <shots>
+        <item>
+            <name>FOO_0010</name>
+        </item>
+        <item>
+            <name>BAR_0010</name>
+        </item>
+    </shots>
+</info>
 ```
 
-테스트필요
+test.py
 ```python
-import xml.etree.ElementTree
-e = xml.etree.ElementTree.parse("test.xml").getroot(0)
+import xml.etree.ElementTree as xe
+root = xe.parse("test.xml")
+
+for e in root.findall("shots"):
+    for sube in e.findall("time"):
+        print sube.findtext("name")
 ```
 
 - Katana SceneGraphXml에 사용됩니다. : https://learn.foundry.com/katana/current/Content/ug/scene_data/scenegraphxml.html
