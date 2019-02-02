@@ -101,7 +101,9 @@ name=FOO_0010,BAR_0010
 
 test.py
 ```python
+#!/usr/bin/env python
 import ConfigParser
+
 ini = ConfigParser.ConfigParser()
 ini.read("data.ini")
 
