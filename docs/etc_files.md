@@ -43,8 +43,9 @@ print(data)
 Extensible Markup Language 의 약자입니다.
 html언어 처럼 이미 약속된 tag를 사용하는 것이 아닌, 사용자가 원하는 tag를 지정하여 사용할 수 있습니다.
 
-파일의 구조는 아래 구조를 띕니다.
-파일을 저장하게되면 데이터보다 태그의 양이 상대적으로 더 많기 때문에 데이터 저장의 효율성적인 측면에서 꼭 Xml을 써야하는 상황이 아니라면 저는 잘 사용하지 않습니다.
+파일의 구조는 아래 구조를 띄고 있습니다.
+파일을 저장하게되면 데이터양 보다 태그 양이 더 많습니다.
+데이터 저장이 비 효율적이라서 저는 꼭 Xml을 써야하는 상황이 아니라면 잘 사용하지 않습니다.
 
 data.xml
 ```xml
@@ -79,7 +80,7 @@ for e in root.findall("shots"):
 
 - Katana SceneGraphXml에 사용됩니다. : https://learn.foundry.com/katana/current/Content/ug/scene_data/scenegraphxml.html
 
-- FinalCutPro 편집파일 : https://developer.apple.com/library/archive/documentation/FinalCutProX/Reference/FinalCutProXXMLFormat/Introduction/Introduction.html
+- FinalCutPro 편집 저장파일로 사용됩니다. : https://developer.apple.com/library/archive/documentation/FinalCutProX/Reference/FinalCutProXXMLFormat/Introduction/Introduction.html
 
 파이썬 파서 : https://docs.python.org/2/library/xml.etree.elementtree.html
 
