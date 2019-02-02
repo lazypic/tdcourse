@@ -118,7 +118,7 @@ print ini.options("project")
 print ini.get("project","name")
 ```
 
-- 윈도우즈 설정파일 쪽에서 자주 사용되는 포멧입니다.
+- 윈도우즈 프로그램들이 설정파일로 자주 사용하는 포멧입니다.
 - Unreal 프로젝트 설정에 사용됩니다.
 
 python파서 : https://docs.python.org/3/library/configparser.html
