@@ -127,8 +127,8 @@ python파서 : https://docs.python.org/3/library/configparser.html
 
 아래 명령어들을 타이핑하여 이미 존재하는 설정파일들을 관찰해 보세요.
 ```
-cd ~
-ls -al
+$ cd ~
+$ ls -al
 ```
 
 여러분도 앞으로 여러분의 프로그램을 만들게 될 것 입니다.
