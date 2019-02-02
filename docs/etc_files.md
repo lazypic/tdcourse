@@ -52,6 +52,7 @@ data.xml
 <info>
     <project>
         <name>circle</name>
+        <deadline>2020.01.13</deadline>
     </project>
     <shots>
         <item>
@@ -87,7 +88,8 @@ ini initialization의 약자입니다.
 보통 설정파일에 대한 비공식 표준형태의 포멧입니다.
 `[ ]`로 감싸 있는 것은 세션입니다.
 세션 하위에는 `키 = 값` 으로 데이터를 저장할 수 있습니다.
-다양한 형의 자료구조를 저장하기에는 무리가 있지만, 그래도 가독성이 좋기 때문에 단순한 설정파일에 많이 사용되는 포멧입니다.
+다양한 형의 자료구조를 저장하기에 무리가 있지만,
+가독성이 좋기 때문에 단순한 설정파일에 많이 사용되는 포멧입니다.
 
 data.ini
 ```ini
@@ -95,8 +97,11 @@ data.ini
 name=circle
 deadline="2020.01.13"
 
-[shots]
-name=FOO_0010,BAR_0010
+[shot01]
+name=FOO_0010
+
+[shot02]
+name=BAR_0010
 ```
 
 test.py
