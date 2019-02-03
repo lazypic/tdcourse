@@ -64,6 +64,14 @@ $ su
 # yum localinstall atom.x86_64.rpm -y
 ```
 
+### Webassembly.studio
+아마도 미래에 .wasm 이 많이 사용되게 되면 에디터를 설치하지 않을 것 입니다.
+그냥 웹브라우져에서 에디터를 이용하게 되겠죠!!
+
+아직 많은 언어를 지원하진 않지만 webassembly로 만들어진 에디터를 아래 링크에서 살펴볼 수 있습니다.
+
+https://webassembly.studio
+
 ## Reference
 - Eclipse : https://www.itzgeek.com/how-tos/linux/centos-how-tos/install-eclipse-4-4-luna-ide-on-centos-7-rhel-7.html
 - PyCharm : https://www.jetbrains.com/pycharm/
