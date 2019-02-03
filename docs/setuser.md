@@ -19,6 +19,7 @@ Zenity를 이용해서 사용자 환경변수 등록 프로그램을 제작해�
     - 사용자만 삭제하거나, 환경변수만 지우면 됩니다.
 
 id는 기본적으로 $USER 환경변수를 가지고 오고 필요시 수동 셋팅하도록 합니다.
+
 ![setuser02](../figures/setuser02.png)
 
 ![setuser03](../figures/setuser03.png)
