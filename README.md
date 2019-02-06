@@ -160,7 +160,6 @@
 1. 파일변환 유틸리티 : Mencoder, HandBrake, Mediainfo
 	1. 뉴크 라이센스 갱신
 	1. [mediainfo](docs/mediainfo.md)
-	1. [mencoder](docs/mencoder.md)
 	1. [HandBrake](docs/handbrake.md)
 
 1. 파일변환 유틸리티 : OpenImageIO
