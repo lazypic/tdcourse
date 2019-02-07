@@ -194,7 +194,7 @@
 1. [VFX에서 자주 사용되는 설정파일](docs/etc_files.md)
 
 1. VFX에서 자주 사용되는 파일 : 3D 데이터
-	1. 마야데이터 : .mb .ma
+	1. 마야데이터 : .ma .mb
 	1. 맥스 : .max
 	1. .fbx
 	1. [Obj](docs/obj.md)
@@ -272,7 +272,7 @@
 1. 자주 사용하는 플러그인 설치해보기
 	1. [크립토매트 설치해보기](docs/cryptomatte.md)(★★☆☆☆)
 	1. [루마픽쳐스에서 사용중인 기즈모 등록](docs/lumapic.md)(★★★☆☆)
-	1. [다른 작업에 사용되는 플러그인 셋팅](docs/set_other_plugins.md)
+	1. [상용 플러그인에서 자주 보이는 .so 플러그인 셋팅](docs/set_other_plugins.md)
 
 1. [파일관리툴 제작](docs/make_opener.md)(★★★★☆)
 	
