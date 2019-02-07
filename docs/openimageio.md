@@ -109,7 +109,7 @@ minmap과 비슷한 개념은 모델링 데이터에서 LOD(Level of Detail) 개
 
 소니이미지웍스의 Larry Gritz에 의해서 개발되었습니다.
 
-> 참고 : 렌더맨의 txmake와 혼동하기 쉽습니다.
+> 참고 : 픽사의 렌더맨을 설치하면 내부에 있는 txmake 명령어와 혼동하기 쉽습니다.
 
 ```
 $ maketx input.jpg
@@ -136,6 +136,7 @@ OpenImageIO를 설치하면 사용할 수 있는 이미지 프로세싱 툴입�
 가장 많이 사용하게 될 명령어 입니다.
 
 ## 컬러 프로파일 로딩 체크
+[OpenColorIO-Configs 설치방법](opencolorio.md)
 ```
 $ export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.0.3/config.ocio
 ```

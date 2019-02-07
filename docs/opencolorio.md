@@ -32,8 +32,8 @@ OpenColorIO-Configs는 OpenColorIO의 컬러 설정파일입니다.
 뉴크 내부 버전보다 더 높은 버전의 OCIO를 사용하고 싶다면 아래 설정을 따라해주세요.
 
 ```bash
-cd ~/app
-git clone https://github.com/imageworks/OpenColorIO-Configs
+$ cd ~/app
+$ git clone https://github.com/imageworks/OpenColorIO-Configs
 ```
 
 뉴크에 기본 탑재된 OCIO가 아닌 위 Configs 파일을 이용하고 싶다면 환경변수에 OCIO경로를 지정하면 뉴크가 자동으로 인식하여 뉴크 실행시 OpenColorIO-Configs를 로딩합니다.
@@ -135,6 +135,8 @@ ACES - ACESproxy
 ACES - ACEScg
 Input - ADX - ADX10
 ...
+계속 출력됩니다.
+...
 Tests complete.
 ```
 
@@ -147,7 +149,7 @@ ACES 프로젝트중 데이터를 ACES 2065-1로 보내달라고 하는 경우�
 
 - ACES 2065-1 : 표준 ACES 컬러스페이스 입니다.
 - ACEScg : 일반적으로 Visual Effects 프로그램에서 컬러를 인코딩하기 위해서 사용하는 ACES 컬러스페이스입니다.
-- ACEScc : ACES의 로그 컬러스페이스입니다.
+- ACEScc : ACES에서 사용하는 Log 컬러스페이스입니다.
 
 #### Reference
 - https://community.foundry.com/discuss/topic/137176/about-the-aces-vfx-pulls-aces-2065-1-or-acescg
@@ -159,7 +161,8 @@ OCIO Core Library는 OpenImageIO 같은 툴을 컴파일할 때 간혹 사용됩
 
 http://opencolorio.org/downloads.html#downloads
 
-## 실습
+## 실 습
+- OpenColorIO-Configs 설치를 자동화 합니다.
 - OCIO 컴파일 스크립트를 자동화합니다.
 
 ## Reference
