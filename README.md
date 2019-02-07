@@ -1,6 +1,6 @@
 # Curriculum
 
-## 기본정보 ![Progress](http://progressed.io/bar/46?title=progress)
+## 기본정보 ![Progress](http://progressed.io/bar/52?title=progress)
 - 교육내용 : Technical Director 기초과정 / 리눅스를 활용한 VFX, 애니메이션 파이프라인
 - 교육방식 : Github를 활용한 교육 및 협업개발
 - 문 의 : 김한웅 / hello@lazypic.org
@@ -157,14 +157,15 @@
 	1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작
 	1. [ffmpeg 명령어를 이용해서 개발내용 스크린 캡쳐](docs/ffmpeg_screencap.md)
 
-1. 파일변환 유틸리티 : HandBrake, Mediainfo
+1. [x] 파일변환 유틸리티 : HandBrake, Mediainfo(2.7)
 	1. 뉴크 라이센스 갱신
 	1. [mediainfo](docs/mediainfo.md)
 	1. [HandBrake](docs/handbrake.md)
 
-1. 파일변환 유틸리티 : OpenImageIO
-	1. [컬러스페이스의 역사](docs/history_colorspace.md)
-	1. [OpenImageIO 설치](docs/openimageio.md)
+
+1. [x] [컬러스페이스의 역사](docs/history_colorspace.md)(2.7)
+
+1. [ ] [OpenImageIO 설치](docs/openimageio.md)
 
 1. [VFX Platform 소개](docs/vfx_platform.md)
 	1. [NumPy](docs/numpy.md)
