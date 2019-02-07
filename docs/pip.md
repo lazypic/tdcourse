@@ -20,6 +20,10 @@ $ pip install --user numpy
 
 설치되는 경로는 ~/.local 폴더 입니다.
 
+```
+~/.local/lib/python2.7/site-packages
+```
+
 ## 실습
 - pip를 자동으로 설치하는 `pip.sh` 스크립트를 작성하고 Github에 git push 합니다.
 
