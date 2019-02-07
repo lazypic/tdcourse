@@ -107,7 +107,6 @@ $ iv input.ext
 이미지를 MipMap 타일 이미지로 변환하는 명령어 입니다. Pixar Renderman의 txmake와 비슷한 명령어입니다.
 minmap과 비슷한 개념은 모델링 데이터에서 LOD(Level of Detail) 개념과 비슷합니다.(텍스쳐 LOD죠!)
 
-출처: http://ozlael.tistory.com/45 [오즈라엘]
 소니이미지웍스의 Larry Gritz에 의해서 개발되었습니다.
 
 > 참고 : 렌더맨의 txmake와 혼동하기 쉽습니다.
