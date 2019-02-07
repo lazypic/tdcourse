@@ -35,8 +35,8 @@ OTIO 프로젝트가 생겼을 만큼 AAF는 복잡합니다.
 pip를 이용해서 설치할 수 있습니다.
 
 ```
-# pip install PySide2
-# pip install opentimelineio
+$ pip install --user PySide2
+$ pip install --user opentimelineio
 ```
 
 ## 명령어
