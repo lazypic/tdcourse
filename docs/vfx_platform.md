@@ -1,23 +1,23 @@
 # VFX Reference Platform
-VFX 시장에서 툴과 라이브러리를 제작할 때 수많은 언어, 라이브러리를 사용합니다.
-회사, 개발자들이 언어, 라이브러리의 버전을 약속하기 위한 제안규칙이라고 생각해주세요.
+VFX 시장에서 툴과 라이브러리를 툴 제작사가 개발시 수많은 언어, 라이브러리를 사용합니다.
+회사, 개발자, 각 회사들의 인하우스 개발등.. 사용 언어와 라이브러리의 버전을 약속하기 위한 제안규칙이라고 생각해주세요.
 
-버전을 공유하고 제안하는 이유
+홈페이지 : https://www.vfxplatform.com
+
+라이브러리 버전을 공유하고 제안하는 이유
 - 다른 소프트웨어들 끼리 호환되지 않는 문제를 최소화
 - 리눅스 파이프라인을 지원할 때 드는 비용을 감소
-- 각 회사에 리눅스 파이프라인 채택을 장려하기 위함입니다.
+- 각 회사에 리눅스 파이프라인 채택을 장려
 
-VFX Refercene Platform 규칙은 [Visual Effects Society Technology Committee](https://www.visualeffectssociety.com/ves-committees?jump-9)에서 회의를 통해 매년 업데이트합니다. 이 규칙은 Foundry같은 회사가 따르고 있습니다.
+VFX Refercene Platform 규칙은 [Visual Effects Society Technology Committee](https://www.visualeffectssociety.com/ves-committees?jump-9)에서 회의를 통해 매년 업데이트합니다. 이 규칙은 Foundry등 툴 제작사가 따르고 있습니다.
 
 Visual Effects Society Technology Commitee 에 들어가면 각 위원회 리스트가 나옵니다.
 여러분도 같이 참여하고 싶다면 Chairs 항목에 있는 의장에게 메일을 보내서 각 위원회에 참여하고 싶다고 의사를 밝히면 됩니다.
 
-그래픽툴을 제작하는 회사가 제품을 출시하면 VFX Reference Platform 몇년도를 따르고 있는지 정보를 기입합니다.
+그래픽툴을 제작하는 회사가 그래픽스 제품을 출시후 VFX Reference Platform 몇년도 버전을 따르고 있는지 정보를 공표합니다.
 - 예) Nuke & Hiero : https://www.foundry.com/news-awards/nuke-hiero-11-release
 - 예) Katana : https://www.foundry.com/products/katana/new-releases
 - 예) Houdini의 움직임 : http://www.sidefx.com/docs/houdini/licenses/index
-
-홈페이지 : https://www.vfxplatform.com
 
 자신이 하는 프로젝트에 따라서 버전을 맞추기 위해 홈페이지를 통해서 소스코드를 다운받아서 사용해는것이 좋을 수 있습니다.
 
@@ -25,7 +25,7 @@ Visual Effects Society Technology Commitee 에 들어가면 각 위원회 리스
 GNU Compiler Collection의 약자.
 여러 컴파일러의 모음입니다. 지원하는 컴파일 언어는 C, C++, Objective-C, Fortran, Ada, Go입니다.
 
-CentOS7.5에서 yum 을 통해서 설치하는  gcc 버전은 4.8.5 입니다.
+CentOS7.6 에서 yum 을 통해서 설치하는  gcc 버전은 4.8.5 입니다.
 
 ```bash
 $ tail /etc/redhat-release 
@@ -82,12 +82,12 @@ Qt 5.9.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 4.8.5
 
 ## PyQt5
 python3으로 올리고 설치해주세요. 대부분의 VFX 툴은 아직 Python2.7.x 를 사용합니다.
-개발을 한다면, PySide사용을 추천합니다.
+VFX툴을 개발 한다면, PySide2 사용을 추천합니다.
 
 ## PySide
 설치
 ```bash
-# pip install PySide2
+$ pip install --user PySide2
 ```
 
 버전체크
@@ -125,7 +125,7 @@ $ python pyside2_test.py
 
 ## NumPy
 ```bash
-# pip install numpy
+# pip install --user numpy
 ```
 
 버전확인
@@ -169,7 +169,7 @@ int main()
 }
 ```
 
-윜 코드를 컴파일하고 실행하는 방법은 아래와 같습니다. CentOS7.5 기본 Boost는 1.53입니다.
+윜 코드를 컴파일하고 실행하는 방법은 아래와 같습니다. CentOS7.6 기본 Boost는 1.53입니다.
 
 ```bash
 $ g++ boost.cpp

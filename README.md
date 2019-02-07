@@ -28,7 +28,7 @@
 	1. [그래픽카드 드라이버 설치](docs/install_nvidia.md)
 	1. [Grub셋팅](docs/setup_grub.md)
 	1. [규칙](docs/rule.md)
-	1. 실습 : 같이 CentOS 둘러보기
+	1. 실 습 : 같이 CentOS 둘러보기
 
 1. [x] 리눅스 명령어 기본(1.3)
 	1. [리눅스의 기본 명령어](docs/linux_cmd.md)
@@ -158,7 +158,7 @@
 	1. [ffmpeg 명령어를 이용해서 개발내용 스크린 캡쳐](docs/ffmpeg_screencap.md)
 
 1. [x] 파일변환 유틸리티 : HandBrake, Mediainfo(2.7)
-	1. 뉴크 라이센스 갱신
+	1. 뉴크 라이센스 만료 / 갱신
 	1. [mediainfo](docs/mediainfo.md)
 	1. [HandBrake](docs/handbrake.md)
 
