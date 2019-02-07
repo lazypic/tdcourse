@@ -169,6 +169,8 @@
 1. [VFX Platform 소개](docs/vfx_platform.md)
 	1. [NumPy](docs/numpy.md)
 
+1. [프로젝트 매니징 파이프라인툴](docs/pipeline_tools.md)
+
 1. [파이썬을 이용해서 엑셀파일 읽기, 쓰기](docs/excel_python.md)
 
 1. VFX에서 자주 사용되는 파일 : 촬영, 현장데이터
@@ -184,8 +186,6 @@
 	1. [OpenColorIO Lut](docs/opencolorio_lut.md)
 	1. [EDL](docs/edl.md)
 	1. [OpenTimelineIO](docs/opentimelineio.md)
-
-1. [프로젝트 매니징 파이프라인툴](docs/pipeline_tools.md)
 
 1. VFX에서 자주 사용되는 파일 : OpenEXR
 	1. [OpenEXR](docs/openexr.md)

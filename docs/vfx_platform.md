@@ -154,7 +154,7 @@ FBX는 Autodesk에서 개발하는 포멧입니다. 리눅스에서는 SDK를 �
 
 ## Boost
 자신이 직접 컴파일해서 사용한다면 버전을 정확하게 알 수 있지만,
-회사에 이미 누군가가 셋팅해서 사용한다면 간단하게 cpp 코드를 짜서 버전을 알아낼 수 있습니다.
+회사에 이미 누군가가 셋팅해서 사용중이라면 간단하게 cpp 코드를 짜서 버전을 알아낼 수 있습니다.
 
 ```cpp
 #include <boost/version.hpp>
@@ -169,7 +169,7 @@ int main()
 }
 ```
 
-윜 코드를 컴파일하고 실행하는 방법은 아래와 같습니다. CentOS7.6 기본 Boost는 1.53입니다.
+위 코드를 컴파일하고 실행하는 방법은 아래와 같습니다. CentOS7.6 기본 Boost는 1.53입니다.
 
 ```bash
 $ g++ boost.cpp
@@ -216,7 +216,6 @@ https://software.intel.com/en-us/articles/intel-math-kernel-library-intel-mkl-20
 
 #### 읽어보기
 - http://www.sandia.co.kr/intelsw/performance_libraries/reseller_prodpage_mkl_and_mkl_cluster_edition.htm
-
 
 
 ## C++ API/SDK
