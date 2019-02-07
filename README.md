@@ -162,7 +162,6 @@
 	1. [mediainfo](docs/mediainfo.md)
 	1. [HandBrake](docs/handbrake.md)
 
-
 1. [x] [컬러스페이스의 역사](docs/history_colorspace.md)(2.7)
 
 1. [ ] [OpenImageIO 설치](docs/openimageio.md)
