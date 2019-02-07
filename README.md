@@ -173,27 +173,27 @@
 
 1. [파이썬을 이용해서 엑셀파일 읽기, 쓰기](docs/excel_python.md)
 
-1. VFX에서 자주 사용되는 파일 : 촬영, 현장데이터
+1. VFX에서 자주 사용되는 파일 : 촬영, 현장데이터 편
 	1. [촬영데이터 파일명의 구조](docs/raw_name.md)
 	1. [raw2exr](docs/arriconverter_cmd.md)
 	1. [metaextractor](docs/arri_metaextract.md)
 	1. [현장데이터 수집툴](docs/setellite.md)
 	1. [기타 현장데이터 종류](docs/etc_onsetdata.md)
 
-1. VFX에서 자주 사용되는 파일 : 컬러매니징(DI), 편집작업
+1. VFX에서 자주 사용되는 파일 : 컬러매니징(DI), 편집 편
 	1. [ACES / OpenColorIO](docs/opencolorio.md)
 	1. [Lut](docs/lut.md)
 	1. [OpenColorIO Lut](docs/opencolorio_lut.md)
 	1. [EDL](docs/edl.md)
 	1. [OpenTimelineIO](docs/opentimelineio.md)
 
-1. VFX에서 자주 사용되는 파일 : OpenEXR
+1. VFX에서 자주 사용되는 파일 : OpenEXR 이미지
 	1. [OpenEXR](docs/openexr.md)
 	1. [OpenEXR 명령어](docs/openexr_cmd.md)
 
 1. [VFX에서 자주 사용되는 설정파일](docs/etc_files.md)
 
-1. VFX에서 자주 사용되는 파일 : 3D 데이터
+1. VFX에서 자주 사용되는 파일 : 3D 데이터 편
 	1. 마야데이터 : .ma .mb
 	1. 맥스 : .max
 	1. .fbx
@@ -201,7 +201,7 @@
 	1. [Alembic](docs/abc.md)
 	1. [USD](docs/usd.md)
 
-1. VFX에서 자주 사용되는 파일 : 쉐이더
+1. VFX에서 자주 사용되는 파일 : 쉐이더 편
 	1. [OpenShandingLanguage](docs/osl.md)
 
 1. VFX에서 자주 사용되는 파일 : 볼륨데이터
