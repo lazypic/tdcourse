@@ -55,6 +55,8 @@ for track in media_info.tracks:
 ```
 mov 정보가 잘 출력되는 확인해주세요.
 
+frames 계산시 1000으로 나누는 이유는 duration 값이 소수점 3자리까지 출력되기 때문입니다.
+
 
 > 참고 : 아래와 같은 에러가 발생하면 mediainfo가 설치되어있지 않아서 그렇습니다.
 
