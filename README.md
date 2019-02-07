@@ -157,7 +157,7 @@
 	1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작
 	1. [ffmpeg 명령어를 이용해서 개발내용 스크린 캡쳐](docs/ffmpeg_screencap.md)
 
-1. 파일변환 유틸리티 : Mencoder, HandBrake, Mediainfo
+1. 파일변환 유틸리티 : HandBrake, Mediainfo
 	1. 뉴크 라이센스 갱신
 	1. [mediainfo](docs/mediainfo.md)
 	1. [HandBrake](docs/handbrake.md)
