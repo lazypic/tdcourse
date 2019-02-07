@@ -25,8 +25,7 @@ pypi 홈페이지 : https://pypi.org/project/pymediainfo/
 설치는 아래와 같습니다.
 
 ```
-# pip install --upgrade setuptools
-# pip install pymediainfo
+$ pip install --user pymediainfo
 ```
 
 파이썬을 이용하여 bit_rate, bit_rate_mode, codec을 가지고 오는 예제를 작성해보겠습니다.
