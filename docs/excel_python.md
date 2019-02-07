@@ -26,12 +26,12 @@ import csv
 
 자주 사용하는 라이브러리를 일괄 설치합니다.
 ```
-pip install openpyxl
-pip install xlsxwriter
-pip install xlrd
-pip install xlwt
-pip install xlutils
-pip install pillow <- 엑셀에 이미지를 넣을 때 사용됩니다.
+$ pip install --user openpyxl
+$ pip install --user xlsxwriter
+$ pip install --user xlrd
+$ pip install --user xlwt
+$ pip install --user xlutils
+$ pip install --user pillow <- 엑셀에 이미지를 넣을 때 사용됩니다.
 ```
 
 ## .csv 파일 읽기
