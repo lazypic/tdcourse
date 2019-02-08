@@ -16,10 +16,21 @@ Github에서는 자신이 진행하는 프로젝트 웹사이트 또는 개발�
 - 웹사이트 : http://kohyuk91.github.io
 
 ## 활용할 수 있는 라이브러리
+구글에서 `bootstrap portfolio template` 로 검색하면 수많은 템플릿이 나옵니다.
+마음에 드는 템플릿을 다운로드 받고 수정하는 것 부터 시작해보세요.
+
 - https://www.staticgen.com/
 - https://getbootstrap.com/
 - https://mdbootstrap.com/
 - https://material.io/design/
+
+## 콘텐츠 구성
+github.io 페이지에는 다음과 같은 내용이 있으면 좋습니다.
+- 소개
+- github link
+- youtube clip : script & tool
+- linkedin
+- contact
 
 ## Reference
 - https://pages.github.com/
