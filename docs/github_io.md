@@ -28,7 +28,7 @@ Github에서는 자신이 진행하는 프로젝트 웹사이트 또는 개발�
 github.io 페이지에는 다음과 같은 내용이 있으면 좋습니다.
 - 소개
 - github link
-- youtube clip : script & tool
+- youtube clip : Script & Tools
 - linkedin
 - contact
 
