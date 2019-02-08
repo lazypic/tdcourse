@@ -1,6 +1,6 @@
 # Curriculum
 
-## 기본정보 ![Progress](http://progressed.io/bar/52?title=progress)
+## 기본정보 ![Progress](http://progressed.io/bar/54?title=progress)
 - 교육내용 : Technical Director 기초과정 / 리눅스를 활용한 VFX, 애니메이션 파이프라인
 - 교육방식 : Github를 활용한 교육 및 협업개발
 - 문 의 : 김한웅 / hello@lazypic.org
@@ -165,9 +165,9 @@
 
 1. [x] [컬러스페이스의 역사](docs/history_colorspace.md)(2.7)
 
-1. [ ] [OpenImageIO 설치](docs/openimageio.md)
+1. [x] [OpenImageIO 설치](docs/openimageio.md)(2.8)
 
-1. [VFX Platform 소개](docs/vfx_platform.md)
+1. [x] [VFX Platform 소개](docs/vfx_platform.md)(2.8)
 	1. [NumPy](docs/numpy.md)
 
 1. [프로젝트 매니징 파이프라인툴](docs/pipeline_tools.md)
