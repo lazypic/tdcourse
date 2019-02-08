@@ -5,7 +5,7 @@ foundry.com에 가입을 해야 제품을 다운로드 할 수 있습니다.
 
 가입을 진행합니다.
 
-http://foundry.com/products/nuke/download 를 클릭하고 로그인해서 제품을 다운로드 받으세요.
+https://www.foundry.com/products/nuke/try-nuke 를 클릭하고 로그인해서 제품을 다운로드 받으세요.
 
 ## 설치
 
