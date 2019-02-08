@@ -492,24 +492,24 @@ oiiotool을 가장 많이 사용할 때는 ACES exr 파일을 아티스트가 �
 테스팅 할 것
 
 ```bash
-$ oiiotool -i input.exr --colorconvert "ACES - ACEScg" "Output - Rec.709" -o ouput.jpg
+$ oiiotool input.exr --colorconvert "ACES - ACEScg" "Output - Rec.709" -o ouput.jpg
 ```
 
 프리뷰 이미지를 만들 때 --fit 옵션을 사용하면 리사이즈 할 수 있습니다.
 
 ```
-$ oiiotool -i input.exr --colorconvert "ACES - ACEScg" "Output - Rec.709" --fit 320x240 -o ouput.jpg
+$ oiiotool input.exr --colorconvert "ACES - ACEScg" "Output - Rec.709" --fit 320x240 -o ouput.jpg
 ```
 ## Dpx to sRGB
 참고 : ADX10은 ACES DPX 10bit 의 약자입니다.
 
 ```bash
-$ oiiotool -i input.dpx --colorconvert "Input - ADX - ADX10" "Output - sRGB" -o ouput.jpg
+$ oiiotool input.dpx --colorconvert "Input - ADX - ADX10" "Output - sRGB" -o ouput.jpg
 ```
 
 만약 dpx가 Arri V3 LogC 커브로 인코딩 되어있다면 아래같은 옵션을 사용할 수 있습니다.
 ```bash
-$ oiiotool -i input.dpx --colorconvert "Input - ARRI - Curve - V3 LogC (EI800)" "Output - sRGB" -o ouput.jpg
+$ oiiotool input.dpx --colorconvert "Input - ARRI - Curve - V3 LogC (EI800)" "Output - sRGB" -o ouput.jpg
 ```
 
 ## .exr to .tga
@@ -517,13 +517,13 @@ $ oiiotool -i input.dpx --colorconvert "Input - ARRI - Curve - V3 LogC (EI800)" 
 oiiotool 명령어는 기본적으로 이미지 알파 채널에 대해서 premult를 하지 않으니 알파가 있는 exr 이미지 컨버팅시에는 꼭 `--premult` 옵션을 달아주세요.
 
 ```bash
-$ oiiotool -i input.exr --colorconvert linear srgb --premult -o output.tga
+$ oiiotool input.exr --colorconvert linear srgb --premult -o output.tga
 ```
 
 ## 이미지 리사이즈 
 이미지를 리사이즈 할 때는 `--resize` 옵션을 사용할 수 있습니다.
 ```
-$ oiiotool -i input.exr --resize 2048x1152 -o output.exr
+$ oiiotool input.exr --resize 2048x1152 -o output.exr
 ```
 
 ## 컴파일
