@@ -125,7 +125,7 @@ $ python pyside2_test.py
 
 ## NumPy
 ```bash
-# pip install --user numpy
+$ pip install --user numpy
 ```
 
 버전확인
