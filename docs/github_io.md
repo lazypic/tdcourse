@@ -17,7 +17,7 @@ Github에서는 자신이 진행하는 프로젝트 웹사이트 또는 개발�
 
 ## 활용할 수 있는 라이브러리
 구글에서 `bootstrap portfolio template` 로 검색하면 수많은 템플릿이 나옵니다.
-마음에 드는 템플릿을 다운로드 받고 수정하는 것 부터 시작해보세요.
+디자인이 어렵다면 마음에 드는 템플릿을 골라 다운로드 받고 Text를 수정하는 것 부터 시작해 보는것을 추천합니다.
 
 - https://www.staticgen.com/
 - https://getbootstrap.com/
