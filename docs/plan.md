@@ -1,9 +1,12 @@
 # 개 요
 리눅스 VFX Technical Director 양성을 위한 기초 커리큘럼
 
-- 한국 대규모 VFX회사 실정에 맞는 커리큘럼
-- 리눅스(CentOS) + 쉘스크립트 + 파이썬 + 파일포멧 + 뉴크 파이썬 API 기초
-- 커리큘럼 : https://github.com/cgiseminar/curriculum/
+- 한국 대규모 VFX회사 상황에 맞는 교육
+- OS + 환경변수 + 프로그래밍 + 툴이 활용되는 방법을 다루는 커리큘럼
+	- 개별 라이브러리의 역사 및 접근방법 소개
+	- 리눅스(CentOS) + 쉘스크립트 + 파이썬 + 뉴크 파이썬 API 기초
+	- VFX, 애니메이션, 게임제작에 자주 사용되는 파일포멧
+- 커리큘럼URL : https://github.com/cgiseminar/curriculum/
 
 ## 교육특징
 - 강의 초기부터 관심기업이 이슈를 작성할 수 있도록 교육내용 및 이슈페이지 오픈
@@ -12,9 +15,12 @@
 - 작성한 코드 리뷰
 
 ## 인재 추천방법
+프로그래밍이 재미있고 분야에 흥미를 가지는 학생을 선별
+
+기업이 객관적인 평가를 할 수 있도록 교육생 코드저장소 전달(Github URL)
 ![github_contribution](../figures/github_contribution.png)
 
-- 기업이 객관적인 평가를 할 수 있도록 교육생 코드저장소 전달(Github URL)
-- 교육종료후 개발자 포트폴리오 사이트 제작후 기업에 URL 전달(github.io)
+
+교육종료후 개발자 포트폴리오 사이트 제작후 기업에 URL 전달(github.io)
 
 
