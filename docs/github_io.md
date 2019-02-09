@@ -35,6 +35,7 @@ github.io 페이지에는 다음과 같은 내용이 있으면 좋습니다.
 ## Reference
 - https://pages.github.com/
 - 예제 : https://github.com/collections/github-pages-examples
+- 템플릿을 고르되 깔끔한것을 고르세요 : https://github.com/sproogen/modern-resume-theme
 
 ## 실 습
 - 실습을 통해서 index.html 및 github.io 리포지터리를 셋팅해보겠습니다.
