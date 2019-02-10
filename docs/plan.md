@@ -23,7 +23,7 @@
 
 ![github_contribution](../figures/github_contribution.png)
 
-1. 교육종료후 교육생 개발자 포트폴리오 사이트 제작후 기업에 URL 전달합니다. 
+1. 교육종료후 교육생 개발자 포트폴리오 사이트를 github.io 서비스로 제작합니다. 기업에 URL 전달합니다. 
 
 ![githubio](../figures/githubio.png)
 
