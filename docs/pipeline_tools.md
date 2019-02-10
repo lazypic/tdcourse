@@ -12,7 +12,8 @@
 
 #### Shotgun
 ![shotgun](http://cdn.studiodaily.com/wp-content/uploads/2013/05/630_shotgun.jpg)
-아마도 국내 대부분의 대규모 업체들은 Shotgun을 사용하고 있습니다.
+
+국내 대규모 업체들은 Shotgun을 많이 사용하고 있습니다.
 - 사용업체 : Weta, Framestore, Mackevision, Pixomondo, [매크로그래프](https://www.glassdoor.com/Reviews/Employee-Review-Macrograph-RVW16955051.htm), [포스](https://www.awn.com/news/2018-shotgun-pipeline-award-winners-announced),
 
 - 홈페이지 : https://www.shotgunsoftware.com
