@@ -26,3 +26,5 @@
 ![githubio](../figures/githubio.png)
 
 예시 : [http://khw7096.github.io](http://khw7096.github.io)
+
+1. 기업과 학생모두 미팅 또는 면접에 관심이 있다면, 다음 과정을 진행합니다.
