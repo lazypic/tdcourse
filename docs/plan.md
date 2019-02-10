@@ -24,4 +24,5 @@
 
 1. 교육종료후 교육생 개발자 포트폴리오 사이트 제작후 기업에 URL 전달합니다. 
 ![githubio](../figures/githubio.png)
+
 예시 : [http://khw7096.github.io](http://khw7096.github.io)
