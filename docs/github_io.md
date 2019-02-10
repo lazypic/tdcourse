@@ -37,6 +37,8 @@ github.io 페이지에는 다음과 같은 내용이 있으면 좋습니다.
 - 예제 : https://github.com/collections/github-pages-examples
 - 템플릿을 고르되 깔끔한것을 고르세요 : https://github.com/sproogen/modern-resume-theme
 
+- [교육이후 기업에게 전달되는 과정](plan.md)
+
 ## 실 습
 - 실습을 통해서 index.html 및 github.io 리포지터리를 셋팅해보겠습니다.
 - 앞으로 강의를 진행 하면서 기다리는 시간이 생길 때 마다 여유시간에 자신의 홈페이지를 제작해보세요.
