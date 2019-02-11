@@ -30,7 +30,6 @@ $ cd ~/app
 $ mv ~/app/cmake-3.13.3 ~/app/cmake-3.13.3_src
 $ mkdir cmake-3.13.3
 $ cd ~/app/cmake-3.13.3_src
-$ scl enable devtoolset-6 bash
 $ ./configure --prefix=$HOME/app/cmake-3.13.3
 $ make
 $ make install

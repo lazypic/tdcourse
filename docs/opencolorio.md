@@ -49,7 +49,7 @@ $ git clone https://github.com/imageworks/OpenColorIO-Configs
 export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.0.3/config.ocio
 ```
 
-## OpenColorIO 컴파일
+## OpenColorIO 컴파일(진행중)
 OpenColorIO를 컴파일하면 각종 라이브러리, 명령어를 추가로 사용할 수 있습니다.
 
 - 소스코드 : https://github.com/imageworks/OpenColorIO
