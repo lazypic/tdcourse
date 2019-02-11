@@ -64,6 +64,10 @@ OpenColorIO를 컴파일하면 각종 라이브러리, 명령어를 추가로 �
 $ scl enable devtoolset-6 bash
 $ cd ~/app
 $ git clone https://github.com/imageworks/OpenColorIO OpenColorIO_src
+$ cd OpenColorIO_src
+$ git tag
+$ git checkout v1.1.0
+$ cd ..
 $ mkdir OpenColorIO_build
 $ cd OpenColorIO_build
 $ ~/app/cmake-3.13.3/bin/cmake ../OpenColorIO_src -DCMAKE_INSTALL_PREFIX=$HOME/app/OpenColorIO -DGLEW_INCLUDE_DIR=/usr/include -DGLEW_LIBRARY=/usr/lib64 -DOCIO_BUILD_GPU_TESTS=OFF
