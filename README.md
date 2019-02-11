@@ -170,21 +170,23 @@
 1. [x] [VFX Platform 소개](docs/vfx_platform.md)(2.8)
 	1. [NumPy](docs/numpy.md)
 
-1. [프로젝트 매니징 파이프라인툴](docs/pipeline_tools.md)
+1. [x] [프로젝트 매니징 파이프라인툴](docs/pipeline_tools.md)(2.11)
 
-1. [파이썬을 이용해서 엑셀파일 읽기, 쓰기](docs/excel_python.md)
+1. [x] [파이썬을 이용해서 엑셀파일 읽기, 쓰기](docs/excel_python.md)(2.11)
 
-1. VFX에서 자주 사용되는 파일 : 촬영, 현장데이터 편
+1. [x] VFX에서 자주 사용되는 파일 : 촬영, 현장데이터 (2.11)
 	1. [촬영데이터 파일명의 구조](docs/raw_name.md)
 	1. [raw2exr](docs/arriconverter_cmd.md)
 	1. [metaextractor](docs/arri_metaextract.md)
 	1. [현장데이터 수집툴](docs/setellite.md)
 	1. [기타 현장데이터 종류](docs/etc_onsetdata.md)
 
-1. VFX에서 자주 사용되는 파일 : 컬러매니징(DI), 편집 편
+1. [x] VFX에서 자주 사용되는 파일 : 컬러매니징(DI) (2.11)
 	1. [ACES / OpenColorIO](docs/opencolorio.md)
 	1. [Lut](docs/lut.md)
 	1. [OpenColorIO Lut](docs/opencolorio_lut.md)
+
+1. VFX에서 자주 사용되는 파일 : 편집
 	1. [EDL](docs/edl.md)
 	1. [OpenTimelineIO](docs/opentimelineio.md)
 

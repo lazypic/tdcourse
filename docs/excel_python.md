@@ -15,26 +15,14 @@ LibreOffice 엑셀을 설치해봅시다.
 
 ## Python 자주 사용하는 모듈
 
-#### CSV 파서
+## CSV 파서
 python에는 csv 파서가 기본적으로 탑제 되어있습니다.
 
 ```python
 import csv
 ```
 
-#### Excel 파서
-
-자주 사용하는 라이브러리를 일괄 설치합니다.
-```
-$ pip install --user openpyxl
-$ pip install --user xlsxwriter
-$ pip install --user xlrd
-$ pip install --user xlwt
-$ pip install --user xlutils
-$ pip install --user pillow <- 엑셀에 이미지를 넣을 때 사용됩니다.
-```
-
-## .csv 파일 읽기
+### .csv 파일 읽기
 
 ```python
 #coding:utf8
@@ -47,7 +35,7 @@ with open(csvPath) as csvFile:
         print(row)
 ```
 
-## .csv 파일 저장
+### .csv 파일 저장
 
 ```python
 import csv
@@ -61,7 +49,20 @@ with open('/path/cglist.csv', mode='w') as csv_file:
     writer.writerow({'ep':'1','seq': 'CAR', 'scene': 'BAR', 'shot': '0010', 'note': 'cg car, add dust'})
 ```
 
-## .xlsx 파일 읽기
+## Excel 파서
+
+자주 사용하는 라이브러리를 일괄 설치합니다.
+```
+$ pip install --user openpyxl
+$ pip install --user xlsxwriter
+$ pip install --user xlrd
+$ pip install --user xlwt
+$ pip install --user xlutils
+$ pip install --user pillow <- 엑셀에 이미지를 넣을 때 사용됩니다.
+```
+
+
+### .xlsx 파일 읽기
 
 ```python
 #coding:utf8
@@ -76,7 +77,7 @@ for row in ws.rows:
         print(cell.value)
 ```
 
-## .xlsx 파일 쓰기
+### .xlsx 파일 쓰기
 
 ```python
 from openpyxl import Workbook
@@ -91,7 +92,7 @@ ws1.append(["1","CAR","BAR","0010","add car, add dust"])
 wb.save(filename = dest)
 ```
 
-## 실습
+### 실습
 - 리브레오피스를 설치하고 Excel 파일을 만들어서 저장하고 해당 파일로 테스트해봅시다.
 - 엑셀파일을 직접 만들어보고 데이터를 로딩해보세요.
 
