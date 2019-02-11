@@ -66,14 +66,17 @@ $ cd ~/app
 $ git clone https://github.com/imageworks/OpenColorIO OpenColorIO_src
 $ cd OpenColorIO_src
 $ git tag
-$ git checkout v1.1.0
+$ git checkout v1.0.9
 $ cd ..
 $ mkdir OpenColorIO_build
 $ cd OpenColorIO_build
-$ ~/app/cmake-3.13.3/bin/cmake ../OpenColorIO_src -DCMAKE_INSTALL_PREFIX=$HOME/app/OpenColorIO -DGLEW_INCLUDE_DIR=/usr/include -DGLEW_LIBRARY=/usr/lib64 -DOCIO_BUILD_GPU_TESTS=OFF
+$ ~/app/cmake-3.13.3/bin/cmake ../OpenColorIO_src -DCMAKE_INSTALL_PREFIX=$HOME/app/OpenColorIO
 $ make
 $ make install
 ```
+
+v1.1.0으로 컴파일하지 않는 이유.
+- 이슈 : https://github.com/imageworks/OpenColorIO/issues/617
 
 ## 명령어
 OCIO 명령어를 실행하기 위해서는 libOpenColorIO.so.2.0 파일이 필요합니다.
