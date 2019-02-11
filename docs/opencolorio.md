@@ -176,6 +176,10 @@ http://opencolorio.org/downloads.html#downloads
 ## 실 습
 - OpenColorIO-Configs 설치를 자동화 합니다.
 - OCIO 컴파일 스크립트를 자동화합니다.
+- OCIO 환경변수를 설정하고 뉴크를 실행합니다. 다시 OCIO 환경변수를 제거하고 뉴크를 실행합니다. 제거하는 방법은 아래와 같습니다.
+```
+$ unset OCIO
+```
 
 ## Reference
 - ociobakelut : http://opencolorio.org/CompatibleSoftware.html
