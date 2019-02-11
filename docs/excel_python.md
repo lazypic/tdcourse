@@ -53,12 +53,12 @@ with open(csvPath) as csvFile:
 import csv
 
 with open('/path/cglist.csv', mode='w') as csv_file:
-    fieldnames = ['eq','seq', 'scene', 'shot', 'note']
+    fieldnames = ['ep','seq', 'scene', 'shot', 'note']
     writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
     writer.writeheader()
-    writer.writerow({'eq':'1','seq': 'CAR', 'scene': 'FOO', 'shot': '0010', 'note': 'cg car'})
-    writer.writerow({'eq':'1','seq': 'CAR', 'scene': 'FOO', 'shot': '0020', 'note': 'add dust'})
-    writer.writerow({'eq':'1','seq': 'CAR', 'scene': 'BAR', 'shot': '0010', 'note': 'cg car, add dust'})
+    writer.writerow({'ep':'1','seq': 'CAR', 'scene': 'FOO', 'shot': '0010', 'note': 'cg car'})
+    writer.writerow({'ep':'1','seq': 'CAR', 'scene': 'FOO', 'shot': '0020', 'note': 'add dust'})
+    writer.writerow({'epeq'':'1','seq': 'CAR', 'scene': 'BAR', 'shot': '0010', 'note': 'cg car, add dust'})
 ```
 
 ## .xlsx 파일 읽기
