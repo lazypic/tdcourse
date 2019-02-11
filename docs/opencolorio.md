@@ -66,7 +66,7 @@ $ cd ~/app
 $ git clone https://github.com/imageworks/OpenColorIO OpenColorIO_src
 $ mkdir OpenColorIO_build
 $ cd OpenColorIO_build
-$ /opt/cmake3.13/bin/cmake ../OpenColorIO_src -DCMAKE_INSTALL_PREFIX=$HOME/app/OpenColorIO -DGLEW_INCLUDE_DIR=/usr/include -DGLEW_LIBRARY=/usr/lib64 -DOCIO_BUILD_GPU_TESTS=OFF
+$ ~/app/cmake3.13/bin/cmake ../OpenColorIO_src -DCMAKE_INSTALL_PREFIX=$HOME/app/OpenColorIO -DGLEW_INCLUDE_DIR=/usr/include -DGLEW_LIBRARY=/usr/lib64 -DOCIO_BUILD_GPU_TESTS=OFF
 -DOIIO_LIBRARIES= -DOIIO_INCLUDE_DIR= -DOIIO_LIBRARY_DIR=
 $ make
 $ make install
