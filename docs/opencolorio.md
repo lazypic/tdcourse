@@ -25,6 +25,12 @@ OpenColorIO는 ACES 표준을 따르는 컬러메니징 솔루션입니다.
 - Rv
 - [Unreal](https://docs.unrealengine.com/en-us/Engine/Rendering/PostProcessEffects/ColorGrading)
 
+## 설치
+
+```
+# yum install OpenColorIO
+```
+
 ## OpenColorIO-Configs 셋팅하기
 OpenColorIO-Configs는 OpenColorIO의 컬러 설정파일입니다.
 
