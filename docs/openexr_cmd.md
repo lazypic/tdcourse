@@ -12,7 +12,7 @@ $ exrenvmap input.exr output.exr
 ```
 
 ## exrmakepreview
-.exr 프리뷰파일을 생성합니다.
+.exr 프리뷰파일을 생성합니다. (openEXR 2.3.0에서 이 명령어는 버그가 있습니다.)
 
 ```bash
 $ exrmakepreview -w 150 input.exr output.exr
@@ -140,8 +140,4 @@ $ exr2aces input.exr output.exr
 궁금한 옵션들을 실습 하면서 실제 이미지가 어떻게 변하는지 체크해보세요.
 
 ## 응용
-- 멀티파트 exr 파일처럼 하나의 .exr파일에 수많은 이미지를 저장할 수 있습니다. 파일 하나로 관련된 라이브러리 구축
-	- 모니터화면 합성시 멀티파트 라이브러리 사용
-	- 터미널을 이용한 exr 입체영상 파이프라인 구축
-	- 터미널을 이용한 exr 360도(6면영상) 파이프라인 구축
 - .exr 파일에는 int, float, string 값을 저장할 수 있습니다. 사용자 정보를 적용하여 어떻게 하면 효율적인 파이프라인을 구성할 수 있을지 고민해보세요.
