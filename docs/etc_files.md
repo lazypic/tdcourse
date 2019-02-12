@@ -124,7 +124,7 @@ print ini.get("project","name")
 python파서 : https://docs.python.org/3/library/configparser.html
 
 ## 기타
-- 위에 나열한 파일 이외에도 .yml 파일도 자주 사용됩니다.
+- 위에 나열한 파일 이외에도 .yaml 파일도 자주 사용됩니다.
 - .cfg, .conf 이름의 확장자 이지만 실제로 에디터에서 파일을 열어보면 .ini, .json, .xml 형태의 파일구조를 자주 사용하기도 합니다.
 
 ## 설정파일의 위치
