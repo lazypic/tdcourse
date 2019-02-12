@@ -1,7 +1,7 @@
 # OpenEXR
 오픈소스이며, ILM에서 만든 이미지 저장포멧입니다.
 현재 ACES 표준 포멧입니다.
-VFX에서 많이 사용됩니다.
+VFX에서 굉장히 많이 사용됩니다.
 
 2000년도에 8비트,10비트를 넘어 보다 더 많은 정보를 담기 위한 목적으로 제작된 포멧입니다.
 
@@ -9,16 +9,16 @@ VFX에서 많이 사용됩니다.
 - 소스코드 : https://github.com/openexr/openexr
 
 ## 설치
-yum을 이용하여 간단하게 OpenEXR을 설치할 수 있습니다.
+yum을 이용하여 간단하게 낮은 버전의 OpenEXR을 설치할 수 있습니다.
 
 ```
-yum install OpenEXR
-yum install OpenEXR-libs
+# yum install OpenEXR
+# yum install OpenEXR-libs
 ```
 
 
 ## OpenEXR 컴파일하기.
-
+높은 버전의 OpenEXR을 이용하기 위해서는 직접 컴파일후 사용해야 합니다.
 - git을 이용해서 OpenEXR 소스코드를 다운로드 합니다.
 ```
 $ cd ~/app
