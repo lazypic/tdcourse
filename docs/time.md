@@ -26,6 +26,7 @@ NTP synchronized: yes
 - [NTP](https://ko.wikipedia.org/wiki/네트워크_타임_프로토콜) : Network Time Protocol
 - TZ : Time Zone의 약자
 - [DST](https://ko.wikipedia.org/wiki/일광_절약_시간제) : Daylight saving time, 써머타임
+- PST : 태평양 표준시, 미국, 캐나다, 멕시코
 
 ## NTP를 이용해서 시간동기화
 ```
@@ -39,3 +40,9 @@ NTP synchronized: yes
 서버, 렌더팜, 작업자 컴퓨터의 시간이 서로 오차가 있다면,
 시간관련된 프로그래밍시 각 장비마다 오차가 발생할 소지가 높습니다.
 특히나 인터넷이 연결되지 않는 네트워크 환경에서는 타임서버를 만들고 해당 서버를 통해서 동기화 하는 방법이 필요할 수 있습니다.
+
+
+## 시간대 변환툴
+국제 온라인 세미나, 강연등을 들을 때 도움이 됩니다.
+
+https://www.timeanddate.com/worldclock/converter.html
