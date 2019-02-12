@@ -19,7 +19,7 @@ $ exrmakepreview -w 150 input.exr output.exr
 ```
 
 ## exrmultipart
-멀티파트 exr이미지를 분리할 때 사용합니다.
+멀티파트 exr이미지를 분리할 때 사용합니다.(openEXR 2.3.0에서 이 명령어는 잘 분리되지 않습니다.)
 
 ```bash
 $ exrmultipart -separate -i sample-multipart.exr -o sample
