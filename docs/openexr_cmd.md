@@ -120,8 +120,8 @@ $ exrmultivew left imgL.exr right imgR.exr imgLR.exr
 
 convert는 항상 싱글파트 exr을 멀티파트 exr로 바꿀때만 사용가능합니다.
 
-```
-exrmultipart -convert -i left.exr -view left -o left_multipart.exr
+```bash
+$ exrmultipart -convert -i left.exr -view left -o left_multipart.exr
 ```
 
 exrheader, 뉴크에서 메타데이터를 확인하면 view 값이 설정되어있는 것을 확인할 수 있습니다.
@@ -131,8 +131,8 @@ exrheader, 뉴크에서 메타데이터를 확인하면 view 값이 설정되어
 ## exr2aces
 exr이미지를 aces exr로 바꿉니다.
 
-```
-# exr2aces input.exr output.exr
+```bash
+$ exr2aces input.exr output.exr
 ```
 
 ## 실습
