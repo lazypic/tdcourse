@@ -18,7 +18,7 @@ data.json
 ```json
 {
     "project" : "circle",
-    "shots" : ["FOO_0010","BAR_0010"],
+    "shots" : ["FOO_0010","BAR_0010"]
 }
 ```
 
