@@ -187,6 +187,10 @@ http://opencolorio.org/downloads.html#downloads
 ```
 $ unset OCIO
 ```
+- bin를 환경변수에 추가하기
+```
+export PATH=$HOME/app/OpenColorIO/bin:$PATH
+```
 
 ## Reference
 - ociobakelut : http://opencolorio.org/CompatibleSoftware.html

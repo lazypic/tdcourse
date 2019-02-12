@@ -29,15 +29,22 @@ Alembic은 3D 데이터를 교환하기 위해서 만들어진 Framework입니�
 abc는 Ogawa, Hdf5 두가지 포멧을 지원합니다.
 교육의 편의성을 위해서 소스코드를 이용하여 Ogawa(기본값) 형식만 지원하도록 컴파일 하겠습니다. Ogawa 파일은 HDF5 보다 용량이 작고 더 빠르게 로드됩니다. HDF5는 예전에 abc에서 사용하던 방식입니다. IlmBase 라이브러리는 컴파일 중간에 사용되며 OpenEXR 컴파일 할 때 이미 생성한 데이터를 사용할 예정입니다.
 
+컴파일중간에 libatomic 에러가 발생합니다. 미리 필요한 라이브러리를 설치해둡니다.
+```
+# yum install devtoolset-6-libatomic-devel
+```
+
 ```bash
 $ cd ~/app
 $ git clone https://github.com/alembic/alembic alembic_src
+$ git tag
+$ git checkout 1.7.10
+$ cd ..
 $ mkdir alembic_build
 $ mkdir alembic
 $ cd alembic_build
 $ scl enable devtoolset-6 bash
-# yum install devtoolset-6-libatomic-devel // 중간에 libatomic 에러가 나면 설치해줍니다.
-$ cmake ../alembic_src -DILMBASE_ROOT=$HOME/app/IlmBase -DALEMBIC_SHARED_LIBS=OFF -DUSE_HDF5=OFF -DALEMBIC_LIB_USES_TR1=ON -DCMAKE_INSTALL_PREFIX=$HOME/app/alembic
+$ ~/app/cmake-3.13.3/bin/cmake ../alembic_src -DILMBASE_ROOT=$HOME/app/IlmBase -DALEMBIC_SHARED_LIBS=OFF -DUSE_HDF5=OFF -DALEMBIC_LIB_USES_TR1=ON -DCMAKE_INSTALL_PREFIX=$HOME/app/alembic
 $ make -j2
 $ make install
 $ make help
@@ -175,7 +182,7 @@ $ ./b2 install
 # yum install python-devel
 ```
 
-#### abcview 컴파일(wip)
+#### abcview 컴파일(진행하지 않습니다.)
 > 참고 : usdview에는 이미 abc파일을 볼 수 있습니다. 개인적으로 usd가 컴파일이 더 잘되어서 abcview 대신 usdview를 사용하고 있습니다.
 
 소스코드 : https://github.com/alembic/abcview

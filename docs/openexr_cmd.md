@@ -138,6 +138,10 @@ $ exr2aces input.exr output.exr
 ## 실습
 명령어에 -h 옵션을 붙히면 수많은 옵션들이 출력됩니다.
 궁금한 옵션들을 실습 하면서 실제 이미지가 어떻게 변하는지 체크해보세요.
+- bin를 환경변수에 추가하기
+```
+export PATH=$HOME/app/openexr/bin:$PATH
+```
 
 ## 응용
 - .exr 파일에는 int, float, string 값을 저장할 수 있습니다. 사용자 정보를 적용하여 어떻게 하면 효율적인 파이프라인을 구성할 수 있을지 고민해보세요.

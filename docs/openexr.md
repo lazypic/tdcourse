@@ -64,3 +64,16 @@ $ make install
 
 #### prefix 경로 확인
 - ~/app/openexr 경로에 bin, include, lib, share 경로가 생성됩니다.
+
+## 참고 : bootstrap이란?
+
+리눅스에서 사용하는 자동화 툴은 많이 있습니다. make는 파일 내용중 하나가 변경되면 적절한 순서로 적절한 프로그램을 실행하도록 도와주는 툴입니다. 문제는  소프트웨어가 거대해지면서 컴파일시 의존성과 순서를 기억하기는 어렵습니다.
+이때 의존성, 절차를 도와주는 툴이 몇가지 존재합니다.
+
+- autogen
+- bootstrap
+- autoconf
+
+위 3개의 툴은 서로 다른 프로젝트이지만 비슷한 역할을 합니다.
+
+- 참고 : http://www.sourceware.org/autobook/autobook/autobook_43.html

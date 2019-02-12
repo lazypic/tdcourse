@@ -186,17 +186,17 @@
 	1. [Lut](docs/lut.md)
 	1. [OpenColorIO Lut](docs/opencolorio_lut.md)
 
-1. VFX에서 자주 사용되는 파일 : 편집
+1. [x] VFX에서 자주 사용되는 파일 : 편집(2.12)
 	1. [EDL](docs/edl.md)
 	1. [OpenTimelineIO](docs/opentimelineio.md)
 
-1. VFX에서 자주 사용되는 파일 : OpenEXR 이미지
+1. [x] VFX에서 자주 사용되는 파일 : OpenEXR 이미지(2.12)
 	1. [OpenEXR](docs/openexr.md)
 	1. [OpenEXR 명령어](docs/openexr_cmd.md)
 
-1. [VFX에서 자주 사용되는 설정파일](docs/etc_files.md)
+1. [x] [VFX에서 자주 사용되는 설정파일](docs/etc_files.md)(2.12)
 
-1. VFX에서 자주 사용되는 파일 : 3D 데이터 편
+1. [ ] VFX에서 자주 사용되는 파일 : 3D 데이터 편(2.13)
 	1. 마야데이터 : .ma .mb
 	1. 맥스 : .max
 	1. .fbx
