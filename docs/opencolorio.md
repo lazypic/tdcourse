@@ -26,6 +26,7 @@ OpenColorIO는 ACES 표준을 따르는 컬러메니징 솔루션입니다.
 - [Unreal](https://docs.unrealengine.com/en-us/Engine/Rendering/PostProcessEffects/ColorGrading)
 
 ## 설치
+기본적으로 낮은버전의 OpenColorIO는 아래처럼 설치 가능합니다.
 
 ```
 # yum install OpenColorIO
@@ -81,6 +82,12 @@ v1.1.0으로 컴파일하지 않는 이유.
 ## 명령어
 OCIO 명령어를 실행하기 위해서는 libOpenColorIO.so.2.0 파일이 필요합니다.
 ~/centos/env/init.bash에 설정해줍니다.
+
+설정하지 않으면 아래형태의 에러가 발생합니다.
+
+```
+./ociobakelut: symbol lookup error: ./ociobakelut: undefined symbol: _ZdlPvm
+```
 
 ```bash
 $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/app/OpenColorIO/lib
