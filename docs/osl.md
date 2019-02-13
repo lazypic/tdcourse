@@ -81,7 +81,7 @@ osl 파일을 이용해서 oso 파일을 생성하면 렌더러가 바로 사용
 일반적으로 렌더러는 이 과정을 자동으로 많이 해줍니다.
 
 ```bash
-$ osl input.osl
+$ oslc input.osl
 Compiled noise.osl -> noise.oso
 $ ls
 input.osl input.oso
