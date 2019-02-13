@@ -47,7 +47,6 @@ $ scl enable devtoolset-6 bash
 $ ~/app/cmake-3.13.3/bin/cmake ../alembic_src -DILMBASE_ROOT=$HOME/app/IlmBase -DALEMBIC_SHARED_LIBS=OFF -DUSE_HDF5=OFF -DALEMBIC_LIB_USES_TR1=ON -DCMAKE_INSTALL_PREFIX=$HOME/app/alembic
 $ make -j2
 $ make install
-$ make help
 ```
 
 컴파일이 되면 아래 명령어를 사용할 수 있게 됩니다.
