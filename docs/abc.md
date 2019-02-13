@@ -185,7 +185,7 @@ $ ./b2 install
 # yum install python-devel
 ```
 
-#### abcview 컴파일(진행하지 않습니다.)
+#### abcview 컴파일 (아직 컴파일되지 않음.)
 > 참고 : usdview에는 이미 abc파일을 볼 수 있습니다. 개인적으로 usd가 컴파일이 더 잘되어서 abcview 대신 usdview를 사용하고 있습니다.
 
 소스코드 : https://github.com/alembic/abcview

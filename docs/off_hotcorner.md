@@ -9,6 +9,7 @@ CentOS 왼쪽 상단에 마우스를 가져가면 응용프로그램을 실행�
 # reboot
 ```
 
+No topleft hot corner 기능을 끕니다.
 ```
 $ gnome-tweaks
 ```

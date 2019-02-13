@@ -14,8 +14,8 @@ read["first"].setValue(start)
 read["last"].setValue(end)
 ```
 
-## 실습
-- 프로젝트의 모든샷의 가운데 프레임 이미지만 불러오는 코드를 작성해보세요.
+## 응용
+- 프로젝트중 샷에 필요한 소스 이미지를 불러오는 자동화 스크립트
 - URL_to_IN : 인터넷 소스를 다운받아서 in 폴더에 넣어주고 Read 노드를 생성시켜주는 스크립트 제작
 
 ## Reference
