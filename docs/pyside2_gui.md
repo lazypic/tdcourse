@@ -17,7 +17,7 @@
 ## Pyside 설치
 
 ```
-# pip install pyside2
+$ pip install --user PySide2
 ```
 
 ## 예제파일

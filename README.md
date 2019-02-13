@@ -196,7 +196,7 @@
 
 1. [x] [VFX에서 자주 사용되는 설정파일](docs/etc_files.md)(2.12)
 
-1. [ ] VFX에서 자주 사용되는 파일 : 3D 데이터 편(2.13)
+1. [x] VFX에서 자주 사용되는 파일 : 3D 데이터 편(2.13)
 	1. 마야데이터 : .ma .mb
 	1. 맥스 : .max
 	1. .fbx
@@ -204,22 +204,16 @@
 	1. [Alembic](docs/abc.md)
 	1. [USD](docs/usd.md)
 
-1. VFX에서 자주 사용되는 파일 : 쉐이더 편
+1. [x] VFX에서 자주 사용되는 파일 : 쉐이더 편(2.13)
 	1. [OpenShandingLanguage](docs/osl.md)
 
-1. VFX에서 자주 사용되는 파일 : 볼륨데이터
+1. [x] VFX에서 자주 사용되는 파일 : 볼륨데이터(2.13)
 	1. [OpenVDB](docs/openvdb.md)
 
-1. GUI제작-1
+1. [x] GUI제작1(2.13)
 	1. [GUI 솔루션](docs/gui_solution.md)
 	1. [간단한 GUI : zenity](docs/zenity.md)
 	1. [Zenity 응용 : 사용자 환경변수 등록](docs/setuser.md)
-	1. [Pyside2 알아보기](docs/pyside2_gui.md)
-
-1. GUI제작-2
-	1. [Qt Designer 설치](docs/qt_designer.md)
-	1. [.ui 파일과 python의 연동](docs/load_ui_from_python.md)
-	1. 간단한 Pyside2 프로그램 제작
 
 1. TheFoundry Nuke를 알아보는 시간.
 	1. [개발에 도움이 되는 사이트](docs/help_nukedev.md)
@@ -276,6 +270,12 @@
 	1. [크립토매트 설치해보기](docs/cryptomatte.md)(★★☆☆☆)
 	1. [루마픽쳐스에서 사용중인 기즈모 등록](docs/lumapic.md)(★★★☆☆)
 	1. [상용 플러그인에서 자주 보이는 .so 플러그인 셋팅](docs/set_other_plugins.md)
+
+1. PyQT
+	1. [Pyside2 알아보기](docs/pyside2_gui.md)
+	1. [Qt Designer 설치](docs/qt_designer.md)
+	1. [.ui 파일과 python의 연동](docs/load_ui_from_python.md)
+	1. 간단한 Pyside2 프로그램 제작
 
 1. [파일관리툴 제작](docs/make_opener.md)(★★★★☆)
 	
