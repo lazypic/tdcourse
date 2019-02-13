@@ -31,7 +31,7 @@ Universal Scene Description의 약자입니다.
 usdview는 PyOpenGL을 사용합니다. 설치해주세요.
 
 ```
-$ pip install --user PyOpenGL
+# pip install PyOpenGL
 ```
 
 ## 컴파일
