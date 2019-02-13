@@ -37,6 +37,7 @@ abc는 Ogawa, Hdf5 두가지 포멧을 지원합니다.
 ```bash
 $ cd ~/app
 $ git clone https://github.com/alembic/alembic alembic_src
+$ alembic_src
 $ git tag
 $ git checkout 1.7.10
 $ cd ..
