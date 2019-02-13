@@ -1,6 +1,9 @@
 # 교육중 시간이 남을 때 진행할 개발 테마
 
+## 완 료
 - Gaffer 설치후 bin 폴더 관찰하기. 소스코드 보기 http://www.gafferhq.org
+
+## 예 정
 - Renderman Non커머셜 설치후 bin 폴더 관찰하기
 - 뉴크 Read, Write 노드 정보를 이용해서 ffmpeg로 mov 제작
 - CentOS7 설치 이후 자동 설치되는 .sh 스크립트와 GUI 연동
