@@ -3,7 +3,6 @@
 ## 기본정보 ![Progress](http://progressed.io/bar/79?title=progress)
 - 교육내용 : Technical Director 기초과정 / 리눅스를 활용한 VFX, 애니메이션 파이프라인
 - 교육방식 : Github를 활용한 교육 및 협업개발
-- 문 의 : 김한웅 / hello@lazypic.org
 - 뉴크 추천 강좌 : https://www.youtube.com/watch?v=WJM8e7aGoao&list=PLinyNPTbAjGn7rJaoNplALoOhrXYVaFAJ
 - 프로그래밍이 처음이라면 한번씩 읽고 오세요 : https://wikidocs.net/book/2
 
