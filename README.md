@@ -215,22 +215,23 @@
 	1. [간단한 GUI : zenity](docs/zenity.md)
 	1. [Zenity 응용 : 사용자 환경변수 등록](docs/setuser.md)
 
-1. TheFoundry Nuke를 알아보는 시간.
+1. [x] TheFoundry Nuke를 알아보는 시간(2.14)
 	1. [개발에 도움이 되는 사이트](docs/help_nukedev.md)
 	1. [뉴크에서 파이썬 에디터 사용법](docs/python_in_nuke.md)
 	1. [뉴크 내부에서 사용하는 파이썬 버전을 확인하기](docs/check_py_ver_in_nuke.md)
 
-1. 뉴크에서 활용 가능한 다양한 개발 방법론 소개
+1. [x] 뉴크에서 활용 가능한 다양한 개발 방법론 소개(2.14)
 	1. [OFX(OpenFX)](docs/openfx.md)
 	1. [Blink](docs/blink.md)
 	1. [NDK](docs/ndk.md)
 	1. 그리고.. PythonAPI
 
-1. Nuke 셋팅을 위한 Repository 생성
+1. [x] Nuke 셋팅을 위한 Repository 생성(2.14)
 	1. [핫코너 옵션 끄기](docs/off_hotcorner.md)
 	1. [NUKE_PATH 연결](docs/nuke_path.md)
 	1. [init.py, menu.py 생성](docs/set_init_menu_py.md)
 	1. [뉴크셋팅 폴더 구조생성](docs/set_assets_dir.md)
+	1. 뉴크 기초 설명
 
 1. 기즈모 제작
 	1. [뉴크 익스프레션](docs/nuke_exp.md)
