@@ -52,7 +52,7 @@ font도 좋은 에셋이 됩니다. 폰트의 경우 뉴크에서는 `NUKE_FONT_
 
 .bashrc
 ```
-export NUKE_PATH="$HOME/nuke"
+export NUKE_PATH="$HOME/app/nukeset"
 export NUKE_FONT_PATH="$NUKE_PATH/font"
 ```
 
