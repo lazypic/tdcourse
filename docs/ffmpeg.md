@@ -24,8 +24,8 @@ http://johnvansickle.com 사이트에는 이미 우리가 자주 사용하는 �
 $ cd ~
 $ mkdir -p app/ffmpeg
 $ cd app/ffmpeg
-$ wget http://johnvansickle.com/ffmpeg/builds/ffmpeg-git-64bit-static.tar.xz
-$ tar xpvf ffmpeg-git-64bit-static.tar.xz --strip 1
+$ wget http://johnvansickle.com/ffmpeg/builds/ffmpeg-git-amd64-static.tar.xz
+$ tar xpvf ffmpeg-git-amd64-static.tar.xz --strip 1
 ```
 
 ## 명령어의 구성
