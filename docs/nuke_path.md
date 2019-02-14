@@ -1,9 +1,9 @@
 # Nuke Path
+nukeset리포지터리를 생성, 적용하는 방법을 알아봅니다.
 
-
-.bashrc
+~/centos/env/init.env
 ```
-export NUKE_PATH=$HOME/app/nuke
+export NUKE_PATH=$HOME/app/nukeset
 ```
 
 ## 설정파일을 불러오는 순서
