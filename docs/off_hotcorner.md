@@ -17,5 +17,5 @@ $ gnome-tweaks
 ![off_hotcorner](../figures/off_hotcorner.png)
 
 ## 실습
--  최초 CentOS 설치시 핫코너 비활성화를 위한 패키지를 미리 설치할 수 있도록 기능 추가합니다.
+-  최초 CentOS 설치시 핫코너 비활성화를 위한 패키지를 미리 설치할 수 있도록 스크립트를 추가합니다.
 - .sh 스크립트를 github에 올립니다.
