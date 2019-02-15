@@ -3,11 +3,12 @@
 ## 기본정보 ![Progress](http://progressed.io/bar/79?title=progress)
 - 교육내용 : Technical Director 기초과정 / 리눅스를 활용한 VFX, 애니메이션 파이프라인
 - 교육방식 : Github를 활용한 교육 및 협업개발
+- 문의 : hello@lazypic.org
 - 뉴크 추천 강좌 : https://www.youtube.com/watch?v=WJM8e7aGoao&list=PLinyNPTbAjGn7rJaoNplALoOhrXYVaFAJ
 - 프로그래밍이 처음이라면 한번씩 읽고 오세요 : https://wikidocs.net/book/2
 
 ## 내 용
-1. [x] 소개 (12.28)
+1. [x] 소 개 (12.28)
 	1. PPT 발표, 개요
 	1. [Technical Director Course 소개](docs/intro.md)
 	1. [개발자가 보는 시장 : VFX, 애니메이션, 게임](docs/market.md)
@@ -232,13 +233,14 @@
 	1. [뉴크셋팅 폴더 구조생성](docs/set_assets_dir.md)
 	1. 뉴크 기초 설명
 
-1. 기즈모 제작
+1. [x] 기즈모 제작 (2.15)
 	1. [뉴크 익스프레션](docs/nuke_exp.md)
 	1. [뉴크 Text 노드에서 자주 사용되는 익스프레션](docs/nuke_text_exp.md)
-	1. [TCL](docs/tcl.md)
+	1. [TCL](docs/tcl.md)소개
 	1. [Nuke Gizmo : Timecode 뷰어](docs/gen_timecode_gizmo.md)
-	1. [Nuke Gizmo : Slate제작](docs/gen_slate_gizmo.md)
 	1. [Nuke Gizmo등록](docs/add_gizmo.md)
+
+1. [Nuke Gizmo : Slate제작](docs/gen_slate_gizmo.md)
 
 1. [Nuke Pedia 사이트 소개](docs/nukepedia.md)
 
@@ -271,7 +273,7 @@
 	1. [루마픽쳐스에서 사용중인 기즈모 등록](docs/lumapic.md)
 	1. [상용 플러그인에서 자주 보이는 .so 플러그인 셋팅](docs/set_other_plugins.md)
 
-1. PyQT - 강의실에서 QT5설치가안됨 내용을 뒤로뺌
+1. PyQT
 	1. [Pyside2 알아보기](docs/pyside2_gui.md)
 	1. [Qt Designer 설치](docs/qt_designer.md)
 	1. [.ui 파일과 python의 연동](docs/load_ui_from_python.md)
