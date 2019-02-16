@@ -11,16 +11,6 @@
 다운로드 페이지 : 
 https://www.arri.com/en/learn-help/learn-help-camera-system/tools/lut-generator
 
-최근 사이트가 리뉴얼되면서 버그로 인해서 실제로 Lut가 다운로드 되지 않습니다.(`18.12.11)
-
-아래 명령어를 통해서 과거 Lut Generator를 통해 미리 받아두었던 파일을 활용해주세요.
-
-```bash
-$ cd ~
-$ git clone https://github.com/cgiseminar/examples
-$ cd examples/lut
-```
-
 실제로 프로젝트를 진행할 때는 각 콘텐츠마다 촬영된 카메라가 다릅니다.
 따라서 프로젝트별로 Lut를 설정하여 뉴크를 사용하게 됩니다.
 
