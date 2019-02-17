@@ -15,8 +15,7 @@ menu.py
 tb = nuke.toolbar("Nodes")
 m = tb.addMenu("Lazypic", icon="lazypic_logo.png")
 m.addMenu("Draw")
-m.addCommand("Draw/Slate", "nuke.createNode('slate')")
-m.addCommand("Draw/Timecode", "nuke.createNode('timecode')")
+m.addCommand("Draw/Timecode_burnin", "nuke.createNode('timecode_burnin')")
 ```
 
 저는 기즈모에 접근할 뉴크 툴바 메뉴를 만들 때 제 소속인 Lazypic 이라는 이름을 사용했습니다.
