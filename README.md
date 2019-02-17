@@ -244,10 +244,6 @@
 
 1. [Nuke Pedia 사이트 소개](docs/nukepedia.md)
 
-1. Nuke Command Line Rendering
-	1. [Nuke Command Line Rendering](docs/nuke_cmd.md)
-	1. [Render Management Tools 소개](docs/render_management_tools.md)
-
 1. 메뉴, ViewLut 설정
 	1. [뉴크 메뉴바 생성](docs/create_menu.md)
 	1. [Arri Alexa lut 다운로드](docs/download_arri_lut.md)
@@ -259,6 +255,10 @@
 	1. [환경변수 체크 스크립트 제작](docs/nuke_getenv.md)
 	1. [노드에 file 옵션이 있다면 폴더를 여는 기능 제작](docs/nkpython_openfile.md)
 	1. 실습 : 작업시 활용되는 in 소스 폴더 열기 기능 제작
+
+1. Nuke Command Line Rendering
+	1. [Nuke Command Line Rendering](docs/nuke_cmd.md)
+	1. [Render Management Tools 소개](docs/render_management_tools.md)
 
 1. Nuke GUI
 	1. [예제 : 뉴크 PySide2를 이용해서 GUI 제작](docs/nuke_pyside2.md)
