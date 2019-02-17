@@ -245,12 +245,12 @@
 1. [Nuke Pedia 사이트 소개](docs/nukepedia.md)
 
 1. 메뉴, ViewLut 설정
-	1. [뉴크 메뉴바 생성](docs/create_menu.md)
 	1. [Arri Alexa lut 다운로드](docs/download_arri_lut.md)
 	1. [Viewport LUT 설정](docs/set_viewlut_in_nuke.md)
 
-1. 간단한 뉴크 스크립트
+1. 뉴크 메뉴 생성
 	1. [자주 사용하는 포멧등록](docs/add_format.md)
+	1. [뉴크 메뉴바 생성](docs/create_menu.md)
 	1. [노드구조 퍼포먼스 체크 기능 추가하기](docs/performance_time_check.md)
 	1. [환경변수 체크 스크립트 제작](docs/nuke_getenv.md)
 	1. [노드에 file 옵션이 있다면 폴더를 여는 기능 제작](docs/nkpython_openfile.md)
