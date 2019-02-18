@@ -8,3 +8,11 @@ qmBox = QMessageBox(None)
 qmBox.setText("$USER : %s" % (os.environ['USER']))
 qmBox.show()
 ```
+
+## 실습
+- 아래 항목에 대한 환경변수를 체크해보세요.
+    - OCIO
+    - NUKE_PATH
+    - NUKE_FONT_PATH
+    - USER
+    - 앞으로 사용하게될 환경변수들...
