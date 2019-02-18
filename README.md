@@ -240,11 +240,11 @@
 	1. [Nuke Gizmo : Timecode 뷰어](docs/gen_timecode_gizmo.md)
 	1. [Nuke Gizmo등록](docs/add_gizmo.md)
 
-1. [Nuke Gizmo : Slate제작](docs/gen_slate_gizmo.md)
+1. [x] [Nuke Gizmo : Slate제작](docs/gen_slate_gizmo.md)(2.18)
 
-1. [Nuke Pedia 사이트 소개](docs/nukepedia.md)
+1. [x] [Nuke Pedia 사이트 소개](docs/nukepedia.md)(2.18)
 
-1. 메뉴, ViewLut 설정
+1. [x] 메뉴, ViewLut 설정(2.18)
 	1. [Arri Alexa lut 다운로드](docs/download_arri_lut.md)
 	1. [Viewport LUT 설정](docs/set_viewlut_in_nuke.md)
 

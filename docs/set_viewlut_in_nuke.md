@@ -18,3 +18,4 @@ nuke.ViewerProcess.register("AlexaV3LogC", nuke.createNode, ( "Vectorfield", "vf
 ## 실습
 - 다른 카메라의 LUT도 등록해보세요.
 - 직접 LUT를 만들고 등록해보세요.
+- ACES 셋팅과 카메라 제작사가 제작한 Lut를 이용한 뉴크셋팅을 서로 띄우고 비교하며 설명합니다.
