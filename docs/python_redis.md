@@ -1,5 +1,5 @@
 # Python Redis
-redis 라이브러리를 이용해서 파이썬 스크립트에서
+파이썬의 redis 라이브러리를 이용해서 파이썬 스크립트에서
 간단하게 Key 값을 이용해서 Value 를 저장하거나 불러올 수 있습니다.
 메모리에서 DB가 작동되기 때문에 굉장히 속도가 빠릅니다.
 
@@ -7,10 +7,12 @@ redis 라이브러리를 이용해서 파이썬 스크립트에서
 터미널에서 아래처럼 타이핑합니다.
 
 ```bash
-# pip install redis
+$ pip install --user redis
 ```
 
 ## 예제
+데이터를 넣고 수정하는 예제입니다.
+
 ```python
 #coding:utf8
 import redis
@@ -26,7 +28,7 @@ value = r.get('foo') # 값을 가지고 오기
 print(value)
 ```
 
-값을 올리는 예제
+변수의 값을 Add하는 예제입니다.
 ```python
 import redis
 r = redis.Redis(host='192.168.219.105',port=6379)
