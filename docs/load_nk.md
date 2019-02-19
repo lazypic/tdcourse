@@ -51,19 +51,20 @@ class NkLibrary(QWidget):
         print "load %s" % (self.currentItem)
         self.close()
 
-# 이미 존재하는 customApp이 있다면 종료시킨다.
-global customApp
-try:
-    customApp.close()
-except:
-    pass
+def main():
+    # 이미 존재하는 customApp이 있다면 종료시킨다.
+    global customApp
+    try:
+        customApp.close()
+    except:
+        pass
 
-# customApp 변수로 NkLibrary를 실행한다.
-customApp = NkLibrary()
-try:
-    customApp.show()
-except:
-    pass
+    # customApp 변수로 NkLibrary를 실행한다.
+    customApp = NkLibrary()
+    try:
+        customApp.show()
+    except:
+        pass
 ```
 
 ## Reference
