@@ -50,3 +50,6 @@ menuentry 'Windows10' {
 부팅하면 Windows10 메뉴가 생성됩니다.
 
 Windows10 메뉴에 들어가서 리눅스 및 윈도우즈로 잘 부팅되는지 체크해주세요.
+
+## Reference
+- FileSystem : https://www.tldp.org/LDP/sag/html/filesystems.html
