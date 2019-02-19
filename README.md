@@ -255,13 +255,13 @@
 	1. [환경변수 체크 스크립트 제작](docs/nuke_getenv.md)
 	1. [노드에 file 옵션이 있다면 폴더를 여는 기능 제작](docs/nkpython_openfile.md)
 
-1. Nuke Command Line Rendering
-	1. [Nuke Command Line Rendering](docs/nuke_cmd.md)
-	1. [Render Management Tools 소개](docs/render_management_tools.md)
-
 1. Nuke GUI
 	1. [예제 : 뉴크 PySide2를 이용해서 GUI 제작](docs/nuke_pyside2.md)
 	1. [Write노드 생성 스크립트 제작](docs/gen_writenode.md)
+
+1. Nuke Command Line Rendering
+	1. [Nuke Command Line Rendering](docs/nuke_cmd.md)
+	1. [Render Management Tools 소개](docs/render_management_tools.md)
 
 1. 라이브러리의 기초
 	1. [경로를 통해서 Read노드 만들기](docs/path_to_read.md)
