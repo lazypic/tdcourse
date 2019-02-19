@@ -17,3 +17,5 @@ qmBox.show()
     - NUKE_FONT_PATH
     - USER
     - 앞으로 사용하게될 환경변수들...
+
+- 실제 적용코드 : https://github.com/lazypic/nuke/blob/master/scripts/checkenv.py
