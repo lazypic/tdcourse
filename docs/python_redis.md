@@ -28,6 +28,17 @@ value = r.get('foo') # 값을 가지고 오기
 print(value)
 ```
 
+삭제
+```python
+#coding:utf8
+import redis
+r = redis.Redis(
+    host='192.168.219.105',
+    port=6379)
+r.set("user", "woong")
+r.delete("user")
+```
+
 변수의 값을 Add하는 예제입니다.
 ```python
 import redis
@@ -47,3 +58,4 @@ print(r.get('count'))
 
 ## Reference
 - https://www.bogotobogo.com/python/python_redis_with_python.php
+- 키검색(비추천) : http://blog.naver.com/PostView.nhn?blogId=wideeyed&logNo=221404174220
