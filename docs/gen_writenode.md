@@ -53,7 +53,7 @@ import nuke
 tail = nuke.selectedNode()
 m = nuke.nodes.AddTimeCode()
 m["startcode"].setValue("01:00:00:00")
-m["useFrame"].setValue("true")
+m["useFrame"].setValue(True)
 m["frame"].setValue(1001)
 m.setInput(0, tail)
 ```
