@@ -170,6 +170,12 @@ ACES 프로젝트중 데이터를 ACES 2065-1로 보내달라고 하는 경우�
 - ACEScg : 일반적으로 Visual Effects 프로그램에서 컬러를 인코딩하기 위해서 사용하는 ACES 컬러스페이스입니다.
 - ACEScc : ACES에서 사용하는 Log 컬러스페이스입니다.
 
+## 포토샵용 lut 제작
+
+```bash
+$ ociobakelut --outputspace "ACES - ACEScg" --inputspace "ACES - ACES2065-1" --format flame aces2065-1_to_acescg.3dl
+```
+
 #### Reference
 - https://community.foundry.com/discuss/topic/137176/about-the-aces-vfx-pulls-aces-2065-1-or-acescg
 - https://www.slideshare.net/hpduiker/acescg-a-common-color-encoding-for-visual-effects-applications
