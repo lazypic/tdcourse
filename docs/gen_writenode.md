@@ -29,9 +29,9 @@ w.setInput(0, tail)
 tail = nuke.selectedNode()
 r = nuke.nodes.Reformat()
 r["type"].setValue("to box")
-r["box_width"].setValue("1920")
-r["box_height"].setValue("1080")
-r["box_fixed"].setValue("true")
+r["box_width"].setValue(1920)
+r["box_height"].setValue(1080)
+r["box_fixed"].setValue(True)
 r.setInput(0, tail)
 ```
 
