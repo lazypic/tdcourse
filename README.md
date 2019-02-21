@@ -269,6 +269,13 @@
 1. 라이브러리의 기초
 	1. [경로를 통해서 Read노드 만들기](docs/path_to_read.md)
 	1. [다른 .nk 노드를 내부로 불러오기](docs/load_nk.md)
+	1. [DB의 소개 및 활용예](docs/db.md)
+	1. [Redis 설치](docs/install_redis.md)
+	1. [Redis PythonAPI 실습](docs/python_redis.md)
+	1. [MongoDB 설치](docs/install_mongodb.md)
+	1. [MongoDB PythonAPI 실습](docs/pymongo.md)
+	1. [PostrgreSQL 설치](docs/install_postrgresql.md)
+	1. [PostrgreSQL PythonAPI 실습](docs/python_postrgresql.md)
 
 1. PyQT
 	1. [Pyside2 알아보기](docs/pyside2_gui.md)
@@ -277,15 +284,6 @@
 	1. 간단한 Pyside2 프로그램 제작
 
 1. [파일관리툴 제작](docs/make_opener.md)
-	
-1. DB 소개 및 활용예
-	1. [DB의 종류](docs/db.md)
-	1. [Redis 설치](docs/install_redis.md)
-	1. [Redis PythonAPI 실습](docs/python_redis.md)
-	1. [MongoDB 설치](docs/install_mongodb.md)
-	1. [MongoDB PythonAPI 실습](docs/pymongo.md)
-	1. [PostrgreSQL 설치](docs/install_postrgresql.md)
-	1. [PostrgreSQL PythonAPI 실습](docs/python_postrgresql.md)
 
 1. [포트폴리오 제작](docs/portfolio.md)
 
