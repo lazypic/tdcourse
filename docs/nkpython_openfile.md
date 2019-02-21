@@ -9,7 +9,7 @@ Read 또는 Write 노드를 선택하고 단축키를 누르면 해당 소스의
 ```python
 import os
 import nuke
-import nukescipts
+import nukescripts
 
 node = nuke.selectedNode()
 path = node["file"].value()
