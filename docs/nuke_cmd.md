@@ -106,8 +106,8 @@ $ nuke -F 1001-1100 -X Write1 myscript.nk
 위 이미지처럼 Write 노드에 사용자 인수를 받도록 익스프레션을 추가할 수 있습니다.
 
 ```bash
-$ nuke -x renderfile.nk myname 1001,1100
-$ nuke -x renderfile.nk myname exr 1001,1100 //확장자까지 셋팅
+$ nuke -F 1001-1100 -x renderfile.nk myname
+$ nuke -F 1001-1100 -x renderfile.nk myname exr
 ```
 
 ## Python Script를 이용해서 렌더링 1
