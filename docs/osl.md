@@ -48,7 +48,7 @@ OSL을 알아두면 나중에 렌더맨을 공부할 때 도움이 됩니다. �
 ```
 #include <stdosl.h>
 
-shader TDdiffuse_ramp(
+shader diffuse_ramp(
         normal Normal = N,
         color Color1 = color(0.235205, 0.8, 0.025),
         color Color2 = color(0.0, 0.8, 0.0),
