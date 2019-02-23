@@ -202,13 +202,13 @@
 	1. .fbx
 	1. [Obj](docs/obj.md)
 	1. [Alembic](docs/abc.md)
-	1. [USD](docs/usd.md) - 강의실에서 컴파일X
+	1. [USD](docs/usd.md)
 
 1. [x] VFX에서 자주 사용되는 파일 : 쉐이더 편(2.13)
-	1. [OpenShandingLanguage](docs/osl.md) - 컴파일완료X, Gaffer사용중
+	1. [OpenShandingLanguage](docs/osl.md)
 
 1. [x] VFX에서 자주 사용되는 파일 : 볼륨데이터(2.13)
-	1. [OpenVDB](docs/openvdb.md) - 컴파일실패중
+	1. [OpenVDB](docs/openvdb.md)
 
 1. [x] GUI제작1(2.13)
 	1. [GUI 솔루션](docs/gui_solution.md)

@@ -38,6 +38,8 @@ usdview는 PyOpenGL을 사용합니다. 설치해주세요.
 굉장히 오래걸립니다.
 기존에 배운것들을 실습하거나 자습하며 컴파일을 진행합니다.
 
+> 참고 : PySide2가 사용된 opener가 터미널에서 열리는지 체크할 것
+
 ```bash
 $ cd ~/app
 $ git clone https://github.com/PixarAnimationStudios/USD USD_src
