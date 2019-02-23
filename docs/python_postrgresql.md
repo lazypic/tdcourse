@@ -5,12 +5,12 @@
 PostgreSQL을 python을 이용해서 컨트롤할 때 가장 유명한 라이브러리는 psycopg2 입니다.
 설치해보겠습니다.
 
-```
-# pip install psycopg2
-# pip install psycopg2-binary
+```bash
+$ pip install --user psycopg2
+$ pip install --user psycopg2-binary
 ```
 
-https://pypi.org/project/psycopg2/
+홈페이지 : https://pypi.org/project/psycopg2/
 
 ## 테이블 생성
 데이터를 넣기 위해서는 먼저 데이터를 넣을 테이블이 필요합니다.
@@ -81,8 +81,8 @@ if __name__ == '__main__':
     create_tables()
 ```
 
-테이블이 잘 생성되어있는지 체크를 해봅시다.
-
+테이블이 잘 생성되어있는지 postgres 쉘로 들어가서 체크를 해봅시다.
+dt는 Database Table을 의미합니다.
 ```bash
 # su – postgres
 -bash-4.2$ psql -d projects

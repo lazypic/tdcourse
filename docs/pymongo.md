@@ -1,8 +1,11 @@
 # mongoDB 실습
 
+mongoDB는 documents 형태로 데이터를 저장합니다.
+
 ## pymongo 라이브러리 설치
-```
-# pip install pymongo
+
+```bash
+$ pip install --user pymongo
 ```
 
 ## 실습
@@ -39,7 +42,8 @@ $ mongo
 ```
 
 #### 데이터 수정하기
-```
+
+```python
 from pymongo import MongoClient
 import datetime
 
@@ -56,7 +60,7 @@ db[project].update_one({"name":"BAR_0010"}, {"$set": item}, upsert=False)
 
 #### 데이터 가지고오기
 
-```
+```python
 from pymongo import MongoClient
 
 client = MongoClient("192.168.219.105", 27017)
@@ -72,7 +76,7 @@ print(item["date"])
 
 #### 데이터 삭제하기
 
-```
+```python
 from pymongo import MongoClient
 
 client = MongoClient("192.168.219.105", 27017)

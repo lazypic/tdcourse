@@ -2,10 +2,12 @@
 mongoDB를 설치해보겠습니다.
 
 ## 설치
+
 ```
 # vim /etc/yum.repos.d/mongodb-org.repo
 ```
 
+monogdb-org.repo 내용은 아래처럼 작성합니다.
 ```
 [mongodb-org-4.0]
 name=MongoDB Repository
@@ -15,11 +17,14 @@ enabled=1
 gpgkey=https://www.mongodb.org/static/pgp/server-4.0.asc
 ```
 
+관리자에서 yum을 이용하여 설치합니다.
 ```
 # yum install -y mongodb-org
 ```
 
 ## mongoDB의 데이터 및 로그 폴더
+DB를 운용하기 위해서는 아래 2가지 폴더를 알고 있다면 좋습니다.
+
 - /var/lib/mongo : 데이터
 - /var/log/mongodb : 로그
 
@@ -41,7 +46,7 @@ success
 # chkconfig mongod on
 ```
 
-## mongod.conf 설정변경
+## mongod.conf 데이터베이스 설정변경
 /etc/mongod.conf 파일을 수정해줍니다.
 ```
 # vim /etc/mongod.conf
@@ -55,21 +60,21 @@ net:
   #bindIp: 127.0.0.1
 ```
 
-설정값이 바뀌었습니다. mongod를 재시작해줍니다.
+설정값을 수정했다면 mongod를 재시작해줍니다.
 ```
 # service mongod restart
 ```
 
-## 쉘로 들어가기
+서비스를 중지했다가 다시 실행하도 좋습니다.
+```
+# service mongod stop
+# service mongod start
+```
+
+## DB 쉘 접속하기
 mongod가 잘 작동되는지 체크해봅시다. 아래처럼 터미널에서 타이핑 해보세요.
 ```
 $ mongo
-```
-
-## 서비스 중지 / 재시작
-```
-# service mongod stop
-# service mongod restart
 ```
 
 ## Reference
