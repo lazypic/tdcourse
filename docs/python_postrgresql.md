@@ -1,4 +1,4 @@
-# Python PostrgreSQL
+# Python으로 PostrgreSQL 제어하기
 
 ## psycopg2 설치
 
