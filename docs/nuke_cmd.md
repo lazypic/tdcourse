@@ -110,7 +110,7 @@ $ nuke -F 1001-1100 -x renderfile.nk myname
 $ nuke -F 1001-1100 -x renderfile.nk myname exr
 ```
 
-## Python Script를 이용해서 렌더링 1
+## Python Script를 이용해서 렌더링 1(pseudocode)
 
 convert.py
 ```python
@@ -124,7 +124,7 @@ quit()
 $ nuke -t < convert.py
 ```
 
-## Python Script를 이용해서 렌더링 2
+## Python Script를 이용해서 렌더링 2(pseudocode)
 imageconvertwithargs.py
 ```python
 import sys
