@@ -1,11 +1,11 @@
 # Curriculum
 
-## 기본정보 ![Progress](http://progressed.io/bar/88?title=progress)
+## 기본정보 ![Progress](http://progressed.io/bar/91?title=progress)
 - 교육내용 : Technical Director 기초과정 / 리눅스를 활용한 VFX, 애니메이션 파이프라인
 - 교육방식 : Github를 활용한 교육 및 협업개발
 - 문의 : hello@lazypic.org
 - 뉴크 추천 강좌 : https://www.youtube.com/watch?v=WJM8e7aGoao&list=PLinyNPTbAjGn7rJaoNplALoOhrXYVaFAJ
-- 프로그래밍이 처음이라면 한번씩 읽고 오세요 : https://wikidocs.net/book/2
+- 프로그래밍이 처음이라면 한번씩 읽고 오세요. : https://wikidocs.net/book/2
 
 ## 내 용
 1. [x] 소 개 (12.28)
@@ -270,7 +270,7 @@
 	1. [경로를 통해서 Read노드 만들기](docs/path_to_read.md)
 	1. [다른 .nk 노드를 내부로 불러오기](docs/load_nk.md)
 
-1. [ ][DB의 소개 및 활용예](docs/db.md)(2.26)
+1. [ ] [DB의 소개 및 활용예](docs/db.md)(2.26)
 	1. [Redis 설치](docs/install_redis.md)
 	1. [Redis PythonAPI 실습](docs/python_redis.md)
 	1. [MongoDB 설치](docs/install_mongodb.md)
