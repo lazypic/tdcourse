@@ -90,9 +90,9 @@ $ nuke -F 1001-1100 -X Write1 myscript.nk
 
 - `-v` : 이미지를 볼 때 사용하는 옵션입니다.
     ```
-    $ nuke -v test.exr //이미지를 볼 때.
-    $ nuke -v test.tif test01.exr test02.exr //따로 따로 이미지를 볼때
-    $ nuke -v taxi.%04d.exr 1,50 //시퀀스를 볼 때
+    $ nuke -v ./test.exr //이미지를 볼 때.
+    $ nuke -v ./test.tif ./test01.exr ./test02.exr //따로 따로 이미지를 볼때
+    $ nuke -v ./taxi.%04d.exr 1,50 //시퀀스를 볼 때
     ```
 
 - `-version` : 뉴크 버젼이 출력됩니다.
