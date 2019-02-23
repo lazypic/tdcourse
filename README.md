@@ -263,13 +263,14 @@
 	1. 플러그인 : [루마픽쳐스에서 사용중인 기즈모 등록](docs/lumapic.md)
 	1. 플러그인 : [상용 플러그인에서 자주 보이는 .so 플러그인 셋팅](docs/set_other_plugins.md)
 
-1. Nuke Command Line Rendering(2.22)
+1. [x] Nuke Command Line Rendering(2.22)
 	1. [Nuke Command Line Rendering](docs/nuke_cmd.md)
 
-1. 라이브러리의 기초
+1. [x] 라이브러리의 기초1(2.25)
 	1. [경로를 통해서 Read노드 만들기](docs/path_to_read.md)
 	1. [다른 .nk 노드를 내부로 불러오기](docs/load_nk.md)
-	1. [DB의 소개 및 활용예](docs/db.md)
+
+1. [ ][DB의 소개 및 활용예](docs/db.md)(2.26)
 	1. [Redis 설치](docs/install_redis.md)
 	1. [Redis PythonAPI 실습](docs/python_redis.md)
 	1. [MongoDB 설치](docs/install_mongodb.md)
@@ -277,14 +278,14 @@
 	1. [PostrgreSQL 설치](docs/install_postrgresql.md)
 	1. [PostrgreSQL PythonAPI 실습](docs/python_postrgresql.md)
 
-1. PyQT
+
+1. [ ] [포트폴리오 제작](docs/portfolio.md)(2.27)
+
+1. PySide2
 	1. [Pyside2 알아보기](docs/pyside2_gui.md)
 	1. [Qt Designer 설치](docs/qt_designer.md)
 	1. [.ui 파일과 python의 연동](docs/load_ui_from_python.md)
 	1. 간단한 Pyside2 프로그램 제작
-
-1. [파일관리툴 제작](docs/make_opener.md)
-
-1. [포트폴리오 제작](docs/portfolio.md)
+	1. [파일관리툴 제작](docs/make_opener.md)
 
 1. [기타](docs/dev_todo.md)
