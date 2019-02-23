@@ -25,14 +25,14 @@ class NkLibrary(QWidget):
         super(NkLibrary, self).__init__()
         self.nklist = QListWidget()
         for i in range(100):
-            self.nklist.addItem(QListWidgetItem("/test/"+str(i)+".nk"))
+            self.nklist.addItem(QListWidgetItem("/test/"+str(i)+".nk")) # 이 부분을 파일리스트로 변경해야함.
         self.ok = QPushButton("OK")
         self.cancel = QPushButton("Cancel")
         self.oc = QDialogButtonBox(QtCore.Qt.Horizontal)
         
         # event
         self.ok.clicked.connect(self.bt_ok)
-        self.nklist.itemClicked.connect(self.item_click)
+        self.nklist.itemClicked.connect(self.itemClick)
         self.cancel.clicked.connect(self.close)
 
         # layout
@@ -44,7 +44,7 @@ class NkLibrary(QWidget):
         layout.addWidget(self.oc, 5, 0)
         self.setLayout(layout)
 
-    def item_click(self, item):
+    def itemClick(self, item):
         self.currentItem = item.text()
 
     def bt_ok(self):

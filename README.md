@@ -278,7 +278,6 @@
 	1. [PostrgreSQL 설치](docs/install_postrgresql.md)
 	1. [PostrgreSQL PythonAPI 실습](docs/python_postrgresql.md)
 
-
 1. [ ] [포트폴리오 제작](docs/portfolio.md)(2.27)
 
 1. PySide2
