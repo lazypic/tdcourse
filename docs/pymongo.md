@@ -98,3 +98,6 @@ project = "circle"
 result = db[project].delete_many({"name": "BAR_0010"})
 print(result)
 ```
+
+## Reference
+- 쿼리 : https://www.w3schools.com/python/python_mongodb_query.asp
