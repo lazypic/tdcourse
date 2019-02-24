@@ -41,6 +41,18 @@ $ mongo
 > db.circle.find()
 ```
 
+파이썬을 이용해서 데이터를 확인해봅니다.
+```python
+from pymongo import MongoClient
+
+client = MongoClient("192.168.219.105", 27017)
+db = client.projects
+project = "circle"
+
+for doc in db[project].find():
+	print(doc) 
+```
+
 #### 데이터 수정하기
 
 ```python
