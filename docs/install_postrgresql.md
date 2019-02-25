@@ -34,7 +34,7 @@ https://www.postgresql.org/download/linux/redhat/
 ```
 
 ```
-listen_address = “*”
+listen_address = '*'
 ```
 
 ## 암호설정
