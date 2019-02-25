@@ -15,6 +15,10 @@
 - `Super` + `Alt` + `+` : Zoom In
 - `Super` + `Alt` + `-` : Zoom Out
 
+## 스크린샷
+- PrintScreen : 전체 스크린샷
+- Shift + PrintScreen : 영역 스크린샷
+
 ## 단축키 보기
 강의자가 누른 키를 화면에 표시하는 유틸리티 입니다.
 
