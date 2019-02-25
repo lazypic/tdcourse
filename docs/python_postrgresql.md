@@ -2,7 +2,7 @@
 
 ## psycopg2 설치
 
-PostgreSQL을 python을 이용해서 컨트롤할 때 가장 유명한 라이브러리는 psycopg2 입니다.
+PostgreSQL을 python을 이용해서 DB를 컨트롤할 때 가장 유명한 라이브러리는 psycopg2 입니다.
 설치해보겠습니다.
 
 ```bash
@@ -83,6 +83,7 @@ if __name__ == '__main__':
 
 테이블이 잘 생성되어있는지 postgres 쉘로 들어가서 체크를 해봅시다.
 dt는 Database Table을 의미합니다.
+
 ```bash
 # su – postgres
 -bash-4.2$ psql -d projects
