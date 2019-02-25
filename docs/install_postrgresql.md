@@ -29,8 +29,8 @@ https://www.postgresql.org/download/linux/redhat/
 ## 외부 접속 허용
 외부 ip가 여러분의 DB로 접근하기 위해서는 설정파일 수정이 필요합니다.
 
-```bash
-$ vim /var/lib/pgsql/11/data/postgresql.conf
+```
+# vim /var/lib/pgsql/11/data/postgresql.conf
 ```
 
 ```
