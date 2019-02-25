@@ -22,7 +22,7 @@ https://www.postgresql.org/download/linux/redhat/
 
 ## 방화벽 설정
 ```
-# firewall-cmd -–zone=public -–add-port=5432/tcp --permanent
+# firewall-cmd --zone=public --add-port=5432/tcp --permanent
 # firewall-cmd --reload
 ```
 
