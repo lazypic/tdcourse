@@ -34,7 +34,7 @@ https://www.postgresql.org/download/linux/redhat/
 ```
 
 ```
-listen_address = '*'
+59 : listen_address = '*'
 ```
 
 ## 암호설정
@@ -43,34 +43,33 @@ psql 명령을 이용해서 DB 접속 패스워드를 입력합니다. 실습을
 
 ```
 # su – postgres
-> psql
-\password postgres
-\q
-# exit
+-bash-4.2$ psql
+postgres=# \password postgres
+postgres=# \q
+-bash-4.2$ exit
 ```
 
 ## 외부 접속을 위한 보안 설정
 
 ```
-# cd /var/lib/pgsql/11/data
-# vim pg_hba.conf
+# vim /var/lib/pgsql/11/data/pg_hba.conf
 ```
 
 pg_hba.conf 파일을 아래처럼 수정합니다.
 
-이러한 내용을..
+아래 라인에 아래 설정이 되어있습니다.
 ```
-local all all peer
-host all all 127.0.0.1/32 ident
-host all all ::1/128 ident
+80 : local all all peer
+82 : host all all 127.0.0.1/32 ident
+84 : host all all ::1/128 ident
 ```
 
-이렇게 바꾸어줍니다. 패스워드 전송을 md5 암호화를 이용하여 전송하는 설정입니다.
+아래 내용처럼 바꾸어 줍니다. 패스워드 전송을 md5 암호화를 이용하여 전송하는 설정입니다.
 
 ```
-local all all md5
-host all all 0.0.0.0/0 md5 // 전체 접근
-host all all ::1/128 md5
+80 : local all all md5
+82 : host all all 0.0.0.0/0 md5 // 전체 접근
+84 : host all all ::1/128 md5
 ```
 
 데이터베이스를 재시작 합니다.
@@ -85,6 +84,7 @@ host all all ::1/128 md5
 # su – postgres
 -bash-4.2$ psql
 postgres=# CREATE DATABASE projects;
+postgres=# \q
 ```
 
 
