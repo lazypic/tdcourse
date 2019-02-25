@@ -6,9 +6,9 @@
     - 체계적인 도표를 지속적으로 디벨롭할 때 많이 사용됩니다.
     - 플로우 차트를 작성할 때 활용합니다.
     - 프로그래밍 순서도를 작성할 때 활용합니다.
-    - [FFmpeg를 이용한 슬레이트 제작](slate_ffmpeg.md) : 뉴크 라이센스 사용을 줄일 수 있습니다.
-    - 메모리 관리 : https://www.tecmint.com/clear-ram-memory-cache-buffer-and-swap-space-on-linux/
-    - 터미널 유틸리티 Yakuake 설치 : https://github.com/KDE/yakuake
+- [FFmpeg를 이용한 슬레이트 제작](slate_ffmpeg.md) : 뉴크 라이센스 사용을 줄일 수 있습니다.
+- 메모리 관리 : https://www.tecmint.com/clear-ram-memory-cache-buffer-and-swap-space-on-linux/
+- 터미널 유틸리티 Yakuake 설치 : https://github.com/KDE/yakuake
 
 ## 예 정
 - Renderman Non커머셜 설치후 bin 폴더 관찰하기
