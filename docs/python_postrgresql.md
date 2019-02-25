@@ -14,7 +14,7 @@ $ pip install --user psycopg2-binary
 
 ## 테이블 생성
 데이터를 넣기 위해서는 먼저 데이터를 넣을 테이블이 필요합니다.
-테이블을 만드는 예제를 다루어 보겠습니다.(show 대신 project를 아래 코드에서 사용합니다.)
+테이블을 만드는 예제를 다루어 보겠습니다.
 
 
 ![struct](../figures/rdbms.png)
