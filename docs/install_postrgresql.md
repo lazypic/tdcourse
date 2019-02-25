@@ -51,9 +51,9 @@ psql 명령을 이용해서 DB 접속 패스워드를 입력합니다. 실습을
 
 ## 외부 접속을 위한 보안 설정
 
-```bash
-$ cd /var/lib/pgsql/10/data
-$ vim pg_hba.conf
+```
+# cd /var/lib/pgsql/11/data
+# vim pg_hba.conf
 ```
 
 pg_hba.conf 파일을 아래처럼 수정합니다.
