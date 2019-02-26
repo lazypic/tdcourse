@@ -1,7 +1,9 @@
 # 포트폴리오 제작
 
 ## 참고
-linkedin, github.io, github PDF 출력. 학교 제출자료 생성
+linkedin, github.io, github 페이지를 PDF 변환. 이메일 보내기.
+
+보내는 곳 : hello@lazypic.org
 
 ## 수업정리
 1. 남은 8시간은 하루동안 기존에 배운것들을 천천히 정리하는 시간입니다.
