@@ -1,6 +1,6 @@
 # Curriculum
 
-## 기본정보 ![Progress](http://progressed.io/bar/96?title=progress)
+## 기본정보 ![Progress](http://progressed.io/bar/100?title=progress)
 - 교육내용 : Technical Director 기초과정 / 리눅스를 활용한 VFX, 애니메이션 파이프라인
 - 교육방식 : Github를 활용한 교육 및 협업개발
 - 문의 : hello@lazypic.org
@@ -270,15 +270,15 @@
 	1. [경로를 통해서 Read노드 만들기](docs/path_to_read.md)
 	1. [다른 .nk 노드를 내부로 불러오기](docs/load_nk.md)
 
-1. [ ] [DB의 소개 및 활용예](docs/db.md)(2.26)
-	1. [x] [Redis 설치](docs/install_redis.md)
-	1. [x] [Redis PythonAPI 실습](docs/python_redis.md)
-	1. [x] [MongoDB 설치](docs/install_mongodb.md)
-	1. [x] [MongoDB PythonAPI 실습](docs/pymongo.md)
-	1. [ ] [PostrgreSQL 설치](docs/install_postrgresql.md)
-	1. [ ] [PostrgreSQL PythonAPI 실습](docs/python_postrgresql.md)
+1. [x] [DB의 소개 및 활용예](docs/db.md)(2.26)
+	1. [Redis 설치](docs/install_redis.md)
+	1. [Redis PythonAPI 실습](docs/python_redis.md)
+	1. [MongoDB 설치](docs/install_mongodb.md)
+	1. [MongoDB PythonAPI 실습](docs/pymongo.md)
+	1. [PostrgreSQL 설치](docs/install_postrgresql.md)
+	1. [PostrgreSQL PythonAPI 실습](docs/python_postrgresql.md)
 
-1. [ ] [포트폴리오 제작](docs/portfolio.md)(2.27)
+1. [x] [포트폴리오 제작](docs/portfolio.md)(2.27)
 
 1. PySide2
 	1. [Pyside2 알아보기](docs/pyside2_gui.md)
