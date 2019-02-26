@@ -226,10 +226,7 @@ def delete_project(project_id):
     conn = None
     rows_deleted = 0
     try:
-        # read database configuration
-        params = config()
-        # connect to the PostgreSQL database
-        conn = psycopg2.connect(**params)
+        conn = psycopg2.connect(host="192.168.219.105",database="projects", user="postgres", password="postgres")
         # create a new cursor
         cur = conn.cursor()
         # execute the UPDATE  statement
