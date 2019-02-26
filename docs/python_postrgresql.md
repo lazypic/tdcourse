@@ -13,8 +13,8 @@ $ pip install --user psycopg2-binary
 홈페이지 : https://pypi.org/project/psycopg2/
 
 ## 테이블 생성
-데이터를 넣기 위해서는 먼저 데이터를 넣을 테이블이 필요합니다.
-테이블을 만드는 예제를 다루어 보겠습니다.
+데이터를 넣기 위해서는 먼저 데이터를 넣을 테이블을 제작해야 합니다.
+DB에 테이블을 생성하는 예제를 다루고 설명하겠습니다.
 
 
 ![struct](../figures/rdbms.png)
