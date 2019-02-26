@@ -58,7 +58,7 @@
 	1. [스터디 그룹을 위한 컴파일러 설치](docs/gcc.md)
 	
 1. [x] 기타 유틸리티 설치(1.7)
-	1. 실습 : 오피스 제품을 설치하고 MPAA 문서보기
+	1. libreOffice 설치, MPAA 문서보기
 	1. [크롬설치](docs/install_chrome.md)
 	1. [CentOS Beep 사운드 제거](docs/soundoff.md)
 	1. [Torrent](docs/torrent.md)
@@ -96,7 +96,7 @@
 	1. [환경변수 및 패키징 관리툴](docs/env_managing.md)
 
 1. [x] 예제파일 설치하기 (1.15)
-	1. ~/examples 설치 : `cd ~ && git clone https://github.com/cgiseminar/examples`
+	1. [examples 설치](docs/setup_examples.md)
 	1. [샘플파일설치](docs/sample.md)
 
 1. [x] 동영상과 코덱 (1.16)
@@ -227,9 +227,9 @@
 	1. 그리고.. PythonAPI
 
 1. [x] Nuke 셋팅을 위한 Repository 생성(2.14)
-	1. [핫코너 옵션 끄기](docs/off_hotcorner.md)
-	1. [NUKE_PATH 연결](docs/nuke_path.md)
-	1. [init.py, menu.py 생성](docs/set_init_menu_py.md)
+	1. [핫코너 옵션 끄기](acaudwell/Gource/wikitcorner.md)
+	1. [NUKE_PATH 연결](doacaudwell/Gource/wikih.md)
+	1. [init.py, menu.py acaudwell/Gource/wikiet_init_menu_py.md)
 	1. [뉴크셋팅 폴더 구조생성](docs/set_assets_dir.md)
 	1. 뉴크 기초 설명
 
