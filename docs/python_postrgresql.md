@@ -38,7 +38,7 @@ def create_tables():
         """,
         """
         CREATE TABLE project_extension (
-                project_id INTEGER PRIMARY KEY,
+                project_id INTEGER NOT NULL,
                 project_deadline VARCHAR(25),
                 FOREIGN KEY (project_id)
                     REFERENCES projects (project_id)
