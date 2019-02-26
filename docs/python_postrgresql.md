@@ -61,15 +61,11 @@ def create_tables():
         """)
     conn = None
     try:
-        # connect to the PostgreSQL server
         conn = psycopg2.connect(host="192.168.219.105",database="projects", user="postgres", password="postgres")
         cur = conn.cursor()
-        # create table one by one
         for command in commands:
             cur.execute(command)
-        # close communication with the PostgreSQL database server
         cur.close()
-        # commit the changes
         conn.commit()
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
@@ -115,15 +111,11 @@ def insert_project(project_name):
     project_id = None
     try:
         conn = psycopg2.connect(host="192.168.219.105",database="projects", user="postgres", password="postgres")
-        # create a new cursor
         cur = conn.cursor()
-        # execute the INSERT statement
         cur.execute(sql, (project_name,))
-        # get the generated id back
-        project_id = cur.fetchone()[0]
-        # commit the changes to the database
+        row = cur.fetchone()
+        project_id = row[0]
         conn.commit()
-        # close communication with the database
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
@@ -195,15 +187,10 @@ def update_project(project_id, project_name):
     updated_rows = 0
     try:
         conn = psycopg2.connect(host="192.168.219.105",database="projects", user="postgres", password="postgres")
-        # create a new cursor
         cur = conn.cursor()
-        # execute the UPDATE  statement
         cur.execute(sql, (project_name, project_id))
-        # get the number of updated rows
         updated_rows = cur.rowcount
-        # Commit the changes to the database
         conn.commit()
-        # Close communication with the PostgreSQL database
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
@@ -227,15 +214,10 @@ def delete_project(project_id):
     rows_deleted = 0
     try:
         conn = psycopg2.connect(host="192.168.219.105",database="projects", user="postgres", password="postgres")
-        # create a new cursor
         cur = conn.cursor()
-        # execute the UPDATE  statement
         cur.execute("DELETE FROM projects WHERE project_id = %s", (project_id,))
-        # get the number of updated rows
         rows_deleted = cur.rowcount
-        # Commit the changes to the database
         conn.commit()
-        # Close communication with the PostgreSQL database
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
