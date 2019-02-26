@@ -136,6 +136,20 @@ if __name__ == '__main__':
     insert_project("circle")
 ```
 
+값을 확인하는 방법
+```
+# su - postgres
+-bash-4.2$ psql -d projects
+Password:
+projects=# TABLE projects;
+
+ project_id | project_name 
+------------+--------------
+          1 | circle
+(1 row)
+projects=# \q
+```
+
 ## 테이블에서 데이터 가지고 오기
 ```python
 #!/usr/bin/env python
