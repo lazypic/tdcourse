@@ -61,22 +61,8 @@ printf "#%02X%02X%02X\n" $NUM
 ```
 #!/bin/sh
 
-zenity --forms --title="Work notes" \
---text="오늘은 어떤 업무를 하셨나요?" \
---separator="," \
---add-calendar="Today" \ 
---add-entry="Name" \
---add-entry="Project" \
---add-entry="Note" >> worknote.csv
-
-case $? in
-	0)
-		echo "done";;
-	1)
-		echo "cancel";;
-	-1)
-		echo "cancel";;
-esac
+STDOUT=$(zenity --forms --title="Work notes" --text="오늘은 어떤 업무를 하셨나요?" --separator="," --add-calendar="Today" --add-entry="Name" --add-entry="Project" --add-entry="Note" 2> /dev/null)
+echo $STDOUT >> worknote.csv
 ```
 
 자동으로 입력하거나 DB와 연동을 위해서는 위 스크립트로는 기능이 약하지만..
