@@ -30,7 +30,7 @@ $ ./configure --launch-jobs=$(nproc) --launch
 # make --directory=build install
 $ rm -rf build
 ```
-
+`$(nproc)` 는 CPU갯수(number of process) 입니다.
 설치가 완료되면 `HandBrakeCLI` 명령어를 사용할 수 있습니다.
 
 ```bash
