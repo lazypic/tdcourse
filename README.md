@@ -152,14 +152,13 @@
 
 1. [x] 파일변환 유틸리티 : FFmpeg 1부 (1.31)
 	1. [FFmpeg](docs/ffmpeg.md)
-	1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작
+	1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작 1부
 
 1. [x] 파일변환 유틸리티 : FFmpeg 2부 (2.1)
-	1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작
+	1. 실습 : FFmpeg를 이용해서 일괄 동영상 변환 스크립트 제작 2부
 	1. [ffmpeg 명령어를 이용해서 개발내용 스크린 캡쳐](docs/ffmpeg_screencap.md)
 
 1. [x] 파일변환 유틸리티 : HandBrake, Mediainfo(2.7)
-	1. 뉴크 라이센스 만료 / 갱신
 	1. [mediainfo](docs/mediainfo.md)
 	1. [HandBrake](docs/handbrake.md)
 
@@ -227,9 +226,9 @@
 	1. 그리고.. PythonAPI
 
 1. [x] Nuke 셋팅을 위한 Repository 생성(2.14)
-	1. [핫코너 옵션 끄기](acaudwell/Gource/wikitcorner.md)
-	1. [NUKE_PATH 연결](doacaudwell/Gource/wikih.md)
-	1. [init.py, menu.py acaudwell/Gource/wikiet_init_menu_py.md)
+	1. [핫코너 옵션 끄기](docs/off_hotcorner.md)
+	1. [NUKE_PATH 연결](docs/nuke_path.md)
+	1. [init.py, menu.py 생성](docs/init_menu_py.md)
 	1. [뉴크셋팅 폴더 구조생성](docs/set_assets_dir.md)
 	1. 뉴크 기초 설명
 
