@@ -1,6 +1,6 @@
 # Samba
 
-## macOS
+## macOS 에서 Samba 연결하기.
 mount
 ```
 $ mount_smbfs //user@SERVER/folder ./mntpoint
