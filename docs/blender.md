@@ -1,6 +1,8 @@
 # Blender
 블랜더 2.8을 설치하는 방법을 알아보겠습니다.
-CentOS7.6의 glibc 버전은 낮습니다.
+OpenGL3.3 이상이 필요합니다. 그래픽카드 드라이버를 설치하면 이 부분은 해결됩니다.
+
+문제는 CentOS7.6의 glibc버전입니다. CentOS7.6의 기본 버전은 낮습니다.
 
 블랜더 2.80 베타는 glibc2.24를 요구합니다.
 blender-2.80-1b6da95ccb11-linux-glibc224-x86_64
