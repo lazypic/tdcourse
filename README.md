@@ -288,3 +288,7 @@
 	1. [파일관리툴 제작](docs/make_opener.md)
 
 1. [기타](docs/dev_todo.md)
+
+#### 기부하기
+- [카카오페이](https://qr.kakaopay.com/281006012000000189444760)
+- [Paypal](https://paypal.me/lazypic)
