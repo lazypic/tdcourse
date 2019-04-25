@@ -289,6 +289,9 @@
 
 1. [기타](docs/dev_todo.md)
 
-#### 기부하기
+## 기부하기
+커리큘럼이 종료되었습니다. 위 지식이 여러분의 콘텐츠 제작에 도움되었다면 기부해주세요.
+이 콘텐츠를 제작했던 [Lazypic](https://lazypic.org) 메인테이너, 커미터와 함께 소소한 간식타임을 가질 수 있습니다.
+
 - [카카오페이](https://qr.kakaopay.com/281006012000000189444760)
 - [Paypal](https://paypal.me/lazypic)
