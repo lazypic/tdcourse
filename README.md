@@ -294,7 +294,7 @@
 ## 기부하기
 커리큘럼이 종료되었지만 간헐적으로 개인 또는 기업에서 문의가 들어오는 질문에 대해서 업데이트하고 있습니다.
 작성된 지식이 여러분의 콘텐츠 제작에 도움되었다면 기부해주세요.
-이 콘텐츠를 제작했던 [Lazypic](https://lazypic.org) 메인테이너 및 커미터와 함께 소소한 간식타임을 가질 수 있습니다.
+이 콘텐츠를 제작했던 [Lazypic](https://lazypic.org) Maintainer, Committer, 주요 Contributors 와 함께 소소한 간식타임을 가질 수 있습니다.
 
 #### Kakaopay
 ![kakaopay](https://lazypic.org/images/kakaopay.png)
