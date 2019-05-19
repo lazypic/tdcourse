@@ -16,7 +16,7 @@ $ brew install exiftool
 $ exiftool -v C02_v01_w01.0001.tif
 ```
 
-Y Resolution 메타데이터 업데이트
+Y Resolution 메타데이터를 1 값으로 업데이트
 ```bash
 $ exiftool -overwrite_original -YResolution=1 C02_v01_w01.0001.tif
 ```
