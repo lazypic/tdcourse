@@ -162,7 +162,9 @@
 1. [x] 파일변환 유틸리티 : HandBrake, Mediainfo(2.7)
 	1. [mediainfo](docs/mediainfo.md)
 	1. [HandBrake](docs/handbrake.md)
+
 1. [메타데이터 수정](docs/edit_metadata.md)
+
 1. [x] [컬러스페이스의 역사](docs/history_colorspace.md)(2.7)
 
 1. [x] [OpenImageIO 설치](docs/openimageio.md)(2.8)
