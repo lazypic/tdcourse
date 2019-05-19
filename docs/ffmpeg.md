@@ -96,7 +96,7 @@ $ ffmpeg -f image2 -start_number 100 -r 24 -i ~/examples/FOO_0010/FOO_0010.%4d.j
 응용 : 실제로 mov는 각 프로그램마다 옵션의 차이가 있습니다. mediainfo 명령어를 이용하여 데이터를 분석하면서 ffmpeg 옵션을 찾는 노력이 필요합니다.
 
 #### macOS에서는...
-macOS에서는 이미지르 이용해서 h.264로 영상으 제작하면 바로 보이지 않습니다. `-pix_fmt yuv420p` 옵션이 필요합니다.
+macOS에서는 이미지를 이용해서 h.264로 영상을 생성하면 바로 보이지 않습니다. `-pix_fmt yuv420p` 옵션이 필요합니다.
 
 ```bash
 $ ffmpeg -f image2 -start_number 1 -r 24 -i ~/Downloads/C02_v01_w02/C02_v01_w02.%04d.tif -pix_fmt yuv420p -vcodec h264 ./output.mov
