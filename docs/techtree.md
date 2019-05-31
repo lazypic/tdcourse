@@ -6,20 +6,22 @@
 ## SW
 - 문서 시스템 : 모두가 문서를 작성하고 공유하는 플랫폼
 - 커뮤니케이션도구 : 메일, 메신저, [Slack](https://slack.com), [Rocket.Chat](https://rocket.chat), [Mattermost](https://www.mattermost.org)
-- 파일관리 도구
+- 버전관리툴 셋팅 : [git](https://git-scm.com), [svn](https://subversion.apache.org), [mercurial](https://www.mercurial-scm.org)
+- 버전관리시스템 셋팅 : [github](https://github.com), [gitlab](https://about.gitlab.com), [gogs](https://gogs.io), [gitea](https://gitea.io), [bitbucket](https://bitbucket.org)
+- 파일관리 툴 : [openpipeline](http://openpipeline.cc), [elo](https://github.com/studio2l/elo)
 - 인원관리 도구 : [ERP시스템](erp.md), [SAP](https://www.sap.com/korea/index.html)
 - 인증시스템 : [AD(ActiveDirectory)](https://ko.wikipedia.org/wiki/액티브_디렉터리), [LDAP](https://ko.wikipedia.org/wiki/LDAP)
 - 에셋(라이브러리) 관리 도구
 - 업무 효율화 도구 : 자동화 스크립트
-- 프로젝트 매니징 툴
+- 프로젝트 매니징 툴 : [shotgun](https://www.shotgunsoftware.com), [ftrack](https://www.ftrack.com/en/), [tactic](https://southpawtech.com/tactic/)
 - DB
-- 렌더팜 관리 도구
+- 렌더팜 관리 도구 : [tractor](https://renderman.pixar.com/tractor), [deadline](https://www.thinkboxsoftware.com/deadline)
 - 보안툴 제작, 규칙 : [MPAA규칙](https://www.mpaa.org/what-we-do/advancing-creativity/additional-resources/#content-protection-best-practices) 문서는 doc 양식입니다. LibreOffice를 설치하고 열람할 수 있습니다.
-- 제작 소프트웨어 : 마야, 뉴크, 후디니, 게임엔진, 플러그인 등등
-- 제작 소프트웨어를 지원하는 스크립트, 자체 제작 프로그램
+- 제작 소프트웨어 구매 : 마야, 뉴크, 후디니, 게임엔진, 플러그인 테스트, 버전 테스트
+- 제작 소프트웨어 지원 : 스크립트, 플러그인 개발, 프로그램 개발
 - 소프트웨어 관리툴 : [Puppet](https://puppet.com), [Ansible](https://www.ansible.com), [Chef](https://www.chef.io) ...
 - 모니터링툴 : [Prometheus](https://prometheus.io), [Grafana](https://grafana.com) ...
-- CI툴(Continuous Integration) : [Jenkins](https://jenkins.io), [SemaphoreCI](https://semaphoreci.com), [Travis](https://travis-ci.org), [Hudson](http://hudson-ci.org) ...
+- CI툴(Continuous Integration) : [Travis](https://travis-ci.org), [Jenkins](https://jenkins.io), [SemaphoreCI](https://semaphoreci.com), [Hudson](http://hudson-ci.org) ...
 
 ## HW
 - 네트워크 장비
