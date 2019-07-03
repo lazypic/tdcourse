@@ -13,7 +13,7 @@
 - 인증시스템 : [AD(ActiveDirectory)](https://ko.wikipedia.org/wiki/액티브_디렉터리), [LDAP](https://ko.wikipedia.org/wiki/LDAP), [*AWS IAM](https://aws.amazon.com/iam/)
 - 에셋(라이브러리) 관리 도구
 - 업무 효율화 도구 : 자동화 스크립트
-- 프로젝트 매니징 툴 : [Shotgun](https://www.shotgunsoftware.com), [Ftrack](https://www.ftrack.com/en/), [Tactic](https://southpawtech.com/tactic/)
+- 프로젝트 매니징 툴 : [Shotgun](https://www.shotgunsoftware.com), [Ftrack](https://www.ftrack.com/en/), [Tactic](https://southpawtech.com/tactic/), [CSI](https://github.com/digital-idea/csi3)
 - DB
 - 렌더팜 관리 도구 : [Tractor](https://renderman.pixar.com/tractor), [Deadline](https://www.thinkboxsoftware.com/deadline)
 - 보안툴 제작, 규칙 : [MPAA규칙](https://www.mpaa.org/what-we-do/advancing-creativity/additional-resources/#content-protection-best-practices) 문서는 doc 양식입니다. LibreOffice를 설치하고 열람할 수 있습니다.
