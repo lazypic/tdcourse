@@ -100,6 +100,13 @@ prores코덱을 재생하도록 배포시 RV 플레이어에서 기본적으로 
 
 RV가 설치된 폴더로 이동합니다.
 
+g++이 필요합니다. 아래 명령어를 이용해서 g++을 설치합니다.
+
+```
+# yum install gcc-g++
+```
+
+
 ```
 $ cd src/mio_ffmpeg
 $ vim init.cpp
