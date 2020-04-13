@@ -20,6 +20,9 @@ Git을 이용해서 협업하는 절차는 다음과 같습니다.
 Github에서는 리포지터리 페이지 상단 Fork 버튼을 이용해서 Fork 작업을 진행할 수 있습니다.
 
 ## Upstream
+리포지터리는 보통 Upstream과 Downstream 으로 이우러져 있습니다.
+Fork를 진행하면 복사된 소스코드의 원래 소스코드가 Upstream이 되는 것이지요. 자신의 소스코드는 Downstream이 됩니다.
+여러 회사들은 이미 이 방식으로 개발을 진행하고 있습니다. 진짜인지 확인하기 위해 Pixar OpenTimelineIO 리포지터리에서 upstream 을 사용고 있는 페이지에 놀러가보겠습니다. 구경가보죠! https://opentimelineio.readthedocs.io/en/latest/tutorials/contributing.html
 
 ## 이슈선정
 
