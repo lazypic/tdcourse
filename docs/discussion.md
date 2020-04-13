@@ -54,13 +54,15 @@ https://github.com/wesnoth/wesnoth/issues
 
 ## 이슈로 브런치 생성
 이슈를 생성하면 이슈번호가 자동 생성됩니다. 이 번호를 이용해서 브런치를 생성하는 것이 좋습니다.
-이슈번호가 113번이라면 보통 저는 iss113 으로 브런치를 생성합니다.
+만약, 이슈번호가 113번 이라면 저는 iss113 으로 브런치를 생성하는 편입니다.
 
 ```bash
 $ git branch iss113
 ```
+
 ## 코드수정
-코드를 수정할 때는 master 브런치를 사용하지 않습니다.
+코드를 수정할 때는 master 브런치를 사용하지 않습니다. master 브런치는 upstream과 donwstream의 통로로만 사용하는 것을 추천합니다.
+
 코드 수정을 위해서 iss113 브런치로 체크아웃 후 코드를 수정합니다.
 
 ```bash
@@ -89,78 +91,4 @@ https://github.com/wesnoth/wesnoth/pulls
 ## 코드합치기
 모든 상황에 해서 서로가 만족한다면, Merge 버튼을 눌러서 코드를 합치게 됩니다. 의견에 대해서 분쟁이 있다면 최종 결정은 해당 리포지터리의 메인테이너가 합니다.
 
-## 실습
-- 강의노트를 fork 하고 수정, 이슈 제안을 해주세요.
-
-1. 강의 노트를 Fork 합니다.
-1. 홈 디렉토리에 Git clone 합니다.
-```bash
-$ cd ~
-$ git clone https://github.com/{your_id}/curriculum
-```
-
-1. 소스코드가 다운로드 되면 폴더로 들어가서 upstream을 설정합니다.
-```bash
-$ cd curriculum
-$ git remote add upstream https://github.com/cgiseminar/curriculum.git
-```
-
-1. 설정중에도 만약 최신코드가 있을지 모르니 fetch 합니다. fetch는 upstream에서 코드를 자동으로 머지하지 않습니다.(pull은 자동으로 머지합니다.)
-```bash
-$ git fetch upstream
-```
-
-1. 이슈,버그리스트를 보고 branch를 생성합니다.
-```bash
-$ git branch test
-$ git branch
-$ git checkout test
-```
-
-1. 소스 코드를 수정하고 수정된 내용을 확인합니다.
-```
-$ git diff
-```
-
-1. 수정된 파일을 test 브랜치에 add, commit, push 합니다.
-```bash
-$ git add filename
-$ git commit -m "commit text"
-$ git push origin test
-```
-
-1. Github에서 제안(PR)을 날립니다.
-
-![test branch PR](../figures/git_test_branch.png)
-
-1. PR을 생성할 때 왜 코드를 수정했는지 이유를 꼭 적습니다.
-![create PR](../figures/git_create_pull_request.png)
-
-1. 코드 검토자는 Files changed 탭을 클릭하고 변경 내용을 확인합니다.
-
-1. 코드 제안이 받아 들여지면 master 브랜치로 이동하여 upstream에서 코드를 받습니다.
-```bash
-$ git checkout master
-$ git branch
-$ git pull upstream master
-```
-
-1. test 브랜치를 제거합니다.(현재 컴퓨터의 브랜치)
-```bash
-$ git branch -D test
-```
-
-1. 브랜치를 제거합니다.(깃허브의 브랜치)
-```bash
-$ git push --delete origin test
-```
-
-1. Fork한 리포지터리도 업데이트합니다.
-```bash
-$ git push origin master
-```
-
-1. gitk를 설치하고 관찰합니다.
-```
-# yum install gitk
-```
+## 실습진행
