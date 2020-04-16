@@ -27,6 +27,10 @@ Universal Scene Description의 약자입니다.
 - .usdc : USD Crate 파일(바이너리 파일)
 - .usdz : .usd Zip 압축파일
 
+# macOS 설치
+- https://github.com/vfxpro99/usd-build-club/wiki/USD-on-macOS
+
+# CentOS 설치
 ## PyOpenGL 설치
 usdview는 PyOpenGL을 사용합니다. 설치해주세요.
 
