@@ -14,6 +14,10 @@ Universal Scene Description의 약자입니다.
 
 홈페이지 : https://graphics.pixar.com/usd/docs/index.html
 
+## 설치
+developer.nvidia.com 에는 이미 컴파일된 버전을 다운로드 받을 수 있습니다.
+- https://developer.nvidia.com/usd
+
 ## 지원하는 프로그램
 - 마야
 - 후디니
