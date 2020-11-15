@@ -47,6 +47,9 @@
 	1. [리눅스 네트워크 명령](docs/linux_net_cmd.md)
 	1. [커널부터 응용프로그램까지](docs/linux_struct.md)
 
+1. 네트워크
+    1. [VPN](doc/vpn.md)
+
 1. [x] 뉴크설치(1.7)
 	1. [뉴크 설치](docs/install_nuke.md)
 	1. [뉴크 버전관리](docs/managing_nukever.md)
