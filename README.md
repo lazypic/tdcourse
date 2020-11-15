@@ -48,6 +48,7 @@
 	1. [커널부터 응용프로그램까지](docs/linux_struct.md)
 
 1. 네트워크
+	1. [pfSense](doc/pfsense.md) 방화벽
     1. [VPN](doc/vpn.md)
 
 1. [x] 뉴크설치(1.7)
