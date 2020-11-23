@@ -300,10 +300,13 @@
 작성된 지식이 여러분의 콘텐츠 제작에 도움되었다면 기부해주세요.
 이 콘텐츠를 제작했던 [Lazypic](https://lazypic.org) Maintainer, Committer, 주요 Contributors 와 함께 소소한 간식타임을 가질 수 있습니다.
 
+#### 은행을 통한 직접기부
+- 기업은행: 466-064359-04-018 / 유한책임회사 레이지픽
+
 #### Kakaopay
 ![kakaopay](https://lazypic.org/images/kakaopay.png)
 
 [카카오페이(모바일링크)](https://qr.kakaopay.com/281006012000000189444760)
 
-
+#### Paypal
 [Paypal](https://paypal.me/lazypic)
