@@ -7,6 +7,7 @@
 - 문의 : hello@lazypic.org
 - 뉴크 추천 강좌 : https://www.youtube.com/watch?v=WJM8e7aGoao&list=PLinyNPTbAjGn7rJaoNplALoOhrXYVaFAJ
 - 프로그래밍이 처음이라면 한번씩 읽고 오세요. : https://wikidocs.net/book/2
+- 도움을 주신분: 김한웅, 배서영, 김용빈, 파운더리코리아, 모팩아카데미, 동국대학교 멀티미디어공학과
 
 ## 내 용
 1. [x] 소 개 (12.28)
