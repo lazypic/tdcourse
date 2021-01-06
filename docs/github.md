@@ -27,7 +27,7 @@ Github 에서 오늘 가장 핫한 리포지터리들이 출력되는 곳입니�
 - Studio2L : https://github.com/studio2l
 - MGS Korea : https://github.com/mgskorea
 
-개인 리포지터리는 이미 수를 셀수 없을 정도로 많습니다. 도움이 되는 리포지터를 만나면 계속 갱신하겠습니다.
+개인 리포지터리는 이미 수를 셀수 없을 정도로 많습니다. 도움이 되는 리포지터리를 만나면 계속 갱신하겠습니다.
 
 ## 실습
 - github에 가입합니다.
