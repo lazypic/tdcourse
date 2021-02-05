@@ -33,12 +33,12 @@ $ mv ~/Downloads/CentOS-7-x86_64-Everything-2009.img.dmg ~/Downloads/CentOS-7-x8
 $ diskutil list
 ```
 
-- 제 컴퓨터에서는 disk2 로 출력되었습니다. 컴퓨터마다 다를 수 있습니다.
+- 제 컴퓨터에서는 disk2 로 출력되었습니다. 컴퓨터마다 다를 수 있습니다. dd 옵션뒤에는 절대경로가 들어가야 합니다.
 
 ```
 $ sudo umount /dev/disk2
 $ sudo diskutil unmountDisk disk2 # 만약 Resource busy가 뜨면 타이핑해주세요.
-$ sudo dd if=~/Downloads/CentOS-7-x86_64-Everything-2009.img of=/dev/rdisk2 bs=1m
+$ sudo dd if=/Users/woong/Downloads/CentOS-7-x86_64-Everything-2009.img of=/dev/rdisk2 bs=1m
 ```
 - 잘 진행이 되면 아래 메시지를 출력후 종료됩니다.
 ```
