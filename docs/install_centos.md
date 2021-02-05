@@ -1,5 +1,5 @@
 # install CentOS
-CentOS7.6을 설치해보겠습니다.
+CentOS7.9을 설치해보겠습니다.
 
 ## 이미지 다운로드
 - CentOS 이미지를 다운로드 받습니다.
