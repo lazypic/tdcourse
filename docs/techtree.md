@@ -5,7 +5,7 @@
 
 ## SW
 - 문서 시스템(모두가 문서를 작성하고 공유하는 플랫폼) : *Github Wiki, Media Wiki
-- 커뮤니케이션도구 : 메일, 메신저, [*Slack](https://slack.com), [Rocket.Chat](https://rocket.chat), [Mattermost](https://www.mattermost.org)
+- 커뮤니케이션도구 : 메일, 메신저, [*Slack](https://slack.com), [Rocket.Chat](https://rocket.chat), [Mattermost](https://www.mattermost.org), [Zulip](https://zulip.com)
     - Slack 보안: https://app.slack.com/plans/TAFBK1J4S/?geocode=en-kr
 - 버전관리툴 셋팅 : [*Git](https://git-scm.com), [SVN](https://subversion.apache.org), [Mercurial](https://www.mercurial-scm.org)
 - 버전관리시스템 셋팅 : [*Github](https://github.com), [Gitlab](https://about.gitlab.com), [Gogs](https://gogs.io), [Gitea](https://gitea.io), [Bitbucket](https://bitbucket.org)
