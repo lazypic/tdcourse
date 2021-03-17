@@ -526,6 +526,21 @@ $ oiiotool input.exr --colorconvert linear srgb --premult -o output.tga
 $ oiiotool input.exr --resize 2048x1152 -o output.exr
 ```
 
+## Timecode 확인
+exr 내부에 들어있는 타임코드를 확인할 수 있습니다.
+```bash
+$ oiiotool --info -v input.exr
+Reading input.exr
+input.exr : 4096 x 2160, 3 channel, half openexr
+channel list: R, G, B
+oiio:ColorSpace: "Linear"
+compression: "none"
+PixelAspectRatio: 1
+screenWindowCenter: 0 0
+screenWindowWidth: 1
+smpte:TimeCode: 271733526, 0
+```
+
 ## 컴파일
 위에서 필요한 명령어는 간단하게 설치가 끝났습니다.
 명령어를 위해서 컴파일 할 필요는 없지만, 다른 프로그램을 컴파일할 때 활용됩니다.
