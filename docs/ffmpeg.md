@@ -83,6 +83,8 @@ $ ~/app/ffmpeg/ffmpeg -f image2 -start_number 100 -r 24 -i ~/examples/FOO_0010/F
 #### jpg시퀀스를 ProresHQ, fps 23.98 .mov로 만들기
 인수를 나열할 때 주의할 점은 프레임 레이트에 해당하는 `-r`옵션이 인풋 소스에 해당하는 `-i` 옵션 앞에 있어야 한다는 점입니다. 그렇게 해야 input 소스에 대해서 frame rate가 적용되어서 아웃풋 되는 결과물의 프레임수 오류가 없어집니다.
 
+자세한 옵션 참고자료: https://trac.ffmpeg.org/wiki/Encode/VFX
+
 ProresHQ
 ```bash
 $ ffmpeg -y -probesize 5000000 -f image2 -start_number 100 -r 24 -i ~/tdcourse_examples/FOO_0010/FOO_0010.%4d.jpg -c:v prores_ks -profile:v 3 -vendor ap10 -pix_fmt yuv422p10le -s 2048x1152 output.mov
