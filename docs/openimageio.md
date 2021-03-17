@@ -538,7 +538,7 @@ compression: "none"
 PixelAspectRatio: 1
 screenWindowCenter: 0 0
 screenWindowWidth: 1
-smpte:TimeCode: 271733526, 0
+smpte:TimeCode: 01:18:19:06
 ```
 
 ## 컴파일
