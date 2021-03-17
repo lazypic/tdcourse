@@ -95,7 +95,7 @@ $ ffmpeg -y -probesize 5000000 -f image2 -start_number 100 -r 24 -i ~/tdcourse_e
 
 ProresProxy
 ```bash
-$ ffmpeg -y -probesize 5000000 -f image2 -start_number 100 -r 24 -i ~/tdcourse_examples/FOO_0010/FOO_0010.%4d.jpg -c:v prores_ks -profile:v 0 -vendor ap10 -pix_fmt yuv422p10le -s 2048x1152 output.mov
+$ ffmpeg -y -probesize 5000000 -f image2 -start_number 100 -r 24 -i ~/tdcourse_examples/FOO_0010/FOO_0010.%4d.jpg -c:v prores_ks -profile:v 0 -vendor ap10 -pix_fmt yuv420p10le -s 2048x1152 output.mov
 ```
 
 #### 비율을 유지하면서 가로픽셀을 1280으로 만들기
