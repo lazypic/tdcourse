@@ -26,6 +26,8 @@ else:
 ```python
 import nuke
 print(nuke.env["NukeVersionString"])
+
+# Result: 12.2v5
 ```
 
 회사에서 일하게 되면 뉴크 버전마다 간혹 코드를 분기해야하 하는 상황이 발생합니다.
@@ -45,6 +47,10 @@ else:
 import sys
 print(sys.version)
 print(sys.version_info)
+
+# Result: 2.7.16 (tags/v2.7.16:413a49145e, Aug  6 2019, 14:35:28) 
+[GCC 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5)]
+sys.version_info(major=2, minor=7, micro=16, releaselevel='final', serial=0)
 ```
 
 
@@ -62,6 +68,8 @@ if sys.version_info < (2,7,9): # vfx reference platform 2019
 ```python
 import PySide2
 print(PySide2.__version__)
+
+# Result: 5.12.2
 ```
 
 ## Reference

@@ -14,6 +14,10 @@ Universal Scene Description의 약자입니다.
 
 홈페이지 : https://graphics.pixar.com/usd/docs/index.html
 
+## 설치
+developer.nvidia.com 에는 이미 컴파일된 버전을 다운로드 받을 수 있습니다.
+- https://developer.nvidia.com/usd
+
 ## 지원하는 프로그램
 - 마야
 - 후디니
@@ -27,6 +31,10 @@ Universal Scene Description의 약자입니다.
 - .usdc : USD Crate 파일(바이너리 파일)
 - .usdz : .usd Zip 압축파일
 
+# macOS 설치
+- https://github.com/vfxpro99/usd-build-club/wiki/USD-on-macOS
+
+# CentOS 설치
 ## PyOpenGL 설치
 usdview는 PyOpenGL을 사용합니다. 설치해주세요.
 

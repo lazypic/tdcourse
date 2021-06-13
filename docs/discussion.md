@@ -5,6 +5,8 @@
 
 ## 절 차
 Git을 이용해서 협업하는 절차는 다음과 같습니다.
+이 절차는 github, gitlab, bitbucket, gogs, gittea 등 모드 git 버전관리툴에서 사용할 수 있습니다.
+
 - Fork
 - Upstream 등록
 - 이슈작성

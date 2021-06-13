@@ -38,4 +38,5 @@ $ date +%s
 ```
 
 ## Reference
+- 이미지(로고) Overlay: https://video.stackexchange.com/questions/12105/add-an-image-overlay-in-front-of-video-using-ffmpeg
 - 자(Feet) 연산 : https://lists.ffmpeg.org/pipermail/ffmpeg-user/2017-April/035849.html

@@ -7,6 +7,7 @@
 - 문의 : hello@lazypic.org
 - 뉴크 추천 강좌 : https://www.youtube.com/watch?v=WJM8e7aGoao&list=PLinyNPTbAjGn7rJaoNplALoOhrXYVaFAJ
 - 프로그래밍이 처음이라면 한번씩 읽고 오세요. : https://wikidocs.net/book/2
+- 도움을 주신분: 김한웅, 배서영, 김용빈, 파운더리코리아, 모팩아카데미, 동국대학교 멀티미디어공학과
 
 ## 내 용
 1. [x] 소 개 (12.28)
@@ -23,7 +24,7 @@
 
 1. [x] 리눅스 설치1 (12.31)
 	1. USB, SSD 전달
-	1. [Linux설치 - CentOS 7.6](docs/install_centos.md)
+	1. [Linux설치 - CentOS 7.9](docs/install_centos.md)
 	1. 실습 : 같이 CentOS 둘러보기
 
 1. [x] 리눅스 설치2(1.2)
@@ -46,6 +47,10 @@
 	1. [시간설정, 타임서버](docs/time.md)
 	1. [리눅스 네트워크 명령](docs/linux_net_cmd.md)
 	1. [커널부터 응용프로그램까지](docs/linux_struct.md)
+
+1. 네트워크
+	1. [pfSense](doc/pfsense.md) 방화벽
+    1. [VPN](doc/vpn.md)
 
 1. [x] 뉴크설치(1.7)
 	1. [뉴크 설치](docs/install_nuke.md)
@@ -292,14 +297,17 @@
 1. [기타](docs/dev_todo.md)
 
 ## 기부하기
-커리큘럼이 종료되었지만 간헐적으로 개인 또는 기업에서 문의가 들어오는 질문에 대해서 업데이트하고 있습니다.
-작성된 지식이 여러분의 콘텐츠 제작에 도움되었다면 기부해주세요.
-이 콘텐츠를 제작했던 [Lazypic](https://lazypic.org) Maintainer, Committer, 주요 Contributors 와 함께 소소한 간식타임을 가질 수 있습니다.
+해당 교육의 커리큘럼이 종료되었지만 개인 또는 기업에서 간헐적으로 문의하는 질문에 대해 문서를 업데이트하고 있습니다.
+이 문서가 여러분의 콘텐츠 제작에 큰 도움되었다면 기부도 부탁드립니다.
+이 콘텐츠를 제작했던 [Lazypic,LLC.](https://lazypic.org) Maintainer, Committer, 주요 Contributors 와 함께 소소한 간식타임을 가지도록 하겠습니다.
+
+#### 은행을 통한 직접기부
+- 기업은행: 466-064359-04-018 / 유한책임회사 레이지픽
 
 #### Kakaopay
 ![kakaopay](https://lazypic.org/images/kakaopay.png)
 
 [카카오페이(모바일링크)](https://qr.kakaopay.com/281006012000000189444760)
 
-
+#### Paypal
 [Paypal](https://paypal.me/lazypic)

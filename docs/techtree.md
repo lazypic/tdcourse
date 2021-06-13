@@ -5,7 +5,7 @@
 
 ## SW
 - 문서 시스템(모두가 문서를 작성하고 공유하는 플랫폼) : *Github Wiki, Media Wiki
-- 커뮤니케이션도구 : 메일, 메신저, [*Slack](https://slack.com), [Rocket.Chat](https://rocket.chat), [Mattermost](https://www.mattermost.org)
+- 커뮤니케이션도구 : 메일, 메신저, [*Slack](https://slack.com), [Rocket.Chat](https://rocket.chat), [Mattermost](https://www.mattermost.org), [Zulip](https://zulip.com)
     - Slack 보안: https://app.slack.com/plans/TAFBK1J4S/?geocode=en-kr
 - 버전관리툴 셋팅 : [*Git](https://git-scm.com), [SVN](https://subversion.apache.org), [Mercurial](https://www.mercurial-scm.org)
 - 버전관리시스템 셋팅 : [*Github](https://github.com), [Gitlab](https://about.gitlab.com), [Gogs](https://gogs.io), [Gitea](https://gitea.io), [Bitbucket](https://bitbucket.org)
@@ -21,8 +21,8 @@
 - 제작 소프트웨어 구매 : 마야, 뉴크, 후디니, 게임엔진, 플러그인 테스트, 버전 테스트
 - 제작 소프트웨어 지원 : 스크립트, 플러그인 개발, 프로그램 개발
 - 소프트웨어 관리툴 : [Puppet](https://puppet.com), [Ansible](https://www.ansible.com), [Chef](https://www.chef.io) ...
-- 모니터링툴 : [Prometheus](https://prometheus.io), [Grafana](https://grafana.com) ...
-- CI툴(Continuous Integration) : [*Travis](https://travis-ci.org), [Jenkins](https://jenkins.io), [SemaphoreCI](https://semaphoreci.com), [Hudson](http://hudson-ci.org) ...
+- 모니터링툴 : [Prometheus](https://prometheus.io), [Grafana](https://grafana.com), [Graylog](https://www.graylog.org) ...
+- CI툴(Continuous Integration) : [*Github Action](https://github.com/features/actions), [Travis](https://travis-ci.org), [Jenkins](https://jenkins.io), [SemaphoreCI](https://semaphoreci.com), [Hudson](http://hudson-ci.org) ...
 
 > 솔루션 앞에 * 표기는 lazypic 에서 채택한 솔루션 입니다.
 

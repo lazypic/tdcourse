@@ -8,8 +8,5 @@
 - https://slack.com/downloads/linux
 
 ```bash
-$ wget http://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-11.noarch.rpm
-# rpm -Uvh epel-release-7-11.noarch.rpm 
-# yum install libappindicator
-# yum -y install slack-3.0.5-0.1.fc21.x86_64.rpm
+# yum install slack-4.12.2-0.1.fc21.x86_64.rpm
 ```
