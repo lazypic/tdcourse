@@ -12,5 +12,5 @@
  
  ```bash
  $ cd ~ 
- $ git clone https://github.com/cgiseminar/examples
+ $ git clone https://github.com/lazypic/tdcourse_examples
  ```

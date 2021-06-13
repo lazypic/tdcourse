@@ -33,7 +33,7 @@ $ pip install --user pymediainfo
 example 리포지터리를 다운로드 받습니다. 이미 과거에 진행했다면 이 단계는 넘겨도 좋습니다.
 ```bash
 $ cd ~
-$ git clone https://github.com/cgiseminar/examples
+$ git clone https://github.com/lazypic/tdcourse_examples
 ```
 
 

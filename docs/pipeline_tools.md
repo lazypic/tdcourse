@@ -10,15 +10,15 @@
 
 ## 상용툴
 
-#### Shotgun
-![shotgun](http://cdn.studiodaily.com/wp-content/uploads/2013/05/630_shotgun.jpg)
+#### Shotgrid
+![shotgrid](http://cdn.studiodaily.com/wp-content/uploads/2013/05/630_shotgrid.jpg)
 
-국내 대규모 업체들은 Shotgun을 많이 사용하고 있습니다.
-- 사용업체 : Weta, Framestore, Mackevision, Pixomondo, [매크로그래프](https://www.glassdoor.com/Reviews/Employee-Review-Macrograph-RVW16955051.htm), [포스](https://www.awn.com/news/2018-shotgun-pipeline-award-winners-announced),
+국내 대규모 업체들은 shotgrid을 많이 사용하고 있습니다.
+- 사용업체 : Weta, Framestore, Mackevision, Pixomondo, Westworld, [포스](https://www.awn.com/news/2018-shotgrid-pipeline-award-winners-announced),
 
-- 홈페이지 : https://www.shotgunsoftware.com
+- 홈페이지 : https://www.shotgridsoftware.com
 - DB : PostgreSQL
-- API : https://github.com/shotgunsoftware
+- API : https://github.com/shotgridsoftware
 
 #### Ftrack
 ![ftrack](https://i.ytimg.com/vi/PBjgVmQfZus/maxresdefault.jpg)
@@ -68,12 +68,6 @@ Blender Cloud에서 사용되는 오픈소스 파이프라인툴 입니다.
 - 사용언어 : PHP
 - 홈페이지 https://attract.studio
 - 서비스 페이지 : https://cloud.blender.org/attract/
-
-#### Roi
-국내 2L Studio에서 개발중인 오픈소스 파이프라인 툴 입니다.
-
-- 소스코드 : https://github.com/studio2l/roi
-- DB : cockroach db(PostgreSQL의 호환 문법을 사용하며, 쉽게 스케일을 키울수 있는 DB)
 
 #### Google Docs
 의외로 엑셀은 작고 좋은 파이프라인 툴 이기도 합니다.

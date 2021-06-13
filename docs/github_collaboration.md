@@ -32,9 +32,9 @@
     $ git push origin iss53
     ```
 1. 이슈와 함께 제안(Pull Request) 합니다.
-1. 제안이 받아들여지면 master branch로 바꾸고 upstream에서 git fetch 하여 최신의 master branch 를 유지합니다.
+1. 제안이 받아들여지면 master branch로 바꾸고 upstream에서 git fetch 하여 최신의 main branch 를 유지합니다.
     ```
-    $ git checkout origin master
+    $ git checkout origin main
     $ git fetch upstream
     ```
 1. branch가 많아지면 관리하기 힘드니 완료된 issue branch는 제거합니다.

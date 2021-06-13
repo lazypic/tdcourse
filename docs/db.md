@@ -13,7 +13,7 @@
 추후 다른 솔루션을 설치 및 적용시 많은 도움이 됩니다.
 
 ## PostrgreSQL, MySQL
-- 사용툴 : [Shotgun](https://support.shotgunsoftware.com/hc/en-us/articles/114094526153-Shotgun-security-white-paper), [Tactic](http://community.southpawtech.com/community/link/data_management), [Ftrack](https://help.ftrack.com/administering-ftrack/on-prem/handling-backups)
+- 사용툴 : [shotgrid](https://support.shotgridsoftware.com/hc/en-us/articles/114094526153-shotgrid-security-white-paper), [Tactic](http://community.southpawtech.com/community/link/data_management), [Ftrack](https://help.ftrack.com/administering-ftrack/on-prem/handling-backups)
 
 관계형 데이터베이스입니다.
 

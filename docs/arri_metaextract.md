@@ -19,7 +19,7 @@ LDS 시스템의 기본 구조
 
 ## 샘플파일 위치
 
-[LDS example csv](https://github.com/cgiseminar/examples/blob/master/arriLDS/A003C025_150830_R0D0.csv) 미리보기
+[LDS example csv](https://github.com/lazypic/tdcourse_examples/blob/master/arriLDS/A003C025_150830_R0D0.csv) 미리보기
 
 ## Arri Converter cmd 설치
 ```
