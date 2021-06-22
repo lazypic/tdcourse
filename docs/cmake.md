@@ -32,10 +32,11 @@ $ mkdir cmake-3.20.5
 $ cd ~/app/cmake-3.20.5_src
 $ scl enable devtoolset-9 bash # 높은 버전의 GCC를 사용하기 위해서 devtoolset-9를 활성화 합니다.
 $ ./configure --prefix=$HOME/app/cmake-3.20.5
+$ sudo yum install openssl-devel # cmake 설치시 필요합니다.
 $ make
 $ make install
 ```
 
 ## 실습
-- cmake를 설치하는 스크립트를 작성하고 Github에 올립니다.
-- cmake 라고 터미널에 실행했을 때 높은 버전의 cmake가 작동되도록 alias를 설정합니다.
+- CMake를 설치하는 스크립트를 작성하고 Github에 올립니다.
+- cmake 라고 터미널에 실행했을 때 높은 버전의 CMake가 작동되 수 있도록 alias를 설정
