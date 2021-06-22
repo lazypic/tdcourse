@@ -30,6 +30,7 @@ $ cd ~/app
 $ mv ~/app/cmake-3.20.5 ~/app/cmake-3.20.5_src
 $ mkdir cmake-3.20.5
 $ cd ~/app/cmake-3.20.5_src
+$ scl enable devtoolset-9 bash # 높은 버전의 GCC를 사용하기 위해서 devtoolset-9를 활성화 합니다.
 $ ./configure --prefix=$HOME/app/cmake-3.20.5
 $ make
 $ make install
