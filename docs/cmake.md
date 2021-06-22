@@ -22,15 +22,15 @@ CentOS7.9에 설치되는 기본 cmake는 버전이 낮아서 앞으로 우리�
 ## cmake 다운로드 및 설치
 - https://cmake.org/download/ 에서 리눅스용 cmake를 다운로드 받습니다.
 
-```
+```bash
 $ cd /tmp
-$ wget https://github.com/Kitware/CMake/releases/download/v3.13.3/cmake-3.13.3.tar.gz
-$ tar -zxvf cmake-3.13.3.tar.gz -C ~/app
+$ wget https://github.com/Kitware/CMake/releases/download/v3.20.5/cmake-3.20.5.tar.gz
+$ tar -zxvf cmake-3.20.5.tar.gz -C ~/app
 $ cd ~/app
-$ mv ~/app/cmake-3.13.3 ~/app/cmake-3.13.3_src
-$ mkdir cmake-3.13.3
-$ cd ~/app/cmake-3.13.3_src
-$ ./configure --prefix=$HOME/app/cmake-3.13.3
+$ mv ~/app/cmake-3.20.5 ~/app/cmake-3.20.5_src
+$ mkdir cmake-3.20.5
+$ cd ~/app/cmake-3.20.5_src
+$ ./configure --prefix=$HOME/app/cmake-3.20.5
 $ make
 $ make install
 ```
