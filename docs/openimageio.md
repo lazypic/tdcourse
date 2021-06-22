@@ -552,13 +552,33 @@ smpte:TimeCode: 01:18:19:06
 # yum install opencv-devel
 ```
 
-OpenColorIO Core 가 필요합니다. app에 설치해주세요.
-```
+## OpenColorIO Core 설치
+OpenImageIO를 컴파일 하기 위해서는 먼저 OpenColorIO Core 가 필요합니다. app에 설치해주세요.
+
+```bash
 $ cd ~/app
-$ wget http://github.com/imageworks/OpenColorIO/tarball/v1.0.9
-$ tar -zxvf v1.0.9
+$ wget https://github.com/AcademySoftwareFoundation/OpenColorIO/archive/refs/tags/v2.0.1.tar.gz
+$ tar -zxvf v2.0.1.tar.gz
+$ rm v2.0.1.tar.gz
 ```
 
+## IlmBase 설치
+```bash
+$ cd ~/app
+$ wget https://github.com/aforsythe/IlmBase/archive/refs/tags/v2.0.0.tar.gz
+$ tar -zxvf v2.0.0.tar.gz
+$ rm v2.0.0.tar.gz
+```
+
+## OpenEXR 설치
+```bash
+$ cd ~/app
+$ wget https://github.com/AcademySoftwareFoundation/openexr/archive/refs/tags/v2.5.7.tar.gz
+$ tar -zxvf v2.5.7.tar.gz
+$ rm v2.5.7.tar.gz
+```
+
+## OpenImageIO 컴파일
 아래 명령어를 실행하면 일단 빌드가 됩니다.
 oiio와 함께 연동이 필요한 라이브러리는 필요시 추가하여 빌드합니다.
 ```bash
@@ -566,12 +586,12 @@ $ cd ~/app
 $ git clone https://github.com/OpenImageIO/oiio OpenImageIO_src
 $ mkdir OpenImageIO
 $ cd OpenImageIO_src
-$ scl enable devtoolset-6 bash
-$ make VERBOSE=1 OPENEXR_HOME=$HOME/app/openexr ILMBASE_HOME=$HOME/app/IlmBase OCIO_HOME=$HOME/app/OpenColorIO STOP_ON_WARNING=0 USE_OCIO=1 INSTALL_PREFIX=$HOME/app/OpenImageIO
+$ scl enable devtoolset-9 bash
+$ make VERBOSE=1 OPENEXR_HOME=$HOME/app/openexr ILMBASE_HOME=$HOME/app/IlmBase OCIO_HOME=$HOME/app/OpenColorIO-2.0.1 STOP_ON_WARNING=0 USE_OCIO=1 INSTALL_PREFIX=$HOME/app/OpenImageIO
 ```
 
-## 실습
-- oiio를 컴파일 합니다.
+## 실 습
+- OpenImageIO를 컴파일 합니다.
 - python과 oiiotool을 이용해서 썸네일을 만들어봅시다.
 - 각 옵션들을 다르게 설정해서 실행해 봅니다.
 
