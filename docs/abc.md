@@ -160,29 +160,32 @@ $ usdview input.abc
 ```
 
 #### boost 컴파일
-VFX Platform CY2019 기준 Boost는 1.66을 사용합니다.
+VFX Reference Platform 2021 기준 Boost는 1.73을 사용합니다.
 abcview를 컴파일 하기 위해서는 Boost가 필요합니다.
 
 오래걸림. 수업 초반에 진행할 것
-```
+
+```bash
 $ cd ~/app
-$ wget https://dl.bintray.com/boostorg/release/1.66.0/source/boost_1_66_0_rc2.tar.gz
-$ tar -zxvf boost_1_66_0_rc2.tar.gz
-$ mv boost_1_66_0 boost_1_66_0_src
-$ mkdir boost_1_66_0
-$ cd boost_1_66_0_src
-$ ./bootstrap.sh --prefix=$HOME/app/boost_1_66_0
+$ wget https://sourceforge.net/projects/boost/files/boost/1.73.0/boost_1_73_0.tar.gz
+$ tar -zxvf boost_1_73_0.tar.gz
+$ rm boost_1_73_0.tar.gz
+$ mv boost_1_73_0 boost_1_73_0_src
+$ mkdir boost_1_73_0
+$ cd boost_1_73_0_src
+$ ./bootstrap.sh --prefix=$HOME/app/boost_1_73_0
 $ ./b2 install
 ```
 
 #### OpenGL 설치
-```
-# yum install freeglut-devel
+
+```bash
+$ sudo yum install freeglut-devel
 ```
 
 #### Python library 설치
-```
-# yum install python-devel
+```bash
+$ sudo yum install python-devel
 ```
 
 #### abcview 컴파일 (아직 컴파일되지 않음.)

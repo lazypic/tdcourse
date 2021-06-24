@@ -562,33 +562,34 @@ $ tar -zxvf v2.0.1.tar.gz
 $ rm v2.0.1.tar.gz
 ```
 
-## IlmBase 설치
-```bash
-$ cd ~/app
-$ wget https://github.com/aforsythe/IlmBase/archive/refs/tags/v2.0.0.tar.gz
-$ tar -zxvf v2.0.0.tar.gz
-$ rm v2.0.0.tar.gz
-```
+## IlmBase 컴파일, OpenEXR 컴파일
+- [문서 바로가기](openexr.md)
 
-## OpenEXR 설치
-```bash
-$ cd ~/app
-$ wget https://github.com/AcademySoftwareFoundation/openexr/archive/refs/tags/v2.5.7.tar.gz
-$ tar -zxvf v2.5.7.tar.gz
-$ rm v2.5.7.tar.gz
+## Boost 컴파일
+
+## 기타이미지
+```
+$ sudo yum install libtiff-devel
 ```
 
 ## OpenImageIO 컴파일
 아래 명령어를 실행하면 일단 빌드가 됩니다.
 oiio와 함께 연동이 필요한 라이브러리는 필요시 추가하여 빌드합니다.
+
 ```bash
 $ cd ~/app
 $ git clone https://github.com/OpenImageIO/oiio OpenImageIO_src
 $ mkdir OpenImageIO
 $ cd OpenImageIO_src
 $ scl enable devtoolset-9 bash
-$ make VERBOSE=1 OPENEXR_HOME=$HOME/app/openexr ILMBASE_HOME=$HOME/app/IlmBase OCIO_HOME=$HOME/app/OpenColorIO-2.0.1 STOP_ON_WARNING=0 USE_OCIO=1 INSTALL_PREFIX=$HOME/app/OpenImageIO
+$ export PATH=$PATH:$HOME/app/cmake-3.20.5/bin #cmake가 필요합니다. PATH에 잡아줍니다.
+$ # boost가 필요합니다. 컴파일 합니다.
+$ sh src/build-scripts/build_openexr.bash
+$ sh src/build-scripts/build_OpenJPEG.bash
+$ sh src/build-scripts/build_libjpeg-turbo.bash
+$ make VERBOSE=1 OpenEXR_ROOT=${PWD}/src/build-scripts/ext/dist ILMBASE_HOME=$HOME/app/IlmBase OCIO_HOME=$HOME/app/OpenColorIO-2.0.1 STOP_ON_WARNING=0 USE_OCIO=1 INSTALL_PREFIX=$HOME/app/OpenImageIO Boost_ROOT=$HOME/app/boost_1_73_0 JPEG_ROOT=${PWD}/src/build-scripts/ext/dist JPEGTurbo_ROOT=${PWD}/src/build-scripts/ext/dist
 ```
+Python-Root 부터 시작
 
 ## 실 습
 - OpenImageIO를 컴파일 합니다.
