@@ -13,16 +13,16 @@ OpenVDB, Ptex, Photoshop PSD, Wavefront RLA, SGI, WebP, GIF, DICOM,
 많은 디지털카메라의 Raw포멧 등
 
 ## 설치
-낮은 버전은 CentOS7.6 에서 아래처럼 손쉽게 설치할 수 있습니다.
+낮은 버전은 CentOS7.9 에서 아래처럼 손쉽게 설치할 수 있습니다.
 높은 버전을 사용하기 위해서는 직접 컴파일이 필요합니다.
 
 리눅스
-```
-# yum install OpenImageIO
-# yum install OpenImageIO-iv
-# yum install OpenImageIO-devel
-# yum install OpenImageIO-utils
-# yum install python-OpenImageIO
+```bash
+$ sudo yum install OpenImageIO
+$ sudo yum install OpenImageIO-iv
+$ sudo yum install OpenImageIO-devel
+$ sudo yum install OpenImageIO-utils
+$ sudo yum install python-OpenImageIO
 ```
 
 macOS
@@ -74,7 +74,7 @@ PASS
 ```
 
 결과가 다르면 분석값을 출력하고 FAILURE을 최종 출력합니다.
-```
+```bash
 $ idiff image1.exr image2.exr
 Comparing "image1.exr" and "image2.exr"
   Mean error = 0.327311
@@ -85,6 +85,7 @@ Comparing "image1.exr" and "image2.exr"
   4665600 pixels (100%) over 1e-06
 FAILURE
 ```
+
 ### igrep
 이미지 메타데이터를 검색할 때 사용합니다.
 
@@ -99,7 +100,7 @@ $ igrep A004R23J test.exr
 
 ![iv](../figures/iv.png)
 
-```
+```bash
 $ iv input.ext
 ```
 
@@ -112,18 +113,18 @@ minmap과 비슷한 개념은 모델링 데이터에서 LOD(Level of Detail) 개
 
 > 참고 : 픽사의 렌더맨을 설치하면 내부에 있는 txmake 명령어와 혼동하기 쉽습니다.
 
-```
+```bash
 $ maketx input.jpg
 input.tx 파일이 생성됩니다.
 ```
 
 oiio 타일사이즈 기준으로 변경.
-```
+```bash
 $ maketx -v -u --oiio --checknan --filter lanczos3 path/to/fileIn.tif -o path/to/fileOut.tx
 ```
 
 렌더맨 타일사이즈 기준으로 변경.
-```
+```bash
 $ maketx -v -u --prman --checknan --filter lanczos3 path/to/fileIn.tif -o path/to/fileOut.tx
 ```
 
@@ -138,22 +139,22 @@ OpenImageIO를 설치하면 사용할 수 있는 이미지 프로세싱 툴입�
 
 ## 컬러 프로파일 로딩 체크
 [OpenColorIO-Configs 설치방법](opencolorio.md)
-```
+```bash
 $ export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.0.3/config.ocio
 ```
 
 OCIO를 인식하는지 체크해보겠습니다.
-```
+```bash
 $ oiiotool --help
 ```
 
 OpenImageIO 2.1.0 버전처럼 높은 버전에서는 Colorspace 리스트를 보기위해 아래 명령어처럼 입력이 필요합니다.
-```
+```bash
 $ oiiotool --colorconfig
 ```
 
 아래처럼 컬러스페이스 리스트가 나오면 정상입니다.
-```
+```bash
 Known color spaces:
 
 "ACES - ACES2065-1",
@@ -199,7 +200,7 @@ $ oiiotool input.exr --colorconvert "ACES - ACEScg" "Output - Rec.709" -o ouput.
 
 프리뷰 이미지를 만들 때 --fit 옵션을 사용하면 리사이즈 할 수 있습니다.
 
-```
+```bash
 $ oiiotool input.exr --colorconvert "ACES - ACEScg" "Output - Rec.709" --fit 320x240 -o ouput.jpg
 ```
 ## Dpx to sRGB
@@ -224,7 +225,7 @@ $ oiiotool input.exr --colorconvert linear srgb --premult -o output.tga
 
 ## 이미지 리사이즈 
 이미지를 리사이즈 할 때는 `--resize` 옵션을 사용할 수 있습니다.
-```
+```bash
 $ oiiotool input.exr --resize 2048x1152 -o output.exr
 ```
 
@@ -248,10 +249,11 @@ smpte:TimeCode: 01:18:19:06
 명령어를 위해서 컴파일 할 필요는 없지만, 다른 프로그램을 컴파일할 때 활용됩니다.
 
 ```bash
-# yum install clang
-# yum install webp-devel
-# yum install LibRaw-devel
-# yum install opencv-devel
+$ sudo yum install clang
+$ sudo yum install webp-devel
+$ sudo yum install LibRaw-devel
+$ sudo yum install opencv-devel
+$ sudo yum install libtiff-devel
 ```
 
 ## OpenColorIO Core 설치
@@ -269,11 +271,6 @@ $ rm v2.0.1.tar.gz
 
 ## Boost 컴파일
 - [boost 컴파일](boost.md)
-
-## 기타이미지
-```
-$ sudo yum install libtiff-devel
-```
 
 ## OpenImageIO 컴파일
 아래 명령어를 실행하면 일단 빌드가 됩니다.
