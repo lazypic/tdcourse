@@ -587,15 +587,15 @@ $ # boost가 필요합니다. 컴파일 합니다.
 $ sh src/build-scripts/build_openexr.bash
 $ sh src/build-scripts/build_OpenJPEG.bash
 $ sh src/build-scripts/build_libjpeg-turbo.bash
-$ make VERBOSE=1 OpenEXR_ROOT=${PWD}/src/build-scripts/ext/dist ILMBASE_HOME=$HOME/app/IlmBase OCIO_HOME=$HOME/app/OpenColorIO-2.0.1 STOP_ON_WARNING=0 USE_OCIO=1 INSTALL_PREFIX=$HOME/app/OpenImageIO Boost_ROOT=$HOME/app/boost_1_73_0 JPEG_ROOT=${PWD}/src/build-scripts/ext/dist JPEGTurbo_ROOT=${PWD}/src/build-scripts/ext/dist
+$ make VERBOSE=1 OpenEXR_ROOT=${PWD}/src/build-scripts/ext/dist ILMBASE_HOME=$HOME/app/IlmBase OCIO_HOME=$HOME/app/OpenColorIO-2.0.1 STOP_ON_WARNING=0 USE_OCIO=1 INSTALL_PREFIX=$HOME/app/OpenImageIO Boost_ROOT=$HOME/app/boost_1_73_0 JPEG_ROOT=${PWD}/src/build-scripts/ext/dist JPEGTurbo_ROOT=${PWD}/src/build-scripts/ext/dist USE_PYTHON=0
+$ make install
 ```
-Python-Root 부터 시작
 
 ## 실 습
 - OpenImageIO를 컴파일 합니다.
-- python과 oiiotool을 이용해서 썸네일을 만들어봅시다.
+- Python과 oiiotool을 이용해서 썸네일을 만들어봅시다.
 - 각 옵션들을 다르게 설정해서 실행해 봅니다.
 
 ## Reference
 - https://github.com/OpenImageIO/oiio/blob/master/src/doc/openimageio.pdf
-- [webp 란?](https://ko.wikipedia.org/wiki/WebP) : jpeg를 대체하기 위해 구글에서 개발된 포멧
+- [webp 란?](https://ko.wikipedia.org/wiki/WebP) : jpeg를 대체하기 위해 구글에서 개발된 포멧입니다. 사파리에서 보이지 않습니다.
