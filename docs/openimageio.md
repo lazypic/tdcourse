@@ -295,7 +295,7 @@ $ make install
 
 잘 컴파일이 되었는지 체크하기 위해 oiiotool 명령어 실행하기
 ```bash
-$ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/app/OpenImageIO_src/src/build-scripts/ext/dist/lib # oiiotool을 실행하기 위해서 필요한 .so 파일을 로딩합니다.
+$ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/dotori/app/openexr-2.5.7/lib:/home/dotori/app/IlmBase:/home/dotori/app/OpenImageIO_src/src/build-scripts/ext/dist/lib:/home/dotori/app/OpenImageIO_src/src/build-scripts/ext/dist/lib:/home/dotori/app/OpenImageIO/lib64:/home/dotori/app/OpenImageIO/lib64:/home/dotori/app/OpenImageIO_src/src/build-scripts/ext/dist/lib64 # oiiotool을 실행하기 위해서 필요한 .so 파일을 로딩합니다.
 $ export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.0.3/config.ocio # 이미지 연산을 위해 OpenColorIO를 설정합니다.
 $ ./oiiotool
 ```
