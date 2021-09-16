@@ -52,5 +52,10 @@ USER 환경변수를 가지고 오는 예
 
 - Tcl 시간포멧팅 문서 : https://www.tcl.tk/man/tcl8.5/tutorial/Tcl41.html
 
+## 100에 -1 씨 카운트 되는 익스프레션
+```tcl
+[expression 100-int(frame/24)]
+```
+
 ## Reference
 - https://learn.foundry.com/nuke/8.0/content/user_guide/effects/entering_text.html
