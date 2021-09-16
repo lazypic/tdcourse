@@ -302,7 +302,7 @@
 이 콘텐츠를 제작했던 [Lazypic,LLC.](https://lazypic.org) Maintainer, Committer, 주요 Contributors 와 함께 소소한 간식타임을 가지도록 하겠습니다.
 
 #### 은행을 통한 직접기부
-- 기업은행: 466-064359-04-018 / 유한책임회사 레이지픽
+- 기업은행: 466-064359-04-018 / Lazypic,LLC.(유한책임회사 레이지픽)
 
 #### Kakaopay
 ![kakaopay](https://lazypic.org/images/kakaopay.png)
