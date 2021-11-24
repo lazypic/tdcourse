@@ -7,25 +7,29 @@ ACES(OpenColorIO)를 지원합니다.
 오픈소스로 파이프라인을 구축할 때 굉장히 파워풀한 도구가 됩니다.
 
 ### 지원하는 포멧
+
 TIFF, JPEG/JFIF, OpenEXR, PNG, HDR/RGBE, ICO, BMP, Targa, JPEG-2000,
 RMan Zfile, FITS, DDS, Softimage PIC, PNM, DPX, Cineon, IFF, Field3D,
 OpenVDB, Ptex, Photoshop PSD, Wavefront RLA, SGI, WebP, GIF, DICOM,
 많은 디지털카메라의 Raw포멧 등
 
 ## 설치
+
 낮은 버전은 CentOS7.9 에서 아래처럼 손쉽게 설치할 수 있습니다.
 높은 버전을 사용하기 위해서는 직접 컴파일이 필요합니다.
 
 리눅스
+
 ```bash
-$ sudo yum install OpenImageIO
-$ sudo yum install OpenImageIO-iv
-$ sudo yum install OpenImageIO-devel
-$ sudo yum install OpenImageIO-utils
-$ sudo yum install python-OpenImageIO
+sudo yum install OpenImageIO -y
+sudo yum install OpenImageIO-iv -y
+sudo yum install OpenImageIO-devel -y
+sudo yum install OpenImageIO-utils -y
+sudo yum install python-OpenImageIO -y
 ```
 
 macOS
+
 ```bash
 $ brew install openimageio
 ```
@@ -35,9 +39,11 @@ $ brew install openimageio
 	- https://sites.google.com/site/openimageio/building-oiio-on-windows
 
 ## 명령어
+
 OpenImageIO, OpenImageIO Util 명령어를 알아보겠습니다.
 
 ### iinfo
+
 이미지의 정보를 분석하는 툴입니다.
 
 ```bash
@@ -46,6 +52,7 @@ test.exr : 2880 x 1620, 3 channel, half openexr
 ```
 
 ### iconvert
+
 이미지를 컨버팅할 때 사용합니다.
 일반적으로 exr파일에 메타데이터를 추가할 때 더 많이 사용하는 명령어 입니다.
 
@@ -54,19 +61,23 @@ $ iconvert --inplace --caption testimage test.exr
 ```
 
 이미지에 키워드 추가하기
+
 ```bash
 $ iconvert --inplace --keyword woong test.exr
 ```
 
 exr이미지에 어트리뷰트 추가하기
+
 ```bash
 $ iconvert --inplace --attrib project circle --attrib shot FOO_0010 test.exr
 ```
 
 ### idiff
+
 이미지를 비교하는 명령어
 
 PASS 문자가 출력되면 같은 이미지 입니다.
+
 ```bash
 $ idiff image1.exr image2.exr 
 Comparing "image1.exr" and "image2.exr"
@@ -74,6 +85,7 @@ PASS
 ```
 
 결과가 다르면 분석값을 출력하고 FAILURE을 최종 출력합니다.
+
 ```bash
 $ idiff image1.exr image2.exr
 Comparing "image1.exr" and "image2.exr"
@@ -87,6 +99,7 @@ FAILURE
 ```
 
 ### igrep
+
 이미지 메타데이터를 검색할 때 사용합니다.
 
 만약 이미지 내부에 `A004R23J` 문자가 존재하는지 검사할 때
@@ -96,6 +109,7 @@ $ igrep A004R23J test.exr
 ```
 
 ### iv
+
 이미지 뷰어입니다.
 
 ![iv](../figures/iv.png)
@@ -105,6 +119,7 @@ $ iv input.ext
 ```
 
 ### maketx
+
 [minmap](https://ko.wikipedia.org/wiki/밉맵) tx 파일이 생성됩니다.(작은이미지를 미리 만들어 놓는 과정. -> 렌더링 속도 향상을 목적으로 합니다.)
 이미지를 MipMap 타일 이미지로 변환하는 명령어 입니다. Pixar Renderman의 txmake와 비슷한 명령어입니다.
 minmap과 비슷한 개념은 모델링 데이터에서 LOD(Level of Detail) 개념과 비슷합니다.(텍스쳐 LOD죠!)
@@ -119,41 +134,50 @@ input.tx 파일이 생성됩니다.
 ```
 
 oiio 타일사이즈 기준으로 변경.
+
 ```bash
 $ maketx -v -u --oiio --checknan --filter lanczos3 path/to/fileIn.tif -o path/to/fileOut.tx
 ```
 
 렌더맨 타일사이즈 기준으로 변경.
+
 ```bash
 $ maketx -v -u --prman --checknan --filter lanczos3 path/to/fileIn.tif -o path/to/fileOut.tx
 ```
 
 #### Reference
+
 - https://docs.arnoldrenderer.com/display/A5AFMUG/Tx+Manager
 - https://docs.arnoldrenderer.com/display/A5AFMUG/Maketx
 - https://answers.unity.com/questions/310352/texture-mipmap-distance.html
 
 ### oiiotool
+
 OpenImageIO를 설치하면 사용할 수 있는 이미지 프로세싱 툴입니다.
 가장 많이 사용하게 될 명령어 입니다.
 
 ## 컬러 프로파일 로딩 체크
+
 [OpenColorIO-Configs 설치방법](opencolorio.md)
+
 ```bash
 $ export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.0.3/config.ocio
 ```
 
 OCIO를 인식하는지 체크해보겠습니다.
+
 ```bash
 $ oiiotool --help
 ```
 
 OpenImageIO 2.1.0 버전처럼 높은 버전에서는 Colorspace 리스트를 보기위해 아래 명령어처럼 입력이 필요합니다.
+
 ```bash
 $ oiiotool --colorconfig
 ```
 
 아래처럼 컬러스페이스 리스트가 나오면 정상입니다.
+
 ```bash
 Known color spaces:
 
@@ -190,6 +214,7 @@ Known displays:
 oiiotool을 사용할 준비가 끝났습니다.
 
 ## ACES exr to rec709
+
 oiiotool을 가장 많이 사용할 때는 ACES exr 파일을 아티스트가 보기 편한 rec709 컬러스페이스 프리뷰 이미지로 변환하는 일입니다. 변환해 보겠습니다.
 
 테스팅 할 것
@@ -203,7 +228,9 @@ $ oiiotool input.exr --colorconvert "ACES - ACEScg" "Output - Rec.709" -o ouput.
 ```bash
 $ oiiotool input.exr --colorconvert "ACES - ACEScg" "Output - Rec.709" --fit 320x240 -o ouput.jpg
 ```
+
 ## Dpx to sRGB
+
 참고 : ADX10은 ACES DPX 10bit 의 약자입니다.
 
 ```bash
@@ -211,11 +238,13 @@ $ oiiotool input.dpx --colorconvert "Input - ADX - ADX10" "Output - sRGB" -o oup
 ```
 
 만약 dpx가 Arri V3 LogC 커브로 인코딩 되어있다면 아래같은 옵션을 사용할 수 있습니다.
+
 ```bash
 $ oiiotool input.dpx --colorconvert "Input - ARRI - Curve - V3 LogC (EI800)" "Output - sRGB" -o ouput.jpg
 ```
 
 ## .exr to .tga
+
 일반적으로 .exr 이미지는 linear 컬러스페이스를 가지며, tga 파일은 sRGB 컬러스페이스를 가집니다.
 oiiotool 명령어는 기본적으로 이미지 알파 채널에 대해서 premult를 하지 않으니 알파가 있는 exr 이미지 컨버팅시에는 꼭 `--premult` 옵션을 달아주세요.
 
@@ -224,13 +253,17 @@ $ oiiotool input.exr --colorconvert linear srgb --premult -o output.tga
 ```
 
 ## 이미지 리사이즈 
+
 이미지를 리사이즈 할 때는 `--resize` 옵션을 사용할 수 있습니다.
+
 ```bash
 $ oiiotool input.exr --resize 2048x1152 -o output.exr
 ```
 
 ## Timecode 확인
+
 exr 내부에 들어있는 타임코드를 확인할 수 있습니다.
+
 ```bash
 $ oiiotool --info -v input.exr
 Reading input.exr
@@ -245,15 +278,16 @@ smpte:TimeCode: 01:18:19:06
 ```
 
 ## 컴파일
+
 위에서 필요한 명령어는 간단하게 설치가 끝났습니다.
 명령어를 위해서 컴파일 할 필요는 없지만, 다른 프로그램을 컴파일할 때 활용됩니다.
 
 ```bash
-$ sudo yum install clang
-$ sudo yum install webp-devel
-$ sudo yum install LibRaw-devel
-$ sudo yum install opencv-devel
-$ sudo yum install libtiff-devel
+sudo yum install clang -y
+sudo yum install webp-devel -y
+sudo yum install LibRaw-devel -y
+sudo yum install opencv-devel -y
+sudo yum install libtiff-devel -y
 ```
 
 ## AWS EC2에서 컴파일시 필요한 사항
@@ -274,6 +308,7 @@ sudo yum install libtool -y
 ```
 
 ## OpenColorIO Core 설치
+
 OpenImageIO를 컴파일 하기 위해서는 먼저 OpenColorIO Core 가 필요합니다. app에 설치해주세요.
 
 ```bash
@@ -293,11 +328,11 @@ rm v2.0.1.tar.gz
 
 ## Boost 컴파일
 
-- [boost 컴파일](boost.md)
+- [boost 컴파일](boost.md): 오래걸립니다.
 
 ## OpenImageIO 컴파일
 
-아래 명령어를 실행하면 일단 빌드가 됩니다.
+아래 명령어를 순서대로 실행하면 컴파일이 됩니다.
 oiiotool과 함께 연동이 필요한 라이브러리는 필요시 추가하여 빌드합니다.
 
 ```bash
