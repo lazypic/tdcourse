@@ -42,11 +42,11 @@ sudo yum install -y devtoolset-9 --nogpgcheck
 sudo yum install openssl-devel -y # cmake 설치시 필요합니다.
 cd /tmp
 wget https://github.com/Kitware/CMake/releases/download/v3.20.5/cmake-3.20.5.tar.gz
-tar -zxvf cmake-3.20.5.tar.gz -C ~/app
-cd ~/app
-mv ~/app/cmake-3.20.5 ~/app/cmake-3.20.5_src
+tar -zxvf cmake-3.20.5.tar.gz -C $HOME/app
+cd $HOME/app
+mv $HOME/app/cmake-3.20.5 $HOME/app/cmake-3.20.5_src
 mkdir cmake-3.20.5
-cd ~/app/cmake-3.20.5_src
+cd $HOME/app/cmake-3.20.5_src
 scl enable devtoolset-9 bash # 높은 버전의 GCC를 사용하기 위해서 devtoolset-9를 활성화 합니다.
 ./configure --prefix=$HOME/app/cmake-3.20.5
 make

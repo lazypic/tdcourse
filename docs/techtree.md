@@ -1,15 +1,17 @@
 # 회사가 운용되기 위해 필요한 솔루션
+
 컴퓨터 그래픽스를 주로 다루는 게임, VFX, 애니메이션 관련 회사들도 일반적인 회사와 크게 다르진않습니다.
 
 콘텐츠를 제작하는 회사에서 필요한 리스트입니다. 우리는 SW 영역을  주제로 다루며 강의를 진행합니다.
 
 ## SW
-- 문서 시스템(모두가 문서를 작성하고 공유하는 플랫폼) : *Github Wiki, Media Wiki
+
+- 문서 시스템(문서를 작성하고 공유하는 플랫폼) : *Github Wiki, Media Wiki
 - 커뮤니케이션도구 : 메일, 메신저, [*Slack](https://slack.com), [Rocket.Chat](https://rocket.chat), [Mattermost](https://www.mattermost.org), [Zulip](https://zulip.com)
     - Slack 보안: https://app.slack.com/plans/TAFBK1J4S/?geocode=en-kr
 - 버전관리툴 셋팅 : [*Git](https://git-scm.com), [SVN](https://subversion.apache.org), [Mercurial](https://www.mercurial-scm.org)
 - 버전관리시스템 셋팅 : [*Github](https://github.com), [Gitlab](https://about.gitlab.com), [Gogs](https://gogs.io), [Gitea](https://gitea.io), [Bitbucket](https://bitbucket.org)
-- 파일관리 툴 : [openpipeline](http://openpipeline.cc), [elo](https://github.com/studio2l/elo)
+- 파일관리 툴 : [openpipeline](http://openpipeline.cc)
 - 인원관리 도구 : [ERP시스템](erp.md), [SAP](https://www.sap.com/korea/index.html), [*CSI](https://github.com/digital-idea/csi3)
 - 인증시스템 : [AD(ActiveDirectory)](https://ko.wikipedia.org/wiki/액티브_디렉터리), [LDAP](https://ko.wikipedia.org/wiki/LDAP), [*AWS IAM](https://aws.amazon.com/iam/)
 - 에셋(라이브러리) 관리 도구

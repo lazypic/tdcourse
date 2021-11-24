@@ -1,4 +1,5 @@
 # 환경변수 관리
+
 회사에는 수많은 부서, 팀, 개발자, 아티스트가 어우러저 컴퓨터를 사용하고 있습니다.
 개발단계에서 필요한 환경변수가 현재 돌아가는 프로젝트에 영향을 주면 안되거나, 필요시 특수한 환경변수를 셋팅해서 사용해야하는 상황이 발생하기도 합니다. A프로젝트에 사용하는 환경변수가 B프로젝트에는 적용되면 안되기도 하죠.
 
@@ -13,13 +14,11 @@
 아래 솔루션은 VFX 환경에서 많이 사용되는 솔루션입니다. 같이 살펴보고 특징만 소개하겠습니다.
 
 ## Res
+
 - 위키 : https://github.com/nerdvegas/rez/wiki
 - Res를 사용하는 개발자의 셋팅 예) : https://github.com/est77/rez-packages
 - 4th회사는 공식적으로 Autodesk Univercity 2018 에서 Res를 사용한다고 발표했습니다.
 
 ## Ecosystem
-- 소스코드 : https://github.com/PeregrineLabs/Ecosystem
 
-## Studio2L
-Studio 2L은 run이라고 하는 명령어를 자체 제작하여 환경변수 관리에 사용합니다.
-- 소스코드 : https://github.com/studio2l/run
+- 소스코드 : https://github.com/PeregrineLabs/Ecosystem
