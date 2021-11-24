@@ -1,5 +1,8 @@
 # Cmake
 
+그래픽스 툴은 최소 cmake 2.8 이상을 요구하는 경우가 많습니다.
+기본적인 cmake는 버전이 낮기 때문에 상위버전의 cmake를 설치할 필요가 있습니다.
+
 Cmake는 Cross Platform을 위한 빌드를 지원하는 툴입니다.
 cmake는 make 파일을 만들 때 사용하는 유틸리티입니다.
 cmake는 스스로 make 하지 않고, 각각의 OS에 맞는 make 파일을 만들기 위해서 사용됩니다.
@@ -37,6 +40,7 @@ sudo yum install -y devtoolset-9 --nogpgcheck
 ## cmake 다운로드 및 컴파일
 
 - https://cmake.org/download/ 에서 리눅스용 cmake를 다운로드 받습니다.
+- 오래걸립니다. 15분
 
 ```bash
 sudo yum install openssl-devel -y # cmake 설치시 필요합니다.

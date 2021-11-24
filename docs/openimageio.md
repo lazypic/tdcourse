@@ -306,22 +306,21 @@ sudo yum install libtool -y
 ```
 
 
-
 ## Cmake 컴파일
 
-- [Cmake 컴파일](cmake.md)
+- [Cmake 컴파일](cmake.md) t2.micro 기준 약 30분
 
 ## Boost 컴파일
 
-- [boost 컴파일](boost.md): 약 1시간정도로 오래걸립니다.
+- [boost 컴파일](boost.md): AWS t2.micro 기준 약 1시간정도로 오래걸립니다.
 
 
 ## OpenColorIO Core 설치
 
-OpenImageIO를 컴파일 하기 위해서는 먼저 OpenColorIO Core 가 필요합니다. app에 설치해주세요.
+OpenImageIO를 컴파일 하기 위해서는 먼저 OpenColorIO Core 가 필요합니다. ~/app에 설치해주세요.
 
 ```bash
-cd ~/app
+cd $HOME/app
 wget https://github.com/AcademySoftwareFoundation/OpenColorIO/archive/refs/tags/v2.0.1.tar.gz
 tar -zxvf v2.0.1.tar.gz
 rm v2.0.1.tar.gz
@@ -338,12 +337,12 @@ rm v2.0.1.tar.gz
 oiiotool과 함께 연동이 필요한 라이브러리는 필요시 추가하여 빌드합니다.
 
 ```bash
-cd ~/app
+scl enable devtoolset-9 bash
+export PATH=$PATH:$HOME/app/cmake-3.20.5/bin #cmake가 필요합니다. PATH에 잡아줍니다.
+cd $HOME/app
 git clone https://github.com/OpenImageIO/oiio OpenImageIO_src
 mkdir OpenImageIO
 cd OpenImageIO_src
-scl enable devtoolset-9 bash
-export PATH=$PATH:$HOME/app/cmake-3.20.5/bin #cmake가 필요합니다. PATH에 잡아줍니다.
 sh src/build-scripts/build_openexr.bash
 sh src/build-scripts/build_OpenJPEG.bash # .jpg
 sh src/build-scripts/build_libjpeg-turbo.bash # .jpg 지원
@@ -353,10 +352,9 @@ make VERBOSE=1 OpenEXR_ROOT=${PWD}/src/build-scripts/ext/dist ILMBASE_HOME=$HOME
 make install
 ```
 
-잘 컴파일이 되었는지 체크하기 위해 oiiotool 명령어 실행하기
+## 잘 컴파일이 되었는지 체크하기 위해 oiiotool 명령어 실행하기
 
-LD_LIBRARY_PATH를 설정합니다.
-oiiotool을 실행하기 위해 필요한 .so 파일을 로딩합니다.
+oiiotool을 실행하기 위해 필요한 .so 파일을 로딩하기 위해 `LD_LIBRARY_PATH`를 설정합니다.
 
 ```bash
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/ec2-user/app/openexr-2.5.7/lib:/home/ec2-user/app/IlmBase:/home/ec2-user/app/OpenImageIO_src/src/build-scripts/ext/dist/lib:/home/ec2-user/app/OpenImageIO_src/src/build-scripts/ext/dist/lib:/home/ec2-user/app/OpenImageIO/lib64:/home/ec2-user/app/OpenImageIO/lib64:/home/ec2-user/app/OpenImageIO_src/src/build-scripts/ext/dist/lib64
@@ -365,13 +363,13 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/ec2-user/app/openexr-2.5.7/lib:/ho
 이미지 연산을 위해 OpenColorIO(OCIO)를 설정합니다.
 
 ```bash
-export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.2/config.ocio
+export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.0.3/config.ocio
 ```
 
 oiiotool 명령어를 실행해 봅니다.
 
 ```bash
-oiiotool
+$HOME/app/OpenImageIO/bin/oiiotool
 ```
 
 ## 실 습
@@ -383,4 +381,4 @@ oiiotool
 ## Reference
 
 - https://github.com/OpenImageIO/oiio/blob/master/src/doc/openimageio.pdf
-- [webp 란?](https://ko.wikipedia.org/wiki/WebP) : jpeg를 대체하기 위해 구글에서 개발된 포멧입니다. 사파리에서 보이지 않습니다.
+- [webp 란?](https://ko.wikipedia.org/wiki/WebP) : jpeg를 대체하기 위해 구글에서 개발된 포멧입니다. 사파리 브라우저에서 이미지가 보이지 않습니다.
