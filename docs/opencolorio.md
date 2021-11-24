@@ -44,14 +44,15 @@ OpenColorIO-Configs는 OpenColorIO의 컬러 설정파일입니다.
 뉴크 내부 버전보다 더 높은 버전의 OCIO를 사용하고 싶다면 아래 설정을 따라해주세요.
 
 ```bash
-$ cd ~/app
-$ git clone https://github.com/colour-science/OpenColorIO-Configs
+cd $HOME/app
+git clone https://github.com/colour-science/OpenColorIO-Configs
 ```
 
 뉴크에 기본 탑재된 OCIO가 아닌 위 Configs 파일을 이용하고 싶다면 환경변수에 OCIO경로를 지정하면 뉴크가 자동으로 인식하여 뉴크 실행시 OpenColorIO-Configs를 로딩합니다.
 
 ~/centos/env/init.bash 파일에 아래 내용을 추가합니다.
-```
+
+```bash
 export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.2/config.ocio
 ```
 
@@ -62,15 +63,15 @@ OpenColorIO를 컴파일하면 각종 라이브러리, 명령어를 추가로 �
 - 소스코드 : https://github.com/AcademySoftwareFoundation/OpenColorIO
 
 
-필요한 라이브러리
+설치전 필요한 라이브러리
 
 ```bash
-sudo yum install glew-devel -y
+sudo yum install glew-devel -y # OpenGL Extension Wrangler Library
 ```
 
 ```bash
 scl enable devtoolset-9 bash
-cd ~/app
+cd $HOME/app
 git clone https://github.com/AcademySoftwareFoundation/OpenColorIO OpenColorIO_src
 cd OpenColorIO_src
 git tag
@@ -78,7 +79,7 @@ git checkout v1.0.9
 cd ..
 mkdir OpenColorIO_build
 cd OpenColorIO_build
-~/app/cmake-3.13.3/bin/cmake ../OpenColorIO_src -DCMAKE_INSTALL_PREFIX=$HOME/app/OpenColorIO
+$HOME/app/cmake-3.13.3/bin/cmake ../OpenColorIO_src -DCMAKE_INSTALL_PREFIX=$HOME/app/OpenColorIO
 make
 make install
 ```
@@ -87,7 +88,7 @@ make install
 ## 명령어
 
 OCIO 명령어를 실행하기 위해서는 libOpenColorIO.so.2.0 파일이 필요합니다.
-~/centos/env/init.bash에 설정해줍니다.
+$HOME/centos/env/init.bash에 설정해줍니다.
 
 설정하지 않으면 아래형태의 에러가 발생합니다.
 
@@ -102,13 +103,13 @@ $ export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.2/config.ocio
 
 ## ociobakelut
 
-ocio를 이용해서 lut를 생성합니다.
+OCIO를 이용해서 lut를 생성합니다.
 
 ```bash
 $ ociobakelut --inputspace "ACES - ACEScg" --outputspace "Output - Rec.709" --format flame flame_acescg_to_rec709.3dl
 ```
 
-#### ociobakelut명령어가 지원하는 포멧
+#### ociobakelut 명령어가 지원하는 포멧
 
 - flame (.3dl)
 - lustre (.3dl)
@@ -217,5 +218,6 @@ export PATH=$HOME/app/OpenColorIO/bin:$PATH
 ```
 
 ## Reference
+
 - ociobakelut : http://opencolorio.org/CompatibleSoftware.html
 - http://opencolorio.org/userguide/tool_overview.html
