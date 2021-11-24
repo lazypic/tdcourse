@@ -1,7 +1,7 @@
 # Curriculum
 
 ## 기본정보
-- 교육내용 : Technical Director 기초과정 / 리눅스를 활용한 VFX, 애니메이션 파이프라인
+- 교육내용 : Technical Director 기초과정 / CentOS 리눅스를 활용한 VFX, 애니메이션 파이프라인
 - 교육방식 : Github를 활용한 교육 및 협업개발
 - 준비물 : 16기가 이상의 USB
 - 문의 : hello@lazypic.org
@@ -297,17 +297,17 @@
 1. [기타](docs/dev_todo.md)
 
 ## 기부하기
-해당 교육의 커리큘럼이 종료되었지만 개인 또는 기업에서 간헐적으로 문의하는 질문에 대해 문서를 업데이트하고 있습니다.
-이 문서가 여러분의 콘텐츠 제작에 큰 도움되었다면 기부도 부탁드립니다.
+
+해당 교육의 커리큘럼이 종료되었지만 개인 또는 기업에서 간헐적으로 문의하는 기술관련 질문에 대해서 문서를 업데이트하고 있습니다.
+이 문서가 여러분의 콘텐츠 제작환경에 큰 도움되었다면 기부 부탁드립니다.
 이 콘텐츠를 제작했던 [Lazypic,LLC.](https://lazypic.org) Maintainer, Committer, 주요 Contributors 와 함께 소소한 간식타임을 가지도록 하겠습니다.
 
 #### 은행을 통한 직접기부
+
 - 기업은행: 466-064359-04-018 / Lazypic,LLC.(유한책임회사 레이지픽)
 
 #### Kakaopay
+
 ![kakaopay](https://lazypic.org/images/kakaopay.png)
 
 [카카오페이(모바일링크)](https://qr.kakaopay.com/281006012000000189444760)
-
-#### Paypal
-[Paypal](https://paypal.me/lazypic)
