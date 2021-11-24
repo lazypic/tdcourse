@@ -1,4 +1,5 @@
 # 부팅메뉴 설정 Grub2
+
 강의실은 리눅스 뿐만 아니라 윈도우즈로 수업하는 강의도 있습니다.
 컴퓨터 부팅시 Windows, Linux를 선택하여 부팅할 수 있도록 해야합니다.
 이번 시간은 그 과정으로 Grub을 셋팅하는 방법을 다루겠습니다.
@@ -10,6 +11,7 @@
 우리가 사용하는 방법뿐만 아니라 Grub을 사용하면 여러 OS를 설치 선택할 수 있습니다.
 
 ## 설정
+
 ![grub01](../figures/grub01.png)
 
 부팅메뉴 창에서 c 키를 눌러줍니다.
@@ -17,7 +19,8 @@
 ![grub02](../figures/grub02.png)
 
 파티션 정보가 출력됩니다.
-```
+
+```bash
 grub> ls -l
 ```
 
@@ -31,13 +34,15 @@ grub을 나가는 단축키는 `ESC` 키 입니다.
 CentOS7로 부팅합니다.
 
 관리자로 전환하여 아래 명령어를 입력해주세요.
-```
+
+```bash
 $ su
 # vim /boot/grub2/grub.cfg
 ```
 
 맨 아랫줄에 다음 내용을 추가합니다.
-```
+
+```bash
 # windows10
 menuentry 'Windows10' {
     insmod ntfs
@@ -52,4 +57,5 @@ menuentry 'Windows10' {
 Windows10 메뉴에 들어가서 리눅스 및 윈도우즈로 잘 부팅되는지 체크해주세요.
 
 ## Reference
+
 - FileSystem : https://www.tldp.org/LDP/sag/html/filesystems.html
