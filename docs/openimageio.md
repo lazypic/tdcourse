@@ -258,7 +258,8 @@ $ sudo yum install libtiff-devel
 
 ## AWS EC2에서 컴파일시 필요한 사항
 
-메모리 1기가 이상이 필요합니다.
+- t2.micro 이상의 머신이 필요합니다.
+- 메모리 1기가 이상이 필요합니다.
 
 ```bash
 sudo amazon-linux-extras install epel -y
