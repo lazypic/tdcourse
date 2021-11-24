@@ -343,7 +343,7 @@ cd $HOME/app
 git clone https://github.com/OpenImageIO/oiio OpenImageIO_src
 mkdir OpenImageIO
 cd OpenImageIO_src
-sh src/build-scripts/build_openexr.bash
+sh src/build-scripts/build_openexr.bash # OpenEXR
 sh src/build-scripts/build_OpenJPEG.bash # .jpg
 sh src/build-scripts/build_libjpeg-turbo.bash # .jpg 지원
 sh src/build-scripts/build_libpng.bash # .png 지원
