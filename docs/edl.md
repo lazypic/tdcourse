@@ -1,11 +1,14 @@
 # EDL
+
 Edit Decision List 편집정보가 담긴 아스키 파일입니다.
 서로 다른 편집툴간 데이터를 주고 받기 위해서 개발된 포멧입니다.
 Adobe Premiere Pro, Avid Media Composer, Apple Final Cut Pro, Davinci Resolve 등등의 편집툴에서 import, export 할 수 있습니다.
 편집실과 이야기하여 .edl 파일을 잘 받을 수 있다면 VFX 샷 작업시 각 샷의 길이를 알아내는 확실한 방법입니다.
 
 ## 파일 구성
+
 보통 .edl 파일의 내용은 아래형태를 띕니다.
+
 ```
 TITLE: Sequence 01
 FCM: NON DROP FRAME
@@ -74,6 +77,7 @@ M2   A007C011_161208_R10A       037.5                      00:00:00:00
 - M2 : 중요! M2 이벤트는 리타임 되었다는 뜻입니다. VFX샷에서 작업시 주의를 요하는 샷입니다. 이런 샷만 모아서 작업시 아웃풋 데이터를 자동 체크하도록 만들기도 합니다. 퍼센트로 바꾸기 위해서 `M2 * (1/100)` 값을 적용하여 이후에 제작 파이프라인 상에서 사용하기 도 합니다.
 
 ## edl 파이썬 파서
+
 - https://github.com/simonh10/python-edl
 
 .edl 파일 안에는 타임코드 정보가 있습니다. 이 타임코드를 파싱할 때는 
@@ -82,6 +86,7 @@ https://code.google.com/archive/p/pytimecode/ 라이브러리를 사용하세요
 - 테스트 데이터 : https://github.com/simonh10/python-edl/tree/master/tests/test_data
 
 ## 포멧
+
 - CMX 3600 : 현대의 툴은 대부분 이 포멧입니다. (다빈치 리졸브 사용)
 - CMX 3400A : CMX 340 포멧이 발전된 형태입니다. 거의 사용되지 않습니다.
 - CMX 340/3400 : CMX 340은 최초 CMX 포멧입니다.
@@ -94,7 +99,8 @@ https://code.google.com/archive/p/pytimecode/ 라이브러리를 사용하세요
 .edl 파일을 파싱해보겠습니다.
 
 필요한 라이브러리를 먼저 설치합니다.
-```
+
+```bash
 $ pip install --user timecode
 $ pip install --user edl
 ```
@@ -120,6 +126,7 @@ print dir(event)
 ```
 
 ## Reference
+
 - http://resources.avid.com/SupportFiles/attach/EDLManagerGuide_4.0_8.0.pdf
 - http://www.niwa.nu/2013/05/how-to-read-an-edl/
 - http://www.edlmax.com/EdlMaxHelp/Edl/maxguide.html

@@ -1,4 +1,5 @@
 # OTIO
+
 OTIO는 OpenTimelineIO의 약자입니다.
 편집 Cut 정보를 다루는 API입니다. EDL파일이 너무 오래 되었기 때문에 EDL파일을 확장하기 위해 만들어진 포멧입니다. 픽사에서 만들어지고 있습니다. 파일포멧은 json 파일입니다.
 
@@ -10,6 +11,7 @@ OTIO는 json포멧을 사용하며, 위에 제시한 솔루션의 중간위치�
 애니메이션 코코에서는 편집툴에서 EDL파일을 뽑아서 필요한 메타데이터를 넣고 OTIO를 만들어서 RV에서 리뷰했답니다.
 
 ## AAF란?
+
 Advanced Authoring Format 의 약자입니다.
 포스트프로덕션 환경에서 사용할 수 있는 프로페셔널 포멧입니다.
 OTIO 프로젝트가 생겼을 만큼 AAF는 복잡합니다.
@@ -18,6 +20,7 @@ OTIO 프로젝트가 생겼을 만큼 AAF는 복잡합니다.
 - http://aaf.sourceforge.net/docs/aafObjectModel.pdf
 
 ## OTIO의 목표
+
 픽사에서의 최종 골은
 파이널컷 프로, 아비드, 프리미어에서 OTIO를 뽑아서
 샷건, RV, 마야에 그대로 활용하고
@@ -32,9 +35,10 @@ OTIO 프로젝트가 생겼을 만큼 AAF는 복잡합니다.
 
 
 ## 설치
+
 pip를 이용해서 설치할 수 있습니다.
 
-```
+```bash
 $ pip install --user PySide2
 $ pip install --user opentimelineio
 ```
@@ -42,12 +46,14 @@ $ pip install --user opentimelineio
 ## 명령어
 
 #### otiocat
+
 otio파일을 STDOUT으로 출력합니다.
 
 ```bash
 $ otiocat input.edl
 ```
-```
+
+```json
 {
     "OTIO_SCHEMA": "Timeline.1", 
     "metadata": {}, 
@@ -194,6 +200,7 @@ $ otiocat input.edl
 
 
 #### otioconvert
+
 edl 파일등을 otio로 변환할 때 사용합니다.
 
 ```bash
@@ -202,6 +209,7 @@ $ otioconvert -i input.edl -o output.otio
 
 
 #### otiostat
+
 otio, edl 파일의 유효성 검사, 통계를 출력합니다.
 
 아래서처럼 파일에 이상이 있는지 체크할 수 있습니다.
@@ -216,11 +224,13 @@ $ otiostat input.otio
 아래는 에러내용중 하나입니다.
 
 Error:
+
 ```
 The file did not successfully parse, with error: Source and record duration don't match: RationalTime(260, 24.0) != RationalTime(284, 24.0) for clip Test rename
 ```
 
 정상적으로 처리가 진행되면 아래처럼 분석된 데이터가 출력됩니다.
+
 ```
 parsed: True
 top level object: Timeline.1
@@ -236,10 +246,12 @@ Tracks with non standard types: 0
 ```
 
 #### otioview
+
 ![otioview](../figures/otioview.png)
 
-    사용법
-    ```bash
-    $ otioview /path/to/your/file.edl
-    $ otioview /path/to/your/file.otio
-    ```
+사용법
+
+```bash
+$ otioview /path/to/your/file.edl
+$ otioview /path/to/your/file.otio
+```

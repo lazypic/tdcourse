@@ -36,8 +36,9 @@ abc는 Ogawa, Hdf5 두가지 포멧을 지원합니다.
 
 
 컴파일중간에 libatomic 에러가 발생합니다. 미리 필요한 라이브러리를 설치해둡니다.
-```
-# yum install devtoolset-6-libatomic-devel
+
+```bash
+$ yum install devtoolset-6-libatomic-devel -y
 ```
 
 ```bash
@@ -62,16 +63,19 @@ $ make install
 
     2개의 abc 파일을 입력해서 다른 부분만 abc파일로 출력됩니다.
     다른 부분이 없다면 `No differences detected` 메시지가 출력됩니다.
-    ```
+    
+    ```bash
     $ abcdiff input1.abc input2.abc output.abc
     ```
 
 - abcecho
 
     .abc파일의 디테일한 정보를 볼 수 있습니다.
-    ```
+    
+    ```bash
     $ abcecho box.abc
     ```
+
     ```
     AbcEcho for Alembic 1.7.10 (built Dec  5 2018 17:30:01)
     file written by: Blender
@@ -104,7 +108,8 @@ $ make install
 - abcechobounds
 
     .abc 파일 내부 바운딩 박스의 사이즈 크기를 반환하는 명령어 입니다.
-    ```
+    
+    ```bash
     $ abcechobounds box.abc
     ```
 
@@ -117,12 +122,14 @@ $ make install
 - abcls
 
     .abc 파일 내부에 있는 오브젝트 이름을 반환합니다.
-    ```
+    
+    ```bash
     $ abcls box.abc
     ```
 
     Output:
-    ```
+    
+    ```bash
     Cube
     ```
 
@@ -130,19 +137,21 @@ $ make install
     
     각 프레임마다 연산된 .abc 파일을 묶어서 하나의 .abc파일로 만들어줍니다.
     프레임영역이 겹치면 `ERROR: overlapping frame range between` 에러가 발생합니다. 보통 개별로 bake된 시뮬레이션 파일을 합칠 때 자주 사용됩니다.
-    ```
+    
+    ```bash
     $ abcstitcher output.abc input.0001.abc input.0002.abc input.0003.abc ...
     ```
 - abctree
 
     .abc 파일의 구조를 Tree 형태로 그려주는 명령어 입니다.
 
-    ```
+    ```bash
     $ abctree box.abc
     ```
 
     Output:
-    ```
+    
+    ```bash
     ABC
         --Cube
             --CubeShape
@@ -151,6 +160,7 @@ $ make install
 
 
 ## abc뷰어
+
 3D 소프트웨어가 없더라도 .abc 파일을 볼 수 있다면 편리합니다.
 그 역할을 하는 abcview를 컴파일해보겠습니다.
 
@@ -158,30 +168,34 @@ $ make install
 - Gaffer 를 설치해도 abc를 볼 수 있습니다.
 - 뉴크에서도 abc를 로딩하여 데이터를 확인할 수 있습니다.
 
-```
+```bash
 $ usdview input.abc
 ```
 
 #### boost 컴파일
+
 - [boost 컴파일](boost.md)
 
 #### OpenGL 설치
 
 ```bash
-$ sudo yum install freeglut-devel
+sudo yum install freeglut-devel -y
 ```
 
 #### Python library 설치
+
 ```bash
-$ sudo yum install python-devel
+sudo yum install python-devel -y
 ```
 
 #### abcview 컴파일 (아직 컴파일되지 않음.)
+
 > 참고 : usdview에는 이미 abc파일을 볼 수 있습니다. 개인적으로 usd가 컴파일이 더 잘되어서 abcview 대신 usdview를 사용하고 있습니다.
 
 소스코드 : https://github.com/alembic/abcview
 
 컴파일이 아직 되지 않는다. 기존에 컴파일한 리스트중 다 활성화 햐여 컴파일 해보기.
+
 ```bash
 $ cd ~/app
 $ git clone https://github.com/alembic/abcview abcview_src
@@ -199,6 +213,7 @@ $ make help
 ```
 
 ## 실습
+
 - 3D툴을 이용해서 abc 파일 제작.
 - 뉴크에 로딩해보기
 - 명령어 실습

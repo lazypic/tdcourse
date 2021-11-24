@@ -102,6 +102,7 @@ Arri Converter 에서 ACES로 이미지를 출력합니다. 이후 뉴크에서 
 앞으로 컬러매니징을 위해서 ACES, OpenColorIO, OpenImageIO를 다루어볼 예정입니다.
 
 ## 실습
+
 - 8bit sRGB 파일을 뉴크에서 로딩, 설명
 - dpx파일을 뉴크에서 로딩. 설명
 - dpx파일을 뉴크에서 로딩, Lut적용하기

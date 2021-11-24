@@ -10,12 +10,14 @@ ffmpeg가 잘 설치되어있다면, 아래명령어를 터미널에서 실행�
 편의를 위해서 파일생성시 날짜와 시간이 자동으로 들어가도록 했습니다.
 자주 사용한다면 .bashrc 설정파일에 alias 를 등록하여 사용하면 더욱 편리하게 사용할 수 있습니다.
 
-해상도를 구하는 방법은 아래 명령어를 통해서 구할 수 있습니다.
+리눅스에서 해상도를 구하는 방법은 아래 명령어를 통해서 구할 수 있습니다.
+
 ```bash
 $ xdpyinfo | grep "dimensions:"
 ```
 
 Desktop 캡쳐
+
 ```bash
 $ ffmpeg -framerate 24 -s 1280x800 -f x11grab -i :0.0 ~/desktop_$(date +%Y%m%dT%H%M%S).mp4
 ```

@@ -1,12 +1,14 @@
 # Handbrake
+
 오픈소스 비디오 변환툴입니다.
 
 ## 설치
+
 ~/app 폴더에 handbrake를 설치해 보겠습니다.
 
 HandbrakeCLI를 컴파일하기 위해서 필요한 라이브러리를 먼저 설치합니다.
 
-```
+```bash
 $ su
 # yum update
 # yum groupinstall "Development Tools" "Additional Development"
@@ -30,6 +32,7 @@ $ ./configure --launch-jobs=$(nproc) --launch
 # make --directory=build install
 $ rm -rf build
 ```
+
 `$(nproc)` 는 CPU갯수(number of process) 입니다.
 설치가 완료되면 `HandBrakeCLI` 명령어를 사용할 수 있습니다.
 
@@ -58,6 +61,7 @@ $ HandBrakeCLI -i source --preset-import-file presetfile.json -o destination
 - CentOS가 설치되면 자동으로 Handbrake가 설치되도록 스크립트 작성하기
 
 ## Reference
+
 영상을 올릴때 특정 코덱, 형식등을 제한하여 업로드 하는 서비스를 만날 때 사용합니다.
 
 - https://handbrake.fr/docs/en/1.1.0/developer/build-linux.html

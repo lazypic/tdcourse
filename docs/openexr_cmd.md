@@ -1,8 +1,10 @@
 # OpenEXR 명령어
+
 OpenEXR을 컴파일하면 bin 폴더에 아래 명령어들이 생성됩니다.
 exr을 제어하는 명령어들은 필요할 때 파이프라인에 활용할 수 있습니다.
 
 ## exrenvmap
+
 ![latlong2cube](../figures/latlong2cube.png)
 
 latitude-longitude맵을 Cube환경맵으로 바꿀 때 사용합니다. Six팩이라고도 불립니다.
@@ -12,6 +14,7 @@ $ exrenvmap input.exr output.exr
 ```
 
 ## exrmakepreview
+
 .exr 프리뷰파일을 생성합니다. (openEXR 2.3.0에서 이 명령어는 버그가 있습니다.)
 
 ```bash
@@ -19,6 +22,7 @@ $ exrmakepreview -w 150 input.exr output.exr
 ```
 
 ## exrmultipart
+
 멀티파트 exr이미지를 분리할 때 사용합니다.(openEXR 2.3.0에서 이 명령어는 잘 분리되지 않습니다.)
 
 ```bash
@@ -41,7 +45,9 @@ Seperate Success
 ```bash
 $ exrmultipart -convert -i infile.exr -view left -o outfile.exr
 ```
+
 ## exrstdattr
+
 exr 파일 내부에 설정된 값을 변경, 사용자 값을 추가할 때 사용합니다.
 옵션이 많습니다. 필요시 -h 옵션을 이용해서 값을 변경할 수 있습니다.
 
@@ -59,9 +65,11 @@ exrheader 명령어로 확인하면 type string 값을 확인할 수 있습니�
 ```
 project (type string): "circle"
 ```
+
 - ref : http://manpages.ubuntu.com/manpages/xenial/man1/exrstdattr.1.html
 
 ## exrheader
+
 .exr 파일 헤더를 읽어서 출력합니다.
 
 ```bash
@@ -93,6 +101,7 @@ version (type int): 1
 
 
 ## exrmaketiled
+
 tiled 이미지를 생성할 때 사용합니다.
 
 [mipmap](https://ko.wikipedia.org/wiki/밉맵) : 렌더링 속도를 향상시키기 위해서 만들어진 솔루션. 연속적으로 축소시킨 이미지
@@ -108,6 +117,7 @@ $ exrmaketiled -r -v checkbox.exr checkbox_tiled.exr
 ```
 
 ## exrmultiview
+
 여러 exr파일을 묶어서 하나의 멀티파트 이미지로 생성합니다.
 입체, 360도 이미지등을 묶을 수 있습니다.
 
@@ -129,6 +139,7 @@ exrheader, 뉴크에서 메타데이터를 확인하면 view 값이 설정되어
 - ref : https://openexr-devel.nongnu.narkive.com/q1Cos7DF/multipart-backward-compatibility
 
 ## exr2aces
+
 exr이미지를 aces exr로 바꿉니다.
 
 ```bash
@@ -136,12 +147,15 @@ $ exr2aces input.exr output.exr
 ```
 
 ## 실습
+
 명령어에 -h 옵션을 붙히면 수많은 옵션들이 출력됩니다.
 궁금한 옵션들을 실습 하면서 실제 이미지가 어떻게 변하는지 체크해보세요.
 - bin를 환경변수에 추가하기
-```
+
+```bash
 export PATH=$HOME/app/openexr/bin:$PATH
 ```
 
 ## 응용
+
 - .exr 파일에는 int, float, string 값을 저장할 수 있습니다. 사용자 정보를 적용하여 어떻게 하면 효율적인 파이프라인을 구성할 수 있을지 고민해보세요.

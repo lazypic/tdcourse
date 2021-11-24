@@ -1,4 +1,5 @@
 # 뉴크에서 파이썬 띄우기
+
 간단하게 뉴크에서 파이썬을 테스트하고 싶을 때 사용합니다.
 Script Editor를 띄워서 Python 코드를 테스트 할 수 있습니다.
 
@@ -17,22 +18,25 @@ Script Editor를 띄워서 Python 코드를 테스트 할 수 있습니다.
 파이썬 코드를 Script Editor 에서 작성할 수 있습니다.
 
 리눅스 : 자주 사용하는 단축키
+
 - `Ctrl + Enter` : 코드 실행
 - `Ctrl + [` : 이전 코드 되돌리기
 
 macOS : 자주 사용하는 단축키
+
 - `Cmd + Enter` : 코드 실행
 - `Cmd + [` : 이전 코드 되돌리기
 
 ## 실습
 
-```bash
+```python
 print("hello nuke python")
 ```
 
 위 코드를 타이핑하고 `Ctrl + Enter` 키를 눌러보세요.
 
 Output창에 아래와 같은 결과가 출력되면 정상입니다.
+
 ```
 # Result: hello nuke python
 ```

@@ -1,4 +1,5 @@
 # Open Shanding Language
+
 대부분의 3D소프트웨어에서 쉐이딩 작업 쉽게 몇몇 조작을 통해서 진행할수 있습니다.
 이 방법은 많이 사용되며 굉장히 쉬운 방법입니다.
 
@@ -27,6 +28,7 @@ Open Shading Language는 최초 소니이미지 픽쳐스에서 아놀드 렌더
 - 마야 : 기본 렌더러 : Arnold, Plug-ins : Vray, Renderman을 사용할 수 있습니다.
 
 ## 강점
+
 그냥 3D 소프트웨어로 작업을 할 때 효율성도 좋지않기도 하고 이 언어 자체를 이용해서 작업을 할 필요는 없습니다.
 내부에서 지원하는 도구를 이용해서 쉐이더를 작성하면 되니까요.
 하지만 회사 전체에 쉐이더 시스템을 에셋으로 구축하고 텍스쳐 라이브러리를 구성하고 바로 렌더가능하도록 모든 리소스를 빌드하고 싶다면 상황은 달라집니다.
@@ -42,10 +44,12 @@ OSL을 알아두면 나중에 렌더맨을 공부할 때 도움이 됩니다. �
 - 기본 쉐이더를 꺼내서 항상 반복적인 셋팅을 해야하는 경우
 
 ## 언어구성
+
 보통 아래 형태의 언어를 띕니다. C++ 코드와 비슷하게 생겼습니다.
 
 아래는 OSL 파일의 한 예입니다.
-```
+
+```cpp
 #include <stdosl.h>
 
 shader diffuse_ramp(
@@ -67,15 +71,18 @@ shader diffuse_ramp(
 ```
 
 ## Unreal
+
 아직 지원하고 있지 않습니다. 아래 URL에서 해당 사항에 대해서 Discussion은 올라와 있습니다.
 https://forums.unrealengine.com/development-discussion/rendering/36083-osl-support
 
 ## 명령어
+
 gaffer를 설치하면 내부에 이미 osl 명령어가 존재합니다.
 osl 명령어를 사용하기 위해서 gaffer가 설치된 경로의 LD_LIBRARY_PATH를 .bashrc에 설정할 필요가 있습니다.
 Renderman Non커머셜을 설치해도 빌드된 명령어를 이용할 수 있습니다. 렌더맨이 설치된 경로의 /bin 디렉토리에는 오픈소스 명령어도 많이 존재합니다. 렌더맨을 제외한 나머지 명령어는 오픈소스이기 때문에 활용가능합니다.
 
 ### oslc
+
 osl 컴파일러 컴파일러 입니다.
 osl 파일을 이용해서 oso 파일을 생성하면 렌더러가 바로 사용할 수 있습니다.
 일반적으로 렌더러는 이 과정을 자동으로 많이 해줍니다.
@@ -88,15 +95,18 @@ input.osl input.oso
 ```
 
 ### oslinfo
+
 터미널에서 oso 파일 정보를 출력합니다.
 
 쉐이더 로딩타임 측정
+
 ```bash
 $ oslinfo --runstats noise.oso
 0.00605843 sec for noise.oso
 ```
 
 ### osltoargs
+
 oso파일을 xml로 출력합니다.
 
 ```bash
@@ -104,6 +114,7 @@ $ osltoargs noise.oso -o output.xml
 ```
 
 쉐이더의 옵션을 터미널에서 볼 수 있습니다.
+
 ```bash
 $ oslinfo noise.oso
 shader "noise"
@@ -117,6 +128,7 @@ output color USimplex  [ 0.8 0.8 0.8 ]
 ```
 
 ### osltoy
+
 osl 코드를 인터렉티브하게 보여주는 툴입니다.
 
 ```bash
@@ -127,19 +139,21 @@ $ osltoy input.osl
 
 
 ## 실습
+
 OSL을 작성, 적용하기 위해서는 3D 소프트웨어가 필요합니다.
 Blender는 오픈소스이면서 OSL을 지원합니다. [Blender](blender.md) 환경에서 OSL을 작성하고 기본적인 렌더링을 해보겠습니다.
 
 ## 컴파일정보(준비중)
+
 - 소스코드 및 사용된 프로젝트 : https://github.com/imageworks/OpenShadingLanguage
 - 컴파일정보 : https://github.com/imageworks/OpenShadingLanguage/blob/master/INSTALL.md
 
 
-```
-# yum install llvm-toolset-7
+```bash
+$ sudo yum install llvm-toolset-7 -y
 ```
 
-```
+```bash
 $ cd ~/app
 $ git clone https://github.com/imageworks/OpenShadingLanguage.git OSL_src
 $ mkdir OSL_build
@@ -172,6 +186,7 @@ Call Stack (most recent call first):
 ```
 
 ## Reference
+
 - https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=2ahUKEwi5kfuTuYHfAhWBF4gKHaDGAVgQFjAAegQIChAC&url=https%3A%2F%2Fraw.githubusercontent.com%2Fimageworks%2FOpenShadingLanguage%2Fmaster%2Fsrc%2Fdoc%2Fosl-languagespec.pdf&usg=AOvVaw0fnZDAj-almK7unV7NKApA
 - https://blendersushi.blogspot.com/2013/10/osl-basic-functions.html
 - https://www.youtube.com/watch?v=9CYDi8h0SuE

@@ -1,4 +1,5 @@
 # 기타 설정에 자주 사용되는 파일들
+
 많은 툴에서 설정파일로 사용되는 기타 파일들을 알아보겠습니다.
 
 자신이 만든 프로그램의 설정파일을 저장해야하는 상황은 소프트웨어를 설계하며 자주 발생됩니다.
@@ -9,12 +10,14 @@
 자주사용하는 범용파일을 다루어 보겠습니다.
 
 ## Json
+
 JavaScript Object Notation 의 약자입니다.
 
 파일의 구조는 단순합니다. 정보는 보통 아래처럼 구성되어있습니다.
 컴퓨터, 사람 모두 읽기 쉽다는 점이 좋습니다.
 
 data.json
+
 ```json
 {
     "project" : "circle",
@@ -23,6 +26,7 @@ data.json
 ```
 
 test.py
+
 ```python
 import json
 
@@ -40,6 +44,7 @@ print(data)
 파이썬 파서 : https://stackabuse.com/reading-and-writing-json-to-a-file-in-python/
 
 ## Xml
+
 Extensible Markup Language 의 약자입니다.
 html언어 처럼 이미 약속된 tag를 사용하는 것이 아닌, 사용자가 원하는 tag를 지정하여 사용할 수 있습니다.
 
@@ -48,6 +53,7 @@ html언어 처럼 이미 약속된 tag를 사용하는 것이 아닌, 사용자�
 데이터 저장이 비 효율적이라서 저는 꼭 Xml을 써야하는 상황이 아니라면 잘 사용하지 않습니다.
 
 data.xml
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <info>
@@ -67,6 +73,7 @@ data.xml
 ```
 
 test.py
+
 ```python
 #!/usr/bin/env python
 import xml.etree.ElementTree
@@ -85,6 +92,7 @@ for e in root.findall("shots"):
 파이썬 파서 : https://docs.python.org/2/library/xml.etree.elementtree.html
 
 ## INI
+
 ini initialization의 약자입니다.
 보통 설정파일에 대한 비공식 표준형태의 포멧입니다.
 `[ ]`로 감싸 있는 것은 세션입니다.
@@ -93,6 +101,7 @@ ini initialization의 약자입니다.
 가독성이 좋기 때문에 단순한 설정파일에 많이 사용되는 포멧입니다.
 
 data.ini
+
 ```ini
 [project]
 name=circle
@@ -106,6 +115,7 @@ name=BAR_0010
 ```
 
 test.py
+
 ```python
 #!/usr/bin/env python
 import ConfigParser
@@ -124,15 +134,18 @@ print ini.get("project","name")
 python파서 : https://docs.python.org/3/library/configparser.html
 
 ## 기타
+
 - 위에 나열한 파일 이외에도 .yaml 파일도 자주 사용됩니다.
 - .cfg, .conf 이름의 확장자 이지만 실제로 에디터에서 파일을 열어보면 .ini, .json, .xml 형태의 파일구조를 자주 사용하기도 합니다.
 
 ## 설정파일의 위치
+
 리눅스에서는 일반적으로 설정파일을 홈디렉토리에 저장합니다.
 설정파일이 많다면 `~/.appname`의 폴더를, 설정파일이 단일 파일이라면 ~/.appnamerc 이름으로 자주 사용됩니다.
 
 아래 명령어들을 타이핑하여 이미 존재하는 설정파일들을 관찰해 보세요.
-```
+
+```bash
 $ cd ~
 $ ls -al
 ```
