@@ -1,6 +1,6 @@
 # Cmake
 
-Cross Platform을 위한 빌드를 지원하는 툴입니다.
+Cmake는 Cross Platform을 위한 빌드를 지원하는 툴입니다.
 cmake는 make 파일을 만들 때 사용하는 유틸리티입니다.
 cmake는 스스로 make 하지 않고, 각각의 OS에 맞는 make 파일을 만들기 위해서 사용됩니다.
 CentOS7.9에 설치되는 기본 cmake는 버전이 낮아서 앞으로 우리가 사용하게 될 툴들을 빌드할 때 자주 버전이 낮다고 경고가 뜨게됩니다.
@@ -9,14 +9,14 @@ CentOS7.9에 설치되는 기본 cmake는 버전이 낮아서 앞으로 우리�
 > 참고 : make는 프로그램 그룹을 유지할 때 사용하는 툴입니다.
 소스코드(입력 파일)가 바뀌면 자동적으로 결과 파일이 바뀌기를 원할 때(예) 소스코드가 바뀌면 다시 컴파일 해야할 때) 순차적으로 프로그램이 수행이 되기를 바랄 때 사용합니다.
 
-## 높은 버전의 GCC 설치하기 (gcc9 - vfx reference platform 2021)
+## 높은 버전의 GCC 설치하기 (GCC9 - Vfx Reference Platform 2022)
 
 최신 cmake를 컴파일 하기 위해서 최신 gcc가 필요합니다.
 설치하겠습니다.
 
 참고 : [devtoolset-9을 설치하면 같이 설치되는 프로그램 리스트](https://access.redhat.com/documentation/en-us/red_hat_developer_toolset/9/html-single/user_guide/index)
 
-#### CentOS7.9 에서 준비사항
+#### CentOS 7.9 에서 준비사항
 
 ```bash
 sudo yum install centos-release-scl-rh -y
