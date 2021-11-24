@@ -256,55 +256,80 @@ $ sudo yum install opencv-devel
 $ sudo yum install libtiff-devel
 ```
 
+## AWS EC2에서 컴파일시 필요한 사항
+
+메모리 1기가 이상이 필요합니다.
+
+```bash
+sudo amazon-linux-extras install epel -y
+sudo yum install git -y
+sudo yum-config-manager --add-repo http://mirror.centos.org/centos/7/sclo/x86_64/rh/
+wget http://mirror.centos.org/centos/7/os/x86_64/Packages/libgfortran5-8.3.1-2.1.1.el7.x86_64.rpm
+sudo yum install libgfortran5-8.3.1-2.1.1.el7.x86_64.rpm -y
+sudo yum install -y devtoolset-9 --nogpgcheck # 설치되려면 libgfortran이 필요해요.
+sudo yum install autoconf -y
+sudo yum install automake -y
+sudo yum install libtool -y
+```
+
 ## OpenColorIO Core 설치
 OpenImageIO를 컴파일 하기 위해서는 먼저 OpenColorIO Core 가 필요합니다. app에 설치해주세요.
 
 ```bash
-$ cd ~/app
-$ wget https://github.com/AcademySoftwareFoundation/OpenColorIO/archive/refs/tags/v2.0.1.tar.gz
-$ tar -zxvf v2.0.1.tar.gz
-$ rm v2.0.1.tar.gz
+cd ~/app
+wget https://github.com/AcademySoftwareFoundation/OpenColorIO/archive/refs/tags/v2.0.1.tar.gz
+tar -zxvf v2.0.1.tar.gz
+rm v2.0.1.tar.gz
 ```
 
+## Cmake 컴파일
+
+- [Cmake 컴파일](cmake.md)
+
 ## IlmBase 컴파일, OpenEXR 컴파일
-- [문서 바로가기](openexr.md)
+
+- [IlmBase, OpenEXR 컴파일](openexr.md)
 
 ## Boost 컴파일
+
 - [boost 컴파일](boost.md)
 
 ## OpenImageIO 컴파일
+
 아래 명령어를 실행하면 일단 빌드가 됩니다.
-oiio와 함께 연동이 필요한 라이브러리는 필요시 추가하여 빌드합니다.
+oiiotool과 함께 연동이 필요한 라이브러리는 필요시 추가하여 빌드합니다.
 
 ```bash
-$ cd ~/app
-$ git clone https://github.com/OpenImageIO/oiio OpenImageIO_src
-$ mkdir OpenImageIO
-$ cd OpenImageIO_src
-$ scl enable devtoolset-9 bash
-$ export PATH=$PATH:$HOME/app/cmake-3.20.5/bin #cmake가 필요합니다. PATH에 잡아줍니다.
-$ # boost가 필요합니다. 컴파일 합니다.
-$ sh src/build-scripts/build_openexr.bash
-$ sh src/build-scripts/build_OpenJPEG.bash # .jpg
-$ sh src/build-scripts/build_libjpeg-turbo.bash # .jpg 지원
-$ sh src/build-scripts/build_libpng.bash # .png 지원
-$ sh src/build-scripts/build_libtiff.bash # .tiff 지원
-$ make VERBOSE=1 OpenEXR_ROOT=${PWD}/src/build-scripts/ext/dist ILMBASE_HOME=$HOME/app/IlmBase OCIO_HOME=$HOME/app/OpenColorIO-2.0.1 STOP_ON_WARNING=0 USE_OCIO=1 INSTALL_PREFIX=$HOME/app/OpenImageIO Boost_ROOT=$HOME/app/boost_1_73_0 JPEG_ROOT=${PWD}/src/build-scripts/ext/dist JPEGTurbo_ROOT=${PWD}/src/build-scripts/ext/dist PNG_ROOT=${PWD}/src/build-scripts/ext/dist LIBTIFF_ROOT=${PWD}/src/build-scripts/ext/dist USE_PYTHON=0
-$ make install
+cd ~/app
+git clone https://github.com/OpenImageIO/oiio OpenImageIO_src
+mkdir OpenImageIO
+cd OpenImageIO_src
+scl enable devtoolset-9 bash
+export PATH=$PATH:$HOME/app/cmake-3.20.5/bin #cmake가 필요합니다. PATH에 잡아줍니다.
+sh src/build-scripts/build_openexr.bash
+sh src/build-scripts/build_OpenJPEG.bash # .jpg
+sh src/build-scripts/build_libjpeg-turbo.bash # .jpg 지원
+sh src/build-scripts/build_libpng.bash # .png 지원
+sh src/build-scripts/build_libtiff.bash # .tiff 지원
+make VERBOSE=1 OpenEXR_ROOT=${PWD}/src/build-scripts/ext/dist ILMBASE_HOME=$HOME/app/IlmBase OCIO_HOME=$HOME/app/OpenColorIO-2.0.1 STOP_ON_WARNING=0 USE_OCIO=1 INSTALL_PREFIX=$HOME/app/OpenImageIO Boost_ROOT=$HOME/app/boost_1_73_0 JPEG_ROOT=${PWD}/src/build-scripts/ext/dist JPEGTurbo_ROOT=${PWD}/src/build-scripts/ext/dist PNG_ROOT=${PWD}/src/build-scripts/ext/dist LIBTIFF_ROOT=${PWD}/src/build-scripts/ext/dist USE_PYTHON=0
+make install
 ```
 
 잘 컴파일이 되었는지 체크하기 위해 oiiotool 명령어 실행하기
+
 ```bash
-$ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/dotori/app/openexr-2.5.7/lib:/home/dotori/app/IlmBase:/home/dotori/app/OpenImageIO_src/src/build-scripts/ext/dist/lib:/home/dotori/app/OpenImageIO_src/src/build-scripts/ext/dist/lib:/home/dotori/app/OpenImageIO/lib64:/home/dotori/app/OpenImageIO/lib64:/home/dotori/app/OpenImageIO_src/src/build-scripts/ext/dist/lib64 # oiiotool을 실행하기 위해서 필요한 .so 파일을 로딩합니다.
+$ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/ec2-user/app/openexr-2.5.7/lib:/home/ec2-user/app/IlmBase:/home/ec2-user/app/OpenImageIO_src/src/build-scripts/ext/dist/lib:/home/ec2-user/app/OpenImageIO_src/src/build-scripts/ext/dist/lib:/home/ec2-user/app/OpenImageIO/lib64:/home/ec2-user/app/OpenImageIO/lib64:/home/ec2-user/app/OpenImageIO_src/src/build-scripts/ext/dist/lib64 # oiiotool을 실행하기 위해서 필요한 .so 파일을 로딩합니다.
 $ export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.0.3/config.ocio # 이미지 연산을 위해 OpenColorIO를 설정합니다.
 $ ./oiiotool
 ```
 
 ## 실 습
-- OpenImageIO를 컴파일 합니다.
+
+- OpenImageIO를 컴파일 해봅시다.
 - Python과 oiiotool을 이용해서 썸네일을 만들어봅시다.
 - 각 옵션들을 다르게 설정해서 실행해 봅니다.
 
 ## Reference
+
 - https://github.com/OpenImageIO/oiio/blob/master/src/doc/openimageio.pdf
 - [webp 란?](https://ko.wikipedia.org/wiki/WebP) : jpeg를 대체하기 위해 구글에서 개발된 포멧입니다. 사파리에서 보이지 않습니다.
