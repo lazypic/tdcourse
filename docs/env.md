@@ -50,14 +50,16 @@ alias 차이홍="echo 031-916-8867 && espeak 'The contact number for Chinese res
 ```
 
 ## export
+
 특정경로를 환경변수로 설정할 수 있습니다.
 
-아래 예제는 OCIO 환경변수에 `$HOME/OpenColorIO-configs/aces_1.0.3/config.ocio` 값을 설정하는 예제입니다.
+아래 예제는 OCIO 환경변수에 `$HOME/OpenColorIO-configs/aces_1.2/config.ocio` 값을 설정하는 예제입니다.
 
 ~/.bashrc
-```
+
+```bash
 export EMAIL="hello@lazypic.org"
-export OCIO="$HOME/app/OpenColorIO-Configs/aces_1.0.3/config.ocio"
+export OCIO="$HOME/app/OpenColorIO-Configs/aces_1.2/config.ocio"
 ```
 
 터미널을 새로 열고 값이 잘 적용되어있는지 echo를 이용해서 확인해보세요.
@@ -74,11 +76,13 @@ $ echo $OCIO
 source 명령어를 이용해서 파일에 선언된 환경변수를 부를 수 있습니다.
 
 ~/centos/env/init.env
+
 ```bash
 TEST="OK"
 ```
 
 터미널에서 값이 잘 인식되는지 확인합니다.
+
 ```bash
 $ source $HOME/env/init.env
 $ echo $TEST

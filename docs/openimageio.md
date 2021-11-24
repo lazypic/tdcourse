@@ -161,7 +161,7 @@ OpenImageIO를 설치하면 사용할 수 있는 이미지 프로세싱 툴입�
 [OpenColorIO-Configs 설치방법](opencolorio.md)
 
 ```bash
-$ export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.0.3/config.ocio
+$ export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.2/config.ocio
 ```
 
 OCIO를 인식하는지 체크해보겠습니다.
@@ -283,11 +283,9 @@ smpte:TimeCode: 01:18:19:06
 명령어를 위해서 컴파일 할 필요는 없지만, 다른 프로그램을 컴파일할 때 활용됩니다.
 
 ```bash
-sudo yum install clang -y
+sudo yum install clang -y #LLVM 시스템과 함께 작동하는 C,C++,Objective-C,Objective-C++ 컴파일러 입니다.
 sudo yum install webp-devel -y
-sudo yum install LibRaw-devel -y
 sudo yum install opencv-devel -y
-sudo yum install libtiff-devel -y
 ```
 
 ## AWS EC2에서 컴파일시 필요한 사항
@@ -307,6 +305,17 @@ sudo yum install automake -y
 sudo yum install libtool -y
 ```
 
+
+
+## Cmake 컴파일
+
+- [Cmake 컴파일](cmake.md)
+
+## Boost 컴파일
+
+- [boost 컴파일](boost.md): 약 1시간정도로 오래걸립니다.
+
+
 ## OpenColorIO Core 설치
 
 OpenImageIO를 컴파일 하기 위해서는 먼저 OpenColorIO Core 가 필요합니다. app에 설치해주세요.
@@ -318,17 +327,10 @@ tar -zxvf v2.0.1.tar.gz
 rm v2.0.1.tar.gz
 ```
 
-## Cmake 컴파일
-
-- [Cmake 컴파일](cmake.md)
-
 ## IlmBase 컴파일, OpenEXR 컴파일
 
 - [IlmBase, OpenEXR 컴파일](openexr.md)
 
-## Boost 컴파일
-
-- [boost 컴파일](boost.md): 오래걸립니다.
 
 ## OpenImageIO 컴파일
 
@@ -353,10 +355,23 @@ make install
 
 잘 컴파일이 되었는지 체크하기 위해 oiiotool 명령어 실행하기
 
+LD_LIBRARY_PATH를 설정합니다.
+oiiotool을 실행하기 위해 필요한 .so 파일을 로딩합니다.
+
 ```bash
-$ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/ec2-user/app/openexr-2.5.7/lib:/home/ec2-user/app/IlmBase:/home/ec2-user/app/OpenImageIO_src/src/build-scripts/ext/dist/lib:/home/ec2-user/app/OpenImageIO_src/src/build-scripts/ext/dist/lib:/home/ec2-user/app/OpenImageIO/lib64:/home/ec2-user/app/OpenImageIO/lib64:/home/ec2-user/app/OpenImageIO_src/src/build-scripts/ext/dist/lib64 # oiiotool을 실행하기 위해서 필요한 .so 파일을 로딩합니다.
-$ export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.0.3/config.ocio # 이미지 연산을 위해 OpenColorIO를 설정합니다.
-$ ./oiiotool
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/ec2-user/app/openexr-2.5.7/lib:/home/ec2-user/app/IlmBase:/home/ec2-user/app/OpenImageIO_src/src/build-scripts/ext/dist/lib:/home/ec2-user/app/OpenImageIO_src/src/build-scripts/ext/dist/lib:/home/ec2-user/app/OpenImageIO/lib64:/home/ec2-user/app/OpenImageIO/lib64:/home/ec2-user/app/OpenImageIO_src/src/build-scripts/ext/dist/lib64
+```
+
+이미지 연산을 위해 OpenColorIO(OCIO)를 설정합니다.
+
+```bash
+export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.2/config.ocio
+```
+
+oiiotool 명령어를 실행해 봅니다.
+
+```bash
+oiiotool
 ```
 
 ## 실 습
