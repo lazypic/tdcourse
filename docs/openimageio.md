@@ -362,7 +362,7 @@ make install
 oiiotool을 실행하기 위해 필요한 .so 파일을 로딩하기 위해 `LD_LIBRARY_PATH`를 설정합니다.
 
 ```bash
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/ec2-user/app/openexr-2.5.7/lib:/home/ec2-user/app/IlmBase/lib:/home/ec2-user/app/OpenImageIO_src/src/build-scripts/ext/dist/lib:/home/ec2-user/app/OpenImageIO_src/src/build-scripts/ext/dist/lib:/home/ec2-user/app/OpenImageIO/lib64:/home/ec2-user/app/OpenImageIO/lib64:/home/ec2-user/app/OpenImageIO_src/src/build-scripts/ext/dist/lib64
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/ec2-user/app/OpenImageIO/lib64:/home/ec2-user/app/OpenImageIO_src/ext/dist/lib:/home/ec2-user/app/OpenImageIO_src/ext/dist/lib64
 ```
 
 이미지 연산을 위해 OpenColorIO(OCIO)를 설정합니다.
