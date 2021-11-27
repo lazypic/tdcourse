@@ -290,8 +290,8 @@ sudo yum install opencv-devel -y
 
 ## AWS EC2에서 컴파일시 필요한 사항
 
-- t2.micro 이상의 머신이 필요합니다.
-- 메모리 1기가 이상이 필요합니다.
+- t2.small 이상의 머신이 필요합니다.
+- 메모리 2기가 이상이 필요합니다.
 
 ```bash
 sudo amazon-linux-extras install epel -y
@@ -348,9 +348,12 @@ sh src/build-scripts/build_OpenJPEG.bash # .jpg
 sh src/build-scripts/build_libjpeg-turbo.bash # .jpg 지원
 sh src/build-scripts/build_libpng.bash # .png 지원
 sh src/build-scripts/build_libtiff.bash # .tiff 지원
-make VERBOSE=1 OpenEXR_ROOT=${PWD}/src/build-scripts/ext/dist ILMBASE_HOME=$HOME/app/IlmBase OCIO_HOME=$HOME/app/OpenColorIO-2.0.1 STOP_ON_WARNING=0 USE_OCIO=1 INSTALL_PREFIX=$HOME/app/OpenImageIO Boost_ROOT=$HOME/app/boost_1_73_0 JPEG_ROOT=${PWD}/src/build-scripts/ext/dist JPEGTurbo_ROOT=${PWD}/src/build-scripts/ext/dist PNG_ROOT=${PWD}/src/build-scripts/ext/dist LIBTIFF_ROOT=${PWD}/src/build-scripts/ext/dist USE_PYTHON=0
+```
+```bash
+make VERBOSE=1 OpenEXR_ROOT=${PWD}/src/build-scripts/ext/dist ILMBASE_HOME=$HOME/app/IlmBase OCIO_HOME=$HOME/app/OpenColorIO-2.0.1 STOP_ON_WARNING=0 USE_OCIO=1 INSTALL_PREFIX=$HOME/app/OpenImageIO Boost_ROOT=$HOME/app/boost_1_73_0 JPEG_ROOT=${PWD}/src/build-scripts/ext/dist JPEGTurbo_ROOT=${PWD}/src/build-scripts/ext/dist PNG_ROOT=${PWD}/src/build-scripts/ext/dist LIBTIFF_ROOT=${PWD}/src/build-scripts/ext/dist USE_PYTHON=0 INTERFACE_INCLUDE_DIRECTORIES=/home/ec2-user/app/OpenImageIO_src/ext/dist/include
+```
 
-/home/ec2-user/app/OpenImageIO_src/ext/dist/include
+```bash
 make install
 ```
 
@@ -359,7 +362,7 @@ make install
 oiiotool을 실행하기 위해 필요한 .so 파일을 로딩하기 위해 `LD_LIBRARY_PATH`를 설정합니다.
 
 ```bash
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/ec2-user/app/openexr-2.5.7/lib:/home/ec2-user/app/IlmBase:/home/ec2-user/app/OpenImageIO_src/src/build-scripts/ext/dist/lib:/home/ec2-user/app/OpenImageIO_src/src/build-scripts/ext/dist/lib:/home/ec2-user/app/OpenImageIO/lib64:/home/ec2-user/app/OpenImageIO/lib64:/home/ec2-user/app/OpenImageIO_src/src/build-scripts/ext/dist/lib64
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/ec2-user/app/openexr-2.5.7/lib:/home/ec2-user/app/IlmBase/lib:/home/ec2-user/app/OpenImageIO_src/src/build-scripts/ext/dist/lib:/home/ec2-user/app/OpenImageIO_src/src/build-scripts/ext/dist/lib:/home/ec2-user/app/OpenImageIO/lib64:/home/ec2-user/app/OpenImageIO/lib64:/home/ec2-user/app/OpenImageIO_src/src/build-scripts/ext/dist/lib64
 ```
 
 이미지 연산을 위해 OpenColorIO(OCIO)를 설정합니다.
