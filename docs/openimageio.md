@@ -351,8 +351,6 @@ sh src/build-scripts/build_libpng.bash # .png 지원
 sh src/build-scripts/build_libtiff.bash # .tiff 지원
 ```
 ```bash
-make VERBOSE=1 OpenEXR_ROOT=${PWD}/src/build-scripts/ext/dist ILMBASE_HOME=$HOME/app/IlmBase OCIO_HOME=$HOME/app/OpenColorIO-2.0.1 STOP_ON_WARNING=0 USE_OCIO=1 INSTALL_PREFIX=$HOME/app/OpenImageIO Boost_ROOT=$HOME/app/boost_1_73_0 JPEG_ROOT=${PWD}/src/build-scripts/ext/dist JPEGTurbo_ROOT=${PWD}/src/build-scripts/ext/dist PNG_ROOT=${PWD}/src/build-scripts/ext/dist LIBTIFF_ROOT=${PWD}/src/build-scripts/ext/dist USE_PYTHON=0 INTERFACE_INCLUDE_DIRECTORIES=/home/ec2-user/app/OpenImageIO_src/ext/dist/include
-
 make VERBOSE=1 OpenEXR_ROOT=${PWD}/src/build-scripts/ext/dist ILMBASE_HOME=$HOME/app/IlmBase STOP_ON_WARNING=0 USE_OCIO=1 INSTALL_PREFIX=$HOME/app/OpenImageIO Boost_ROOT=$HOME/app/boost_1_73_0 OpenColorIO_ROOT=/home/ec2-user/app/OpenImageIO_src/ext/dist JPEG_ROOT=${PWD}/src/build-scripts/ext/dist JPEGTurbo_ROOT=${PWD}/src/build-scripts/ext/dist PNG_ROOT=${PWD}/src/build-scripts/ext/dist LIBTIFF_ROOT=${PWD}/src/build-scripts/ext/dist USE_PYTHON=0 INTERFACE_INCLUDE_DIRECTORIES=/home/ec2-user/app/OpenImageIO_src/ext/dist/include
 ```
 
