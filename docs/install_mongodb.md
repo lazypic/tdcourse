@@ -36,23 +36,27 @@ success
 ```
 
 ## 서비스 시작
-```
-# service mongod start
-# cat /var/log/mongodb/mongod.log
+
+```bash
+$ sudo service mongod start
+$ sudo cat /var/log/mongodb/mongod.log
 ```
 
 재부팅시 자동으로 mongodb 서버가 실행되려면 아래 명령어를 타이핑 해주세요.
-```
-# chkconfig mongod on
+
+```bash
+$ sudo chkconfig mongod on
 ```
 
 ## mongod.conf 데이터베이스 설정변경
 /etc/mongod.conf 파일을 수정해줍니다.
-```
-# vim /etc/mongod.conf
+
+```bash
+$ vim /etc/mongod.conf
 ```
 
 bindIpAll값을 net에 추가해줍니다. 이렇게 해야 자신의 ip를 이용해서 다른 컴퓨터가 접속할 수 있습니다.
+
 ```
 net:
   port:27017
@@ -61,19 +65,22 @@ net:
 ```
 
 설정값을 수정했다면 mongod를 재시작해줍니다.
-```
-# service mongod restart
+
+```bash
+$ sudo service mongod restart
 ```
 
 서비스를 중지했다가 다시 실행하도 좋습니다.
-```
-# service mongod stop
-# service mongod start
+
+```bash
+$ sudo service mongod stop
+$ sudo service mongod start
 ```
 
 ## DB 쉘 접속하기
 mongod가 잘 작동되는지 체크해봅시다. 아래처럼 터미널에서 타이핑 해보세요.
-```
+
+```bash
 $ mongo
 ```
 

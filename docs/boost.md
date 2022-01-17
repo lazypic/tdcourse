@@ -11,7 +11,7 @@ VFX Reference Platform 2021 기준 Boost는 1.73을 사용합니다.
 
 ```bash
 cd ~/app
-wget https://sourceforge.net/projects/boost/files/boost/1.73.0/boost_1_73_0.tar.gz
+wget https://sourceforge.net/projects/boost/files/boost/1.73.0/boost_1_73_0.tar.gz --no-check-certificate
 tar -zxvf boost_1_73_0.tar.gz
 rm boost_1_73_0.tar.gz
 mv boost_1_73_0 boost_1_73_0_src
@@ -27,7 +27,7 @@ VFX Reference Platform 2022 기준 Boost는 1.76을 사용합니다.
 
 ```bash
 cd ~/app
-wget https://sourceforge.net/projects/boost/files/boost/1.76.0/boost_1_76_0.tar.gz
+wget https://sourceforge.net/projects/boost/files/boost/1.76.0/boost_1_76_0.tar.gz --no-check-certificate
 tar -zxvf boost_1_76_0.tar.gz
 rm boost_1_76_0.tar.gz
 mv boost_1_76_0 boost_1_76_0_src

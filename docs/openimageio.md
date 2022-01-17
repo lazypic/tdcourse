@@ -338,20 +338,24 @@ oiiotool과 함께 연동이 필요한 라이브러리는 필요시 추가하여
 
 ```bash
 scl enable devtoolset-9 bash
+yum remove cmake # 기존에 cmake 가 존재하면 지운다.
 export PATH=$PATH:$HOME/app/cmake-3.20.5/bin #cmake가 필요합니다. PATH에 잡아줍니다.
 cd $HOME/app
 git clone https://github.com/OpenImageIO/oiio OpenImageIO_src
 mkdir OpenImageIO
-cd OpenImageIO_src
+cd $HOME/app/OpenImageIO_src
 sh src/build-scripts/build_opencolorio.bash
 sh src/build-scripts/build_openexr.bash # OpenEXR
 sh src/build-scripts/build_OpenJPEG.bash # .jpg
 sh src/build-scripts/build_libjpeg-turbo.bash # .jpg 지원
 sh src/build-scripts/build_libpng.bash # .png 지원
 sh src/build-scripts/build_libtiff.bash # .tiff 지원
+sh src/build-scripts/build_libraw.bash # raw 지원
 ```
+
+컴파일 하기
 ```bash
-make VERBOSE=1 OpenEXR_ROOT=${PWD}/src/build-scripts/ext/dist ILMBASE_HOME=$HOME/app/IlmBase STOP_ON_WARNING=0 USE_OCIO=1 INSTALL_PREFIX=$HOME/app/OpenImageIO Boost_ROOT=$HOME/app/boost_1_73_0 OpenColorIO_ROOT=/home/ec2-user/app/OpenImageIO_src/ext/dist JPEG_ROOT=${PWD}/src/build-scripts/ext/dist JPEGTurbo_ROOT=${PWD}/src/build-scripts/ext/dist PNG_ROOT=${PWD}/src/build-scripts/ext/dist LIBTIFF_ROOT=${PWD}/src/build-scripts/ext/dist USE_PYTHON=0 INTERFACE_INCLUDE_DIRECTORIES=/home/ec2-user/app/OpenImageIO_src/ext/dist/include
+make VERBOSE=1 OpenEXR_ROOT=${PWD}/src/build-scripts/ext/dist ILMBASE_HOME=$HOME/app/IlmBase STOP_ON_WARNING=0 USE_OCIO=1 INSTALL_PREFIX=$HOME/app/OpenImageIO Boost_ROOT=$HOME/app/boost_1_76_0 OpenColorIO_ROOT=$HOME/app/OpenImageIO_src/ext/dist JPEG_ROOT=${PWD}/src/build-scripts/ext/dist JPEGTurbo_ROOT=${PWD}/src/build-scripts/ext/dist PNG_ROOT=${PWD}/src/build-scripts/ext/dist LIBTIFF_ROOT=${PWD}/src/build-scripts/ext/dist USE_PYTHON=0 INTERFACE_INCLUDE_DIRECTORIES=$HOME/app/OpenImageIO_src/ext/dist/include
 ```
 
 ```bash
@@ -363,10 +367,15 @@ make install
 oiiotool을 실행하기 위해 필요한 .so 파일을 로딩하기 위해 `LD_LIBRARY_PATH`를 설정합니다.
 
 ```bash
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/ec2-user/app/OpenImageIO/lib64:/home/ec2-user/app/OpenImageIO_src/ext/dist/lib:/home/ec2-user/app/OpenImageIO_src/ext/dist/lib64
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/app/OpenImageIO/lib64:$HOME/app/OpenImageIO_src/ext/dist/lib:$HOME/app/OpenImageIO_src/ext/dist/lib64
 ```
 
 이미지 연산을 위해 OpenColorIO(OCIO)를 설정합니다.
+
+DOTORI admin 설정에는 다음처럼 설정합니다.
+```bash
+/home/ec2-user/app/OpenImageIO/lib64:/home/ec2-user/app/OpenImageIO_src/ext/dist/lib:/home/ec2-user/app/OpenImageIO_src/ext/dist/lib64
+```
 
 ```bash
 export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.0.3/config.ocio
