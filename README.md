@@ -73,8 +73,9 @@
 
 1. [x] 데몬(서비스)(1.8)
 	1. [Daemon](docs/daemon.md)
-	1. [VNC](docs/vnc.md)
 	1. [sFTP](docs/sftp.md)
+	1. [VNC](docs/vnc.md)
+	1. [Cockpit](docs/cockpit.md)
 
 1. [x] 에디터(1.9)
 	1. [Vim 기본 사용법](docs/vim.md)
