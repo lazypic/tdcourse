@@ -1,5 +1,5 @@
 # mongoDB
-mongoDB를 설치해보겠습니다.
+여러 환경에서 mongoDB를 설치하는 방법을 다룹니다.
 
 # CentOS7
 
