@@ -30,6 +30,12 @@ wget http://johnvansickle.com/ffmpeg/builds/ffmpeg-git-amd64-static.tar.xz
 tar xpvf ffmpeg-git-amd64-static.tar.xz --strip 1
 ```
 
+RockyLinux8.5
+
+```bash
+sudo dnf -y install ffmpeg
+```
+
 ## 명령어의 구성
 
 ffmpeg 설치가 끝나면 2개의 명령어가 생성되어 있습니다.
