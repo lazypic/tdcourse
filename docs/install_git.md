@@ -2,16 +2,16 @@
 리누스 토발즈가 만든 버전관리 시스템입니다.
 버전 관리 시스템중 하나인 Git을 설치 및 사용해보겠습니다.
 
-## CentOS에서 Git 설치
+## RockyLinux8.5에서 Git 설치
 
-```
-# yum install git
+```bash
+dnf install git
 ```
 
 ## macOS에서 Git 설치
 macOS 에서는 아래처럼 명령어를 입력합니다.
 Xcode Command Line Tool에 Git이 포함되어 있기 때문입니다.
-
+\
 ```bash
 $ xcode-select --install
 ```

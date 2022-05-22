@@ -15,10 +15,10 @@ OpenVDB, Ptex, Photoshop PSD, Wavefront RLA, SGI, WebP, GIF, DICOM,
 
 ## 설치
 
-낮은 버전은 CentOS7.9 에서 아래처럼 손쉽게 설치할 수 있습니다.
+낮은 버전은 패키지 관리툴을 이용해서 아래처럼 손쉽게 설치할 수 있습니다.
 높은 버전을 사용하기 위해서는 직접 컴파일이 필요합니다.
 
-리눅스
+CentOS7.9
 
 ```bash
 sudo yum install OpenImageIO -y
@@ -26,6 +26,13 @@ sudo yum install OpenImageIO-iv -y
 sudo yum install OpenImageIO-devel -y
 sudo yum install OpenImageIO-utils -y
 sudo yum install python-OpenImageIO -y
+```
+
+RockyLinux8.5
+
+```bash
+sudo dnf -y install OpenImageIO
+sudo dnf -y install OpenImageIO-utils
 ```
 
 macOS

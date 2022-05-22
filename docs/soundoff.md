@@ -6,20 +6,20 @@ Beep음을 제거하는 방법을 알아보겠습니다.
 [Xterm](https://en.wikipedia.org/wiki/Xterm)에서 소리나는것을 방지합니다.
 
 ```bash
-$ echo "xset b off" >> ~/.xession
+echo "xset b off" >> ~/.xession
 ```
 
 ## bash shell
 쉘에서 소리나는 것을 방지합니다.
 
-```
-$ echo "set bell-style none" >> ~/.inputrc
+```bash
+echo "set bell-style none" >> ~/.inputrc
 ```
 
 ## vim
 Vim 에디터에서 소리나는것을 제거 방지합니다.
 ```
-$ echo "set vb" >> ~/.vimrc
+echo "set vb" >> ~/.vimrc
 ```
 
 ## 실습

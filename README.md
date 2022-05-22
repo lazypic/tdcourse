@@ -32,6 +32,7 @@
 	1. [Grub셋팅](docs/setup_grub.md)
 	1. [규칙](docs/rule.md)
 	1. 실 습 : 같이 CentOS 둘러보기
+	1. [리포지터리 추가](docs/install_repo.md)
 
 1. [x] 리눅스 명령어 기본(1.3)
 	1. [리눅스의 기본 명령어](docs/linux_cmd.md)
@@ -47,6 +48,7 @@
 	1. [시간설정, 타임서버](docs/time.md)
 	1. [리눅스 네트워크 명령](docs/linux_net_cmd.md)
 	1. [커널부터 응용프로그램까지](docs/linux_struct.md)
+	1. [Mount](docs/mount.md)
 
 1. 네트워크
 	1. [pfSense](doc/pfsense.md) 방화벽
@@ -64,7 +66,8 @@
 	1. [스터디 그룹을 위한 컴파일러 설치](docs/gcc.md)
 	
 1. [x] 기타 유틸리티 설치(1.7)
-	1. libreOffice 설치, MPAA 문서보기
+	1. [libreOffice 설치](docs/install_libreoffice.md)
+	1. MPAA 문서보기
 	1. [크롬설치](docs/install_chrome.md)
 	1. [CentOS Beep 사운드 제거](docs/soundoff.md)
 	1. [Torrent](docs/torrent.md)
@@ -89,7 +92,7 @@
 	1. [Linux 폴더구조](docs/foldertree.md)
 
 1. [x] [버전관리의 중요성](docs/version_control_system.md) (1.10)
-	1. [Git 설치 / 설정](docs/init_git.md)
+	1. [Git 설치 / 설정](docs/install_git.md)
 	1. [Git 명령어의 기초](docs/git_basic.md)
 	1. 모두 같은 에디터를 사용하고 설정을 공유하는 리포지터리 제작
 	1. Readme 문서 작성을 위한 [Markdown 문법배우기](docs/markdown.md)
@@ -115,6 +118,8 @@
 	1. [이슈, Pull Request 상태에서의 토론](docs/discussion.md)
 	1. [gitk](docs/gitk.md)
 	1. 실습 : Git 협업모델 테스트
+
+1. [파이썬 설치](docs/install_python.md)
 
 1. [x] [파이썬 X in Y minutes 1부](docs/python_x_in_y_min.md) (1.18)
 
