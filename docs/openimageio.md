@@ -385,13 +385,13 @@ export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.2/config.ocio
 $HOME/app/OpenImageIO/bin/oiiotool
 ```
 
-### AWS DOTORI admin 설정에는 다음처럼 설정합니다.
+### AWS DOTORI admin 설정값
 
 ```bash
 /home/ec2-user/app/OpenImageIO/lib64:/home/ec2-user/app/OpenImageIO_src/ext/dist/lib:/home/ec2-user/app/OpenImageIO_src/ext/dist/lib64
 ```
 
-### CentOS DOTORI admin 설정에는 다음처럼 설정합니다.
+### CentOS DOTORI admin 설정값
 
 ```bash
 /root/app/OpenImageIO/lib64:/root/app/OpenImageIO_src/ext/dist/lib:/root/app/OpenImageIO_src/ext/dist/lib64
