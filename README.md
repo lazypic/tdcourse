@@ -178,7 +178,7 @@
 
 1. [x] [컬러스페이스의 역사](docs/history_colorspace.md)(2.7)
 
-1. [x] [OpenImageIO 설치](docs/openimageio.md)(2.8)
+1. [x] [OpenImageIO 설치](docs/openimageio.md)
 
 1. [x] [VFX Platform 소개](docs/vfx_platform.md)(2.8)
 	1. [NumPy](docs/numpy.md)

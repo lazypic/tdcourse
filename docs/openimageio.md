@@ -284,7 +284,7 @@ screenWindowWidth: 1
 smpte:TimeCode: 01:18:19:06
 ```
 
-## 컴파일
+## CentOS7.9 컴파일
 
 위에서 필요한 명령어는 간단하게 설치가 끝났습니다.
 명령어를 위해서 컴파일 할 필요는 없지만, 다른 프로그램을 컴파일할 때 활용됩니다.
@@ -315,14 +315,14 @@ sudo yum install libtool -y
 
 ## Cmake 컴파일
 
-- [Cmake 컴파일](cmake.md) t2.micro 기준 약 30분
+- [Cmake 컴파일](cmake.md): AWS t2.micro 기준 약 30분 소요
 
 ## Boost 컴파일
 
-- [boost 컴파일](boost.md): AWS t2.micro 기준 약 1시간정도로 오래걸립니다.
+- [boost 컴파일](boost.md): AWS t2.micro 기준 약 1시간 소요
 
 
-## OpenColorIO Core 설치
+## OpenColorIO Core 설치(ignore)
 
 OpenImageIO를 컴파일 하기 위해서는 먼저 OpenColorIO Core 가 필요합니다. ~/app에 설치해주세요.
 
@@ -333,7 +333,7 @@ tar -zxvf v2.0.1.tar.gz
 rm v2.0.1.tar.gz
 ```
 
-## IlmBase 컴파일, OpenEXR 컴파일
+## IlmBase 컴파일, OpenEXR 컴파일(ignore)
 
 - [IlmBase, OpenEXR 컴파일](openexr.md)
 
@@ -349,11 +349,14 @@ yum remove cmake # 기존에 cmake 가 존재하면 지운다.
 export PATH=$PATH:$HOME/app/cmake-3.20.5/bin #cmake가 필요합니다. PATH에 잡아줍니다.
 cd $HOME/app
 git clone https://github.com/OpenImageIO/oiio OpenImageIO_src
+cd OpenImageIO_src
+git checkout v2.4.5.0
+cd ..
 mkdir OpenImageIO
 cd $HOME/app/OpenImageIO_src
 sh src/build-scripts/build_opencolorio.bash # OpenColorIO
-sh src/build-scripts/build_openexr.bash # OpenEXR
-sh src/build-scripts/build_OpenJPEG.bash # .jpg
+sh src/build-scripts/build_openexr.bash # OpenEXR 지원
+sh src/build-scripts/build_OpenJPEG.bash # .jpg 지원
 sh src/build-scripts/build_libjpeg-turbo.bash # .jpg 지원
 sh src/build-scripts/build_libpng.bash # .png 지원
 sh src/build-scripts/build_libtiff.bash # .tiff 지원
@@ -361,6 +364,7 @@ sh src/build-scripts/build_libraw.bash # raw 지원
 ```
 
 컴파일 하기
+
 ```bash
 make VERBOSE=1 STOP_ON_WARNING=0 USE_OCIO=1 INSTALL_PREFIX=$HOME/app/OpenImageIO Boost_ROOT=$HOME/app/boost_1_76_0 OpenColorIO_ROOT=$HOME/app/OpenImageIO_src/ext/dist JPEG_ROOT=${PWD}/src/build-scripts/ext/dist JPEGTurbo_ROOT=${PWD}/src/build-scripts/ext/dist PNG_ROOT=${PWD}/src/build-scripts/ext/dist LIBTIFF_ROOT=${PWD}/src/build-scripts/ext/dist LibRaw_ROOT=${PWD}/src/build-scripts/ext/dist USE_PYTHON=0 INTERFACE_INCLUDE_DIRECTORIES=$HOME/app/OpenImageIO_src/ext/dist/include
 ```
@@ -379,13 +383,14 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/app/OpenImageIO/lib64:$HOME/app/Op
 
 이미지 연산을 위해 OpenColorIO(OCIO)를 설정합니다.
 
-DOTORI admin 설정에는 다음처럼 설정합니다.
+AWS DOTORI admin 설정에는 다음처럼 설정합니다.
+
 ```bash
 /home/ec2-user/app/OpenImageIO/lib64:/home/ec2-user/app/OpenImageIO_src/ext/dist/lib:/home/ec2-user/app/OpenImageIO_src/ext/dist/lib64
 ```
 
 ```bash
-export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.0.3/config.ocio
+export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.2/config.ocio
 ```
 
 oiiotool 명령어를 실행해 봅니다.
