@@ -377,35 +377,26 @@ make install
 
 ## 잘 컴파일이 되었는지 체크하기 위해 oiiotool 명령어 실행하기
 
-oiiotool을 실행하기 위해 필요한 .so 파일을 로딩하기 위해 `LD_LIBRARY_PATH`를 설정합니다.
+oiiotool을 실행하기 위해 필요한 .so 파일을 로딩하기 위해 `LD_LIBRARY_PATH`를 설정하고 oiiotool을 실행해봅니다.
 
 ```bash
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/app/OpenImageIO/lib64:$HOME/app/OpenImageIO_src/ext/dist/lib:$HOME/app/OpenImageIO_src/ext/dist/lib64
+export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.2/config.ocio
+$HOME/app/OpenImageIO/bin/oiiotool
 ```
 
-이미지 연산을 위해 OpenColorIO(OCIO)를 설정합니다.
-
-AWS DOTORI admin 설정에는 다음처럼 설정합니다.
+### AWS DOTORI admin 설정에는 다음처럼 설정합니다.
 
 ```bash
 /home/ec2-user/app/OpenImageIO/lib64:/home/ec2-user/app/OpenImageIO_src/ext/dist/lib:/home/ec2-user/app/OpenImageIO_src/ext/dist/lib64
 ```
 
-CentOS  DOTORI admin 설정에는 다음처럼 설정합니다.
+### CentOS DOTORI admin 설정에는 다음처럼 설정합니다.
 
 ```bash
 /root/app/OpenImageIO/lib64:/root/app/OpenImageIO_src/ext/dist/lib:/root/app/OpenImageIO_src/ext/dist/lib64
 ```
 
-```bash
-export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.2/config.ocio
-```
-
-oiiotool 명령어를 실행해 봅니다.
-
-```bash
-$HOME/app/OpenImageIO/bin/oiiotool
-```
 
 ## 실 습
 
