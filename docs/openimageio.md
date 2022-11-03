@@ -284,7 +284,7 @@ screenWindowWidth: 1
 smpte:TimeCode: 01:18:19:06
 ```
 
-## CentOS7.9 컴파일
+## CentOS7.9 컴파일전 필요한 라이브러리
 
 위에서 필요한 명령어는 간단하게 설치가 끝났습니다.
 명령어를 위해서 컴파일 할 필요는 없지만, 다른 프로그램을 컴파일할 때 활용됩니다.
@@ -297,7 +297,7 @@ sudo yum install opencv-devel -y
 
 ## AWS EC2에서 컴파일시 필요한 사항
 
-- t2.small 이상의 머신이 필요합니다.
+- AWS에서 OpenImageIO를 컴파일 하려면 최소 t2.small 이상의 머신이 필요합니다.
 - 메모리 2기가 이상이 필요합니다.
 
 ```bash
@@ -305,8 +305,8 @@ sudo amazon-linux-extras install epel -y
 sudo yum install git -y
 sudo yum-config-manager --add-repo http://mirror.centos.org/centos/7/sclo/x86_64/rh/
 wget http://mirror.centos.org/centos/7/os/x86_64/Packages/libgfortran5-8.3.1-2.1.1.el7.x86_64.rpm
-sudo yum install libgfortran5-8.3.1-2.1.1.el7.x86_64.rpm -y
-sudo yum install -y devtoolset-9 --nogpgcheck # 설치되려면 libgfortran이 필요해요.
+sudo yum install -y libgfortran5-8.3.1-2.1.1.el7.x86_64.rpm -y # devtoolset-9가 설치되려면 libgfortran이 필요합니다.
+sudo yum install -y devtoolset-9 --nogpgcheck
 sudo yum install autoconf -y
 sudo yum install automake -y
 sudo yum install libtool -y
