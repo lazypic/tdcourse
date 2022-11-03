@@ -22,8 +22,8 @@ CentOS7.9에 설치되는 기본 cmake는 버전이 낮아서 앞으로 우리�
 #### CentOS 7.9 에서 준비사항
 
 ```bash
-sudo yum install -y centos-release-scl-rh
-sudo yum --enablerepo=centos-sclo-rh-testing install devtoolset-9
+yum install -y centos-release-scl-rh
+yum --enablerepo=centos-sclo-rh-testing install devtoolset-9
 ```
 
 #### AWS EC2 에서 준비사항
@@ -43,7 +43,7 @@ sudo yum install -y devtoolset-9 --nogpgcheck
 - 오래걸립니다. 15분
 
 ```bash
-sudo yum install -y openssl-devel # cmake 설치시 필요합니다.
+yum install -y openssl-devel # cmake 설치시 필요합니다.
 cd /tmp
 wget https://github.com/Kitware/CMake/releases/download/v3.20.5/cmake-3.20.5.tar.gz
 tar -zxvf cmake-3.20.5.tar.gz -C $HOME/app

@@ -290,9 +290,9 @@ smpte:TimeCode: 01:18:19:06
 명령어를 위해서 컴파일 할 필요는 없지만, 다른 프로그램을 컴파일할 때 활용됩니다.
 
 ```bash
-sudo yum install clang -y #LLVM 시스템과 함께 작동하는 C,C++,Objective-C,Objective-C++ 컴파일러 입니다.
-sudo yum install webp-devel -y
-sudo yum install opencv-devel -y
+yum install -y clang #LLVM 시스템과 함께 작동하는 C,C++,Objective-C,Objective-C++ 컴파일러 입니다.
+yum install -y webp-devel
+yum install -y opencv-devel
 ```
 
 ## AWS EC2에서 컴파일시 필요한 사항

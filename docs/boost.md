@@ -9,7 +9,7 @@ abcview, oiiotool 등의 명령어를 컴파일 하기 위해서는 Boost가 필
 VFX Reference Platform 2022 기준 Boost는 1.76을 사용합니다.
 
 ```bash
-cd ~/app
+cd $HOME/app
 wget https://sourceforge.net/projects/boost/files/boost/1.76.0/boost_1_76_0.tar.gz --no-check-certificate
 tar -zxvf boost_1_76_0.tar.gz
 rm boost_1_76_0.tar.gz
