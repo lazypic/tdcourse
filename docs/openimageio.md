@@ -349,7 +349,7 @@ yum remove cmake # 기존에 cmake 가 존재하면 지운다.
 export PATH=$PATH:$HOME/app/cmake-3.20.5/bin #cmake가 필요합니다. PATH에 잡아줍니다.
 cd $HOME/app
 git clone https://github.com/OpenImageIO/oiio OpenImageIO_src
-cd OpenImageIO_src
+cd $HOME/app/OpenImageIO_src
 git checkout v2.4.5.0
 cd ..
 mkdir OpenImageIO
