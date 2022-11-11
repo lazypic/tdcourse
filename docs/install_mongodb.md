@@ -160,9 +160,10 @@ macOS에서 mongoDB를 설치하는 방법
 ## 설치
 
 ```bash
-$ brew uninstall mongodb
-$ brew tap mongodb/brew
-$ brew install mongodb-community
+brew uninstall mongodb
+brew tap mongodb/brew
+brew install mongodb-community
+brew install mongodb-database-tools
 ```
 
 ## 서비스 시작
