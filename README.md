@@ -309,7 +309,7 @@
 
 해당 교육의 커리큘럼이 종료되었지만 개인 또는 기업에서 간헐적으로 문의하는 기술관련 질문에 대해서 문서를 업데이트하고 있습니다.
 이 문서가 여러분의 콘텐츠 제작환경에 큰 도움되었다면 기부 부탁드립니다.
-이 콘텐츠를 제작했던 [Lazypic,LLC.](https://lazypic.org) Maintainer, Committer, 주요 Contributors 와 함께 소소한 간식타임을 가지도록 하겠습니다.
+이 콘텐츠를 제작했던 [Lazypic,LLC.](https://lazypic.org) Maintainer, Committer, 주요 Contributors 와 함께 소소한 간식 타임을 만들어주세요.
 
 #### 은행을 통한 직접기부
 
