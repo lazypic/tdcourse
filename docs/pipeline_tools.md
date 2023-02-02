@@ -26,7 +26,6 @@
 ### Ftrack
 
 ![ftrack](https://i.ytimg.com/vi/PBjgVmQfZus/maxresdefault.jpg)
-- 사용업체 : [모팩](https://forum.ftrack.com/profile/992-mofac/)
 - 홈페이지 : https://www.ftrack.com/en/
 - DB : MySQL
 - API : https://bitbucket.org/ftrack/ftrack-python-api
@@ -57,6 +56,8 @@
 ## 오픈소스 & 무료툴
 
 ### OpenPipelineIO
+![OpenPipelineIO_1](https://github.com/lazypic/OpenPipelineIO/raw/main/figures/screenshot.png)
+![OpenPipelineIO_2](https://github.com/lazypic/OpenPipelineIO/raw/main/figures/review.png)
 
 - 정책 : 오픈소스
 - 홈페이지: https://github.com/lazypic/OpenPipelineIO
