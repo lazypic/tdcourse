@@ -13,7 +13,8 @@
 
 ### Shotgrid
 
-![shotgrid](http://cdn.studiodaily.com/wp-content/uploads/2013/05/630_shotgrid.jpg)
+![shotgrid](https://damassets.autodesk.net/content/dam/autodesk/www/products/shotgrid/fy23/features/images/key-features-of-shotgrid-large-1920x976.jpg)
+
 
 국내 대규모 업체들은 shotgrid을 많이 사용하고 있습니다.
 - 사용업체 : Weta, Framestore, Mackevision, Pixomondo, Westworld, [포스](https://www.awn.com/news/2018-shotgrid-pipeline-award-winners-announced),
