@@ -11,18 +11,18 @@
 
 ## 상용툴
 
-#### Shotgrid
+### Shotgrid
 
 ![shotgrid](http://cdn.studiodaily.com/wp-content/uploads/2013/05/630_shotgrid.jpg)
 
 국내 대규모 업체들은 shotgrid을 많이 사용하고 있습니다.
 - 사용업체 : Weta, Framestore, Mackevision, Pixomondo, Westworld, [포스](https://www.awn.com/news/2018-shotgrid-pipeline-award-winners-announced),
-
+- 비용: 월 45,000원 / 1인
 - 홈페이지 : https://www.shotgridsoftware.com
 - DB : PostgreSQL
 - API : https://github.com/shotgridsoftware
 
-#### Ftrack
+### Ftrack
 
 ![ftrack](https://i.ytimg.com/vi/PBjgVmQfZus/maxresdefault.jpg)
 - 사용업체 : [모팩](https://forum.ftrack.com/profile/992-mofac/)
@@ -31,7 +31,15 @@
 - API : https://bitbucket.org/ftrack/ftrack-python-api
 - python API : http://ftrack-python-api.rtd.ftrack.com/en/stable/introduction.html
 
-#### Wormhole2
+
+### Kitsu
+
+- 정책: 유료 / 월 30명까지 한달에 800달러
+- 홈페이지: https://www.cg-wire.com/en/kitsu.html
+- DB: 
+- API: 지원
+
+### Wormhole2
 
 국내 C2Monster사에서 제작되는 파이프라인툴 입니다.
 
@@ -47,7 +55,22 @@
 
 ## 오픈소스 & 무료툴
 
-#### Tactic
+### OpenPipelineIO
+
+- 정책 : 오픈소스
+- 홈페이지: https://github.com/lazypic/OpenPipelineIO
+- DB: mongoDB
+- API: RestAPI 지원
+
+### Openpype
+
+- 정책: 오픈소스
+- 홈페이지: https://openpype.io/
+- DB: mongoDB
+- API: 지원
+
+
+### Tactic
 
 ![tactic](https://i.ytimg.com/vi/aqj4Zx2ly98/maxresdefault.jpg)
 - 정책 : 부분유료
@@ -56,19 +79,18 @@
 - DB : PostgreSQL
 - API : https://github.com/Southpaw-TACTIC/TACTIC
 
-#### Prism
+### Prism
 
 ![prism](https://prism-pipeline.com/wp-content/uploads/2018/04/2018-04-04_1735-1.png)
 간단한 파일베이스 오픈소스 파이프라인 툴입니다.
 
 - 홈페이지 : https://prism-pipeline.com
 
-#### Cage
+### Cage
 
 - 홈페이지 : https://cageapp.com/
 
-
-#### Attract
+### Attract
 
 ![attract](https://i.ytimg.com/vi/b9x1rlyyt_o/maxresdefault.jpg)
 Blender Cloud에서 사용되는 오픈소스 파이프라인툴 입니다.
@@ -77,12 +99,7 @@ Blender Cloud에서 사용되는 오픈소스 파이프라인툴 입니다.
 - 홈페이지 https://attract.studio
 - 서비스 페이지 : https://cloud.blender.org/attract/
 
-#### Google Docs
-
-엑셀은 작고 좋은 파이프라인 툴 이기도 합니다.
-작은 규모의 많은 회사들이 구글 Docs에서 제공하는 엑셀파일을 많이 사용합니다.
-
-## 기타
+## 기타툴
 
 - http://www.helgaproject.org
 - https://www.binfire.com
@@ -91,6 +108,6 @@ Blender Cloud에서 사용되는 오픈소스 파이프라인툴 입니다.
 - http://www.proofhub.com
 
 
-## 인하우스툴
+## 사내 인하우스툴
 
 보통 인하우스툴은 외부에 공개하지 않지만 일부 회사에서 내부 상황에 맞도록 프로젝트 매니징 파이프라인 툴을 개발하여 사용합니다.
