@@ -82,6 +82,13 @@
 - DB : PostgreSQL
 - API : https://github.com/Southpaw-TACTIC/TACTIC
 
+### Kitsu
+
+- 웹사이트: https://www.cg-wire.com/
+- 홍보 영상: https://youtu.be/2HNnFffAADU
+- 가격 정책: https://www.cg-wire.com/en/pricing.html
+- 리눅스 서버 설치방법: https://youtu.be/QtFzQMYZSDc
+
 ### Prism
 
 ![prism](https://prism-pipeline.com/wp-content/uploads/2018/04/2018-04-04_1735-1.png)
