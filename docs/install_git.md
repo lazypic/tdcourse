@@ -2,10 +2,19 @@
 리누스 토발즈가 만든 버전관리 시스템입니다.
 버전 관리 시스템중 하나인 Git을 설치 및 사용해보겠습니다.
 
+## Windows에서 Git 설치
+
+초콜레티를 설치합니다.
+
+```bash
+choco install git
+```
+
 ## RockyLinux8.5에서 Git 설치
 
 ```bash
-dnf install git
+dnf -y install git
+dnf -y install git-lfs
 ```
 
 ## macOS에서 Git 설치
@@ -13,11 +22,16 @@ macOS 에서는 아래처럼 명령어를 입력합니다.
 Xcode Command Line Tool에 Git이 포함되어 있기 때문입니다.
 \
 ```bash
-$ xcode-select --install
+xcode-select --install
 ```
 
-## Windows에서 Git 설치
-Windows : https://git-scm.com/downloads 에서 다운로드 받아 설치합니다.
+## macOS에서 Git Large File System
+
+```bash
+brew install git-lfs
+git lfs install
+```
+
 
 ### 최초 셋팅
 Git을 최초에 설치하고 사용하기 위해서는 name, e-mail 설정이 필요합니다.
