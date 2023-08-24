@@ -13,6 +13,13 @@ Git을 사용하기 위해서는 최초 셋팅이 필요합니다.
 $ git init
 ```
 
+## clone
+
+```bash
+git clone https://github.com/lazypic/OpenPipelineIO
+```
+
+
 명령어를 치고 나면 폴더에 `.git` 이라는 숨김폴더가 생깁니다.
 이 디렉토리 안에는 환경설정, Git 버전관리가 실제로 일어나는 경로입니다.
 
@@ -20,18 +27,41 @@ $ git init
 add 명령어는 Git에게 버전 관리할 파일을 알려주는 역할을 합니다.
 
 ```
-$ git add yourcode.py
+git add yourcode.go
 ```
 
 - git add 하는 방법은 많이 있지만 차이점을 추후 구분하고 사용해주세요. : https://atrystwithprogramming.wordpress.com/tag/git-add-vs-git-add/
 
 ## commit
+
 commit 명령어는 코드를 수정하고 메모를 하는 기능입니다.
 최대한 잘 작성하면 나중에 코드를 돌릴 때 편하니 자세히 적는 습관을 들여주세요.
 이 내용은 추후 github를 사용했을 때 자동으로 올라가는 내용이니 여러분의 지성을 뽐내주세요.
 
+```bash
+git commit -m "나는 이러이러한것을 코드에 추가했다."
 ```
-$ git commit -m "나는 이러이러한것을 코드에 추가했다."
+
+## push
+
+```bash
+git push origin main
+```
+
+## branch
+
+branch 단계 처리하기
+
+```bash
+git branch iss01
+git checkout iss01
+git add edit.go
+git commit -m "edit file"
+git push origin iss01
+pull request
+merge
+git checkout main
+git pull origin main
 ```
 
 ## 나머지 명령어들에 대해서..
