@@ -3,6 +3,14 @@
 Git은 버전 관리 시스템중 현재 가장 인기있는 툴입니다.
 Git통해 코드를 버전관리 하게되면 에러에 대한 롤백, 협업이 가능해집니다.
 
+## 윈도우즈 CRLF 에러 처리
+
+warning: in the working copy of 'edit.sh', LF will be replaced by CRLF the next time Git touches it 에러 발생시 아래처럼 타이핑한다.
+
+```bash
+git config --global core.autocrlf true
+```
+
 ## init
 Git을 사용하기 위해서는 최초 셋팅이 필요합니다.
 사용할 폴더로 들어가서 init 명령을 한번 실행해야 합니다.
