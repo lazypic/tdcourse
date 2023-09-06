@@ -38,8 +38,8 @@ Git을 최초에 설치하고 사용하기 위해서는 name, e-mail 설정이 �
 가독성을 위해서 컬러 모드를 켭니다.
 
 ```bash
-$ git config --global user.name "woong"
-$ git config --global user.email khw7096@gmail.com
+$ git config --global user.name "jason"
+$ git config --global user.email jason@lazypic.org
 $ git config --global color.ui true
 ```
 
