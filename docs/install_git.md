@@ -3,7 +3,6 @@
 리누스 토발즈가 만든 분산 소스코드 관리툴입니다.
 인기있는 버전 관리 시스템중 하나인 Git을 설치 및 사용해보겠습니다.
 
-
 ## 설치
 
 ### Windows에서 Git 설치
@@ -74,7 +73,9 @@ vim으로 설정파일을 관찰해보세요.
 vim ~/.gitconfig
 ```
 
-## Github 셋팅방법
+### Github 계정 토큰 셋팅방법
+
+github와 git을 연결할 때 일반적으로 개인의 패스워드를 사용할 수 없습니다. 토큰값이 연결시 사용하는 패스워드가 됩니다.
 
 - Account > Settings > Developer settings > Personal access tokens > Tokens
 - Generate new token > Generate new token(classic) > 인증
