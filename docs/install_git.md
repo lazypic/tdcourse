@@ -5,7 +5,7 @@
 
 ## 설치
 
-### Windows에서 Git 설치
+### Windows
 
 초콜레티를 설치합니다.
 
@@ -13,7 +13,7 @@
 choco install git
 ```
 
-### Debian
+### Ubuntu / Debian
 
 ```bash
 sudo apt-get install git
@@ -21,14 +21,14 @@ sudo apt-get install git-lfs
 git lfs install
 ```
 
-### RockyLinux8.5에서 Git 설치
+### RockyLinux8.5
 
 ```bash
 dnf -y install git
 dnf -y install git-lfs
 ```
 
-### macOS에서 Git 설치
+### macOS
 
 macOS 에서는 아래처럼 명령어를 입력합니다.
 Xcode Command Line Tool에 Git이 포함되어 있기 때문입니다.
