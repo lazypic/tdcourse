@@ -76,7 +76,7 @@ warning: in the working copy of 'edit.sh', LF will be replaced by CRLF the next 
 
 이 경고 메시지는 주로 Windows 사용자와 Unix/Linux 사용자 간의 협업 시에 발생하며, 줄 끝 표시에 관한 문제를 방지하기 위해 다음과 같은 해결 방법이 있습니다.
 
-#### `.gitattributes` 처리법
+#### 방법1: `.gitattributes` 처리법
 
 `.gitattributes` 파일을 루트 디렉토리에 추가하고 아래처럼 추가합니다.
 
@@ -86,7 +86,7 @@ warning: in the working copy of 'edit.sh', LF will be replaced by CRLF the next 
 
 이렇게 설정하면 Git이 자동으로 줄 끝 표시를 관리하게 됩니다.
 
-#### Git 설정 변경
+#### 방법2: Git 설정 변경
 
 Git의 core.autocrlf 설정을 변경하여 이러한 경고를 제거할 수도 있습니다. 다음 명령을 실행하여 설정을 변경합니다.
 
