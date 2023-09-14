@@ -95,6 +95,8 @@ git config --global core.autocrlf true # Windows 사용자
 git config --global core.autocrlf input # Unix/Linux 사용자
 ```
 
+주의: `--global` 플래그를 사용하면 전역 설정이 변경되므로 주의해야 합니다.
+
 ## 나머지 명령어들에 대해서..
 
 사실 Git은 초심자에게 조금 복잡하지만,
