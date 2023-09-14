@@ -3,6 +3,8 @@
 Git은 버전 관리 시스템중 현재 가장 인기있는 툴입니다.
 Git통해 코드를 버전관리 하게되면 에러에 대한 롤백, 협업이 가능해집니다.
 
+<개념 구상도를 넣기>
+
 ## 윈도우즈 CRLF 에러 처리
 
 warning: in the working copy of 'edit.sh', LF will be replaced by CRLF the next time Git touches it 에러 발생시 아래처럼 타이핑한다.
