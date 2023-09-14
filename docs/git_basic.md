@@ -23,6 +23,8 @@ git init
 
 ## clone
 
+리포지터리를 복제할 때 사용합니다.
+
 ```bash
 git clone https://github.com/lazypic/OpenPipelineIO
 ```
@@ -49,11 +51,14 @@ git commit -m "나는 이러이러한것을 코드에 추가하거나 수정했�
 
 ## push
 
+로컬 저장소의 변경 내용을 원격 저장소로 전송하는 데 사용하는 명령어 입니다.
+
 ```bash
 git push origin main
 ```
 
-# Error 
+# Error
+
 
 ## 윈도우즈 CRLF 에러 처리
 
