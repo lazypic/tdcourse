@@ -6,7 +6,7 @@ Git통해 코드를 버전관리 하게되면 에러에 대한 롤백, 협업이
 
 ## Process
 
-![process](../figures/github_process_wth_nuke.png)
+![process](../figures/github_process_with_nuke.png)
 
 ## 윈도우즈 CRLF 에러 처리
 
