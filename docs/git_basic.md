@@ -3,6 +3,7 @@
 Git은 버전 관리 시스템중 현재 가장 인기있는 툴입니다.
 Git통해 코드를 버전관리 하게되면 에러에 대한 롤백, 협업이 가능해집니다.
 
+
 ## Process
 
 ![process](../figures/github_process_wth_nuke.png)
@@ -34,9 +35,10 @@ git clone https://github.com/lazypic/OpenPipelineIO
 ```
 
 ## add
+
 add 명령어는 Git에게 버전 관리할 파일을 알려주는 역할을 합니다.
 
-```
+```bash
 git add yourcode.go
 ```
 
