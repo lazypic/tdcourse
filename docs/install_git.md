@@ -15,6 +15,7 @@
 
 ### Reference
 
+- Code Review rule(+2,+1): https://github.com/golang/go/issues/40699
 - Company model: https://github.com/PixarAnimationStudios/OpenUSD
 - Foundation model: https://github.com/AcademySoftwareFoundation/OpenImageIO
 - Tracking: https://github.com/jedypod/nuke-config
