@@ -3,6 +3,20 @@
 소스코드의 버전 관리 및 협업하기 위해 사용하는 분산 소스코드 관리툴입니다.
 팀간, 코드 버전관리, 백업 및 복구, 코드의 협업을 위해 필수적으로 사용되는 툴입니다.
 
+## Goal
+
+- 브런치를 사용해서 개발하는 문화 만들기
+- 코드 PR을 하는 문화 만들기
+- 기능을 위해 체계적으로 토론하는 문화 만들기
+- 회사의 코드 자산 이중화
+- 항상 롤백을 할 수 있는 구조 만들기
+
+### Reference
+
+- Company model: https://github.com/PixarAnimationStudios/OpenUSD
+- Foundation model: https://github.com/AcademySoftwareFoundation/OpenImageIO
+- Tracking: https://github.com/jedypod/nuke-config
+
 ## 설치
 
 ### Windows
