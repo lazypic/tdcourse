@@ -92,11 +92,11 @@ vim ~/.gitconfig
 
 ### Github 계정 토큰 셋팅방법
 
-github와 git을 연결할 때 일반적으로 개인의 패스워드를 사용할 수 없습니다. 토큰값이 연결시 사용하는 패스워드가 됩니다.
+Github와 Git을 연결할 때 개인 로그인 패스워드를 사용할 수 없습니다. 토큰값이 실제로 코드리뷰에 사용하는 패스워드가 됩니다.
 
 - Account > Settings > Developer settings > Personal access tokens > Tokens
 - Generate new token > Generate new token(classic) > 인증
 - 입력정보
     - repo 체크
     - note에 토큰의 용도를 타이핑한다.
-    - generate token 을 누르고 해당 토큰을 복사해둔다. 이 코드가 github 접속시 패스워드가 된다.
+    - generate token 을 누르고 해당 토큰을 복사해둔다. 이 코드가 Github 접속시 패스워드가 된다.
