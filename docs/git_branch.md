@@ -19,8 +19,12 @@ git checkout main
 git pull origin main
 ```
 
-## Upstream
+## Upstream setting
 
 - 개발하고 싶은 리포지터리를 fork 합니다.
 - fork 한 리포지터리를 clone 합니다.
-- git remote add https://github.com/lazypic/OpenPipelineIO
+- 사용예시
+
+```bash
+git remote add https://github.com/lazypic/OpenPipelineIO
+```
