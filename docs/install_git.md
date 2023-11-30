@@ -8,6 +8,7 @@
 ## Goal
 
 - [브런치](git_branch.md)를 사용해서 개발하는 문화 만들기
+    - 예시: https://github.com/lazypic/OpenPipelineIO/branches
 - 코드 PR을 하는 문화 만들기
 - 기능을 위해 체계적으로 토론하는 문화 만들기
 - 회사의 코드 자산 이중화
