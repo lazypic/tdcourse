@@ -4,6 +4,12 @@
 - 팀간, 코드 버전관리, 백업 및 복구, 코드의 협업을 위해 필수적으로 사용되는 툴입니다.
 - [Pro Git](https://git-scm.com/book/ko/v2)을 추천합니다.
 
+## Case 소개
+
+- Company model: https://github.com/PixarAnimationStudios/OpenUSD
+- Foundation model: https://github.com/AcademySoftwareFoundation/OpenImageIO
+- Tracking: https://github.com/jedypod/nuke-config
+- Code Review rule(+2,+1): https://github.com/golang/go/issues/40699
 
 ## Goal
 
@@ -18,13 +24,6 @@
 - 항상 롤백을 할 수 있는 구조 만들기
 - Maintainer, Commitee 조건 구축
 - 커뮤니케이션: [NVC,비폭력대화](https://m.blog.naver.com/sangmi70/221877545650)
-
-### Reference
-
-- Code Review rule(+2,+1): https://github.com/golang/go/issues/40699
-- Company model: https://github.com/PixarAnimationStudios/OpenUSD
-- Foundation model: https://github.com/AcademySoftwareFoundation/OpenImageIO
-- Tracking: https://github.com/jedypod/nuke-config
 
 ## 설치
 
