@@ -25,7 +25,7 @@
 - Maintainer, Commitee 조건 구축
 - 커뮤니케이션: [NVC-비폭력대화](https://m.blog.naver.com/sangmi70/221877545650)
 
-## 설치
+## OS별 설치
 
 ### Windows
 
