@@ -3,7 +3,7 @@
 Git은 버전 관리 시스템중 현재 가장 인기있는 툴입니다.
 Git통해 코드를 버전관리 하게되면 에러에 대한 롤백, 협업이 가능해집니다.
 
-## clone
+## clone(필수)
 
 리포지터리를 복제할 때 사용합니다.
 
@@ -11,7 +11,7 @@ Git통해 코드를 버전관리 하게되면 에러에 대한 롤백, 협업이
 git clone https://github.com/lazypic/OpenPipelineIO
 ```
 
-## add
+## add(필수)
 
 add 명령어는 파일의 변경 내용을 버전관리에 사용되는 Git 스테이징 영역(staging area)에 추가하기 위해서 사용하는 명령어 입니다.
 
@@ -21,7 +21,7 @@ git add edited.py
 
 - `git add .` 와 `git add *` 의 차이점이 궁금하다면 이 [문서](https://atrystwithprogramming.wordpress.com/tag/git-add-vs-git-add/)를 보세요.
 
-## commit
+## commit(필수)
 
 commit 명령어는 코드를 수정하고 메모를 남기기위해 서용하는 명령어 입니다. 최대한 잘 작성하면 나중에 코드를 돌릴 때 편하니 자세히 적는 습관을 들여주세요.
 코드를 포함하여 주석, 메뉴얼 모두 버전관리 합니다. 이 내용은 Github를 사용했을 때 올라가며, 평생 남는 기록이 됩니다. 여러분의 지성을 뽐내주세요. :-)
@@ -30,7 +30,7 @@ commit 명령어는 코드를 수정하고 메모를 남기기위해 서용하�
 git commit -m "나는 코드의 ~부분을 추가하거나 수정했다."
 ```
 
-## push
+## push(필수)
 
 로컬 저장소의 변경 내용을 원격 저장소로 전송하는 데 사용하는 명령어 입니다.
 
