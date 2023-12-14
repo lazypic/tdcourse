@@ -1,13 +1,7 @@
-# Git
+# Git 기초
 
 Git은 버전 관리 시스템중 현재 가장 인기있는 툴입니다.
 Git통해 코드를 버전관리 하게되면 에러에 대한 롤백, 협업이 가능해집니다.
-
-
-## Process
-
-![process](../figures/github_process_with_nuke.png)
-
 
 ## init
 
@@ -56,6 +50,11 @@ git commit -m "나는 코드의 ~부분을 추가하거나 수정했다."
 ```bash
 git push origin main
 ```
+
+## Process
+
+![process](../figures/github_process_with_nuke.png)
+
 
 # Error
 
