@@ -32,7 +32,7 @@ add 명령어는 Git에게 버전 관리할 파일을 알려주는 역할을 합
 git add edited.py
 ```
 
-- git add 하는 방법은 많이 있지만 차이점을 추후 구분하고 사용해주세요. : https://atrystwithprogramming.wordpress.com/tag/git-add-vs-git-add/
+- `git add .` 와 `git add *` 의 차이점이 궁금하다면 이 [문서](https://atrystwithprogramming.wordpress.com/tag/git-add-vs-git-add/)를 보세요.
 
 ## commit
 
