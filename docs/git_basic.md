@@ -13,7 +13,7 @@ git clone https://github.com/lazypic/OpenPipelineIO
 
 ## add
 
-add 명령어는 Git에게 버전 관리할 파일을 알려주는 역할을 합니다.
+add 명령어는 파일의 변경 내용을 버전관리에 사용되는 Git 스테이징 영역(staging area)에 추가하기 위해서 사용하는 명령어 입니다.
 
 ```bash
 git add edited.py
@@ -23,9 +23,9 @@ git add edited.py
 
 ## commit
 
-commit 명령어는 코드를 수정하고 메모를 하는 기능입니다.
+commit 명령어는 코드를 수정하고 메모를 남기기위해 서용하는 명령어 입니다.
 최대한 잘 작성하면 나중에 코드를 돌릴 때 편하니 자세히 적는 습관을 들여주세요.
-이 내용은 추후 github를 사용했을 때 자동으로 올라가는 내용이니 여러분의 지성을 뽐내주세요.
+이 내용은 Github를 사용했을 때 올라가며, 평생 남는 기록이 됩니다. 여러분의 지성을 뽐내주세요. :-)
 
 ```bash
 git commit -m "나는 코드의 ~부분을 추가하거나 수정했다."
