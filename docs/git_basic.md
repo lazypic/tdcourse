@@ -29,7 +29,7 @@ git clone https://github.com/lazypic/OpenPipelineIO
 add 명령어는 Git에게 버전 관리할 파일을 알려주는 역할을 합니다.
 
 ```bash
-git add yourcode.go
+git add edited.py
 ```
 
 - git add 하는 방법은 많이 있지만 차이점을 추후 구분하고 사용해주세요. : https://atrystwithprogramming.wordpress.com/tag/git-add-vs-git-add/
