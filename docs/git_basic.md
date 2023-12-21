@@ -63,6 +63,21 @@ git init
 
 # Error
 
+## git pull시 신뢰할 수 없는 경로 에러
+
+아래 에러가 발생하는 이유
+
+```bash
+fatal: detected dubious ownership in repository at '/repository/path'
+...
+git config --global --add safe.directory '%(prefix)/repository/path'
+```
+
+위 에러가 발생하는 이유는 Git이 해당 저장소의 소유권이 의심스럽다고 판단했기 때문입니다.
+Git의 최신 버전에서 도입한 보안 기능의 일부로, 저장소의 소유권이나 권한 설정이 일반적이지 않거나 예상치 못한 상태일 때 발생합니다.
+
+`git config --global --add safe.directory '%(prefix)/repository/path'` 이라는 메시지는 Git이 사용자에게 이 경로를 안전한 디렉토리 목록에 추가하도록 권장하는 명령어 입니다. 보안에 문제가 되지 않는다면 파이핑해서 안전한 디렉토리로 등록해주세요.
+
 
 ## 윈도우즈 CRLF 에러 처리
 
