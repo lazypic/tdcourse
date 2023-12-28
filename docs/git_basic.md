@@ -56,7 +56,7 @@ git init
 명령어를 치고 나면 폴더에 `.git` 이라는 숨김폴더가 생깁니다.
 이 디렉토리 안에는 환경설정, Git 버전관리에 필요한 파일이 생성되는 경로입니다.
 
-## Process
+## 협업 개발의 Process
 
 ![process](../figures/github_process_with_nuke.png)
 
