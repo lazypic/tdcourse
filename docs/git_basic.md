@@ -70,7 +70,9 @@ git branch iss01
 
 ```bash
 git checkout iss01
-수정
+(코드 수정)
+git add 수정된파일명
+git commit -m "수정내용"
 git push origin iss01
 ```
 
