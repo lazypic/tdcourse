@@ -53,7 +53,7 @@ git clone https://github.com/colour-science/OpenColorIO-Configs
 ~/centos/env/init.bash 파일에 아래 내용을 추가합니다.
 
 ```bash
-export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.2/config.ocio
+export OCIO=$HOME/inhouse/lib/OpenColorIO-Configs/aces_1.2/config.ocio
 ```
 
 ## OpenColorIO 컴파일(진행중)
