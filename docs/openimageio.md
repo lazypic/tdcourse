@@ -35,6 +35,13 @@ sudo dnf -y install OpenImageIO
 sudo dnf -y install OpenImageIO-utils
 ```
 
+Ubuntu
+
+```bash
+sudo apt-get update -y
+sudo apt-get install -y openimageio-tools
+```
+
 macOS
 
 ```bash
