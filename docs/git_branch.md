@@ -1,4 +1,4 @@
-# Git branch
+# Git Branch
 
 ## Branch
 
