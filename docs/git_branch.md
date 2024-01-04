@@ -50,7 +50,7 @@ git pull origin main
 
 | Key | Value |
 | ------------- | ------------- |
-| 5e1c4447a691fa0b687f502a65c3c1ff792033f9 | 변경사항만 저장 |
+| 5e1c4447a691fa0b687f502a65c3c1ff792033f9 | 부모 Key, 변경사항 저장 |
 
 
 ## Upstream setting
