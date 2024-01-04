@@ -25,12 +25,14 @@ git checkout main
 git pull origin main
 ```
 
+
 #### 세부 교육 내용
 
-- Github에서 branch 리스트 보는 방법
+- Github에서 branch 리스트 보는 방법: [OpenColorIO사례](https://github.com/AcademySoftwareFoundation/OpenColorIO)
 - Git의 Content-addressable 파일 시스템 설명하기
   - key : value
   - 5e1c4447a691fa0b687f502a65c3c1ff792033f9 : 변경사항
+
 
 ## Upstream setting
 
