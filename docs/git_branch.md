@@ -27,8 +27,11 @@ git pull
 git branch iss20
 git checkout iss20
 << 코드 작성 >>
-git checkout main
-git pull origin main
+git add somefile.ext
+git commit -m "수정내용 작성"
+git push origin iss20
+git checkout main # main stream 전환
+git pull origin main # main stream에서 merge된 코드 다운로드
 ```
 
 #### 브랜치의 종류(예)
