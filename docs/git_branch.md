@@ -42,7 +42,7 @@ git pull origin main
 #### 세부 교육 내용
 
 - 협업을 위해 개발자끼리 약속해야할 것!: `우리 main stream은 건드리지 말자! 우리는 꼭 브런치를 만들고 각자의 개발자가 테스트하고 문제가 없을 때만 merge 하자~!`
-- Github에서 branch 리스트 보는 방법: [OpenColorIO사례](https://github.com/AcademySoftwareFoundation/OpenColorIO)
+- Github에서 branch 리스트 보는 방법: [OpenColorIO 사례](https://github.com/AcademySoftwareFoundation/OpenColorIO)
 - Git의 Content-addressable 파일 시스템 설명하기
 - SHA1 알고리즘을 만들어지는 Key: 최신버전 확인 불필요, 중복 X, 오프라인 커밋 가능, 커밋시 부모의 HASH값도 저장
   - 찾아볼 자료1: https://spri.kr/posts/view/21757
