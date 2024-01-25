@@ -316,9 +316,3 @@
 #### 은행을 통한 직접기부
 
 - 기업은행: 466-064359-04-018 / Lazypic,LLC.(유한책임회사 레이지픽)
-
-#### Kakaopay
-
-![kakaopay](https://lazypic.org/images/kakaopay.png)
-
-[카카오페이(모바일링크)](https://qr.kakaopay.com/281006012000000189444760)
