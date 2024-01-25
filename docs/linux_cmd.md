@@ -355,3 +355,16 @@ $ su
 $ su
 # shutdown now
 ```
+
+## &
+
+```bash
+$ cp /show/test/* /show/test1/* &
+```
+
+## &&
+
+```bash
+$ cp /show/test/* /show/test1/* && mv /show/test /show/test2
+$ cp /show/test/* /show/test1/* && mv /show/test /show/test2 &
+```
