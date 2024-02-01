@@ -30,7 +30,7 @@ git branch iss20 # 개발이슈를 확인하고 이슈 번호를 이용해서 �
 git checkout iss20 # 이슈로 들어갑니다.
 # 코드를 추가하거나 수정합니다.
 git add somefile.ext # 추가하거나 수정된 파일을 등록합니다.
-git commit -m "수정내용 작성" # 무엇을 등록했는지 내용을 기입합니다.
+git commit -m "수정내용 작성" # 무슨 기능을 제작했는지 내용을 기입합니다.
 git push origin iss20 # 해당 이슈로 PR을 남깁니다.
 # 회의를 진행합니다.
 # 코드를 머지합니다.
