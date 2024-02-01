@@ -25,8 +25,8 @@ main 스트림은 관리만 진행하고 직접 main 스트림에서 코드를 �
 ## 명령어의 흐름
 
 ```bash
-git pull origin main # 기존에 업데이트된 코드가 존재할 수 있으니 main 브런치에서 업데이트 된 코드를 가지고 옵니다.
-git branch iss20 # 개발이슈를 확인하고 이슈 번호를 이용해서 이슈 브런치를 생성합니다.
+git pull origin main # 기존에 업데이트된 코드가 존재할 수 있으니 main 브랜치에서 업데이트 된 코드를 가지고 옵니다.
+git branch iss20 # 개발이슈를 확인하고 이슈 번호를 이용해서 이슈 브랜치를 생성합니다.
 git checkout iss20 # 이슈로 들어갑니다.
 # 코드를 추가하거나 수정합니다.
 git add somefile.ext # 추가하거나 수정된 파일을 등록합니다.
@@ -34,8 +34,8 @@ git commit -m "수정내용 작성" # 무슨 기능을 제작했는지 내용을
 git push origin iss20 # 해당 이슈로 PR을 남깁니다.
 # 회의를 진행합니다.
 # 코드를 머지합니다.
-git checkout main # main 브런치로 전환합니다.
-git pull origin main # main 브런치의 코드를 업데이트 합니다.
+git checkout main # main 브랜치로 전환합니다.
+git pull origin main # main 브랜치의 코드를 업데이트 합니다.
 ```
 
 #### 브랜치의 종류(예)
