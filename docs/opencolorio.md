@@ -48,6 +48,14 @@ cd $HOME/inhouse/lib
 git clone https://github.com/colour-science/OpenColorIO-Configs
 ```
 
+ACES 1.3 v2.1 다운로드
+
+```bash
+wget https://github.com/AcademySoftwareFoundation/OpenColorIO-Config-ACES/releases/download/v2.0.0/cg-config-v2.1.0_aces-v1.3_ocio-v2.3.ocio
+wget https://github.com/AcademySoftwareFoundation/OpenColorIO-Config-ACES/releases/download/v2.0.0/studio-config-v2.1.0_aces-v1.3_ocio-v2.3.ocio
+```
+
+
 뉴크에 기본 탑재된 OCIO가 아닌 위 Configs 파일을 이용하고 싶다면 환경변수에 OCIO경로를 지정하면 뉴크가 자동으로 인식하여 뉴크 실행시 OpenColorIO-Configs를 로딩합니다.
 
 ~/centos/env/init.bash 파일에 아래 내용을 추가합니다.
