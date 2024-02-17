@@ -302,6 +302,26 @@ yum install -y webp-devel
 yum install -y opencv-devel
 ```
 
+### Cmake 컴파일
+
+- [Cmake 컴파일](cmake.md): AWS t2.micro 기준 약 30분 소요
+
+
+## RockyLinux8.8 컴파일전 필요한 라이브러리
+
+```bash
+dnf install gcc-toolset-11
+scl enable gcc-toolset-11 bash
+
+dnf install -y clang #LLVM 시스템과 함께 작동하는 C,C++,Objective-C,Objective-C++ 컴파일러 입니다.
+dnf install -y libwebp-devel
+dnf install -y opencv-devel
+dnf install -y cmake
+dnf install -y autoconf
+dnf install -y automake
+dnf install -y libtool
+```
+
 ## AWS EC2에서 컴파일시 필요한 사항
 
 - AWS에서 OpenImageIO를 컴파일 하려면 최소 t2.small 이상의 머신이 필요합니다.
@@ -320,29 +340,9 @@ sudo yum install libtool -y
 ```
 
 
-## Cmake 컴파일
-
-- [Cmake 컴파일](cmake.md): AWS t2.micro 기준 약 30분 소요
-
 ## Boost 컴파일
 
 - [boost 컴파일](boost.md): AWS t2.micro 기준 약 1시간 소요
-
-
-## OpenColorIO Core 설치(ignore)
-
-OpenImageIO를 컴파일 하기 위해서는 먼저 OpenColorIO Core 가 필요합니다. ~/app에 설치해주세요.
-
-```bash
-cd $HOME/app
-wget https://github.com/AcademySoftwareFoundation/OpenColorIO/archive/refs/tags/v2.0.1.tar.gz
-tar -zxvf v2.0.1.tar.gz
-rm v2.0.1.tar.gz
-```
-
-## IlmBase 컴파일, OpenEXR 컴파일(ignore)
-
-- [IlmBase, OpenEXR 컴파일](openexr.md)
 
 
 ## OpenImageIO 컴파일
@@ -351,13 +351,15 @@ rm v2.0.1.tar.gz
 oiiotool과 함께 연동이 필요한 라이브러리는 필요시 추가하여 빌드합니다.
 
 ```bash
-scl enable devtoolset-9 bash
-yum remove cmake # 기존에 cmake 가 존재하면 지운다.
+scl enable gcc-toolset-11 bash # VFX Reference Platform 2024
+dnf -y remove cmake # 만약 기존에 cmake 가 존재하면 지운다.
+dnf -y install automake # libraw를 설치하기 위해 aclocal 명령어가 필요하다.
+dnf -y install libtool # libraw를 설치하기 위해 필요하다.
 export PATH=$PATH:$HOME/app/cmake-3.20.5/bin #cmake가 필요합니다. PATH에 잡아줍니다.
 cd $HOME/app
 git clone https://github.com/OpenImageIO/oiio OpenImageIO_src
 cd $HOME/app/OpenImageIO_src
-git checkout v2.4.5.0
+git checkout v2.5.8.0
 cd ..
 mkdir OpenImageIO
 cd $HOME/app/OpenImageIO_src
@@ -367,15 +369,13 @@ sh src/build-scripts/build_OpenJPEG.bash # .jpg 지원
 sh src/build-scripts/build_libjpeg-turbo.bash # .jpg 지원
 sh src/build-scripts/build_libpng.bash # .png 지원
 sh src/build-scripts/build_libtiff.bash # .tiff 지원
-yum -y install automake # libraw를 설치하기 위해 aclocal 명령어가 필요하다.
-yum -y install libtool # libraw를 설치하기 위해 필요하다.
 sh src/build-scripts/build_libraw.bash # raw 지원
 ```
 
 컴파일 하기(몇번 더 타이핑해보기)
 
 ```bash
-make VERBOSE=1 STOP_ON_WARNING=0 USE_OCIO=1 INSTALL_PREFIX=$HOME/app/OpenImageIO Boost_ROOT=$HOME/app/boost_1_76_0 OpenColorIO_ROOT=$HOME/app/OpenImageIO_src/ext/dist JPEG_ROOT=${PWD}/src/build-scripts/ext/dist JPEGTurbo_ROOT=${PWD}/src/build-scripts/ext/dist PNG_ROOT=${PWD}/src/build-scripts/ext/dist LIBTIFF_ROOT=${PWD}/src/build-scripts/ext/dist LibRaw_ROOT=${PWD}/src/build-scripts/ext/dist USE_PYTHON=0 INTERFACE_INCLUDE_DIRECTORIES=$HOME/app/OpenImageIO_src/ext/dist/include
+make VERBOSE=1 STOP_ON_WARNING=0 USE_OCIO=1 INSTALL_PREFIX=$HOME/app/OpenImageIO Boost_ROOT=$HOME/app/boost_1_82_0 OpenColorIO_ROOT=$HOME/app/OpenImageIO_src/ext/dist JPEG_ROOT=${PWD}/src/build-scripts/ext/dist JPEGTurbo_ROOT=${PWD}/src/build-scripts/ext/dist PNG_ROOT=${PWD}/src/build-scripts/ext/dist LIBTIFF_ROOT=${PWD}/src/build-scripts/ext/dist LibRaw_ROOT=${PWD}/src/build-scripts/ext/dist USE_PYTHON=0 INTERFACE_INCLUDE_DIRECTORIES=$HOME/app/OpenImageIO_src/ext/dist/include
 ```
 
 ```bash
@@ -398,7 +398,7 @@ $HOME/app/OpenImageIO/bin/oiiotool
 /home/ec2-user/app/OpenImageIO/lib64:/home/ec2-user/app/OpenImageIO_src/ext/dist/lib:/home/ec2-user/app/OpenImageIO_src/ext/dist/lib64
 ```
 
-### CentOS DOTORI admin 설정값
+### RockyLinux DOTORI admin 설정값
 
 ```bash
 /root/app/OpenImageIO/lib64:/root/app/OpenImageIO_src/ext/dist/lib:/root/app/OpenImageIO_src/ext/dist/lib64

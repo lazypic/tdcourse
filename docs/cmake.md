@@ -12,18 +12,25 @@ CentOS7.9에 설치되는 기본 cmake는 버전이 낮아서 앞으로 우리�
 > 참고 : make는 프로그램 그룹을 유지할 때 사용하는 툴입니다.
 소스코드(입력 파일)가 바뀌면 자동적으로 결과 파일이 바뀌기를 원할 때(예) 소스코드가 바뀌면 다시 컴파일 해야할 때) 순차적으로 프로그램이 수행이 되기를 바랄 때 사용합니다.
 
-## 높은 버전의 GCC 설치하기 (GCC9 - Vfx Reference Platform 2022)
+## 높은 버전의 GCC 설치하기 (GCC11 - Vfx Reference Platform 2024)
 
 최신 cmake를 컴파일 하기 위해서 최신 gcc가 필요합니다.
 설치하겠습니다.
 
-참고 : [devtoolset-9을 설치하면 같이 설치되는 프로그램 리스트](https://access.redhat.com/documentation/en-us/red_hat_developer_toolset/9/html-single/user_guide/index)
+참고 : [devtoolset-9을 설치하면 같이 설치되는 프로그램 리스트](https://access.redhat.com/documentation/en-us/red_hat_developer_toolset/11/html-single/user_guide/index)
 
 #### CentOS 7.9 에서 준비사항
 
 ```bash
 yum install -y centos-release-scl-rh
 yum --enablerepo=centos-sclo-rh-testing install devtoolset-9
+```
+
+#### RockyLlinux 8.8 에서 준비사항
+
+```bash
+dnf install gcc-toolset-11
+scl enable gcc-toolset-11 bash
 ```
 
 #### AWS EC2 에서 준비사항
@@ -43,7 +50,7 @@ sudo yum install -y devtoolset-9 --nogpgcheck
 - 오래걸립니다. 15분
 
 ```bash
-yum install -y openssl-devel # cmake 설치시 필요합니다.
+dnf install -y openssl-devel # cmake 설치시 필요합니다.
 cd /tmp
 wget https://github.com/Kitware/CMake/releases/download/v3.20.5/cmake-3.20.5.tar.gz
 tar -zxvf cmake-3.20.5.tar.gz -C $HOME/app
@@ -51,13 +58,13 @@ cd $HOME/app
 mv $HOME/app/cmake-3.20.5 $HOME/app/cmake-3.20.5_src
 mkdir cmake-3.20.5
 cd $HOME/app/cmake-3.20.5_src
-scl enable devtoolset-9 bash # 높은 버전의 GCC를 사용하기 위해서 devtoolset-9를 활성화 합니다.
+scl enable gcc-toolset-11 bash # 높은 버전의 GCC를 사용하기 위해서 devtoolset-9를 활성화 합니다.
 ./configure --prefix=$HOME/app/cmake-3.20.5
 make
 make install
 ```
 
-## 실습
+## 실 습
 
 - CMake를 자동으로 설치하는 .sh 스크립트를 작성하고 Github에 올립니다.
 - cmake 라고 터미널에 실행했을 때 높은 버전의 CMake가 작동되 수 있도록 alias를 설정하기
