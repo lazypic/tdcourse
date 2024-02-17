@@ -397,6 +397,18 @@ export OCIO=$HOME/lib/OpenColorIO-Configs/aces_1.3/cg-config-v2.1.0_aces-v1.3_oc
 $HOME/app/OpenImageIO/bin/oiiotool
 ```
 
+## Test
+
+컨버팅이 잘 되는지 테스팅 합니다.
+
+```bash
+cd ~
+mkdir tmp
+cd tmp
+wget https://github.com/lazypic/tdcourse_examples/raw/master/ACES_Plate/ACES_ref_Isabella.0.exr
+$HOME/app/oiiotool --colorconvert "ACES2065-1" "Linear Rec.709 (sRGB)" -i $HOME/tmp/ACES_ref_Isabella.0.exr -o $HOME/tmp/output.exr
+```
+
 ### AWS DOTORI admin 설정값
 
 ```bash
