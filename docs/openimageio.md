@@ -388,7 +388,11 @@ oiiotool을 실행하기 위해 필요한 .so 파일을 로딩하기 위해 `LD_
 
 ```bash
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/app/OpenImageIO/lib64:$HOME/app/OpenImageIO_src/ext/dist/lib:$HOME/app/OpenImageIO_src/ext/dist/lib64
-export OCIO=$HOME/app/OpenColorIO-Configs/aces_1.2/config.ocio
+mkdir -p $HOME/lib/OpenColorIO-Configs/aces_1.3
+cd $HOME/lib/OpenColorIO-Configs/aces_1.3
+wget https://github.com/AcademySoftwareFoundation/OpenColorIO-Config-ACES/releases/download/v2.0.0/cg-config-v2.1.0_aces-v1.3_ocio-v2.3.ocio
+wget https://github.com/AcademySoftwareFoundation/OpenColorIO-Config-ACES/releases/download/v2.0.0/studio-config-v2.1.0_aces-v1.3_ocio-v2.3.ocio
+export OCIO=$HOME/lib/OpenColorIO-Configs/aces_1.3/cg-config-v2.1.0_aces-v1.3_ocio-v2.3.ocio
 $HOME/app/OpenImageIO/bin/oiiotool
 ```
 
