@@ -28,7 +28,7 @@ sudo yum install OpenImageIO-utils -y
 sudo yum install python-OpenImageIO -y
 ```
 
-RockyLinux8.5
+RockyLinux8.9
 
 ```bash
 sudo dnf -y install OpenImageIO
