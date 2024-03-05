@@ -44,7 +44,7 @@ OpenColorIO-Configs는 OpenColorIO의 컬러 설정파일입니다.
 뉴크 내부 버전보다 더 높은 버전의 OCIO를 사용하고 싶다면 아래 설정을 따라해주세요.
 
 ```bash
-cd $HOME/inhouse/lib
+cd $HOME/inhouse/libs
 git clone https://github.com/colour-science/OpenColorIO-Configs
 ```
 
