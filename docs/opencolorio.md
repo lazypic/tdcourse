@@ -51,6 +51,9 @@ git clone https://github.com/colour-science/OpenColorIO-Configs
 ACES 1.3 v2.1 다운로드
 
 ```bash
+cd $HOME/inhouse/libs/OpenColorIO-Configs
+mkdir aces_1.3
+cd aces_1.3
 wget https://github.com/AcademySoftwareFoundation/OpenColorIO-Config-ACES/releases/download/v2.0.0/cg-config-v2.1.0_aces-v1.3_ocio-v2.3.ocio
 wget https://github.com/AcademySoftwareFoundation/OpenColorIO-Config-ACES/releases/download/v2.0.0/studio-config-v2.1.0_aces-v1.3_ocio-v2.3.ocio
 ```
