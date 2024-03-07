@@ -1,11 +1,11 @@
 # install RockyLinux
 
-RockyLinux 8.9을 설치해보겠습니다.
+RockyLinux 8.7을 설치해보겠습니다.
 
 ## 이미지 다운로드
 
 - Rockylinux 이미지를 다운로드 받습니다.
-- [https://www.centos.org/download/](https://rockylinux.org/)
+- https://rockylinux.org
 - 강의실에서는 다른 수업의 경우 윈도우로 진행하기 때문에 리눅스 설치시 멀티 부팅을 할 수 있도록 설치합니다.
 - 강의실 Root 패스워드는 추후 관리를 위해서 `imroot`로 통일해주세요.
 - 강의실에서 부팅을 USB로 하기 위해서는 Bios 패스워드가 필요합니다.
@@ -67,7 +67,7 @@ Disk /dev/disk4 ejected
 Windows10이 깔려있는 하드디스크에 리눅스를 설치하는 것은 모팩아카데미와 측에서 권장하지 않습니다.
 준비된 SSD 하드디스크를 시스템에 장착하고 리눅스 설치를 진행합니다.
 
-## CentOS 설치
+## 리눅스 설치
 
 - 준비물 : 하드디스크, CentOS USB 이미지를 준비합니다.
 - 부팅시 F9를 눌러서 USB로 부팅할 수 있도록 해주세요. 바이오스 패스워드는 강의실에서 공유합니다.
