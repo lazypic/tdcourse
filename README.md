@@ -25,7 +25,7 @@
 
 1. [x] 리눅스 설치1 (12.31)
 	1. USB, SSD 하드디스크 전달
-	1. [Linux설치 - RockyLinux 8.9](docs/install_rockylinux.md)
+	1. [Linux설치 - RockyLinux](docs/install_rockylinux.md)
 	1. 실습 : 같이 CentOS 둘러보기
 
 1. [x] 리눅스 설치2(1.2)
