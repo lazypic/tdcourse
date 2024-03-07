@@ -22,13 +22,13 @@ RockyLinux 8.9을 설치해보겠습니다.
 - 다운받은 .iso파일을 .img로 바꾸어줘야하는 작업이 필요합니다.
 
 ```bash
-$ hdiutil convert -format UDRW -o ~/Downloads/Rocky-8.9-x86_64-dvd1.img ~/Downloads/Rocky-8.9-x86_64-dvd1.iso
+$ hdiutil convert -format UDRW -o ~/Downloads/Rocky-8.7-x86_64-dvd1.img ~/Downloads/Rocky-8.7-x86_64-dvd1.iso
 ```
 
 - 변환된 파일은 .dmg 확장자가 붙습니다. mv명령어를 통해서 제거합니다.
 
 ```bash
-$ mv ~/Downloads/Rocky-8.9-x86_64-dvd1.img.dmg ~/Downloads/Rocky-8.9-x86_64-dvd1.img
+$ mv ~/Downloads/Rocky-8.7-x86_64-dvd1.img.dmg ~/Downloads/Rocky-8.7-x86_64-dvd1.img
 ```
 
 - USB의 이름을 확인합니다.
@@ -40,9 +40,9 @@ $ diskutil list
 - 제 컴퓨터에서는 disk2 로 출력되었습니다. 컴퓨터마다 다를 수 있습니다. dd 옵션뒤에는 절대경로가 들어가야 합니다.
 
 ```bash
-$ sudo umount /dev/disk2
-$ sudo diskutil unmountDisk disk2 # 만약 Resource busy가 뜨면 타이핑해주세요.
-$ sudo dd if=/Users/woong/Downloads/Rocky-8.9-x86_64-dvd1.img of=/dev/rdisk2 bs=1m
+$ sudo umount /dev/disk4
+$ sudo diskutil unmountDisk disk4 # 만약 Resource busy가 뜨면 타이핑해주세요.
+$ sudo dd if=/Users/woong/Downloads/Rocky-8.7-x86_64-dvd1.img of=/dev/rdisk4 bs=1m
 ```
 
 - 잘 진행이 되면 아래 메시지를 출력후 종료됩니다.
@@ -56,8 +56,8 @@ $ sudo dd if=/Users/woong/Downloads/Rocky-8.9-x86_64-dvd1.img of=/dev/rdisk2 bs=
 - USB를 추출합니다.
 
 ```bash
-$ diskutil eject /dev/disk2
-Disk /dev/disk2 ejected
+$ diskutil eject /dev/disk4
+Disk /dev/disk4 ejected
 ```
 
 
