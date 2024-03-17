@@ -30,10 +30,14 @@ wget http://johnvansickle.com/ffmpeg/builds/ffmpeg-git-amd64-static.tar.xz
 tar xpvf ffmpeg-git-amd64-static.tar.xz --strip 1
 ```
 
-RockyLinux8.5
+RockyLinux8.8, RockyLinux8.9
 
 ```bash
-sudo dnf -y install ffmpeg
+dnf install dnf-plugins-core
+dnf install epel-release
+dnf config-manager --add-repo=https://negativo17.org/repos/epel-multimedia.repo
+dnf config-manager --set-enabled powertools
+dnf install ffmpeg
 ```
 
 ## 명령어의 구성
