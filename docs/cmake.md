@@ -17,14 +17,8 @@ CentOS7.9에 설치되는 기본 cmake는 버전이 낮아서 앞으로 우리�
 최신 cmake를 컴파일 하기 위해서 최신 gcc가 필요합니다.
 설치하겠습니다.
 
-참고 : [devtoolset-9을 설치하면 같이 설치되는 프로그램 리스트](https://access.redhat.com/documentation/en-us/red_hat_developer_toolset/11/html-single/user_guide/index)
+참고 : [devtoolset-11을 설치하면 같이 설치되는 프로그램 리스트](https://access.redhat.com/documentation/en-us/red_hat_developer_toolset/11/html-single/user_guide/index)
 
-#### CentOS 7.9 에서 준비사항
-
-```bash
-yum install -y centos-release-scl-rh
-yum --enablerepo=centos-sclo-rh-testing install devtoolset-9
-```
 
 #### RockyLlinux 8.8 에서 준비사항
 
@@ -33,21 +27,7 @@ dnf install gcc-toolset-11
 scl enable gcc-toolset-11 bash
 ```
 
-#### AWS EC2 에서 준비사항
-
-```bash
-sudo amazon-linux-extras install -y epel
-sudo yum install git -y
-sudo yum-config-manager --add-repo http://mirror.centos.org/centos/7/sclo/x86_64/rh/
-wget http://mirror.centos.org/centos/7/os/x86_64/Packages/libgfortran5-8.3.1-2.1.1.el7.x86_64.rpm
-sudo yum install libgfortran5-8.3.1-2.1.1.el7.x86_64.rpm -y
-sudo yum install -y devtoolset-9 --nogpgcheck
-```
-
 ## cmake 다운로드 및 컴파일
-
-- https://cmake.org/download/ 에서 리눅스용 cmake를 다운로드 받습니다.
-- 오래걸립니다. 15분
 
 ```bash
 dnf install -y openssl-devel # cmake 설치시 필요합니다.
@@ -63,6 +43,10 @@ scl enable gcc-toolset-11 bash # 높은 버전의 GCC를 사용하기 위해서 
 make
 make install
 ```
+
+- 필요시 https://cmake.org/download/ 에서 리눅스용 cmake를 다운로드 받습니다.
+- 오래걸립니다. 15분
+
 
 ## 실 습
 
