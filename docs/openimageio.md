@@ -402,8 +402,8 @@ $HOME/app/OpenImageIO/bin/oiiotool
 
 ```bash
 cd ~
-mkdir tmp
-cd tmp
+mkdir $HOME/tmp
+cd $HOME/tmp
 wget https://github.com/lazypic/tdcourse_examples/raw/master/ACES_Plate/ACES_ref_Isabella.0.exr
 $HOME/app/OpenImageIO/bin/oiiotool --colorconvert "ACES2065-1" "Linear Rec.709 (sRGB)" -i $HOME/tmp/ACES_ref_Isabella.0.exr -o $HOME/tmp/output.exr
 ```
