@@ -8,6 +8,7 @@ VFX Reference Platform 2024 기준 Boost는 1.82을 사용합니다.
 
 ```bash
 scl enable gcc-toolset-11 bash
+dnf install -y cmake
 cd $HOME/app
 wget https://sourceforge.net/projects/boost/files/boost/1.82.0/boost_1_82_0.tar.gz --no-check-certificate
 tar -zxvf boost_1_82_0.tar.gz
