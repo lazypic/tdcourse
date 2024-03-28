@@ -316,7 +316,6 @@ scl enable gcc-toolset-11 bash
 dnf install -y clang #LLVM 시스템과 함께 작동하는 C,C++,Objective-C,Objective-C++ 컴파일러 입니다.
 dnf install -y libwebp-devel
 dnf install -y opencv-devel
-dnf install -y cmake
 dnf install -y autoconf
 dnf install -y automake
 dnf install -y libtool
