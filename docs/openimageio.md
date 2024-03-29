@@ -364,6 +364,7 @@ mkdir OpenImageIO
 cd $HOME/app/OpenImageIO_src
 vim src/build-scripts/build_opencolorio.bash # OpenColorIO 2.3.2 변경.
 sh src/build-scripts/build_opencolorio.bash # OpenColorIO
+sh src/build-scripts/build_pybind11.bash # OpenColorIO
 sh src/build-scripts/build_openexr.bash # OpenEXR 지원
 sh src/build-scripts/build_OpenJPEG.bash # .jpg 지원
 sh src/build-scripts/build_libjpeg-turbo.bash # .jpg 지원
