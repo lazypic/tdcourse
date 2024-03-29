@@ -33,6 +33,9 @@ RockyLinux8.9
 ```bash
 sudo dnf -y install OpenImageIO
 sudo dnf -y install OpenImageIO-utils
+sudo dnf -y install python3-openimageio
+sudo dnf -y install OpenImageIO-iv
+sudo dnf -y install OpenImageIO-devel
 ```
 
 Ubuntu
