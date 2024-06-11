@@ -1,6 +1,6 @@
 # install RockyLinux
 
-RockyLinux 8.7을 설치해보겠습니다.
+RockyLinux 8.9을 설치해보겠습니다.
 
 ## 이미지 다운로드
 
@@ -18,17 +18,32 @@ RockyLinux 8.7을 설치해보겠습니다.
 윈도우즈에서 리눅스 부팅 usb를 제작하기 위해서는 rufus 유틸리티가 필요합니다. 아래 링크에서 다운로드 합니다.
 - https://rufus.ie/ko_KR.html
 
+#### .iso to USB (linux)
+
+USB 장치를 검색합니다.
+
+```bash
+lsblk
+sudo umount /dev/sdc1
+```
+
+USB 이미지를 굽습니다.
+
+```bash
+sudo dd if=/home/jason/Downloads/Rocky-8.9-x86_64-dvd1.iso of=/dev/sdc bs=4M status=progress && sync
+```
+
 #### .iso to USB (macOS)
 - 다운받은 .iso파일을 .img로 바꾸어줘야하는 작업이 필요합니다.
 
 ```bash
-$ hdiutil convert -format UDRW -o ~/Downloads/Rocky-8.7-x86_64-dvd1.img ~/Downloads/Rocky-8.7-x86_64-dvd1.iso
+$ hdiutil convert -format UDRW -o ~/Downloads/Rocky-8.9-x86_64-dvd1.img ~/Downloads/Rocky-8.9-x86_64-dvd1.iso
 ```
 
 - 변환된 파일은 .dmg 확장자가 붙습니다. mv명령어를 통해서 제거합니다.
 
 ```bash
-$ mv ~/Downloads/Rocky-8.7-x86_64-dvd1.img.dmg ~/Downloads/Rocky-8.7-x86_64-dvd1.img
+$ mv ~/Downloads/Rocky-8.9-x86_64-dvd1.img.dmg ~/Downloads/Rocky-8.9-x86_64-dvd1.img
 ```
 
 - USB의 이름을 확인합니다.
@@ -42,7 +57,7 @@ $ diskutil list
 ```bash
 $ sudo umount /dev/disk4
 $ sudo diskutil unmountDisk disk4 # 만약 Resource busy가 뜨면 타이핑해주세요.
-$ sudo dd if=/Users/woong/Downloads/Rocky-8.7-x86_64-dvd1.img of=/dev/rdisk4 bs=1m
+$ sudo dd if=/Users/woong/Downloads/Rocky-8.9-x86_64-dvd1.img of=/dev/rdisk4 bs=1m
 ```
 
 - 잘 진행이 되면 아래 메시지를 출력후 종료됩니다.
