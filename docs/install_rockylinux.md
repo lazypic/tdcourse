@@ -33,6 +33,12 @@ USB 이미지를 굽습니다.
 sudo dd if=/home/jason/Downloads/Rocky-8.9-x86_64-dvd1.iso of=/dev/sdc bs=4M status=progress && sync
 ```
 
+제거
+
+```bash
+sudo eject /dev/sdc
+```
+
 #### .iso to USB (macOS)
 - 다운받은 .iso파일을 .img로 바꾸어줘야하는 작업이 필요합니다.
 
