@@ -27,10 +27,10 @@ nouveau(누브~) 프랑스어로 `처음부터, 새롭게 다시..`라는 뜻을
 
 ```bash
 $ su
-# yum update
-# yum install kernel-devel
-# yum install kernel-headers
-# yum install gcc make
+# dnf update
+# dnf install kernel-devel
+# dnf install kernel-headers
+# dnf install gcc make
 ```
 
 ```bash
