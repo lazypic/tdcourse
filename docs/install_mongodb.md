@@ -1,6 +1,71 @@
 # mongoDB
 여러 환경에서 mongoDB를 설치하는 방법을 다룹니다.
 
+# RockyLinux 8.5~8.10
+
+설치전에 dnf를 업데이트 합니다.
+
+```bash
+sudo dnf update -y
+```
+
+mongoDB 리포지터리를 추가합니다.
+
+RockyLinux는 vim 명령어가 작동하지 않습니다. vi 명령어를 이용합니다.
+
+```bash
+sudo vi /etc/yum.repos.d/mongodb.repo
+```
+
+아래 내용을 추가해줍니다.
+
+```
+[mongodb-org-4.4]
+name=MongoDB Repository
+baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/4.4/x86_64/
+gpgcheck=1
+enabled=1
+gpgkey=https://www.mongodb.org/static/pgp/server-4.4.asc
+```
+
+추가이후 dnf update를 해주면 추가한 리포지터리에 대한 업데이트를 진행합니다.
+
+```bash
+sudo dnf update
+```
+
+다음과 같이 메시지가 출력됩니다.
+
+```
+MongoDB Repository                                                        44 kB/s |  37 kB     00:00    
+종속성이 해결되었습니다.
+처리가 필요하지 않습니다.
+완료되었습니다!
+```
+
+mongoDB를 설치합니다.
+
+```bash
+sudo dnf install mongodb-org
+```
+
+버전을 체크합니다.
+
+```bash
+mongod --version
+```
+
+```bash
+sudo systemctl status mongod # 상태를 체크합니다. 
+sudo systemctl start mongod # DB를 시작합니다.
+sudo systemctl enable mongod # 재부팅 되더라도 자동으로 실행될 수 있도록 합니다.
+sudo systemctl status mongod # 잘 설정되어있는지 체크합니다.
+
+sudo tail /var/log/mongodb/mongod.log # 로그를 확인합니다.
+mongo # 쉘이 정상적으로 들어가지는지 체크합니다.
+```
+
+
 # CentOS7
 
 ## 설치
@@ -90,69 +155,6 @@ $ mongo
 - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-red-hat/
 
 
-# RockyLinux 8.5
-
-설치전에 dnf를 업데이트 합니다.
-
-```bash
-sudo dnf update -y
-```
-
-mongoDB 리포지터리를 추가합니다.
-
-RockyLinux는 vim 명령어가 작동하지 않습니다. vi 명령어를 이용합니다.
-
-```bash
-sudo vi /etc/yum.repos.d/mongodb.repo
-```
-
-아래 내용을 추가해줍니다.
-
-```
-[mongodb-org-4.4]
-name=MongoDB Repository
-baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/4.4/x86_64/
-gpgcheck=1
-enabled=1
-gpgkey=https://www.mongodb.org/static/pgp/server-4.4.asc
-```
-
-추가이후 dnf update를 해주면 추가한 리포지터리에 대한 업데이트를 진행합니다.
-
-```bash
-sudo dnf update
-```
-
-다음과 같이 메시지가 출력됩니다.
-
-```
-MongoDB Repository                                                        44 kB/s |  37 kB     00:00    
-종속성이 해결되었습니다.
-처리가 필요하지 않습니다.
-완료되었습니다!
-```
-
-mongoDB를 설치합니다.
-
-```bash
-sudo dnf install mongodb-org
-```
-
-버전을 체크합니다.
-
-```bash
-mongod --version
-```
-
-```bash
-sudo systemctl status mongod # 상태를 체크합니다. 
-sudo systemctl start mongod # DB를 시작합니다.
-sudo systemctl enable mongod # 재부팅 되더라도 자동으로 실행될 수 있도록 합니다.
-sudo systemctl status mongod # 잘 설정되어있는지 체크합니다.
-
-sudo tail /var/log/mongodb/mongod.log # 로그를 확인합니다.
-mongo # 쉘이 정상적으로 들어가지는지 체크합니다.
-```
 
 # macOS
 macOS에서 mongoDB를 설치하는 방법
