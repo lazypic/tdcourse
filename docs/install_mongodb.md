@@ -17,7 +17,7 @@ RockyLinux는 vim 명령어가 작동하지 않습니다. vi 명령어를 이용
 sudo vi /etc/yum.repos.d/mongodb.repo
 ```
 
-아래 내용을 추가해줍니다.
+아래 내용을 추가해줍니다.(더 높은 버전을 설치해도 기본적으로 작동은 되지만 테스트되지 않았습니다.)
 
 ```
 [mongodb-org-4.4]
