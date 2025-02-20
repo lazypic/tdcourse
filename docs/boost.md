@@ -2,6 +2,24 @@
 
 abcview, oiiotool 등의 명령어를 컴파일 하기 위해서는 Boost가 필요합니다. 이 작업은 1시간 이상 소요됩니다. 수업 초반에 진행하는 것이 좋습니다.
 
+#### Boost 1.85 컴파일
+
+VFX Reference Platform 2025 기준 Boost는 1.85을 사용합니다.
+
+```bash
+scl enable gcc-toolset-14 bash
+dnf install -y cmake
+cd $HOME/app
+wget https://sourceforge.net/projects/boost/files/boost/1.85.0/boost_1_85_0.tar.gz --no-check-certificate
+tar -zxvf boost_1_85_0.tar.gz
+rm boost_1_85_0.tar.gz
+mv boost_1_85_0 boost_1_85_0_src
+mkdir boost_1_85_0
+cd boost_1_85_0_src
+./bootstrap.sh --prefix=$HOME/app/boost_1_85_0
+nohup ./b2 install & # 오래걸리니 백그라운드로 처리합니다.
+```
+
 #### Boost 1.82 컴파일
 
 VFX Reference Platform 2024 기준 Boost는 1.82을 사용합니다.
