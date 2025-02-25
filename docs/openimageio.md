@@ -353,7 +353,7 @@ sudo yum install libtool -y
 oiiotool과 함께 연동이 필요한 라이브러리는 필요시 추가하여 빌드합니다.
 
 ```bash
-scl enable gcc-toolset-11 bash # VFX Reference Platform 2024
+scl enable gcc-toolset-14 bash
 dnf -y remove cmake # 만약 기존에 cmake 가 존재하면 지운다.
 dnf -y install automake # libraw를 설치하기 위해 aclocal 명령어가 필요하다.
 dnf -y install libtool # libraw를 설치하기 위해 필요하다.
@@ -361,11 +361,11 @@ export PATH=$PATH:$HOME/app/cmake-3.20.5/bin #cmake가 필요합니다. PATH에 
 cd $HOME/app
 git clone https://github.com/OpenImageIO/oiio OpenImageIO_src
 cd $HOME/app/OpenImageIO_src
-git checkout v2.5.8.0
+git checkout v3.0.3.1
 cd ..
 mkdir OpenImageIO
 cd $HOME/app/OpenImageIO_src
-vim src/build-scripts/build_opencolorio.bash # OpenColorIO 2.3.2 변경.
+vim src/build-scripts/build_opencolorio.bash
 sh src/build-scripts/build_opencolorio.bash # OpenColorIO
 sh src/build-scripts/build_pybind11.bash # Python
 sh src/build-scripts/build_openexr.bash # OpenEXR 지원
