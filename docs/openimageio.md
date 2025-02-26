@@ -365,7 +365,7 @@ git checkout v3.0.3.1
 cd ..
 mkdir OpenImageIO
 cd $HOME/app/OpenImageIO_src
-vim src/build-scripts/build_opencolorio.bash
+vim src/build-scripts/build_opencolorio.bash # OpenColorIO 2.3.2 변경
 sh src/build-scripts/build_opencolorio.bash # OpenColorIO
 sh src/build-scripts/build_pybind11.bash # Python
 sh src/build-scripts/build_openexr.bash # OpenEXR 지원
