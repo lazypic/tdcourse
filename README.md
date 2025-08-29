@@ -2,7 +2,7 @@
 
 ## 기본정보
 
-- 교육내용 : Technical Director 기초과정 / CentOS, Rocky 리눅스를 활용한 VFX, 애니메이션 파이프라인
+- 교육내용 : Technical Director 기초과정 / CentOS, Rocky 리눅스를 활용한 콘텐츠 제작 및 자동화, 매니징 솔루션, 애니메이션 파이프라인
 - 교육방식 : Github를 활용한 교육 및 협업개발
 - 준비물 : 16기가 이상의 USB
 - 문의 : hello@lazypic.org
