@@ -70,5 +70,5 @@ git pull origin main # main 브랜치의 코드를 업데이트 합니다.
 - 사용예시
 
 ```bash
-git remote add https://github.com/lazypic/OpenPipelineIO
+git remote add upstream https://github.com/lazypic/OpenPipelineIO
 ```
